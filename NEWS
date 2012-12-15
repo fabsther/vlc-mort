@@ -33,6 +33,7 @@ Mac OS X:
  * Fix Reveal-in-Finder for files with non-Western file names
  * Fix crash with local statistics disabled
  * Fix Time counter UI look
+ * Fix system sleep issue on OS X 10.5
 
 Win32:
  * Fix https streaming
