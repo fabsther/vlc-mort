@@ -55,6 +55,7 @@ Changes between 2.0.3 and 2.0.4:
 --------------------------------
 
 Audio Output:
+ * Improve playback synchronization with PulseAudio.
  * Fix ALSA digital pass-through ("S/PDIF").
  * Fix live audio device selection on Mac OS X
  * Fix detection of some 5.1 and 7.1 kits on Windows.
