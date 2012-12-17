@@ -73,7 +73,7 @@ EXTRA_DIST = \
 	extras/package/win32/UAC/uac.cpp \
 	extras/package/win32/UAC/uac.h \
 	extras/package/win32/UAC/Readme.html \
-	extras/package/win32/UAC.nsh \
+	extras/package/win32/UAC.nsh
 
 dist_noinst_SCRIPTS = bootstrap
 nodist_noinst_SCRIPTS = compile
