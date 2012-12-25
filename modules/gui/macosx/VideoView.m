@@ -68,13 +68,40 @@ int DeviceCallback( vlc_object_t *p_this, const char *psz_variable,
 
 - (void)dealloc
 {
+    [[NSNotificationCenter defaultCenter] removeObserver: self];
+
     [self unregisterDraggedTypes];
     [super dealloc];
 }
 
 - (void)awakeFromNib
 {
+#ifdef MAC_OS_X_VERSION_10_7
+    if (!OSX_SNOW_LEOPARD) {
+        [[NSNotificationCenter defaultCenter] addObserver: self selector: @selector(osWillChangeFullScreenStatus:) name: NSWindowWillEnterFullScreenNotification object: nil];
+        [[NSNotificationCenter defaultCenter] addObserver: self selector: @selector(osWillChangeFullScreenStatus:) name: NSWindowDidEnterFullScreenNotification object: nil];
+        [[NSNotificationCenter defaultCenter] addObserver: self selector: @selector(osWillChangeFullScreenStatus:) name: NSWindowWillExitFullScreenNotification object: nil];
+    }
+#endif
+
     [self registerForDraggedTypes:[NSArray arrayWithObject: NSFilenamesPboardType]];
+}
+
+- (void)osWillChangeFullScreenStatus:(NSNotification *)notification
+{
+    playlist_t *p_playlist = pl_Get(VLCIntf);
+    if ([notification.name isEqualToString:@"NSWindowWillEnterFullScreenNotification"] || [notification.name isEqualToString:@"NSWindowDidEnterFullScreenNotification"])
+        var_SetBool(p_playlist, "fullscreen", 1);
+    else
+        var_SetBool(p_playlist, "fullscreen", 0);
+
+    NSArray *subviews = [self subviews];
+    NSUInteger count = [subviews count];
+
+    for (NSUInteger x = 0; x < count; x++) {
+        if ([[subviews objectAtIndex:x] respondsToSelector:@selector(reshape)])
+            [[subviews objectAtIndex:x] reshape];
+    }
 }
 
 - (NSDragOperation)draggingEntered:(id <NSDraggingInfo>)sender
