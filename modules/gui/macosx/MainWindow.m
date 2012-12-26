@@ -2252,6 +2252,15 @@ static VLCMainWindow *_o_sharedInstance = nil;
 
     [o_fspanel setVoutWasUpdated: (int)[[self screen] displayID]];
     [o_fspanel setActive: nil];
+
+    NSArray *subviews = [[self videoView] subviews];
+    NSUInteger count = [subviews count];
+
+    for (NSUInteger x = 0; x < count; x++) {
+        if ([[subviews objectAtIndex:x] respondsToSelector:@selector(reshape)])
+            [[subviews objectAtIndex:x] reshape];
+    }
+
 }
 
 - (void)windowWillExitFullScreen:(NSNotification *)notification
