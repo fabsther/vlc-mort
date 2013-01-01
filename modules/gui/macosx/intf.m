@@ -1366,8 +1366,6 @@ unsigned int CocoaKeyToVLC( unichar i_key )
                 case NSBackspaceCharacter:
                 case NSUpArrowFunctionKey:
                 case NSDownArrowFunctionKey:
-                case NSRightArrowFunctionKey:
-                case NSLeftArrowFunctionKey:
                 case NSEnterCharacter:
                 case NSCarriageReturnCharacter:
                     return NO;
