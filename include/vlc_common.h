@@ -402,6 +402,8 @@ typedef struct meta_engine_t meta_engine_t;
 
 # ifndef UNDER_CE
 struct _stati64;
+#  undef stat
+#  undef fstat
 #  define stat _stati64
 #  define fstat _fstati64
 #endif
