@@ -1,11 +1,18 @@
 Changes between 2.0.5 and 2.0.6:
 --------------------------------
 
+Demuxers:
+ * Fix MKV behaviour with unknown or new ebml elements
+
+Decoders:
+ * Fix GPU decoding on Intel HD 2000/3000 cards on Windows
+
 Mac OS X:
  * Fix subtitle rendering resolution when using OS X's native fullscreen mode
  * Improve fullscreen controller time slider with larger click target
- * Fix listing of the lua interfaces (web, telnet and console) 
+ * Fix listing of the lua interfaces (web, telnet and console)
    in the advanced preferences panel
+ * Fix spatializer audio filter panel
 
 
 Changes between 2.0.4 and 2.0.5:
