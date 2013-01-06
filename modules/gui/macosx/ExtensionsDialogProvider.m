@@ -561,17 +561,11 @@ static ExtensionsDialogProvider *_o_sharedInstance = nil;
 
         BOOL visible = !p_dialog->b_hide;
         if (visible)
-        {
-            [dialogWindow center];
             [dialogWindow makeKeyAndOrderFront:self];
-        }
         else
-        {
             [dialogWindow orderOut:nil];
-        }
     }
-    else if( p_dialog->b_kill )
-    {
+    else if( p_dialog->b_kill ) {
         [self destroyExtensionDialog:p_dialog];
     }
     vlc_cond_signal( &p_dialog->cond );
