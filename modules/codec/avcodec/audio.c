@@ -273,35 +273,26 @@ aout_buffer_t * DecodeAudio ( decoder_t *p_dec, block_t **pp_block )
         if( ffmpeg_OpenCodec( p_dec ) )
             msg_Err( p_dec, "Cannot open decoder %s", p_sys->psz_namecodec );
     }
+
     if( p_sys->b_delayed_open )
-    {
-        //block_Release( p_block );
-        return NULL;
-    }
+        goto end;
 
     if( p_block->i_flags & (BLOCK_FLAG_DISCONTINUITY|BLOCK_FLAG_CORRUPTED) )
     {
-        //block_Release( p_block );
         avcodec_flush_buffers( p_sys->p_context );
         date_Set( &p_sys->end_date, 0 );
 
         if( p_sys->i_codec_id == CODEC_ID_MP2 || p_sys->i_codec_id == CODEC_ID_MP3 )
             p_sys->i_reject_count = 3;
-        return NULL;
+
+        goto end;
     }
 
     if( !date_Get( &p_sys->end_date ) && !p_block->i_pts )
-    {
-        /* We've just started the stream, wait for the first PTS. */
-        //block_Release( p_block );
-        return NULL;
-    }
+        goto end;
 
     if( p_block->i_buffer <= 0 )
-    {
-        //block_Release( p_block );
-        return NULL;
-    }
+        goto end;
 
     if( (p_block->i_flags & BLOCK_FLAG_PRIVATE_REALLOCATED) == 0 )
     {
@@ -336,8 +327,7 @@ aout_buffer_t * DecodeAudio ( decoder_t *p_dec, block_t **pp_block )
                 msg_Warn( p_dec, "cannot decode one frame (%zu bytes)",
                           p_block->i_buffer );
 
-        //    block_Release( p_block );
-            return NULL;
+            goto end;
         }
         else if( (size_t)i_used > p_block->i_buffer )
         {
@@ -354,8 +344,7 @@ aout_buffer_t * DecodeAudio ( decoder_t *p_dec, block_t **pp_block )
     {
         msg_Warn( p_dec, "invalid audio properties channels count %d, sample rate %d",
                   p_sys->p_context->channels, p_sys->p_context->sample_rate );
-        //block_Release( p_block );
-        return NULL;
+        goto end;
     }
 
     if( p_dec->fmt_out.audio.i_rate != (unsigned int)p_sys->p_context->sample_rate )
@@ -402,6 +391,10 @@ aout_buffer_t * DecodeAudio ( decoder_t *p_dec, block_t **pp_block )
                              p_sys->pi_extraction, p_dec->fmt_out.audio.i_bitspersample );
 
     return p_buffer;
+
+end:
+    block_Release(p_block);
+    return NULL;
 }
 
 /*****************************************************************************
