@@ -7,6 +7,8 @@ FFMPEGCONF = \
 	--cc="$(CC)" \
 	--disable-doc \
 	--disable-decoder=libvpx \
+	--disable-decoder=libvpx_vp8 \
+	--disable-decoder=libvpx_vp9 \
 	--disable-decoder=bink \
 	--enable-libgsm \
 	--enable-libopenjpeg \
