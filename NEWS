@@ -14,6 +14,7 @@ Mac OS X:
  * Fix listing of the lua interfaces (web, telnet and console)
    in the advanced preferences panel
  * Fix spatializer audio filter panel
+ * Fix crash within the video output code
 
 
 Changes between 2.0.4 and 2.0.5:
