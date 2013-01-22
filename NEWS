@@ -2,7 +2,7 @@ Changes between 2.0.5 and 2.0.6:
 --------------------------------
 
 Demuxers:
- * Fix crash with broken asf files
+ * Fix crash with broken asf files (SA-1302)
  * Fix MKV behaviour with unknown or new ebml elements
 
 Decoders:
