@@ -1265,7 +1265,12 @@ static int InitVideo( vlc_object_t *p_obj, int i_fd, demux_sys_t *p_sys,
     width = fmt.fmt.pix.width;
     height = fmt.fmt.pix.height;
 
-    if( v4l2_ioctl( i_fd, VIDIOC_G_FMT, &fmt ) < 0 ) {;}
+    if( v4l2_ioctl( i_fd, VIDIOC_G_FMT, &fmt ) < 0 )
+    {
+        msg_Err( p_obj, "Could not get selected video format: %m" );
+        goto error;
+    }
+
     /* Print extra info */
     msg_Dbg( p_obj, "Driver requires at most %d bytes to store a complete image", fmt.fmt.pix.sizeimage );
     /* Check interlacing */
@@ -1324,6 +1329,11 @@ static int InitVideo( vlc_object_t *p_obj, int i_fd, demux_sys_t *p_sys,
             es_fmt.video.i_bmask = v4l2chroma_to_fourcc[i].i_bmask;
             break;
         }
+    }
+    if( !p_sys->i_fourcc )
+    {
+        msg_Err( p_obj, "Could not match pixel format" );
+        goto error;
     }
 
     /* Buggy driver paranoia */
