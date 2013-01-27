@@ -1,17 +1,17 @@
 # Thai translation
-# Copyright (C) 2012 VideoLAN
+# Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
 # T. Chomphuming <jernghan@gmail.com>, 2011-2012
 # <develop5@datawiz.co.th>, 2006.
-#: modules/gui/macosx/prefs.m:490 modules/gui/macosx/simple_prefs.m:451
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2012-12-11 15:41+0100\n"
-"PO-Revision-Date: 2012-12-04 06:33+0000\n"
+"PO-Revision-Date: 2012-12-21 19:58+0000\n"
 "Last-Translator: jerng <jernghan@gmail.com>\n"
 "Language-Team: Thai (http://www.transifex.com/projects/p/vlc-trans/language/"
 "th/)\n"
@@ -782,7 +782,7 @@ msgstr "ตัวกรองเสียง"
 
 #: src/audio_output/common.c:153
 msgid "Replay gain"
-msgstr ""
+msgstr "อัตราส่งความดัง"
 
 #: src/audio_output/filters.c:142
 msgid "Audio filtering failed"
@@ -1101,11 +1101,11 @@ msgstr "%u kb/s"
 
 #: src/input/es_out.c:2972
 msgid "Track replay gain"
-msgstr "เล่นซ้ำร่องข้อมูลเดียว"
+msgstr "อัตราส่งความดังเป็นร่องข้อมูล"
 
 #: src/input/es_out.c:2974
 msgid "Album replay gain"
-msgstr "เล่นซ้ำทั้งอัลบัม"
+msgstr "อัตราส่งความดังเป็นอัลบัม"
 
 #: src/input/es_out.c:2975
 #, c-format
@@ -1403,7 +1403,7 @@ msgstr ""
 
 #: src/libvlc-module.c:239
 msgid "Be quiet"
-msgstr "โปรดเงียบ"
+msgstr "เงียบเชียบ"
 
 #: src/libvlc-module.c:241
 msgid "Turn off all warning and information messages."
@@ -1603,11 +1603,11 @@ msgstr ""
 
 #: src/libvlc-module.c:360
 msgid "Replay gain mode"
-msgstr "รูปแบบการเล่นซ้ำ"
+msgstr "รูปแบบอัตราส่งความดัง"
 
 #: src/libvlc-module.c:362
 msgid "Select the replay gain mode"
-msgstr "เลือกรูปแบบการเล่นซ้ำ"
+msgstr "เลือกรูปแบบอัตราส่งความดัง"
 
 #: src/libvlc-module.c:364
 msgid "Replay preamp"
@@ -1621,7 +1621,7 @@ msgstr ""
 
 #: src/libvlc-module.c:369
 msgid "Default replay gain"
-msgstr ""
+msgstr "อัตราส่งความดังปริยาย"
 
 #: src/libvlc-module.c:371
 msgid "This is the gain used for stream without replay gain information"
@@ -18310,7 +18310,7 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/help.cpp:116
 msgid "Compiler: "
-msgstr "ผู้คอมไพล์:"
+msgstr "ตัวคอมไพล์:"
 
 #: modules/gui/qt4/dialogs/help.cpp:117
 msgid ""
@@ -25481,18 +25481,16 @@ msgstr "สัญญาอนุญาต"
 #: modules/gui/qt4/ui/sprefs_interface.h:503
 #: modules/gui/qt4/ui/sprefs_subtitles.h:270
 #: modules/gui/qt4/ui/sprefs_video.h:334 modules/gui/qt4/ui/streampanel.h:168
-#, fuzzy
 msgid "Form"
-msgstr "รูปแบบ"
+msgstr ""
 
 #: modules/gui/qt4/ui/equalizer.h:135
 msgid "Preset"
 msgstr "ค่าพร้อมใช้"
 
 #: modules/gui/qt4/ui/messages_panel.h:142
-#, fuzzy
 msgid "Verbosity:"
-msgstr "Verbosity (0,1,2)"
+msgstr ""
 
 #: modules/gui/qt4/ui/messages_panel.h:145
 msgid "&Save as..."
@@ -25544,9 +25542,8 @@ msgid "Select the file"
 msgstr "เลือกแฟ้ม"
 
 #: modules/gui/qt4/ui/open.h:266
-#, fuzzy
 msgid "Change the start time for the media"
-msgstr "เปลี่ยนการทำแคชสำหรับสื่อ"
+msgstr ""
 
 #: modules/gui/qt4/ui/open.h:268
 msgid "HH'H':mm'm':ss's'.zzz"
@@ -25715,9 +25712,8 @@ msgid "MKV"
 msgstr "MKV"
 
 #: modules/gui/qt4/ui/profiles.h:475
-#, fuzzy
 msgid "Encapsulation"
-msgstr "ระยะเวลาที่ทำการถ่ายทอดเสียง"
+msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:479 modules/gui/qt4/ui/profiles.h:498
 msgid " kb/s"
@@ -25780,14 +25776,12 @@ msgid ""
 msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:333
-#, fuzzy
 msgid "Display locally"
-msgstr "แสดง"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:336
-#, fuzzy
 msgid "Activate Transcoding"
-msgstr "การลงรหัสบทบรรยาย"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:339
 msgid "Destination Setup"
@@ -25798,18 +25792,16 @@ msgid "Miscellaneous Options"
 msgstr "ตัวเลือกเบ็ดเตล็ด"
 
 #: modules/gui/qt4/ui/sout.h:341
-#, fuzzy
 msgid "Stream all elementary streams"
-msgstr "อัตราวัดของกระแสเสียงมูลฐาน"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:343
 msgid "Group name"
 msgstr "ชื่อกลุ่ม"
 
 #: modules/gui/qt4/ui/sout.h:345
-#, fuzzy
 msgid "Generated stream output string"
-msgstr "ค่าตั้งทั่วไปของการส่งกระแส"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:347
 msgid "Option Setup"
@@ -25828,19 +25820,16 @@ msgid "Visualization:"
 msgstr "มโนทัศน์:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:442
-#, fuzzy
 msgid "Enable Time-Stretching audio"
-msgstr "เปิดใช้เสียง"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:443
-#, fuzzy
 msgid "Dolby Surround:"
-msgstr "รอบทิศทาง"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:444
-#, fuzzy
 msgid "Replay gain mode:"
-msgstr "รูปแบบการเล่นซ้ำ"
+msgstr "รูปแบบอัตราส่งความดัง"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:445
 msgid "Headphone surround effect"
@@ -25967,9 +25956,8 @@ msgid "File extensions association"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:523
-#, fuzzy
 msgid "Set up associations..."
-msgstr "ค่าตั้ง..."
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:524
 msgid "Configure Media Library"
@@ -26092,9 +26080,8 @@ msgid "KVA"
 msgstr "KVA"
 
 #: modules/gui/qt4/ui/sprefs_video.h:349
-#, fuzzy
 msgid "Deinterlacing"
-msgstr "แ&ยกภาพประสาน"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_video.h:350
 msgid "Force Aspect Ratio"
@@ -26125,14 +26112,12 @@ msgid "Run manually"
 msgstr ""
 
 #: modules/gui/qt4/ui/streampanel.h:177
-#, fuzzy
 msgid "Setup schedule"
-msgstr "ตารางเวลา"
+msgstr ""
 
 #: modules/gui/qt4/ui/streampanel.h:178
-#, fuzzy
 msgid "Run on schedule"
-msgstr "ตารางเวลา"
+msgstr ""
 
 #: modules/gui/qt4/ui/streampanel.h:179
 msgid "Status"
@@ -26225,9 +26210,8 @@ msgid "Edge weightning"
 msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1374
-#, fuzzy
 msgid "Output Color Filtermode"
-msgstr "แฟ้มผลลัพธ์"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1375
 msgid "Brightness (%)"
@@ -26242,9 +26226,8 @@ msgid "Mark analyzed Pixels"
 msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1379
-#, fuzzy
 msgid "Filter threshold (%)"
-msgstr "ขีดเริ่มของความสว่าง"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1380
 msgid "Filter smoothness (%)"
@@ -26259,14 +26242,12 @@ msgid "Anti-Flickering"
 msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1387
-#, fuzzy
 msgid "Soften"
-msgstr "นุ่มนวล"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1391
-#, fuzzy
 msgid "Spatial blur"
-msgstr "สภาวะเสียง"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1393
 msgid "Mirror"
@@ -26277,9 +26258,8 @@ msgid "VLM configurator"
 msgstr "ตัวตั้งค่า VLM"
 
 #: modules/gui/qt4/ui/vlm.h:288
-#, fuzzy
 msgid "Media Manager Edition"
-msgstr "รายการตัวจัดการสื่อ"
+msgstr ""
 
 #: modules/gui/qt4/ui/vlm.h:289
 msgid "Name:"
@@ -26324,12 +26304,6 @@ msgstr "เล่นซ้ำ"
 #: modules/gui/qt4/ui/vlm.h:303
 msgid "Media Manager List"
 msgstr "รายการตัวจัดการสื่อ"
-
-#~ msgid "DVB"
-#~ msgstr "DVB"
-
-#~ msgid "Opus audio decoder"
-#~ msgstr "ตัวอ่านรหัสเสียง Opus"
 
 #, fuzzy
 #~ msgid "Use systems codecs if available, for WMV codecs"
@@ -26533,6 +26507,14 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #~ msgid "Update"
 #~ msgstr "ปรับใช้"
+
+#, fuzzy
+#~ msgid "DVB"
+#~ msgstr "DV"
+
+#, fuzzy
+#~ msgid "Opus audio decoder"
+#~ msgstr "ตัวอ่านรหัสเสียง Vorbis "
 
 #, fuzzy
 #~ msgid "Video Filters..."
