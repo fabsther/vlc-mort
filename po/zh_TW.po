@@ -1,19 +1,19 @@
 # Traditional Chinese translation
-# Copyright (C) 2012 VideoLAN
+# Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
 # Thanks to Hsi-Ching Chao
-# Frank Chao <frank0624@gmail.com>, 2012.
+# Frank Chao <frank0624@gmail.com>, 2013.
 # Ruei-Yuan Lu <RueiYuan.Lu@gmail.com>, 2012.
-#: modules/gui/macosx/prefs.m:490 modules/gui/macosx/simple_prefs.m:451
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2012-12-11 15:41+0100\n"
-"PO-Revision-Date: 2012-12-02 08:48+0000\n"
-"Last-Translator: frank0624 <frank0624@gmail.com>\n"
+"PO-Revision-Date: 2013-01-08 14:22+0000\n"
+"Last-Translator: Frank Chao <frank0624@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/vlc-"
 "trans/language/zh_TW/)\n"
 "Language: zh_TW\n"
@@ -558,11 +558,11 @@ msgstr "重複全部"
 #: include/vlc_intf_strings.h:81 modules/gui/macosx/CoreInteraction.m:454
 #: modules/gui/macosx/MainMenu.m:279 modules/gui/macosx/MainMenu.m:1178
 msgid "Repeat One"
-msgstr ""
+msgstr "重複一首"
 
 #: include/vlc_intf_strings.h:82
 msgid "No Repeat"
-msgstr ""
+msgstr "不重複"
 
 #: include/vlc_intf_strings.h:84 src/libvlc-module.c:1537
 #: modules/gui/macosx/MainMenu.m:278 modules/gui/macosx/MainMenu.m:1171
@@ -5502,7 +5502,7 @@ msgstr ""
 
 #: modules/access/decklink.cpp:54
 msgid "Audio connection"
-msgstr ""
+msgstr "音訊連接"
 
 #: modules/access/decklink.cpp:56
 msgid ""
@@ -5512,7 +5512,7 @@ msgstr ""
 
 #: modules/access/decklink.cpp:60
 msgid "Audio sampling rate in Hz"
-msgstr ""
+msgstr "音訊採樣率(Hz)"
 
 #: modules/access/decklink.cpp:62
 msgid ""
@@ -5595,7 +5595,7 @@ msgstr ""
 
 #: modules/access/dshow/dshow.cpp:98
 msgid "Cable"
-msgstr ""
+msgstr "纜線"
 
 #: modules/access/dshow/dshow.cpp:98
 msgid "Antenna"
@@ -6239,11 +6239,11 @@ msgstr ""
 
 #: modules/access/dtv/access.c:347
 msgid "DVB-S2 parameters"
-msgstr ""
+msgstr "DVB-S2 參數"
 
 #: modules/access/dtv/access.c:355
 msgid "ISDB-S parameters"
-msgstr ""
+msgstr "ISDB-S 參數"
 
 #: modules/access/dtv/access.c:360
 msgid "Satellite equipment control"
@@ -6502,7 +6502,7 @@ msgstr ""
 
 #: modules/access/htcpcp.c:149
 msgid "Coffee is ready."
-msgstr ""
+msgstr "咖啡煮好囉"
 
 #: modules/access/http.c:72 modules/access/mms/mms.c:58
 msgid "HTTP proxy"
@@ -8244,11 +8244,11 @@ msgstr ""
 
 #: modules/access/vcdx/info.c:66
 msgid "Vol #"
-msgstr ""
+msgstr "Vol #"
 
 #: modules/access/vcdx/info.c:67
 msgid "Vol max #"
-msgstr ""
+msgstr "Vol max #"
 
 #: modules/access/vcdx/info.c:68
 msgid "Volume Set"
@@ -25606,9 +25606,8 @@ msgstr "授權"
 #: modules/gui/qt4/ui/sprefs_interface.h:503
 #: modules/gui/qt4/ui/sprefs_subtitles.h:270
 #: modules/gui/qt4/ui/sprefs_video.h:334 modules/gui/qt4/ui/streampanel.h:168
-#, fuzzy
 msgid "Form"
-msgstr "格式"
+msgstr ""
 
 #: modules/gui/qt4/ui/equalizer.h:135
 msgid "Preset"
@@ -26255,9 +26254,8 @@ msgid "P/P"
 msgstr "P/P"
 
 #: modules/gui/qt4/ui/streampanel.h:183
-#, fuzzy
 msgid "Prev"
-msgstr "上一個"
+msgstr ""
 
 #: modules/gui/qt4/ui/streampanel.h:184
 msgid "Add Input"
