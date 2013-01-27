@@ -1,16 +1,16 @@
 # Hebrew translation
-# Copyright (C) 2012 VideoLAN
+# Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
 # Yaron Shahrabani <sh.yaron@gmail.com>, 2011-2012.
-#: modules/gui/macosx/prefs.m:490 modules/gui/macosx/simple_prefs.m:451
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2012-12-11 15:41+0100\n"
-"PO-Revision-Date: 2012-12-02 08:48+0000\n"
+"PO-Revision-Date: 2012-12-28 23:40+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/projects/p/vlc-trans/"
 "language/he/)\n"
@@ -2594,7 +2594,7 @@ msgstr "התזרים ירוץ למשך זמן זה (בשניות)."
 
 #: src/libvlc-module.c:793
 msgid "Fast seek"
-msgstr ""
+msgstr "מעבר מהיר"
 
 #: src/libvlc-module.c:795
 msgid "Favor speed over precision while seeking"
@@ -2634,7 +2634,7 @@ msgstr ""
 
 #: src/libvlc-module.c:812
 msgid "Bookmarks list for a stream"
-msgstr ""
+msgstr "רשימת סימניות לתזרים"
 
 #: src/libvlc-module.c:814
 msgid ""
@@ -3117,7 +3117,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1080
 msgid "Display while streaming"
-msgstr ""
+msgstr "להציג בזמן ההזרמה"
 
 #: src/libvlc-module.c:1082
 msgid "Play locally the stream while streaming it."
@@ -3233,17 +3233,19 @@ msgstr ""
 
 #: src/libvlc-module.c:1148
 msgid "Memory copy module"
-msgstr ""
+msgstr "מודול העתקת זיכרון"
 
 #: src/libvlc-module.c:1150
 msgid ""
 "You can select which memory copy module you want to use. By default VLC will "
 "select the fastest one supported by your hardware."
 msgstr ""
+"ניתן לבחור באיזה מודול העתקת זיכרון ברצונך להשתמש. כבררת מחדל VLC יבחר "
+"במודול המהיר ביותר שנתמך על ידי החומרה שלך"
 
 #: src/libvlc-module.c:1153
 msgid "Access module"
-msgstr ""
+msgstr "מודול גישה"
 
 #: src/libvlc-module.c:1155
 msgid ""
@@ -3251,6 +3253,8 @@ msgid ""
 "access is not automatically detected. You should not set this as a global "
 "option unless you really know what you are doing."
 msgstr ""
+"הגדרה זו מאפשרת לך לאלץ מודול גישה. ניתן להשתמש בו אם הגישה האוטומטית לא "
+"מזוהה אוטומטית. כדאי להגדיר זאת כאפשרות כללית אלמלא ידוע לך מה מעשיך."
 
 #: src/libvlc-module.c:1159
 msgid "Stream filter module"
@@ -3324,37 +3328,39 @@ msgstr ""
 
 #: src/libvlc-module.c:1194
 msgid "Modules search path"
-msgstr ""
+msgstr "נתיב חיפוש מודולים"
 
 #: src/libvlc-module.c:1196
 msgid ""
 "Additional path for VLC to look for its modules. You can add several paths "
 "by concatenating them using \" PATH_SEP \" as separator"
 msgstr ""
+"נתיב נוסף בו VLC יחפש אחר המודולים שלו. ניתן להוסיף מספר נתיבים על ידי "
+"חיבורם באמצעות \" PATH_SEP \" כמפריד"
 
 #: src/libvlc-module.c:1199
 msgid "Data search path"
-msgstr ""
+msgstr "נתיב חיפוש נתונים"
 
 #: src/libvlc-module.c:1201
 msgid "Override the default data/share search path."
-msgstr ""
+msgstr "דריסת נתיב בררת המחדל לחיפוש הנתונים/שיתוף."
 
 #: src/libvlc-module.c:1203
 msgid "VLM configuration file"
-msgstr ""
+msgstr "קובץ תצורת VLM"
 
 #: src/libvlc-module.c:1205
 msgid "Read a VLM configuration file as soon as VLM is started."
-msgstr ""
+msgstr "קריאת קובץ התצורה של VLM עם הפעלת VLM."
 
 #: src/libvlc-module.c:1207
 msgid "Use a plugins cache"
-msgstr ""
+msgstr "שימוש במטמון תוספים"
 
 #: src/libvlc-module.c:1209
 msgid "Use a plugins cache which will greatly improve the startup time of VLC."
-msgstr ""
+msgstr "שימוש במטמון תוספים שישפר באופן מהותי את זמן ההפעלה של VLC."
 
 #: src/libvlc-module.c:1211
 msgid "Locally collect statistics"
@@ -3374,11 +3380,11 @@ msgstr "הרצת VLC כתהליך סוכן ברקע."
 
 #: src/libvlc-module.c:1219
 msgid "Write process id to file"
-msgstr ""
+msgstr "כתיבת מזהה התהליך לקובץ"
 
 #: src/libvlc-module.c:1221
 msgid "Writes process id into specified file."
-msgstr ""
+msgstr "כותב את מזהה התהליך לקובץ מסוים."
 
 #: src/libvlc-module.c:1223
 msgid "Log to file"
@@ -4847,7 +4853,7 @@ msgstr "עברית"
 
 #: src/text/iso-639_def.h:91
 msgid "Herero"
-msgstr ""
+msgstr "הררית"
 
 #: src/text/iso-639_def.h:92
 msgid "Hindi"
@@ -4919,7 +4925,7 @@ msgstr "חמרית"
 
 #: src/text/iso-639_def.h:109
 msgid "Kikuyu"
-msgstr ""
+msgstr "קיקויו"
 
 #: src/text/iso-639_def.h:110
 msgid "Kinyarwanda"
@@ -5151,7 +5157,7 @@ msgstr "סמואית"
 
 #: src/text/iso-639_def.h:168
 msgid "Shona"
-msgstr ""
+msgstr "שוֹנָה"
 
 #: src/text/iso-639_def.h:169
 msgid "Sindhi"
@@ -5572,7 +5578,7 @@ msgstr ""
 
 #: modules/access/dc1394.c:69
 msgid "dc1394 input"
-msgstr ""
+msgstr "קלט dc1394"
 
 #: modules/access/decklink.cpp:43
 msgid "Input card to use"
@@ -19245,7 +19251,7 @@ msgstr "קפיצה &אחורה"
 
 #: modules/gui/qt4/menus.cpp:886
 msgid "Ctrl+T"
-msgstr ""
+msgstr "Ctrl+T"
 
 #: modules/gui/qt4/menus.cpp:895
 msgid "&Open File..."
@@ -25667,7 +25673,7 @@ msgstr "שמירה &בשם..."
 
 #: modules/gui/qt4/ui/messages_panel.h:147
 msgid "Modules Tree"
-msgstr ""
+msgstr "עץ המודולים"
 
 #: modules/gui/qt4/ui/open.h:243
 #: modules/gui/qt4/ui/podcast_configuration.h:101
@@ -25755,13 +25761,12 @@ msgid "SVCD/VCD"
 msgstr "SVCD/VCD"
 
 #: modules/gui/qt4/ui/open_disk.h:304
-#, fuzzy
 msgid "Disable Disc Menus"
-msgstr "נטרול שומר המסך"
+msgstr "נטרול תפריטי הדיסק"
 
 #: modules/gui/qt4/ui/open_disk.h:306
 msgid "No disc menus"
-msgstr ""
+msgstr "בדיסק אין תפריטים"
 
 #: modules/gui/qt4/ui/open_disk.h:307
 msgid "Disc device"
@@ -25922,18 +25927,16 @@ msgid "00000; "
 msgstr "00000; "
 
 #: modules/gui/qt4/ui/profiles.h:492
-#, fuzzy
 msgid "Keep original video track"
-msgstr "שמור על הגודל המקורי"
+msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:493
 msgid "Video codec"
 msgstr "מפענח וידאו"
 
 #: modules/gui/qt4/ui/profiles.h:495
-#, fuzzy
 msgid "Keep original audio track"
-msgstr "שמור על הגודל המקורי"
+msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:500
 msgid "Sample Rate"
@@ -25944,9 +25947,8 @@ msgid "Audio codec"
 msgstr "מקודד שמע"
 
 #: modules/gui/qt4/ui/profiles.h:503
-#, fuzzy
 msgid "Overlay subtitles on the video"
-msgstr "הוספת כתוביות לווידאו המותמר"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:329
 msgid "Destinations"
@@ -25971,32 +25973,28 @@ msgid "Activate Transcoding"
 msgstr "הפעלת התמרה"
 
 #: modules/gui/qt4/ui/sout.h:339
-#, fuzzy
 msgid "Destination Setup"
-msgstr "יעד"
+msgstr "הגדרת יעד"
 
 #: modules/gui/qt4/ui/sout.h:340
 msgid "Miscellaneous Options"
 msgstr "אפשרויות שונות"
 
 #: modules/gui/qt4/ui/sout.h:341
-#, fuzzy
 msgid "Stream all elementary streams"
-msgstr "הגדרת הקטגוריה של הזרם הבסיסי"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:343
 msgid "Group name"
 msgstr "שם קבוצה"
 
 #: modules/gui/qt4/ui/sout.h:345
-#, fuzzy
 msgid "Generated stream output string"
-msgstr "הגדרות כלליות של שדרים זורמים"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:347
-#, fuzzy
 msgid "Option Setup"
-msgstr "אפשרויות"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:434
 msgid " %"
@@ -26011,18 +26009,16 @@ msgid "Visualization:"
 msgstr "אפקט חזותי:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:442
-#, fuzzy
 msgid "Enable Time-Stretching audio"
-msgstr "אפשר שמע"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:443
 msgid "Dolby Surround:"
 msgstr "Dolby Surround:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:444
-#, fuzzy
 msgid "Replay gain mode:"
-msgstr "איזון עצמת השמע"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:445
 msgid "Headphone surround effect"
@@ -26269,9 +26265,8 @@ msgid "Display device"
 msgstr "התקן תצוגה"
 
 #: modules/gui/qt4/ui/sprefs_video.h:345
-#, fuzzy
 msgid "KVA"
-msgstr "MKV"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_video.h:349
 msgid "Deinterlacing"
@@ -26306,14 +26301,12 @@ msgid "Run manually"
 msgstr "הפעלה ידנית"
 
 #: modules/gui/qt4/ui/streampanel.h:177
-#, fuzzy
 msgid "Setup schedule"
-msgstr "תזמון"
+msgstr ""
 
 #: modules/gui/qt4/ui/streampanel.h:178
-#, fuzzy
 msgid "Run on schedule"
-msgstr "תזמון"
+msgstr ""
 
 #: modules/gui/qt4/ui/streampanel.h:179
 msgid "Status"
@@ -26381,9 +26374,8 @@ msgid "Angle"
 msgstr "זווית"
 
 #: modules/gui/qt4/ui/video_effects.h:1349
-#, fuzzy
 msgid "Black slot"
-msgstr "שחור"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1353
 #: modules/gui/qt4/ui/video_effects.h:1370
@@ -26395,9 +26387,8 @@ msgid "full"
 msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1364
-#, fuzzy
 msgid "Logo erase"
-msgstr "שמות קובצי הלוגואים"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1369
 msgid "Mask"
@@ -26408,9 +26399,8 @@ msgid "Edge weightning"
 msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1374
-#, fuzzy
 msgid "Output Color Filtermode"
-msgstr "קובץ פלט"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1375
 msgid "Brightness (%)"
@@ -26425,9 +26415,8 @@ msgid "Mark analyzed Pixels"
 msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1379
-#, fuzzy
 msgid "Filter threshold (%)"
-msgstr "סף הסינון"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1380
 msgid "Filter smoothness (%)"
@@ -26442,19 +26431,16 @@ msgid "Anti-Flickering"
 msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1387
-#, fuzzy
 msgid "Soften"
-msgstr "רך"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1391
-#, fuzzy
 msgid "Spatial blur"
-msgstr "טשטוש תנועה"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1393
-#, fuzzy
 msgid "Mirror"
-msgstr "שגיאה"
+msgstr ""
 
 #: modules/gui/qt4/ui/vlm.h:287
 msgid "VLM configurator"
@@ -28622,7 +28608,7 @@ msgstr "רשימת מנהל המדיה"
 
 #, fuzzy
 #~ msgid "EyeTV access module"
-#~ msgstr "מודולי גישה"
+#~ msgstr "מודול גישה"
 
 #, fuzzy
 #~ msgid "Bandwidth limiter"
@@ -28690,7 +28676,7 @@ msgstr "רשימת מנהל המדיה"
 
 #, fuzzy
 #~ msgid "Access Filter"
-#~ msgstr "מודולי גישה"
+#~ msgstr "מודול גישה"
 
 #, fuzzy
 #~ msgid "Save As:"
@@ -28710,7 +28696,7 @@ msgstr "רשימת מנהל המדיה"
 
 #, fuzzy
 #~ msgid "Open a VLM Configuration File"
-#~ msgstr "פתיחת תצורת ה־VLM..."
+#~ msgstr "קובץ תצורת VLM"
 
 #, fuzzy
 #~ msgid "&Playlist"
@@ -28838,7 +28824,7 @@ msgstr "רשימת מנהל המדיה"
 
 #, fuzzy
 #~ msgid "Choose a VLM configuration file to open..."
-#~ msgstr "שמירת תצורת ה־VLM בשם..."
+#~ msgstr "קובץ תצורת VLM"
 
 #, fuzzy
 #~ msgid "Check for updates..."
