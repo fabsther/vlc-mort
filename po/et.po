@@ -1,20 +1,19 @@
 # Estonian translation
-# Copyright (C) 2012 VideoLAN
+# Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
 # Eero <eerove gmail com> 2009.
-# Ivar Smolin <okul@linux.ee>, 2012.
+# Ivar Smolin <okul@linux.ee>, 2012-2013.
 # Mihkel <turakas gmail com> 2010 - 2012.
 # Mattias Põldaru <mahfiaz gmail com> 2010.
 #
-#: modules/gui/macosx/prefs.m:490 modules/gui/macosx/simple_prefs.m:451
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2012-12-11 15:41+0100\n"
-"PO-Revision-Date: 2012-12-02 14:44+0000\n"
+"PO-Revision-Date: 2013-01-21 06:50+0000\n"
 "Last-Translator: Ivar Smolin <okul@linux.ee>\n"
 "Language-Team: Estonian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/et/)\n"
@@ -944,26 +943,26 @@ msgid ""
 "\n"
 msgstr ""
 "Kasutamine: %s [valikud] [voog] ...\n"
-"Võid määrata mitu voogu käsureal.\n"
-"Nad lisatakse esitusloendi järjekorda.\n"
-"Esimene kirje mängitakse esimesena.\n"
+"Käsurealt on võimalik määrata mitut voogu.\n"
+"Need lisatakse esitusloendisse.\n"
+"Esimest kirjet esitatakse esimesena.\n"
 "\n"
-"Valikud-stiilid:\n"
+"Valikud/stiilid:\n"
 "  --valik  Globaalne valik, mis on seatud kogu programmi käimise ajaks.\n"
 "   -valik  Ühetäheline versioon globaalsest --valikust.\n"
 "   :valik  Valik, mis kehtib ühele esitatavale voole ja\n"
 "           tühistab eelnevad sätted.\n"
 "\n"
-"Voo MRL süntaks:\n"
-"  [[access][/demux]://]URL[@[title][:chapter][-[title][:chapter]]]\n"
+"Voo MRL-süntaks:\n"
+"  [[access][/demux]://]URL[#[title][:chapter][-[title][:chapter]]]\n"
 "  [:option=value ...]\n"
 "\n"
-"  Paljusid globaalseid --valikuid võib kasutada MRL spetsiifiliste :"
+"  Paljusid globaalseid --valikuid võib kasutada MRL-spetsiifiliste :"
 "valikutena.\n"
-"  Mitmeid :valik=väärtus paare võib määrata.\n"
+"  Võimalik on määrata mitmeid :valik=väärtus paare.\n"
 "\n"
-"URL süntaks:\n"
-"  file://tee/failini             Tavaline meedia fail\n"
+"URL-i süntaks:\n"
+"  file://tee/failini             Tavaline meediafail\n"
 "  http://host[:port]/fail        HTTP URL\n"
 "  ftp://host[:port]fail          FTP URL\n"
 "  mms://host[:port]fail          MMS URL\n"
@@ -972,10 +971,10 @@ msgstr ""
 "  [vcd://][device]               VCD-seade\n"
 "  [cdda://][device]              Audio-CD seade\n"
 "  udp://[[<source address>]@[<bind address>][:<bind port>]]\n"
-"                                 UDP voog saadetud voogedastusserveri poolt\n"
-"  vlc://pause:<seconds>          Eriline kirje esitusloendi peatamiseks "
-"teatkokku/ud ajaks\n"
-"  vlc://quit                     Eriline kirje VLC-st väljumiseks\n"
+"                                 voogedastusserveri poolt saadetud UDP-voog\n"
+"  vlc://pause:<seconds>          Erikirje esitusloendi peatamiseks teatud "
+"ajaks\n"
+"  vlc://quit                     Erikirje VLC-st väljumiseks\n"
 
 #: src/config/help.c:513
 msgid " (default enabled)"
@@ -1996,8 +1995,8 @@ msgid ""
 "Output video in grayscale. As the color information aren't decoded, this can "
 "save some processing power."
 msgstr ""
-"Esita video mustvalgena. Kuna värvi informatsiooni ei dekodeerita, hoitakse "
-"kokku veidi protsessori võimsust."
+"Video esitamine mustvalgena. Kuna värvusandmeid ei dekodeerita, siis "
+"hoitakse veidi protsessori võimsust kokku."
 
 #: src/libvlc-module.c:455
 msgid "Embedded video"
@@ -2024,8 +2023,8 @@ msgid ""
 "Overlay is the hardware acceleration capability of your video card (ability "
 "to render video directly). VLC will try to use it by default."
 msgstr ""
-"Ülekate on sinu videokaardi riistvaralise kiirendamise omadus (võime "
-"renderdada videot otse). Vaikimisi üritab VLC seda kasutada."
+"Ülekate on sinu videokaardi riistvaralise kiirendamise omadus (võimekus "
+"videot otse renderdada). Vaikimisi üritab VLC seda kasutada."
 
 #: src/libvlc-module.c:468 src/video_output/vout_intf.c:292
 #: modules/gui/macosx/simple_prefs.m:308 modules/gui/qt4/ui/sprefs_video.h:338
@@ -2034,16 +2033,16 @@ msgstr "Alati pealmine"
 
 #: src/libvlc-module.c:470
 msgid "Always place the video window on top of other windows."
-msgstr "Alati paiguta video aken teiste akende peale."
+msgstr "Videoakna alatine paigutamine teiste akende peale."
 
 #: src/libvlc-module.c:472
 msgid "Enable wallpaper mode "
-msgstr "Taustapildi režiim lubatud"
+msgstr "Taustapildi režiimi lubamine"
 
 #: src/libvlc-module.c:474
 msgid ""
 "The wallpaper mode allows you to display the video as the desktop background."
-msgstr "Taustapildi režiim lubab sul kuvada videot kui töölaua taustapilti."
+msgstr "Taustapildi režiim lubab sul kuvada videot töölaua taustapildina."
 
 #: src/libvlc-module.c:477
 msgid "Show media title on video"
@@ -2128,11 +2127,11 @@ msgstr "Film NTSC (IVTC)"
 
 #: src/libvlc-module.c:524
 msgid "Disable screensaver"
-msgstr "Ekraanisäästja keelatakse"
+msgstr "Ekraanisäästja on keelatud"
 
 #: src/libvlc-module.c:525
 msgid "Disable the screensaver during video playback."
-msgstr "Ekraanisäästja keelatakse video esitamise ajaks."
+msgstr "Ekraanisäästja keelamine video esitamise ajal."
 
 #: src/libvlc-module.c:527
 msgid "Inhibit the power management daemon during playback"
@@ -2181,57 +2180,58 @@ msgstr ""
 
 #: src/libvlc-module.c:546
 msgid "Video snapshot directory (or filename)"
-msgstr "Video hetktõmmise kataloog (või failinimi)"
+msgstr "Video kaadripiltide kataloog (või failinimi)"
 
 #: src/libvlc-module.c:548
 msgid "Directory where the video snapshots will be stored."
-msgstr "Kataloog, kuhu video hetktõmmis salvestatakse."
+msgstr "Kaadripildi salvestamise kataloog."
 
 #: src/libvlc-module.c:550 src/libvlc-module.c:552
 msgid "Video snapshot file prefix"
-msgstr "Video hetktõmmise faili eesliide"
+msgstr "Video kaadripildi faili eesliide"
 
 #: src/libvlc-module.c:554
 msgid "Video snapshot format"
-msgstr "Video hetktõmmise vorming"
+msgstr "Video kaadripildi vorming"
 
 #: src/libvlc-module.c:556
 msgid "Image format which will be used to store the video snapshots"
-msgstr "Pildi vorming, mida kasutatakse video hetktõmmise salvestamiseks"
+msgstr "Video kaadripildi salvestamisel kasutatav pildi vorming"
 
 #: src/libvlc-module.c:558
 msgid "Display video snapshot preview"
-msgstr "Video hetktõmmise eelvaate kuvamine"
+msgstr "Video kaadripildi eelvaate kuvamine"
 
 #: src/libvlc-module.c:560
 msgid "Display the snapshot preview in the screen's top-left corner."
-msgstr "Kuva hetktõmmise eelvaade ekraani ülemises vasakus servas."
+msgstr "Kaadripildi eelvaate kuvamine ekraani ülemises vasakus servas."
 
 #: src/libvlc-module.c:562
 msgid "Use sequential numbers instead of timestamps"
-msgstr "Kasuta järjestikuseid numbreid ajatemplite asemel"
+msgstr "Ajatemplite asemel kasutatakse järjestikuseid numbreid"
 
 #: src/libvlc-module.c:564
 msgid "Use sequential numbers instead of timestamps for snapshot numbering"
 msgstr ""
-"Kasuta järjestikuseid numbreid ajatemplite asemel hetktõmmiste nummerdamiseks"
+"Kaadripiltide nummerdamisel ajatemplite asemel järjestikuste numbrte "
+"kasutamine"
 
 #: src/libvlc-module.c:566
 msgid "Video snapshot width"
-msgstr "Video hetktõmmise laius"
+msgstr "Video kaadripildi laius"
 
 #: src/libvlc-module.c:568
 msgid ""
 "You can enforce the width of the video snapshot. By default it will keep the "
 "original width (-1). Using 0 will scale the width to keep the aspect ratio."
 msgstr ""
-"Sa saad jõuga määrata video hetktõmmise laiuse. Vaikimisi hoitakse algne "
-"laius (-1). Kasutades 0-i skaleeritakse video laius vastavalt külgede "
+"Kaadripildi laiust on võimalik peale sundida. Vaikimisi kasutatakse algset "
+"laiust (-1). Väärtuse 0 korral skaleeritakse video laius vastavalt külgede "
 "suhtele."
 
 #: src/libvlc-module.c:572
 msgid "Video snapshot height"
-msgstr "Video hetktõmmise kõrgus"
+msgstr "Video kaadripildi kõrgus"
 
 #: src/libvlc-module.c:574
 msgid ""
@@ -2239,8 +2239,8 @@ msgid ""
 "the original height (-1). Using 0 will scale the height to keep the aspect "
 "ratio."
 msgstr ""
-"Sa saad jõuga määrata video hetktõmmise kõrguse. Vaikimisi hoitakse algne "
-"kõrgus (-1). Kasutades 0-i skaleeritakse video kõrgus vastavalt külgede "
+"Kaadripildi kõrgust on võimalik peale sundida. Vaikimisi kasutatakse algset "
+"kõrgust (-1). Väärtuse 0 korral skaleeritakse video kõrgus vastavalt külgede "
 "suhtele."
 
 #: src/libvlc-module.c:578
@@ -2354,8 +2354,8 @@ msgid ""
 "Enables framedropping on MPEG2 stream. Framedropping occurs when your "
 "computer is not powerful enough"
 msgstr ""
-"Võimaldab MPEG2 voo kaadri hülgamise. Kaadri hülgamist tuleb ette siis, kui "
-"arvuti on liiga aeglane"
+"MPEG2-voo kaadri hülgamise lubamine. Kaadrite hülgamist tuleb ette liiga "
+"aeglase arvuti korral"
 
 #: src/libvlc-module.c:630
 msgid "Drop late frames"
@@ -2366,8 +2366,8 @@ msgid ""
 "This drops frames that are late (arrive to the video output after their "
 "intended display date)."
 msgstr ""
-"Kaadrite hülgamine, mis jäävad hiljaks (jõuavad videoväljundisse pärast "
-"seda, kui neid peaks kuvatama)."
+"Hilinevate kaadrite hülgamine (hilinenud kaadrid jõuavad videoväljundisse "
+"pärast nende õiget kuvamisaega)."
 
 #: src/libvlc-module.c:635
 msgid "Quiet synchro"
@@ -3008,6 +3008,9 @@ msgid ""
 "address (e.g. ::1 or 127.0.0.1) or a host name (e.g. localhost) to restrict "
 "them to a specific network interface."
 msgstr ""
+"Vaikimisi kuulab server kõigil kohalikel IP-aadressidel. Kuulatavate "
+"võrguliideste nimekirja piiramiseks määra IP-aadress (nt ::1 või 127.0.0.1) "
+"või hostinimi (nt. localhost)."
 
 #: src/libvlc-module.c:951
 msgid "RTSP server address"
@@ -4635,7 +4638,8 @@ msgstr "Hüppe suurused"
 #: src/libvlc-module.c:2777
 msgid "print help for VLC (can be combined with --advanced and --help-verbose)"
 msgstr ""
-"trüki VLC abi (võib kombineerida koos --advanced ja --help-verbose võtmetega)"
+"VLC abiteabe väljastamine (võib kombineerida koos --advanced ja --help-"
+"verbose võtmetega)"
 
 #: src/libvlc-module.c:2780
 msgid "Exhaustive help for VLC and its modules"
@@ -4646,12 +4650,12 @@ msgid ""
 "print help for VLC and all its modules (can be combined with --advanced and "
 "--help-verbose)"
 msgstr ""
-"kuva VLC ja kõikide tema moodulite abi (võib kombineerida koos --advanced ja "
-"--help-verbose parameetritega)"
+"VLC ja kõikide selle moodulite abiteabe väljastamine (võib kombineerida koos "
+"--advanced ja --help-verbose parameetritega)"
 
 #: src/libvlc-module.c:2785
 msgid "ask for extra verbosity when displaying help"
-msgstr "küsi ekstra jutukust abi kuvamisel"
+msgstr "täiendava jutukuse küsimine abiteabe kuvamisel"
 
 #: src/libvlc-module.c:2787
 msgid "print a list of available modules"
@@ -4666,8 +4670,9 @@ msgid ""
 "print help on a specific module (can be combined with --advanced and --help-"
 "verbose). Prefix the module name with = for strict matches."
 msgstr ""
-"kuva konkreetse mooduli abi (võib kombineerida koos --advanced ja --help-"
-"verbose parameetritega). Otseste vastete jaoks lisa moodulinimele eesliide =."
+"määratud mooduli abiteabe väljastamine (võib kombineerida koos --advanced ja "
+"--help-verbose parameetritega). Otseste vastete jaoks lisa moodulinimele "
+"eesliide =."
 
 #: src/libvlc-module.c:2795
 msgid "no configuration option will be loaded nor saved to config file"
@@ -4680,7 +4685,7 @@ msgstr "algväärtusta aktiivne konfiguratsioon"
 
 #: src/libvlc-module.c:2799
 msgid "use alternate config file"
-msgstr "kasuta teist seadistusfaili"
+msgstr "seadistusfaili määramine"
 
 #: src/libvlc-module.c:2801
 msgid "resets the current plugins cache"
@@ -4688,7 +4693,7 @@ msgstr "algväärtusta aktiivne pluginate puhver"
 
 #: src/libvlc-module.c:2803
 msgid "print version information"
-msgstr "prindi versiooni info"
+msgstr "programmi versiooni andmete väljastamine"
 
 #: src/libvlc-module.c:2841
 msgid "main program"
@@ -8477,10 +8482,11 @@ msgid ""
 "audio_crc=0,stream_type=3} ). To list available controls, increase verbosity "
 "(-vvv) or use the v4l2-ctl application."
 msgstr ""
-"Määra v4l2 draiveri juhtelementide väärtused, mis on komaga eraldatud ja "
-"lisaks looksulgudesse pandud (nt.: {video_bitrate=6000000, audio_crc=0,"
-"stream_type=3} ). Nägemaks kõiki võimalikke juhtelemente, suurenda jutukust "
-"(-vvv) või kasuta v4l2-ctl rakendust."
+"v4l2 draiveri juhtelementide väärtused määratakse komaga eraldatuna "
+"nimekirjana, mida võib lisaks veel looksulgudesse panna (nt.: "
+"{video_bitrate=6000000, audio_crc=0,stream_type=3} ). Kõigi võimalike "
+"juhtelemente nimekirja saamiseks, suurenda jutukust (-vvv) või kasuta "
+"rakendust v4l2-ctl."
 
 #: modules/access/v4l2/video.c:204
 msgid "Tuner id"
@@ -10118,7 +10124,7 @@ msgstr "Riistvaraline dekodeerimine"
 
 #: modules/codec/avcodec/avcodec.h:141
 msgid "This allows hardware decoding when available."
-msgstr "See lubab võimalusel riistvaralise dekodeerimise."
+msgstr "Võimaluse korral riistvaralise dekodeerimise lubamine."
 
 #: modules/codec/avcodec/avcodec.h:143
 msgid "Threads"
@@ -12464,10 +12470,10 @@ msgid ""
 " - esa: exhaustive search (extremely slow, primarily for testing)\n"
 " - tesa: hadamard exhaustive search (extremely slow, primarily for testing)\n"
 msgstr ""
-"Valib liikumise hinnangu algoritmi:  - dia: rombiline otsing, raadius 1 "
-"(kiire)\n"
+"Liikumise hinnangu algoritmi valimine:\n"
+" - dia: rombiline otsing, raadius 1 (kiire)\n"
 " - hex: kuusnurkne otsing, raadius 2\n"
-" - umh: ebavõrdne multi-kuusnurkne otsing (parem aga aeglasem)\n"
+" - umh: ebavõrdne multi-kuusnurkne otsing (parem, kuid samas aeglasem)\n"
 " - esa: põhjalik otsing (eriti aeglane, põhiliselt testimise jaoks)\n"
 " - tesa: hadamardi põhjalik otsing (eriti aeglane, põhiliselt testimise "
 "jaoks)\n"
@@ -13750,8 +13756,8 @@ msgid ""
 "Recreate a index for the AVI file. Use this if your AVI file is damaged or "
 "incomplete (not seekable)."
 msgstr ""
-"Loo uuesti AVI faili indeks. KAsuta seda, kui su AVI fail on vigane või "
-"poolik (ei ole keritav)."
+"AVI-faili indeksi uuestiloomine. Kasuta seda juhul, kui su AVI fail on "
+"vigane või poolik (ei ole keritav)."
 
 #: modules/demux/avi/avi.c:64
 msgid "Ask for action"
@@ -13759,11 +13765,11 @@ msgstr "Küsitakse, mida teha"
 
 #: modules/demux/avi/avi.c:65
 msgid "Always fix"
-msgstr "Alati parandatakse"
+msgstr "Parandatakse alati"
 
 #: modules/demux/avi/avi.c:66
 msgid "Never fix"
-msgstr "Mitte kunagi ei parandata"
+msgstr "Ei parandata kunagi"
 
 #: modules/demux/avi/avi.c:70
 msgid "AVI demuxer"
@@ -14101,8 +14107,8 @@ msgid ""
 "Preload matroska files in the same directory to find linked segments (not "
 "good for broken files)."
 msgstr ""
-"Eellae matroska failid samas kataloogis leidmaks lingitud segmente (ei ole "
-"hea katkiste failide puhul)."
+"Matroska failide eellaadimine samas kataloogis lingitud segmentide "
+"leidmiseks (ei ole hea katkiste failide puhul)."
 
 #: modules/demux/mkv/mkv.cpp:66 modules/demux/ts.c:141
 msgid "Seek based on percent not time"
@@ -16973,7 +16979,7 @@ msgstr "Kõrgem latentsus"
 
 #: modules/gui/macosx/simple_prefs.m:1143
 msgid "Choose the folder to save your video snapshots to."
-msgstr "Vali kataloog, kuhu video hetktõmmiseid salvestada."
+msgstr "Vali kataloog, kuhu video kaadripildid salvestada."
 
 #: modules/gui/macosx/simple_prefs.m:1145
 #: modules/gui/macosx/simple_prefs.m:1256
@@ -18995,7 +19001,7 @@ msgstr "Faili nimi"
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:139
 #: modules/gui/qt4/dialogs/convert.cpp:113
 msgid "Save file..."
-msgstr "Salvesta fail..."
+msgstr "Faili salvestamine..."
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:140
 #: modules/gui/qt4/dialogs/convert.cpp:115
@@ -19103,7 +19109,7 @@ msgstr "Väljundit kuvatakse aknas"
 
 #: modules/gui/qt4/dialogs/convert.cpp:72
 msgid "This display the resulting media, but can slow things down."
-msgstr "See kuvab teisendatud meedia, kuid võib tööd aeglustada."
+msgstr "See kuvab teisendatud meedia, kuid samas võib tööd aeglustada."
 
 #: modules/gui/qt4/dialogs/convert.cpp:80
 msgid "Settings"
@@ -19654,7 +19660,7 @@ msgstr "Muud nupud"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:447
 msgid "Playback Buttons"
-msgstr "Taasesitamise nupud"
+msgstr "Esitamise nupud"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:73
 msgid "Broadcast"
@@ -25082,20 +25088,19 @@ msgid ""
 "With default filter chain, the values map to the following filters:\n"
 "1: hb, 2-4: hb+vb, 5-6: hb+vb+dr"
 msgstr ""
-"Järeltöötlemise kvaliteet. Kehtiv vahemik on 0-st (keelatud) 6-ni "
-"(kõrgeim).\n"
-"Kõrgemad väärtused nõuavad märgatavalt rohkem CPU võimsust, aga toodavad "
-"parema kvaliteediga pilte.\n"
-"Vaikimisi filtriahelaga, lähtuvad väärtused järgmistest filtritest:\n"
+"Järeltöötluse kvaliteet. Kehtiv vahemik on 0-st (keelatud) 6-ni (kõrgeim).\n"
+"Kõrgemad väärtused nõuavad märgatavalt rohkem protsessori võimsust, aga "
+"toodavad parema kvaliteediga pilti.\n"
+"Vaikimisi filtriahelaga lähtuvad väärtused järgmistest filtritest:\n"
 "1: hb, 2-4: hb+vb, 5-6: hb+vb+dr"
 
 #: modules/video_filter/postproc.c:67
 msgid "FFmpeg post processing filter chains"
-msgstr "FFmpeg järeltöötlemise filtri ahelad"
+msgstr "FFmpeg järeltöötluse filtri ahelad"
 
 #: modules/video_filter/postproc.c:76
 msgid "Video post processing filter"
-msgstr "Video järeltöötlemise filter"
+msgstr "Video järeltöötluse filter"
 
 #: modules/video_filter/postproc.c:77
 msgid "Postproc"
@@ -25420,7 +25425,7 @@ msgstr ""
 
 #: modules/video_filter/scene.c:89
 msgid "Send your video to picture files"
-msgstr "Saada video pildifailidesse"
+msgstr "Video teisendamine pildifailidesse"
 
 #: modules/video_filter/scene.c:93
 msgid "Scene filter"
@@ -26420,7 +26425,7 @@ msgstr "#aseta oma VLC käsud siia"
 
 #: share/lua/http/dialogs/batch_window.html:30
 msgid "#separate commands with a new line or a semi-colon"
-msgstr "#ealda käsud reavahetusega või semikooloniga"
+msgstr "#eralda käsud reavahetuse või semikooloniga"
 
 #: share/lua/http/dialogs/browse_window.html:41
 #: share/lua/http/mobile_browse.html:48
@@ -26557,7 +26562,7 @@ msgstr "Mosaiigi kivid"
 
 #: share/lua/http/dialogs/offset_window.html:68
 msgid "Playback Rate"
-msgstr "Taasesitamise kiirus"
+msgstr "Esitamise kiirus"
 
 #: share/lua/http/dialogs/offset_window.html:72
 msgid "Audio Delay"
@@ -26640,8 +26645,8 @@ msgid ""
 "create the best free software."
 msgstr ""
 "Me soovime tänada tervet VLC kogukonda, testijaid, meie kasutajaid ning "
-"järgnevalt loetletud inimesi (ja nimekirjast puuduvaid...) nende panuse eest "
-"maailma parima vaba tarkvara loomisel."
+"järgnevalt loetletud (aga ka nimekirjast puuduvaid) inimesi nende panuse "
+"eest parima vaba tarkvara loomisel."
 
 #: modules/gui/qt4/ui/about.h:187
 msgid "Thanks"
@@ -26683,7 +26688,7 @@ msgstr "Dialoog"
 
 #: modules/gui/qt4/ui/open.h:246
 msgid "Show extended options"
-msgstr "Kuva laiendatud valikud"
+msgstr "Laiendatud valikute näitamine"
 
 #: modules/gui/qt4/ui/open.h:248
 msgid "Show &more options"
@@ -26719,7 +26724,7 @@ msgstr "Vali fail"
 
 #: modules/gui/qt4/ui/open.h:266
 msgid "Change the start time for the media"
-msgstr "Hetke määramine, kust meedia käivitatakse"
+msgstr "Meedia käivitamise ajalise positsiooni määramine"
 
 #: modules/gui/qt4/ui/open.h:268
 msgid "HH'H':mm'm':ss's'.zzz"
@@ -27063,7 +27068,7 @@ msgstr "x264 malli ja tuunimise valik"
 
 #: modules/gui/qt4/ui/sprefs_input.h:338
 msgid "Use GPU accelerated decoding"
-msgstr "Kasuta GPU kiirendust dekodeerimisel"
+msgstr "Dekodeerimisel kasutatakse GPU kiirendit"
 
 #: modules/gui/qt4/ui/sprefs_input.h:339
 msgid "Skip H.264 in-loop deblocking filter"
@@ -27499,9 +27504,6 @@ msgstr "Korduv"
 #: modules/gui/qt4/ui/vlm.h:303
 msgid "Media Manager List"
 msgstr "Meediahalduri loend"
-
-#~ msgid "DVB"
-#~ msgstr "DVB"
 
 #~ msgid "Error when sending the Crash Report"
 #~ msgstr "Viga aruande saatmisel"
@@ -28737,6 +28739,10 @@ msgstr "Meediahalduri loend"
 #~ msgstr "Mitu tähekest juhuslikus korras joonistada."
 
 #, fuzzy
+#~ msgid "DVB"
+#~ msgstr "DV"
+
+#, fuzzy
 #~ msgid "Video Filters..."
 #~ msgstr "Videofailid"
 
@@ -28794,7 +28800,7 @@ msgstr "Meediahalduri loend"
 
 #, fuzzy
 #~ msgid "Enable wallpaper mode"
-#~ msgstr "Taustapildi režiim lubatud"
+#~ msgstr "Taustapildi režiimi lubamine"
 
 #, fuzzy
 #~ msgid "Elasped time"
@@ -30070,15 +30076,15 @@ msgstr "Meediahalduri loend"
 
 #, fuzzy
 #~ msgid "Snapshot width"
-#~ msgstr "Video hetktõmmise laius"
+#~ msgstr "Video kaadripildi laius"
 
 #, fuzzy
 #~ msgid "Width of the snapshot image."
-#~ msgstr "Video hetktõmmise vorming"
+#~ msgstr "Video kaadripildi vorming"
 
 #, fuzzy
 #~ msgid "Snapshot height"
-#~ msgstr "Video hetktõmmise kõrgus"
+#~ msgstr "Video kaadripildi kõrgus"
 
 #, fuzzy
 #~ msgid "Height of the snapshot image."
