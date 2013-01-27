@@ -1,18 +1,18 @@
 # Italian translation
-# Copyright (C) 2012 VideoLAN
+# Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
 # Bruno Vella 2002-2003
 # Carlo Calabrò 2003-2004
 # Vincenzo Reale <smart2128@baslug.org>, 2006,2008-2012.
-#: modules/gui/macosx/prefs.m:490 modules/gui/macosx/simple_prefs.m:451
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2012-12-11 15:41+0100\n"
-"PO-Revision-Date: 2012-12-02 11:28+0000\n"
+"PO-Revision-Date: 2012-12-18 15:18+0000\n"
 "Last-Translator: Vincenzo Reale <vinx.reale@gmail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/it/)\n"
@@ -6534,6 +6534,8 @@ msgid ""
 "A continuous tone at 22kHz can be sent on the cable. This normally selects "
 "the higher frequency band from a universal LNB."
 msgstr ""
+"Un tono continuo a 22kHz può essere inviato sul cavo. Ciò seleziona di "
+"solito la banda di frequenza più alta da un LNB universale. "
 
 #: modules/access/dtv/access.c:195
 msgid "DiSEqC LNB number"
@@ -7754,6 +7756,8 @@ msgid ""
 "Your Mac does not seem to be equipped with a suitable input device. Please "
 "check your connectors and drivers."
 msgstr ""
+"Il tuo Mac non sembra essere equipaggiato con un dispositivo di ingresso "
+"appropriato. Controlla i connettori e i driver."
 
 #: modules/access/rar/access.c:51 modules/access/rar/stream.c:50
 msgid "Uncompressed RAR"
@@ -16943,6 +16947,8 @@ msgid ""
 "Extend subtitles duration by this value.\n"
 "Set 0 to disable."
 msgstr ""
+"Estendi la durata dei sottotitoli di questo valore.\n"
+"Impostala a 0 per disabilitarla."
 
 #: modules/gui/macosx/TrackSynchronization.m:84
 #: modules/gui/qt4/components/extended_panels.cpp:1687
@@ -16950,6 +16956,8 @@ msgid ""
 "Multiply subtitles duration by this value.\n"
 "Set 0 to disable."
 msgstr ""
+"Moltiplica la durata dei sottotitoli per questo valore.\n"
+"Impostala a 0 per disabilitarla."
 
 #: modules/gui/macosx/TrackSynchronization.m:88
 #: modules/gui/qt4/components/extended_panels.cpp:1692
@@ -16958,6 +16966,9 @@ msgid ""
 "to their content and this value.\n"
 "Set 0 to disable."
 msgstr ""
+"Ricalcola la durata dei sottotitoli in base\n"
+"al loro contenuto e a questo valore.\n"
+"Impostala a 0 per disabilitarla."
 
 #: modules/gui/macosx/VideoEffects.m:69
 msgid "Basic"
@@ -17511,12 +17522,16 @@ msgid ""
 "Enabling this allows transcoding the audio track if one is present in the "
 "stream."
 msgstr ""
+"L'abilitazione di questa opzione consente la transcodifica delle traccia "
+"audio se presente nel flusso."
 
 #: modules/gui/macosx/wizard.m:391 modules/gui/macosx/wizard.m:1831
 msgid ""
 "Enabling this allows transcoding the video track if one is present in the "
 "stream."
 msgstr ""
+"L'abilitazione di questa opzione consente la transcodifica delle traccia "
+"video se presente nel flusso."
 
 #: modules/gui/macosx/wizard.m:395
 msgid "Encapsulation format"
@@ -17527,6 +17542,9 @@ msgid ""
 "This page allows selecting how the stream will be encapsulated. Depending on "
 "previously chosen settings all formats won't be available."
 msgstr ""
+"Questa pagina consente di selezionare come il flusso sarà incapsulata. In "
+"base alle impostazioni scelte in precedenza, non saranno disponibili tutti i "
+"formati."
 
 #: modules/gui/macosx/wizard.m:401
 msgid "Additional streaming options"
@@ -17576,6 +17594,8 @@ msgid ""
 "Adds available subtitles directly to the video. These cannot be disabled by "
 "the receiving user as they become part of the image."
 msgstr ""
+"Aggiunge i sottotitoli disponibili direttamente al video. Non possono essere "
+"disabilitati dall'utente ricevente poiché diventano parte dell'immagine."
 
 #: modules/gui/macosx/wizard.m:427
 msgid ""
@@ -20315,6 +20335,8 @@ msgid ""
 "A single administration password is used to protect this interface. The "
 "default value is \"admin\"."
 msgstr ""
+"Un singola password di amministrazione è utilizzata per proteggere questa "
+"interfaccia. Il valore predefinito è \"admin\"."
 
 #: modules/lua/vlc.c:82
 msgid "CLI input"
@@ -26447,9 +26469,8 @@ msgid "Show &more options"
 msgstr "&Mostra altre opzioni"
 
 #: modules/gui/qt4/ui/open.h:251
-#, fuzzy
 msgid "Change the caching for the media"
-msgstr "Cambia l'ora di inizio per il supporto"
+msgstr ""
 
 #: modules/gui/qt4/ui/open.h:254
 msgid "MRL"
@@ -26816,9 +26837,8 @@ msgid "x264 profile and level selection"
 msgstr "Profilo x264 e selezione del livello"
 
 #: modules/gui/qt4/ui/sprefs_input.h:337
-#, fuzzy
 msgid "x264 preset and tuning selection"
-msgstr "Profilo x264 e selezione del livello"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_input.h:338
 msgid "Use GPU accelerated decoding"
@@ -27163,9 +27183,8 @@ msgid "Edge weightning"
 msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1374
-#, fuzzy
 msgid "Output Color Filtermode"
-msgstr "File di uscita"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1375
 msgid "Brightness (%)"
@@ -27176,18 +27195,16 @@ msgid "Darkness limit"
 msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1377
-#, fuzzy
 msgid "Mark analyzed Pixels"
-msgstr "Marca i pixel analizzati"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1379
 msgid "Filter threshold (%)"
 msgstr "Soglia del filtro (%)"
 
 #: modules/gui/qt4/ui/video_effects.h:1380
-#, fuzzy
 msgid "Filter smoothness (%)"
-msgstr "Soglia del filtro (%)"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1384
 msgid "Motion detect"
@@ -28960,13 +28977,6 @@ msgstr "Elenco gestore multimediale"
 #~ msgstr "Non sembra essere un indirizzo multicast valido"
 
 #~ msgid ""
-#~ "Determines how the stream will be encapsulated. Depending on the previous "
-#~ "choices, some formats might not be available."
-#~ msgstr ""
-#~ "In questa pagina, sceglierai come incapsulare il flusso. Secondo le "
-#~ "scelte fatte, non tutti i formati saranno disponibili."
-
-#~ msgid ""
 #~ "Define the TTL (Time-To-Live) of the stream. This parameter is the "
 #~ "maximum number of routers your stream can go through. If you don't know "
 #~ "what it means, or if you want to stream on your local network only, leave "
@@ -29548,13 +29558,6 @@ msgstr "Elenco gestore multimediale"
 #~ "Se desideri cambiare il formato di compressione delle tracce audio o "
 #~ "video, riempi questa pagina. Se invece vuoi solo cambiare il formato del "
 #~ "contenitore, procedi alla pagina successiva."
-
-#~ msgid ""
-#~ "In this page, you will select how the stream will be encapsulated. "
-#~ "Depending on the choices you made, all formats won't be available."
-#~ msgstr ""
-#~ "In questa pagina, sceglierai come incapsulare lo stream. Secondo le "
-#~ "scelte fatte, non tutti i formati saranno disponibili."
 
 #, fuzzy
 #~ msgid ""
@@ -30629,6 +30632,24 @@ msgstr "Elenco gestore multimediale"
 
 #~ msgid "Live Update"
 #~ msgstr "Aggiornamento live"
+
+#, fuzzy
+#~ msgid ""
+#~ "Determines how the stream will be encapsulated. Depending on the previous "
+#~ "choices, some formats might not be available."
+#~ msgstr ""
+#~ "Questa pagina consente di selezionare come il flusso sarà incapsulata. In "
+#~ "base alle impostazioni scelte in precedenza, non saranno disponibili "
+#~ "tutti i formati."
+
+#, fuzzy
+#~ msgid ""
+#~ "In this page, you will select how the stream will be encapsulated. "
+#~ "Depending on the choices you made, all formats won't be available."
+#~ msgstr ""
+#~ "Questa pagina consente di selezionare come il flusso sarà incapsulata. In "
+#~ "base alle impostazioni scelte in precedenza, non saranno disponibili "
+#~ "tutti i formati."
 
 #, fuzzy
 #~ msgid "Video Filters..."
