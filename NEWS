@@ -15,6 +15,8 @@ Mac OS X:
    in the advanced preferences panel
  * Fix spatializer audio filter panel
  * Fix crash within the video output code
+ * Fix BDMV folder selection issue on OS X Mountain Lion, which treats such
+   folders as a AVCHD file as soon as they include an item named INDEX.BDM
 
 
 Changes between 2.0.4 and 2.0.5:
