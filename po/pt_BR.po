@@ -4,13 +4,12 @@
 #
 # André de Barros Martins Ribeiro  <andrerib at ajato.com dot br>, 2003.
 # Sidney Doria <sidney at  dsc.ufcg.edu d0t br>, 2008-2011
-#: modules/gui/macosx/prefs.m:490 modules/gui/macosx/simple_prefs.m:451
 msgid ""
 msgstr ""
 "Project-Id-Version: vlc\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2012-12-11 15:41+0100\n"
-"PO-Revision-Date: 2012-12-02 08:43-0300\n"
+"PO-Revision-Date: 2013-02-04 12:42-0300\n"
 "Last-Translator: Sidney Doria <ssdoria@gmail.com>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: pt_BR\n"
@@ -4026,11 +4025,11 @@ msgstr "Seleciona a tecla de atalho para um retrocesso curto."
 
 #: src/libvlc-module.c:1391
 msgid "Medium backwards jump"
-msgstr "Retrocesso mais curto"
+msgstr "Retrocesso médio"
 
 #: src/libvlc-module.c:1393
 msgid "Select the hotkey to make a medium backwards jump."
-msgstr "Seleciona a tecla de atalho para um retrocesso mais curto."
+msgstr "Seleciona a tecla de atalho para um retrocesso médio."
 
 #: src/libvlc-module.c:1394
 msgid "Long backwards jump"
@@ -4058,11 +4057,11 @@ msgstr "Seleciona a tecla de atalho para um avanço curto."
 
 #: src/libvlc-module.c:1404
 msgid "Medium forward jump"
-msgstr "Avanço mais curto"
+msgstr "Avanço médio"
 
 #: src/libvlc-module.c:1406
 msgid "Select the hotkey to make a medium forward jump."
-msgstr "Seleciona a tecla de atalho para um avanço mais curto."
+msgstr "Seleciona a tecla de atalho para um avanço médio."
 
 #: src/libvlc-module.c:1407
 msgid "Long forward jump"
