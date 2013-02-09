@@ -1,12 +1,16 @@
 Changes between 2.0.5 and 2.0.6:
 --------------------------------
 
+Access:
+ * Fix HTTPS playback with some certificates previously rejected
+
 Demuxers:
  * Fix crash with broken asf files (SA-1302)
  * Fix MKV behaviour with unknown or new ebml elements
 
 Decoders:
  * Fix GPU decoding on Intel HD 2000/3000 cards on Windows
+ * Fix FLAC 6.1 and 7.1 channel layout
 
 Mac OS X:
  * Fix subtitle rendering resolution when using OS X's native fullscreen mode
@@ -17,6 +21,22 @@ Mac OS X:
  * Fix crash within the video output code
  * Fix BDMV folder selection issue on OS X Mountain Lion, which treats such
    folders as a AVCHD file as soon as they include an item named INDEX.BDM
+
+Qt:
+ * Fix clearing of Media Info panel on dialog exit
+
+GNU/Linux:
+ * Numerous D-Bus and MPRIS2 improvements
+ * Reject broken versions of PulseAudio
+
+Windows:
+ * Fix uninstallation in different location than C:\
+
+Translations:
+ * Update of Brazilian Portuguese, Traditional Chinese, Thai, Portuguese,
+   Japanese, Italian, Hebrew, Estonian, Spanish, Czech, Catalan, Bosnian,
+   Asturian translations
+ * New Gujarati, Aragonese translations
 
 
 Changes between 2.0.4 and 2.0.5:
