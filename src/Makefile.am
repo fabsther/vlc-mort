@@ -179,7 +179,7 @@ libvlccore_la_LDFLAGS = \
 	$(LDFLAGS_libvlccore) \
 	-no-undefined \
 	-export-symbols $(srcdir)/libvlccore.sym \
-	-version-info 6:0:1
+	-version-info 6:1:1
 libvlccore_la_LIBADD = $(LIBS_libvlccore) \
 	$(LTLIBINTL) $(LTLIBICONV) \
 	$(SOCKET_LIBS) $(LIBDL) $(LIBM) \
