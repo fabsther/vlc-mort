@@ -51,6 +51,8 @@
 #   include <avcodec.h>
 #endif
 
+#include <libavutil/mem.h>
+
 #include "../codec/avcodec/avcodec.h"
 
 #define SOUT_CFG_PREFIX "sout-switcher-"
