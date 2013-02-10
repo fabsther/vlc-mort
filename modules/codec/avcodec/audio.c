@@ -29,6 +29,8 @@
 # include "config.h"
 #endif
 
+#include <assert.h>
+
 #include <vlc_common.h>
 #include <vlc_aout.h>
 #include <vlc_codec.h>
@@ -80,6 +82,42 @@ struct decoder_sys_t
     int     i_previous_channels;
     int64_t i_previous_layout;
 };
+
+/**
+ * Interleaves audio samples within a block of samples.
+ * \param dst destination buffer for interleaved samples
+ * \param src source buffer with consecutive planes of samples
+ * \param samples number of samples (per channel/per plane)
+ * \param chans channels/planes count
+ * \param fourcc sample format (must be a linear sample format)
+ * \note The samples must be naturally aligned in memory.
+ * \warning Destination and source buffers MUST NOT overlap.
+ */
+static void Interleave( void *restrict dst, const void *restrict src,
+                      unsigned samples, unsigned chans, vlc_fourcc_t fourcc )
+{
+#define INTERLEAVE_TYPE(type) \
+do { \
+    type *d = dst; \
+    const type *s = src; \
+    for( size_t i = 0; i < chans; i++ ) { \
+        for( size_t j = 0, k = 0; j < samples; j++, k += chans ) \
+            d[k] = *(s++); \
+        d++; \
+    } \
+} while(0)
+
+    switch( fourcc )
+    {
+        case VLC_CODEC_U8:   INTERLEAVE_TYPE(uint8_t);  break;
+        case VLC_CODEC_S16N: INTERLEAVE_TYPE(uint16_t); break;
+        case VLC_CODEC_FL32: INTERLEAVE_TYPE(float);    break;
+        case VLC_CODEC_S32N: INTERLEAVE_TYPE(int32_t);  break;
+        case VLC_CODEC_FL64: INTERLEAVE_TYPE(double);   break;
+        default:             assert(0);
+    }
+#undef INTERLEAVE_TYPE
+}
 
 #define BLOCK_FLAG_PRIVATE_REALLOCATED (1 << BLOCK_FLAG_PRIVATE_SHIFT)
 
