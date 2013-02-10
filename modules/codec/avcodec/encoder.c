@@ -32,6 +32,8 @@
 # include "config.h"
 #endif
 
+#include <assert.h>
+
 #include <vlc_common.h>
 #include <vlc_aout.h>
 #include <vlc_sout.h>
@@ -187,6 +189,42 @@ static const uint16_t mpeg4_default_non_intra_matrix[64] = {
  22, 23, 24, 26, 27, 28, 30, 31,
  23, 24, 25, 27, 28, 30, 31, 33,
 };
+
+/**
+ * Deinterleaves audio samples within a block of samples.
+ * \param dst destination buffer for planar samples
+ * \param src source buffer with interleaved samples
+ * \param samples number of samples (per channel/per plane)
+ * \param chans channels/planes count
+ * \param fourcc sample format (must be a linear sample format)
+ * \note The samples must be naturally aligned in memory.
+ * \warning Destination and source buffers MUST NOT overlap.
+ */
+static void Deinterleave( void *restrict dst, const void *restrict src,
+                      unsigned samples, unsigned chans, vlc_fourcc_t fourcc )
+{
+#define DEINTERLEAVE_TYPE(type) \
+do { \
+    type *d = dst; \
+    const type *s = src; \
+    for( size_t i = 0; i < chans; i++ ) { \
+        for( size_t j = 0, k = 0; j < samples; j++, k += chans ) \
+            *(d++) = s[k]; \
+        s++; \
+    } \
+} while(0)
+
+    switch( fourcc )
+    {
+        case VLC_CODEC_U8:   DEINTERLEAVE_TYPE(uint8_t);  break;
+        case VLC_CODEC_S16N: DEINTERLEAVE_TYPE(uint16_t); break;
+        case VLC_CODEC_FL32: DEINTERLEAVE_TYPE(float);    break;
+        case VLC_CODEC_S32N: DEINTERLEAVE_TYPE(int32_t);  break;
+        case VLC_CODEC_FL64: DEINTERLEAVE_TYPE(double);   break;
+        default:             assert(0);
+    }
+#undef DEINTERLEAVE_TYPE
+}
 
 /*****************************************************************************
  * OpenEncoder: probe the encoder
