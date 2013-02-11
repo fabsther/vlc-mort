@@ -2422,6 +2422,9 @@ AS_IF([test "${enable_avcodec}" != "no"], [
     VLC_SAVE_FLAGS
     CPPFLAGS="${CPPFLAGS} ${AVCODEC_CFLAGS}"
     CFLAGS="${CFLAGS} ${AVCODEC_CFLAGS}"
+    LIBS="${LIBS} ${AVCODEC_LIBS}"
+    AC_CHECK_LIB(avutil, av_sample_fmt_is_planar,
+        AC_DEFINE([HAVE_AVUTIL_PLANAR], [1], [Define if libav* use planar audio formats]))
     AC_CHECK_HEADERS(libavcodec/avcodec.h)
     AC_CHECK_HEADERS(libavutil/avutil.h)
     VLC_ADD_PLUGIN([avcodec])
