@@ -1143,8 +1143,12 @@ static block_t *EncodeAudio( encoder_t *p_enc, aout_buffer_t *p_aout_buf )
             int i_size = (p_sys->i_frame_size - i_delay_size) *
                          p_sys->i_sample_bytes;
 
-            memcpy( p_sys->p_buffer + i_delay_size * p_sys->i_sample_bytes,
-                    p_buffer, i_size );
+            if( av_sample_fmt_is_planar( p_sys->p_context->sample_fmt ) )
+                Deinterleave( &p_sys->p_buffer[i_delay_size * p_sys->i_sample_bytes],
+                        p_buffer, i_samples_delay, p_enc->fmt_in.audio.i_channels, p_enc->fmt_in.i_codec );
+            else
+                memcpy( p_sys->p_buffer + i_delay_size * p_sys->i_sample_bytes,
+                        p_buffer, i_size );
             p_buffer -= i_delay_size * p_sys->i_sample_bytes;
             i_samples += i_samples_delay;
             i_samples_delay = 0;
@@ -1153,7 +1157,14 @@ static block_t *EncodeAudio( encoder_t *p_enc, aout_buffer_t *p_aout_buf )
         }
         else
         {
-            p_samples = p_buffer;
+            if( av_sample_fmt_is_planar( p_sys->p_context->sample_fmt ) ) {
+                Deinterleave( p_sys->p_buffer,
+                        p_buffer, p_sys->i_frame_size,
+                        p_enc->fmt_in.audio.i_channels,
+                        p_enc->fmt_in.i_codec );
+                p_samples = p_sys->p_buffer;
+            } else
+                p_samples = p_buffer;
         }
 
         i_out = avcodec_encode_audio( p_sys->p_context, p_sys->p_buffer_out,
@@ -1186,9 +1197,13 @@ static block_t *EncodeAudio( encoder_t *p_enc, aout_buffer_t *p_aout_buf )
     /* Backup the remaining raw samples */
     if( i_samples )
     {
-        memcpy( &p_sys->p_buffer[i_samples_delay * p_sys->i_sample_bytes],
-                p_buffer,
-                i_samples * p_sys->i_sample_bytes );
+        if( av_sample_fmt_is_planar( p_sys->p_context->sample_fmt ) )
+            Deinterleave( &p_sys->p_buffer[i_samples_delay * p_sys->i_sample_bytes],
+                    p_buffer, i_samples, p_enc->fmt_in.audio.i_channels, p_enc->fmt_in.i_codec );
+        else
+            memcpy( &p_sys->p_buffer[i_samples_delay * p_sys->i_sample_bytes],
+                    p_buffer,
+                    i_samples * p_sys->i_sample_bytes );
     }
 
     return p_chain;
