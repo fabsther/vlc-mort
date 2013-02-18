@@ -1626,10 +1626,13 @@ static VLCMainWindow *_o_sharedInstance = nil;
 
     if (p_vout)
     {
-        if( var_GetBool( p_vout, "video-on-top" ) )
-            [[o_video_view window] setLevel: NSStatusWindowLevel];
-        else
-            [[o_video_view window] setLevel: NSNormalWindowLevel];
+        if( !b_fullscreen )
+        {
+            if( var_GetBool( p_vout, "video-on-top" ) )
+                [[o_video_view window] setLevel: NSStatusWindowLevel];
+            else
+                [[o_video_view window] setLevel: NSNormalWindowLevel];
+        }
         vlc_object_release( p_vout );
     }
 }

@@ -1707,6 +1707,9 @@ unsigned int CocoaKeyToVLC( unichar i_key )
 
 - (void)setWindowLevel:(NSNumber*)state
 {
+    if ([[VLCMainWindow sharedInstance] isFullscreen])
+        return;
+
     if ([state unsignedIntValue] & VOUT_WINDOW_STATE_ABOVE)
         [[[[VLCMainWindow sharedInstance] videoView] window] setLevel: NSStatusWindowLevel];
     else
