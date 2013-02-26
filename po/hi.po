@@ -1,22 +1,23 @@
 # Hindi translation
-# Copyright (C) 2012 VideoLAN
+# Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the VLC package.
 #
+# Translators:
 # Simos Xenitellis <simos74@gmx.net>, 2005.
 # L. Balasubramaniam <l.balasubramaniam at gmail dot com>, 2005
-# Translators:
 # Chandan Kumar <chandankumar.093047@gmail.com>, 2012.
 # Gaurav Kumar <aavrug@gmail.com>, 2012.
 # Shashi Ranjan <rshashi906@gmail.com>, 2012.
 # Sayan Chowdhury <sayan.chowdhury2012@gmail.com>, 2012.
-#: modules/gui/macosx/prefs.m:490 modules/gui/macosx/simple_prefs.m:451
+# Shambhu Kumar <shambhuray.sam@gmail.com>, 2013.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2012-12-11 15:41+0100\n"
-"PO-Revision-Date: 2012-09-08 15:47+0000\n"
-"Last-Translator: Gaurav Kumar <aavrug@gmail.com>\n"
+"PO-Revision-Date: 2013-02-14 19:34+0000\n"
+"Last-Translator: Shambhu Kumar <shambhuray.sam@gmail.com>\n"
 "Language-Team: Hindi (http://www.transifex.com/projects/p/vlc-trans/language/"
 "hi/)\n"
 "Language: hi\n"
@@ -956,7 +957,7 @@ msgstr ""
 #: src/input/control.c:217
 #, c-format
 msgid "Bookmark %i"
-msgstr ""
+msgstr "पृष्ठ स्मृति %i"
 
 #: src/input/decoder.c:267
 msgid "packetizer"
@@ -964,7 +965,7 @@ msgstr ""
 
 #: src/input/decoder.c:267
 msgid "decoder"
-msgstr ""
+msgstr "विसंकेतक"
 
 #: src/input/decoder.c:276 src/input/decoder.c:467
 #: modules/codec/avcodec/encoder.c:237 modules/codec/avcodec/encoder.c:245
@@ -998,26 +999,26 @@ msgstr ""
 #: modules/access/vcdx/access.c:458 modules/access/vcdx/info.c:226
 #: modules/gui/qt4/components/open_panels.cpp:525
 msgid "Track"
-msgstr ""
+msgstr "रील"
 
 #: src/input/es_out.c:1165
 #, c-format
 msgid "%s [%s %d]"
-msgstr ""
+msgstr "%s [%s %d]"
 
 #: src/input/es_out.c:1165 src/input/es_out.c:1170 src/input/var.c:167
 #: src/libvlc-module.c:721 modules/gui/macosx/MainMenu.m:285
 #: modules/gui/macosx/MainMenu.m:286
 msgid "Program"
-msgstr ""
+msgstr "कार्यक्रम"
 
 #: src/input/es_out.c:1368 src/input/es_out.c:1370
 msgid "Scrambled"
-msgstr ""
+msgstr "गड्डमड्ड करना"
 
 #: src/input/es_out.c:1368
 msgid "Yes"
-msgstr ""
+msgstr "हाँ"
 
 #: src/input/es_out.c:2023
 #, c-format
@@ -26244,10 +26245,6 @@ msgstr "मीडिया प्रबंधन सूची"
 #~ msgstr "समय-सीमा"
 
 #, fuzzy
-#~ msgid "Opus audio decoder"
-#~ msgstr "ऑडियो फिल्टेर"
-
-#, fuzzy
 #~ msgid "Use systems codecs if available, for WMV codecs"
 #~ msgstr "ऑडियो फिल्टेर"
 
@@ -26808,6 +26805,10 @@ msgstr "मीडिया प्रबंधन सूची"
 #, fuzzy
 #~ msgid "Right-Bottom"
 #~ msgstr "नीचे"
+
+#, fuzzy
+#~ msgid "Opus audio decoder"
+#~ msgstr "ऑडियो कोडेक"
 
 #, fuzzy
 #~ msgid "Speed of the subtitles:"
@@ -27561,7 +27562,7 @@ msgstr "मीडिया प्रबंधन सूची"
 
 #, fuzzy
 #~ msgid "Bookmarks dialog"
-#~ msgstr "& बुकमार्क"
+#~ msgstr "पृष्ठ स्मृति %i"
 
 #, fuzzy
 #~ msgid "Distortion"
