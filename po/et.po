@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2012-12-11 15:41+0100\n"
-"PO-Revision-Date: 2013-01-21 06:50+0000\n"
+"PO-Revision-Date: 2013-02-10 06:50+0000\n"
 "Last-Translator: Ivar Smolin <okul@linux.ee>\n"
 "Language-Team: Estonian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/et/)\n"
@@ -23477,8 +23477,8 @@ msgid ""
 "Value of the audio level of each channels between 0 and 1. Each level should "
 "be separated with ':'."
 msgstr ""
-"Iga audio kanali helinivoo väärtus vahemikus 0 ja 1. Iga nivoo peaks olema "
-"eraldatud ':'."
+"Iga audiokanali helinivoo tase vahemikus 0 ja 1. Nivood eraldatakse "
+"üksteisest kooloniga."
 
 #: modules/video_filter/audiobargraph_v.c:51
 msgid "X coordinate of the bargraph."
@@ -23518,6 +23518,8 @@ msgstr "Alarm"
 #: modules/video_filter/audiobargraph_v.c:63
 msgid "Signals a silence and displays and alert (0=no alarm, 1=alarm)."
 msgstr ""
+"Vaikuse kohta märguande kuvamine (0=märguannet ei kuvata, 1=märguannet "
+"kuvatakse)."
 
 #: modules/video_filter/audiobargraph_v.c:65
 msgid "Bar width in pixel (default : 10)"
@@ -26329,7 +26331,7 @@ msgstr "Videoefektide akna kõrgus pikslites."
 
 #: modules/visualization/visual/visual.c:56
 msgid "Show 80 bands instead of 20"
-msgstr "Kuva 80 sagedust 20 asemel"
+msgstr "80 sageduse näitamine 20 asemel"
 
 #: modules/visualization/visual/visual.c:58
 msgid "More bands for the spectrometer : 80 if enabled else 20."
@@ -26349,7 +26351,7 @@ msgstr "See koefitsent muudab sageduste kõrgust."
 
 #: modules/visualization/visual/visual.c:66
 msgid "Draw peaks in the analyzer"
-msgstr "Joonista \"tipud\" analüsaatoril."
+msgstr "Analüsaatorile joonistatakse \"tipud\" "
 
 #: modules/visualization/visual/visual.c:68
 msgid "Enable original graphic spectrum"
@@ -26389,7 +26391,7 @@ msgstr "Tipu kõrgus"
 
 #: modules/visualization/visual/visual.c:86
 msgid "Total pixel height of the peak items."
-msgstr "Pikslite tipu elementide kogukõrgus."
+msgstr "Tipuelementide kogukõrgus pikslites."
 
 #: modules/visualization/visual/visual.c:88
 msgid "Peak extra width"
