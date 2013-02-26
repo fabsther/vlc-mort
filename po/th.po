@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
-# T. Chomphuming <jernghan@gmail.com>, 2011-2012
+# Thanakrit Chomphuming <jernghan@gmail.com>, 2011-3013.
 # <develop5@datawiz.co.th>, 2006.
 #
 msgid ""
@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2012-12-11 15:41+0100\n"
-"PO-Revision-Date: 2012-12-21 19:58+0000\n"
+"PO-Revision-Date: 2013-02-13 08:41+0000\n"
 "Last-Translator: jerng <jernghan@gmail.com>\n"
 "Language-Team: Thai (http://www.transifex.com/projects/p/vlc-trans/language/"
 "th/)\n"
@@ -100,11 +100,11 @@ msgstr "ค่าตั้งเสียงทั่วไป"
 
 #: include/vlc_config_cat.h:57 include/vlc_config_cat.h:79
 msgid "Filters"
-msgstr "ตัวกรอง"
+msgstr "ตัวผันค่า"
 
 #: include/vlc_config_cat.h:58
 msgid "Audio filters are used to process the audio stream."
-msgstr "ตัวกรองเสียงถูกใช้ในการทำกระแสเสียง"
+msgstr "ตัวผันค่าเสียงที่ใช้ในการทำกระแสเสียง"
 
 #: include/vlc_config_cat.h:60 src/audio_output/common.c:82
 #: modules/gui/macosx/MainMenu.m:302 modules/gui/macosx/MainMenu.m:303
@@ -161,7 +161,7 @@ msgstr "เลือกการแสดงผลวีดิทัศน์ �
 
 #: include/vlc_config_cat.h:81
 msgid "Video filters are used to process the video stream."
-msgstr "ตัวกรองวีดิทัศน์ถูกใช้ในกระบวนการทำกระแสวีดิทัศน์"
+msgstr "ตัวผันค่าวีดิทัศน์ที่ใช้ในการทำกระแสวีดิทัศน์"
 
 #: include/vlc_config_cat.h:83
 msgid "Subtitles/OSD"
@@ -196,14 +196,14 @@ msgstr ""
 
 #: include/vlc_config_cat.h:103
 msgid "Stream filters"
-msgstr "ตัวกรองกระแส"
+msgstr "ตัวผันค่ากระแส"
 
 #: include/vlc_config_cat.h:105
 msgid ""
 "Stream filters are special modules that allow advanced operations on the "
 "input side of VLC. Use with care..."
 msgstr ""
-"ตัวกรองกระแสคือมอดูลพิเศษ ซึ่งช่วยในการปฏิบัติงานขั้นสูงในส่วนนำเข้าของ VLC "
+"ตัวผันค่ากระแสคือมอดูลพิเศษ ซึ่งช่วยในการปฏิบัติงานขั้นสูงในส่วนนำเข้าของ VLC "
 "โปรดใช้ด้วยความระมัดระวัง..."
 
 #: include/vlc_config_cat.h:108
@@ -528,7 +528,7 @@ msgstr "ดึงข้อมูล"
 
 #: include/vlc_intf_strings.h:67
 msgid "Remove Selected"
-msgstr "ลบที่เลือก"
+msgstr "ลบที่เลือกออกจากผัง"
 
 #: include/vlc_intf_strings.h:68
 msgid "Information..."
@@ -778,7 +778,7 @@ msgstr "ตัวปรับสมดุล"
 
 #: src/audio_output/common.c:141 src/libvlc-module.c:349
 msgid "Audio filters"
-msgstr "ตัวกรองเสียง"
+msgstr "ตัวผันค่าเสียง"
 
 #: src/audio_output/common.c:153
 msgid "Replay gain"
@@ -841,7 +841,7 @@ msgstr "ขวา"
 
 #: src/audio_output/output.c:134
 msgid "Dolby Surround"
-msgstr ""
+msgstr "ดอลบีเซอร์ราวนด์"
 
 #: src/audio_output/output.c:146
 msgid "Reverse stereo"
@@ -1490,7 +1490,7 @@ msgstr "บังคับใช้เสียงแบบโมโน"
 
 #: src/libvlc-module.c:294
 msgid "This will force a mono audio output."
-msgstr "นี่จะบังคับใช้การส่งเสียงแบบโมโน"
+msgstr "ตัวเลือกนี้จะบังคับใช้การส่งเสียงแบบโมโน"
 
 #: src/libvlc-module.c:297
 msgid "Default audio volume"
@@ -1568,7 +1568,7 @@ msgstr ""
 
 #: src/libvlc-module.c:337 modules/gui/macosx/simple_prefs.m:225
 msgid "Force detection of Dolby Surround"
-msgstr ""
+msgstr "บังคับให้ระบุเป็นดอลบีเซอร์ราวนด์"
 
 #: src/libvlc-module.c:339
 msgid ""
@@ -1577,6 +1577,9 @@ msgid ""
 "actually encoded with Dolby Surround, turning on this option might enhance "
 "your experience, especially when combined with the Headphone Channel Mixer."
 msgstr ""
+"ใช้ค่านี้เมื่อคุณรู้ว่ากระแสของคุณถูก(หรือไม่ได้ถูก)ลงรหัสด้วยดอลบีเซอร์ราวนด์แต่การระบุล้มเหลว, "
+"หากกระแสนั้นไม่ได้ลงรหัสแบบดอลบีเซอร์ราวนด์ การใช้ตัวเลือกนี้อาจเพิ่มอรรถรสการรับฟังของคุณ "
+"โดยเฉพาะเมื่อใช้ร่วมกับตัวผสมช่องสัญญาณหูฟัง"
 
 #: src/libvlc-module.c:346 modules/access/dtv/access.c:92
 #: modules/access/v4l2/video.c:219
@@ -1643,7 +1646,7 @@ msgstr ""
 msgid ""
 "This allows playing audio at lower or higher speed without affecting the "
 "audio pitch"
-msgstr "นี่จะช่วยในการเล่นเสียงด้วยความเร็วต่ำสุดหรือสูงสุดโดยไม่มีผลกระทบต่อระดับเสียง"
+msgstr "ตัวเลือกนี้จะช่วยในการเล่นเสียงด้วยความเร็วต่ำสุดหรือสูงสุดโดยไม่มีผลกระทบต่อระดับเสียง"
 
 #: src/libvlc-module.c:387 modules/access/dshow/dshow.cpp:91
 #: modules/access/dshow/dshow.cpp:94 modules/access/dtv/access.c:107
@@ -1940,32 +1943,32 @@ msgstr ""
 
 #: src/libvlc-module.c:514 modules/video_filter/deinterlace/deinterlace.h:57
 msgid "Discard"
-msgstr ""
+msgstr "Discard"
 
 #: src/libvlc-module.c:514 modules/video_filter/deinterlace/algo_phosphor.h:47
 #: modules/video_filter/deinterlace/deinterlace.h:57
 msgid "Blend"
-msgstr ""
+msgstr "Blend"
 
 #: src/libvlc-module.c:514 modules/video_filter/deinterlace/deinterlace.h:57
 msgid "Mean"
-msgstr "ค่าเฉลี่ย"
+msgstr "Mean"
 
 #: src/libvlc-module.c:514 modules/video_filter/deinterlace/deinterlace.h:57
 msgid "Bob"
-msgstr ""
+msgstr "Bob"
 
 #: src/libvlc-module.c:515 modules/video_filter/deinterlace/deinterlace.h:57
 msgid "Linear"
-msgstr "เชิงเส้น"
+msgstr "Linear"
 
 #: src/libvlc-module.c:515 modules/video_filter/deinterlace/deinterlace.h:58
 msgid "Phosphor"
-msgstr ""
+msgstr "Phosphor"
 
 #: src/libvlc-module.c:516 modules/video_filter/deinterlace/deinterlace.h:58
 msgid "Film NTSC (IVTC)"
-msgstr ""
+msgstr "Film NTSC (IVTC)"
 
 #: src/libvlc-module.c:524
 msgid "Disable screensaver"
@@ -2006,7 +2009,7 @@ msgstr ""
 
 #: src/libvlc-module.c:540
 msgid "Video filter module"
-msgstr "มอดูลตัวกรองวีดิทัศน์"
+msgstr "มอดูลตัวผันค่าวีดิทัศน์"
 
 #: src/libvlc-module.c:542
 msgid ""
@@ -2633,7 +2636,7 @@ msgstr ""
 
 #: src/libvlc-module.c:873
 msgid "Subpictures filter module"
-msgstr "มอดูลตัวกรองภาพบทบรรยาย"
+msgstr "มอดูลตัวผันค่าภาพบทบรรยาย"
 
 #: src/libvlc-module.c:875
 msgid ""
@@ -3112,7 +3115,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1159
 msgid "Stream filter module"
-msgstr "มอดูลตัวกรองกระแส"
+msgstr "มอดูลตัวผันค่ากระแส"
 
 #: src/libvlc-module.c:1161
 msgid "Stream filters are used to modify the stream that is being read. "
@@ -4504,31 +4507,31 @@ msgstr ""
 
 #: src/text/iso-639_def.h:42
 msgid "Afrikaans"
-msgstr "ภาษาแอฟริกา\t"
+msgstr "แอฟริกา"
 
 #: src/text/iso-639_def.h:43
 msgid "Albanian"
-msgstr "ภาษาแอลเบเนีย"
+msgstr "แอลเบเนีย"
 
 #: src/text/iso-639_def.h:44
 msgid "Amharic"
-msgstr "ภาษาอัมฮาริก"
+msgstr "อัมฮาริก"
 
 #: src/text/iso-639_def.h:45
 msgid "Arabic"
-msgstr "ภาษาอาหรับ"
+msgstr "อาหรับ"
 
 #: src/text/iso-639_def.h:46
 msgid "Armenian"
-msgstr "ภาษาอาร์เมเนีย\t"
+msgstr "อาร์เมเนีย"
 
 #: src/text/iso-639_def.h:47
 msgid "Assamese"
-msgstr "ภาษาอัสสัม"
+msgstr "อัสสัม"
 
 #: src/text/iso-639_def.h:48
 msgid "Avestan"
-msgstr "ภาษาอเวสถาน"
+msgstr "อเวสถาน"
 
 #: src/text/iso-639_def.h:49
 msgid "Aymara"
@@ -4536,27 +4539,27 @@ msgstr ""
 
 #: src/text/iso-639_def.h:50
 msgid "Azerbaijani"
-msgstr "ภาษาอาเซอร์ไบจาน"
+msgstr "อาเซอร์ไบจาน"
 
 #: src/text/iso-639_def.h:51
 msgid "Bashkir"
-msgstr "ภาษาแบชเคียร์"
+msgstr "แบชเคียร์"
 
 #: src/text/iso-639_def.h:52
 msgid "Basque"
-msgstr "ภาษาแบ็ซค์ "
+msgstr "แบ็ซค์ "
 
 #: src/text/iso-639_def.h:53
 msgid "Belarusian"
-msgstr "ภาษาเบลารุส"
+msgstr "เบลารุส"
 
 #: src/text/iso-639_def.h:54
 msgid "Bengali"
-msgstr "ภาษาเบ็งกาลี"
+msgstr "เบ็งกาลี"
 
 #: src/text/iso-639_def.h:55
 msgid "Bihari"
-msgstr "ภาษาพิหาร"
+msgstr "พิหาร"
 
 #: src/text/iso-639_def.h:56
 msgid "Bislama"
@@ -4564,23 +4567,23 @@ msgstr ""
 
 #: src/text/iso-639_def.h:57
 msgid "Bosnian"
-msgstr "ภาษาบอสเนีย"
+msgstr "บอสเนีย"
 
 #: src/text/iso-639_def.h:58
 msgid "Breton"
-msgstr "ภาษาเบรตัน"
+msgstr "เบรตัน"
 
 #: src/text/iso-639_def.h:59
 msgid "Bulgarian"
-msgstr "ภาษาบัลแกเรีย"
+msgstr "บัลแกเรีย"
 
 #: src/text/iso-639_def.h:60
 msgid "Burmese"
-msgstr "ภาษาพม่า"
+msgstr "พม่า"
 
 #: src/text/iso-639_def.h:61
 msgid "Catalan"
-msgstr "ภาษาคาตะลาน"
+msgstr "คาตะลาน"
 
 #: src/text/iso-639_def.h:62
 msgid "Chamorro"
@@ -4588,11 +4591,11 @@ msgstr ""
 
 #: src/text/iso-639_def.h:63
 msgid "Chechen"
-msgstr "ภาษาเชเชน"
+msgstr "เชเชน"
 
 #: src/text/iso-639_def.h:64
 msgid "Chinese"
-msgstr "ภาษาจีน"
+msgstr "จีน"
 
 #: src/text/iso-639_def.h:65
 msgid "Church Slavic"
@@ -4600,7 +4603,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:66
 msgid "Chuvash"
-msgstr "ภาษาชูวาช"
+msgstr "ชูวาช"
 
 #: src/text/iso-639_def.h:67
 msgid "Cornish"
@@ -4612,47 +4615,47 @@ msgstr ""
 
 #: src/text/iso-639_def.h:69
 msgid "Czech"
-msgstr "ภาษาเช็ก"
+msgstr "เช็ก"
 
 #: src/text/iso-639_def.h:70
 msgid "Danish"
-msgstr "ภาษาเดนมาร์ก"
+msgstr "เดนมาร์ก"
 
 #: src/text/iso-639_def.h:71
 msgid "Dutch"
-msgstr "ภาษาดัตช์"
+msgstr "ดัตช์"
 
 #: src/text/iso-639_def.h:72
 msgid "Dzongkha"
-msgstr "ภาษาภูฏาน"
+msgstr "ภูฏาน"
 
 #: src/text/iso-639_def.h:73
 msgid "English"
-msgstr "ภาษาอังกฤษ"
+msgstr "อังกฤษ"
 
 #: src/text/iso-639_def.h:74
 msgid "Esperanto"
-msgstr "ภาษาเอสเปอรันโต"
+msgstr "เอสเปอรันโต"
 
 #: src/text/iso-639_def.h:75
 msgid "Estonian"
-msgstr "ภาษาเอสโตเนีย"
+msgstr "เอสโตเนีย"
 
 #: src/text/iso-639_def.h:76
 msgid "Faroese"
-msgstr "ภาษาแฟโร"
+msgstr "แฟโร"
 
 #: src/text/iso-639_def.h:77
 msgid "Fijian"
-msgstr "ภาษาฟิจิ"
+msgstr "ฟิจิ"
 
 #: src/text/iso-639_def.h:78
 msgid "Finnish"
-msgstr "ภาษาฟินแลนด์"
+msgstr "ฟินแลนด์"
 
 #: src/text/iso-639_def.h:79
 msgid "French"
-msgstr "ภาษาฝรั่งเศส"
+msgstr "ฝรั่งเศส"
 
 #: src/text/iso-639_def.h:80
 msgid "Frisian"
@@ -4660,19 +4663,19 @@ msgstr ""
 
 #: src/text/iso-639_def.h:81
 msgid "Georgian"
-msgstr "ภาษาจอร์เจีย"
+msgstr "จอร์เจีย"
 
 #: src/text/iso-639_def.h:82
 msgid "German"
-msgstr "ภาษาเยอรมัน"
+msgstr "เยอรมัน"
 
 #: src/text/iso-639_def.h:83
 msgid "Gaelic (Scots)"
-msgstr "ภาษาเกลิค (สก็อตส์)"
+msgstr "เกลิค (สก็อตส์)"
 
 #: src/text/iso-639_def.h:84
 msgid "Irish"
-msgstr "ภาษาไอริช"
+msgstr "ไอริช"
 
 #: src/text/iso-639_def.h:85
 msgid "Gallegan"
@@ -4684,7 +4687,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:87
 msgid "Greek, Modern ()"
-msgstr "ภาษากรีก, สมัยใหม่ ()"
+msgstr "กรีก, สมัยใหม่ ()"
 
 #: src/text/iso-639_def.h:88
 msgid "Guarani"
@@ -4692,11 +4695,11 @@ msgstr ""
 
 #: src/text/iso-639_def.h:89
 msgid "Gujarati"
-msgstr "ภาษาคุชราตี"
+msgstr "คุชราตี"
 
 #: src/text/iso-639_def.h:90
 msgid "Hebrew"
-msgstr "ภาษาฮีบรู"
+msgstr "ฮีบรู"
 
 #: src/text/iso-639_def.h:91
 msgid "Herero"
@@ -4704,7 +4707,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:92
 msgid "Hindi"
-msgstr "ภาษาฮินดี"
+msgstr "ฮินดี"
 
 #: src/text/iso-639_def.h:93
 msgid "Hiri Motu"
@@ -4712,11 +4715,11 @@ msgstr ""
 
 #: src/text/iso-639_def.h:94
 msgid "Hungarian"
-msgstr "ภาษาฮังการี"
+msgstr "ฮังการี"
 
 #: src/text/iso-639_def.h:95
 msgid "Icelandic"
-msgstr "ภาษาไอซ์แลนด์"
+msgstr "ไอซ์แลนด์"
 
 #: src/text/iso-639_def.h:96
 msgid "Inuktitut"
@@ -4728,11 +4731,11 @@ msgstr ""
 
 #: src/text/iso-639_def.h:98
 msgid "Interlingua"
-msgstr "ภาษาอินเทอร์ลิงกวา"
+msgstr "อินเทอร์ลิงกวา"
 
 #: src/text/iso-639_def.h:99
 msgid "Indonesian"
-msgstr "ภาษาอินโดนีเซีย"
+msgstr "อินโดนีเซีย"
 
 #: src/text/iso-639_def.h:100
 msgid "Inupiaq"
@@ -4740,15 +4743,15 @@ msgstr ""
 
 #: src/text/iso-639_def.h:101
 msgid "Italian"
-msgstr "ภาษาอิตาลี"
+msgstr "อิตาลี"
 
 #: src/text/iso-639_def.h:102
 msgid "Javanese"
-msgstr "ภาษาชวา"
+msgstr "ชวา"
 
 #: src/text/iso-639_def.h:103
 msgid "Japanese"
-msgstr "ภาษาญี่ปุ่น"
+msgstr "ญี่ปุ่น"
 
 #: src/text/iso-639_def.h:104
 msgid "Kalaallisut (Greenlandic)"
@@ -4756,11 +4759,11 @@ msgstr ""
 
 #: src/text/iso-639_def.h:105
 msgid "Kannada"
-msgstr "ภาษากัณณาท"
+msgstr "กัณณาท"
 
 #: src/text/iso-639_def.h:106
 msgid "Kashmiri"
-msgstr "ภาษากัศมีรี"
+msgstr "กัศมีรี"
 
 #: src/text/iso-639_def.h:107
 msgid "Kazakh"
@@ -4768,7 +4771,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:108
 msgid "Khmer"
-msgstr "ภาษาเขมร"
+msgstr "เขมร"
 
 #: src/text/iso-639_def.h:109
 msgid "Kikuyu"
@@ -4776,11 +4779,11 @@ msgstr ""
 
 #: src/text/iso-639_def.h:110
 msgid "Kinyarwanda"
-msgstr "ภาษารวันดา"
+msgstr "รวันดา"
 
 #: src/text/iso-639_def.h:111
 msgid "Kirghiz"
-msgstr "ภาษาคีร์กีซ"
+msgstr "คีร์กีซ"
 
 #: src/text/iso-639_def.h:112
 msgid "Komi"
@@ -4788,7 +4791,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:113
 msgid "Korean"
-msgstr "ภาษาเกาหลี"
+msgstr "เกาหลี"
 
 #: src/text/iso-639_def.h:114
 msgid "Kuanyama"
@@ -4796,19 +4799,19 @@ msgstr ""
 
 #: src/text/iso-639_def.h:115
 msgid "Kurdish"
-msgstr "ภาษาเคิร์ด "
+msgstr "เคิร์ด "
 
 #: src/text/iso-639_def.h:116
 msgid "Lao"
-msgstr "ภาษาลาว"
+msgstr "ลาว"
 
 #: src/text/iso-639_def.h:117
 msgid "Latin"
-msgstr "ภาษาลาติน"
+msgstr "ลาติน"
 
 #: src/text/iso-639_def.h:118
 msgid "Latvian"
-msgstr "ภาษาลัตเวีย "
+msgstr "ลัตเวีย "
 
 #: src/text/iso-639_def.h:119
 msgid "Lingala"
@@ -4816,7 +4819,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:120
 msgid "Lithuanian"
-msgstr "ภาษาลิทัวเนีย"
+msgstr "ลิทัวเนีย"
 
 #: src/text/iso-639_def.h:121
 msgid "Letzeburgesch"
@@ -4824,7 +4827,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:122
 msgid "Macedonian"
-msgstr "ภาษามาซิโดเนีย"
+msgstr "มาซิโดเนีย"
 
 #: src/text/iso-639_def.h:123
 msgid "Marshall"
@@ -4832,19 +4835,19 @@ msgstr ""
 
 #: src/text/iso-639_def.h:124
 msgid "Malayalam"
-msgstr "ภาษามลยาฬัม "
+msgstr "มลยาฬัม "
 
 #: src/text/iso-639_def.h:125
 msgid "Maori"
-msgstr "ภาษาเมารี"
+msgstr "เมารี"
 
 #: src/text/iso-639_def.h:126
 msgid "Marathi"
-msgstr "ภาษามาราฐี"
+msgstr "มาราฐี"
 
 #: src/text/iso-639_def.h:127
 msgid "Malay"
-msgstr "ภาษามาเลเซีย"
+msgstr "มาเลเซีย"
 
 #: src/text/iso-639_def.h:128
 msgid "Malagasy"
@@ -4852,7 +4855,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:129
 msgid "Maltese"
-msgstr "ภาษามอลตา"
+msgstr "มอลตา"
 
 #: src/text/iso-639_def.h:130
 msgid "Moldavian"
@@ -4860,15 +4863,15 @@ msgstr ""
 
 #: src/text/iso-639_def.h:131
 msgid "Mongolian"
-msgstr "ภาษามองโกล"
+msgstr "มองโกล"
 
 #: src/text/iso-639_def.h:132
 msgid "Nauru"
-msgstr "ภาษานาอูรู"
+msgstr "นาอูรู"
 
 #: src/text/iso-639_def.h:133
 msgid "Navajo"
-msgstr "ภาษานาวาโฮ"
+msgstr "นาวาโฮ"
 
 #: src/text/iso-639_def.h:134
 msgid "Ndebele, South"
@@ -4884,11 +4887,11 @@ msgstr ""
 
 #: src/text/iso-639_def.h:137
 msgid "Nepali"
-msgstr "ภาษาเนปาล"
+msgstr "เนปาล"
 
 #: src/text/iso-639_def.h:138
 msgid "Norwegian"
-msgstr "ภาษานอร์เวย์"
+msgstr "นอร์เวย์"
 
 #: src/text/iso-639_def.h:139
 msgid "Norwegian Nynorsk"
@@ -4908,7 +4911,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:143
 msgid "Oriya"
-msgstr "ภาษาโอริยา "
+msgstr "โอริยา "
 
 #: src/text/iso-639_def.h:144
 msgid "Oromo"
@@ -4920,23 +4923,23 @@ msgstr ""
 
 #: src/text/iso-639_def.h:147
 msgid "Panjabi"
-msgstr "ภาษาปัญจาบ"
+msgstr "ปัญจาบ"
 
 #: src/text/iso-639_def.h:148
 msgid "Persian"
-msgstr "ภาษาเปอร์เซีย"
+msgstr "เปอร์เซีย"
 
 #: src/text/iso-639_def.h:149
 msgid "Pali"
-msgstr "ภาษาบาลี (อินเดีย)"
+msgstr "บาลี (อินเดีย)"
 
 #: src/text/iso-639_def.h:150
 msgid "Polish"
-msgstr "ภาษาโปแลนด์ "
+msgstr "โปแลนด์ "
 
 #: src/text/iso-639_def.h:151
 msgid "Portuguese"
-msgstr "ภาษาโปรตุเกส"
+msgstr "โปรตุเกส"
 
 #: src/text/iso-639_def.h:152
 msgid "Pushto"
@@ -4956,7 +4959,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:156
 msgid "Romanian"
-msgstr "ภาษาโรมาเนีย\t"
+msgstr "โรมาเนีย"
 
 #: src/text/iso-639_def.h:157
 msgid "Rundi"
@@ -4964,7 +4967,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:158
 msgid "Russian"
-msgstr "ภาษารัสเซีย"
+msgstr "รัสเซีย"
 
 #: src/text/iso-639_def.h:159
 msgid "Sango"
@@ -4972,15 +4975,15 @@ msgstr ""
 
 #: src/text/iso-639_def.h:160
 msgid "Sanskrit"
-msgstr "ภาษาสันสกฤต (อินเดีย)"
+msgstr "สันสกฤต (อินเดีย)"
 
 #: src/text/iso-639_def.h:161
 msgid "Serbian"
-msgstr "ภาษาเซิร์บ"
+msgstr "เซิร์บ"
 
 #: src/text/iso-639_def.h:162
 msgid "Croatian"
-msgstr "ภาษาโครเอเชีย "
+msgstr "โครเอเชีย "
 
 #: src/text/iso-639_def.h:163
 msgid "Sinhalese"
@@ -4988,11 +4991,11 @@ msgstr ""
 
 #: src/text/iso-639_def.h:164
 msgid "Slovak"
-msgstr "ภาษาสโลวัก"
+msgstr "สโลวัก"
 
 #: src/text/iso-639_def.h:165
 msgid "Slovenian"
-msgstr "ภาษาสโลวีเนีย"
+msgstr "สโลวีเนีย"
 
 #: src/text/iso-639_def.h:166
 msgid "Northern Sami"
@@ -5008,7 +5011,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:169
 msgid "Sindhi"
-msgstr "ภาษาสินธี"
+msgstr "สินธี"
 
 #: src/text/iso-639_def.h:170
 msgid "Somali"
@@ -5020,7 +5023,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:172
 msgid "Spanish"
-msgstr "ภาษาสเปน"
+msgstr "สเปน"
 
 #: src/text/iso-639_def.h:173
 msgid "Sardinian"
@@ -5036,11 +5039,11 @@ msgstr ""
 
 #: src/text/iso-639_def.h:176
 msgid "Swahili"
-msgstr "ภาษาสวาฮีลี "
+msgstr "สวาฮีลี "
 
 #: src/text/iso-639_def.h:177
 msgid "Swedish"
-msgstr "ภาษาสวีเดน "
+msgstr "สวีเดน "
 
 #: src/text/iso-639_def.h:178
 msgid "Tahitian"
@@ -5056,23 +5059,23 @@ msgstr ""
 
 #: src/text/iso-639_def.h:181
 msgid "Telugu"
-msgstr "ภาษาเตลุคู "
+msgstr "เตลุคู "
 
 #: src/text/iso-639_def.h:182
 msgid "Tajik"
-msgstr "ภาษาทาจิก"
+msgstr "ทาจิก"
 
 #: src/text/iso-639_def.h:183
 msgid "Tagalog"
-msgstr "ภาษาตากาล็อก"
+msgstr "ตากาล็อก"
 
 #: src/text/iso-639_def.h:184
 msgid "Thai"
-msgstr "ภาษาไทย"
+msgstr "ไทย"
 
 #: src/text/iso-639_def.h:185
 msgid "Tibetan"
-msgstr "ภาษาทิเบต"
+msgstr "ทิเบต"
 
 #: src/text/iso-639_def.h:186
 msgid "Tigrinya"
@@ -5092,7 +5095,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:190
 msgid "Turkish"
-msgstr "ภาษาตุรกี"
+msgstr "ตุรกี"
 
 #: src/text/iso-639_def.h:191
 msgid "Turkmen"
@@ -5108,19 +5111,19 @@ msgstr ""
 
 #: src/text/iso-639_def.h:194
 msgid "Ukrainian"
-msgstr "ภาษายูเครน "
+msgstr "ยูเครน "
 
 #: src/text/iso-639_def.h:195
 msgid "Urdu"
-msgstr "ภาษาอูรดู "
+msgstr "อูรดู "
 
 #: src/text/iso-639_def.h:196
 msgid "Uzbek"
-msgstr "ภาษาอุซเบกิสถาน "
+msgstr "อุซเบกิสถาน "
 
 #: src/text/iso-639_def.h:197
 msgid "Vietnamese"
-msgstr "ภาษาเวียดนาม"
+msgstr "เวียดนาม"
 
 #: src/text/iso-639_def.h:198
 msgid "Volapuk"
@@ -5136,7 +5139,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:201
 msgid "Xhosa"
-msgstr "ภาษาคอซา"
+msgstr "คอซา"
 
 #: src/text/iso-639_def.h:202
 msgid "Yiddish"
@@ -5148,11 +5151,11 @@ msgstr ""
 
 #: src/text/iso-639_def.h:204
 msgid "Zhuang"
-msgstr "ภาษาจ้วง"
+msgstr "จ้วง"
 
 #: src/text/iso-639_def.h:205
 msgid "Zulu"
-msgstr "ภาษาซูลู"
+msgstr "ซูลู"
 
 #: src/video_output/postprocessing.c:87 modules/gui/macosx/MainMenu.m:328
 #: modules/gui/macosx/MainMenu.m:329 modules/video_filter/postproc.c:194
@@ -7740,7 +7743,7 @@ msgstr "ความสว่าง"
 
 #: modules/access/v4l2/video.c:94
 msgid "Picture brightness or black level."
-msgstr ""
+msgstr "ระดับความทึบและจ้าแสงของภาพ"
 
 #: modules/access/v4l2/video.c:95
 msgid "Automatic brightness"
@@ -7773,19 +7776,19 @@ msgstr ""
 #: modules/access/v4l2/video.c:102 modules/gui/macosx/VideoEffects.m:76
 #: modules/gui/qt4/ui/video_effects.h:1298
 msgid "Hue"
-msgstr "ความเข้มสี"
+msgstr "องศาเฉดสี"
 
 #: modules/access/v4l2/video.c:103
 msgid "Hue or color balance."
-msgstr ""
+msgstr "สมดุลหรือองศาเฉดสี"
 
 #: modules/access/v4l2/video.c:104
 msgid "Automatic hue"
-msgstr ""
+msgstr "องศาเฉดสีอัตโนมัติ"
 
 #: modules/access/v4l2/video.c:106
 msgid "Automatically adjust the picture hue."
-msgstr ""
+msgstr "ปรับองศาเฉดสีของภาพโดยอัตโนมัติ"
 
 #: modules/access/v4l2/video.c:107
 msgid "White balance temperature (K)"
@@ -7852,7 +7855,7 @@ msgstr "ความคมชัด"
 
 #: modules/access/v4l2/video.c:130
 msgid "Sharpness filter adjust."
-msgstr "ปรับตัวกรองความคมชัด"
+msgstr "ปรับตัวผันค่าความคมชัด"
 
 #: modules/access/v4l2/video.c:131
 msgid "Chroma gain"
@@ -7951,7 +7954,7 @@ msgstr "ดำ & ขาว"
 #: modules/access/v4l2/video.c:172 modules/gui/macosx/VideoEffects.m:118
 #: modules/video_filter/sepia.c:64 modules/gui/qt4/ui/video_effects.h:1336
 msgid "Sepia"
-msgstr ""
+msgstr "สีน้ำตาลซีเปีย"
 
 #: modules/access/v4l2/video.c:172
 msgid "Negative"
@@ -8346,7 +8349,7 @@ msgstr ""
 
 #: modules/access/zip/zipstream.c:48
 msgid "Zip files filter"
-msgstr "ตัวกรองแฟ้ม Zip"
+msgstr "ตัวผันค่าแฟ้ม Zip"
 
 #: modules/access/zip/zipstream.c:53
 msgid "Zip access"
@@ -8465,11 +8468,11 @@ msgstr ""
 
 #: modules/audio_filter/channel_mixer/dolby.c:49
 msgid "Simple decoder for Dolby Surround encoded streams"
-msgstr ""
+msgstr "ตัวอ่านรหัสทั่วไปของกระแสที่ลงรหัสแบบดอลบีเซอร์ราวนด์"
 
 #: modules/audio_filter/channel_mixer/dolby.c:50
 msgid "Dolby Surround decoder"
-msgstr ""
+msgstr "ตัวอ่านรหัสดอลบีเซอร์ราวนด์"
 
 #: modules/audio_filter/channel_mixer/headphone.c:52
 msgid ""
@@ -8501,13 +8504,15 @@ msgstr ""
 
 #: modules/audio_filter/channel_mixer/headphone.c:69
 msgid "No decoding of Dolby Surround"
-msgstr ""
+msgstr "ไม่ต้องอ่านรหัสของดอลบีเซอร์ราวนด์"
 
 #: modules/audio_filter/channel_mixer/headphone.c:71
 msgid ""
 "Dolby Surround encoded streams won't be decoded before being processed by "
 "this filter. Enabling this setting is not recommended."
 msgstr ""
+"กระแสที่ลงรหัสดอลบีเซอร์ราวนด์ จะไม่ถูกอ่านรหัสก่อนถูกประมวลผลโดยตัวผันค่า; "
+"ไม่แนะนำให้เปิดใช้ค่าตั้งนี้"
 
 #: modules/audio_filter/channel_mixer/headphone.c:75
 msgid "Headphone virtual spatialization effect"
@@ -8562,15 +8567,15 @@ msgstr "กลางหลัง"
 
 #: modules/audio_filter/channel_mixer/mono.c:113
 msgid "Audio filter for stereo to mono conversion"
-msgstr "ตัวกรองเสียงสำหรับ การแปลงจากสเตริโอเป็นโมโน"
+msgstr "ตัวผันค่าเสียงสำหรับการแปลงจากสเตริโอเป็นโมโน"
 
 #: modules/audio_filter/channel_mixer/simple.c:44
 msgid "Audio filter for simple channel mixing"
-msgstr "ตัวกรองเสียงสำหรับ การผสมช่องแบบเรียบง่าย"
+msgstr "ตัวผันค่าเสียงสำหรับการผสมช่องแบบเรียบง่าย"
 
 #: modules/audio_filter/channel_mixer/trivial.c:48
 msgid "Audio filter for trivial channel mixing"
-msgstr "ตัวกรองเสียงสำหรับ การผสมช่องแบบธรรมดา"
+msgstr "ตัวผันค่าเสียงสำหรับการผสมช่องแบบธรรมดา"
 
 #: modules/audio_filter/chorus_flanger.c:77
 msgid "Sound Delay"
@@ -8881,7 +8886,7 @@ msgstr "คาราโอเกะ"
 
 #: modules/audio_filter/karaoke.c:36
 msgid "Simple Karaoke filter"
-msgstr "ตัวกรอง คาราโอเกะแบบเรียบง่าย"
+msgstr "ตัวผันค่าคาราโอเกะแบบเรียบง่าย"
 
 #: modules/audio_filter/normvol.c:65
 msgid "Number of audio buffers"
@@ -9951,7 +9956,7 @@ msgstr ""
 
 #: modules/codec/dirac.c:87 modules/codec/schroedinger.c:54
 msgid "Chroma format"
-msgstr "รูปแบบความสดของสี"
+msgstr "รูปแบบความสดสี"
 
 #: modules/codec/dirac.c:88 modules/codec/schroedinger.c:55
 msgid ""
@@ -12349,7 +12354,7 @@ msgstr "ส่วนติดต่อควบคุมระยะไกลอ
 
 #: modules/control/motion.c:77
 msgid "Use the rotate video filter instead of transform"
-msgstr "ใช้ตัวกรองวีดิทัศน์-หมุน แทนการแปลง"
+msgstr "ใช้ตัวผันค่าหมุนวีดิทัศน์ แทนการแปลง"
 
 #: modules/control/motion.c:83
 msgid "motion"
@@ -13133,13 +13138,13 @@ msgstr ""
 
 #: modules/demux/image.c:56
 msgid "Forced chroma"
-msgstr ""
+msgstr "บังคับค่าความสดสี"
 
 #: modules/demux/image.c:58
 msgid ""
 "If non empty and image-decode is true, the image will be converted to the "
 "specified chroma."
-msgstr ""
+msgstr "เมื่อใส่ค่าไว้และค่าอ่านรหัสภาพถูกต้อง ภาพจะถูกแปลงไปใช้ค่าความสดสีที่ระบุ"
 
 #: modules/demux/image.c:61
 msgid "Duration in seconds"
@@ -14143,7 +14148,7 @@ msgstr ""
 
 #: modules/demux/rawvid.c:56
 msgid "Force chroma (Use carefully)"
-msgstr "บังคับค่าความสดของสี (ใช้ด้วยความระวัง)"
+msgstr "บังคับค่าความสดสี (ใช้ด้วยความระวัง)"
 
 #: modules/demux/rawvid.c:57
 msgid "Force chroma. This is a four character string."
@@ -14664,7 +14669,7 @@ msgstr "ระดับสูงสุด"
 
 #: modules/gui/macosx/AudioEffects.m:106
 msgid "Filter"
-msgstr "ตัวกรอง"
+msgstr "ตัวผันค่า"
 
 #: modules/gui/macosx/AudioEffects.m:107
 #: modules/gui/qt4/dialogs/extended.cpp:73
@@ -16938,7 +16943,7 @@ msgstr "ใช่: %@ @ %@ kb/s"
 
 #: modules/gui/macosx/wizard.m:1673
 msgid "This allows streaming on a network."
-msgstr "นี่จะอนุญาตให้ทำกระแสบนเครือข่าย"
+msgstr "ตัวเลือกนี้จะช่วยในการทำกระแสบนเครือข่าย"
 
 #: modules/gui/macosx/wizard.m:1681
 msgid ""
@@ -18096,6 +18101,7 @@ msgstr "บันทึกแฟ้ม"
 msgid ""
 "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv *.webm)"
 msgstr ""
+"การเก็บ (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv *.webm)"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:152
 msgid "This module outputs the transcoded stream to a network via HTTP."
@@ -18125,7 +18131,7 @@ msgstr "มอดูลนี้ใช้ส่งกระแสแปลงร
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:379
 msgid "Base port"
-msgstr ""
+msgstr "พอร์ตพื้นฐาน"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:429
 msgid "This module outputs the transcoded stream to an Icecast server."
@@ -18628,7 +18634,7 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:71
 msgid "Next widget style:"
-msgstr ""
+msgstr "รูปแบบวิดเจ็ดถัดไป:"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:72
 msgid "Flat Button"
@@ -18885,7 +18891,7 @@ msgstr "&ออก"
 
 #: modules/gui/qt4/menus.cpp:398
 msgid "&Effects and Filters"
-msgstr "ลูกเ&ล&่นและตัวกรอง"
+msgstr "ลูกเ&ล&่นและตัวผันค่า"
 
 #: modules/gui/qt4/menus.cpp:401
 msgid "&Track Synchronization"
@@ -19630,11 +19636,11 @@ msgstr "ชื่อแฟ้มที่จะตรวจหาหน้าป
 
 #: modules/misc/audioscrobbler.c:116
 msgid "The username of your last.fm account"
-msgstr ""
+msgstr "ชื่อผู้ใช้บัญชี last.fm ของคุณ"
 
 #: modules/misc/audioscrobbler.c:118
 msgid "The password of your last.fm account"
-msgstr ""
+msgstr "รหัสผ่านบัญชี last.fm ของคุณ"
 
 #: modules/misc/audioscrobbler.c:119
 msgid "Scrobbler URL"
@@ -19709,11 +19715,11 @@ msgstr "เซิร์ฟเวอร์ GNU TLS"
 
 #: modules/misc/inhibit.c:96
 msgid "Power Management Inhibitor"
-msgstr ""
+msgstr "ตัวยับยั้งการจัดการพลังงาน"
 
 #: modules/misc/inhibit.c:181
 msgid "Playing some media."
-msgstr ""
+msgstr "เล่นสื่ออยู่"
 
 #: modules/misc/inhibit/mce.c:39
 msgid "MCE"
@@ -20826,15 +20832,15 @@ msgstr ""
 #: modules/stream_out/mosaic_bridge.c:119
 #: modules/stream_out/transcode/transcode.c:78
 msgid "Video filter"
-msgstr "ตัวกรองวีดิทัศน์"
+msgstr "ตัวผันค่าวีดิทัศน์"
 
 #: modules/stream_out/mosaic_bridge.c:121
 msgid "Video filters will be applied to the video stream."
-msgstr "ตัวกรองวีดิทัศน์ที่จำนำไปใช้ในกระแสวีดิทัศน์"
+msgstr "ตัวผันค่าวีดิทัศน์ที่จะนำไปใช้กับกระแสวีดิทัศน์"
 
 #: modules/stream_out/mosaic_bridge.c:123
 msgid "Image chroma"
-msgstr "ความสดของสีของภาพ"
+msgstr "ความสดสีของภาพ"
 
 #: modules/stream_out/mosaic_bridge.c:125
 msgid ""
@@ -21446,7 +21452,7 @@ msgstr ""
 
 #: modules/stream_out/transcode/transcode.c:102
 msgid "Audio filter"
-msgstr "ตัวกรองเสียง"
+msgstr "ตัวผันค่าเสียง"
 
 #: modules/stream_out/transcode/transcode.c:104
 msgid ""
@@ -21771,39 +21777,39 @@ msgstr ""
 
 #: modules/video_filter/adjust.c:72
 msgid "Image hue (0-360)"
-msgstr ""
+msgstr "องศาเฉดสีภาพ (0-360)"
 
 #: modules/video_filter/adjust.c:73
 msgid "Set the image hue, between 0 and 360. Defaults to 0."
-msgstr ""
+msgstr "ตั้งค่าองศาเฉดสีภาพ ระหว่าง 0 ถึง 360; ค่าปริยายคือ 0"
 
 #: modules/video_filter/adjust.c:74
 msgid "Image saturation (0-3)"
-msgstr ""
+msgstr "ความอิ่มสีภาพ (0-3)"
 
 #: modules/video_filter/adjust.c:75
 msgid "Set the image saturation, between 0 and 3. Defaults to 1."
-msgstr ""
+msgstr "ตั้งค่าความอิ่มสีภาพ ระหว่าง 0 ถึง 3; ค่าปริยายคือ 1"
 
 #: modules/video_filter/adjust.c:76
 msgid "Image brightness (0-2)"
-msgstr ""
+msgstr "ความสว่างภาพ (0-2)"
 
 #: modules/video_filter/adjust.c:77
 msgid "Set the image brightness, between 0 and 2. Defaults to 1."
-msgstr ""
+msgstr "ตั้งค่าความสว่างภาพ ระหว่าง 0 ถึง 2; ค่าปริยายคือ 1"
 
 #: modules/video_filter/adjust.c:78
 msgid "Image gamma (0-10)"
-msgstr ""
+msgstr "แกมมาภาพ (0-10)"
 
 #: modules/video_filter/adjust.c:79
 msgid "Set the image gamma, between 0.01 and 10. Defaults to 1."
-msgstr ""
+msgstr "ตั้งค่าแกมมาภาพ ระหว่าง 0.01 ถึง 10; ค่าปริยายคือ 1"
 
 #: modules/video_filter/adjust.c:82
 msgid "Image properties filter"
-msgstr "ตัวกรองคุณสมบัติภาพ"
+msgstr "ตัวผันค่าคุณสมบัติภาพ"
 
 #: modules/video_filter/adjust.c:83 modules/gui/qt4/ui/video_effects.h:1297
 msgid "Image adjust"
@@ -21823,7 +21829,7 @@ msgstr ""
 
 #: modules/video_filter/alphamask.c:63
 msgid "Alpha mask video filter"
-msgstr "ตัวกรองวีดิทัศน์-ตัวพรางแอลฟา"
+msgstr "ตัวผันค่าตัวพรางแอลฟาวีดิทัศน์"
 
 #: modules/video_filter/alphamask.c:64
 msgid "Alpha mask"
@@ -21885,11 +21891,11 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:153
 msgid "Classic AtmoLight"
-msgstr ""
+msgstr "Classic AtmoLight"
 
 #: modules/video_filter/atmo/atmo.cpp:154
 msgid "Quattro AtmoLight"
-msgstr ""
+msgstr "Quattro AtmoLight"
 
 #: modules/video_filter/atmo/atmo.cpp:155
 msgid "DMX"
@@ -21905,7 +21911,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:160
 msgid "Count of AtmoLight channels"
-msgstr ""
+msgstr "จำนวนช่องของ AtmoLight"
 
 #: modules/video_filter/atmo/atmo.cpp:161
 msgid "How many AtmoLight channels, should be emulated with that DMX device"
@@ -22218,7 +22224,7 @@ msgstr "เปอร์เซนต์"
 
 #: modules/video_filter/atmo/atmo.cpp:297
 msgid "Frame delay (ms)"
-msgstr ""
+msgstr "หน่วงเวลาเฟรม (ms)"
 
 #: modules/video_filter/atmo/atmo.cpp:298
 msgid ""
@@ -22335,7 +22341,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:364
 msgid "AtmoLight Filter"
-msgstr "ตัวกรอง AtmoLight"
+msgstr "ตัวผันค่า Atmolight"
 
 #: modules/video_filter/atmo/atmo.cpp:366
 #: modules/gui/qt4/ui/video_effects.h:1372
@@ -22498,7 +22504,7 @@ msgstr ""
 
 #: modules/video_filter/ball.c:123
 msgid "Ball video filter"
-msgstr "ตัวกรองวีดิทัศน์-บอล"
+msgstr "ตัวผันค่าบอลวีดิทัศน์"
 
 #: modules/video_filter/ball.c:124
 msgid "Ball"
@@ -22530,7 +22536,7 @@ msgstr ""
 
 #: modules/video_filter/blendbench.c:61
 msgid "Chroma for the base image"
-msgstr "ความสดของสีสำหรับภาพพื้นฐาน"
+msgstr "ความสดสีสำหรับภาพพื้นฐาน"
 
 #: modules/video_filter/blendbench.c:62
 msgid "Chroma which the base image will be loaded in"
@@ -22626,7 +22632,7 @@ msgstr ""
 
 #: modules/video_filter/bluescreen.c:77
 msgid "Bluescreen video filter"
-msgstr "ตัวกรองวีดิทัศน์-จอฟ้า"
+msgstr "ตัวผันค่าจอฟ้าวีดิทัศน์"
 
 #: modules/video_filter/bluescreen.c:78
 msgid "Bluescreen"
@@ -22678,7 +22684,7 @@ msgstr "ขอบภาพ"
 
 #: modules/video_filter/canvas.c:106
 msgid "Canvas video filter"
-msgstr "ตัวกรองขอบภาพวีดิทัศน์"
+msgstr "ตัวผันค่าขอบภาพวีดิทัศน์"
 
 #: modules/video_filter/chain.c:43
 msgid "Video filtering using a chain of video filter modules"
@@ -22708,7 +22714,7 @@ msgstr ""
 
 #: modules/video_filter/clone.c:55
 msgid "Clone video filter"
-msgstr "ตัวกรองวีดิทัศน์-โคลน"
+msgstr "ตัวผันค่าโคลนวีดิทัศน์"
 
 #: modules/video_filter/clone.c:57 modules/gui/qt4/ui/video_effects.h:1388
 msgid "Clone"
@@ -22829,7 +22835,7 @@ msgstr ""
 
 #: modules/video_filter/crop.c:104
 msgid "Crop video filter"
-msgstr "ตัวกรองตัดขอบวีดิทัศน์"
+msgstr "ตัวผันค่าตัดขอบวีดิทัศน์"
 
 #: modules/video_filter/crop.c:377 modules/video_filter/crop.c:468
 msgid "Cropping failed"
@@ -23033,7 +23039,7 @@ msgstr ""
 
 #: modules/video_filter/erase.c:68
 msgid "Erase video filter"
-msgstr "ตัวกรองวีดิทัศน์-ลบ"
+msgstr "ตัวผันค่าลบวีดิทัศน์"
 
 #: modules/video_filter/erase.c:69
 msgid "Erase"
@@ -23125,7 +23131,7 @@ msgstr ""
 
 #: modules/video_filter/gradient.c:81
 msgid "Gradient video filter"
-msgstr "ตัวกรองวีดิทัศน์-การไล่ระดับสี"
+msgstr "ตัวผันค่าไล่ระดับสีวีดิทัศน์"
 
 #: modules/video_filter/grain.c:54
 msgid "Variance of the gaussian noise"
@@ -23201,7 +23207,7 @@ msgstr ""
 
 #: modules/video_filter/invert.c:50
 msgid "Invert video filter"
-msgstr "ตัวกรองวีดิทัศน์-กลับค่า"
+msgstr "ตัวผันกลับค่าวีดิทัศน์"
 
 #: modules/video_filter/invert.c:51
 msgid "Color inversion"
@@ -23271,11 +23277,11 @@ msgstr "โลโก้ภาพซ้อน"
 
 #: modules/video_filter/logo.c:111
 msgid "Logo video filter"
-msgstr "ตัวกรองวีดิทัศน์-โลโก้"
+msgstr "ตัวผันค่าโลโก้วีดิทัศน์"
 
 #: modules/video_filter/magnify.c:47
 msgid "Magnify/Zoom interactive video filter"
-msgstr "ตัวกรองวีดิทัศน์เชิงโต้ตอบ ขยาย/แสดงย่อ-ขยาย"
+msgstr "ตัวผันค่าเชิงโต้ตอบ ขยาย/แสดงย่อ-ขยาย วีดิทัศน์"
 
 #: modules/video_filter/magnify.c:48
 msgid "Magnify"
@@ -23369,7 +23375,7 @@ msgstr "แนวนอน"
 
 #: modules/video_filter/mirror.c:69
 msgid "Direction"
-msgstr ""
+msgstr "ทิศทางการกลับ"
 
 #: modules/video_filter/mirror.c:70
 msgid "Direction of the mirroring"
@@ -23385,11 +23391,11 @@ msgstr "ขวาไปซ้าย/ล่างขึ้นบน"
 
 #: modules/video_filter/mirror.c:78
 msgid "Mirror video filter"
-msgstr "ตัวกรองวีดิทัศน์-กระจกเงา"
+msgstr "ตัวผันค่ากระจกเงาวีดิทัศน์"
 
 #: modules/video_filter/mirror.c:79
 msgid "Mirror video"
-msgstr "วีดิทัศน์ กระจกเงา"
+msgstr "วีดิทีศน์ภาพกระจกเงา"
 
 #: modules/video_filter/mirror.c:80
 msgid "Splits video in two same parts, like in a mirror"
@@ -23560,7 +23566,7 @@ msgstr ""
 
 #: modules/video_filter/motiondetect.c:48
 msgid "Motion detect video filter"
-msgstr "ตัวกรองวีดิทัศน์-ตรวจจับการเคลื่อนไหว"
+msgstr "ตัวตรวจจับการเคลื่อนไหว"
 
 #: modules/video_filter/opencv_example.c:66
 msgid "OpenCV face detection example filter"
@@ -23634,7 +23640,7 @@ msgstr ""
 
 #: modules/video_filter/opencv_wrapper.c:89
 msgid "OpenCV filter chroma"
-msgstr "ความสดของสีของตัวกรอง OpenCV"
+msgstr "ความสดสีของตัวผันค่า OpenCV"
 
 #: modules/video_filter/opencv_wrapper.c:90
 msgid ""
@@ -23857,99 +23863,99 @@ msgstr ""
 
 #: modules/video_filter/panoramix.c:128
 msgid "Black Crush for Red"
-msgstr ""
+msgstr "เกลี่ยไล่ความดำ ของช่วงสีแดง"
 
 #: modules/video_filter/panoramix.c:129
 msgid "Select the Black Crush of blended zone (Red or Y component)"
-msgstr ""
+msgstr "เลือกค่าความดำที่จะทำการเกลี่ยไล่ไปในบริเวณผสม (ช่วงสีแดง หรือ ค่าประกอบสี Y)"
 
 #: modules/video_filter/panoramix.c:130
 msgid "Black Crush for Green"
-msgstr ""
+msgstr "เกลี่ยไล่ความดำ ของช่วงสีเขียว"
 
 #: modules/video_filter/panoramix.c:131
 msgid "Select the Black Crush of blended zone (Green or U component)"
-msgstr ""
+msgstr "เลือกค่าความดำที่จะทำการเกลี่ยไล่ไปในบริเวณผสม (ช่วงสีเขียว หรือ ค่าประกอบสี U)"
 
 #: modules/video_filter/panoramix.c:132
 msgid "Black Crush for Blue"
-msgstr ""
+msgstr "เกลี่ยไล่ความดำ ของช่วงสีน้ำเงิน"
 
 #: modules/video_filter/panoramix.c:133
 msgid "Select the Black Crush of blended zone (Blue or V component)"
-msgstr ""
+msgstr "เลือกค่าความดำที่จะทำการเกลี่ยไล่ไปในบริเวณผสม (ช่วงสีน้ำเงิน หรือ ค่าประกอบสี V)"
 
 #: modules/video_filter/panoramix.c:135
 msgid "White Crush for Red"
-msgstr ""
+msgstr "เกลี่ยไล่ความขาว ของช่วงสีแดง"
 
 #: modules/video_filter/panoramix.c:136
 msgid "Select the White Crush of blended zone (Red or Y component)"
-msgstr ""
+msgstr "เลือกค่าความขาวที่จะทำการเกลี่ยไล่ไปในบริเวณผสม (ช่วงสีแดง หรือ ค่าประกอบสี Y)"
 
 #: modules/video_filter/panoramix.c:137
 msgid "White Crush for Green"
-msgstr ""
+msgstr "เกลี่ยไล่ความขาว ของช่วงสีเขียว"
 
 #: modules/video_filter/panoramix.c:138
 msgid "Select the White Crush of blended zone (Green or U component)"
-msgstr ""
+msgstr "เลือกค่าความขาวที่จะทำการเกลี่ยไล่ไปในบริเวณผสม (ช่วงสีเขียว หรือ ค่าประกอบสี U)"
 
 #: modules/video_filter/panoramix.c:139
 msgid "White Crush for Blue"
-msgstr ""
+msgstr "เกลี่ยไล่ความขาว ของช่วงสีน้ำเงิน"
 
 #: modules/video_filter/panoramix.c:140
 msgid "Select the White Crush of blended zone (Blue or V component)"
-msgstr ""
+msgstr "เลือกค่าความขาวที่จะทำการเกลี่ยไล่ไปในบริเวณผสม (ช่วงสีน้ำเงิน หรือ ค่าประกอบสี V)"
 
 #: modules/video_filter/panoramix.c:142
 msgid "Black Level for Red"
-msgstr ""
+msgstr "ระดับความดำของช่วงสีแดง"
 
 #: modules/video_filter/panoramix.c:143
 msgid "Select the Black Level of blended zone (Red or Y component)"
-msgstr ""
+msgstr "เลือกระดับความดำของของบริเวณผสม (ช่วงสีแดง หรือ ค่าประกอบสี Y)"
 
 #: modules/video_filter/panoramix.c:144
 msgid "Black Level for Green"
-msgstr ""
+msgstr "ระดับความดำของช่วงสีเขียว"
 
 #: modules/video_filter/panoramix.c:145
 msgid "Select the Black Level of blended zone (Green or U component)"
-msgstr ""
+msgstr "เลือกระดับความดำของของบริเวณผสม (ช่วงสีเขียว หรือ ค่าประกอบสี U)"
 
 #: modules/video_filter/panoramix.c:146
 msgid "Black Level for Blue"
-msgstr ""
+msgstr "ระดับความดำของช่วงสีน้ำเงิน"
 
 #: modules/video_filter/panoramix.c:147
 msgid "Select the Black Level of blended zone (Blue or V component)"
-msgstr ""
+msgstr "เลือกระดับความดำของของบริเวณผสม (ช่วงสีน้ำเงิน หรือ ค่าประกอบสี V)"
 
 #: modules/video_filter/panoramix.c:149
 msgid "White Level for Red"
-msgstr ""
+msgstr "ระดับความขาวของช่วงสีแดง"
 
 #: modules/video_filter/panoramix.c:150
 msgid "Select the White Level of blended zone (Red or Y component)"
-msgstr ""
+msgstr "เลือกระดับความขาวของบริเวณผสม (ช่วงสีแดง หรือ ค่าประกอบสี Y)"
 
 #: modules/video_filter/panoramix.c:151
 msgid "White Level for Green"
-msgstr ""
+msgstr "ระดับความขาวของช่วงสีเขียว"
 
 #: modules/video_filter/panoramix.c:152
 msgid "Select the White Level of blended zone (Green or U component)"
-msgstr ""
+msgstr "เลือกระดับความขาวของบริเวณผสม (ช่วงสีเขียว หรือ ค่าประกอบสี U)"
 
 #: modules/video_filter/panoramix.c:153
 msgid "White Level for Blue"
-msgstr ""
+msgstr "ระดับความขาวของช่วงสีน้ำเงิน"
 
 #: modules/video_filter/panoramix.c:154
 msgid "Select the White Level of blended zone (Blue or V component)"
-msgstr ""
+msgstr "เลือกระดับความขาวของบริเวณผสม (ช่วงสีน้ำเงิน หรือ ค่าประกอบสี V)"
 
 #: modules/video_filter/posterize.c:60
 msgid "Posterize level (number of colors is cube of this value)"
@@ -24096,7 +24102,7 @@ msgstr "OSD-ระยะไกล"
 
 #: modules/video_filter/ripple.c:52
 msgid "Ripple video filter"
-msgstr "ตัวกรองวีดิทัศน์-Ripple"
+msgstr "ตัวผันค่าริปเปิลวีดิทัศน์"
 
 #: modules/video_filter/ripple.c:53
 msgid "Ripple"
@@ -24112,7 +24118,7 @@ msgstr "มุมแบบองศา (0 ถึง 359)"
 
 #: modules/video_filter/rotate.c:66
 msgid "Rotate video filter"
-msgstr "ตัวกรองวีดิทัศน์-หมุน"
+msgstr "ตัวผันค่าหมุนวีดิทัศน์"
 
 #: modules/video_filter/rotate.c:67 modules/gui/qt4/ui/video_effects.h:1344
 msgid "Rotate"
@@ -24284,27 +24290,27 @@ msgstr ""
 
 #: modules/video_filter/scene.c:93
 msgid "Scene filter"
-msgstr "ตัวกรองฉาก"
+msgstr "ตัวผันค่าฉาก"
 
 #: modules/video_filter/scene.c:94
 msgid "Scene video filter"
-msgstr "ตัวกรองฉากวีดิทัศน์"
+msgstr "ตัวผันค่าฉากวีดิทัศน์"
 
 #: modules/video_filter/sepia.c:57
 msgid "Sepia intensity"
-msgstr ""
+msgstr "ความเข้มสีน้ำตาลซีเปีย"
 
 #: modules/video_filter/sepia.c:58
 msgid "Intensity of sepia effect"
-msgstr ""
+msgstr "ความเข้มของลูกเล่นสีน้ำตาลซีเปีย"
 
 #: modules/video_filter/sepia.c:63
 msgid "Sepia video filter"
-msgstr "ตัวกรองวีดิทัศน์-Sepia"
+msgstr "ตัวผันค่าสีน้ำตาลซีเปียวีดิทัศน์"
 
 #: modules/video_filter/sepia.c:65
 msgid "Gives video a warmer tone by applying sepia effect"
-msgstr ""
+msgstr "ทำให้ภาพวีดิทัศน์เป็นโทนสีอ่อน โดยการใช้ลูกเล่นสีน้ำตาลซีเปีย"
 
 #: modules/video_filter/sharpen.c:46
 msgid "Sharpen strength (0-2)"
@@ -24515,15 +24521,15 @@ msgstr ""
 
 #: modules/video_filter/wall.c:65
 msgid "Wall video filter"
-msgstr "ตัวกรองวีดิทัศน์-กำแพง"
+msgstr "ตัวผันค่าแยกฉากวีดิทัศน์"
 
 #: modules/video_filter/wall.c:66
 msgid "Image wall"
-msgstr "กำแพงภาพ"
+msgstr "ฉากแยก"
 
 #: modules/video_filter/wave.c:53
 msgid "Wave video filter"
-msgstr "ตัวกรองวีดิทัศน์-คลื่น"
+msgstr "ตัวผันค่าภาพวีดิทัศน์แบบคลื่น"
 
 #: modules/video_filter/wave.c:54
 msgid "Wave"
@@ -24824,7 +24830,7 @@ msgstr ""
 
 #: modules/video_output/sdl.c:56
 msgid "SDL chroma format"
-msgstr "รูปแบบความสดของสี SDL"
+msgstr "รูปแบบความสดสี SDL"
 
 #: modules/video_output/sdl.c:58
 msgid ""
@@ -24872,7 +24878,7 @@ msgstr "ระดับเสียงบัฟเฟอร์ความจำ
 
 #: modules/video_output/vmem.c:51
 msgid "Chroma"
-msgstr "ความสดของสี"
+msgstr "ความสดสี"
 
 #: modules/video_output/vmem.c:52
 msgid ""
@@ -24998,7 +25004,7 @@ msgstr ""
 
 #: modules/video_output/yuv.c:44
 msgid "Chroma used"
-msgstr "ความสดของสีที่ใช้"
+msgstr "ความสดสีที่ใช้"
 
 #: modules/video_output/yuv.c:46
 msgid "Force use of a specific chroma for output. Default is I420."
@@ -25036,8 +25042,8 @@ msgid ""
 "This allows you to set the resolution of the Goom display (bigger resolution "
 "will be prettier but more CPU intensive)."
 msgstr ""
-"นี่จะช่วยคุณในการตั้งความละเอียดของการแสดง Goom (ยิ่งละเอียดมากก็จะแสดงได้ดีขึ้น แต่ก็ใช้ CPU "
-"มากขึ้นด้วยเช่นกัน)"
+"ตัวเลือกนี้จะช่วยคุณในการตั้งความละเอียดของการแสดง Goom (ยิ่งละเอียดมากก็จะแสดงได้ดีขึ้น "
+"แต่ก็ใช้ CPU มากขึ้นด้วยเช่นกัน)"
 
 #: modules/visualization/goom.c:50
 msgid "Goom animation speed"
@@ -25046,7 +25052,8 @@ msgstr "ความเร็วภาพเคลื่อนไหว Goom"
 #: modules/visualization/goom.c:51
 msgid ""
 "This allows you to set the animation speed (between 1 and 10, defaults to 6)."
-msgstr "นี่จะช่วยคุณในการตั้งความเร็วภาพเคลื่อนไหว (ระหว่าง 1 และ 10, ค่าปริยาย คือ 6)"
+msgstr ""
+"ตัวเลือกนี้จะช่วยคุณในการตั้งความเร็วภาพเคลื่อนไหว (ระหว่าง 1 และ 10, ค่าปริยาย คือ 6)"
 
 #: modules/visualization/goom.c:57
 msgid "Goom"
@@ -25232,7 +25239,7 @@ msgstr "มโนทัศน์"
 
 #: modules/visualization/visual/visual.c:103
 msgid "Visualizer filter"
-msgstr "ตัวกรองมโนทัศน์"
+msgstr "ตัวผันค่ามโนทัศน์"
 
 #: modules/visualization/visual/visual.c:111
 msgid "Spectrum analyser"
@@ -25825,7 +25832,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:443
 msgid "Dolby Surround:"
-msgstr ""
+msgstr "เสียงรอบทิศทาง (ดอลบีเซอร์ราวนด์):"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:444
 msgid "Replay gain mode:"
@@ -25965,7 +25972,7 @@ msgstr "ตั้งค่าคลังสื่อ"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:525
 msgid "Look and feel"
-msgstr "รูปลักษณ์และมุมมอง "
+msgstr "รูปลักษณ์และมุมมอง"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:526
 msgid "Use custom skin"
@@ -26251,7 +26258,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1393
 msgid "Mirror"
-msgstr "แหล่งสำเนา"
+msgstr "กระจกเงา"
 
 #: modules/gui/qt4/ui/vlm.h:287
 msgid "VLM configurator"
@@ -26602,7 +26609,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "Queue Selected"
-#~ msgstr "ลบที่เลือก"
+#~ msgstr "ลบที่เลือกออกจากผัง"
 
 #, fuzzy
 #~ msgid "Play Selected"
@@ -26654,7 +26661,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "Remove Stream"
-#~ msgstr "ลบที่เลือก"
+#~ msgstr "ลบที่เลือกออกจากผัง"
 
 #, fuzzy
 #~ msgid "Create New Stream"
@@ -26758,7 +26765,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "Vout filters"
-#~ msgstr "ตัวกรองวีดิทัศน์"
+#~ msgstr "ตัวผันค่าวีดิทัศน์"
 
 #, fuzzy
 #~ msgid "Advanced video filter controls"
@@ -26926,7 +26933,7 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "Message filter"
-#~ msgstr "ตัวกรองฉาก"
+#~ msgstr "ตัวผันค่าฉาก"
 
 #, fuzzy
 #~ msgid "M3U8 playlist (*.m3u8)"
@@ -26951,4 +26958,4 @@ msgstr "รายการตัวจัดการสื่อ"
 
 #, fuzzy
 #~ msgid "Subpicture filters"
-#~ msgstr "มอดูลตัวกรองภาพบทบรรยาย"
+#~ msgstr "มอดูลตัวผันค่าภาพบทบรรยาย"
