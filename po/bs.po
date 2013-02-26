@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2012-12-11 15:41+0100\n"
-"PO-Revision-Date: 2013-01-24 15:19+0000\n"
+"PO-Revision-Date: 2013-02-06 19:46+0000\n"
 "Last-Translator: Adnan Memija <sream_92@live.com>\n"
 "Language-Team: Bosnian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/bs/)\n"
@@ -178,7 +178,7 @@ msgstr "Ulaz / Kodeci"
 
 #: include/vlc_config_cat.h:94
 msgid "Settings for input, demultiplexing, decoding and encoding"
-msgstr ""
+msgstr "Postavke za ulaz, demultipleksiranje, dekodiranje i kodiranje"
 
 #: include/vlc_config_cat.h:97
 msgid "Access modules"
@@ -206,7 +206,7 @@ msgstr "Demukseri"
 
 #: include/vlc_config_cat.h:109
 msgid "Demuxers are used to separate audio and video streams."
-msgstr ""
+msgstr "Demukseri se koriste za odvajanje zvučnih i video strujanja."
 
 #: include/vlc_config_cat.h:111
 msgid "Video codecs"
@@ -322,7 +322,7 @@ msgstr "VOD"
 
 #: include/vlc_config_cat.h:171
 msgid "VLC's implementation of Video On Demand"
-msgstr ""
+msgstr "VLC je implementacija videa po zahtjevu"
 
 #: include/vlc_config_cat.h:175 src/libvlc-module.c:2177
 #: src/playlist/engine.c:230 modules/demux/playlist/playlist.c:63
@@ -726,7 +726,7 @@ msgstr "Spektrometar"
 
 #: src/audio_output/common.c:91
 msgid "Scope"
-msgstr ""
+msgstr "Polje"
 
 #: src/audio_output/common.c:94
 msgid "Spectrum"
@@ -734,7 +734,7 @@ msgstr "Spektar"
 
 #: src/audio_output/common.c:97
 msgid "Vu meter"
-msgstr ""
+msgstr "VU metar"
 
 #: src/audio_output/common.c:122 modules/audio_filter/equalizer.c:76
 #: modules/gui/macosx/AudioEffects.m:103
@@ -751,12 +751,12 @@ msgstr ""
 
 #: src/audio_output/filters.c:142
 msgid "Audio filtering failed"
-msgstr ""
+msgstr "Zvučno filtriranje neuspješno"
 
 #: src/audio_output/filters.c:143
 #, c-format
 msgid "The maximum number of filters (%u) was reached."
-msgstr ""
+msgstr "Maksimalni broj filtera (%u) je dosegnut."
 
 #: src/audio_output/output.c:100 src/audio_output/output.c:128
 #: modules/access/vcdx/info.c:86 modules/gui/macosx/MainMenu.m:298
@@ -967,6 +967,8 @@ msgid ""
 "VLC does not support the audio or video format \"%4.4s\". Unfortunately "
 "there is no way for you to fix this."
 msgstr ""
+"VLC ne podržava zvučni ili video format \"%4.4s\", Nažalost ne postoji način "
+"da se ovo popravi."
 
 #: src/input/es_out.c:954 src/input/es_out.c:959 src/libvlc-module.c:387
 #: modules/access/vcdx/access.c:458 modules/access/vcdx/info.c:226
@@ -987,7 +989,7 @@ msgstr "Program"
 
 #: src/input/es_out.c:1368 src/input/es_out.c:1370
 msgid "Scrambled"
-msgstr ""
+msgstr "Umućeno"
 
 #: src/input/es_out.c:1368
 msgid "Yes"
@@ -1097,7 +1099,7 @@ msgstr "Dekodirani format"
 
 #: src/input/input.c:2465
 msgid "Your input can't be opened"
-msgstr ""
+msgstr "Vaš ulaz se ne može otvoriti"
 
 #: src/input/input.c:2466
 #, c-format
@@ -1106,7 +1108,7 @@ msgstr ""
 
 #: src/input/input.c:2583
 msgid "VLC can't recognize the input's format"
-msgstr ""
+msgstr "VLC ne može da prepozna ulazni format"
 
 #: src/input/input.c:2584
 #, c-format
@@ -1232,7 +1234,7 @@ msgstr ""
 #: src/input/var.c:338 src/input/var.c:397
 #, c-format
 msgid "Chapter %i"
-msgstr ""
+msgstr "Poglavlje %i"
 
 #: src/input/var.c:376 modules/gui/qt4/dialogs/toolbar.cpp:400
 msgid "Next chapter"
@@ -1453,11 +1455,11 @@ msgstr "Forsiraj mono zvuk"
 
 #: src/libvlc-module.c:294
 msgid "This will force a mono audio output."
-msgstr ""
+msgstr "Ovo će prisiliti mono zvučni izlaz."
 
 #: src/libvlc-module.c:297
 msgid "Default audio volume"
-msgstr ""
+msgstr "Zadana jačina zvuka"
 
 #: src/libvlc-module.c:299
 msgid ""
@@ -1519,7 +1521,7 @@ msgstr ""
 #: src/libvlc-module.c:332 modules/gui/macosx/simple_prefs.m:233
 #: modules/gui/qt4/ui/sprefs_audio.h:439
 msgid "Use S/PDIF when available"
-msgstr ""
+msgstr "Koristi S/PDIF kada je dostupan"
 
 #: src/libvlc-module.c:334
 msgid ""
@@ -1529,7 +1531,7 @@ msgstr ""
 
 #: src/libvlc-module.c:337 modules/gui/macosx/simple_prefs.m:225
 msgid "Force detection of Dolby Surround"
-msgstr ""
+msgstr "Prisili otkrivanje za Dolby Surround"
 
 #: src/libvlc-module.c:339
 msgid ""
@@ -1556,7 +1558,7 @@ msgstr ""
 
 #: src/libvlc-module.c:354
 msgid "Audio visualizations "
-msgstr ""
+msgstr "Zvučne vizualizacije"
 
 #: src/libvlc-module.c:356
 msgid "This adds visualization modules (spectrum analyzer, etc.)."
@@ -1912,7 +1914,7 @@ msgstr ""
 
 #: src/libvlc-module.c:514 modules/video_filter/deinterlace/deinterlace.h:57
 msgid "Bob"
-msgstr ""
+msgstr "Bob"
 
 #: src/libvlc-module.c:515 modules/video_filter/deinterlace/deinterlace.h:57
 msgid "Linear"
@@ -1920,7 +1922,7 @@ msgstr "Linearno"
 
 #: src/libvlc-module.c:515 modules/video_filter/deinterlace/deinterlace.h:58
 msgid "Phosphor"
-msgstr ""
+msgstr "Fosfor"
 
 #: src/libvlc-module.c:516 modules/video_filter/deinterlace/deinterlace.h:58
 msgid "Film NTSC (IVTC)"
@@ -2430,7 +2432,7 @@ msgstr ""
 
 #: src/libvlc-module.c:793
 msgid "Fast seek"
-msgstr ""
+msgstr "Brzo traženje"
 
 #: src/libvlc-module.c:795
 msgid "Favor speed over precision while seeking"
@@ -2446,7 +2448,7 @@ msgstr ""
 
 #: src/libvlc-module.c:801
 msgid "Input list"
-msgstr ""
+msgstr "Ulazna lista"
 
 #: src/libvlc-module.c:803
 msgid ""
@@ -2467,7 +2469,7 @@ msgstr ""
 
 #: src/libvlc-module.c:812
 msgid "Bookmarks list for a stream"
-msgstr ""
+msgstr "Lista oznaka za strujanje"
 
 #: src/libvlc-module.c:814
 msgid ""
@@ -2691,7 +2693,7 @@ msgstr ""
 
 #: src/libvlc-module.c:945
 msgid "HTTP server address"
-msgstr ""
+msgstr "HTTP adresa poslužitelja"
 
 #: src/libvlc-module.c:947
 msgid ""
@@ -2702,7 +2704,7 @@ msgstr ""
 
 #: src/libvlc-module.c:951
 msgid "RTSP server address"
-msgstr ""
+msgstr "RTSP adresa poslužitelja"
 
 #: src/libvlc-module.c:953
 msgid ""
@@ -2715,7 +2717,7 @@ msgstr ""
 
 #: src/libvlc-module.c:959
 msgid "HTTP server port"
-msgstr ""
+msgstr "HTTP priključak poslužitelja"
 
 #: src/libvlc-module.c:961
 msgid ""
@@ -2726,7 +2728,7 @@ msgstr ""
 
 #: src/libvlc-module.c:966
 msgid "HTTPS server port"
-msgstr ""
+msgstr "HTTPS priključak poslužitelja"
 
 #: src/libvlc-module.c:968
 msgid ""
@@ -2737,7 +2739,7 @@ msgstr ""
 
 #: src/libvlc-module.c:973
 msgid "RTSP server port"
-msgstr ""
+msgstr "RTSP port poslužitelja"
 
 #: src/libvlc-module.c:975
 msgid ""
@@ -2784,7 +2786,7 @@ msgstr ""
 
 #: src/libvlc-module.c:998
 msgid "SOCKS server"
-msgstr ""
+msgstr "SOCKS poslužitelj"
 
 #: src/libvlc-module.c:1000
 msgid ""
@@ -2794,7 +2796,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1003
 msgid "SOCKS user name"
-msgstr ""
+msgstr "SOCKS korisničko ime"
 
 #: src/libvlc-module.c:1005
 msgid "User name to be used for connection to the SOCKS proxy."
@@ -2802,7 +2804,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1007
 msgid "SOCKS password"
-msgstr ""
+msgstr "SOCKS šifra"
 
 #: src/libvlc-module.c:1009
 msgid "Password to be used for connection to the SOCKS proxy."
@@ -2954,7 +2956,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1094
 msgid "Enable SPU stream output"
-msgstr ""
+msgstr "Omogući SPU izlazno strujanje"
 
 #: src/libvlc-module.c:1096
 msgid ""
@@ -2994,7 +2996,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1115
 msgid "Mux module"
-msgstr ""
+msgstr "Muks modul"
 
 #: src/libvlc-module.c:1117
 msgid "This is a legacy entry to let you configure mux modules"
@@ -3052,7 +3054,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1153
 msgid "Access module"
-msgstr ""
+msgstr "Pristupni modul"
 
 #: src/libvlc-module.c:1155
 msgid ""
@@ -3071,7 +3073,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1163
 msgid "Demux module"
-msgstr ""
+msgstr "Demuks modul"
 
 #: src/libvlc-module.c:1165
 msgid ""
@@ -3083,7 +3085,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1170
 msgid "VoD server module"
-msgstr ""
+msgstr "VoD modul posužitelja"
 
 #: src/libvlc-module.c:1172
 msgid ""
@@ -3105,7 +3107,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1183
 msgid "Adjust VLC priority"
-msgstr ""
+msgstr "Prilagodite prioritet VLC-a"
 
 #: src/libvlc-module.c:1185
 msgid ""
@@ -3143,15 +3145,15 @@ msgstr ""
 
 #: src/libvlc-module.c:1203
 msgid "VLM configuration file"
-msgstr ""
+msgstr "VLM konfiguracijska datoteka"
 
 #: src/libvlc-module.c:1205
 msgid "Read a VLM configuration file as soon as VLM is started."
-msgstr ""
+msgstr "Čitaj VLM konfiguracijsku datoteku čim se VLM pokrene."
 
 #: src/libvlc-module.c:1207
 msgid "Use a plugins cache"
-msgstr ""
+msgstr "Koristi predmemoriranje dodataka"
 
 #: src/libvlc-module.c:1209
 msgid "Use a plugins cache which will greatly improve the startup time of VLC."
@@ -3159,7 +3161,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1211
 msgid "Locally collect statistics"
-msgstr ""
+msgstr "Lokalno skupljaj statistike"
 
 #: src/libvlc-module.c:1213
 msgid "Collect miscellaneous local statistics about the playing media."
@@ -3175,31 +3177,31 @@ msgstr ""
 
 #: src/libvlc-module.c:1219
 msgid "Write process id to file"
-msgstr ""
+msgstr "Zapiši id procesa u datoteku"
 
 #: src/libvlc-module.c:1221
 msgid "Writes process id into specified file."
-msgstr ""
+msgstr "Zapiši id procesa u specifičnu datoteku."
 
 #: src/libvlc-module.c:1223
 msgid "Log to file"
-msgstr ""
+msgstr "Unesi u datoteku"
 
 #: src/libvlc-module.c:1225
 msgid "Log all VLC messages to a text file."
-msgstr ""
+msgstr "Unesi sve VLS poruke u tekstualnu datoteku"
 
 #: src/libvlc-module.c:1227
 msgid "Log to syslog"
-msgstr ""
+msgstr "Unesi u syslog"
 
 #: src/libvlc-module.c:1229
 msgid "Log all VLC messages to syslog (UNIX systems)."
-msgstr ""
+msgstr "Unesi sve VLC poruke u syslog (UNIX sistemi)."
 
 #: src/libvlc-module.c:1231
 msgid "Allow only one running instance"
-msgstr ""
+msgstr "Dozvoli samo jedno otvoreno pokretanje"
 
 #: src/libvlc-module.c:1234
 msgid ""
@@ -3230,15 +3232,15 @@ msgstr ""
 
 #: src/libvlc-module.c:1255
 msgid "One instance when started from file"
-msgstr ""
+msgstr "Jedno pokretanje kada se pokreće iz datoteke"
 
 #: src/libvlc-module.c:1257
 msgid "Allow only one running instance when started from file."
-msgstr ""
+msgstr "Dozvoli samo jedno otvoreno pokretanje kada se pokreće iz datoteke."
 
 #: src/libvlc-module.c:1259
 msgid "Increase the priority of the process"
-msgstr ""
+msgstr "Povećaj prioritet procesa"
 
 #: src/libvlc-module.c:1261
 msgid ""
@@ -3282,19 +3284,19 @@ msgstr ""
 
 #: src/libvlc-module.c:1290
 msgid "Choose how album art will be downloaded."
-msgstr ""
+msgstr "Izaberi kako da se kover albuma preuzima."
 
 #: src/libvlc-module.c:1296
 msgid "Manual download only"
-msgstr ""
+msgstr "Samo ručno preuzimanje"
 
 #: src/libvlc-module.c:1297
 msgid "When track starts playing"
-msgstr ""
+msgstr "Kada se pjesma počne reproducirati"
 
 #: src/libvlc-module.c:1298
 msgid "As soon as track is added"
-msgstr ""
+msgstr "Čim se pjesma doda"
 
 #: src/libvlc-module.c:1300
 msgid "Services discovery modules"
@@ -3308,27 +3310,27 @@ msgstr ""
 
 #: src/libvlc-module.c:1305
 msgid "Play files randomly forever"
-msgstr ""
+msgstr "Reproduciraj datoteke nasumično zauvijek"
 
 #: src/libvlc-module.c:1307
 msgid "VLC will randomly play files in the playlist until interrupted."
-msgstr ""
+msgstr "VLC će nasumično reproducirati datoteke u listi izvođenja do prekida."
 
 #: src/libvlc-module.c:1309
 msgid "Repeat all"
-msgstr ""
+msgstr "Ponovi sve"
 
 #: src/libvlc-module.c:1311
 msgid "VLC will keep playing the playlist indefinitely."
-msgstr ""
+msgstr "VLC će nastaviti reproducirati listu izvođenja na neodređeno."
 
 #: src/libvlc-module.c:1313
 msgid "Repeat current item"
-msgstr ""
+msgstr "Ponovi trenutnu stavku"
 
 #: src/libvlc-module.c:1315
 msgid "VLC will keep playing the current playlist item."
-msgstr ""
+msgstr "VLC će nastaviti reproducirati trenutnu listu izvođenja."
 
 #: src/libvlc-module.c:1317
 msgid "Play and stop"
@@ -3337,14 +3339,15 @@ msgstr "Produciraj i zaustavi"
 #: src/libvlc-module.c:1319
 msgid "Stop the playlist after each played playlist item."
 msgstr ""
+"Zaustavi listu izvođenja nakon svake reproducirane stavke u listi izvođenja."
 
 #: src/libvlc-module.c:1321
 msgid "Play and exit"
-msgstr ""
+msgstr "Reproduciraj i zatvori"
 
 #: src/libvlc-module.c:1323
 msgid "Exit if there are no more items in the playlist."
-msgstr ""
+msgstr "Izađi ako nema više stavki u listi izvođenja."
 
 #: src/libvlc-module.c:1325
 msgid "Play and pause"
@@ -3352,11 +3355,11 @@ msgstr "Produciraj i pauziraj"
 
 #: src/libvlc-module.c:1327
 msgid "Pause each item in the playlist on the last frame."
-msgstr ""
+msgstr "Pauziraj svaku stavku u listi izvođenja na zadnjem okviru."
 
 #: src/libvlc-module.c:1329
 msgid "Auto start"
-msgstr ""
+msgstr "Automatsko pokretanje"
 
 #: src/libvlc-module.c:1330
 msgid "Automatically start playing the playlist content once it's loaded."
@@ -3364,7 +3367,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1333
 msgid "Use media library"
-msgstr ""
+msgstr "Koristi medijsku biblioteku"
 
 #: src/libvlc-module.c:1335
 msgid ""
@@ -3374,7 +3377,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1338
 msgid "Load Media Library"
-msgstr ""
+msgstr "Učitaj medijsku biblioteku"
 
 #: src/libvlc-module.c:1340
 msgid "Enable this option to load the SQL-based Media Library at VLC startup"
@@ -3429,7 +3432,7 @@ msgstr "Pauziraj samo"
 
 #: src/libvlc-module.c:1363
 msgid "Select the hotkey to use to pause."
-msgstr ""
+msgstr "Izaberi vruću tipku za pauziranje."
 
 #: src/libvlc-module.c:1364
 msgid "Play only"
@@ -3437,7 +3440,7 @@ msgstr "Produciraj samo"
 
 #: src/libvlc-module.c:1365
 msgid "Select the hotkey to use to play."
-msgstr ""
+msgstr "Izaberi vruću tipku za produciranje."
 
 #: src/libvlc-module.c:1366 modules/gui/macosx/MainMenu.m:274
 #: modules/gui/qt4/components/controller.hpp:115
@@ -3447,7 +3450,7 @@ msgstr "Brže"
 
 #: src/libvlc-module.c:1367 src/libvlc-module.c:1373
 msgid "Select the hotkey to use for fast forward playback."
-msgstr ""
+msgstr "Izaberi vruću tipku za ubrzanu reprodukciju."
 
 #: src/libvlc-module.c:1368 modules/gui/macosx/MainMenu.m:272
 #: modules/gui/qt4/components/controller.hpp:115
@@ -3457,7 +3460,7 @@ msgstr "Sporije"
 
 #: src/libvlc-module.c:1369 src/libvlc-module.c:1375
 msgid "Select the hotkey to use for slow motion playback."
-msgstr ""
+msgstr "Izaberi vruću tipku za usporenu reprodukciju."
 
 #: src/libvlc-module.c:1370
 msgid "Normal rate"
@@ -3595,7 +3598,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1410 modules/control/hotkeys.c:704
 msgid "Next frame"
-msgstr ""
+msgstr "Sljedeći okvir"
 
 #: src/libvlc-module.c:1412
 msgid "Select the hotkey to got to the next video frame."
@@ -3646,7 +3649,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1425
 msgid "Navigate up"
-msgstr ""
+msgstr "Upravljaj gore"
 
 #: src/libvlc-module.c:1426
 msgid "Select the key to move the selector up in DVD menus."
@@ -3654,7 +3657,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1427
 msgid "Navigate down"
-msgstr ""
+msgstr "Upravljaj dole"
 
 #: src/libvlc-module.c:1428
 msgid "Select the key to move the selector down in DVD menus."
@@ -3662,7 +3665,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1429
 msgid "Navigate left"
-msgstr ""
+msgstr "Upravljaj lijevo"
 
 #: src/libvlc-module.c:1430
 msgid "Select the key to move the selector left in DVD menus."
@@ -3670,7 +3673,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1431
 msgid "Navigate right"
-msgstr ""
+msgstr "Upravljaj desno"
 
 #: src/libvlc-module.c:1432
 msgid "Select the key to move the selector right in DVD menus."
@@ -3678,7 +3681,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1433
 msgid "Activate"
-msgstr ""
+msgstr "Aktiviraj"
 
 #: src/libvlc-module.c:1434
 msgid "Select the key to activate selected item in DVD menus."
@@ -3686,7 +3689,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1435 modules/gui/qt4/dialogs/toolbar.cpp:395
 msgid "Go to the DVD menu"
-msgstr ""
+msgstr "Idi na DVD izbornik"
 
 #: src/libvlc-module.c:1436
 msgid "Select the key to take you to the DVD menu"
@@ -3694,7 +3697,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1437
 msgid "Select previous DVD title"
-msgstr ""
+msgstr "Izaberi prethodni DVD naslov"
 
 #: src/libvlc-module.c:1438
 msgid "Select the key to choose the previous title from the DVD"
@@ -3702,7 +3705,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1439
 msgid "Select next DVD title"
-msgstr ""
+msgstr "Izaberi sljedeći DVD naslov"
 
 #: src/libvlc-module.c:1440
 msgid "Select the key to choose the next title from the DVD"
@@ -3710,7 +3713,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1441
 msgid "Select prev DVD chapter"
-msgstr ""
+msgstr "Izaberi prethodno DVD poglavlje"
 
 #: src/libvlc-module.c:1442
 msgid "Select the key to choose the previous chapter from the DVD"
@@ -3718,7 +3721,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1443
 msgid "Select next DVD chapter"
-msgstr ""
+msgstr "Izaberi sljedeće DVD poglavlje"
 
 #: src/libvlc-module.c:1444
 msgid "Select the key to choose the next chapter from the DVD"
@@ -3726,19 +3729,19 @@ msgstr ""
 
 #: src/libvlc-module.c:1445
 msgid "Volume up"
-msgstr ""
+msgstr "Pojačaj"
 
 #: src/libvlc-module.c:1446
 msgid "Select the key to increase audio volume."
-msgstr ""
+msgstr "Izaberi tipku za povećavanje glasnoće zvuka."
 
 #: src/libvlc-module.c:1447
 msgid "Volume down"
-msgstr ""
+msgstr "Smanji"
 
 #: src/libvlc-module.c:1448
 msgid "Select the key to decrease audio volume."
-msgstr ""
+msgstr "Izaberi tipku za smanjivanje glasnoće zvuka."
 
 #: src/libvlc-module.c:1449 modules/access/v4l2/video.c:189
 #: modules/gui/macosx/MainMenu.m:295 modules/gui/macosx/MainMenu.m:367
@@ -3749,7 +3752,7 @@ msgstr "Isključi"
 
 #: src/libvlc-module.c:1450
 msgid "Select the key to mute audio."
-msgstr ""
+msgstr "Izaberi tipku za stišavanje zvuka."
 
 #: src/libvlc-module.c:1451
 msgid "Subtitle delay up"
@@ -3801,135 +3804,135 @@ msgstr ""
 
 #: src/libvlc-module.c:1469
 msgid "Play playlist bookmark 1"
-msgstr ""
+msgstr "Produciraj oznaku liste izvođenja 1"
 
 #: src/libvlc-module.c:1470
 msgid "Play playlist bookmark 2"
-msgstr ""
+msgstr "Produciraj oznaku liste izvođenja 2"
 
 #: src/libvlc-module.c:1471
 msgid "Play playlist bookmark 3"
-msgstr ""
+msgstr "Produciraj oznaku liste izvođenja 3"
 
 #: src/libvlc-module.c:1472
 msgid "Play playlist bookmark 4"
-msgstr ""
+msgstr "Produciraj oznaku liste izvođenja 4"
 
 #: src/libvlc-module.c:1473
 msgid "Play playlist bookmark 5"
-msgstr ""
+msgstr "Produciraj oznaku liste izvođenja 5"
 
 #: src/libvlc-module.c:1474
 msgid "Play playlist bookmark 6"
-msgstr ""
+msgstr "Produciraj oznaku liste izvođenja 6"
 
 #: src/libvlc-module.c:1475
 msgid "Play playlist bookmark 7"
-msgstr ""
+msgstr "Produciraj oznaku liste izvođenja 7"
 
 #: src/libvlc-module.c:1476
 msgid "Play playlist bookmark 8"
-msgstr ""
+msgstr "Produciraj oznaku liste izvođenja 8"
 
 #: src/libvlc-module.c:1477
 msgid "Play playlist bookmark 9"
-msgstr ""
+msgstr "Produciraj oznaku liste izvođenja 9"
 
 #: src/libvlc-module.c:1478
 msgid "Play playlist bookmark 10"
-msgstr ""
+msgstr "Produciraj oznaku liste izvođenja 10"
 
 #: src/libvlc-module.c:1479
 msgid "Select the key to play this bookmark."
-msgstr ""
+msgstr "Izaberi tipku za produkciju ove oznake."
 
 #: src/libvlc-module.c:1480
 msgid "Set playlist bookmark 1"
-msgstr ""
+msgstr "Postavi oznaku liste izvođenja 1"
 
 #: src/libvlc-module.c:1481
 msgid "Set playlist bookmark 2"
-msgstr ""
+msgstr "Postavi oznaku liste izvođenja 2"
 
 #: src/libvlc-module.c:1482
 msgid "Set playlist bookmark 3"
-msgstr ""
+msgstr "Postavi oznaku liste izvođenja 3"
 
 #: src/libvlc-module.c:1483
 msgid "Set playlist bookmark 4"
-msgstr ""
+msgstr "Postavi oznaku liste izvođenja 4"
 
 #: src/libvlc-module.c:1484
 msgid "Set playlist bookmark 5"
-msgstr ""
+msgstr "Postavi oznaku liste izvođenja 5"
 
 #: src/libvlc-module.c:1485
 msgid "Set playlist bookmark 6"
-msgstr ""
+msgstr "Postavi oznaku liste izvođenja 6"
 
 #: src/libvlc-module.c:1486
 msgid "Set playlist bookmark 7"
-msgstr ""
+msgstr "Postavi oznaku liste izvođenja 7"
 
 #: src/libvlc-module.c:1487
 msgid "Set playlist bookmark 8"
-msgstr ""
+msgstr "Postavi oznaku liste izvođenja 8"
 
 #: src/libvlc-module.c:1488
 msgid "Set playlist bookmark 9"
-msgstr ""
+msgstr "Postavi oznaku liste izvođenja 9"
 
 #: src/libvlc-module.c:1489
 msgid "Set playlist bookmark 10"
-msgstr ""
+msgstr "Postavi oznaku liste izvođenja 10"
 
 #: src/libvlc-module.c:1490
 msgid "Select the key to set this playlist bookmark."
-msgstr ""
+msgstr "Izaberi tipku za postavljanje ove oznake liste izvođenja."
 
 #: src/libvlc-module.c:1492
 msgid "Playlist bookmark 1"
-msgstr ""
+msgstr "Oznaka liste izvođenja 1"
 
 #: src/libvlc-module.c:1493
 msgid "Playlist bookmark 2"
-msgstr ""
+msgstr "Oznaka liste izvođenja 2"
 
 #: src/libvlc-module.c:1494
 msgid "Playlist bookmark 3"
-msgstr ""
+msgstr "Oznaka liste izvođenja 3"
 
 #: src/libvlc-module.c:1495
 msgid "Playlist bookmark 4"
-msgstr ""
+msgstr "Oznaka liste izvođenja 4"
 
 #: src/libvlc-module.c:1496
 msgid "Playlist bookmark 5"
-msgstr ""
+msgstr "Oznaka liste izvođenja 5"
 
 #: src/libvlc-module.c:1497
 msgid "Playlist bookmark 6"
-msgstr ""
+msgstr "Oznaka liste izvođenja 6"
 
 #: src/libvlc-module.c:1498
 msgid "Playlist bookmark 7"
-msgstr ""
+msgstr "Oznaka liste izvođenja 7"
 
 #: src/libvlc-module.c:1499
 msgid "Playlist bookmark 8"
-msgstr ""
+msgstr "Oznaka liste izvođenja 8"
 
 #: src/libvlc-module.c:1500
 msgid "Playlist bookmark 9"
-msgstr ""
+msgstr "Oznaka liste izvođenja 9"
 
 #: src/libvlc-module.c:1501
 msgid "Playlist bookmark 10"
-msgstr ""
+msgstr "Oznaka liste izvođenja 10"
 
 #: src/libvlc-module.c:1503
 msgid "This allows you to define playlist bookmarks."
-msgstr ""
+msgstr "Ovo omogućuje definisanje oznaka za liste izvođenja."
 
 #: src/libvlc-module.c:1505
 msgid "Cycle audio track"
@@ -4044,7 +4047,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1534
 msgid "Normal/Repeat/Loop"
-msgstr ""
+msgstr "Normalno/Ponavljanje/Petlja"
 
 #: src/libvlc-module.c:1535
 msgid "Toggle Normal/Repeat/Loop playlist modes"
@@ -4194,7 +4197,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1892
 msgid "Default devices"
-msgstr ""
+msgstr "Zadani uređaji"
 
 #: src/libvlc-module.c:1901
 msgid "Network settings"
@@ -4206,40 +4209,40 @@ msgstr ""
 
 #: src/libvlc-module.c:1935 modules/demux/kate_categories.c:47
 msgid "Metadata"
-msgstr ""
+msgstr "Metapodaci"
 
 #: src/libvlc-module.c:2035
 msgid "Decoders"
-msgstr ""
+msgstr "Dekoderi"
 
 #: src/libvlc-module.c:2042 modules/access/v4l2/video.c:69
 #: modules/gui/macosx/playlistinfo.m:100
 msgid "Input"
-msgstr ""
+msgstr "Ulaz"
 
 #: src/libvlc-module.c:2078
 msgid "VLM"
-msgstr ""
+msgstr "VLM"
 
 #: src/libvlc-module.c:2108
 msgid "CPU"
-msgstr ""
+msgstr "Procesor"
 
 #: src/libvlc-module.c:2127
 msgid "Special modules"
-msgstr ""
+msgstr "Specijalni moduli"
 
 #: src/libvlc-module.c:2133 modules/gui/qt4/dialogs/plugins.cpp:70
 msgid "Plugins"
-msgstr ""
+msgstr "Dodaci"
 
 #: src/libvlc-module.c:2140
 msgid "Performance options"
-msgstr ""
+msgstr "Opcije performansi"
 
 #: src/libvlc-module.c:2269
 msgid "Hot keys"
-msgstr ""
+msgstr "Vruće tipke"
 
 #: src/libvlc-module.c:2700
 msgid "Jump sizes"
@@ -4299,31 +4302,31 @@ msgstr ""
 
 #: src/libvlc-module.c:2841
 msgid "main program"
-msgstr ""
+msgstr "glavni program"
 
 #: src/misc/update.c:470
 #, c-format
 msgid "%.1f GiB"
-msgstr ""
+msgstr "%.1f GiB"
 
 #: src/misc/update.c:472
 #, c-format
 msgid "%.1f MiB"
-msgstr ""
+msgstr "%.1f MiB"
 
 #: src/misc/update.c:474
 #, c-format
 msgid "%.1f KiB"
-msgstr ""
+msgstr "%.1f KiB"
 
 #: src/misc/update.c:476
 #, c-format
 msgid "%ld B"
-msgstr ""
+msgstr "%ld B"
 
 #: src/misc/update.c:567
 msgid "Saving file failed"
-msgstr ""
+msgstr "Snimanje datoteke neuspješno"
 
 #: src/misc/update.c:568
 #, c-format
@@ -4339,7 +4342,7 @@ msgstr ""
 
 #: src/misc/update.c:587
 msgid "Downloading ..."
-msgstr ""
+msgstr "Preuzimam ..."
 
 #: src/misc/update.c:588 src/misc/update.c:713 modules/demux/avi/avi.c:2407
 #: modules/gui/macosx/bookmarks.m:102 modules/gui/macosx/controls.m:53
@@ -4364,7 +4367,7 @@ msgstr ""
 
 #: src/misc/update.c:638
 msgid "File could not be verified"
-msgstr ""
+msgstr "Datoteka nije mogla biti provjerena"
 
 #: src/misc/update.c:639
 #, c-format
@@ -4375,7 +4378,7 @@ msgstr ""
 
 #: src/misc/update.c:650 src/misc/update.c:662
 msgid "Invalid signature"
-msgstr ""
+msgstr "Nevažeći potpis"
 
 #: src/misc/update.c:651 src/misc/update.c:663
 #, c-format
@@ -4397,7 +4400,7 @@ msgstr ""
 
 #: src/misc/update.c:687 src/misc/update.c:699
 msgid "File corrupted"
-msgstr ""
+msgstr "Datoteka oštećena"
 
 #: src/misc/update.c:688 src/misc/update.c:700
 #, c-format
@@ -4416,7 +4419,7 @@ msgstr ""
 
 #: src/misc/update.c:713
 msgid "Install"
-msgstr ""
+msgstr "Instaliraj"
 
 #: src/playlist/engine.c:243 src/playlist/loadsave.c:152 lib/media_list.c:254
 #: modules/gui/macosx/MainWindow.m:410
@@ -4427,667 +4430,667 @@ msgstr "Medijska biblioteka"
 #: src/playlist/tree.c:67 modules/access/dtv/access.c:75
 #: modules/access/v4l2/video.c:258
 msgid "Undefined"
-msgstr ""
+msgstr "Nedefinisan"
 
 #: src/text/iso-639_def.h:40
 msgid "Afar"
-msgstr ""
+msgstr "Afar"
 
 #: src/text/iso-639_def.h:41
 msgid "Abkhazian"
-msgstr ""
+msgstr "Abhazijski"
 
 #: src/text/iso-639_def.h:42
 msgid "Afrikaans"
-msgstr ""
+msgstr "Afrički"
 
 #: src/text/iso-639_def.h:43
 msgid "Albanian"
-msgstr ""
+msgstr "Albanski"
 
 #: src/text/iso-639_def.h:44
 msgid "Amharic"
-msgstr ""
+msgstr "Amharski"
 
 #: src/text/iso-639_def.h:45
 msgid "Arabic"
-msgstr ""
+msgstr "Arapski"
 
 #: src/text/iso-639_def.h:46
 msgid "Armenian"
-msgstr ""
+msgstr "Jermenski"
 
 #: src/text/iso-639_def.h:47
 msgid "Assamese"
-msgstr ""
+msgstr "Asamski"
 
 #: src/text/iso-639_def.h:48
 msgid "Avestan"
-msgstr ""
+msgstr "Avestan"
 
 #: src/text/iso-639_def.h:49
 msgid "Aymara"
-msgstr ""
+msgstr "Aymara"
 
 #: src/text/iso-639_def.h:50
 msgid "Azerbaijani"
-msgstr ""
+msgstr "Azarbejdžanski"
 
 #: src/text/iso-639_def.h:51
 msgid "Bashkir"
-msgstr ""
+msgstr "Baškirski"
 
 #: src/text/iso-639_def.h:52
 msgid "Basque"
-msgstr ""
+msgstr "Baskijski"
 
 #: src/text/iso-639_def.h:53
 msgid "Belarusian"
-msgstr ""
+msgstr "Bjeloruski"
 
 #: src/text/iso-639_def.h:54
 msgid "Bengali"
-msgstr ""
+msgstr "Bengalski"
 
 #: src/text/iso-639_def.h:55
 msgid "Bihari"
-msgstr ""
+msgstr "Bihari"
 
 #: src/text/iso-639_def.h:56
 msgid "Bislama"
-msgstr ""
+msgstr "Bislama"
 
 #: src/text/iso-639_def.h:57
 msgid "Bosnian"
-msgstr ""
+msgstr "Bosanski"
 
 #: src/text/iso-639_def.h:58
 msgid "Breton"
-msgstr ""
+msgstr "Bretonski"
 
 #: src/text/iso-639_def.h:59
 msgid "Bulgarian"
-msgstr ""
+msgstr "Bugarski"
 
 #: src/text/iso-639_def.h:60
 msgid "Burmese"
-msgstr ""
+msgstr "Burmanski"
 
 #: src/text/iso-639_def.h:61
 msgid "Catalan"
-msgstr ""
+msgstr "Katalonski"
 
 #: src/text/iso-639_def.h:62
 msgid "Chamorro"
-msgstr ""
+msgstr "Chamorro"
 
 #: src/text/iso-639_def.h:63
 msgid "Chechen"
-msgstr ""
+msgstr "Čečenski"
 
 #: src/text/iso-639_def.h:64
 msgid "Chinese"
-msgstr ""
+msgstr "Kineski"
 
 #: src/text/iso-639_def.h:65
 msgid "Church Slavic"
-msgstr ""
+msgstr "Crkvenoslavenski"
 
 #: src/text/iso-639_def.h:66
 msgid "Chuvash"
-msgstr ""
+msgstr "Kuvaski"
 
 #: src/text/iso-639_def.h:67
 msgid "Cornish"
-msgstr ""
+msgstr "Kornvalski"
 
 #: src/text/iso-639_def.h:68
 msgid "Corsican"
-msgstr ""
+msgstr "Korzikanski"
 
 #: src/text/iso-639_def.h:69
 msgid "Czech"
-msgstr ""
+msgstr "Češki"
 
 #: src/text/iso-639_def.h:70
 msgid "Danish"
-msgstr ""
+msgstr "Danski"
 
 #: src/text/iso-639_def.h:71
 msgid "Dutch"
-msgstr ""
+msgstr "Holandski"
 
 #: src/text/iso-639_def.h:72
 msgid "Dzongkha"
-msgstr ""
+msgstr "Dzongkha"
 
 #: src/text/iso-639_def.h:73
 msgid "English"
-msgstr ""
+msgstr "Engleski"
 
 #: src/text/iso-639_def.h:74
 msgid "Esperanto"
-msgstr ""
+msgstr "Esperanto"
 
 #: src/text/iso-639_def.h:75
 msgid "Estonian"
-msgstr ""
+msgstr "Estonski"
 
 #: src/text/iso-639_def.h:76
 msgid "Faroese"
-msgstr ""
+msgstr "Farski"
 
 #: src/text/iso-639_def.h:77
 msgid "Fijian"
-msgstr ""
+msgstr "Fidžijski"
 
 #: src/text/iso-639_def.h:78
 msgid "Finnish"
-msgstr ""
+msgstr "Finski"
 
 #: src/text/iso-639_def.h:79
 msgid "French"
-msgstr ""
+msgstr "Francuski"
 
 #: src/text/iso-639_def.h:80
 msgid "Frisian"
-msgstr ""
+msgstr "Frizijski"
 
 #: src/text/iso-639_def.h:81
 msgid "Georgian"
-msgstr ""
+msgstr "Gruzijski"
 
 #: src/text/iso-639_def.h:82
 msgid "German"
-msgstr ""
+msgstr "Njemački"
 
 #: src/text/iso-639_def.h:83
 msgid "Gaelic (Scots)"
-msgstr ""
+msgstr "Keltski (Škotski)"
 
 #: src/text/iso-639_def.h:84
 msgid "Irish"
-msgstr ""
+msgstr "Irski"
 
 #: src/text/iso-639_def.h:85
 msgid "Gallegan"
-msgstr ""
+msgstr "Gallegan"
 
 #: src/text/iso-639_def.h:86
 msgid "Manx"
-msgstr ""
+msgstr "Manx"
 
 #: src/text/iso-639_def.h:87
 msgid "Greek, Modern ()"
-msgstr ""
+msgstr "Grčki, moderni ()"
 
 #: src/text/iso-639_def.h:88
 msgid "Guarani"
-msgstr ""
+msgstr "Guarani"
 
 #: src/text/iso-639_def.h:89
 msgid "Gujarati"
-msgstr ""
+msgstr "Gujarati"
 
 #: src/text/iso-639_def.h:90
 msgid "Hebrew"
-msgstr ""
+msgstr "Jevrejski"
 
 #: src/text/iso-639_def.h:91
 msgid "Herero"
-msgstr ""
+msgstr "Herero"
 
 #: src/text/iso-639_def.h:92
 msgid "Hindi"
-msgstr ""
+msgstr "Indijski"
 
 #: src/text/iso-639_def.h:93
 msgid "Hiri Motu"
-msgstr ""
+msgstr "Hiri Motu"
 
 #: src/text/iso-639_def.h:94
 msgid "Hungarian"
-msgstr ""
+msgstr "Madžarski"
 
 #: src/text/iso-639_def.h:95
 msgid "Icelandic"
-msgstr ""
+msgstr "Islandski"
 
 #: src/text/iso-639_def.h:96
 msgid "Inuktitut"
-msgstr ""
+msgstr "Inuktitut"
 
 #: src/text/iso-639_def.h:97
 msgid "Interlingue"
-msgstr ""
+msgstr "Interlingue"
 
 #: src/text/iso-639_def.h:98
 msgid "Interlingua"
-msgstr ""
+msgstr "Interlingua"
 
 #: src/text/iso-639_def.h:99
 msgid "Indonesian"
-msgstr ""
+msgstr "Indonezijski"
 
 #: src/text/iso-639_def.h:100
 msgid "Inupiaq"
-msgstr ""
+msgstr "Inupiaq"
 
 #: src/text/iso-639_def.h:101
 msgid "Italian"
-msgstr ""
+msgstr "Italijanski"
 
 #: src/text/iso-639_def.h:102
 msgid "Javanese"
-msgstr ""
+msgstr "Javanski"
 
 #: src/text/iso-639_def.h:103
 msgid "Japanese"
-msgstr ""
+msgstr "Japanski"
 
 #: src/text/iso-639_def.h:104
 msgid "Kalaallisut (Greenlandic)"
-msgstr ""
+msgstr "Kalaallisut (Grenlandski)"
 
 #: src/text/iso-639_def.h:105
 msgid "Kannada"
-msgstr ""
+msgstr "Kannada"
 
 #: src/text/iso-639_def.h:106
 msgid "Kashmiri"
-msgstr ""
+msgstr "Kašmirski"
 
 #: src/text/iso-639_def.h:107
 msgid "Kazakh"
-msgstr ""
+msgstr "Kazak"
 
 #: src/text/iso-639_def.h:108
 msgid "Khmer"
-msgstr ""
+msgstr "Khmer"
 
 #: src/text/iso-639_def.h:109
 msgid "Kikuyu"
-msgstr ""
+msgstr "Kikuyu"
 
 #: src/text/iso-639_def.h:110
 msgid "Kinyarwanda"
-msgstr ""
+msgstr "Kinyarwanda"
 
 #: src/text/iso-639_def.h:111
 msgid "Kirghiz"
-msgstr ""
+msgstr "Kirgiski"
 
 #: src/text/iso-639_def.h:112
 msgid "Komi"
-msgstr ""
+msgstr "Komi"
 
 #: src/text/iso-639_def.h:113
 msgid "Korean"
-msgstr ""
+msgstr "Korejski"
 
 #: src/text/iso-639_def.h:114
 msgid "Kuanyama"
-msgstr ""
+msgstr "Kuanyama"
 
 #: src/text/iso-639_def.h:115
 msgid "Kurdish"
-msgstr ""
+msgstr "Kurdski"
 
 #: src/text/iso-639_def.h:116
 msgid "Lao"
-msgstr ""
+msgstr "Lao"
 
 #: src/text/iso-639_def.h:117
 msgid "Latin"
-msgstr ""
+msgstr "Latinski"
 
 #: src/text/iso-639_def.h:118
 msgid "Latvian"
-msgstr ""
+msgstr "Letonski"
 
 #: src/text/iso-639_def.h:119
 msgid "Lingala"
-msgstr ""
+msgstr "Lingala"
 
 #: src/text/iso-639_def.h:120
 msgid "Lithuanian"
-msgstr ""
+msgstr "Litvanski"
 
 #: src/text/iso-639_def.h:121
 msgid "Letzeburgesch"
-msgstr ""
+msgstr "Letzeburgesch"
 
 #: src/text/iso-639_def.h:122
 msgid "Macedonian"
-msgstr ""
+msgstr "Makedonski"
 
 #: src/text/iso-639_def.h:123
 msgid "Marshall"
-msgstr ""
+msgstr "Marshall"
 
 #: src/text/iso-639_def.h:124
 msgid "Malayalam"
-msgstr ""
+msgstr "Malajalamski"
 
 #: src/text/iso-639_def.h:125
 msgid "Maori"
-msgstr ""
+msgstr "Maori"
 
 #: src/text/iso-639_def.h:126
 msgid "Marathi"
-msgstr ""
+msgstr "Maratski"
 
 #: src/text/iso-639_def.h:127
 msgid "Malay"
-msgstr ""
+msgstr "Malajski"
 
 #: src/text/iso-639_def.h:128
 msgid "Malagasy"
-msgstr ""
+msgstr "Madagaskarski"
 
 #: src/text/iso-639_def.h:129
 msgid "Maltese"
-msgstr ""
+msgstr "Malteški"
 
 #: src/text/iso-639_def.h:130
 msgid "Moldavian"
-msgstr ""
+msgstr "Moldavski"
 
 #: src/text/iso-639_def.h:131
 msgid "Mongolian"
-msgstr ""
+msgstr "Mongolski"
 
 #: src/text/iso-639_def.h:132
 msgid "Nauru"
-msgstr ""
+msgstr "Nauru"
 
 #: src/text/iso-639_def.h:133
 msgid "Navajo"
-msgstr ""
+msgstr "Navajo"
 
 #: src/text/iso-639_def.h:134
 msgid "Ndebele, South"
-msgstr ""
+msgstr "Ndebele, Južni"
 
 #: src/text/iso-639_def.h:135
 msgid "Ndebele, North"
-msgstr ""
+msgstr "Ndebele, Sjeverni"
 
 #: src/text/iso-639_def.h:136
 msgid "Ndonga"
-msgstr ""
+msgstr "Ndonga"
 
 #: src/text/iso-639_def.h:137
 msgid "Nepali"
-msgstr ""
+msgstr "Nepalski"
 
 #: src/text/iso-639_def.h:138
 msgid "Norwegian"
-msgstr ""
+msgstr "Norveški"
 
 #: src/text/iso-639_def.h:139
 msgid "Norwegian Nynorsk"
-msgstr ""
+msgstr "Norveški Nynorsk"
 
 #: src/text/iso-639_def.h:140
 msgid "Norwegian Bokmaal"
-msgstr ""
+msgstr "Norveški Bokmaal"
 
 #: src/text/iso-639_def.h:141
 msgid "Chichewa; Nyanja"
-msgstr ""
+msgstr "Chichewa; Nyanja"
 
 #: src/text/iso-639_def.h:142
 msgid "Occitan (post 1500); Provencal"
-msgstr ""
+msgstr "Okcitanski (nakon 1500); provansalski"
 
 #: src/text/iso-639_def.h:143
 msgid "Oriya"
-msgstr ""
+msgstr "Oriya"
 
 #: src/text/iso-639_def.h:144
 msgid "Oromo"
-msgstr ""
+msgstr "Oromo"
 
 #: src/text/iso-639_def.h:146
 msgid "Ossetian; Ossetic"
-msgstr ""
+msgstr "Ossetian; Ossetic"
 
 #: src/text/iso-639_def.h:147
 msgid "Panjabi"
-msgstr ""
+msgstr "Panjabi"
 
 #: src/text/iso-639_def.h:148
 msgid "Persian"
-msgstr ""
+msgstr "Perzijski"
 
 #: src/text/iso-639_def.h:149
 msgid "Pali"
-msgstr ""
+msgstr "Pali"
 
 #: src/text/iso-639_def.h:150
 msgid "Polish"
-msgstr ""
+msgstr "Poljski"
 
 #: src/text/iso-639_def.h:151
 msgid "Portuguese"
-msgstr ""
+msgstr "Portugalski"
 
 #: src/text/iso-639_def.h:152
 msgid "Pushto"
-msgstr ""
+msgstr "Pushto"
 
 #: src/text/iso-639_def.h:153
 msgid "Quechua"
-msgstr ""
+msgstr "Kečuanski"
 
 #: src/text/iso-639_def.h:154
 msgid "Original audio"
-msgstr ""
+msgstr "Izvorni zvuk"
 
 #: src/text/iso-639_def.h:155
 msgid "Raeto-Romance"
-msgstr ""
+msgstr "Raeto-Romance"
 
 #: src/text/iso-639_def.h:156
 msgid "Romanian"
-msgstr ""
+msgstr "Rumunjski"
 
 #: src/text/iso-639_def.h:157
 msgid "Rundi"
-msgstr ""
+msgstr "Rundi"
 
 #: src/text/iso-639_def.h:158
 msgid "Russian"
-msgstr ""
+msgstr "Ruski"
 
 #: src/text/iso-639_def.h:159
 msgid "Sango"
-msgstr ""
+msgstr "Sango"
 
 #: src/text/iso-639_def.h:160
 msgid "Sanskrit"
-msgstr ""
+msgstr "Sanskritski"
 
 #: src/text/iso-639_def.h:161
 msgid "Serbian"
-msgstr ""
+msgstr "Srpski"
 
 #: src/text/iso-639_def.h:162
 msgid "Croatian"
-msgstr ""
+msgstr "Hrvatski"
 
 #: src/text/iso-639_def.h:163
 msgid "Sinhalese"
-msgstr ""
+msgstr "Cejlonski"
 
 #: src/text/iso-639_def.h:164
 msgid "Slovak"
-msgstr ""
+msgstr "Slovački"
 
 #: src/text/iso-639_def.h:165
 msgid "Slovenian"
-msgstr ""
+msgstr "Slovenački"
 
 #: src/text/iso-639_def.h:166
 msgid "Northern Sami"
-msgstr ""
+msgstr "Sjeverni Sami"
 
 #: src/text/iso-639_def.h:167
 msgid "Samoan"
-msgstr ""
+msgstr "Samoanski"
 
 #: src/text/iso-639_def.h:168
 msgid "Shona"
-msgstr ""
+msgstr "Shona"
 
 #: src/text/iso-639_def.h:169
 msgid "Sindhi"
-msgstr ""
+msgstr "Sindi"
 
 #: src/text/iso-639_def.h:170
 msgid "Somali"
-msgstr ""
+msgstr "Somalijski"
 
 #: src/text/iso-639_def.h:171
 msgid "Sotho, Southern"
-msgstr ""
+msgstr "Sotho, Južni"
 
 #: src/text/iso-639_def.h:172
 msgid "Spanish"
-msgstr ""
+msgstr "Španski"
 
 #: src/text/iso-639_def.h:173
 msgid "Sardinian"
-msgstr ""
+msgstr "Sardinijski"
 
 #: src/text/iso-639_def.h:174
 msgid "Swati"
-msgstr ""
+msgstr "Swati"
 
 #: src/text/iso-639_def.h:175
 msgid "Sundanese"
-msgstr ""
+msgstr "Sudanski"
 
 #: src/text/iso-639_def.h:176
 msgid "Swahili"
-msgstr ""
+msgstr "Svahili"
 
 #: src/text/iso-639_def.h:177
 msgid "Swedish"
-msgstr ""
+msgstr "Švedski"
 
 #: src/text/iso-639_def.h:178
 msgid "Tahitian"
-msgstr ""
+msgstr "Tahićanski"
 
 #: src/text/iso-639_def.h:179
 msgid "Tamil"
-msgstr ""
+msgstr "Tamilski"
 
 #: src/text/iso-639_def.h:180
 msgid "Tatar"
-msgstr ""
+msgstr "Tatarski"
 
 #: src/text/iso-639_def.h:181
 msgid "Telugu"
-msgstr ""
+msgstr "Telugu"
 
 #: src/text/iso-639_def.h:182
 msgid "Tajik"
-msgstr ""
+msgstr "Tadžički"
 
 #: src/text/iso-639_def.h:183
 msgid "Tagalog"
-msgstr ""
+msgstr "Tagalog"
 
 #: src/text/iso-639_def.h:184
 msgid "Thai"
-msgstr ""
+msgstr "Tajlandski"
 
 #: src/text/iso-639_def.h:185
 msgid "Tibetan"
-msgstr ""
+msgstr "Tibetanski"
 
 #: src/text/iso-639_def.h:186
 msgid "Tigrinya"
-msgstr ""
+msgstr "Tigrinja"
 
 #: src/text/iso-639_def.h:187
 msgid "Tonga (Tonga Islands)"
-msgstr ""
+msgstr "Tonga (Tonga Otoci)"
 
 #: src/text/iso-639_def.h:188
 msgid "Tswana"
-msgstr ""
+msgstr "Tswana"
 
 #: src/text/iso-639_def.h:189
 msgid "Tsonga"
-msgstr ""
+msgstr "Tsonga"
 
 #: src/text/iso-639_def.h:190
 msgid "Turkish"
-msgstr ""
+msgstr "Turski"
 
 #: src/text/iso-639_def.h:191
 msgid "Turkmen"
-msgstr ""
+msgstr "Turkmenski"
 
 #: src/text/iso-639_def.h:192
 msgid "Twi"
-msgstr ""
+msgstr "Tvi"
 
 #: src/text/iso-639_def.h:193
 msgid "Uighur"
-msgstr ""
+msgstr "Ujgurski"
 
 #: src/text/iso-639_def.h:194
 msgid "Ukrainian"
-msgstr ""
+msgstr "Ukrajinski"
 
 #: src/text/iso-639_def.h:195
 msgid "Urdu"
-msgstr ""
+msgstr "Urdu"
 
 #: src/text/iso-639_def.h:196
 msgid "Uzbek"
-msgstr ""
+msgstr "Uzbečki"
 
 #: src/text/iso-639_def.h:197
 msgid "Vietnamese"
-msgstr ""
+msgstr "Vijetnamski"
 
 #: src/text/iso-639_def.h:198
 msgid "Volapuk"
-msgstr ""
+msgstr "Volapuk"
 
 #: src/text/iso-639_def.h:199
 msgid "Welsh"
-msgstr ""
+msgstr "Velški"
 
 #: src/text/iso-639_def.h:200
 msgid "Wolof"
-msgstr ""
+msgstr "Wolof"
 
 #: src/text/iso-639_def.h:201
 msgid "Xhosa"
-msgstr ""
+msgstr "Xhosa"
 
 #: src/text/iso-639_def.h:202
 msgid "Yiddish"
-msgstr ""
+msgstr "Jidiš"
 
 #: src/text/iso-639_def.h:203
 msgid "Yoruba"
-msgstr ""
+msgstr "Joruba"
 
 #: src/text/iso-639_def.h:204
 msgid "Zhuang"
-msgstr ""
+msgstr "Zhuang"
 
 #: src/text/iso-639_def.h:205
 msgid "Zulu"
-msgstr ""
+msgstr "Zulu"
 
 #: src/video_output/postprocessing.c:87 modules/gui/macosx/MainMenu.m:328
 #: modules/gui/macosx/MainMenu.m:329 modules/video_filter/postproc.c:194
@@ -5150,83 +5153,83 @@ msgstr ""
 
 #: modules/access/alsa.c:95
 msgid "PCM U8"
-msgstr ""
+msgstr "PCM U8"
 
 #: modules/access/alsa.c:95
 msgid "PCM S8"
-msgstr ""
+msgstr "PCM S8"
 
 #: modules/access/alsa.c:95
 msgid "GSM Audio"
-msgstr ""
+msgstr "GSM zvuk"
 
 #: modules/access/alsa.c:96
 msgid "PCM U16 LE"
-msgstr ""
+msgstr "PCM U16 LE"
 
 #: modules/access/alsa.c:96
 msgid "PCM S16 LE"
-msgstr ""
+msgstr "PCM S16 LE"
 
 #: modules/access/alsa.c:97
 msgid "PCM U16 BE"
-msgstr ""
+msgstr "PCM U16 BE"
 
 #: modules/access/alsa.c:97
 msgid "PCM S16 BE"
-msgstr ""
+msgstr "PCM S16 BE"
 
 #: modules/access/alsa.c:98
 msgid "PCM U24 LE"
-msgstr ""
+msgstr "PCM U24 LE"
 
 #: modules/access/alsa.c:98
 msgid "PCM S24 LE"
-msgstr ""
+msgstr "PCM S24 LE"
 
 #: modules/access/alsa.c:99
 msgid "PCM U24 BE"
-msgstr ""
+msgstr "PCM U24 BE"
 
 #: modules/access/alsa.c:99
 msgid "PCM S24 BE"
-msgstr ""
+msgstr "PCM S24 BE"
 
 #: modules/access/alsa.c:100
 msgid "PCM U32 LE"
-msgstr ""
+msgstr "PCM U32 LE"
 
 #: modules/access/alsa.c:100
 msgid "PCM S32 LE"
-msgstr ""
+msgstr "PCM S32 LE"
 
 #: modules/access/alsa.c:101
 msgid "PCM U32 BE"
-msgstr ""
+msgstr "PCM U32 BE"
 
 #: modules/access/alsa.c:101
 msgid "PCM S32 BE"
-msgstr ""
+msgstr "PCM S32 BE"
 
 #: modules/access/alsa.c:102
 msgid "PCM F32 LE"
-msgstr ""
+msgstr "PCM F32 LE"
 
 #: modules/access/alsa.c:102
 msgid "PCM F32 BE"
-msgstr ""
+msgstr "PCM F32 BE"
 
 #: modules/access/alsa.c:103
 msgid "PCM F64 LE"
-msgstr ""
+msgstr "PCM F64 LE"
 
 #: modules/access/alsa.c:103
 msgid "PCM F64 BE"
-msgstr ""
+msgstr "PCM F64 BE"
 
 #: modules/access/alsa.c:107
 msgid "ALSA"
-msgstr ""
+msgstr "ALSA"
 
 #: modules/access/alsa.c:108
 msgid "ALSA audio capture input"
@@ -5234,7 +5237,7 @@ msgstr ""
 
 #: modules/access/attachment.c:44
 msgid "Attachment"
-msgstr ""
+msgstr "Privitak"
 
 #: modules/access/attachment.c:45
 msgid "Attachment input"
@@ -5242,11 +5245,11 @@ msgstr ""
 
 #: modules/access/avio.h:39
 msgid "FFmpeg"
-msgstr ""
+msgstr "FFmpeg"
 
 #: modules/access/avio.h:40
 msgid "FFmpeg access"
-msgstr ""
+msgstr "FFmpeg pristup"
 
 #: modules/access/avio.h:48
 msgid "libavformat access output"
@@ -5254,7 +5257,7 @@ msgstr ""
 
 #: modules/access/bd/bd.c:56
 msgid "BD"
-msgstr ""
+msgstr "BD"
 
 #: modules/access/bd/bd.c:57
 msgid "Blu-Ray Disc Input"
@@ -5262,7 +5265,7 @@ msgstr ""
 
 #: modules/access/bluray.c:51
 msgid "Bluray menus"
-msgstr ""
+msgstr "Bluray izbornici"
 
 #: modules/access/bluray.c:52
 msgid "Use bluray menus. If disabled, the movie will start directly"
@@ -5322,7 +5325,7 @@ msgstr ""
 
 #: modules/access/bluray.c:326
 msgid "Blu-Ray error"
-msgstr ""
+msgstr "Blu-Ray greška"
 
 #: modules/access/cdda.c:62 modules/gui/macosx/open.m:135
 #: modules/gui/qt4/ui/open_disk.h:301
@@ -5339,7 +5342,7 @@ msgstr ""
 
 #: modules/access/cdda.c:78
 msgid "CDDB Server"
-msgstr ""
+msgstr "CDDB poslužitelj"
 
 #: modules/access/cdda.c:79
 msgid "Address of the CDDB server to use."
@@ -5347,7 +5350,7 @@ msgstr ""
 
 #: modules/access/cdda.c:80
 msgid "CDDB port"
-msgstr ""
+msgstr "CDDB port"
 
 #: modules/access/cdda.c:81
 msgid "CDDB Server port to use."
@@ -5360,7 +5363,7 @@ msgstr ""
 
 #: modules/access/dc1394.c:69
 msgid "dc1394 input"
-msgstr ""
+msgstr "dc1394 ulaz"
 
 #: modules/access/decklink.cpp:43
 msgid "Input card to use"
@@ -5384,7 +5387,7 @@ msgstr ""
 
 #: modules/access/decklink.cpp:54
 msgid "Audio connection"
-msgstr ""
+msgstr "Zvučna veza"
 
 #: modules/access/decklink.cpp:56
 msgid ""
@@ -5413,7 +5416,7 @@ msgstr ""
 
 #: modules/access/decklink.cpp:70
 msgid "Video connection"
-msgstr ""
+msgstr "Video veza"
 
 #: modules/access/decklink.cpp:72
 msgid ""
@@ -5423,27 +5426,27 @@ msgstr ""
 
 #: modules/access/decklink.cpp:81 modules/access/linsys/linsys_sdi.c:93
 msgid "SDI"
-msgstr ""
+msgstr "SDI"
 
 #: modules/access/decklink.cpp:81
 msgid "HDMI"
-msgstr ""
+msgstr "HDMI"
 
 #: modules/access/decklink.cpp:81
 msgid "Optical SDI"
-msgstr ""
+msgstr "Optički SDI"
 
 #: modules/access/decklink.cpp:81
 msgid "Component"
-msgstr ""
+msgstr "Komponenta"
 
 #: modules/access/decklink.cpp:81
 msgid "Composite"
-msgstr ""
+msgstr "Kompozit"
 
 #: modules/access/decklink.cpp:81
 msgid "S-video"
-msgstr ""
+msgstr "S-video"
 
 #: modules/access/decklink.cpp:88
 msgid "Embedded"
@@ -5451,11 +5454,11 @@ msgstr ""
 
 #: modules/access/decklink.cpp:88
 msgid "AES/EBU"
-msgstr ""
+msgstr "AES/EBU"
 
 #: modules/access/decklink.cpp:88
 msgid "Analog"
-msgstr ""
+msgstr "Analogno"
 
 #: modules/access/decklink.cpp:91 modules/access/linsys/linsys_hdsdi.c:78
 #: modules/access/linsys/linsys_sdi.c:73 modules/demux/rawvid.c:59
@@ -5469,35 +5472,35 @@ msgstr ""
 
 #: modules/access/decklink.cpp:96
 msgid "DeckLink"
-msgstr ""
+msgstr "DeckLink"
 
 #: modules/access/decklink.cpp:97
 msgid "Blackmagic DeckLink SDI input"
-msgstr ""
+msgstr "Blackmagic DeckLink SDI ulaz"
 
 #: modules/access/dshow/dshow.cpp:98
 msgid "Cable"
-msgstr ""
+msgstr "Kablovska"
 
 #: modules/access/dshow/dshow.cpp:98
 msgid "Antenna"
-msgstr ""
+msgstr "Antena"
 
 #: modules/access/dshow/dshow.cpp:106
 msgid "TV"
-msgstr ""
+msgstr "TV"
 
 #: modules/access/dshow/dshow.cpp:107
 msgid "FM radio"
-msgstr ""
+msgstr "FM radio"
 
 #: modules/access/dshow/dshow.cpp:108
 msgid "AM radio"
-msgstr ""
+msgstr "AM radio"
 
 #: modules/access/dshow/dshow.cpp:109
 msgid "DSS"
-msgstr ""
+msgstr "DSS"
 
 #: modules/access/dshow/dshow.cpp:136
 #: modules/gui/qt4/components/open_panels.cpp:807
@@ -5687,11 +5690,11 @@ msgstr ""
 
 #: modules/access/dshow/dshow.cpp:225
 msgid "DirectShow"
-msgstr ""
+msgstr "DirectShow"
 
 #: modules/access/dshow/dshow.cpp:226 modules/access/dshow/dshow.cpp:308
 msgid "DirectShow input"
-msgstr ""
+msgstr "DirectShow ulaz"
 
 #: modules/access/dshow/dshow.cpp:232 modules/access/dshow/dshow.cpp:237
 #: modules/audio_output/alsa.c:86 modules/audio_output/directx.c:136
@@ -5706,7 +5709,7 @@ msgstr "Podesi"
 #: modules/access/dshow/dshow.cpp:535 modules/access/dshow/dshow.cpp:609
 #: modules/access/dshow/dshow.cpp:1056 modules/access/dshow/dshow.cpp:1109
 msgid "Capture failed"
-msgstr ""
+msgstr "Neuspješno hvatanje"
 
 #: modules/access/dshow/dshow.cpp:536
 msgid "No video or audio device selected."
@@ -5728,7 +5731,7 @@ msgstr ""
 
 #: modules/access/dtv/access.c:36
 msgid "DVB adapter"
-msgstr ""
+msgstr "DVB adapter"
 
 #: modules/access/dtv/access.c:38
 msgid ""
@@ -5738,7 +5741,7 @@ msgstr ""
 
 #: modules/access/dtv/access.c:41
 msgid "DVB device"
-msgstr ""
+msgstr "DVB uređaj"
 
 #: modules/access/dtv/access.c:43
 msgid ""
@@ -5758,7 +5761,7 @@ msgstr ""
 
 #: modules/access/dtv/access.c:50
 msgid "Network name"
-msgstr ""
+msgstr "Naziv mreže"
 
 #: modules/access/dtv/access.c:51
 msgid "Unique network name in the System Tuning Spaces"
@@ -5774,7 +5777,7 @@ msgstr ""
 
 #: modules/access/dtv/access.c:56
 msgid "Frequency (Hz)"
-msgstr ""
+msgstr "Frekvencija (Hz)"
 
 #: modules/access/dtv/access.c:58
 msgid ""
@@ -5789,15 +5792,15 @@ msgstr ""
 
 #: modules/access/dtv/access.c:62
 msgid "Layer A modulation"
-msgstr ""
+msgstr "Sloj A modulacija"
 
 #: modules/access/dtv/access.c:63
 msgid "Layer B modulation"
-msgstr ""
+msgstr "Sloj B modulacija"
 
 #: modules/access/dtv/access.c:64
 msgid "Layer C modulation"
-msgstr ""
+msgstr "Sloj C modulacija"
 
 #: modules/access/dtv/access.c:66
 msgid ""
@@ -5868,31 +5871,31 @@ msgstr ""
 
 #: modules/access/dtv/access.c:119
 msgid "Bandwidth (MHz)"
-msgstr ""
+msgstr "Propusnost (MHz)"
 
 #: modules/access/dtv/access.c:124
 msgid "10 MHz"
-msgstr ""
+msgstr "10 MHz"
 
 #: modules/access/dtv/access.c:124
 msgid "8 MHz"
-msgstr ""
+msgstr "8 MHz"
 
 #: modules/access/dtv/access.c:124
 msgid "7 MHz"
-msgstr ""
+msgstr "7 MHz"
 
 #: modules/access/dtv/access.c:124
 msgid "6 MHz"
-msgstr ""
+msgstr "6 MHz"
 
 #: modules/access/dtv/access.c:125
 msgid "5 MHz"
-msgstr ""
+msgstr "5 MHz"
 
 #: modules/access/dtv/access.c:125
 msgid "1.712 MHz"
-msgstr ""
+msgstr "1.712 MHz"
 
 #: modules/access/dtv/access.c:128
 msgid "Guard interval"
@@ -5940,11 +5943,11 @@ msgstr ""
 
 #: modules/access/dtv/access.c:159
 msgid "0.20"
-msgstr ""
+msgstr "0.20"
 
 #: modules/access/dtv/access.c:159
 msgid "0.25"
-msgstr ""
+msgstr "0.25"
 
 #: modules/access/dtv/access.c:162
 msgid "Transport stream ID"
@@ -5966,11 +5969,11 @@ msgstr ""
 
 #: modules/access/dtv/access.c:170
 msgid "Vertical (13V)"
-msgstr ""
+msgstr "Vertikalno (13V)"
 
 #: modules/access/dtv/access.c:170
 msgid "Horizontal (18V)"
-msgstr ""
+msgstr "Horizontalno (18V)"
 
 #: modules/access/dtv/access.c:171
 msgid "Circular Right Hand (13V)"
@@ -6042,7 +6045,7 @@ msgstr ""
 #: modules/access/v4l2/video.c:171 modules/access/v4l2/video.c:219
 #: modules/access/v4l2/video.c:282
 msgid "Unspecified"
-msgstr ""
+msgstr "Neodređen"
 
 #: modules/access/dtv/access.c:208
 msgid "Network identifier"
@@ -6094,7 +6097,7 @@ msgstr ""
 
 #: modules/access/dtv/access.c:230
 msgid "DTV"
-msgstr ""
+msgstr "DTV"
 
 #: modules/access/dtv/access.c:231
 msgid "Digital Television and Radio"
@@ -6148,19 +6151,19 @@ msgstr ""
 
 #: modules/access/dv.c:61
 msgid "DV"
-msgstr ""
+msgstr "DV"
 
 #: modules/access/dvdnav.c:71 modules/access/dvdread.c:62
 msgid "DVD angle"
-msgstr ""
+msgstr "DVD ugao"
 
 #: modules/access/dvdnav.c:73 modules/access/dvdread.c:64
 msgid "Default DVD angle."
-msgstr ""
+msgstr "Zadani DVD ugao."
 
 #: modules/access/dvdnav.c:75
 msgid "Start directly in menu"
-msgstr ""
+msgstr "Pokreni direktno iz izbornika"
 
 #: modules/access/dvdnav.c:77
 msgid ""
@@ -6170,7 +6173,7 @@ msgstr ""
 
 #: modules/access/dvdnav.c:86
 msgid "DVD with menus"
-msgstr ""
+msgstr "DVD sa izbornicima"
 
 #: modules/access/dvdnav.c:87
 msgid "DVDnav Input"
@@ -6179,7 +6182,7 @@ msgstr ""
 #: modules/access/dvdnav.c:335 modules/access/dvdread.c:195
 #: modules/access/dvdread.c:457 modules/access/dvdread.c:519
 msgid "Playback failure"
-msgstr ""
+msgstr "Neuspješna reprodukcija"
 
 #: modules/access/dvdnav.c:336
 msgid ""
@@ -6188,7 +6191,7 @@ msgstr ""
 
 #: modules/access/dvdread.c:70
 msgid "DVD without menus"
-msgstr ""
+msgstr "DVD bez izbornika"
 
 #: modules/access/dvdread.c:71
 msgid "DVDRead Input (no menu support)"
@@ -6211,7 +6214,7 @@ msgstr ""
 
 #: modules/access/eyetv.m:56
 msgid "Channel number"
-msgstr ""
+msgstr "Broj kanala"
 
 #: modules/access/eyetv.m:58
 msgid ""
@@ -6221,13 +6224,13 @@ msgstr ""
 
 #: modules/access/eyetv.m:63
 msgid "EyeTV input"
-msgstr ""
+msgstr "EyeTV ulaz"
 
 #: modules/access/file.c:182 modules/access/file.c:315
 #: modules/access/mtp.c:213 modules/access/mtp.c:302 modules/access/vdr.c:378
 #: modules/access/vdr.c:548
 msgid "File reading failed"
-msgstr ""
+msgstr "Čitanje datoteke neuspješno"
 
 #: modules/access/file.c:183 modules/access/mtp.c:303 modules/access/vdr.c:548
 #, c-format
@@ -6295,35 +6298,35 @@ msgstr "Datoteka"
 
 #: modules/access/fs.c:62 modules/gui/qt4/ui/sprefs_video.h:354
 msgid "Directory"
-msgstr ""
+msgstr "Direktorij"
 
 #: modules/access/ftp.c:58
 msgid "FTP user name"
-msgstr ""
+msgstr "FTP korisničko ime"
 
 #: modules/access/ftp.c:59 modules/access/sftp.c:52 modules/access/smb.c:62
 msgid "User name that will be used for the connection."
-msgstr ""
+msgstr "Korisničko ime će biti korišteno za vezu."
 
 #: modules/access/ftp.c:61
 msgid "FTP password"
-msgstr ""
+msgstr "FTP šifra"
 
 #: modules/access/ftp.c:62 modules/access/sftp.c:54 modules/access/smb.c:65
 msgid "Password that will be used for the connection."
-msgstr ""
+msgstr "Šifra će biti korištena za vezu."
 
 #: modules/access/ftp.c:64
 msgid "FTP account"
-msgstr ""
+msgstr "FTP račun"
 
 #: modules/access/ftp.c:65
 msgid "Account that will be used for the connection."
-msgstr ""
+msgstr "Račun će biti korišten za vezu."
 
 #: modules/access/ftp.c:70
 msgid "FTP input"
-msgstr ""
+msgstr "FTP ulaz"
 
 #: modules/access/ftp.c:85
 msgid "FTP upload output"
@@ -6340,15 +6343,15 @@ msgstr ""
 
 #: modules/access/ftp.c:143
 msgid "VLC's connection to the given server was rejected."
-msgstr ""
+msgstr "VLC veza za dati poslužitelj je odbijena."
 
 #: modules/access/ftp.c:208
 msgid "Your account was rejected."
-msgstr ""
+msgstr "Vaš račun je odbijen"
 
 #: modules/access/ftp.c:217
 msgid "Your password was rejected."
-msgstr ""
+msgstr "Vaša šifra je odbijena."
 
 #: modules/access/ftp.c:224
 msgid "Your connection attempt to the server was rejected."
@@ -6447,15 +6450,15 @@ msgstr ""
 
 #: modules/access/http.c:103
 msgid "HTTP input"
-msgstr ""
+msgstr "HTTP ulaz"
 
 #: modules/access/http.c:105
 msgid "HTTP(S)"
-msgstr ""
+msgstr "HTTP(S)"
 
 #: modules/access/http.c:540
 msgid "HTTP authentication"
-msgstr ""
+msgstr "HTTP ovjera"
 
 #: modules/access/http.c:541
 #, c-format
@@ -6468,16 +6471,16 @@ msgstr ""
 #: modules/misc/memcpy.c:41 modules/text_renderer/tdummy.c:35
 #: modules/video_output/vdummy.c:47
 msgid "Dummy"
-msgstr ""
+msgstr "Lutka"
 
 #: modules/access/idummy.c:43
 msgid "Dummy input"
-msgstr ""
+msgstr "Lutka ulaz"
 
 #: modules/access/imem.c:49 modules/gui/qt4/components/playlist/sorting.h:54
 #: modules/stream_out/bridge.c:41 modules/stream_out/mosaic_bridge.c:105
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: modules/access/imem.c:51 modules/demux/image.c:46
 msgid "Set the ID of the elementary stream"
@@ -6485,7 +6488,7 @@ msgstr ""
 
 #: modules/access/imem.c:53 modules/demux/image.c:48
 msgid "Group"
-msgstr ""
+msgstr "Grupa"
 
 #: modules/access/imem.c:55 modules/demux/image.c:50
 msgid "Set the group of the elementary stream"
@@ -6493,7 +6496,7 @@ msgstr ""
 
 #: modules/access/imem.c:57
 msgid "Category"
-msgstr ""
+msgstr "Kategorija"
 
 #: modules/access/imem.c:59
 msgid "Set the category of the elementary stream"
@@ -6501,11 +6504,11 @@ msgstr ""
 
 #: modules/access/imem.c:64
 msgid "Unknown"
-msgstr ""
+msgstr "Nepoznato"
 
 #: modules/access/imem.c:64
 msgid "Data"
-msgstr ""
+msgstr "Podaci"
 
 #: modules/access/imem.c:69
 msgid "Set the codec of the elementary stream"
@@ -6534,7 +6537,7 @@ msgstr ""
 #: modules/video_filter/mosaic.c:94 modules/video_output/vmem.c:42
 #: modules/gui/qt4/ui/profiles.h:486
 msgid "Width"
-msgstr ""
+msgstr "Širina"
 
 #: modules/access/imem.c:84
 msgid "Width of video or subtitle elementary streams"
@@ -6545,7 +6548,7 @@ msgstr ""
 #: modules/video_filter/mosaic.c:92 modules/video_output/vmem.c:45
 #: modules/gui/qt4/ui/profiles.h:489
 msgid "Height"
-msgstr ""
+msgstr "Visina"
 
 #: modules/access/imem.c:87
 msgid "Height of video or subtitle elementary streams"
@@ -6598,7 +6601,7 @@ msgstr ""
 #: modules/access/imem.c:113 modules/gui/macosx/AudioEffects.m:90
 #: modules/gui/qt4/components/extended_panels.cpp:1350
 msgid "Size"
-msgstr ""
+msgstr "Veličina"
 
 #: modules/access/imem.c:115
 msgid "Size of stream in bytes"
@@ -6647,7 +6650,7 @@ msgstr ""
 #: modules/access/linsys/linsys_hdsdi.c:75
 #: modules/access/linsys/linsys_sdi.c:70
 msgid "Video ID"
-msgstr ""
+msgstr "Video ID"
 
 #: modules/access/linsys/linsys_hdsdi.c:77
 #: modules/access/linsys/linsys_sdi.c:72
@@ -6671,15 +6674,15 @@ msgstr ""
 
 #: modules/access/linsys/linsys_hdsdi.c:89
 msgid "HD-SDI Input"
-msgstr ""
+msgstr "HD-SDI ulaz"
 
 #: modules/access/linsys/linsys_hdsdi.c:90
 msgid "HD-SDI"
-msgstr ""
+msgstr "HD-SDI"
 
 #: modules/access/linsys/linsys_sdi.c:79
 msgid "Teletext configuration"
-msgstr ""
+msgstr "Teletekst konfiguracija"
 
 #: modules/access/linsys/linsys_sdi.c:81
 msgid ""
@@ -6688,7 +6691,7 @@ msgstr ""
 
 #: modules/access/linsys/linsys_sdi.c:82
 msgid "Teletext language"
-msgstr ""
+msgstr "Teletekst jezik"
 
 #: modules/access/linsys/linsys_sdi.c:84
 msgid "Allows you to set Teletext language (page=lang/type,...)."
@@ -6696,7 +6699,7 @@ msgstr ""
 
 #: modules/access/linsys/linsys_sdi.c:92
 msgid "SDI Input"
-msgstr ""
+msgstr "SDI ulaz"
 
 #: modules/access/linsys/linsys_sdi.c:113
 msgid "SDI Demux"
@@ -6743,11 +6746,11 @@ msgstr ""
 
 #: modules/access/mtp.c:64
 msgid "MTP input"
-msgstr ""
+msgstr "MTP ulaz"
 
 #: modules/access/mtp.c:65
 msgid "MTP"
-msgstr ""
+msgstr "MTP"
 
 #: modules/access/mtp.c:214 modules/access/vdr.c:379
 msgid "VLC could not read the file."
@@ -6755,15 +6758,15 @@ msgstr ""
 
 #: modules/access/oss.c:76
 msgid "OSS"
-msgstr ""
+msgstr "OSS"
 
 #: modules/access/oss.c:77
 msgid "OSS input"
-msgstr ""
+msgstr "OSS ulaz"
 
 #: modules/access_output/dummy.c:45 modules/stream_out/dummy.c:51
 msgid "Dummy stream output"
-msgstr ""
+msgstr "Lutka izlazno strujanje"
 
 #: modules/access_output/file.c:65
 msgid "Append to file"
@@ -6788,7 +6791,7 @@ msgstr ""
 #: modules/access_output/http.c:62 modules/misc/audioscrobbler.c:115
 #: modules/stream_out/rtp.c:177
 msgid "Username"
-msgstr ""
+msgstr "Korisničko ime"
 
 #: modules/access_output/http.c:63 modules/stream_out/rtp.c:178
 msgid "User name that will be requested to access the stream."
@@ -6800,7 +6803,7 @@ msgstr ""
 #: modules/misc/audioscrobbler.c:117 modules/stream_out/raop.c:154
 #: modules/stream_out/rtp.c:180
 msgid "Password"
-msgstr ""
+msgstr "Šifra"
 
 #: modules/access_output/http.c:66 modules/stream_out/rtp.c:181
 msgid "Password that will be requested to access the stream."
@@ -6829,7 +6832,7 @@ msgstr ""
 
 #: modules/access_output/livehttp.c:63
 msgid "Segment length"
-msgstr ""
+msgstr "Dužina segmenta"
 
 #: modules/access_output/livehttp.c:64
 msgid "Length of TS stream segments"
@@ -6900,11 +6903,11 @@ msgstr ""
 
 #: modules/access_output/rtmp.c:55
 msgid "RTMP stream output"
-msgstr ""
+msgstr "RTMP izlazno strujanje"
 
 #: modules/access_output/rtmp.c:56 modules/access/rtmp/access.c:58
 msgid "RTMP"
-msgstr ""
+msgstr "RTMP"
 
 #: modules/access_output/shout.c:64
 msgid "Stream name"
@@ -7021,32 +7024,32 @@ msgstr ""
 
 #: modules/access/pulse.c:43
 msgid "PulseAudio"
-msgstr ""
+msgstr "PulseAudio"
 
 #: modules/access/pulse.c:44
 msgid "PulseAudio input"
-msgstr ""
+msgstr "PulseAudio ulaz"
 
 #: modules/access/pvr.c:58 modules/access/v4l2/video.c:57
 #: modules/audio_output/kai.c:65
 msgid "Device"
-msgstr ""
+msgstr "Uređaj"
 
 #: modules/access/pvr.c:59
 msgid "PVR video device"
-msgstr ""
+msgstr "PVR video uređaj"
 
 #: modules/access/pvr.c:61
 msgid "Radio device"
-msgstr ""
+msgstr "Radio uređaj"
 
 #: modules/access/pvr.c:62
 msgid "PVR radio device"
-msgstr ""
+msgstr "PVR radio uređaj"
 
 #: modules/access/pvr.c:64 modules/gui/qt4/components/open_panels.cpp:919
 msgid "Norm"
-msgstr ""
+msgstr "Norma"
 
 #: modules/access/pvr.c:65
 msgid "Norm of the stream (Automatic, SECAM, PAL, or NTSC)."
@@ -7135,7 +7138,7 @@ msgstr ""
 
 #: modules/access/pvr.c:106
 msgid "Channel"
-msgstr ""
+msgstr "Kanal"
 
 #: modules/access/pvr.c:107
 msgid ""
@@ -7144,15 +7147,15 @@ msgstr ""
 
 #: modules/access/pvr.c:113
 msgid "SECAM"
-msgstr ""
+msgstr "SECAM"
 
 #: modules/access/pvr.c:113
 msgid "PAL"
-msgstr ""
+msgstr "PAL"
 
 #: modules/access/pvr.c:113
 msgid "NTSC"
-msgstr ""
+msgstr "NTSC"
 
 #: modules/access/pvr.c:116
 msgid "vbr"
@@ -7164,7 +7167,7 @@ msgstr ""
 
 #: modules/access/pvr.c:121
 msgid "PVR"
-msgstr ""
+msgstr "PVR"
 
 #: modules/access/pvr.c:122
 msgid "IVTV MPEG Encoding cards input"
@@ -7306,7 +7309,7 @@ msgstr ""
 
 #: modules/access/rtp/rtp.c:95 modules/stream_out/rtp.c:191
 msgid "RTP"
-msgstr ""
+msgstr "RTP"
 
 #: modules/access/rtp/rtp.c:96
 msgid "Real-Time Protocol (RTP) input"
@@ -7329,7 +7332,7 @@ msgstr ""
 
 #: modules/access/rtsp/access.c:86
 msgid "Connection failed"
-msgstr ""
+msgstr "Veza neuspješna"
 
 #: modules/access/rtsp/access.c:87
 #, c-format
@@ -7338,7 +7341,7 @@ msgstr ""
 
 #: modules/access/rtsp/access.c:228
 msgid "Session failed"
-msgstr ""
+msgstr "Sesija neuspješna"
 
 #: modules/access/rtsp/access.c:229
 msgid "The requested RTSP session could not be established."
@@ -7382,7 +7385,7 @@ msgstr ""
 #: modules/access/screen/screen.c:65 modules/access/screen/xcb.c:54
 #: modules/gui/macosx/open.m:191
 msgid "Follow the mouse"
-msgstr ""
+msgstr "Prati miš"
 
 #: modules/access/screen/screen.c:67 modules/access/screen/xcb.c:56
 msgid "Follow the mouse when capturing a subscreen."
@@ -7450,7 +7453,7 @@ msgstr ""
 
 #: modules/access/sdp.c:33 modules/stream_out/rtp.c:79
 msgid "SDP"
-msgstr ""
+msgstr "SDP"
 
 #: modules/access/sdp.c:34
 msgid "Session Description Protocol"
@@ -7458,15 +7461,15 @@ msgstr ""
 
 #: modules/access/sftp.c:51
 msgid "SFTP user name"
-msgstr ""
+msgstr "SFTP korisničko ime"
 
 #: modules/access/sftp.c:53
 msgid "SFTP password"
-msgstr ""
+msgstr "SFTP šifra"
 
 #: modules/access/sftp.c:55
 msgid "SFTP port"
-msgstr ""
+msgstr "SFTP port"
 
 #: modules/access/sftp.c:56
 msgid "SFTP port number to use on the server"
@@ -7474,7 +7477,7 @@ msgstr ""
 
 #: modules/access/sftp.c:57
 msgid "Read size"
-msgstr ""
+msgstr "Veličina čitanja"
 
 #: modules/access/sftp.c:58
 msgid "Size of the request for reading access"
@@ -7482,11 +7485,11 @@ msgstr ""
 
 #: modules/access/sftp.c:62
 msgid "SFTP input"
-msgstr ""
+msgstr "SFTP ulaz"
 
 #: modules/access/sftp.c:134
 msgid "SFTP authentication"
-msgstr ""
+msgstr "SFTP ovjera"
 
 #: modules/access/sftp.c:135
 #, c-format
@@ -7537,23 +7540,23 @@ msgstr ""
 
 #: modules/access/shm.c:73
 msgid "8 bits"
-msgstr ""
+msgstr "8 bita"
 
 #: modules/access/shm.c:73
 msgid "15 bits"
-msgstr ""
+msgstr "15 bita"
 
 #: modules/access/shm.c:73
 msgid "16 bits"
-msgstr ""
+msgstr "16 bita"
 
 #: modules/access/shm.c:73
 msgid "24 bits"
-msgstr ""
+msgstr "24 bita"
 
 #: modules/access/shm.c:73
 msgid "32 bits"
-msgstr ""
+msgstr "32 bita"
 
 #: modules/access/shm.c:80
 msgid "Framebuffer input"
@@ -7565,15 +7568,15 @@ msgstr ""
 
 #: modules/access/smb.c:61
 msgid "SMB user name"
-msgstr ""
+msgstr "SMB korisničko ime"
 
 #: modules/access/smb.c:64
 msgid "SMB password"
-msgstr ""
+msgstr "SMB šifra"
 
 #: modules/access/smb.c:67
 msgid "SMB domain"
-msgstr ""
+msgstr "SMB domena"
 
 #: modules/access/smb.c:68
 msgid "Domain/Workgroup that will be used for the connection."
@@ -7585,23 +7588,23 @@ msgstr ""
 
 #: modules/access/smb.c:74
 msgid "SMB input"
-msgstr ""
+msgstr "SMB ulaz"
 
 #: modules/access/tcp.c:45
 msgid "TCP"
-msgstr ""
+msgstr "TCP"
 
 #: modules/access/tcp.c:46
 msgid "TCP input"
-msgstr ""
+msgstr "TCP ulaz"
 
 #: modules/access/udp.c:53
 msgid "UDP"
-msgstr ""
+msgstr "UDP"
 
 #: modules/access/udp.c:54
 msgid "UDP input"
-msgstr ""
+msgstr "UDP ulaz"
 
 #: modules/access/v4l2/controls.c:721
 msgid "Reset defaults"
@@ -7633,7 +7636,7 @@ msgstr ""
 
 #: modules/access/v4l2/video.c:72
 msgid "Audio input"
-msgstr ""
+msgstr "Zvučni ulaz"
 
 #: modules/access/v4l2/video.c:74
 msgid "Audio input of the card to use (see debug)."
@@ -7653,7 +7656,7 @@ msgstr ""
 
 #: modules/access/v4l2/video.c:86
 msgid "Use libv4l2"
-msgstr ""
+msgstr "Koristi libv4l2"
 
 #: modules/access/v4l2/video.c:88
 msgid "Force usage of the libv4l2 wrapper."
@@ -7661,45 +7664,45 @@ msgstr ""
 
 #: modules/access/v4l2/video.c:91
 msgid "Reset controls"
-msgstr ""
+msgstr "Resetuj kontrole"
 
 #: modules/access/v4l2/video.c:92
 msgid "Reset controls to defaults."
-msgstr ""
+msgstr "Resetuj kontrole na zadano."
 
 #: modules/access/v4l2/video.c:93 modules/gui/macosx/VideoEffects.m:78
 #: modules/video_filter/atmo/atmo.cpp:262
 #: modules/gui/qt4/ui/video_effects.h:1299
 msgid "Brightness"
-msgstr ""
+msgstr "Svjetlost"
 
 #: modules/access/v4l2/video.c:94
 msgid "Picture brightness or black level."
-msgstr ""
+msgstr "Svjetlost slike ili nivo crne."
 
 #: modules/access/v4l2/video.c:95
 msgid "Automatic brightness"
-msgstr ""
+msgstr "Automtska svjetlost"
 
 #: modules/access/v4l2/video.c:97
 msgid "Automatically adjust the picture brightness."
-msgstr ""
+msgstr "Automatski podesi svjetlost slike."
 
 #: modules/access/v4l2/video.c:98 modules/gui/macosx/VideoEffects.m:77
 #: modules/gui/qt4/ui/video_effects.h:1301
 msgid "Contrast"
-msgstr ""
+msgstr "Kontrast"
 
 #: modules/access/v4l2/video.c:99
 msgid "Picture contrast or luma gain."
-msgstr ""
+msgstr "Konstrast slike ili luma zauzeće."
 
 #: modules/access/v4l2/video.c:100 modules/gui/macosx/VideoEffects.m:80
 #: modules/gui/macosx/VideoEffects.m:116
 #: modules/gui/qt4/ui/video_effects.h:1302
 #: modules/gui/qt4/ui/video_effects.h:1334
 msgid "Saturation"
-msgstr ""
+msgstr "Zasićenje"
 
 #: modules/access/v4l2/video.c:101
 msgid "Picture saturation or chroma gain."
@@ -7708,19 +7711,19 @@ msgstr ""
 #: modules/access/v4l2/video.c:102 modules/gui/macosx/VideoEffects.m:76
 #: modules/gui/qt4/ui/video_effects.h:1298
 msgid "Hue"
-msgstr ""
+msgstr "Nijansa"
 
 #: modules/access/v4l2/video.c:103
 msgid "Hue or color balance."
-msgstr ""
+msgstr "Nijansa ili ravnoteža boja."
 
 #: modules/access/v4l2/video.c:104
 msgid "Automatic hue"
-msgstr ""
+msgstr "Automatska nijansa"
 
 #: modules/access/v4l2/video.c:106
 msgid "Automatically adjust the picture hue."
-msgstr ""
+msgstr "Automatski podesi nijansu slike."
 
 #: modules/access/v4l2/video.c:107
 msgid "White balance temperature (K)"
@@ -7759,7 +7762,7 @@ msgstr ""
 #: modules/access/v4l2/video.c:120 modules/gui/macosx/VideoEffects.m:81
 #: modules/gui/qt4/ui/video_effects.h:1303
 msgid "Gamma"
-msgstr ""
+msgstr "Gama"
 
 #: modules/access/v4l2/video.c:122
 msgid "Gamma adjust."
@@ -7775,7 +7778,7 @@ msgstr ""
 
 #: modules/access/v4l2/video.c:126
 msgid "Gain"
-msgstr ""
+msgstr "Zauzeće"
 
 #: modules/access/v4l2/video.c:128
 msgid "Picture gain."
@@ -7783,7 +7786,7 @@ msgstr ""
 
 #: modules/access/v4l2/video.c:129
 msgid "Sharpness"
-msgstr ""
+msgstr "Oštrina"
 
 #: modules/access/v4l2/video.c:130
 msgid "Sharpness filter adjust."
@@ -7815,11 +7818,11 @@ msgstr ""
 
 #: modules/access/v4l2/video.c:145
 msgid "50 Hz"
-msgstr ""
+msgstr "50 Hz"
 
 #: modules/access/v4l2/video.c:145
 msgid "60 Hz"
-msgstr ""
+msgstr "60 Hz"
 
 #: modules/access/v4l2/video.c:147
 msgid "Backlight compensation"
@@ -7839,7 +7842,7 @@ msgstr ""
 
 #: modules/access/v4l2/video.c:152
 msgid "Horizontal flip"
-msgstr ""
+msgstr "Horizontalni preokret."
 
 #: modules/access/v4l2/video.c:154
 msgid "Flip the picture horizontally."
@@ -7847,7 +7850,7 @@ msgstr ""
 
 #: modules/access/v4l2/video.c:155
 msgid "Vertical flip"
-msgstr ""
+msgstr "Vertikalni preokret."
 
 #: modules/access/v4l2/video.c:157
 msgid "Flip the picture vertically."
@@ -7881,16 +7884,16 @@ msgstr ""
 
 #: modules/access/v4l2/video.c:172
 msgid "Black & white"
-msgstr ""
+msgstr "Crna i bijela"
 
 #: modules/access/v4l2/video.c:172 modules/gui/macosx/VideoEffects.m:118
 #: modules/video_filter/sepia.c:64 modules/gui/qt4/ui/video_effects.h:1336
 msgid "Sepia"
-msgstr ""
+msgstr "Sepija"
 
 #: modules/access/v4l2/video.c:172
 msgid "Negative"
-msgstr ""
+msgstr "Negativno"
 
 #: modules/access/v4l2/video.c:173
 msgid "Emboss"
@@ -7934,7 +7937,7 @@ msgstr ""
 
 #: modules/access/v4l2/video.c:183
 msgid "Bass level"
-msgstr ""
+msgstr "Bass nivo"
 
 #: modules/access/v4l2/video.c:185
 msgid "Bass adjustment of the audio input."
@@ -7954,7 +7957,7 @@ msgstr "Smanji zvuk."
 
 #: modules/access/v4l2/video.c:192
 msgid "Loudness mode"
-msgstr ""
+msgstr "Mod glasnosti"
 
 #: modules/access/v4l2/video.c:194
 msgid "Loudness mode a.k.a. bass boost."
@@ -7999,30 +8002,30 @@ msgstr "Sve"
 
 #: modules/access/v4l2/video.c:262
 msgid "525 lines / 60 Hz"
-msgstr ""
+msgstr "525 linija / 60 Hz"
 
 #: modules/access/v4l2/video.c:262
 msgid "625 lines / 50 Hz"
-msgstr ""
+msgstr "625 linija / 50 Hz"
 
 #: modules/access/v4l2/video.c:270
 msgid "PAL N Argentina"
-msgstr ""
+msgstr "PAL N Argentina"
 
 #: modules/access/v4l2/video.c:271
 msgid "NTSC M Japan"
-msgstr ""
+msgstr "NTSC M Japan"
 
 #: modules/access/v4l2/video.c:271
 msgid "NTSC M South Korea"
-msgstr ""
+msgstr "NTSC M Južna Koreja"
 
 #: modules/access/v4l2/video.c:283 modules/audio_output/alsa.c:74
 #: modules/audio_output/directx.c:445 modules/audio_output/kai.c:222
 #: modules/audio_output/oss.c:214 modules/audio_output/portaudio.c:392
 #: modules/audio_output/waveout.c:428
 msgid "Mono"
-msgstr ""
+msgstr "Mono"
 
 #: modules/access/v4l2/video.c:285
 msgid "Primary language (Analog TV tuners only)"
@@ -8050,15 +8053,15 @@ msgstr ""
 
 #: modules/access/v4l2/video.c:308
 msgid "Video input"
-msgstr ""
+msgstr "Video ulaz"
 
 #: modules/access/v4l2/video.c:343
 msgid "Tuner"
-msgstr ""
+msgstr "Tuner"
 
 #: modules/access/v4l2/video.c:358
 msgid "Controls"
-msgstr ""
+msgstr "Kontrole"
 
 #: modules/access/v4l2/video.c:359
 msgid "Video capture controls (if supported by the device)"
@@ -8070,11 +8073,11 @@ msgstr ""
 
 #: modules/access/vcd/vcd.c:47
 msgid "VCD"
-msgstr ""
+msgstr "VCD"
 
 #: modules/access/vcd/vcd.c:48
 msgid "VCD input"
-msgstr ""
+msgstr "VCD ulaz"
 
 #: modules/access/vcd/vcd.c:54
 msgid "[vcd:][device][@[title][,[chapter]]]"
@@ -8088,12 +8091,12 @@ msgstr ""
 
 #: modules/access/vcdx/access.c:396 modules/access/vcdx/info.c:74
 msgid "Segments"
-msgstr ""
+msgstr "Segmenti"
 
 #: modules/access/vcdx/access.c:414 modules/access/vcdx/access.c:693
 #: modules/access/vcdx/info.c:232 modules/demux/mkv/demux.cpp:681
 msgid "Segment"
-msgstr ""
+msgstr "Segment"
 
 #: modules/access/vcdx/access.c:517
 msgid "LID"
@@ -8155,7 +8158,7 @@ msgstr ""
 #: modules/access/vcdx/info.c:106 modules/access/vcdx/info.c:109
 #: modules/access/vcdx/info.c:118 modules/access/vcdx/info.c:130
 msgid "type"
-msgstr ""
+msgstr "tip"
 
 #: modules/access/vcdx/info.c:106
 msgid "end"
@@ -8257,7 +8260,7 @@ msgstr ""
 
 #: modules/access/vdr.c:99
 msgid "VDR"
-msgstr ""
+msgstr "VDR"
 
 #: modules/access/vdr.c:102
 msgid "VDR recordings"
@@ -8404,7 +8407,7 @@ msgstr ""
 
 #: modules/audio_filter/channel_mixer/dolby.c:50
 msgid "Dolby Surround decoder"
-msgstr ""
+msgstr "Dolby Surround dekoder"
 
 #: modules/audio_filter/channel_mixer/headphone.c:52
 msgid ""
@@ -8436,7 +8439,7 @@ msgstr ""
 
 #: modules/audio_filter/channel_mixer/headphone.c:69
 msgid "No decoding of Dolby Surround"
-msgstr ""
+msgstr "Nema dekodiranja za Dolby Surround"
 
 #: modules/audio_filter/channel_mixer/headphone.c:71
 msgid ""
@@ -8473,11 +8476,11 @@ msgstr ""
 
 #: modules/audio_filter/channel_mixer/mono.c:95
 msgid "Rear left"
-msgstr ""
+msgstr "Zadnji lijevi"
 
 #: modules/audio_filter/channel_mixer/mono.c:95
 msgid "Rear right"
-msgstr ""
+msgstr "Zadnji desni"
 
 #: modules/audio_filter/channel_mixer/mono.c:96
 msgid "Low-frequency effects"
@@ -8493,7 +8496,7 @@ msgstr ""
 
 #: modules/audio_filter/channel_mixer/mono.c:97
 msgid "Rear center"
-msgstr ""
+msgstr "Zadnji centar"
 
 #: modules/audio_filter/channel_mixer/mono.c:113
 msgid "Audio filter for stereo to mono conversion"
@@ -8689,7 +8692,7 @@ msgstr ""
 
 #: modules/audio_filter/converter/mpgatofixed32.c:68
 msgid "MPEG audio decoder"
-msgstr ""
+msgstr "MPEG zvučni dekoder"
 
 #: modules/audio_filter/equalizer.c:58
 msgid "Equalizer preset"
@@ -8712,7 +8715,7 @@ msgstr ""
 
 #: modules/audio_filter/equalizer.c:67
 msgid "Two pass"
-msgstr ""
+msgstr "Dva prolaza"
 
 #: modules/audio_filter/equalizer.c:68
 msgid "Filter the audio twice. This provides a more intense effect."
@@ -8737,7 +8740,7 @@ msgstr ""
 #: modules/audio_filter/equalizer_presets.h:40
 #: modules/demux/mp4/id3genres.h:60
 msgid "Classical"
-msgstr ""
+msgstr "Klasična"
 
 #: modules/audio_filter/equalizer_presets.h:40
 msgid "Club"
@@ -8762,61 +8765,61 @@ msgstr ""
 
 #: modules/audio_filter/equalizer_presets.h:41
 msgid "Headphones"
-msgstr ""
+msgstr "Slušalice"
 
 #: modules/audio_filter/equalizer_presets.h:42
 msgid "Large Hall"
-msgstr ""
+msgstr "Velika dvorana"
 
 #: modules/audio_filter/equalizer_presets.h:42
 msgid "Live"
-msgstr ""
+msgstr "Uživo"
 
 #: modules/audio_filter/equalizer_presets.h:42
 msgid "Party"
-msgstr ""
+msgstr "Zabava"
 
 #: modules/audio_filter/equalizer_presets.h:42
 #: modules/demux/mp4/id3genres.h:41
 msgid "Pop"
-msgstr ""
+msgstr "Pop"
 
 #: modules/audio_filter/equalizer_presets.h:42
 #: modules/demux/mp4/id3genres.h:44
 msgid "Reggae"
-msgstr ""
+msgstr "Rege"
 
 #: modules/audio_filter/equalizer_presets.h:43
 #: modules/demux/mp4/id3genres.h:45
 msgid "Rock"
-msgstr ""
+msgstr "Rok"
 
 #: modules/audio_filter/equalizer_presets.h:43
 #: modules/demux/mp4/id3genres.h:49
 msgid "Ska"
-msgstr ""
+msgstr "Ska"
 
 #: modules/audio_filter/equalizer_presets.h:43
 msgid "Soft"
-msgstr ""
+msgstr "Mehko"
 
 #: modules/audio_filter/equalizer_presets.h:43
 msgid "Soft rock"
-msgstr ""
+msgstr "Mehki rok"
 
 #: modules/audio_filter/equalizer_presets.h:43
 #: modules/demux/mp4/id3genres.h:46
 msgid "Techno"
-msgstr ""
+msgstr "Tehno"
 
 #: modules/audio_filter/karaoke.c:35 modules/demux/kate_categories.c:43
 #: modules/gui/macosx/AudioEffects.m:100
 msgid "Karaoke"
-msgstr ""
+msgstr "Karaoke"
 
 #: modules/audio_filter/karaoke.c:36
 msgid "Simple Karaoke filter"
-msgstr ""
+msgstr "Jednostavni karaoke filter"
 
 #: modules/audio_filter/normvol.c:65
 msgid "Number of audio buffers"
@@ -8831,7 +8834,7 @@ msgstr ""
 
 #: modules/audio_filter/normvol.c:71
 msgid "Maximal volume level"
-msgstr ""
+msgstr "Masimalna razina glasnoće"
 
 #: modules/audio_filter/normvol.c:72
 msgid ""
@@ -9048,19 +9051,19 @@ msgstr ""
 
 #: modules/audio_output/alsa.c:74
 msgid "Surround 4.0"
-msgstr ""
+msgstr "Okruženje 4.0"
 
 #: modules/audio_output/alsa.c:74
 msgid "Surround 4.1"
-msgstr ""
+msgstr "Okruženje 4.1"
 
 #: modules/audio_output/alsa.c:75
 msgid "Surround 5.0"
-msgstr ""
+msgstr "Okruženje 5.0"
 
 #: modules/audio_output/alsa.c:75
 msgid "Surround 5.1"
-msgstr ""
+msgstr "Okruženje 5.1"
 
 #: modules/audio_output/alsa.c:80
 msgid "ALSA audio output"
@@ -9156,12 +9159,12 @@ msgstr ""
 
 #: modules/audio_output/directx.c:385 modules/audio_output/portaudio.c:419
 msgid "3 Front 2 Rear"
-msgstr ""
+msgstr "3 prednja 2 zadnja"
 
 #: modules/audio_output/directx.c:408 modules/audio_output/oss.c:170
 #: modules/audio_output/portaudio.c:411 modules/audio_output/waveout.c:396
 msgid "2 Front 2 Rear"
-msgstr ""
+msgstr "2 prednja 2 zadnja"
 
 #: modules/audio_output/directx.c:534 modules/audio_output/oss.c:238
 #: modules/audio_output/waveout.c:446
@@ -9250,7 +9253,7 @@ msgstr ""
 
 #: modules/audio_output/opensles_android.c:87
 msgid "OpenSLES"
-msgstr ""
+msgstr "OpenSLES"
 
 #: modules/audio_output/oss.c:99
 msgid "Open Sound System"
@@ -9258,7 +9261,7 @@ msgstr ""
 
 #: modules/audio_output/oss.c:104
 msgid "OSS DSP device"
-msgstr ""
+msgstr "OSS DSP uređaj"
 
 #: modules/audio_output/portaudio.c:108
 msgid "Portaudio identifier for the output device"
@@ -9270,7 +9273,7 @@ msgstr ""
 
 #: modules/audio_output/portaudio.c:427 modules/audio_output/waveout.c:375
 msgid "5.1"
-msgstr ""
+msgstr "5.1"
 
 #: modules/audio_output/pulse.c:45
 msgid "Pulseaudio audio output"
@@ -9377,12 +9380,12 @@ msgstr ""
 
 #: modules/codec/avcodec/avcodec.c:100 modules/codec/omxil/omxil.c:111
 msgid "Decoding"
-msgstr ""
+msgstr "Dekodiranje"
 
 #: modules/codec/avcodec/avcodec.c:143 modules/codec/omxil/omxil.c:123
 #: modules/codec/schroedinger.c:370
 msgid "Encoding"
-msgstr ""
+msgstr "Kodiranje"
 
 #: modules/codec/avcodec/avcodec.c:144
 msgid "FFmpeg audio/video encoder"
@@ -9429,7 +9432,7 @@ msgstr ""
 #: modules/codec/avcodec/avcodec.h:95 modules/codec/avcodec/avcodec.h:204
 #: modules/demux/rawdv.c:40 modules/stream_out/transcode/transcode.c:139
 msgid "Hurry up"
-msgstr ""
+msgstr "Požuri"
 
 #: modules/codec/avcodec/avcodec.h:97
 msgid ""
@@ -9476,7 +9479,7 @@ msgstr ""
 
 #: modules/codec/avcodec/avcodec.h:118
 msgid "Codec name"
-msgstr ""
+msgstr "Naziv kodeka"
 
 #: modules/codec/avcodec/avcodec.h:119
 msgid "Internal libavcodec codec name"
@@ -9632,7 +9635,7 @@ msgstr ""
 
 #: modules/codec/avcodec/avcodec.h:199
 msgid "Quality level"
-msgstr ""
+msgstr "Nivo kvalitete"
 
 #: modules/codec/avcodec/avcodec.h:200
 msgid ""
@@ -9785,7 +9788,7 @@ msgstr ""
 
 #: modules/codec/cc.c:55
 msgid "CC 608/708"
-msgstr ""
+msgstr "CC 608/708"
 
 #: modules/codec/cc.c:56
 msgid "Closed Captions decoder"
@@ -9853,7 +9856,7 @@ msgstr ""
 
 #: modules/codec/dirac.c:74 modules/codec/schroedinger.c:134
 msgid "Prefilter"
-msgstr ""
+msgstr "Predfilter"
 
 #: modules/codec/dirac.c:75 modules/codec/schroedinger.c:135
 msgid "Enable adaptive prefiltering"
@@ -9890,15 +9893,15 @@ msgstr ""
 
 #: modules/codec/dirac.c:93 modules/codec/schroedinger.c:60
 msgid "4:2:0"
-msgstr ""
+msgstr "4:2:0"
 
 #: modules/codec/dirac.c:93 modules/codec/schroedinger.c:60
 msgid "4:2:2"
-msgstr ""
+msgstr "4:2:2"
 
 #: modules/codec/dirac.c:93 modules/codec/schroedinger.c:60
 msgid "4:4:4"
-msgstr ""
+msgstr "4:4:4"
 
 #: modules/codec/dirac.c:96
 msgid "Distance between 'P' frames"
@@ -9948,7 +9951,7 @@ msgstr ""
 
 #: modules/codec/dirac.c:131
 msgid "xblen"
-msgstr ""
+msgstr "xblen"
 
 #: modules/codec/dirac.c:132
 msgid "Total horizontal block length including overlaps"
@@ -9956,7 +9959,7 @@ msgstr ""
 
 #: modules/codec/dirac.c:136
 msgid "yblen"
-msgstr ""
+msgstr "yblen"
 
 #: modules/codec/dirac.c:137
 msgid "Total vertical block length including overlaps"
@@ -10093,19 +10096,19 @@ msgstr ""
 
 #: modules/codec/dvbsub.c:120
 msgid "DVB subtitles decoder"
-msgstr ""
+msgstr "DVB dekoder titlova"
 
 #: modules/codec/dvbsub.c:121 modules/demux/ts.c:3655 modules/demux/ts.c:3713
 msgid "DVB subtitles"
-msgstr ""
+msgstr "DVB titlovi"
 
 #: modules/codec/dvbsub.c:135
 msgid "DVB subtitles encoder"
-msgstr ""
+msgstr "DVB koder titlova"
 
 #: modules/codec/edummy.c:40
 msgid "Dummy encoder"
-msgstr ""
+msgstr "Lutka koder"
 
 #: modules/codec/faad.c:45
 msgid "AAC audio decoder (using libfaad2)"
@@ -10173,46 +10176,46 @@ msgstr ""
 
 #: modules/codec/kate.c:202
 msgid "Shadow"
-msgstr ""
+msgstr "Sjena"
 
 #: modules/codec/kate.c:202
 msgid "Outline"
-msgstr ""
+msgstr "Kontura"
 
 #: modules/codec/kate.c:210 modules/gui/fbosd.c:172
 #: modules/text_renderer/freetype.c:176 modules/text_renderer/quartztext.c:108
 #: modules/text_renderer/win32text.c:89 modules/video_filter/marq.c:59
 #: modules/video_filter/rss.c:71
 msgid "Black"
-msgstr ""
+msgstr "Crna"
 
 #: modules/codec/kate.c:210 modules/gui/fbosd.c:173
 #: modules/text_renderer/freetype.c:176 modules/text_renderer/quartztext.c:108
 #: modules/text_renderer/win32text.c:89 modules/video_filter/marq.c:59
 #: modules/video_filter/rss.c:72
 msgid "Gray"
-msgstr ""
+msgstr "Siva"
 
 #: modules/codec/kate.c:210 modules/gui/fbosd.c:173
 #: modules/text_renderer/freetype.c:176 modules/text_renderer/quartztext.c:108
 #: modules/text_renderer/win32text.c:89 modules/video_filter/marq.c:60
 #: modules/video_filter/rss.c:72
 msgid "Silver"
-msgstr ""
+msgstr "Srebrena"
 
 #: modules/codec/kate.c:210 modules/gui/fbosd.c:173
 #: modules/text_renderer/freetype.c:176 modules/text_renderer/quartztext.c:108
 #: modules/text_renderer/win32text.c:89 modules/video_filter/ball.c:120
 #: modules/video_filter/marq.c:60 modules/video_filter/rss.c:72
 msgid "White"
-msgstr ""
+msgstr "Bijela"
 
 #: modules/codec/kate.c:210 modules/gui/fbosd.c:173
 #: modules/text_renderer/freetype.c:176 modules/text_renderer/quartztext.c:108
 #: modules/text_renderer/win32text.c:89 modules/video_filter/marq.c:60
 #: modules/video_filter/rss.c:72
 msgid "Maroon"
-msgstr ""
+msgstr "Kestenjasta"
 
 #: modules/codec/kate.c:211 modules/gui/fbosd.c:173
 #: modules/gui/macosx/controls.m:192 modules/gui/macosx/MainMenu.m:333
@@ -10221,14 +10224,14 @@ msgstr ""
 #: modules/video_filter/colorthres.c:64 modules/video_filter/marq.c:60
 #: modules/video_filter/rss.c:72
 msgid "Red"
-msgstr ""
+msgstr "Crvena"
 
 #: modules/codec/kate.c:211 modules/gui/fbosd.c:174
 #: modules/text_renderer/freetype.c:177 modules/text_renderer/quartztext.c:109
 #: modules/text_renderer/win32text.c:90 modules/video_filter/colorthres.c:64
 #: modules/video_filter/marq.c:61 modules/video_filter/rss.c:73
 msgid "Fuchsia"
-msgstr ""
+msgstr "Fuksija"
 
 #: modules/codec/kate.c:211 modules/gui/fbosd.c:174
 #: modules/gui/macosx/controls.m:196 modules/gui/macosx/MainMenu.m:335
@@ -10236,14 +10239,14 @@ msgstr ""
 #: modules/text_renderer/win32text.c:90 modules/video_filter/colorthres.c:64
 #: modules/video_filter/marq.c:61 modules/video_filter/rss.c:73
 msgid "Yellow"
-msgstr ""
+msgstr "Žuta"
 
 #: modules/codec/kate.c:211 modules/gui/fbosd.c:174
 #: modules/text_renderer/freetype.c:177 modules/text_renderer/quartztext.c:109
 #: modules/text_renderer/win32text.c:90 modules/video_filter/marq.c:61
 #: modules/video_filter/rss.c:73
 msgid "Olive"
-msgstr ""
+msgstr "Maslinasta"
 
 #: modules/codec/kate.c:211 modules/gui/fbosd.c:174
 #: modules/gui/macosx/controls.m:194 modules/gui/macosx/MainMenu.m:334
@@ -10251,7 +10254,7 @@ msgstr ""
 #: modules/text_renderer/win32text.c:90 modules/video_filter/ball.c:119
 #: modules/video_filter/marq.c:61 modules/video_filter/rss.c:73
 msgid "Green"
-msgstr ""
+msgstr "Zelena"
 
 #: modules/codec/kate.c:211 modules/gui/fbosd.c:175
 #: modules/text_renderer/freetype.c:177 modules/text_renderer/quartztext.c:109
@@ -10272,7 +10275,7 @@ msgstr ""
 #: modules/text_renderer/win32text.c:91 modules/video_filter/marq.c:62
 #: modules/video_filter/rss.c:74
 msgid "Purple"
-msgstr ""
+msgstr "Ljubičasta"
 
 #: modules/codec/kate.c:212 modules/gui/fbosd.c:175
 #: modules/text_renderer/freetype.c:178 modules/text_renderer/quartztext.c:110
@@ -10288,14 +10291,14 @@ msgstr ""
 #: modules/video_filter/colorthres.c:64 modules/video_filter/marq.c:62
 #: modules/video_filter/rss.c:74
 msgid "Blue"
-msgstr ""
+msgstr "Plava"
 
 #: modules/codec/kate.c:212 modules/gui/fbosd.c:176
 #: modules/text_renderer/freetype.c:178 modules/text_renderer/quartztext.c:110
 #: modules/text_renderer/win32text.c:91 modules/video_filter/colorthres.c:64
 #: modules/video_filter/marq.c:63 modules/video_filter/rss.c:75
 msgid "Aqua"
-msgstr ""
+msgstr "Vodena"
 
 #: modules/codec/kate.c:214
 msgid "Use Tiger for rendering"
@@ -10309,7 +10312,7 @@ msgstr ""
 
 #: modules/codec/kate.c:219
 msgid "Rendering quality"
-msgstr ""
+msgstr "Kvalitet renderovanja"
 
 #: modules/codec/kate.c:220
 msgid ""
@@ -10319,7 +10322,7 @@ msgstr ""
 
 #: modules/codec/kate.c:224
 msgid "Default font effect"
-msgstr ""
+msgstr "Zadani efekat fonta"
 
 #: modules/codec/kate.c:225
 msgid ""
@@ -10348,7 +10351,7 @@ msgstr ""
 
 #: modules/codec/kate.c:240
 msgid "Default font color"
-msgstr ""
+msgstr "Zadana boja fonta"
 
 #: modules/codec/kate.c:241
 msgid ""
@@ -10368,7 +10371,7 @@ msgstr ""
 
 #: modules/codec/kate.c:250
 msgid "Default background color"
-msgstr ""
+msgstr "Zadana boja pozadine"
 
 #: modules/codec/kate.c:251
 msgid ""
@@ -10398,7 +10401,7 @@ msgstr ""
 
 #: modules/codec/kate.c:271
 msgid "Kate"
-msgstr ""
+msgstr "Kate"
 
 #: modules/codec/kate.c:272
 msgid "Kate overlay decoder"
@@ -10422,7 +10425,7 @@ msgstr ""
 
 #: modules/codec/libass.c:220 modules/text_renderer/freetype.c:470
 msgid "Building font cache"
-msgstr ""
+msgstr "Gradim predmemoriju fonta"
 
 #: modules/codec/libass.c:221
 msgid ""
@@ -10436,15 +10439,15 @@ msgstr ""
 
 #: modules/codec/lpcm.c:59
 msgid "Linear PCM audio decoder"
-msgstr ""
+msgstr "Linearni PCM zvučni dekoder"
 
 #: modules/codec/lpcm.c:64
 msgid "Linear PCM audio packetizer"
-msgstr ""
+msgstr "Linearni PCM zvučni paketizator"
 
 #: modules/codec/lpcm.c:70
 msgid "Linear PCM audio encoder"
-msgstr ""
+msgstr "Linearni PCM zvučni koder"
 
 #: modules/codec/mash.cpp:70
 msgid "Video decoder using openmash"
@@ -10468,7 +10471,7 @@ msgstr ""
 
 #: modules/codec/png.c:58
 msgid "PNG video decoder"
-msgstr ""
+msgstr "PNG video dekoder"
 
 #: modules/codec/quicktime.c:67
 msgid "QuickTime library decoder"
@@ -10524,7 +10527,7 @@ msgstr ""
 
 #: modules/codec/schroedinger.c:87
 msgid "GOP structure"
-msgstr ""
+msgstr "GOP struktura"
 
 #: modules/codec/schroedinger.c:88
 msgid "GOP structure used to encode the video sequence"
@@ -10582,7 +10585,7 @@ msgstr ""
 
 #: modules/codec/schroedinger.c:129
 msgid "GOP length"
-msgstr ""
+msgstr "GOP dužina"
 
 #: modules/codec/schroedinger.c:130
 msgid ""
@@ -10729,7 +10732,7 @@ msgstr ""
 
 #: modules/codec/schroedinger.c:327
 msgid "Force Profile"
-msgstr ""
+msgstr "Prisiljeni profil"
 
 #: modules/codec/schroedinger.c:339
 msgid "VC2 Low Delay Profile"
@@ -10737,11 +10740,11 @@ msgstr ""
 
 #: modules/codec/schroedinger.c:340
 msgid "VC2 Simple Profile"
-msgstr ""
+msgstr "VC2 jednostavni profil"
 
 #: modules/codec/schroedinger.c:341
 msgid "VC2 Main Profile"
-msgstr ""
+msgstr "VC2 glavni profil"
 
 #: modules/codec/schroedinger.c:342
 msgid "Main Profile"
@@ -10849,27 +10852,27 @@ msgstr ""
 
 #: modules/codec/speex.c:98
 msgid "Speex"
-msgstr ""
+msgstr "Speex"
 
 #: modules/codec/speex.c:102
 msgid "Speex audio packetizer"
-msgstr ""
+msgstr "Speex zvučni paketizator"
 
 #: modules/codec/speex.c:107
 msgid "Speex audio encoder"
-msgstr ""
+msgstr "Speex zvučni koder"
 
 #: modules/codec/spudec/spudec.c:45
 msgid "Disable DVD subtitle transparency"
-msgstr ""
+msgstr "Onemogući DVD providnost titlova"
 
 #: modules/codec/spudec/spudec.c:46
 msgid "Removes all transparency effects used in DVD subtitles."
-msgstr ""
+msgstr "Uklanja sve efekte providnosti korištene u DVD titlovima."
 
 #: modules/codec/spudec/spudec.c:50
 msgid "DVD subtitles decoder"
-msgstr ""
+msgstr "DVD dekoder titlova"
 
 #: modules/codec/spudec/spudec.c:51
 msgid "DVD subtitles"
@@ -10877,7 +10880,7 @@ msgstr "DVD titlovi"
 
 #: modules/codec/spudec/spudec.c:60
 msgid "DVD subtitles packetizer"
-msgstr ""
+msgstr "DVD paketizator titlova"
 
 #: modules/codec/stl.c:45
 msgid "EBU STL subtitles decoder"
@@ -10913,15 +10916,15 @@ msgstr ""
 
 #: modules/codec/subsdec.c:103
 msgid "Universal, Chinese (GB18030)"
-msgstr ""
+msgstr "Univerzalni, kineski (GB18030)"
 
 #: modules/codec/subsdec.c:107
 msgid "Western European (Latin-9)"
-msgstr ""
+msgstr "Zapadni Europski (Latin-9)"
 
 #: modules/codec/subsdec.c:108
 msgid "Western European (Windows-1252)"
-msgstr ""
+msgstr "Zapadni Europski (Windows-1252)"
 
 #: modules/codec/subsdec.c:109
 msgid "Western European (IBM 00850)"
@@ -10929,11 +10932,11 @@ msgstr ""
 
 #: modules/codec/subsdec.c:111
 msgid "Eastern European (Latin-2)"
-msgstr ""
+msgstr "Istočni Europski (Latin-2)"
 
 #: modules/codec/subsdec.c:112
 msgid "Eastern European (Windows-1250)"
-msgstr ""
+msgstr "Istočni Europski (Windows-1250)"
 
 #: modules/codec/subsdec.c:114
 msgid "Esperanto (Latin-3)"
@@ -10941,11 +10944,11 @@ msgstr "Esperanto (Latin-3)"
 
 #: modules/codec/subsdec.c:116
 msgid "Nordic (Latin-6)"
-msgstr ""
+msgstr "Nordijski (Latin-6)"
 
 #: modules/codec/subsdec.c:118
 msgid "Cyrillic (Windows-1251)"
-msgstr ""
+msgstr "Ćirilica (Windows-1251)"
 
 #: modules/codec/subsdec.c:119
 msgid "Russian (KOI8-R)"
@@ -10953,7 +10956,7 @@ msgstr "Ruski (KOI8-R)"
 
 #: modules/codec/subsdec.c:120
 msgid "Ukrainian (KOI8-U)"
-msgstr ""
+msgstr "Ukrajinski (KOI8-U)"
 
 #: modules/codec/subsdec.c:122
 msgid "Arabic (ISO 8859-6)"
@@ -10981,71 +10984,71 @@ msgstr "Hebrejski (Windows-1255)"
 
 #: modules/codec/subsdec.c:131
 msgid "Turkish (ISO 8859-9)"
-msgstr ""
+msgstr "Turski (ISO 8859-9)"
 
 #: modules/codec/subsdec.c:132
 msgid "Turkish (Windows-1254)"
-msgstr ""
+msgstr "Turski (Windows-1254)"
 
 #: modules/codec/subsdec.c:135
 msgid "Thai (TIS 620-2533/ISO 8859-11)"
-msgstr ""
+msgstr "Tajlandski (TIS 620-2533/ISO 8859-11)"
 
 #: modules/codec/subsdec.c:136
 msgid "Thai (Windows-874)"
-msgstr ""
+msgstr "Tajlandski (Windows-874)"
 
 #: modules/codec/subsdec.c:138
 msgid "Baltic (Latin-7)"
-msgstr ""
+msgstr "Baltički (Latin-7)"
 
 #: modules/codec/subsdec.c:139
 msgid "Baltic (Windows-1257)"
-msgstr ""
+msgstr "Baltički (Windows-1257)"
 
 #: modules/codec/subsdec.c:142
 msgid "Celtic (Latin-8)"
-msgstr ""
+msgstr "Keltski (Latin-8)"
 
 #: modules/codec/subsdec.c:145
 msgid "South-Eastern European (Latin-10)"
-msgstr ""
+msgstr "Jugoistočno Europski (Latin-10)"
 
 #: modules/codec/subsdec.c:147
 msgid "Simplified Chinese (ISO-2022-CN-EXT)"
-msgstr ""
+msgstr "Pojednostavljani kineski (ISO-2022-CN-EXT)"
 
 #: modules/codec/subsdec.c:148
 msgid "Simplified Chinese Unix (EUC-CN)"
-msgstr ""
+msgstr "Pojednostavljeni kineski Unix (EUC-CN)"
 
 #: modules/codec/subsdec.c:149
 msgid "Japanese (7-bits JIS/ISO-2022-JP-2)"
-msgstr ""
+msgstr "Japanski (7-bitni JIS/ISO-2022-JP-2)"
 
 #: modules/codec/subsdec.c:150
 msgid "Japanese Unix (EUC-JP)"
-msgstr ""
+msgstr "Japanski Unix (EUC-JP)"
 
 #: modules/codec/subsdec.c:151
 msgid "Japanese (Shift JIS)"
-msgstr ""
+msgstr "Japanski (Shift JIS)"
 
 #: modules/codec/subsdec.c:152
 msgid "Korean (EUC-KR/CP949)"
-msgstr ""
+msgstr "Korejski (EUC-KR/CP949)"
 
 #: modules/codec/subsdec.c:153
 msgid "Korean (ISO-2022-KR)"
-msgstr ""
+msgstr "Korejski (ISO-2022-KR)"
 
 #: modules/codec/subsdec.c:154
 msgid "Traditional Chinese (Big5)"
-msgstr ""
+msgstr "Tradicionalni kineski (Big5)"
 
 #: modules/codec/subsdec.c:155
 msgid "Traditional Chinese Unix (EUC-TW)"
-msgstr ""
+msgstr "Tradicionalni kineski Unix (EUC-TW)"
 
 #: modules/codec/subsdec.c:156
 msgid "Hong-Kong Supplementary (HKSCS)"
@@ -11053,11 +11056,11 @@ msgstr ""
 
 #: modules/codec/subsdec.c:158
 msgid "Vietnamese (VISCII)"
-msgstr ""
+msgstr "Vijetnamski (VISCII)"
 
 #: modules/codec/subsdec.c:159
 msgid "Vietnamese (Windows-1258)"
-msgstr ""
+msgstr "Vijetnamski (Windows-1258)"
 
 #: modules/codec/subsdec.c:166
 msgid "Subtitles text encoding"
@@ -11415,7 +11418,7 @@ msgstr ""
 
 #: modules/codec/x264.c:139
 msgid "H.264 level"
-msgstr ""
+msgstr "H.264 nivo"
 
 #: modules/codec/x264.c:140
 msgid ""
@@ -11427,7 +11430,7 @@ msgstr ""
 
 #: modules/codec/x264.c:145
 msgid "H.264 profile"
-msgstr ""
+msgstr "H.264 profil"
 
 #: modules/codec/x264.c:146
 msgid "Specify H.264 profile which limits are enforced over other settings"
@@ -11915,7 +11918,7 @@ msgstr ""
 #: modules/codec/x264.c:378 modules/gui/macosx/playlistinfo.m:84
 #: modules/gui/qt4/ui/streampanel.h:171
 msgid "Statistics"
-msgstr ""
+msgstr "Statistike"
 
 #: modules/codec/x264.c:379
 msgid "Print stats for each frame."
@@ -12013,7 +12016,7 @@ msgstr ""
 
 #: modules/codec/x264.c:421
 msgid "H.264/MPEG4 AVC encoder (x264)"
-msgstr ""
+msgstr "H.264/MPEG4 AVC koder (x264)"
 
 #: modules/codec/zvbi.c:57
 msgid "Teletext page"
@@ -12060,11 +12063,11 @@ msgstr ""
 
 #: modules/control/dbus/dbus.c:138
 msgid "DBus"
-msgstr ""
+msgstr "DBus"
 
 #: modules/control/dbus/dbus.c:140
 msgid "D-Bus control interface"
-msgstr ""
+msgstr "D-Bus kontrolni interfejs"
 
 #: modules/control/dbus/dbus_root.c:75 modules/gui/macosx/MainWindow.m:348
 #: modules/gui/macosx/MainWindow.m:1419 modules/gui/qt4/dialogs/help.cpp:99
@@ -12093,7 +12096,7 @@ msgstr ""
 
 #: modules/control/dummy.c:49
 msgid "Dummy interface"
-msgstr ""
+msgstr "Lutka interfejs"
 
 #: modules/control/gestures.c:81
 msgid "Motion threshold (10-100)"
@@ -12113,11 +12116,11 @@ msgstr ""
 
 #: modules/control/gestures.c:97
 msgid "Middle"
-msgstr ""
+msgstr "Srednji"
 
 #: modules/control/gestures.c:100
 msgid "Gestures"
-msgstr ""
+msgstr "Geste"
 
 #: modules/control/gestures.c:108
 msgid "Mouse gestures control interface"
@@ -12275,7 +12278,7 @@ msgstr ""
 
 #: modules/control/motion.c:83
 msgid "motion"
-msgstr ""
+msgstr "pokret"
 
 #: modules/control/motion.c:86
 msgid "motion control interface"
@@ -12392,7 +12395,7 @@ msgstr ""
 
 #: modules/control/rc.c:75
 msgid "Error"
-msgstr ""
+msgstr "Greška"
 
 #: modules/control/rc.c:159
 msgid "Show stream position"
@@ -12438,7 +12441,7 @@ msgstr ""
 
 #: modules/control/rc.c:184
 msgid "RC"
-msgstr ""
+msgstr "RC"
 
 #: modules/control/rc.c:187 modules/lua/vlc.c:116
 msgid "Remote control interface"
@@ -13033,15 +13036,15 @@ msgstr ""
 
 #: modules/demux/dirac.c:54
 msgid "Dirac video demuxer"
-msgstr ""
+msgstr "Dirac video demukser"
 
 #: modules/demux/flac.c:50
 msgid "FLAC demuxer"
-msgstr ""
+msgstr "FLAC demukser"
 
 #: modules/demux/image.c:44
 msgid "ES ID"
-msgstr ""
+msgstr "ES ID"
 
 #: modules/demux/image.c:52
 msgid "Decode"
@@ -13091,7 +13094,7 @@ msgstr ""
 
 #: modules/demux/image.c:77
 msgid "Image"
-msgstr ""
+msgstr "Slika"
 
 #: modules/demux/kate_categories.c:40
 msgid "Closed captions"
@@ -13120,7 +13123,7 @@ msgstr ""
 #: modules/demux/kate_categories.c:49 modules/demux/kate_categories.c:56
 #: modules/demux/mp4/mp4.c:985
 msgid "Lyrics"
-msgstr ""
+msgstr "Lirika"
 
 #: modules/demux/kate_categories.c:50
 msgid "Linguistic markup"
@@ -13136,11 +13139,11 @@ msgstr ""
 
 #: modules/demux/kate_categories.c:60
 msgid "Slides (text)"
-msgstr ""
+msgstr "Slajdovi (tekst)"
 
 #: modules/demux/kate_categories.c:61
 msgid "Slides (images)"
-msgstr ""
+msgstr "Slajdovi (slike)"
 
 #: modules/demux/kate_categories.c:73
 msgid "Unknown category"
@@ -13226,7 +13229,7 @@ msgstr ""
 
 #: modules/demux/live555.cpp:632
 msgid "RTSP authentication"
-msgstr ""
+msgstr "RTSP ovjera"
 
 #: modules/demux/live555.cpp:633
 msgid "Please enter a valid login name and a password."
@@ -13246,11 +13249,11 @@ msgstr ""
 
 #: modules/demux/mjpeg.c:53
 msgid "M-JPEG camera demuxer"
-msgstr ""
+msgstr "M-JPEG kamera demukser"
 
 #: modules/demux/mkv/chapter_command.cpp:143
 msgid "---  DVD Menu"
-msgstr ""
+msgstr "---  DVD Izbornik"
 
 #: modules/demux/mkv/chapter_command.cpp:149
 msgid "First Played"
@@ -13258,11 +13261,11 @@ msgstr ""
 
 #: modules/demux/mkv/chapter_command.cpp:151
 msgid "Video Manager"
-msgstr ""
+msgstr "Video upravitelj"
 
 #: modules/demux/mkv/chapter_command.cpp:157
 msgid "----- Title"
-msgstr ""
+msgstr "----- Naslov"
 
 #: modules/demux/mkv/mkv.cpp:47
 msgid "Matroska stream demuxer"
@@ -13278,7 +13281,7 @@ msgstr ""
 
 #: modules/demux/mkv/mkv.cpp:58
 msgid "Chapter codecs"
-msgstr ""
+msgstr "Kodeci poglavlja"
 
 #: modules/demux/mkv/mkv.cpp:59
 msgid "Use chapter codecs found in the segment."
@@ -13367,11 +13370,11 @@ msgstr ""
 
 #: modules/demux/mod.c:88
 msgid "Mega bass"
-msgstr ""
+msgstr "Mega bass"
 
 #: modules/demux/mod.c:91
 msgid "Mega bass level"
-msgstr ""
+msgstr "Mega bass nivo"
 
 #: modules/demux/mod.c:93
 msgid "Mega bass cutoff"
@@ -13395,35 +13398,35 @@ msgstr ""
 
 #: modules/demux/mp4/id3genres.h:29
 msgid "Classic rock"
-msgstr ""
+msgstr "Klasični rok"
 
 #: modules/demux/mp4/id3genres.h:30
 msgid "Country"
-msgstr ""
+msgstr "Country"
 
 #: modules/demux/mp4/id3genres.h:32
 msgid "Disco"
-msgstr ""
+msgstr "Disko"
 
 #: modules/demux/mp4/id3genres.h:33
 msgid "Funk"
-msgstr ""
+msgstr "Funk"
 
 #: modules/demux/mp4/id3genres.h:34
 msgid "Grunge"
-msgstr ""
+msgstr "Grunge"
 
 #: modules/demux/mp4/id3genres.h:35
 msgid "Hip-Hop"
-msgstr ""
+msgstr "Hip-Hop"
 
 #: modules/demux/mp4/id3genres.h:36
 msgid "Jazz"
-msgstr ""
+msgstr "Džez"
 
 #: modules/demux/mp4/id3genres.h:37
 msgid "Metal"
-msgstr ""
+msgstr "Metal"
 
 #: modules/demux/mp4/id3genres.h:38
 msgid "New Age"
@@ -13435,27 +13438,27 @@ msgstr ""
 
 #: modules/demux/mp4/id3genres.h:40
 msgid "Other"
-msgstr ""
+msgstr "Drugi"
 
 #: modules/demux/mp4/id3genres.h:42
 msgid "R&B"
-msgstr ""
+msgstr "R&B"
 
 #: modules/demux/mp4/id3genres.h:43
 msgid "Rap"
-msgstr ""
+msgstr "Rep"
 
 #: modules/demux/mp4/id3genres.h:47
 msgid "Industrial"
-msgstr ""
+msgstr "Industrial"
 
 #: modules/demux/mp4/id3genres.h:48
 msgid "Alternative"
-msgstr ""
+msgstr "Alternativna"
 
 #: modules/demux/mp4/id3genres.h:50
 msgid "Death metal"
-msgstr ""
+msgstr "Death metal"
 
 #: modules/demux/mp4/id3genres.h:51
 msgid "Pranks"
@@ -13471,7 +13474,7 @@ msgstr ""
 
 #: modules/demux/mp4/id3genres.h:54
 msgid "Ambient"
-msgstr ""
+msgstr "Ambient"
 
 #: modules/demux/mp4/id3genres.h:55
 msgid "Trip-Hop"
@@ -13479,35 +13482,35 @@ msgstr ""
 
 #: modules/demux/mp4/id3genres.h:56
 msgid "Vocal"
-msgstr ""
+msgstr "Vokal"
 
 #: modules/demux/mp4/id3genres.h:57
 msgid "Jazz+Funk"
-msgstr ""
+msgstr "Džez+Funk"
 
 #: modules/demux/mp4/id3genres.h:58
 msgid "Fusion"
-msgstr ""
+msgstr "Fusion"
 
 #: modules/demux/mp4/id3genres.h:59
 msgid "Trance"
-msgstr ""
+msgstr "Trance"
 
 #: modules/demux/mp4/id3genres.h:61
 msgid "Instrumental"
-msgstr ""
+msgstr "Instrumentalni"
 
 #: modules/demux/mp4/id3genres.h:62
 msgid "Acid"
-msgstr ""
+msgstr "Acid"
 
 #: modules/demux/mp4/id3genres.h:63
 msgid "House"
-msgstr ""
+msgstr "House"
 
 #: modules/demux/mp4/id3genres.h:64
 msgid "Game"
-msgstr ""
+msgstr "Igra"
 
 #: modules/demux/mp4/id3genres.h:65
 msgid "Sound clip"
@@ -13515,19 +13518,19 @@ msgstr ""
 
 #: modules/demux/mp4/id3genres.h:66
 msgid "Gospel"
-msgstr ""
+msgstr "Gospel"
 
 #: modules/demux/mp4/id3genres.h:67 modules/gui/macosx/VideoEffects.m:120
 msgid "Noise"
-msgstr ""
+msgstr "Šum"
 
 #: modules/demux/mp4/id3genres.h:68
 msgid "Alternative rock"
-msgstr ""
+msgstr "Alternativni rok"
 
 #: modules/demux/mp4/id3genres.h:69
 msgid "Bass"
-msgstr ""
+msgstr "Bass"
 
 #: modules/demux/mp4/id3genres.h:70
 msgid "Soul"
@@ -13535,7 +13538,7 @@ msgstr ""
 
 #: modules/demux/mp4/id3genres.h:71
 msgid "Punk"
-msgstr ""
+msgstr "Punk"
 
 #: modules/demux/mp4/id3genres.h:72
 msgid "Space"
@@ -13547,19 +13550,19 @@ msgstr ""
 
 #: modules/demux/mp4/id3genres.h:74
 msgid "Instrumental pop"
-msgstr ""
+msgstr "Instrumentalni pop"
 
 #: modules/demux/mp4/id3genres.h:75
 msgid "Instrumental rock"
-msgstr ""
+msgstr "Instrumentalni rok"
 
 #: modules/demux/mp4/id3genres.h:76
 msgid "Ethnic"
-msgstr ""
+msgstr "Etnički"
 
 #: modules/demux/mp4/id3genres.h:77
 msgid "Gothic"
-msgstr ""
+msgstr "Gotički"
 
 #: modules/demux/mp4/id3genres.h:78
 msgid "Darkwave"
@@ -13571,7 +13574,7 @@ msgstr ""
 
 #: modules/demux/mp4/id3genres.h:80
 msgid "Electronic"
-msgstr ""
+msgstr "Elektronski"
 
 #: modules/demux/mp4/id3genres.h:81
 msgid "Pop-Folk"
@@ -13591,7 +13594,7 @@ msgstr ""
 
 #: modules/demux/mp4/id3genres.h:85
 msgid "Comedy"
-msgstr ""
+msgstr "Komedija"
 
 #: modules/demux/mp4/id3genres.h:86
 msgid "Cult"
@@ -13603,7 +13606,7 @@ msgstr ""
 
 #: modules/demux/mp4/id3genres.h:88
 msgid "Top 40"
-msgstr ""
+msgstr "Top 40"
 
 #: modules/demux/mp4/id3genres.h:89
 msgid "Christian rap"
@@ -13611,11 +13614,11 @@ msgstr ""
 
 #: modules/demux/mp4/id3genres.h:90
 msgid "Pop/funk"
-msgstr ""
+msgstr "Pop/funk"
 
 #: modules/demux/mp4/id3genres.h:91
 msgid "Jungle"
-msgstr ""
+msgstr "Jungle"
 
 #: modules/demux/mp4/id3genres.h:92
 msgid "Native American"
@@ -13633,7 +13636,7 @@ msgstr ""
 #: modules/video_filter/psychedelic.c:55
 #: modules/gui/qt4/ui/video_effects.h:1385
 msgid "Psychedelic"
-msgstr ""
+msgstr "Psihodjeličan"
 
 #: modules/demux/mp4/id3genres.h:96
 msgid "Rave"
@@ -13645,31 +13648,31 @@ msgstr ""
 
 #: modules/demux/mp4/id3genres.h:98
 msgid "Trailer"
-msgstr ""
+msgstr "Isječak"
 
 #: modules/demux/mp4/id3genres.h:99
 msgid "Lo-Fi"
-msgstr ""
+msgstr "Lo-Fi"
 
 #: modules/demux/mp4/id3genres.h:100
 msgid "Tribal"
-msgstr ""
+msgstr "Tribal"
 
 #: modules/demux/mp4/id3genres.h:101
 msgid "Acid punk"
-msgstr ""
+msgstr "Acid punk"
 
 #: modules/demux/mp4/id3genres.h:102
 msgid "Acid jazz"
-msgstr ""
+msgstr "Acid džez"
 
 #: modules/demux/mp4/id3genres.h:103
 msgid "Polka"
-msgstr ""
+msgstr "Polka"
 
 #: modules/demux/mp4/id3genres.h:104
 msgid "Retro"
-msgstr ""
+msgstr "Retro"
 
 #: modules/demux/mp4/id3genres.h:105
 msgid "Musical"
@@ -13681,7 +13684,7 @@ msgstr ""
 
 #: modules/demux/mp4/id3genres.h:107
 msgid "Hard rock"
-msgstr ""
+msgstr "Hard rok"
 
 #: modules/demux/mp4/mp4.c:52
 msgid "MP4 stream demuxer"
@@ -13689,19 +13692,19 @@ msgstr ""
 
 #: modules/demux/mp4/mp4.c:53
 msgid "MP4"
-msgstr ""
+msgstr "MP4"
 
 #: modules/demux/mp4/mp4.c:970
 msgid "Writer"
-msgstr ""
+msgstr "Pisac"
 
 #: modules/demux/mp4/mp4.c:971
 msgid "Composer"
-msgstr ""
+msgstr "Kompozitor"
 
 #: modules/demux/mp4/mp4.c:972
 msgid "Producer"
-msgstr ""
+msgstr "Producent"
 
 #: modules/demux/mp4/mp4.c:973 modules/gui/macosx/playlistinfo.m:386
 #: modules/gui/qt4/components/controller.hpp:119
@@ -13747,11 +13750,11 @@ msgstr ""
 
 #: modules/demux/mp4/mp4.c:983
 msgid "Warning"
-msgstr ""
+msgstr "Upozorenje"
 
 #: modules/demux/mp4/mp4.c:984
 msgid "Software"
-msgstr ""
+msgstr "Softver"
 
 #: modules/demux/mp4/mp4.c:986
 msgid "Make"
@@ -13789,7 +13792,7 @@ msgstr ""
 
 #: modules/demux/mpeg/es.c:69
 msgid "MPEG-4 video"
-msgstr ""
+msgstr "MPEG-4 video"
 
 #: modules/demux/mpeg/h264.c:44
 msgid "Desired frame rate for the H264 stream."
@@ -13797,7 +13800,7 @@ msgstr ""
 
 #: modules/demux/mpeg/h264.c:51
 msgid "H264 video demuxer"
-msgstr ""
+msgstr "H264 video demukser"
 
 #: modules/demux/mpeg/mpgv.c:46
 msgid "MPEG-I/II video demuxer"
@@ -13988,11 +13991,11 @@ msgstr ""
 
 #: modules/demux/ps.c:56 modules/demux/ps.c:69
 msgid "MPEG-PS demuxer"
-msgstr ""
+msgstr "MPEG-PS demukser"
 
 #: modules/demux/ps.c:57
 msgid "PS"
-msgstr ""
+msgstr "PS"
 
 #: modules/demux/pva.c:43
 msgid "PVA demuxer"
@@ -14008,7 +14011,7 @@ msgstr ""
 
 #: modules/demux/rawaud.c:46 modules/stream_out/transcode/transcode.c:99
 msgid "Audio channels"
-msgstr ""
+msgstr "Zvučni kanali"
 
 #: modules/demux/rawaud.c:47
 msgid "Audio channels in input stream. Numeric value >0. Default is 2."
@@ -14301,7 +14304,7 @@ msgstr ""
 
 #: modules/demux/ty.c:59
 msgid "TY"
-msgstr ""
+msgstr "TY"
 
 #: modules/demux/ty.c:60
 msgid "TY Stream audio/video demux"
@@ -14337,15 +14340,15 @@ msgstr ""
 
 #: modules/demux/voc.c:43
 msgid "VOC demuxer"
-msgstr ""
+msgstr "VOC demukser"
 
 #: modules/demux/wav.c:45
 msgid "WAV demuxer"
-msgstr ""
+msgstr "WAV demukser"
 
 #: modules/demux/xa.c:43
 msgid "XA demuxer"
-msgstr ""
+msgstr "XA demukser"
 
 #: modules/gui/fbosd.c:102 modules/video_output/fb.c:56
 msgid "Framebuffer device"
@@ -14357,7 +14360,7 @@ msgstr ""
 
 #: modules/gui/fbosd.c:106
 msgid "Video aspect ratio"
-msgstr ""
+msgstr "Video omjer"
 
 #: modules/gui/fbosd.c:108
 msgid "Aspect ratio of the video image (4:3, 16:9). Default is square pixels."
@@ -14365,7 +14368,7 @@ msgstr ""
 
 #: modules/gui/fbosd.c:110
 msgid "Image file"
-msgstr ""
+msgstr "Datoteka slike"
 
 #: modules/gui/fbosd.c:112
 msgid "Filename of image file to use on the overlay framebuffer."
@@ -14373,7 +14376,7 @@ msgstr ""
 
 #: modules/gui/fbosd.c:114
 msgid "Transparency of the image"
-msgstr ""
+msgstr "Providnost slike"
 
 #: modules/gui/fbosd.c:115
 msgid ""
@@ -14385,7 +14388,7 @@ msgstr ""
 #: modules/misc/logger.c:109 modules/video_filter/marq.c:86
 #: modules/gui/qt4/ui/video_effects.h:1363
 msgid "Text"
-msgstr ""
+msgstr "Tekst"
 
 #: modules/gui/fbosd.c:120
 msgid "Text to display on the overlay framebuffer."
@@ -14395,21 +14398,21 @@ msgstr ""
 #: modules/video_filter/erase.c:58 modules/video_filter/logo.c:58
 #: modules/video_filter/osdmenu.c:50
 msgid "X coordinate"
-msgstr ""
+msgstr "X koordinata"
 
 #: modules/gui/fbosd.c:123
 msgid "X coordinate of the rendered image"
-msgstr ""
+msgstr "X koordinata renderovane slike"
 
 #: modules/gui/fbosd.c:125 modules/video_filter/audiobargraph_v.c:52
 #: modules/video_filter/erase.c:60 modules/video_filter/logo.c:61
 #: modules/video_filter/osdmenu.c:53
 msgid "Y coordinate"
-msgstr ""
+msgstr "Y koordinata"
 
 #: modules/gui/fbosd.c:126
 msgid "Y coordinate of the rendered image"
-msgstr ""
+msgstr "Y koordinata renderovane slike"
 
 #: modules/gui/fbosd.c:130
 msgid ""
@@ -14422,7 +14425,7 @@ msgstr ""
 #: modules/text_renderer/win32text.c:66 modules/video_filter/marq.c:115
 #: modules/video_filter/rss.c:146
 msgid "Opacity"
-msgstr ""
+msgstr "Neprozirnost"
 
 #: modules/gui/fbosd.c:135 modules/video_filter/marq.c:116
 msgid ""
@@ -14547,7 +14550,7 @@ msgstr ""
 #: modules/gui/macosx/VideoEffects.m:82
 #: modules/gui/qt4/dialogs/gototime.cpp:66
 msgid "Reset"
-msgstr ""
+msgstr "Resetuj"
 
 #: modules/gui/macosx/AudioEffects.m:80
 #: modules/gui/qt4/components/extended_panels.cpp:1194
@@ -14582,7 +14585,7 @@ msgstr ""
 
 #: modules/gui/macosx/AudioEffects.m:106
 msgid "Filter"
-msgstr ""
+msgstr "Filter"
 
 #: modules/gui/macosx/AudioEffects.m:107
 #: modules/gui/qt4/dialogs/extended.cpp:73
@@ -15074,16 +15077,16 @@ msgstr "Smanji glasnoću"
 
 #: modules/gui/macosx/MainMenu.m:306 modules/gui/macosx/MainMenu.m:1215
 msgid "Half Size"
-msgstr ""
+msgstr "Polovična veličina"
 
 #: modules/gui/macosx/MainMenu.m:307 modules/gui/macosx/MainMenu.m:1216
 #: modules/gui/macosx/MainMenu.m:1247
 msgid "Normal Size"
-msgstr ""
+msgstr "Normalna veličina"
 
 #: modules/gui/macosx/MainMenu.m:308 modules/gui/macosx/MainMenu.m:1217
 msgid "Double Size"
-msgstr ""
+msgstr "Dupla veličina"
 
 #: modules/gui/macosx/MainMenu.m:309 modules/gui/macosx/MainMenu.m:1218
 msgid "Fit to Screen"
@@ -15313,7 +15316,7 @@ msgstr ""
 #: modules/gui/macosx/simple_prefs.m:288 modules/gui/macosx/wizard.m:349
 #: modules/gui/macosx/wizard.m:417 modules/gui/qt4/ui/sprefs_interface.h:540
 msgid "Choose..."
-msgstr ""
+msgstr "Izaberi..."
 
 #: modules/gui/macosx/open.m:130
 msgid "Open VIDEO_TS folder"
@@ -15779,7 +15782,7 @@ msgstr "Resetuj sve"
 
 #: modules/gui/macosx/prefs.m:210
 msgid "Show Basic"
-msgstr ""
+msgstr "Pokaži osnovno"
 
 #: modules/gui/macosx/prefs.m:229 modules/gui/macosx/simple_prefs.m:757
 #: modules/gui/qt4/dialogs/preferences.cpp:339
@@ -15811,15 +15814,15 @@ msgstr ""
 #: modules/gui/macosx/simple_prefs.m:178
 #: modules/gui/qt4/components/simple_preferences.cpp:521
 msgid "Interface Settings"
-msgstr ""
+msgstr "Postavke interfejsa"
 
 #: modules/gui/macosx/simple_prefs.m:182
 msgid "General Audio Settings"
-msgstr ""
+msgstr "Opće postavke zvuka"
 
 #: modules/gui/macosx/simple_prefs.m:186
 msgid "General Video Settings"
-msgstr ""
+msgstr "Opće postavke videa"
 
 #: modules/gui/macosx/simple_prefs.m:190
 msgid "Subtitles & OSD"
@@ -15840,15 +15843,15 @@ msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:227
 msgid "Enable Audio"
-msgstr ""
+msgstr "Omogući zvuk"
 
 #: modules/gui/macosx/simple_prefs.m:228
 msgid "General Audio"
-msgstr ""
+msgstr "Opći zvuk"
 
 #: modules/gui/macosx/simple_prefs.m:229
 msgid "Preferred Audio language"
-msgstr ""
+msgstr "Preferirani jezik zvuka"
 
 #: modules/gui/macosx/simple_prefs.m:230
 msgid "Enable Last.fm submissions"
@@ -15885,7 +15888,7 @@ msgstr "Akcija"
 
 #: modules/gui/macosx/simple_prefs.m:246
 msgid "Shortcut"
-msgstr ""
+msgstr "Prečac"
 
 #: modules/gui/macosx/simple_prefs.m:252
 msgid "Repair AVI Files"
@@ -15960,7 +15963,7 @@ msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:286
 msgid "Default Encoding"
-msgstr ""
+msgstr "Zadano kodiranje"
 
 #: modules/gui/macosx/simple_prefs.m:287
 msgid "Display Settings"
@@ -16141,7 +16144,7 @@ msgstr "Brzina titlova:"
 
 #: modules/gui/macosx/TrackSynchronization.m:70
 msgid "fps"
-msgstr ""
+msgstr "fps"
 
 #: modules/gui/macosx/TrackSynchronization.m:71
 #: modules/gui/qt4/components/extended_panels.cpp:1571
@@ -16181,7 +16184,7 @@ msgstr "Geometrija"
 
 #: modules/gui/macosx/VideoEffects.m:75
 msgid "Image Adjust"
-msgstr ""
+msgstr "Prilagođavanje slike"
 
 #: modules/gui/macosx/VideoEffects.m:79
 #: modules/gui/qt4/ui/video_effects.h:1300
@@ -16191,7 +16194,7 @@ msgstr ""
 #: modules/gui/macosx/VideoEffects.m:83 modules/video_filter/sharpen.c:67
 #: modules/gui/qt4/ui/video_effects.h:1304
 msgid "Sharpen"
-msgstr ""
+msgstr "Izoštri"
 
 #: modules/gui/macosx/VideoEffects.m:84
 #: modules/gui/qt4/ui/video_effects.h:1305
@@ -16207,7 +16210,7 @@ msgstr ""
 #: modules/gui/macosx/VideoEffects.m:86 modules/video_filter/gradfun.c:47
 #: modules/gui/qt4/ui/video_effects.h:1307
 msgid "Radius"
-msgstr ""
+msgstr "Opseg"
 
 #: modules/gui/macosx/VideoEffects.m:87
 #: modules/gui/qt4/ui/video_effects.h:1308
@@ -16248,11 +16251,11 @@ msgstr ""
 
 #: modules/gui/macosx/VideoEffects.m:104 modules/video_filter/transform.c:52
 msgid "Flip horizontally"
-msgstr ""
+msgstr "Preokreni horizontalno"
 
 #: modules/gui/macosx/VideoEffects.m:106 modules/video_filter/transform.c:52
 msgid "Flip vertically"
-msgstr ""
+msgstr "Preokreni vertikalno"
 
 #: modules/gui/macosx/VideoEffects.m:108
 msgid "Magnification/Zoom"
@@ -16261,19 +16264,19 @@ msgstr ""
 #: modules/gui/macosx/VideoEffects.m:109
 #: modules/gui/qt4/ui/video_effects.h:1346
 msgid "Puzzle game"
-msgstr ""
+msgstr "Slagalice"
 
 #: modules/gui/macosx/VideoEffects.m:110
 #: modules/gui/qt4/ui/video_effects.h:1341
 #: modules/gui/qt4/ui/video_effects.h:1347
 msgid "Rows"
-msgstr ""
+msgstr "Redovi"
 
 #: modules/gui/macosx/VideoEffects.m:111
 #: modules/gui/qt4/ui/video_effects.h:1342
 #: modules/gui/qt4/ui/video_effects.h:1348
 msgid "Columns"
-msgstr ""
+msgstr "Kolone"
 
 #: modules/gui/macosx/VideoEffects.m:112
 msgid "Black Slot"
@@ -16287,12 +16290,12 @@ msgstr ""
 #: modules/gui/macosx/VideoEffects.m:117
 #: modules/gui/qt4/ui/video_effects.h:1335
 msgid "Similarity"
-msgstr ""
+msgstr "Sličnost"
 
 #: modules/gui/macosx/VideoEffects.m:119
 #: modules/gui/qt4/ui/video_effects.h:1337
 msgid "Intensity"
-msgstr ""
+msgstr "Intenzitet"
 
 #: modules/gui/macosx/VideoEffects.m:121 modules/gui/macosx/VideoEffects.m:124
 #: modules/video_filter/gradient.c:76 modules/video_filter/gradient.c:82
@@ -16311,7 +16314,7 @@ msgstr ""
 #: modules/gui/macosx/VideoEffects.m:131
 #: modules/gui/qt4/ui/video_effects.h:1330
 msgid "Cartoon"
-msgstr ""
+msgstr "Crtani"
 
 #: modules/gui/macosx/VideoEffects.m:132
 #: modules/gui/qt4/ui/video_effects.h:1322
@@ -16339,27 +16342,27 @@ msgstr ""
 #: modules/gui/macosx/VideoEffects.m:138
 #: modules/gui/qt4/ui/video_effects.h:1383
 msgid "Factor"
-msgstr ""
+msgstr "Faktor"
 
 #: modules/gui/macosx/VideoEffects.m:139
 #: modules/video_filter/motiondetect.c:49
 msgid "Motion Detect"
-msgstr ""
+msgstr "Otkrivanje pokreta"
 
 #: modules/gui/macosx/VideoEffects.m:140
 #: modules/gui/qt4/ui/video_effects.h:1390
 msgid "Water effect"
-msgstr ""
+msgstr "Efekat vode"
 
 #: modules/gui/macosx/VideoEffects.m:144
 #: modules/gui/qt4/ui/video_effects.h:1361
 msgid "Add text"
-msgstr ""
+msgstr "Dodaj tekst"
 
 #: modules/gui/macosx/VideoEffects.m:166
 #: modules/gui/qt4/ui/video_effects.h:1351
 msgid "Add logo"
-msgstr ""
+msgstr "Dodaj logo"
 
 #: modules/gui/macosx/VideoEffects.m:167
 #: modules/gui/qt4/ui/video_effects.h:1352
@@ -16370,7 +16373,7 @@ msgstr "Logo"
 #: modules/stream_out/mosaic_bridge.c:128 modules/video_filter/mosaic.c:87
 #: modules/gui/qt4/ui/video_effects.h:1359
 msgid "Transparency"
-msgstr ""
+msgstr "Providnost"
 
 #: modules/gui/macosx/wizard.m:118
 msgid "MPEG-1 Video codec (usable with MPEG PS, MPEG TS, MPEG1, OGG and RAW)"
@@ -16581,7 +16584,7 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:343
 msgid "Choose input"
-msgstr ""
+msgstr "Izaberi ulaz"
 
 #: modules/gui/macosx/wizard.m:344
 msgid "Choose here your input stream."
@@ -16590,7 +16593,7 @@ msgstr ""
 #: modules/gui/macosx/wizard.m:346 modules/gui/macosx/wizard.m:534
 #: modules/gui/macosx/wizard.m:1712
 msgid "Select a stream"
-msgstr ""
+msgstr "Izaberi strujanje"
 
 #: modules/gui/macosx/wizard.m:348
 msgid "Existing playlist item"
@@ -16613,7 +16616,7 @@ msgstr "Od"
 
 #: modules/gui/macosx/wizard.m:363
 msgid "To"
-msgstr ""
+msgstr "Za"
 
 #: modules/gui/macosx/wizard.m:367
 msgid "This page allows selecting how the input stream will be sent."
@@ -16622,7 +16625,7 @@ msgstr ""
 #: modules/gui/macosx/wizard.m:369 modules/gui/macosx/wizard.m:430
 #: modules/gui/qt4/dialogs/convert.cpp:55 modules/stream_out/rtp.c:76
 msgid "Destination"
-msgstr ""
+msgstr "Odredište"
 
 #: modules/gui/macosx/wizard.m:370 modules/gui/macosx/wizard.m:442
 msgid "Streaming method"
@@ -16734,7 +16737,7 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:429
 msgid "Summary"
-msgstr ""
+msgstr "Rezime"
 
 #: modules/gui/macosx/wizard.m:432
 msgid "Encap. format"
@@ -16746,7 +16749,7 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:440
 msgid "Save file to"
-msgstr ""
+msgstr "Snimi datoteku na"
 
 #: modules/gui/macosx/wizard.m:448
 msgid "Include subtitles"
@@ -16817,7 +16820,7 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:1354
 msgid "Finish"
-msgstr ""
+msgstr "Završi"
 
 #: modules/gui/macosx/wizard.m:1359
 #, c-format
@@ -16827,13 +16830,13 @@ msgstr ""
 #: modules/gui/macosx/wizard.m:1367 modules/gui/macosx/wizard.m:1396
 #: modules/gui/macosx/wizard.m:1426
 msgid "yes"
-msgstr ""
+msgstr "da"
 
 #: modules/gui/macosx/wizard.m:1369 modules/gui/macosx/wizard.m:1379
 #: modules/gui/macosx/wizard.m:1392 modules/gui/macosx/wizard.m:1398
 #: modules/gui/macosx/wizard.m:1410 modules/gui/macosx/wizard.m:1429
 msgid "no"
-msgstr ""
+msgstr "ne"
 
 #: modules/gui/macosx/wizard.m:1375
 msgid "yes: from %@ to %@"
@@ -17236,7 +17239,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/controller.cpp:538
 msgid "Menu"
-msgstr ""
+msgstr "Izbornik"
 
 #: modules/gui/qt4/components/controller.cpp:544
 msgid "Next Chapter/Title"
@@ -17274,11 +17277,11 @@ msgstr ""
 
 #: modules/gui/qt4/components/controller.hpp:117
 msgid "A->B Loop"
-msgstr ""
+msgstr "A->B petlja"
 
 #: modules/gui/qt4/components/controller.hpp:117
 msgid "Frame By Frame"
-msgstr ""
+msgstr "Okvir po okvir"
 
 #: modules/gui/qt4/components/controller.hpp:117
 msgid "Trickplay Reverse"
@@ -17433,19 +17436,19 @@ msgstr ""
 #: modules/gui/qt4/components/extended_panels.cpp:1055
 #: modules/gui/qt4/components/extended_panels.cpp:1111
 msgid "dB"
-msgstr ""
+msgstr "dB"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1194
 #: modules/gui/qt4/components/extended_panels.cpp:1195
 #: modules/gui/qt4/ui/open.h:253
 msgid " ms"
-msgstr ""
+msgstr " ms"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1196
 #: modules/gui/qt4/components/extended_panels.cpp:1198
 #: modules/gui/qt4/components/extended_panels.cpp:1199
 msgid " dB"
-msgstr ""
+msgstr " dB"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1198
 msgid ""
@@ -17477,7 +17480,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/info_panels.cpp:150
 msgid "Comments"
-msgstr ""
+msgstr "Komentari"
 
 #: modules/gui/qt4/components/info_panels.cpp:343
 msgid "Extra metadata and other information are shown in this panel.\n"
@@ -17524,7 +17527,7 @@ msgstr ""
 #: modules/gui/qt4/components/info_panels.cpp:533
 #: modules/gui/qt4/components/info_panels.cpp:546
 msgid "Decoded"
-msgstr ""
+msgstr "Dekodirano"
 
 #: modules/gui/qt4/components/info_panels.cpp:534
 #: modules/gui/qt4/components/info_panels.cpp:547
@@ -17543,12 +17546,12 @@ msgstr ""
 #: modules/gui/qt4/components/info_panels.cpp:537
 #: modules/gui/qt4/components/info_panels.cpp:550
 msgid "Lost"
-msgstr ""
+msgstr "Izgubljeno"
 
 #: modules/gui/qt4/components/info_panels.cpp:540
 #: modules/gui/qt4/components/info_panels.cpp:541
 msgid "Sent"
-msgstr ""
+msgstr "Poslano"
 
 #: modules/gui/qt4/components/info_panels.cpp:540
 msgid "packets"
@@ -17560,7 +17563,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/info_panels.cpp:548
 msgid "Played"
-msgstr ""
+msgstr "Producirano"
 
 #: modules/gui/qt4/components/info_panels.cpp:549
 #: modules/gui/qt4/components/info_panels.cpp:550
@@ -17636,7 +17639,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/open_panels.cpp:863
 msgid "Channels:"
-msgstr ""
+msgstr "Kanali"
 
 #: modules/gui/qt4/components/open_panels.cpp:874
 msgid "Selected ports:"
@@ -17644,7 +17647,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/open_panels.cpp:877
 msgid ".*"
-msgstr ""
+msgstr ".*"
 
 #: modules/gui/qt4/components/open_panels.cpp:884
 msgid "Use VLC pace"
@@ -17652,11 +17655,11 @@ msgstr ""
 
 #: modules/gui/qt4/components/open_panels.cpp:888
 msgid "Auto connection"
-msgstr ""
+msgstr "Automatska konekcija"
 
 #: modules/gui/qt4/components/open_panels.cpp:906
 msgid "Device name"
-msgstr ""
+msgstr "Naziv uređaja"
 
 #: modules/gui/qt4/components/open_panels.cpp:912
 msgid "Radio device name"
@@ -17664,11 +17667,11 @@ msgstr ""
 
 #: modules/gui/qt4/components/open_panels.cpp:961
 msgid "TV (digital)"
-msgstr ""
+msgstr "TV (digitalno)"
 
 #: modules/gui/qt4/components/open_panels.cpp:964
 msgid "Tuner card"
-msgstr ""
+msgstr "Tuner kartica"
 
 #: modules/gui/qt4/components/open_panels.cpp:965
 msgid "Delivery system"
@@ -17684,7 +17687,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/open_panels.cpp:1038
 msgid "Bandwidth"
-msgstr ""
+msgstr "Propusnost"
 
 #: modules/gui/qt4/components/open_panels.cpp:1081
 msgid "Your display will be opened and played in order to stream or save it."
@@ -17697,7 +17700,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/open_panels.cpp:1298
 msgid "Advanced Options"
-msgstr ""
+msgstr "Dodatne opcije"
 
 #: modules/gui/qt4/components/playlist/playlist.cpp:76
 msgid "Double click to get media information"
@@ -17709,55 +17712,55 @@ msgstr "Izmijeni pregled liste izvođenja"
 
 #: modules/gui/qt4/components/playlist/playlist.cpp:150
 msgid "Search the playlist"
-msgstr ""
+msgstr "Pretraži listu izvođenja"
 
 #: modules/gui/qt4/components/playlist/playlist_model.cpp:53
 msgid "Create Directory"
-msgstr ""
+msgstr "Kreiraj direktorij"
 
 #: modules/gui/qt4/components/playlist/playlist_model.cpp:53
 msgid "Create Folder"
-msgstr ""
+msgstr "Kreiraj mapu"
 
 #: modules/gui/qt4/components/playlist/playlist_model.cpp:55
 msgid "Enter name for new directory:"
-msgstr ""
+msgstr "Unesi naziv za novi direktorij:"
 
 #: modules/gui/qt4/components/playlist/playlist_model.cpp:56
 msgid "Enter name for new folder:"
-msgstr ""
+msgstr "Unesi naziv za novu mapu:"
 
 #: modules/gui/qt4/components/playlist/playlist_model.cpp:975
 msgid "Add to playlist"
-msgstr ""
+msgstr "Dodaj na listu izvođenja"
 
 #: modules/gui/qt4/components/playlist/playlist_model.cpp:983
 msgid "Clear playlist"
-msgstr ""
+msgstr "Očisti listu izvođenja"
 
 #: modules/gui/qt4/components/playlist/playlist_model.cpp:990
 msgid "Sort by"
-msgstr ""
+msgstr "Sortiraj po"
 
 #: modules/gui/qt4/components/playlist/playlist_model.cpp:997
 msgid "Ascending"
-msgstr ""
+msgstr "Uzlazno"
 
 #: modules/gui/qt4/components/playlist/playlist_model.cpp:998
 msgid "Descending"
-msgstr ""
+msgstr "Silazno"
 
 #: modules/gui/qt4/components/playlist/playlist_model.cpp:1009
 msgid "Display size"
-msgstr ""
+msgstr "Veličina prikaza"
 
 #: modules/gui/qt4/components/playlist/playlist_model.cpp:1010
 msgid "Increase"
-msgstr ""
+msgstr "Povećaj"
 
 #: modules/gui/qt4/components/playlist/playlist_model.cpp:1011
 msgid "Decrease"
-msgstr ""
+msgstr "Smanji"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:206
 msgid "My Computer"
@@ -17773,7 +17776,7 @@ msgstr "Lokalna mreža"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:209
 msgid "Internet"
-msgstr ""
+msgstr "Internet"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:233
 msgid "Subscribe to a podcast"
@@ -17785,7 +17788,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/playlist/selector.cpp:491
 msgid "Subscribe"
-msgstr ""
+msgstr "Pretplati se"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:492
 msgid "Enter URL of the podcast to subscribe to:"
@@ -17805,23 +17808,23 @@ msgstr ""
 
 #: modules/gui/qt4/components/playlist/standardpanel.hpp:134
 msgid "Icon View"
-msgstr ""
+msgstr "Ikonski prikaz"
 
 #: modules/gui/qt4/components/playlist/standardpanel.hpp:135
 msgid "Detailed View"
-msgstr ""
+msgstr "Detaljni prikaz"
 
 #: modules/gui/qt4/components/playlist/standardpanel.hpp:136
 msgid "List View"
-msgstr ""
+msgstr "Listni prikaz"
 
 #: modules/gui/qt4/components/playlist/standardpanel.hpp:137
 msgid "PictureFlow View "
-msgstr ""
+msgstr "PictureFlow prikaz"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:319
 msgid "Select File"
-msgstr ""
+msgstr "Odaberi datoteku"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1318
 msgid "Select an action to change the associated hotkey"
@@ -17829,7 +17832,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1326
 msgid "Hotkey"
-msgstr ""
+msgstr "Vruća tipka"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1327
 #: modules/gui/qt4/components/preferences_widgets.cpp:1545
@@ -17868,15 +17871,15 @@ msgstr ""
 
 #: modules/gui/qt4/components/simple_preferences.cpp:216
 msgid "Video Settings"
-msgstr ""
+msgstr "Video postavke"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:259
 msgid "Audio Settings"
-msgstr ""
+msgstr "Zvučne postavke"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:271
 msgid "Device:"
-msgstr ""
+msgstr "Uređaj:"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:423
 msgid "Input & Codecs Settings"
@@ -17896,7 +17899,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/simple_preferences.cpp:526
 msgid "VLC skins website"
-msgstr ""
+msgstr "VLC skin web stranica"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:558
 msgid "System's default"
@@ -17904,11 +17907,11 @@ msgstr ""
 
 #: modules/gui/qt4/components/simple_preferences.cpp:679
 msgid "Configure Hotkeys"
-msgstr ""
+msgstr "Podesi vruće tipke"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:947
 msgid "File associations"
-msgstr ""
+msgstr "Asocijacije datoteka"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:956
 #: modules/gui/qt4/dialogs_provider.hpp:42
@@ -17927,7 +17930,7 @@ msgstr "Liste izvođenja"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:1010
 msgid "&Apply"
-msgstr ""
+msgstr "&Primijeni"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:1011
 #: modules/gui/qt4/dialogs/convert.cpp:96
@@ -17942,19 +17945,19 @@ msgstr "&Odustani"
 #: modules/gui/qt4/components/sout/profile_selector.cpp:41
 #: modules/gui/qt4/dialogs/toolbar.cpp:151
 msgid "Profile"
-msgstr ""
+msgstr "Profil"
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:49
 msgid "Edit selected profile"
-msgstr ""
+msgstr "Uredi odabradni profil"
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:54
 msgid "Delete selected profile"
-msgstr ""
+msgstr "Izbriši odabrani profil"
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:59
 msgid "Create a new profile"
-msgstr ""
+msgstr "Kreiraj novi profil"
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:404
 msgid " Profile Name Missing"
@@ -17975,11 +17978,11 @@ msgstr ""
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:46
 #: modules/gui/qt4/ui/sout.h:328
 msgid "Source"
-msgstr ""
+msgstr "Izvor"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:49
 msgid "Source:"
-msgstr ""
+msgstr "Izvor:"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:58
 msgid "Type:"
@@ -17996,7 +17999,7 @@ msgstr ""
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:139
 #: modules/gui/qt4/dialogs/convert.cpp:113
 msgid "Save file..."
-msgstr ""
+msgstr "Snimi datoteku..."
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:140
 #: modules/gui/qt4/dialogs/convert.cpp:115
@@ -18011,7 +18014,7 @@ msgstr ""
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:156
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:262
 msgid "Path"
-msgstr ""
+msgstr "Putanja"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:212
 msgid ""
@@ -18052,19 +18055,19 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:45
 msgid "Create"
-msgstr ""
+msgstr "Stvori"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:46
 msgid "Create a new bookmark"
-msgstr ""
+msgstr "Stvori novu oznaku"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:49
 msgid "Delete the selected item"
-msgstr ""
+msgstr "Izbriši odabranu stavku"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:52
 msgid "Delete all the bookmarks"
-msgstr ""
+msgstr "Izbriši sve oznake"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:60
 #: modules/gui/qt4/dialogs/errors.cpp:49
@@ -18081,7 +18084,7 @@ msgstr "&Zatvori"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:74
 msgid "Bytes"
-msgstr ""
+msgstr "Bitovi"
 
 #: modules/gui/qt4/dialogs/convert.cpp:44
 msgid "Convert"
@@ -18090,11 +18093,11 @@ msgstr "Konvertuj"
 #: modules/gui/qt4/dialogs/convert.cpp:58
 #: modules/gui/qt4/ui/sprefs_audio.h:437
 msgid "Destination file:"
-msgstr ""
+msgstr "Odredišna datoteka:"
 
 #: modules/gui/qt4/dialogs/convert.cpp:66
 msgid "Browse"
-msgstr ""
+msgstr "Pogledaj"
 
 #: modules/gui/qt4/dialogs/convert.cpp:71
 msgid "Display the output"
@@ -18106,7 +18109,7 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/convert.cpp:80
 msgid "Settings"
-msgstr ""
+msgstr "Postavke"
 
 #: modules/gui/qt4/dialogs/convert.cpp:95
 msgid "&Start"
@@ -18114,7 +18117,7 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/errors.cpp:40
 msgid "Errors"
-msgstr ""
+msgstr "Greške"
 
 #: modules/gui/qt4/dialogs/errors.cpp:47
 msgid "Cl&ear"
@@ -18122,7 +18125,7 @@ msgstr "Oč&isti"
 
 #: modules/gui/qt4/dialogs/errors.cpp:54
 msgid "Hide future errors"
-msgstr ""
+msgstr "Sakrij buduće greške"
 
 #: modules/gui/qt4/dialogs/extended.cpp:49
 msgid "Adjustments and Effects"
@@ -18225,27 +18228,27 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/help.cpp:157
 msgid "&Recheck version"
-msgstr ""
+msgstr "&Provjeri verziju"
 
 #: modules/gui/qt4/dialogs/help.cpp:160
 msgid "&Yes"
-msgstr ""
+msgstr "&Da"
 
 #: modules/gui/qt4/dialogs/help.cpp:162
 msgid "&No"
-msgstr ""
+msgstr "%Ne"
 
 #: modules/gui/qt4/dialogs/help.cpp:165 modules/gui/qt4/ui/update.h:148
 msgid "VLC media player updates"
-msgstr ""
+msgstr "Nadogradnje za VLC medijski izvođač"
 
 #: modules/gui/qt4/dialogs/help.cpp:237
 msgid "A new version of VLC (%1.%2.%3%4) is available."
-msgstr ""
+msgstr "Nova verzija VLC-a (%1.%2.%3%4) je dostupna."
 
 #: modules/gui/qt4/dialogs/help.cpp:253
 msgid "You have the latest version of VLC media player."
-msgstr ""
+msgstr "Posjedujete posljednju verziju VLC medijskog izvođača."
 
 #: modules/gui/qt4/dialogs/help.cpp:260
 msgid "An error occurred while checking for updates..."
@@ -18261,11 +18264,11 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/mediainfo.cpp:64
 msgid "&Codec"
-msgstr ""
+msgstr "&Kodek"
 
 #: modules/gui/qt4/dialogs/mediainfo.cpp:68
 msgid "S&tatistics"
-msgstr ""
+msgstr "S&tatistika"
 
 #: modules/gui/qt4/dialogs/mediainfo.cpp:74
 msgid "&Save Metadata"
@@ -18273,7 +18276,7 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/mediainfo.cpp:79
 msgid "Location:"
-msgstr ""
+msgstr "Lokacija:"
 
 #: modules/gui/qt4/dialogs/messages.cpp:87
 msgid "Saves all the displayed logs to a file"
@@ -18320,7 +18323,7 @@ msgstr "Uređaj za &hvaćanje"
 
 #: modules/gui/qt4/dialogs/open.cpp:112
 msgid "&Select"
-msgstr ""
+msgstr "&Izaberi"
 
 #: modules/gui/qt4/dialogs/open.cpp:116 modules/gui/qt4/dialogs/open.cpp:209
 #: modules/gui/qt4/dialogs/openurl.cpp:57
@@ -18335,11 +18338,11 @@ msgstr "&Produciraj"
 #: modules/gui/qt4/dialogs/open.cpp:120 modules/gui/qt4/dialogs/open.cpp:203
 #: modules/gui/qt4/dialogs/sout.cpp:98
 msgid "&Stream"
-msgstr ""
+msgstr "&Strujaj"
 
 #: modules/gui/qt4/dialogs/open.cpp:122
 msgid "&Convert"
-msgstr ""
+msgstr "&Pretvori"
 
 #: modules/gui/qt4/dialogs/open.cpp:206
 msgid "&Convert / Save"
@@ -18378,7 +18381,7 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:118
 msgid "&Search:"
-msgstr ""
+msgstr "&Pretraga:"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:196
 msgid "Get more extensions from"
@@ -18386,7 +18389,7 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/plugins.cpp:228
 msgid "More information..."
-msgstr ""
+msgstr "Više informacija..."
 
 #: modules/gui/qt4/dialogs/plugins.cpp:237
 msgid "Reload extensions"
@@ -18398,7 +18401,7 @@ msgstr "Verzija"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:547
 msgid "Website"
-msgstr ""
+msgstr "Web stranica"
 
 #: modules/gui/qt4/dialogs/podcast_configuration.cpp:35
 msgid "Deletes the selected item"
@@ -18446,7 +18449,7 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs_provider.cpp:65
 msgid "Open Directory"
-msgstr ""
+msgstr "Otvori direktorij"
 
 #: modules/gui/qt4/dialogs_provider.cpp:66
 msgid "Open Folder"
@@ -18454,31 +18457,31 @@ msgstr "Otvori mapu"
 
 #: modules/gui/qt4/dialogs_provider.cpp:554
 msgid "Open playlist..."
-msgstr ""
+msgstr "Otvori listu izvođenja..."
 
 #: modules/gui/qt4/dialogs_provider.cpp:570
 msgid "XSPF playlist"
-msgstr ""
+msgstr "XSPF lista izvođenja"
 
 #: modules/gui/qt4/dialogs_provider.cpp:571
 msgid "M3U playlist"
-msgstr ""
+msgstr "M3U lista izvođenja"
 
 #: modules/gui/qt4/dialogs_provider.cpp:572
 msgid "M3U8 playlist"
-msgstr ""
+msgstr "M3U8 lista izvođenja"
 
 #: modules/gui/qt4/dialogs_provider.cpp:573
 msgid "HTML playlist"
-msgstr ""
+msgstr "HTML lista izvođenja"
 
 #: modules/gui/qt4/dialogs_provider.cpp:590
 msgid "Save playlist as..."
-msgstr ""
+msgstr "Snimi listu izvođenja kao..."
 
 #: modules/gui/qt4/dialogs_provider.cpp:710
 msgid "Open subtitles..."
-msgstr ""
+msgstr "Otvori titlove..."
 
 #: modules/gui/qt4/dialogs_provider.hpp:40
 msgid "Media Files"
@@ -18545,11 +18548,11 @@ msgstr "Pozicija alatke trake:"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:92
 msgid "Under the Video"
-msgstr ""
+msgstr "Ispod videa"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:93
 msgid "Above the Video"
-msgstr ""
+msgstr "Iznad videa"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:98
 msgid "Line 1:"
@@ -18577,11 +18580,11 @@ msgstr "Izaberi profil"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:159
 msgid "New profile"
-msgstr ""
+msgstr "Novi profil"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:162
 msgid "Delete the current profile"
-msgstr ""
+msgstr "Izbriši trenutni profil"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:198
 msgid "Cl&ose"
@@ -18589,7 +18592,7 @@ msgstr "Zat&vori"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:228 modules/gui/qt4/ui/profiles.h:461
 msgid "Profile Name"
-msgstr ""
+msgstr "Naziv profila"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:229
 msgid "Please enter the new profile name."
@@ -18637,7 +18640,7 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/vlm.cpp:75
 msgid "Video On Demand ( VOD )"
-msgstr ""
+msgstr "Video po zahtjevu (VOD)"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:80
 msgid "Hours / Minutes / Seconds:"
@@ -18658,7 +18661,7 @@ msgstr ""
 #: modules/gui/qt4/dialogs/vlm.cpp:111
 #: modules/gui/qt4/ui/sprefs_interface.h:508
 msgid " days"
-msgstr ""
+msgstr " dana"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:130
 msgid "I&mport"
@@ -18690,7 +18693,7 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/vlm.cpp:641
 msgid "VOD: "
-msgstr ""
+msgstr "VOD: "
 
 #: modules/gui/qt4/main_interface.cpp:1135
 msgid "Control menu for the player"
@@ -18706,7 +18709,7 @@ msgstr "&Medij"
 
 #: modules/gui/qt4/menus.cpp:315
 msgid "P&layback"
-msgstr "R&eproduciranje"
+msgstr "R&eprodukcija"
 
 #: modules/gui/qt4/menus.cpp:316 modules/gui/qt4/menus.cpp:1018
 msgid "&Audio"
@@ -18714,7 +18717,7 @@ msgstr "&Zvuk"
 
 #: modules/gui/qt4/menus.cpp:317 modules/gui/qt4/menus.cpp:1025
 msgid "&Video"
-msgstr ""
+msgstr "&Video"
 
 #: modules/gui/qt4/menus.cpp:319
 msgid "&Tools"
@@ -18762,7 +18765,7 @@ msgstr "Konve&rtuj / Snimi..."
 
 #: modules/gui/qt4/menus.cpp:372
 msgid "&Stream..."
-msgstr ""
+msgstr "&Strujaj..."
 
 #: modules/gui/qt4/menus.cpp:377
 msgid "Quit at the end of playlist"
@@ -19064,7 +19067,7 @@ msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:103
 msgid "Advanced options"
-msgstr ""
+msgstr "Dodatne opcije"
 
 #: modules/gui/qt4/qt4.cpp:104
 msgid "Show all the advanced options in the dialogs."
@@ -19210,15 +19213,15 @@ msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:189
 msgid "Qt interface"
-msgstr ""
+msgstr "Qt interfejs"
 
 #: modules/gui/qt4/util/customwidgets.cpp:80
 msgid "errors"
-msgstr ""
+msgstr "greške"
 
 #: modules/gui/qt4/util/customwidgets.cpp:81
 msgid "warnings"
-msgstr ""
+msgstr "upozorenja"
 
 #: modules/gui/qt4/util/customwidgets.cpp:82
 msgid "debug"
@@ -19226,7 +19229,7 @@ msgstr ""
 
 #: modules/gui/skins2/src/dialogs.cpp:206
 msgid "Open a skin file"
-msgstr ""
+msgstr "Otvori datoteku skina"
 
 #: modules/gui/skins2/src/dialogs.cpp:207
 msgid "Skin files |*.vlt;*.wsz;*.xml"
@@ -19234,7 +19237,7 @@ msgstr ""
 
 #: modules/gui/skins2/src/dialogs.cpp:214
 msgid "Open playlist"
-msgstr ""
+msgstr "Otvori listu izvođenja"
 
 #: modules/gui/skins2/src/dialogs.cpp:215
 msgid "Playlist Files|"
@@ -19242,7 +19245,7 @@ msgstr "Liste izvođenja"
 
 #: modules/gui/skins2/src/dialogs.cpp:223
 msgid "Save playlist"
-msgstr ""
+msgstr "Snimi listu izvođenja"
 
 #: modules/gui/skins2/src/dialogs.cpp:223
 msgid "XSPF playlist|*.xspf|M3U file|*.m3u|HTML playlist|*.html"
@@ -19302,7 +19305,7 @@ msgstr ""
 
 #: modules/gui/skins2/src/skin_main.cpp:503
 msgid "Skins"
-msgstr ""
+msgstr "Skinovi"
 
 #: modules/gui/skins2/src/skin_main.cpp:504
 msgid "Skinnable Interface"
@@ -19310,7 +19313,7 @@ msgstr ""
 
 #: modules/gui/skins2/src/theme_repository.cpp:62
 msgid "Select skin"
-msgstr ""
+msgstr "Izaberi skin"
 
 #: modules/gui/skins2/src/theme_repository.cpp:120
 msgid "Open skin ..."
@@ -19318,7 +19321,7 @@ msgstr ""
 
 #: modules/lua/vlc.c:57
 msgid "Lua interface"
-msgstr ""
+msgstr "Lua interfejs"
 
 #: modules/lua/vlc.c:58
 msgid "Lua interface module to load"
@@ -19384,27 +19387,27 @@ msgstr ""
 
 #: modules/lua/vlc.c:91
 msgid "Lua"
-msgstr ""
+msgstr "Lua"
 
 #: modules/lua/vlc.c:92
 msgid "Lua interpreter"
-msgstr ""
+msgstr "Lua interpreter"
 
 #: modules/lua/vlc.c:103 modules/lua/vlc.c:109
 msgid "Lua HTTP"
-msgstr ""
+msgstr "Lua HTTP"
 
 #: modules/lua/vlc.c:112
 msgid "Lua CLI"
-msgstr ""
+msgstr "Lua CLI"
 
 #: modules/lua/vlc.c:125 modules/lua/vlc.c:135
 msgid "Lua Telnet"
-msgstr ""
+msgstr "Lua Telnet"
 
 #: modules/lua/vlc.c:142
 msgid "Lua Meta Fetcher"
-msgstr ""
+msgstr "Lua Meta Fetcher"
 
 #: modules/lua/vlc.c:143
 msgid "Fetch meta data using lua scripts"
@@ -19420,7 +19423,7 @@ msgstr ""
 
 #: modules/lua/vlc.c:155
 msgid "Lua Playlist"
-msgstr ""
+msgstr "Lua lista izvođenja"
 
 #: modules/lua/vlc.c:156
 msgid "Lua Playlist Parser Interface"
@@ -19448,7 +19451,7 @@ msgstr ""
 
 #: modules/lua/vlc.c:190
 msgid "French TV"
-msgstr ""
+msgstr "Francuski TV"
 
 #: modules/media_library/sql_media_library.c:33
 msgid "Filename of the SQLite database"
@@ -19540,7 +19543,7 @@ msgstr ""
 
 #: modules/misc/audioscrobbler.c:651
 msgid "last.fm: Authentication failed"
-msgstr ""
+msgstr "last.fm: Ovjera neuspješna"
 
 #: modules/misc/audioscrobbler.c:652
 msgid ""
@@ -19603,7 +19606,7 @@ msgstr ""
 
 #: modules/misc/inhibit/mce.c:39
 msgid "MCE"
-msgstr ""
+msgstr "MCE"
 
 #: modules/misc/inhibit/mce.c:40
 msgid "Nokia MCE screen unblanking"
@@ -19611,7 +19614,7 @@ msgstr ""
 
 #: modules/misc/inhibit/xdg.c:37
 msgid "XDG-screensaver"
-msgstr ""
+msgstr "XDG-čuvar zaslona"
 
 #: modules/misc/inhibit/xdg.c:38
 msgid "XDG screen saver inhibition"
@@ -19623,7 +19626,7 @@ msgstr ""
 
 #: modules/misc/logger.c:118
 msgid "Log format"
-msgstr ""
+msgstr "Format unosa"
 
 #: modules/misc/logger.c:120
 msgid ""
@@ -19730,11 +19733,11 @@ msgstr ""
 
 #: modules/misc/rtsp.c:75 modules/stream_out/rtp.c:249
 msgid "RTSP VoD"
-msgstr ""
+msgstr "RTSP VoD"
 
 #: modules/misc/rtsp.c:76 modules/stream_out/rtp.c:250
 msgid "RTSP VoD server"
-msgstr ""
+msgstr "RTSP VoD poslužitelj"
 
 #: modules/misc/sqlite.c:115
 msgid "SQLite database module"
@@ -20088,7 +20091,7 @@ msgstr ""
 
 #: modules/notify/growl.m:298
 msgid "Now playing"
-msgstr ""
+msgstr "Trenutno produciram"
 
 #: modules/notify/msn.c:66
 msgid "Title format string"
@@ -20207,7 +20210,7 @@ msgstr ""
 
 #: modules/packetizer/mpegvideo.c:72
 msgid "MPEG Video"
-msgstr ""
+msgstr "MPEG video"
 
 #: modules/packetizer/vc1.c:51
 msgid "VC-1 packetizer"
@@ -20220,29 +20223,29 @@ msgstr ""
 #: modules/services_discovery/mediadirs.c:71
 #: modules/services_discovery/mediadirs.c:353
 msgid "My Videos"
-msgstr ""
+msgstr "Moji videi"
 
 #: modules/services_discovery/mediadirs.c:78
 #: modules/services_discovery/mediadirs.c:355
 msgid "My Music"
-msgstr ""
+msgstr "Moja muzika"
 
 #: modules/services_discovery/mediadirs.c:84
 msgid "Picture"
-msgstr ""
+msgstr "Slika"
 
 #: modules/services_discovery/mediadirs.c:85
 #: modules/services_discovery/mediadirs.c:357
 msgid "My Pictures"
-msgstr ""
+msgstr "Moje slike"
 
 #: modules/services_discovery/mtp.c:43
 msgid "MTP devices"
-msgstr ""
+msgstr "MTP uređaji"
 
 #: modules/services_discovery/mtp.c:189
 msgid "MTP Device"
-msgstr ""
+msgstr "MTP uređaji"
 
 #: modules/services_discovery/podcast.c:57
 #: modules/gui/qt4/ui/podcast_configuration.h:102
@@ -20319,15 +20322,15 @@ msgstr ""
 
 #: modules/services_discovery/sap.c:872 modules/services_discovery/sap.c:876
 msgid "Session"
-msgstr ""
+msgstr "Sesija"
 
 #: modules/services_discovery/sap.c:872
 msgid "Tool"
-msgstr ""
+msgstr "Alat"
 
 #: modules/services_discovery/sap.c:876
 msgid "User"
-msgstr ""
+msgstr "Korisnik"
 
 #: modules/services_discovery/udev.c:53 modules/services_discovery/udev.c:95
 msgid "Video capture"
@@ -20346,35 +20349,35 @@ msgstr ""
 #: modules/services_discovery/windrive.c:40
 #: modules/services_discovery/windrive.c:41
 msgid "Discs"
-msgstr ""
+msgstr "Diskovi"
 
 #: modules/services_discovery/udev.c:611
 msgid "CD"
-msgstr ""
+msgstr "CD"
 
 #: modules/services_discovery/udev.c:613 modules/gui/qt4/ui/open_disk.h:299
 msgid "DVD"
-msgstr ""
+msgstr "DVD"
 
 #: modules/services_discovery/udev.c:615
 msgid "Blu-Ray"
-msgstr ""
+msgstr "Blu-Ray"
 
 #: modules/services_discovery/udev.c:617
 msgid "HD DVD"
-msgstr ""
+msgstr "HD DVD"
 
 #: modules/services_discovery/udev.c:624
 msgid "Unknown type"
-msgstr ""
+msgstr "Nepoznati tip"
 
 #: modules/services_discovery/upnp.cpp:71
 msgid "Universal Plug'n'Play"
-msgstr ""
+msgstr "Univerzalni Plug'n'Play"
 
 #: modules/services_discovery/windrive.c:83
 msgid "Local drives"
-msgstr ""
+msgstr "Lokalni pogoni"
 
 #: modules/services_discovery/xcb_apps.c:48
 #: modules/services_discovery/xcb_apps.c:49
@@ -20389,12 +20392,12 @@ msgstr ""
 
 #: modules/services_discovery/xcb_apps.c:275
 msgid "Applications"
-msgstr ""
+msgstr "Aplikacije"
 
 #: modules/services_discovery/xcb_apps.c:351
 #: modules/video_output/msw/direct3d.c:208
 msgid "Desktop"
-msgstr ""
+msgstr "Radna površina"
 
 #: modules/stream_filter/dash/dash.cpp:52
 msgid "DASH"
@@ -20410,7 +20413,7 @@ msgstr ""
 
 #: modules/stream_filter/httplive.c:56
 msgid "Http Live Streaming stream filter"
-msgstr ""
+msgstr "Http Live Streaming filter za strujanje"
 
 #: modules/stream_filter/record.c:49
 msgid "Internal stream record"
@@ -20459,7 +20462,7 @@ msgstr ""
 
 #: modules/stream_out/bridge.c:60
 msgid "Name of current instance"
-msgstr ""
+msgstr "Naziv trenutnog pokretanja"
 
 #: modules/stream_out/bridge.c:62
 msgid ""
@@ -20712,7 +20715,7 @@ msgstr ""
 #: modules/stream_out/mosaic_bridge.c:119
 #: modules/stream_out/transcode/transcode.c:78
 msgid "Video filter"
-msgstr ""
+msgstr "Video filter"
 
 #: modules/stream_out/mosaic_bridge.c:121
 msgid "Video filters will be applied to the video stream."
@@ -20822,7 +20825,7 @@ msgstr ""
 
 #: modules/stream_out/rtp.c:87
 msgid "Muxer"
-msgstr ""
+msgstr "Mukser"
 
 #: modules/stream_out/rtp.c:89
 msgid ""
@@ -21332,7 +21335,7 @@ msgstr ""
 
 #: modules/stream_out/transcode/transcode.c:102
 msgid "Audio filter"
-msgstr ""
+msgstr "Zvučni filter"
 
 #: modules/stream_out/transcode/transcode.c:104
 msgid ""
@@ -21517,22 +21520,22 @@ msgstr ""
 #: modules/text_renderer/freetype.c:165 modules/text_renderer/quartztext.c:114
 #: modules/text_renderer/win32text.c:82
 msgid "Smaller"
-msgstr ""
+msgstr "Manje"
 
 #: modules/text_renderer/freetype.c:165 modules/text_renderer/quartztext.c:114
 #: modules/text_renderer/win32text.c:82
 msgid "Small"
-msgstr ""
+msgstr "Malo"
 
 #: modules/text_renderer/freetype.c:165 modules/text_renderer/quartztext.c:114
 #: modules/text_renderer/win32text.c:82
 msgid "Large"
-msgstr ""
+msgstr "Veliko"
 
 #: modules/text_renderer/freetype.c:165 modules/text_renderer/quartztext.c:114
 #: modules/text_renderer/win32text.c:82
 msgid "Larger"
-msgstr ""
+msgstr "Veće"
 
 #: modules/text_renderer/freetype.c:166
 msgid "Use YUVP renderer"
@@ -21546,11 +21549,11 @@ msgstr ""
 
 #: modules/text_renderer/freetype.c:184
 msgid "Thin"
-msgstr ""
+msgstr "Tanko"
 
 #: modules/text_renderer/freetype.c:184
 msgid "Thick"
-msgstr ""
+msgstr "Debelo"
 
 #: modules/text_renderer/freetype.c:188 modules/text_renderer/win32text.c:94
 msgid "Text renderer"
@@ -21635,7 +21638,7 @@ msgstr ""
 
 #: modules/video_chroma/rv32.c:45
 msgid "RV32 conversion filter"
-msgstr ""
+msgstr "RV32 filter za pretvaranje"
 
 #: modules/video_filter/adjust.c:66
 msgid "Brightness threshold"
@@ -21649,35 +21652,35 @@ msgstr ""
 
 #: modules/video_filter/adjust.c:70
 msgid "Image contrast (0-2)"
-msgstr ""
+msgstr "Kontrast slike (0-2)"
 
 #: modules/video_filter/adjust.c:71
 msgid "Set the image contrast, between 0 and 2. Defaults to 1."
-msgstr ""
+msgstr "Postavi kontrast slike, između 0 i 2. Zadano je 1."
 
 #: modules/video_filter/adjust.c:72
 msgid "Image hue (0-360)"
-msgstr ""
+msgstr "Nijansa slike (0-360)"
 
 #: modules/video_filter/adjust.c:73
 msgid "Set the image hue, between 0 and 360. Defaults to 0."
-msgstr ""
+msgstr "Postavi nijansu slike, između 0 i 360. Zadano je 0."
 
 #: modules/video_filter/adjust.c:74
 msgid "Image saturation (0-3)"
-msgstr ""
+msgstr "Zasićenje slike (0-3)"
 
 #: modules/video_filter/adjust.c:75
 msgid "Set the image saturation, between 0 and 3. Defaults to 1."
-msgstr ""
+msgstr "Postavi zasićenje slike, između 0 i 3. Zadano je 1."
 
 #: modules/video_filter/adjust.c:76
 msgid "Image brightness (0-2)"
-msgstr ""
+msgstr "Svjetlost slike (0-2)"
 
 #: modules/video_filter/adjust.c:77
 msgid "Set the image brightness, between 0 and 2. Defaults to 1."
-msgstr ""
+msgstr "Postavi svjetlost slike, između 0 i 2. Zadano je 1."
 
 #: modules/video_filter/adjust.c:78
 msgid "Image gamma (0-10)"
@@ -21693,7 +21696,7 @@ msgstr ""
 
 #: modules/video_filter/adjust.c:83 modules/gui/qt4/ui/video_effects.h:1297
 msgid "Image adjust"
-msgstr ""
+msgstr "Prilagođavanje slike"
 
 #: modules/video_filter/alphamask.c:40
 msgid "Use an image's alpha channel as a transparency mask."
@@ -22030,7 +22033,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:263
 msgid "Overall brightness of your LED stripes"
-msgstr ""
+msgstr "Ukupna svjetlost LED pruga"
 
 #: modules/video_filter/atmo/atmo.cpp:264
 msgid "Darkness Limit"
@@ -22058,7 +22061,7 @@ msgstr ""
 #: modules/video_filter/atmo/atmo.cpp:273
 #: modules/gui/qt4/ui/video_effects.h:1378
 msgid "Filter length (ms)"
-msgstr ""
+msgstr "Dužina filtra (ms)"
 
 #: modules/video_filter/atmo/atmo.cpp:274
 msgid ""
@@ -22075,11 +22078,11 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:279
 msgid "Filter Smoothness (in %)"
-msgstr ""
+msgstr "Uglađenost filtera (in %)"
 
 #: modules/video_filter/atmo/atmo.cpp:280
 msgid "Filter Smoothness"
-msgstr ""
+msgstr "Uglađenost filtera"
 
 #: modules/video_filter/atmo/atmo.cpp:282
 msgid "Output Color filter mode"
@@ -22142,23 +22145,23 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:321
 msgid "Zone 4:summary"
-msgstr ""
+msgstr "Zona 4:rezime"
 
 #: modules/video_filter/atmo/atmo.cpp:322
 msgid "Zone 3:left"
-msgstr ""
+msgstr "Zona 3:lijevo"
 
 #: modules/video_filter/atmo/atmo.cpp:323
 msgid "Zone 1:right"
-msgstr ""
+msgstr "Zona 1:desno"
 
 #: modules/video_filter/atmo/atmo.cpp:324
 msgid "Zone 0:top"
-msgstr ""
+msgstr "Zona 0:vrh"
 
 #: modules/video_filter/atmo/atmo.cpp:325
 msgid "Zone 2:bottom"
-msgstr ""
+msgstr "Zona 2:dno"
 
 #: modules/video_filter/atmo/atmo.cpp:327
 msgid "Channel / Zone Assignment"
@@ -22221,7 +22224,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:364
 msgid "AtmoLight Filter"
-msgstr ""
+msgstr "AtmoLight filter"
 
 #: modules/video_filter/atmo/atmo.cpp:366
 #: modules/gui/qt4/ui/video_effects.h:1372
@@ -22314,7 +22317,7 @@ msgstr ""
 
 #: modules/video_filter/audiobargraph_v.c:62
 msgid "Alarm"
-msgstr ""
+msgstr "Alarm"
 
 #: modules/video_filter/audiobargraph_v.c:63
 msgid "Signals a silence and displays and alert (0=no alarm, 1=alarm)."
@@ -22919,11 +22922,11 @@ msgstr ""
 
 #: modules/video_filter/erase.c:68
 msgid "Erase video filter"
-msgstr ""
+msgstr "Briši video filter"
 
 #: modules/video_filter/erase.c:69
 msgid "Erase"
-msgstr ""
+msgstr "Briši"
 
 #: modules/video_filter/extract.c:62
 msgid "RGB component to extract"
@@ -22961,7 +22964,7 @@ msgstr ""
 
 #: modules/video_filter/gradfun.c:48
 msgid "Radius in pixels"
-msgstr ""
+msgstr "Opseg u pikselima"
 
 #: modules/video_filter/gradfun.c:52
 msgid "Strength"
@@ -23135,7 +23138,7 @@ msgstr ""
 
 #: modules/video_filter/logo.c:67
 msgid "Logo position"
-msgstr ""
+msgstr "Pozicija logotipa"
 
 #: modules/video_filter/logo.c:69
 msgid ""
@@ -23237,7 +23240,7 @@ msgstr ""
 
 #: modules/video_filter/mirror.c:62
 msgid "Mirror orientation"
-msgstr ""
+msgstr "Orijentacija odražaja"
 
 #: modules/video_filter/mirror.c:63
 msgid ""
@@ -23259,7 +23262,7 @@ msgstr ""
 
 #: modules/video_filter/mirror.c:70
 msgid "Direction of the mirroring"
-msgstr ""
+msgstr "Smjer odražavanja"
 
 #: modules/video_filter/mirror.c:73
 msgid "Left to right/Top to bottom"
@@ -23271,11 +23274,11 @@ msgstr ""
 
 #: modules/video_filter/mirror.c:78
 msgid "Mirror video filter"
-msgstr ""
+msgstr "Filter za održavanje videa"
 
 #: modules/video_filter/mirror.c:79
 msgid "Mirror video"
-msgstr ""
+msgstr "Odrazi video"
 
 #: modules/video_filter/mirror.c:80
 msgid "Splits video in two same parts, like in a mirror"
@@ -23418,7 +23421,7 @@ msgstr ""
 
 #: modules/video_filter/mosaic.c:166
 msgid "fixed"
-msgstr ""
+msgstr "fiksirano"
 
 #: modules/video_filter/mosaic.c:166
 msgid "offsets"
@@ -23430,7 +23433,7 @@ msgstr ""
 
 #: modules/video_filter/mosaic.c:177
 msgid "Mosaic"
-msgstr ""
+msgstr "Mozaik"
 
 #: modules/video_filter/motionblur.c:52
 msgid "Blur factor (1-127)"
@@ -23454,7 +23457,7 @@ msgstr ""
 
 #: modules/video_filter/opencv_example.c:67
 msgid "OpenCV example"
-msgstr ""
+msgstr "OpenCV primjer"
 
 #: modules/video_filter/opencv_example.c:76
 msgid "Haar cascade filename"
@@ -23474,27 +23477,27 @@ msgstr ""
 
 #: modules/video_filter/opencv_wrapper.c:66
 msgid "RGB32"
-msgstr ""
+msgstr "RGB32"
 
 #: modules/video_filter/opencv_wrapper.c:69
 msgid "Don't display any video"
-msgstr ""
+msgstr "Ne prikazuj nikakav video"
 
 #: modules/video_filter/opencv_wrapper.c:70
 msgid "Display the input video"
-msgstr ""
+msgstr "Prikaži ulazni video"
 
 #: modules/video_filter/opencv_wrapper.c:70
 msgid "Display the processed video"
-msgstr ""
+msgstr "Prikaži procesirani video"
 
 #: modules/video_filter/opencv_wrapper.c:73
 msgid "Show only errors"
-msgstr ""
+msgstr "Pokaži samo greške"
 
 #: modules/video_filter/opencv_wrapper.c:74
 msgid "Show errors and warnings"
-msgstr ""
+msgstr "Pokaži greške i upozorenja"
 
 #: modules/video_filter/opencv_wrapper.c:74
 msgid "Show everything including debug messages"
@@ -23506,7 +23509,7 @@ msgstr ""
 
 #: modules/video_filter/opencv_wrapper.c:78
 msgid "OpenCV"
-msgstr ""
+msgstr "OpenCV"
 
 #: modules/video_filter/opencv_wrapper.c:85
 msgid "Scale factor (0.1-2.0)"
@@ -23553,15 +23556,15 @@ msgstr ""
 
 #: modules/video_filter/osdmenu.c:42
 msgid "Configuration file"
-msgstr ""
+msgstr "Konfiguracijska datoteka"
 
 #: modules/video_filter/osdmenu.c:44
 msgid "Configuration file for the OSD Menu."
-msgstr ""
+msgstr "Konfiguracijska datoteka za OSD izbornik."
 
 #: modules/video_filter/osdmenu.c:45
 msgid "Path to OSD menu images"
-msgstr ""
+msgstr "Putanja za OSD slike izbornika"
 
 #: modules/video_filter/osdmenu.c:47
 msgid ""
@@ -23575,7 +23578,7 @@ msgstr ""
 
 #: modules/video_filter/osdmenu.c:56
 msgid "Menu position"
-msgstr ""
+msgstr "Pozicija izbornika"
 
 #: modules/video_filter/osdmenu.c:58
 msgid ""
@@ -23883,7 +23886,7 @@ msgstr ""
 
 #: modules/video_filter/psychedelic.c:54
 msgid "Psychedelic video filter"
-msgstr ""
+msgstr "Psihodjelični video filter"
 
 #: modules/video_filter/puzzle.c:43 modules/video_filter/puzzle.c:44
 msgid "Number of puzzle rows"
@@ -23908,7 +23911,7 @@ msgstr ""
 
 #: modules/video_filter/puzzle.c:57
 msgid "Puzzle"
-msgstr ""
+msgstr "Slagalice"
 
 #: modules/video_filter/remoteosd.c:70
 msgid "VNC Host"
@@ -23928,11 +23931,11 @@ msgstr ""
 
 #: modules/video_filter/remoteosd.c:78
 msgid "VNC Password"
-msgstr ""
+msgstr "VNC šifra"
 
 #: modules/video_filter/remoteosd.c:80
 msgid "VNC password."
-msgstr ""
+msgstr "VNC šifra."
 
 #: modules/video_filter/remoteosd.c:82
 msgid "VNC poll interval"
@@ -23998,11 +24001,11 @@ msgstr ""
 
 #: modules/video_filter/rotate.c:66
 msgid "Rotate video filter"
-msgstr ""
+msgstr "Rotiraj video filter"
 
 #: modules/video_filter/rotate.c:67 modules/gui/qt4/ui/video_effects.h:1344
 msgid "Rotate"
-msgstr ""
+msgstr "Rotiraj"
 
 #: modules/video_filter/rss.c:129
 msgid "Feed URLs"
@@ -24022,7 +24025,7 @@ msgstr ""
 
 #: modules/video_filter/rss.c:133
 msgid "Max length"
-msgstr ""
+msgstr "Maksimalna dužina"
 
 #: modules/video_filter/rss.c:134
 msgid "Maximum number of characters displayed on the screen."
@@ -24516,11 +24519,11 @@ msgstr ""
 
 #: modules/video_output/gl.c:41
 msgid "OpenGL ES 2 extension"
-msgstr ""
+msgstr "OpenGL ES 2 ekstenzija"
 
 #: modules/video_output/gl.c:42
 msgid "OpenGL ES extension"
-msgstr ""
+msgstr "OpenGL ES ekstenzija"
 
 #: modules/video_output/gl.c:44
 msgid "Extension through which to use the Open Graphics Library (OpenGL)."
@@ -24528,7 +24531,7 @@ msgstr ""
 
 #: modules/video_output/gl.c:51
 msgid "OpenGL ES2"
-msgstr ""
+msgstr "OpenGL ES2"
 
 #: modules/video_output/gl.c:52
 msgid "OpenGL for Embedded Systems 2 video output"
@@ -24536,7 +24539,7 @@ msgstr ""
 
 #: modules/video_output/gl.c:62
 msgid "OpenGL ES"
-msgstr ""
+msgstr "OpenGL ES"
 
 #: modules/video_output/gl.c:63
 msgid "OpenGL for Embedded Systems video output"
@@ -24544,7 +24547,7 @@ msgstr ""
 
 #: modules/video_output/gl.c:72
 msgid "OpenGL"
-msgstr ""
+msgstr "OpenGL"
 
 #: modules/video_output/gl.c:73
 msgid "OpenGL video output (experimental)"
@@ -24574,7 +24577,7 @@ msgstr ""
 
 #: modules/video_output/kva.c:62
 msgid "SNAP"
-msgstr ""
+msgstr "SNAP"
 
 #: modules/video_output/kva.c:62
 msgid "WarpOverlay!"
@@ -24582,11 +24585,11 @@ msgstr ""
 
 #: modules/video_output/kva.c:62
 msgid "VMAN"
-msgstr ""
+msgstr "VMAN"
 
 #: modules/video_output/kva.c:62
 msgid "DIVE"
-msgstr ""
+msgstr "DIVE"
 
 #: modules/video_output/kva.c:72
 msgid "K Video Acceleration video output"
@@ -24767,15 +24770,15 @@ msgstr ""
 
 #: modules/video_output/vmem.c:59
 msgid "Video memory output"
-msgstr ""
+msgstr "Video memorija izlaz"
 
 #: modules/video_output/vmem.c:60
 msgid "Video memory"
-msgstr ""
+msgstr "Video memorija"
 
 #: modules/video_output/xcb/glx.c:51
 msgid "GLX"
-msgstr ""
+msgstr "GLX"
 
 #: modules/video_output/xcb/glx.c:52
 msgid "OpenGL GLX video output (XCB)"
@@ -24811,22 +24814,22 @@ msgstr ""
 #: modules/video_output/xcb/window.c:282
 msgctxt "ASCII"
 msgid "VLC media player"
-msgstr ""
+msgstr "VLC medijski izvođač"
 
 #. xgettext: This is a plain ASCII spelling of "VLC"
 #. for the ICCCM window name. This must be pure ASCII.
 #: modules/video_output/xcb/window.c:287
 msgctxt "ASCII"
 msgid "VLC"
-msgstr ""
+msgstr "VLC"
 
 #: modules/video_output/xcb/window.c:316
 msgid "VLC"
-msgstr ""
+msgstr "VLC"
 
 #: modules/video_output/xcb/x11.c:47
 msgid "X11"
-msgstr ""
+msgstr "X11"
 
 #: modules/video_output/xcb/x11.c:48
 msgid "X11 video output (XCB)"
@@ -25072,11 +25075,11 @@ msgstr ""
 
 #: modules/visualization/visual/visual.c:76
 msgid "Base pixel radius"
-msgstr ""
+msgstr "Bazni opseg piksela"
 
 #: modules/visualization/visual/visual.c:78
 msgid "Defines radius size in pixels, of base of bands(beginning)."
-msgstr ""
+msgstr "Definira veličinu opsega u pikselima, od baznog od trake(početak)."
 
 #: modules/visualization/visual/visual.c:80
 msgid "Spectral sections"
@@ -25347,6 +25350,9 @@ msgid ""
 "the following people (and the missing ones...) for their collaboration to "
 "create the best free software."
 msgstr ""
+"Želimo se zahvaliti cijeloj VLC zajednici, testerima, našim korisnicima i "
+"sljedećim ljudima (i onima koji nedostaju...) za njihovu saradnju na "
+"kreiranju najboljeg besplatnog softvera."
 
 #: modules/gui/qt4/ui/about.h:187
 msgid "Thanks"
@@ -25444,7 +25450,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/open_capture.h:102
 msgid "Device Selection"
-msgstr ""
+msgstr "Izbor uređaja"
 
 #: modules/gui/qt4/ui/open_capture.h:103
 msgid "Options"
@@ -25456,7 +25462,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/open_capture.h:107
 msgid "Advanced options..."
-msgstr ""
+msgstr "Dodatne opcije..."
 
 #: modules/gui/qt4/ui/open_disk.h:298
 msgid "Disc Selection"
@@ -25504,7 +25510,7 @@ msgstr "Dodaj..."
 
 #: modules/gui/qt4/ui/open_file.h:171
 msgid "Add a subtitles file"
-msgstr ""
+msgstr "Dodaj datoteku titla"
 
 #: modules/gui/qt4/ui/open_file.h:173
 msgid "Use a sub&titles file"
@@ -25542,55 +25548,55 @@ msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:462
 msgid "MPEG-TS"
-msgstr ""
+msgstr "MPEG-TS"
 
 #: modules/gui/qt4/ui/profiles.h:463
 msgid "MPEG-PS"
-msgstr ""
+msgstr "MPEG-PS"
 
 #: modules/gui/qt4/ui/profiles.h:464
 msgid "WAV"
-msgstr ""
+msgstr "WAV"
 
 #: modules/gui/qt4/ui/profiles.h:465
 msgid "Webm"
-msgstr ""
+msgstr "Webm"
 
 #: modules/gui/qt4/ui/profiles.h:466
 msgid "ASF/WMV"
-msgstr ""
+msgstr "ASF/WMV"
 
 #: modules/gui/qt4/ui/profiles.h:467
 msgid "Ogg/Ogm"
-msgstr ""
+msgstr "Ogg/Ogm"
 
 #: modules/gui/qt4/ui/profiles.h:468
 msgid "RAW"
-msgstr ""
+msgstr "RAW"
 
 #: modules/gui/qt4/ui/profiles.h:469
 msgid "MPEG 1"
-msgstr ""
+msgstr "MPEG 1"
 
 #: modules/gui/qt4/ui/profiles.h:470
 msgid "FLV"
-msgstr ""
+msgstr "FLV"
 
 #: modules/gui/qt4/ui/profiles.h:471
 msgid "AVI"
-msgstr ""
+msgstr "AVI"
 
 #: modules/gui/qt4/ui/profiles.h:472
 msgid "MP4/MOV"
-msgstr ""
+msgstr "MP4/MOV"
 
 #: modules/gui/qt4/ui/profiles.h:473
 msgid "MJPEG"
-msgstr ""
+msgstr "MJPEG"
 
 #: modules/gui/qt4/ui/profiles.h:474
 msgid "MKV"
-msgstr ""
+msgstr "MKV"
 
 #: modules/gui/qt4/ui/profiles.h:475
 msgid "Encapsulation"
@@ -25598,7 +25604,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:479 modules/gui/qt4/ui/profiles.h:498
 msgid " kb/s"
-msgstr ""
+msgstr " kb/s"
 
 #: modules/gui/qt4/ui/profiles.h:480
 msgid "Frame Rate"
@@ -25606,7 +25612,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:482
 msgid " fps"
-msgstr ""
+msgstr " fps"
 
 #: modules/gui/qt4/ui/profiles.h:484
 msgid ""
@@ -25636,7 +25642,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:501
 msgid "Audio codec"
-msgstr ""
+msgstr "Zvučni kodek"
 
 #: modules/gui/qt4/ui/profiles.h:503
 msgid "Overlay subtitles on the video"
@@ -25644,11 +25650,11 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:329
 msgid "Destinations"
-msgstr ""
+msgstr "Odredišta"
 
 #: modules/gui/qt4/ui/sout.h:330
 msgid "New destination"
-msgstr ""
+msgstr "Novo odredište"
 
 #: modules/gui/qt4/ui/sout.h:332
 msgid ""
@@ -25658,7 +25664,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:333
 msgid "Display locally"
-msgstr ""
+msgstr "Prikaži lokalno"
 
 #: modules/gui/qt4/ui/sout.h:336
 msgid "Activate Transcoding"
@@ -25678,7 +25684,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:343
 msgid "Group name"
-msgstr ""
+msgstr "Ime grupe"
 
 #: modules/gui/qt4/ui/sout.h:345
 msgid "Generated stream output string"
@@ -25690,7 +25696,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:434
 msgid " %"
-msgstr ""
+msgstr " %"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:436
 msgid "Output module:"
@@ -25706,7 +25712,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:443
 msgid "Dolby Surround:"
-msgstr ""
+msgstr "Dolby Surround:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:444
 msgid "Replay gain mode:"
@@ -25726,11 +25732,11 @@ msgstr "Preferirani jezik zvuka:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:449
 msgid "Password:"
-msgstr ""
+msgstr "Šifra"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:450
 msgid "Username:"
-msgstr ""
+msgstr "Korisničko ime:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:451
 msgid "Submit played tracks stats to Last.fm"
@@ -25794,11 +25800,11 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:504
 msgid "Instances"
-msgstr ""
+msgstr "Pokretanja"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:505
 msgid "Allow only one instance"
-msgstr ""
+msgstr "Dopusti samo jedno pokretanje"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:506
 msgid "Enqueue files when in one instance mode"
@@ -25806,7 +25812,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:509
 msgid "Every "
-msgstr ""
+msgstr "Svako "
 
 #: modules/gui/qt4/ui/sprefs_interface.h:512
 msgid "Separate words by | (without space)"
@@ -25922,7 +25928,7 @@ msgstr "Efekti titlova"
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:281
 msgid "Font color"
-msgstr ""
+msgstr "Boja fonta"
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:284
 msgid "Add a shadow"
@@ -25974,7 +25980,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/streampanel.h:170
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: modules/gui/qt4/ui/streampanel.h:172
 msgid "Stuff"
@@ -26014,7 +26020,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/streampanel.h:184
 msgid "Add Input"
-msgstr ""
+msgstr "Dodaj ulaz"
 
 #: modules/gui/qt4/ui/streampanel.h:185
 msgid "Edit Input"
@@ -26030,20 +26036,20 @@ msgstr "Provjeri VLC nadogradnje"
 
 #: modules/gui/qt4/ui/update.h:150
 msgid "Launching an update request..."
-msgstr ""
+msgstr "Pokrećem zahtjev za nadogradnju..."
 
 #: modules/gui/qt4/ui/update.h:151
 msgid "Do you want to download it ?"
-msgstr ""
+msgstr "Želite li ga preuzeti?"
 
 #: modules/gui/qt4/ui/video_effects.h:1310
 msgid "Essential"
-msgstr ""
+msgstr "Osnovni"
 
 #: modules/gui/qt4/ui/video_effects.h:1324
 #: modules/gui/qt4/ui/video_effects.h:1333
 msgid ">HHHHHH;#"
-msgstr ""
+msgstr ">HHHHHH;#"
 
 #: modules/gui/qt4/ui/video_effects.h:1325
 msgid "Negate colors"
@@ -26080,7 +26086,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1364
 msgid "Logo erase"
-msgstr ""
+msgstr "Izbriši logotip"
 
 #: modules/gui/qt4/ui/video_effects.h:1369
 msgid "Mask"
@@ -26096,7 +26102,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1375
 msgid "Brightness (%)"
-msgstr ""
+msgstr "Svjetlost (%)"
 
 #: modules/gui/qt4/ui/video_effects.h:1376
 msgid "Darkness limit"
@@ -26116,7 +26122,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1384
 msgid "Motion detect"
-msgstr ""
+msgstr "Otkrivanje pokreta"
 
 #: modules/gui/qt4/ui/video_effects.h:1386
 msgid "Anti-Flickering"
@@ -26124,7 +26130,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1387
 msgid "Soften"
-msgstr ""
+msgstr "Mekšanje"
 
 #: modules/gui/qt4/ui/video_effects.h:1391
 msgid "Spatial blur"
@@ -26132,7 +26138,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1393
 msgid "Mirror"
-msgstr ""
+msgstr "Odražaj"
 
 #: modules/gui/qt4/ui/vlm.h:287
 msgid "VLM configurator"
@@ -26176,7 +26182,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/vlm.h:298
 msgid "AAAA; "
-msgstr ""
+msgstr "AAAA; "
 
 #: modules/gui/qt4/ui/vlm.h:299
 msgid "Loop"
@@ -26188,7 +26194,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Opus audio decoder"
-#~ msgstr "Zvučni kodeci"
+#~ msgstr "MPEG zvučni dekoder"
 
 #, fuzzy
 #~ msgid "Video Filters..."
