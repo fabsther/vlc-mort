@@ -1,5 +1,5 @@
 # German translation
-# Copyright (C) 2012 VideoLAN
+# Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
@@ -7,19 +7,19 @@
 # Felix Kühne <fkuehne at users.sf.net>, 2003-2012, 2012.
 # Jens Seidel <jensseidel _at_ users.sf.net>, 2005.
 # Kai Hermann <kai.uwe.hermann@gmail.com>, 2009.
-# Mario Siegmann <mario_siegmann@web.de>, 2011-2012.
+# Mario Siegmann <mario_siegmann@web.de>, 2011-2013.
 # Mathias C. Berens | welcome-soft <berens at welcome-soft.de>, 2006.
 # Michał Trzebiatowski <hippie_1968@hotmail.com>, 2010,2012.
 # Philipp Weissenbacher <philippweissenbacher _at_ aon.at>, 2004.
 # Thomas Graf <tgr at reeler.org>, 2002.
-#: modules/gui/macosx/prefs.m:490 modules/gui/macosx/simple_prefs.m:451
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2012-12-11 15:41+0100\n"
-"PO-Revision-Date: 2012-12-02 15:21+0000\n"
-"Last-Translator: Christoph Miebach <christoph.miebach@web.de>\n"
+"PO-Revision-Date: 2013-02-08 12:43+0000\n"
+"Last-Translator: Mario Siegmann <mario_siegmann@web.de>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/vlc-trans/"
 "language/de/)\n"
 "Language: de\n"
@@ -14296,7 +14296,7 @@ msgstr "Auf Demuxer-Ebene decodieren"
 
 #: modules/demux/image.c:56
 msgid "Forced chroma"
-msgstr "Erzwungenes Chroma"
+msgstr "Farbsättigung erzwingen"
 
 #: modules/demux/image.c:58
 msgid ""
@@ -16547,7 +16547,7 @@ msgstr "Hilfe"
 
 #: modules/gui/macosx/MainMenu.m:354
 msgid "VLC media player Help..."
-msgstr "VLC media player-Hilfe"
+msgstr "VLC media player Hilfe"
 
 #: modules/gui/macosx/MainMenu.m:355
 msgid "ReadMe / FAQ..."
@@ -19788,8 +19788,8 @@ msgstr ""
 "Der VLC media player ist ein freier Medienplayer, Encodierer und Streamer, "
 "der Dateien von DVDs und CDs, Netzwerkstreams, Aufnahmekarten und vielem "
 "mehr lesen kann.\n"
-"VLC benutzt seine internen Codecs und funktioniert auf jeder populären "
-"Plattform.\n"
+"Der VLC media player benutzt seine internen Codecs und funktioniert auf "
+"jeder populären Plattform.\n"
 "\n"
 
 #: modules/gui/qt4/dialogs/help.cpp:113
@@ -19834,7 +19834,7 @@ msgstr "&Nein"
 
 #: modules/gui/qt4/dialogs/help.cpp:165 modules/gui/qt4/ui/update.h:148
 msgid "VLC media player updates"
-msgstr "VLC media player-Updates"
+msgstr "VLC media player Updates"
 
 #: modules/gui/qt4/dialogs/help.cpp:237
 msgid "A new version of VLC (%1.%2.%3%4) is available."
@@ -20308,7 +20308,7 @@ msgstr "VOD: "
 
 #: modules/gui/qt4/main_interface.cpp:1135
 msgid "Control menu for the player"
-msgstr "Steuerungsmenü für den Player"
+msgstr "Steuerungsmenü für den VLC media player"
 
 #: modules/gui/qt4/main_interface.cpp:1178
 msgid "Paused"
@@ -24403,7 +24403,7 @@ msgstr "Farbsättigung des Überblendbildes"
 
 #: modules/video_filter/blendbench.c:68
 msgid "Chroma which the blend image will be loaded in"
-msgstr "Chroma in die das Einblendbild geladen wird"
+msgstr "Farbsättigung die in das Einblendbild geladen wird"
 
 #: modules/video_filter/blendbench.c:74
 msgid "Blending benchmark filter"
@@ -24859,7 +24859,7 @@ msgstr "Für Streaming benutzte Deinterlace-Methode."
 
 #: modules/video_filter/deinterlace/deinterlace.c:66
 msgid "Phosphor chroma mode for 4:2:0 input"
-msgstr "Leuchtstoff-Chroma-Modus für den 4:2:0-Eingang"
+msgstr "Leuchtstoff-Farbsättigungs-Modus für den 4:2:0-Eingang"
 
 #: modules/video_filter/deinterlace/deinterlace.c:67
 msgid ""
@@ -27612,7 +27612,7 @@ msgstr ""
 msgid ""
 "Volume will be controlled by the player, and not the <i>Main Controls</i>."
 msgstr ""
-"Die Lautstärke wird durch den VLC-Player und nicht durch die <i>Haupt-"
+"Die Lautstärke wird durch den VLC media player und nicht durch die <i>Haupt-"
 "Bedienelemente</i> kontrolliert."
 
 #: share/lua/http/index.html:272
@@ -28525,23 +28525,11 @@ msgstr "Media Manager-Liste"
 #~ "Einige DVB-Karten vertragen das Testen ihrer Fähigkeiten nicht. Diese "
 #~ "Funktionen deaktivieren, falls Probleme auftreten."
 
-#~ msgid "Satellite scanning config"
-#~ msgstr "Konfiguration zur Satelliten-Suche"
-
 #~ msgid "filename of config file in share/dvb/dvb-s"
 #~ msgstr "Dateiname der Konfigurationsdatei unter share/dvb/dvb-s"
 
-#~ msgid "DVB"
-#~ msgstr "DVB"
-
 #~ msgid "DVB input with v4l2 support"
 #~ msgstr "DVB-Eingang mit v4l2 Unterstützung"
-
-#~ msgid "ARM NEON video chroma YUV->RGBA"
-#~ msgstr "ARM NEON Video-Farbsättigung YUV->RGBA"
-
-#~ msgid "Opus audio decoder"
-#~ msgstr "Opus Audio-Decoder"
 
 #~ msgid "Opus"
 #~ msgstr "Opus"
@@ -29547,6 +29535,22 @@ msgstr "Media Manager-Liste"
 #, fuzzy
 #~ msgid "&Update"
 #~ msgstr "Modulbaum aktualisieren"
+
+#, fuzzy
+#~ msgid "Satellite scanning config"
+#~ msgstr "Satelliten-Bereich Kennzeichen"
+
+#, fuzzy
+#~ msgid "DVB"
+#~ msgstr "DV"
+
+#, fuzzy
+#~ msgid "ARM NEON video chroma YUV->RGBA"
+#~ msgstr "ARM NEON Video-Farbsättiguns-Konvertierungen"
+
+#, fuzzy
+#~ msgid "Opus audio decoder"
+#~ msgstr "Speex-Audiodecoder"
 
 #, fuzzy
 #~ msgid "Video Filters..."
