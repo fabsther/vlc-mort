@@ -1013,7 +1013,7 @@ msgstr ""
 #: src/config/help.c:789
 #, c-format
 msgid "VLC version %s (%s)\n"
-msgstr "VLC versão %s (%s) \\n"
+msgstr "VLC versão %s (%s) \n"
 
 #: src/config/help.c:791
 #, c-format
