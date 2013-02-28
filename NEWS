@@ -10,6 +10,8 @@ Audio Output:
 Demuxers:
  * Fix crash with broken asf files (SA-1302)
  * Fix MKV behaviour with unknown or new ebml elements
+ * Fix use-after-free crash in Ogg demuxer, found by Tomi Juntunen
+ * Fix regression on some paletted codecs in AVI
 
 Decoders:
  * Fix GPU decoding on Intel HD 2000/3000 cards on Windows
@@ -40,7 +42,8 @@ Windows:
 Translations:
  * Update of Brazilian Portuguese, Traditional Chinese, Thai, Portuguese,
    Japanese, Italian, Hebrew, Estonian, Spanish, Czech, Catalan, Bosnian,
-   Asturian translations
+   Asturian, French, Romanian, Serbian, Russian, Hindi, Estonian, German
+   translations
  * New Gujarati, Aragonese translations
 
 
