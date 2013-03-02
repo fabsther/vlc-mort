@@ -29,11 +29,6 @@
 #endif
 
 #include <assert.h>
-#ifdef __unix__
-# include <sched.h>
-#else
-# define sched_yield() (void)0
-#endif
 
 #include <vlc_common.h>
 #include <vlc_aout.h>
@@ -338,7 +333,9 @@ int aout_DecPlay (audio_output_t *p_aout, block_t *p_buffer, int i_input_rate)
     }
 
     aout_unlock( p_aout );
+#ifdef __unix__
     sched_yield();
+#endif
     return 0;
 }
 
