@@ -904,10 +904,10 @@ static int InputIntfEventCallback( intf_thread_t   *p_intf,
             break;
         case INPUT_EVENT_ITEM_META:
             p_info->signal = SIGNAL_INPUT_METADATA;
-            return VLC_SUCCESS;
+            break;
         case INPUT_EVENT_RATE:
             p_info->signal = SIGNAL_RATE;
-            return VLC_SUCCESS;
+            break;
         case INPUT_EVENT_POSITION:
             /* Detect seeks
              * XXX: This is way more convoluted than it should be... */
