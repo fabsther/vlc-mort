@@ -24,6 +24,9 @@ ifdef HAVE_MACOSX
 	$(APPLY) $(SRC)/vpx/libvpx-mac-mountain-lion.patch
 endif
 	$(PATCH_BASH_LOCATION)
+ifdef HAVE_WIN32
+	$(APPLY) $(SRC)/vpx/libvpx-win32.patch
+endif
 	$(MOVE)
 
 DEPS_vpx =
