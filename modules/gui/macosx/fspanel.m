@@ -422,7 +422,7 @@
     NSRect s_rc = [self frame];
     addButton( o_prev, @"fs_skip_previous" , @"fs_skip_previous_highlight", 174, 15, prev );
     addButton( o_bwd, @"fs_rewind"        , @"fs_rewind_highlight"       , 211, 14, backward );
-    addButton( o_play, @"fs_play"          , @"fs_play_highlight"         , 267, 10, play );
+    addButton( o_play, @"fs_play"          , @"fs_play_highlight"         , 265, 10, play );
     addButton( o_fwd, @"fs_forward"       , @"fs_forward_highlight"      , 313, 14, forward );
     addButton( o_next, @"fs_skip_next"     , @"fs_skip_next_highlight"    , 365, 15, next );
     addButton( o_fullscreen, @"fs_exit_fullscreen", @"fs_exit_fullscreen_hightlight", 507, 13, toggleFullscreen );
