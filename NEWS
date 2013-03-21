@@ -5,7 +5,7 @@ Access:
  * Fix HTTPS playback with some certificates previously rejected
 
 Audio Output:
- * Fix lookup for device names in auhal plugin
+ * Improve lookup of human readable device names in AUHAL plugin (OS X)
 
 Demuxers:
  * Fix crash with broken asf files (SA-1302)
@@ -31,8 +31,9 @@ Mac OS X:
  * Fix BDMV folder selection issue on OS X Mountain Lion, which treats such
    folders as a AVCHD file as soon as they include an item named INDEX.BDM
  * Fix bug which caused a hidden fullscreen panel
+ * Fix various minor UI drawing issues (main window, fullscreen controller,
+   lua extensions, ...)
  * Allow VLC to be associated with .dvdmedia packages
- * Fix various interface rendering issues
 
 Qt:
  * Fix clearing of Media Info panel on dialog exit
