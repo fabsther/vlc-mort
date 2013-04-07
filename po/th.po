@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2012-12-11 15:41+0100\n"
-"PO-Revision-Date: 2013-02-13 08:41+0000\n"
+"PO-Revision-Date: 2013-03-13 07:52+0000\n"
 "Last-Translator: jerng <jernghan@gmail.com>\n"
 "Language-Team: Thai (http://www.transifex.com/projects/p/vlc-trans/language/"
 "th/)\n"
@@ -472,7 +472,7 @@ msgstr "เปิดแ&ฟ&้ม..."
 
 #: include/vlc_intf_strings.h:50
 msgid "Select one or more files to open"
-msgstr "เลือกเปิดได้ตั้งแต่หนึ่งแฟ้มขึ้นไป"
+msgstr "สามารถเลือกเปิดได้หลายแฟ้ม"
 
 #: include/vlc_intf_strings.h:51
 msgid "Select Directory"
@@ -786,7 +786,7 @@ msgstr "อัตราส่งความดัง"
 
 #: src/audio_output/filters.c:142
 msgid "Audio filtering failed"
-msgstr ""
+msgstr "การผันค่าเสียงล้มเหลว"
 
 #: src/audio_output/filters.c:143
 #, c-format
@@ -1379,7 +1379,7 @@ msgstr "คุณสามารถเลือกส่วนติดต่อ
 
 #: src/libvlc-module.c:224
 msgid "Verbosity (0,1,2)"
-msgstr "Verbosity (0,1,2)"
+msgstr "ชั้นรายละเอียด (0,1,2)"
 
 #: src/libvlc-module.c:226
 msgid ""
@@ -5015,7 +5015,7 @@ msgstr "สินธี"
 
 #: src/text/iso-639_def.h:170
 msgid "Somali"
-msgstr ""
+msgstr "โซมาเลีย "
 
 #: src/text/iso-639_def.h:171
 msgid "Sotho, Southern"
@@ -16041,7 +16041,7 @@ msgstr "เมื่อเต็มจอให้แสดงตัวควา
 #: modules/gui/macosx/simple_prefs.m:274
 #: modules/gui/qt4/ui/sprefs_interface.h:507
 msgid "Privacy / Network Interaction"
-msgstr "ว่าด้วยความเป็นส่วนตัว / เครือข่าย"
+msgstr "ความเป็นส่วนตัว / เครือข่าย"
 
 #: modules/gui/macosx/simple_prefs.m:279
 msgid "Automatically check for updates"
@@ -16679,7 +16679,7 @@ msgstr "แปลงรหัส/บันทึก ไปยังแฟ้ม"
 
 #: modules/gui/macosx/wizard.m:343
 msgid "Choose input"
-msgstr "เลือกการนำเข้า"
+msgstr "เลือกรายการนำเข้า"
 
 #: modules/gui/macosx/wizard.m:344
 msgid "Choose here your input stream."
@@ -18040,7 +18040,7 @@ msgstr "&ยกเลิก"
 #: modules/gui/qt4/components/sout/profile_selector.cpp:41
 #: modules/gui/qt4/dialogs/toolbar.cpp:151
 msgid "Profile"
-msgstr "โพรไพล์"
+msgstr "โพรไฟล์"
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:49
 msgid "Edit selected profile"
@@ -18388,7 +18388,7 @@ msgstr "ที่ตั้ง:"
 
 #: modules/gui/qt4/dialogs/messages.cpp:87
 msgid "Saves all the displayed logs to a file"
-msgstr ""
+msgstr "บันทึกปูมที่แสดงรายละเอียดทั้งหมดเข้าเป็นแฟ้ม"
 
 #: modules/gui/qt4/dialogs/messages.cpp:105
 msgid "Update the tree"
@@ -19770,7 +19770,7 @@ msgstr ""
 
 #: modules/misc/logger.c:158
 msgid "Verbosity"
-msgstr ""
+msgstr "ชั้นรายละเอียด"
 
 #: modules/misc/logger.c:159
 msgid ""
@@ -24489,15 +24489,15 @@ msgstr ""
 
 #: modules/video_filter/transform.c:55
 msgid "Video transformation filter"
-msgstr ""
+msgstr "ตัวผันค่ากลับทิศทางภาพวีดิทัศน์"
 
 #: modules/video_filter/transform.c:56
 msgid "Transformation"
-msgstr ""
+msgstr "กลับทิศทาง"
 
 #: modules/video_filter/transform.c:57
 msgid "Rotate or flip the video"
-msgstr ""
+msgstr "หมุนหรือกลับด้านภาพวีดิทัศน์"
 
 #: modules/video_filter/wall.c:44
 msgid "Number of horizontal windows in which to split the video."
@@ -25497,7 +25497,7 @@ msgstr "ค่าพร้อมใช้"
 
 #: modules/gui/qt4/ui/messages_panel.h:142
 msgid "Verbosity:"
-msgstr ""
+msgstr "ชั้นรายละเอียด:"
 
 #: modules/gui/qt4/ui/messages_panel.h:145
 msgid "&Save as..."
@@ -25770,11 +25770,11 @@ msgstr "บทบรรยายซ้อนบนภาพวีดิทัศ
 
 #: modules/gui/qt4/ui/sout.h:329
 msgid "Destinations"
-msgstr "ปลายทาง"
+msgstr "รูปแบบการส่ง"
 
 #: modules/gui/qt4/ui/sout.h:330
 msgid "New destination"
-msgstr "ปลายทางใหม่"
+msgstr "เพิ่มการส่ง"
 
 #: modules/gui/qt4/ui/sout.h:332
 msgid ""
@@ -25788,11 +25788,11 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:336
 msgid "Activate Transcoding"
-msgstr ""
+msgstr "ใช้การแปลงรหัส"
 
 #: modules/gui/qt4/ui/sout.h:339
 msgid "Destination Setup"
-msgstr "ตั้งค่าปลายทาง"
+msgstr "ตั้งค่าการส่ง"
 
 #: modules/gui/qt4/ui/sout.h:340
 msgid "Miscellaneous Options"
@@ -26266,7 +26266,7 @@ msgstr "ตัวตั้งค่า VLM"
 
 #: modules/gui/qt4/ui/vlm.h:288
 msgid "Media Manager Edition"
-msgstr ""
+msgstr "รูปแบบตัวจัดการสื่อ"
 
 #: modules/gui/qt4/ui/vlm.h:289
 msgid "Name:"
@@ -26274,19 +26274,19 @@ msgstr "ชื่อ:"
 
 #: modules/gui/qt4/ui/vlm.h:291
 msgid "Input:"
-msgstr "การนำเข้า:"
+msgstr "รายการนำเข้า:"
 
 #: modules/gui/qt4/ui/vlm.h:292
 msgid "Select Input"
-msgstr "เลือกการนำเข้า"
+msgstr "เลือกรายการนำเข้า"
 
 #: modules/gui/qt4/ui/vlm.h:293
 msgid "Output:"
-msgstr "การแสดงผล:"
+msgstr "รูปแบบการส่ง:"
 
 #: modules/gui/qt4/ui/vlm.h:294
 msgid "Select Output"
-msgstr "เลือกการแสดงผล"
+msgstr "เลือกรูปแบบการส่ง"
 
 #: modules/gui/qt4/ui/vlm.h:295
 msgid "Time Control"
