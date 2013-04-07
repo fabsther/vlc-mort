@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2012-12-11 15:41+0100\n"
-"PO-Revision-Date: 2013-02-10 06:50+0000\n"
+"PO-Revision-Date: 2013-03-30 18:07+0000\n"
 "Last-Translator: Ivar Smolin <okul@linux.ee>\n"
 "Language-Team: Estonian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/et/)\n"
@@ -6896,11 +6896,11 @@ msgstr "Edasta küpsised üle http suunamiste."
 
 #: modules/access/http.c:96
 msgid "HTTP referer value"
-msgstr ""
+msgstr "HTTP viitaja väärtus"
 
 #: modules/access/http.c:97
 msgid "Customize the HTTP referer, simulating a previous document"
-msgstr ""
+msgstr "HTTP viitaja (referer) kohandamine eelmise dokumendi simuleerimiseks"
 
 #: modules/access/http.c:99
 msgid "User Agent"
@@ -25868,7 +25868,7 @@ msgstr "Mac OS X OpenGL videoväljund (nõuab drawable-nsobject-i)"
 
 #: modules/video_output/macosx.m:138
 msgid "OpenGL acceleration is not supported on your Mac"
-msgstr ""
+msgstr "OpenGL kiirendi pole sinu Maci poolt toetatud"
 
 #: modules/video_output/macosx.m:138
 msgid ""
@@ -25876,6 +25876,9 @@ msgid ""
 "output. It will still work, but much slower and with possibly unexpected "
 "results."
 msgstr ""
+"Sinu Macil puudub videoväljundi jaoks tarvilik Quartz Extreme kiirendi tugi. "
+"Video siiski töötab, kuid see on aeglane ja selle puhul on võimalik "
+"programmi ootamatu käitumine."
 
 #: modules/video_output/msw/direct2d.c:56
 msgid "Video output for Windows 7/Windows Vista with Platform update"
