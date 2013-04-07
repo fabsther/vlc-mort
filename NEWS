@@ -12,10 +12,14 @@ Demuxers:
  * Fix MKV behaviour with unknown or new ebml elements
  * Fix use-after-free crash in Ogg demuxer, found by Tomi Juntunen
  * Fix regression on some paletted codecs in AVI
+ * Fix ALAC in mp4 regression
+ * Improvements to the vimeo playlist parser
 
 Decoders:
  * Fix GPU decoding on Intel HD 2000/3000 cards on Windows
  * Fix FLAC 6.1 and 7.1 channel layout
+ * Fix crashes in HTML srt subtitles
+ * 3rd party codecs updates
 
 Mac OS X:
  * Fix subtitle rendering resolution when using OS X's native fullscreen mode
@@ -28,6 +32,7 @@ Mac OS X:
    folders as a AVCHD file as soon as they include an item named INDEX.BDM
  * Fix bug which caused a hidden fullscreen panel
  * Allow VLC to be associated with .dvdmedia packages
+ * Fix various interface rendering issues
 
 Qt:
  * Fix clearing of Media Info panel on dialog exit
@@ -43,7 +48,8 @@ Translations:
  * Update of Brazilian Portuguese, Traditional Chinese, Thai, Portuguese,
    Japanese, Italian, Hebrew, Estonian, Spanish, Czech, Catalan, Bosnian,
    Asturian, French, Romanian, Serbian, Russian, Hindi, Estonian, German
-   translations
+   Slovenian Norwegian Bokmål, Khmer, Icelandic, Interlingua, Welsh, Ukrainian,
+   Dutch, Danish, translations
  * New Gujarati, Aragonese translations
 
 
