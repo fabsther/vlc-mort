@@ -1,17 +1,18 @@
 # Khmer translation
-# Copyright (C) 2012 VideoLAN
+# Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
 # Khoem Sokhem <khoemsokhem@khmeros.info>, 2012.
+# Sokhem Khoem <sokhem@open.org.kh>, 2012-2013.
 # Sok Sophea <sophea@khmeros.info>, 2012.
-#: modules/gui/macosx/prefs.m:490 modules/gui/macosx/simple_prefs.m:451
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2012-12-11 15:41+0100\n"
-"PO-Revision-Date: 2012-12-02 08:48+0000\n"
+"PO-Revision-Date: 2013-04-04 02:48+0000\n"
 "Last-Translator: khoemsokhem <sokhem@open.org.kh>\n"
 "Language-Team: Khmer (http://www.transifex.com/projects/p/vlc-trans/language/"
 "km/)\n"
@@ -194,7 +195,7 @@ msgstr ""
 
 #: include/vlc_config_cat.h:103
 msgid "Stream filters"
-msgstr "តម្រងស្ទ្រីម"
+msgstr "តម្រង​ចរន្ត"
 
 #: include/vlc_config_cat.h:105
 msgid ""
@@ -246,7 +247,7 @@ msgstr "ការ​កំណត់​ព័រ៌មាន​បញ្ចូល
 
 #: include/vlc_config_cat.h:124 src/libvlc-module.c:2060
 msgid "Stream output"
-msgstr "លទ្ធផល​ស្ទ្រីម"
+msgstr "លទ្ធផល​ចរន្ត"
 
 #: include/vlc_config_cat.h:126
 msgid ""
@@ -266,7 +267,7 @@ msgstr ""
 
 #: include/vlc_config_cat.h:134
 msgid "General stream output settings"
-msgstr "ការ​កំណត់​លទ្ធផល​ស្ទ្រីម​ទូទៅ"
+msgstr "ការ​កំណត់​លទ្ធផល​​រចន្ត​​ទូទៅ"
 
 #: include/vlc_config_cat.h:136
 msgid "Muxers"
@@ -315,7 +316,7 @@ msgstr ""
 
 #: include/vlc_config_cat.h:159
 msgid "Sout stream"
-msgstr "ស្ទ្រីម Sout"
+msgstr "រចន្ត Sout"
 
 #: include/vlc_config_cat.h:160
 msgid ""
@@ -323,8 +324,8 @@ msgid ""
 "the Streaming Howto for more information. You can configure default options "
 "for each sout stream module here."
 msgstr ""
-"ម៉ូឌុល​ស្ទ្រីម Sout អនុញ្ញាត​ឲ្យ​បង្កើត​ច្រវាក់​ដំណើរការ sout ។ សូម​មើល​លើ Streaming Howto សម្រាប់​"
-"ព័ត៌មាន​បន្ថែម ។ អ្នក​អាច​កំណត់​រចនា​សម្ព័ន្ធ​ជម្រើស​លំនាំដើម​សម្រាប់​ម៉ូឌុល​ស្ទ្រីម sout នីមួយៗ​នៅ​ទីនេះ​បាន ។"
+"ម៉ូឌុលចរន្ត Sout អនុញ្ញាត​ឲ្យ​បង្កើត​ច្រវាក់​ដំណើរការ sout ។ សូម​មើល​លើ Streaming Howto សម្រាប់​"
+"ព័ត៌មាន​បន្ថែម ។ អ្នក​អាច​កំណត់​រចនា​សម្ព័ន្ធ​ជម្រើស​លំនាំដើម​សម្រាប់​ម៉ូឌុល​ចរន្ត sout នីមួយៗ​នៅ​ទីនេះ​បាន ។"
 
 #: include/vlc_config_cat.h:165 modules/services_discovery/sap.c:109
 msgid "SAP"
@@ -343,7 +344,7 @@ msgstr "VOD"
 
 #: include/vlc_config_cat.h:171
 msgid "VLC's implementation of Video On Demand"
-msgstr "ការ​ប្រតិបត្តិ​​នៃ​វីដេអូ​នៅ​ពេល​ត្រូវការ​របស់ VLC"
+msgstr "ការ​ប្រតិបត្តិ​​វីដេអូ​នៅ​ពេល​ត្រូវការ​របស់ VLC"
 
 #: include/vlc_config_cat.h:175 src/libvlc-module.c:2177
 #: src/playlist/engine.c:230 modules/demux/playlist/playlist.c:63
@@ -588,7 +589,7 @@ msgstr "ចាក់​ឡើងវិញ​តែ​មួយ​បទ"
 
 #: include/vlc_intf_strings.h:82
 msgid "No Repeat"
-msgstr "មិន​ចាក់ឡើង​វិញ"
+msgstr "មិន​ចាក់​ឡើង​វិញ"
 
 #: include/vlc_intf_strings.h:84 src/libvlc-module.c:1537
 #: modules/gui/macosx/MainMenu.m:278 modules/gui/macosx/MainMenu.m:1171
@@ -2353,7 +2354,7 @@ msgstr "លាក់​តម្លៃ​សម្រាប់​ម៉ាស៊
 
 #: src/libvlc-module.c:666
 msgid "Disc caching (ms)"
-msgstr "លាក់​ថាស (ms)"
+msgstr "ដាក់​ថាស​ក្នុង​ឃ្លាំង (ms)"
 
 #: src/libvlc-module.c:668
 msgid "Caching value for optical media, in milliseconds."
@@ -2379,7 +2380,7 @@ msgstr "នៅ​ពេល​ប្រើ​ព័ត៌មាន​បញ្ច
 
 #: src/libvlc-module.c:679
 msgid "Clock synchronisation"
-msgstr "ការ​ធ្វើ​សមកាលកម្ម​នាឡិកា"
+msgstr "ការ​ធ្វើ​សម​កាលកម្ម​នាឡិកា"
 
 #: src/libvlc-module.c:681
 msgid ""
@@ -2398,20 +2399,20 @@ msgid ""
 "This defines the maximum input delay jitter that the synchronization "
 "algorithms should try to compensate (in milliseconds)."
 msgstr ""
-"វា​នឹង​កំណត់​គម្លាត​ការ​ពន្យារពេល​ព័ត៌មាន​បញ្ចូល​អតិបរមា​ដែល​ក្បួន​ដោះស្រាយ​សមកាលកម្ម​គួរ​សាកល្បង​ដើម្បី​ប៉ះប៉ូវ "
+"វា​នឹង​កំណត់​គម្លាត​ការ​ពន្យារពេល​ព័ត៌មាន​បញ្ចូល​អតិបរមា​ដែល​ក្បួន​ដោះស្រាយ​សម​កាល​កម្ម​គួរ​សាកល្បង​ដើម្បី​ប៉ះប៉ូវ "
 "(គិតជា​មិល្លី​វិនាទី) ។"
 
 #: src/libvlc-module.c:690
 msgid "Network synchronisation"
-msgstr "ការ​ធ្វើ​សមកាលកម្ម​បណ្ដាញ"
+msgstr "ការ​ធ្វើ​សម​កាល​កម្ម​បណ្ដាញ"
 
 #: src/libvlc-module.c:691
 msgid ""
 "This allows you to remotely synchronise clocks for server and client. The "
 "detailed settings are available in Advanced / Network Sync."
 msgstr ""
-"វា​អនុញ្ញាត​ឲ្យ​អ្នក​ធ្វើ​សមកាលកម្ម​នាឡិកា​ពី​ចម្ងាយ​សម្រាប់​ម៉ាស៊ីន​បម្រើ និង​ម៉ាស៊ីន​ភ្ញៀវ ។ ការ​កំណត់​លម្អិត​គឺ​មាន​"
-"នៅ​ក្នុង​កម្រិត​ខ្ពស់ / សមកាលកម្ម​បណ្ដាញ ។"
+"វា​អនុញ្ញាត​ឲ្យ​អ្នក​ធ្វើ​សម​កាល​កម្ម​នាឡិកា​ពី​ចម្ងាយ​សម្រាប់​ម៉ាស៊ីន​បម្រើ និង​ម៉ាស៊ីន​ភ្ញៀវ ។ ការ​កំណត់​លម្អិត​គឺ​មាន​"
+"នៅ​ក្នុង​កម្រិត​ខ្ពស់ / សម​កាល​កម្ម​បណ្ដាញ ។"
 
 #: src/libvlc-module.c:697 src/video_output/vout_intf.c:94
 #: src/video_output/vout_intf.c:112 modules/access/dshow/dshow.cpp:91
