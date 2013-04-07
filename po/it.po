@@ -5,6 +5,7 @@
 # Translators:
 # Bruno Vella 2002-2003
 # Carlo Calabrò 2003-2004
+# Lorenzo Porta <adamantio17@outlook.com>, 2013.
 # Vincenzo Reale <smart2128@baslug.org>, 2006,2008-2012.
 #
 msgid ""
@@ -12,8 +13,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2012-12-11 15:41+0100\n"
-"PO-Revision-Date: 2012-12-18 15:18+0000\n"
-"Last-Translator: Vincenzo Reale <vinx.reale@gmail.com>\n"
+"PO-Revision-Date: 2013-04-02 12:50+0000\n"
+"Last-Translator: Lorenzo Porta <adamantio17@outlook.com>\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/it/)\n"
 "Language: it\n"
@@ -734,6 +735,8 @@ msgid ""
 "\"Edge detection\" video distortion effect.\n"
 "Try changing the various settings for different effects"
 msgstr ""
+"Effetto di distorsione video \"Riconoscimento dei contorni\".\n"
+"Provare a cambiare le varie impostazioni per diversi effetti "
 
 #: include/vlc_intf_strings.h:132
 msgid ""
@@ -741,6 +744,9 @@ msgid ""
 "white, except the parts that are of the color that you select in the "
 "settings."
 msgstr ""
+"Effetto \"rilevamento del colore\". L'intera immagine sarà convertita in "
+"bianco e nero, ad eccezione delle parti che sono del colore selezionato "
+"nelle impostazioni."
 
 #: include/vlc_intf_strings.h:136
 msgid ""
@@ -1514,6 +1520,13 @@ msgid ""
 "types. Note that you still need to use -vvv to actually display debug "
 "message."
 msgstr ""
+"Questa è una stringa separata da una ',' e ogni oggetto deve essere "
+"preceduto da un '+' o un '-' rispettivamente per abilitarlo o disabilitarlo. "
+"La parola chiave 'all' si riferisce a tutti gli oggetti. Gli oggetti possono "
+"essere indicati con il loro tipo o con il nome del modulo. Regole "
+"applicabili agli oggetti con nome hanno la precedenza sulle regole che si "
+"applicano ai tipi di oggetto. Si noti che è comunque necessario utilizzare -"
+"vvv per visualizzare il messaggio di debug."
 
 #: src/libvlc-module.c:239
 msgid "Be quiet"
