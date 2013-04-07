@@ -1146,7 +1146,7 @@ static block_t *EncodeAudio( encoder_t *p_enc, aout_buffer_t *p_aout_buf )
 
             if( av_sample_fmt_is_planar( p_sys->p_context->sample_fmt ) )
                 Deinterleave( &p_sys->p_buffer[i_delay_size * p_sys->i_sample_bytes],
-                        p_buffer, i_samples_delay, p_enc->fmt_in.audio.i_channels, p_enc->fmt_in.i_codec );
+                        p_buffer, p_sys->i_frame_size - i_delay_size, p_enc->fmt_in.audio.i_channels, p_enc->fmt_in.i_codec );
             else
                 memcpy( p_sys->p_buffer + i_delay_size * p_sys->i_sample_bytes,
                         p_buffer, i_size );
