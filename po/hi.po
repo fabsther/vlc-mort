@@ -10,14 +10,15 @@
 # Shashi Ranjan <rshashi906@gmail.com>, 2012.
 # Sayan Chowdhury <sayan.chowdhury2012@gmail.com>, 2012.
 # Shambhu Kumar <shambhuray.sam@gmail.com>, 2013.
+# Tarsem Singh <tarsemsinghtarsemsingh@gmail.com>, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2012-12-11 15:41+0100\n"
-"PO-Revision-Date: 2013-02-14 19:34+0000\n"
-"Last-Translator: Shambhu Kumar <shambhuray.sam@gmail.com>\n"
+"PO-Revision-Date: 2013-03-26 08:02+0000\n"
+"Last-Translator: Tarsem <tarsemsinghtarsemsingh@gmail.com>\n"
 "Language-Team: Hindi (http://www.transifex.com/projects/p/vlc-trans/language/"
 "hi/)\n"
 "Language: hi\n"
@@ -243,7 +244,7 @@ msgstr "उपशीर्षक टेलिटेक्स्ट और सी
 
 #: include/vlc_config_cat.h:120
 msgid "General Input"
-msgstr "जनरल इनपुट"
+msgstr "सामान्य इनपुट"
 
 #: include/vlc_config_cat.h:121
 msgid "General input settings. Use with care..."
@@ -541,7 +542,7 @@ msgstr "प्ले"
 
 #: include/vlc_intf_strings.h:66
 msgid "Fetch Information"
-msgstr ""
+msgstr "सूचना लाइए"
 
 #: include/vlc_intf_strings.h:67
 msgid "Remove Selected"
@@ -817,7 +818,7 @@ msgstr ""
 #: modules/gui/qt4/ui/video_effects.h:1356
 #: modules/gui/qt4/ui/video_effects.h:1366
 msgid "Left"
-msgstr ""
+msgstr "बाएँ"
 
 #: src/audio_output/output.c:107 src/audio_output/output.c:144
 #: src/libvlc-module.c:443 src/libvlc-module.c:521
@@ -831,7 +832,7 @@ msgstr ""
 #: modules/video_filter/osdmenu.c:84 modules/video_filter/rss.c:173
 #: modules/gui/qt4/ui/video_effects.h:1314
 msgid "Right"
-msgstr ""
+msgstr "दाएँ"
 
 #: src/audio_output/output.c:134
 msgid "Dolby Surround"
@@ -909,7 +910,7 @@ msgstr ""
 #: src/config/help.c:679 src/config/help.c:682 src/config/help.c:690
 #: src/config/help.c:695
 msgid "Note:"
-msgstr ""
+msgstr "टिप्पणी:"
 
 #: src/config/help.c:680 src/config/help.c:683
 msgid "add --advanced to your command line to see advanced options."
@@ -1053,12 +1054,12 @@ msgstr ""
 #: modules/access/imem.c:71 modules/gui/macosx/simple_prefs.m:273
 #: modules/stream_out/setid.c:49 modules/gui/qt4/ui/sprefs_interface.h:517
 msgid "Language"
-msgstr ""
+msgstr "भाषा"
 
 #: src/input/es_out.c:2928 src/input/meta.c:60
 #: modules/gui/macosx/bookmarks.m:94 modules/gui/qt4/dialogs/bookmarks.cpp:73
 msgid "Description"
-msgstr ""
+msgstr "विवरण"
 
 #: src/input/es_out.c:2937 src/input/es_out.c:2940
 #: modules/gui/macosx/output.m:176 modules/gui/qt4/ui/profiles.h:499
@@ -1149,16 +1150,16 @@ msgstr ""
 #: modules/gui/qt4/components/open_panels.cpp:499 modules/mux/asf.c:56
 #: modules/gui/qt4/ui/open_disk.h:310
 msgid "Title"
-msgstr ""
+msgstr "शीर्षक"
 
 #: src/input/meta.c:55 modules/gui/macosx/playlistinfo.m:79
 #: modules/gui/macosx/playlist.m:1190
 msgid "Artist"
-msgstr ""
+msgstr "कलाकार"
 
 #: src/input/meta.c:56
 msgid "Genre"
-msgstr ""
+msgstr "शैली"
 
 #: src/input/meta.c:57 modules/mux/asf.c:60
 msgid "Copyright"
@@ -1178,7 +1179,7 @@ msgstr ""
 
 #: src/input/meta.c:62
 msgid "Date"
-msgstr ""
+msgstr "तिथि"
 
 #: src/input/meta.c:63
 msgid "Setting"
@@ -1195,7 +1196,7 @@ msgstr ""
 
 #: src/input/meta.c:67 modules/access/vcdx/info.c:70
 msgid "Publisher"
-msgstr ""
+msgstr "प्रकाशक"
 
 #: src/input/meta.c:68
 msgid "Encoded by"
@@ -1221,7 +1222,7 @@ msgstr ""
 #: modules/gui/macosx/MainMenu.m:290 modules/gui/macosx/open.m:148
 #: modules/gui/macosx/open.m:150 modules/gui/qt4/ui/open_disk.h:311
 msgid "Chapter"
-msgstr ""
+msgstr "अध्याय"
 
 #: src/input/var.c:187 modules/access/vcdx/info.c:238
 msgid "Navigation"
@@ -1245,11 +1246,11 @@ msgstr ""
 
 #: src/input/var.c:273
 msgid "Next title"
-msgstr ""
+msgstr "आगामी शीर्षक"
 
 #: src/input/var.c:278
 msgid "Previous title"
-msgstr ""
+msgstr "पिछला शीर्षक"
 
 #: src/input/var.c:312
 #, c-format
@@ -1263,11 +1264,11 @@ msgstr ""
 
 #: src/input/var.c:376 modules/gui/qt4/dialogs/toolbar.cpp:400
 msgid "Next chapter"
-msgstr ""
+msgstr "अगला अध्याय"
 
 #: src/input/var.c:381 modules/gui/qt4/dialogs/toolbar.cpp:390
 msgid "Previous chapter"
-msgstr ""
+msgstr "पिछला अध्याय"
 
 #: src/input/vlm.c:654 src/input/vlm.c:1037
 #, c-format
@@ -1317,11 +1318,11 @@ msgstr ""
 
 #: src/libvlc.h:155 src/libvlc-module.c:1464 src/video_output/vout_intf.c:83
 msgid "1:4 Quarter"
-msgstr ""
+msgstr "1:4 चौथाई"
 
 #: src/libvlc.h:156 src/libvlc-module.c:1465 src/video_output/vout_intf.c:84
 msgid "1:2 Half"
-msgstr ""
+msgstr "1:2 आधा"
 
 #: src/libvlc.h:157 src/libvlc-module.c:1466 src/video_output/vout_intf.c:85
 msgid "1:1 Original"
@@ -1329,12 +1330,12 @@ msgstr ""
 
 #: src/libvlc.h:158 src/libvlc-module.c:1467 src/video_output/vout_intf.c:86
 msgid "2:1 Double"
-msgstr ""
+msgstr "2:1 दोगुना"
 
 #: src/libvlc-module.c:119 src/libvlc-module.c:346
 #: modules/audio_output/kai.c:78 modules/video_output/kva.c:62
 msgid "Auto"
-msgstr ""
+msgstr "स्वत:"
 
 #: src/libvlc-module.c:203
 msgid ""
@@ -1395,7 +1396,7 @@ msgstr ""
 
 #: src/libvlc-module.c:239
 msgid "Be quiet"
-msgstr ""
+msgstr "चुप रहो"
 
 #: src/libvlc-module.c:241
 msgid "Turn off all warning and information messages."
@@ -1417,7 +1418,7 @@ msgstr ""
 
 #: src/libvlc-module.c:252
 msgid "Color messages"
-msgstr ""
+msgstr "रंग संदेश"
 
 #: src/libvlc-module.c:254
 msgid ""
@@ -1569,13 +1570,13 @@ msgstr ""
 #: src/libvlc-module.c:346 modules/access/dtv/access.c:92
 #: modules/access/v4l2/video.c:219
 msgid "On"
-msgstr ""
+msgstr "चल"
 
 #: src/libvlc-module.c:346 modules/access/dtv/access.c:92
 #: modules/access/v4l2/video.c:145 modules/access/v4l2/video.c:219
 #: modules/video_filter/deinterlace/algo_phosphor.h:55
 msgid "Off"
-msgstr ""
+msgstr "रुक"
 
 #: src/libvlc-module.c:351
 msgid "This adds audio post processing filters, to modify the sound rendering."
@@ -1641,7 +1642,7 @@ msgstr ""
 #: modules/gui/qt4/components/interface_widgets.cpp:299
 #: modules/text_renderer/freetype.c:184
 msgid "None"
-msgstr ""
+msgstr "कोई नहीं"
 
 #: src/libvlc-module.c:395
 msgid ""
@@ -1761,7 +1762,7 @@ msgstr ""
 #: modules/gui/qt4/ui/video_effects.h:1354
 #: modules/gui/qt4/ui/video_effects.h:1365
 msgid "Top"
-msgstr ""
+msgstr "शीर्ष"
 
 #: src/libvlc-module.c:443 src/libvlc-module.c:521 modules/codec/dvbsub.c:102
 #: modules/codec/zvbi.c:77 modules/gui/fbosd.c:163
@@ -1772,7 +1773,7 @@ msgstr ""
 #: modules/video_filter/osdmenu.c:84 modules/video_filter/rss.c:173
 #: modules/gui/qt4/ui/video_effects.h:1315
 msgid "Bottom"
-msgstr ""
+msgstr "तल"
 
 #: src/libvlc-module.c:444 src/libvlc-module.c:522 modules/codec/dvbsub.c:103
 #: modules/codec/zvbi.c:78 modules/gui/fbosd.c:164
@@ -1781,7 +1782,7 @@ msgstr ""
 #: modules/video_filter/marq.c:137 modules/video_filter/mosaic.c:171
 #: modules/video_filter/osdmenu.c:85 modules/video_filter/rss.c:174
 msgid "Top-Left"
-msgstr ""
+msgstr "शीर्ष-वाम"
 
 #: src/libvlc-module.c:444 src/libvlc-module.c:522 modules/codec/dvbsub.c:103
 #: modules/codec/zvbi.c:78 modules/gui/fbosd.c:164
@@ -1790,7 +1791,7 @@ msgstr ""
 #: modules/video_filter/marq.c:137 modules/video_filter/mosaic.c:171
 #: modules/video_filter/osdmenu.c:85 modules/video_filter/rss.c:174
 msgid "Top-Right"
-msgstr ""
+msgstr "शीर्ष-दक्षिण"
 
 #: src/libvlc-module.c:444 src/libvlc-module.c:522 modules/codec/dvbsub.c:103
 #: modules/codec/zvbi.c:78 modules/gui/fbosd.c:164
@@ -1799,7 +1800,7 @@ msgstr ""
 #: modules/video_filter/marq.c:137 modules/video_filter/mosaic.c:171
 #: modules/video_filter/osdmenu.c:85 modules/video_filter/rss.c:174
 msgid "Bottom-Left"
-msgstr ""
+msgstr "तल-वाम"
 
 #: src/libvlc-module.c:444 src/libvlc-module.c:522 modules/codec/dvbsub.c:103
 #: modules/codec/zvbi.c:78 modules/gui/fbosd.c:164
@@ -1808,7 +1809,7 @@ msgstr ""
 #: modules/video_filter/marq.c:137 modules/video_filter/mosaic.c:171
 #: modules/video_filter/osdmenu.c:85 modules/video_filter/rss.c:174
 msgid "Bottom-Right"
-msgstr ""
+msgstr "तल-दक्षिण"
 
 #: src/libvlc-module.c:446
 msgid "Zoom video"
@@ -1857,7 +1858,7 @@ msgstr ""
 #: src/libvlc-module.c:468 src/video_output/vout_intf.c:292
 #: modules/gui/macosx/simple_prefs.m:308 modules/gui/qt4/ui/sprefs_video.h:338
 msgid "Always on top"
-msgstr ""
+msgstr "सदैव शीर्ष पर"
 
 #: src/libvlc-module.c:470
 msgid "Always place the video window on top of other windows."
@@ -26269,12 +26270,6 @@ msgstr "मीडिया प्रबंधन सूची"
 #~ msgstr "तारीख़"
 
 #, fuzzy
-#~ msgid "Display on &Desktop"
-#~ msgstr ""
-#~ "वीडियो\n"
-#~ "वीडियो सेट्टिं्ग"
-
-#, fuzzy
 #~ msgid "Elasped time"
 #~ msgstr "फैल"
 
@@ -26317,14 +26312,6 @@ msgstr "मीडिया प्रबंधन सूची"
 #, fuzzy
 #~ msgid "Delete All Streams"
 #~ msgstr "ऑडियो फिल्टेर"
-
-#, fuzzy
-#~ msgid "Left rear"
-#~ msgstr "बांये"
-
-#, fuzzy
-#~ msgid "Right rear"
-#~ msgstr "दाँया"
 
 #, fuzzy
 #~ msgid "Left front"
@@ -26447,10 +26434,6 @@ msgstr "मीडिया प्रबंधन सूची"
 #~ msgstr "फैल"
 
 #, fuzzy
-#~ msgid "title"
-#~ msgstr "फैल"
-
-#, fuzzy
 #~ msgid "Set"
 #~ msgstr "समायोजन"
 
@@ -26477,22 +26460,6 @@ msgstr "मीडिया प्रबंधन सूची"
 #, fuzzy
 #~ msgid "MPEG-4 video demuxer"
 #~ msgstr "ऑडियो फिल्टेर"
-
-#, fuzzy
-#~ msgid "Prev Title"
-#~ msgstr "फैल"
-
-#, fuzzy
-#~ msgid "Next Title"
-#~ msgstr "सी डि पाठ ख़िताब"
-
-#, fuzzy
-#~ msgid "Go to Title"
-#~ msgstr "फैल"
-
-#, fuzzy
-#~ msgid "Go to Chapter"
-#~ msgstr "अध्याय"
 
 #, fuzzy
 #~ msgid "Speed"
@@ -26669,10 +26636,6 @@ msgstr "मीडिया प्रबंधन सूची"
 #~ msgstr "िवडीयो"
 
 #, fuzzy
-#~ msgid "Previous playlist item"
-#~ msgstr "गीत-सूची"
-
-#, fuzzy
 #~ msgid "Extended &GUI\tCtrl-G"
 #~ msgstr "सी डि डि बी"
 
@@ -26714,18 +26677,11 @@ msgstr "मीडिया प्रबंधन सूची"
 #~ "वीडियो\n"
 #~ "वीडियो सेट्टिं्ग"
 
-#, fuzzy
-#~ msgid "no artist"
-#~ msgstr "कलाकार"
-
 #~ msgid "CDDB Disc ID"
 #~ msgstr "सी डि डि बी डिस्क अंक"
 
 #~ msgid "CDDB Extended Data"
 #~ msgstr "सी डि डि बी"
-
-#~ msgid "CDDB Title"
-#~ msgstr "सी डि डि बी ख़िताब"
 
 #~ msgid "CD-Text Disc ID"
 #~ msgstr "सी डि पाठ डिस्क ऐ डी"
@@ -26735,9 +26691,6 @@ msgstr "मीडिया प्रबंधन सूची"
 
 #~ msgid "ISO-9660 Application ID"
 #~ msgstr "ऐ एस ओ-९६६० अनुप्रयोग अंक"
-
-#~ msgid "ISO-9660 Publisher"
-#~ msgstr "ऐ एस ओ-९६६० पब्लिशर"
 
 #~ msgid "ISO-9660 Volume"
 #~ msgstr "ऐ एस ओ-९६६० वाल्यूम"
@@ -26787,24 +26740,72 @@ msgstr "मीडिया प्रबंधन सूची"
 #~ msgstr "बीच में"
 
 #, fuzzy
+#~ msgid "Display on &Desktop"
+#~ msgstr "सदैव शीर्ष पर"
+
+#, fuzzy
+#~ msgid "Left rear"
+#~ msgstr "बाएँ"
+
+#, fuzzy
+#~ msgid "Right rear"
+#~ msgstr "दाएँ"
+
+#, fuzzy
+#~ msgid "title"
+#~ msgstr "शीर्षक"
+
+#, fuzzy
+#~ msgid "Prev Title"
+#~ msgstr "पिछला शीर्षक"
+
+#, fuzzy
+#~ msgid "Next Title"
+#~ msgstr "आगामी शीर्षक"
+
+#, fuzzy
+#~ msgid "Go to Title"
+#~ msgstr "शीर्षक"
+
+#, fuzzy
+#~ msgid "Go to Chapter"
+#~ msgstr "अध्याय"
+
+#, fuzzy
+#~ msgid "Previous playlist item"
+#~ msgstr "पिछला शीर्षक"
+
+#, fuzzy
+#~ msgid "no artist"
+#~ msgstr "कलाकार"
+
+#, fuzzy
+#~ msgid "CDDB Title"
+#~ msgstr "शीर्षक"
+
+#, fuzzy
+#~ msgid "ISO-9660 Publisher"
+#~ msgstr "प्रकाशक"
+
+#, fuzzy
 #~ msgid "Left-Top"
-#~ msgstr "बांये"
+#~ msgstr "बाएँ"
 
 #, fuzzy
 #~ msgid "Right-Top"
-#~ msgstr "दाँया"
+#~ msgstr "दाएँ"
 
 #, fuzzy
 #~ msgid "Center-Bottom"
-#~ msgstr "नीचे"
+#~ msgstr "तल"
 
 #, fuzzy
 #~ msgid "Left-Bottom"
-#~ msgstr "नीचे"
+#~ msgstr "तल"
 
 #, fuzzy
 #~ msgid "Right-Bottom"
-#~ msgstr "नीचे"
+#~ msgstr "तल"
 
 #, fuzzy
 #~ msgid "Opus audio decoder"
@@ -26936,7 +26937,7 @@ msgstr "मीडिया प्रबंधन सूची"
 
 #, fuzzy
 #~ msgid "Decimation"
-#~ msgstr "दिशा"
+#~ msgstr "विवरण"
 
 #, fuzzy
 #~ msgid "Video4Linux"
@@ -27177,7 +27178,7 @@ msgstr "मीडिया प्रबंधन सूची"
 
 #, fuzzy
 #~ msgid "Decimation:"
-#~ msgstr "दिशा"
+#~ msgstr "विवरण"
 
 #, fuzzy
 #~ msgid "Video Codec:"
@@ -27252,7 +27253,7 @@ msgstr "मीडिया प्रबंधन सूची"
 
 #, fuzzy
 #~ msgid "bottom"
-#~ msgstr " जोन 2: नीचे"
+#~ msgstr "तल"
 
 #, fuzzy
 #~ msgid "video-filter-event"
@@ -27416,7 +27417,7 @@ msgstr "मीडिया प्रबंधन सूची"
 
 #, fuzzy
 #~ msgid "&Title"
-#~ msgstr "शीर्षक फ़ॉन्ट"
+#~ msgstr "शीर्षक"
 
 #, fuzzy
 #~ msgid "Undock from Interface"
@@ -27428,7 +27429,7 @@ msgstr "मीडिया प्रबंधन सूची"
 
 #, fuzzy
 #~ msgid "Get Stream Information"
-#~ msgstr "मीडिया जानकारी के &"
+#~ msgstr "सूचना लाइए"
 
 #, fuzzy
 #~ msgid "Disk Device"
@@ -27578,7 +27579,7 @@ msgstr "मीडिया प्रबंधन सूची"
 
 #, fuzzy
 #~ msgid "Security options"
-#~ msgstr "fnordlicht विकल्प"
+#~ msgstr "विवरण"
 
 #, fuzzy
 #~ msgid "Advanced Information"
@@ -27602,7 +27603,7 @@ msgstr "मीडिया प्रबंधन सूची"
 
 #, fuzzy
 #~ msgid "_Title"
-#~ msgstr "शीर्षक फ़ॉन्ट"
+#~ msgstr "शीर्षक"
 
 #, fuzzy
 #~ msgid "_Audio"
