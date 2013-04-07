@@ -1,17 +1,17 @@
-# Interlingua (International Auxiliary Language Association) translation
-# Copyright (C) 2012 VideoLAN
+# Interlingua translation
+# Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
 # Emilio Sepúlveda <emisepulvedam@gmail.com>, 2012.
-#: modules/gui/macosx/prefs.m:490 modules/gui/macosx/simple_prefs.m:451
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2012-12-11 15:41+0100\n"
-"PO-Revision-Date: 2012-12-02 08:48+0000\n"
-"Last-Translator: Emilio Sepúlveda <emisepulvedam@gmail.com>\n"
+"PO-Revision-Date: 2013-01-16 16:18+0000\n"
+"Last-Translator: SoftInterlingua <>\n"
 "Language-Team: Interlingua (http://www.transifex.com/projects/p/vlc-trans/"
 "language/ia/)\n"
 "Language: ia\n"
@@ -140,7 +140,7 @@ msgstr ""
 #: share/lua/http/dialogs/create_stream.html:147
 #: modules/gui/qt4/ui/profiles.h:476 modules/gui/qt4/ui/sprefs_video.h:348
 msgid "Video"
-msgstr ""
+msgstr "Video"
 
 #: include/vlc_config_cat.h:71
 msgid "Video settings"
@@ -187,7 +187,7 @@ msgstr ""
 
 #: include/vlc_config_cat.h:103
 msgid "Stream filters"
-msgstr ""
+msgstr "Filtros de fluxo"
 
 #: include/vlc_config_cat.h:105
 msgid ""
@@ -992,7 +992,7 @@ msgstr ""
 #: src/input/es_out.c:2883
 #, c-format
 msgid "Stream %d"
-msgstr ""
+msgstr "Fluxo %d"
 
 #: src/input/es_out.c:2899 src/input/es_out.c:3017 modules/access/imem.c:64
 msgid "Subtitle"
@@ -1005,13 +1005,13 @@ msgstr "Typo"
 
 #: src/input/es_out.c:2910
 msgid "Original ID"
-msgstr ""
+msgstr "ID original"
 
 #: src/input/es_out.c:2918 src/input/es_out.c:2921 modules/access/imem.c:67
 #: modules/gui/macosx/wizard.m:388 modules/gui/qt4/ui/profiles.h:477
 #: modules/gui/qt4/ui/profiles.h:496
 msgid "Codec"
-msgstr ""
+msgstr "Codec"
 
 #: src/input/es_out.c:2925 src/input/meta.c:65 src/libvlc-module.c:247
 #: modules/access/imem.c:71 modules/gui/macosx/simple_prefs.m:273
@@ -1037,7 +1037,7 @@ msgstr "Frequentia de exemplo"
 #: src/input/es_out.c:2945
 #, c-format
 msgid "%u Hz"
-msgstr ""
+msgstr "%u Hz"
 
 #: src/input/es_out.c:2955
 msgid "Bits per sample"
@@ -1053,7 +1053,7 @@ msgstr "Frequentia de bit"
 #: src/input/es_out.c:2960
 #, c-format
 msgid "%u kb/s"
-msgstr ""
+msgstr "%u kb/s"
 
 #: src/input/es_out.c:2972
 msgid "Track replay gain"
@@ -1066,7 +1066,7 @@ msgstr ""
 #: src/input/es_out.c:2975
 #, c-format
 msgid "%.2f dB"
-msgstr ""
+msgstr "%.2f dB"
 
 #: src/input/es_out.c:2984 modules/gui/qt4/ui/profiles.h:483
 msgid "Resolution"
@@ -1080,7 +1080,7 @@ msgstr ""
 #: modules/access/screen/screen.c:41 modules/access/screen/xcb.c:34
 #: modules/access/shm.c:40 modules/access/vdr.c:93 modules/demux/image.c:66
 msgid "Frame rate"
-msgstr ""
+msgstr "Frequentia de photogramma"
 
 #: src/input/es_out.c:3010
 msgid "Decoded format"
@@ -1159,11 +1159,11 @@ msgstr "Ora il reproduce"
 
 #: src/input/meta.c:67 modules/access/vcdx/info.c:70
 msgid "Publisher"
-msgstr ""
+msgstr "Editor"
 
 #: src/input/meta.c:68
 msgid "Encoded by"
-msgstr ""
+msgstr "Codificate per"
 
 #: src/input/meta.c:69
 msgid "Artwork URL"
@@ -1175,7 +1175,7 @@ msgstr "ID de tracia"
 
 #: src/input/var.c:158
 msgid "Bookmark"
-msgstr ""
+msgstr "Marcator"
 
 #: src/input/var.c:172 src/libvlc-module.c:727
 msgid "Programs"
@@ -1218,12 +1218,12 @@ msgstr "Previe titulo"
 #: src/input/var.c:312
 #, c-format
 msgid "Title %i%s"
-msgstr ""
+msgstr "Titulo %i%s"
 
 #: src/input/var.c:338 src/input/var.c:397
 #, c-format
 msgid "Chapter %i"
-msgstr ""
+msgstr "Capitulo %i"
 
 #: src/input/var.c:376 modules/gui/qt4/dialogs/toolbar.cpp:400
 msgid "Next chapter"
@@ -1236,7 +1236,7 @@ msgstr "Previe capitulo"
 #: src/input/vlm.c:654 src/input/vlm.c:1037
 #, c-format
 msgid "Media: %s"
-msgstr ""
+msgstr "Medios: %s"
 
 #: src/interface/interface.c:84 modules/gui/macosx/MainMenu.m:241
 #: modules/gui/macosx/MainMenu.m:242
@@ -1245,7 +1245,7 @@ msgstr "Adder interfacie"
 
 #: src/interface/interface.c:91
 msgid "Console"
-msgstr ""
+msgstr "Console"
 
 #: src/interface/interface.c:95
 msgid "Telnet"
@@ -1261,7 +1261,7 @@ msgstr ""
 
 #: src/interface/interface.c:104
 msgid "Mouse Gestures"
-msgstr ""
+msgstr "Gestures de mouse"
 
 #. xgettext: Translate "C" to the language code: "fr", "en_GB", "nl", "ru"...
 #: src/libvlc.c:291
@@ -1277,28 +1277,28 @@ msgstr ""
 #: src/libvlc.h:154 src/libvlc-module.c:1540 src/libvlc-module.c:1541
 #: src/libvlc-module.c:2690 src/video_output/vout_intf.c:182
 msgid "Zoom"
-msgstr ""
+msgstr "Zoom"
 
 #: src/libvlc.h:155 src/libvlc-module.c:1464 src/video_output/vout_intf.c:83
 msgid "1:4 Quarter"
-msgstr ""
+msgstr "1:4 quarto"
 
 #: src/libvlc.h:156 src/libvlc-module.c:1465 src/video_output/vout_intf.c:84
 msgid "1:2 Half"
-msgstr ""
+msgstr "1:2 medie"
 
 #: src/libvlc.h:157 src/libvlc-module.c:1466 src/video_output/vout_intf.c:85
 msgid "1:1 Original"
-msgstr ""
+msgstr "1:1 original"
 
 #: src/libvlc.h:158 src/libvlc-module.c:1467 src/video_output/vout_intf.c:86
 msgid "2:1 Double"
-msgstr ""
+msgstr "2:1 duple"
 
 #: src/libvlc-module.c:119 src/libvlc-module.c:346
 #: modules/audio_output/kai.c:78 modules/video_output/kva.c:62
 msgid "Auto"
-msgstr ""
+msgstr "Auto"
 
 #: src/libvlc-module.c:203
 msgid ""
@@ -1319,7 +1319,7 @@ msgstr ""
 
 #: src/libvlc-module.c:213 modules/control/ntservice.c:57
 msgid "Extra interface modules"
-msgstr ""
+msgstr "Modulos extra de interfacie"
 
 #: src/libvlc-module.c:215
 msgid ""
@@ -1367,7 +1367,7 @@ msgstr ""
 
 #: src/libvlc-module.c:243
 msgid "Default stream"
-msgstr ""
+msgstr "Fluxo predefinite"
 
 #: src/libvlc-module.c:245
 msgid "This stream will always be opened at VLC startup."
@@ -1533,13 +1533,13 @@ msgstr ""
 #: src/libvlc-module.c:346 modules/access/dtv/access.c:92
 #: modules/access/v4l2/video.c:219
 msgid "On"
-msgstr ""
+msgstr "Activate"
 
 #: src/libvlc-module.c:346 modules/access/dtv/access.c:92
 #: modules/access/v4l2/video.c:145 modules/access/v4l2/video.c:219
 #: modules/video_filter/deinterlace/algo_phosphor.h:55
 msgid "Off"
-msgstr ""
+msgstr "Disactivate"
 
 #: src/libvlc-module.c:351
 msgid "This adds audio post processing filters, to modify the sound rendering."
@@ -1685,7 +1685,7 @@ msgstr ""
 
 #: src/libvlc-module.c:431
 msgid "Video title"
-msgstr ""
+msgstr "Titulo de video"
 
 #: src/libvlc-module.c:433
 msgid ""
@@ -1695,7 +1695,7 @@ msgstr ""
 
 #: src/libvlc-module.c:436
 msgid "Video alignment"
-msgstr ""
+msgstr "Alineamento de video"
 
 #: src/libvlc-module.c:438
 msgid ""
@@ -1712,7 +1712,7 @@ msgstr ""
 #: modules/video_filter/marq.c:136 modules/video_filter/mosaic.c:170
 #: modules/video_filter/osdmenu.c:84 modules/video_filter/rss.c:173
 msgid "Center"
-msgstr ""
+msgstr "Centro"
 
 #: src/libvlc-module.c:443 src/libvlc-module.c:521 modules/codec/dvbsub.c:102
 #: modules/codec/zvbi.c:77 modules/gui/fbosd.c:163
@@ -1725,7 +1725,7 @@ msgstr ""
 #: modules/gui/qt4/ui/video_effects.h:1354
 #: modules/gui/qt4/ui/video_effects.h:1365
 msgid "Top"
-msgstr ""
+msgstr "Alto"
 
 #: src/libvlc-module.c:443 src/libvlc-module.c:521 modules/codec/dvbsub.c:102
 #: modules/codec/zvbi.c:77 modules/gui/fbosd.c:163
@@ -1736,7 +1736,7 @@ msgstr ""
 #: modules/video_filter/osdmenu.c:84 modules/video_filter/rss.c:173
 #: modules/gui/qt4/ui/video_effects.h:1315
 msgid "Bottom"
-msgstr ""
+msgstr "Basso"
 
 #: src/libvlc-module.c:444 src/libvlc-module.c:522 modules/codec/dvbsub.c:103
 #: modules/codec/zvbi.c:78 modules/gui/fbosd.c:164
@@ -1745,7 +1745,7 @@ msgstr ""
 #: modules/video_filter/marq.c:137 modules/video_filter/mosaic.c:171
 #: modules/video_filter/osdmenu.c:85 modules/video_filter/rss.c:174
 msgid "Top-Left"
-msgstr ""
+msgstr "in Alto Sinistre"
 
 #: src/libvlc-module.c:444 src/libvlc-module.c:522 modules/codec/dvbsub.c:103
 #: modules/codec/zvbi.c:78 modules/gui/fbosd.c:164
@@ -1754,7 +1754,7 @@ msgstr ""
 #: modules/video_filter/marq.c:137 modules/video_filter/mosaic.c:171
 #: modules/video_filter/osdmenu.c:85 modules/video_filter/rss.c:174
 msgid "Top-Right"
-msgstr ""
+msgstr "in Alto dextere"
 
 #: src/libvlc-module.c:444 src/libvlc-module.c:522 modules/codec/dvbsub.c:103
 #: modules/codec/zvbi.c:78 modules/gui/fbosd.c:164
@@ -1763,7 +1763,7 @@ msgstr ""
 #: modules/video_filter/marq.c:137 modules/video_filter/mosaic.c:171
 #: modules/video_filter/osdmenu.c:85 modules/video_filter/rss.c:174
 msgid "Bottom-Left"
-msgstr ""
+msgstr "Basso a Sinistra"
 
 #: src/libvlc-module.c:444 src/libvlc-module.c:522 modules/codec/dvbsub.c:103
 #: modules/codec/zvbi.c:78 modules/gui/fbosd.c:164
@@ -1772,7 +1772,7 @@ msgstr ""
 #: modules/video_filter/marq.c:137 modules/video_filter/mosaic.c:171
 #: modules/video_filter/osdmenu.c:85 modules/video_filter/rss.c:174
 msgid "Bottom-Right"
-msgstr ""
+msgstr "A Basso Dextere"
 
 #: src/libvlc-module.c:446
 msgid "Zoom video"
@@ -2369,15 +2369,15 @@ msgstr ""
 
 #: src/libvlc-module.c:772
 msgid "Best available"
-msgstr ""
+msgstr "Melior disponibile"
 
 #: src/libvlc-module.c:772
 msgid "Full HD (1080p)"
-msgstr ""
+msgstr "Full HD (1080p)"
 
 #: src/libvlc-module.c:772
 msgid "HD (720p)"
-msgstr ""
+msgstr "HD (720p)"
 
 #: src/libvlc-module.c:773
 msgid "Standard Definition (576 or 480 lines)"
@@ -2389,7 +2389,7 @@ msgstr ""
 
 #: src/libvlc-module.c:777
 msgid "Input repetitions"
-msgstr ""
+msgstr "Repetitiones de entrata"
 
 #: src/libvlc-module.c:779
 msgid "Number of time the same input will be repeated"
@@ -2397,7 +2397,7 @@ msgstr ""
 
 #: src/libvlc-module.c:781
 msgid "Start time"
-msgstr ""
+msgstr "Tempore de initio"
 
 #: src/libvlc-module.c:783
 msgid "The stream will start at this position (in seconds)."
@@ -2405,7 +2405,7 @@ msgstr ""
 
 #: src/libvlc-module.c:785
 msgid "Stop time"
-msgstr ""
+msgstr "Tempore de fin"
 
 #: src/libvlc-module.c:787
 msgid "The stream will stop at this position (in seconds)."
@@ -2429,7 +2429,7 @@ msgstr ""
 
 #: src/libvlc-module.c:797 modules/gui/qt4/dialogs/toolbar.cpp:455
 msgid "Playback speed"
-msgstr ""
+msgstr "Velocitate de reproduction"
 
 #: src/libvlc-module.c:799
 msgid "This defines the playback speed (nominal speed is 1.0)."
@@ -2437,7 +2437,7 @@ msgstr ""
 
 #: src/libvlc-module.c:801
 msgid "Input list"
-msgstr ""
+msgstr "Lista de entrata"
 
 #: src/libvlc-module.c:803
 msgid ""
@@ -3174,7 +3174,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1223
 msgid "Log to file"
-msgstr ""
+msgstr "Registrar in un file"
 
 #: src/libvlc-module.c:1225
 msgid "Log all VLC messages to a text file."
@@ -3182,7 +3182,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1227
 msgid "Log to syslog"
-msgstr ""
+msgstr "Registrar in syslog"
 
 #: src/libvlc-module.c:1229
 msgid "Log all VLC messages to syslog (UNIX systems)."
@@ -3190,7 +3190,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1231
 msgid "Allow only one running instance"
-msgstr ""
+msgstr "Permitte sol un computator de tempore per vice"
 
 #: src/libvlc-module.c:1234
 msgid ""
@@ -3347,7 +3347,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1329
 msgid "Auto start"
-msgstr ""
+msgstr "Auto initio"
 
 #: src/libvlc-module.c:1330
 msgid "Automatically start playing the playlist content once it's loaded."
@@ -3392,7 +3392,7 @@ msgstr ""
 #: modules/gui/qt4/components/controller.hpp:115
 #: modules/gui/qt4/ui/sprefs_video.h:337
 msgid "Fullscreen"
-msgstr ""
+msgstr "Schermo integre"
 
 #: src/libvlc-module.c:1357
 msgid "Select the hotkey to use to swap fullscreen state."
@@ -3400,7 +3400,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1358
 msgid "Leave fullscreen"
-msgstr ""
+msgstr "Lassar schermo integre"
 
 #: src/libvlc-module.c:1359
 msgid "Select the hotkey to use to leave fullscreen state."
@@ -3408,7 +3408,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1360 modules/gui/macosx/MainWindow.m:179
 msgid "Play/Pause"
-msgstr ""
+msgstr "Reproducer/Pausa"
 
 #: src/libvlc-module.c:1361
 msgid "Select the hotkey to use to swap paused state."
@@ -3416,7 +3416,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1362
 msgid "Pause only"
-msgstr ""
+msgstr "Solmente paisa"
 
 #: src/libvlc-module.c:1363
 msgid "Select the hotkey to use to pause."
@@ -3424,7 +3424,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1364
 msgid "Play only"
-msgstr ""
+msgstr "Solmente reproducer"
 
 #: src/libvlc-module.c:1365
 msgid "Select the hotkey to use to play."
@@ -3434,7 +3434,7 @@ msgstr ""
 #: modules/gui/qt4/components/controller.hpp:115
 #: modules/gui/qt4/components/controller.hpp:125
 msgid "Faster"
-msgstr ""
+msgstr "Plus rapide"
 
 #: src/libvlc-module.c:1367 src/libvlc-module.c:1373
 msgid "Select the hotkey to use for fast forward playback."
@@ -3444,7 +3444,7 @@ msgstr ""
 #: modules/gui/qt4/components/controller.hpp:115
 #: modules/gui/qt4/components/controller.hpp:125
 msgid "Slower"
-msgstr ""
+msgstr "Lisie (plus lente)"
 
 #: src/libvlc-module.c:1369 src/libvlc-module.c:1375
 msgid "Select the hotkey to use for slow motion playback."
@@ -3452,7 +3452,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1370
 msgid "Normal rate"
-msgstr ""
+msgstr "Taxa normal"
 
 #: src/libvlc-module.c:1371
 msgid "Select the hotkey to set the playback rate back to normal."
@@ -3475,7 +3475,7 @@ msgstr ""
 #: modules/gui/qt4/ui/sout.h:327 modules/gui/qt4/ui/sout.h:338
 #: modules/gui/qt4/ui/streampanel.h:182
 msgid "Next"
-msgstr ""
+msgstr "Proxime"
 
 #: src/libvlc-module.c:1377
 msgid "Select the hotkey to use to skip to the next item in the playlist."
@@ -3488,7 +3488,7 @@ msgstr ""
 #: modules/gui/qt4/components/controller.hpp:119 modules/notify/notify.c:337
 #: modules/gui/qt4/ui/sout.h:337 modules/gui/qt4/ui/sout.h:346
 msgid "Previous"
-msgstr ""
+msgstr "Previe"
 
 #: src/libvlc-module.c:1379
 msgid "Select the hotkey to use to skip to the previous item in the playlist."
@@ -3501,7 +3501,7 @@ msgstr ""
 #: modules/gui/qt4/dialogs/vlm.cpp:556 modules/notify/xosd.c:234
 #: modules/gui/qt4/ui/streampanel.h:181
 msgid "Stop"
-msgstr ""
+msgstr "Stoppar"
 
 #: src/libvlc-module.c:1381
 msgid "Select the hotkey to stop playback."
@@ -3514,7 +3514,7 @@ msgstr ""
 #: modules/video_filter/rss.c:200 modules/gui/qt4/ui/sprefs_subtitles.h:274
 #: modules/gui/qt4/ui/video_effects.h:1362
 msgid "Position"
-msgstr ""
+msgstr "Position"
 
 #: src/libvlc-module.c:1383
 msgid "Select the hotkey to display the position."
@@ -3669,7 +3669,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1433
 msgid "Activate"
-msgstr ""
+msgstr "Activar"
 
 #: src/libvlc-module.c:1434
 msgid "Select the key to activate selected item in DVD menus."
@@ -4181,15 +4181,15 @@ msgstr ""
 
 #: src/libvlc-module.c:1864
 msgid "Playback control"
-msgstr ""
+msgstr "Controlo de reproduction"
 
 #: src/libvlc-module.c:1892
 msgid "Default devices"
-msgstr ""
+msgstr "Dispositivos predeterminate"
 
 #: src/libvlc-module.c:1901
 msgid "Network settings"
-msgstr ""
+msgstr "Configurationes de rete"
 
 #: src/libvlc-module.c:1926
 msgid "Socks proxy"
@@ -4197,7 +4197,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1935 modules/demux/kate_categories.c:47
 msgid "Metadata"
-msgstr ""
+msgstr "Metadatos"
 
 #: src/libvlc-module.c:2035
 msgid "Decoders"
@@ -4206,7 +4206,7 @@ msgstr ""
 #: src/libvlc-module.c:2042 modules/access/v4l2/video.c:69
 #: modules/gui/macosx/playlistinfo.m:100
 msgid "Input"
-msgstr ""
+msgstr "Entrata"
 
 #: src/libvlc-module.c:2078
 msgid "VLM"
@@ -4214,7 +4214,7 @@ msgstr ""
 
 #: src/libvlc-module.c:2108
 msgid "CPU"
-msgstr ""
+msgstr "CPU"
 
 #: src/libvlc-module.c:2127
 msgid "Special modules"
@@ -4222,7 +4222,7 @@ msgstr ""
 
 #: src/libvlc-module.c:2133 modules/gui/qt4/dialogs/plugins.cpp:70
 msgid "Plugins"
-msgstr ""
+msgstr "Plugins"
 
 #: src/libvlc-module.c:2140
 msgid "Performance options"
@@ -4397,7 +4397,7 @@ msgstr ""
 
 #: src/misc/update.c:711
 msgid "Update VLC media player"
-msgstr ""
+msgstr "Actualisar Reproductor de Media VLC "
 
 #: src/misc/update.c:712
 msgid ""
@@ -4407,70 +4407,70 @@ msgstr ""
 
 #: src/misc/update.c:713
 msgid "Install"
-msgstr ""
+msgstr "Installar"
 
 #: src/playlist/engine.c:243 src/playlist/loadsave.c:152 lib/media_list.c:254
 #: modules/gui/macosx/MainWindow.m:410
 #: modules/gui/qt4/components/playlist/selector.cpp:196
 msgid "Media Library"
-msgstr ""
+msgstr "Bibliotheca de media"
 
 #: src/playlist/tree.c:67 modules/access/dtv/access.c:75
 #: modules/access/v4l2/video.c:258
 msgid "Undefined"
-msgstr ""
+msgstr "Non definite"
 
 #: src/text/iso-639_def.h:40
 msgid "Afar"
-msgstr ""
+msgstr "Afar"
 
 #: src/text/iso-639_def.h:41
 msgid "Abkhazian"
-msgstr ""
+msgstr "Abkhaziano"
 
 #: src/text/iso-639_def.h:42
 msgid "Afrikaans"
-msgstr ""
+msgstr "Afrikaans"
 
 #: src/text/iso-639_def.h:43
 msgid "Albanian"
-msgstr ""
+msgstr "Albanese"
 
 #: src/text/iso-639_def.h:44
 msgid "Amharic"
-msgstr ""
+msgstr "Amharico"
 
 #: src/text/iso-639_def.h:45
 msgid "Arabic"
-msgstr ""
+msgstr "Arabe"
 
 #: src/text/iso-639_def.h:46
 msgid "Armenian"
-msgstr ""
+msgstr "Armenio "
 
 #: src/text/iso-639_def.h:47
 msgid "Assamese"
-msgstr ""
+msgstr "Assamese"
 
 #: src/text/iso-639_def.h:48
 msgid "Avestan"
-msgstr ""
+msgstr "Avestan"
 
 #: src/text/iso-639_def.h:49
 msgid "Aymara"
-msgstr ""
+msgstr "Aymara"
 
 #: src/text/iso-639_def.h:50
 msgid "Azerbaijani"
-msgstr ""
+msgstr "Azerbaijano"
 
 #: src/text/iso-639_def.h:51
 msgid "Bashkir"
-msgstr ""
+msgstr "Bashkir"
 
 #: src/text/iso-639_def.h:52
 msgid "Basque"
-msgstr ""
+msgstr "Basco "
 
 #: src/text/iso-639_def.h:53
 msgid "Belarusian"
@@ -4554,23 +4554,23 @@ msgstr ""
 
 #: src/text/iso-639_def.h:73
 msgid "English"
-msgstr ""
+msgstr "Anglese"
 
 #: src/text/iso-639_def.h:74
 msgid "Esperanto"
-msgstr ""
+msgstr "Esperanto "
 
 #: src/text/iso-639_def.h:75
 msgid "Estonian"
-msgstr ""
+msgstr "Estonian"
 
 #: src/text/iso-639_def.h:76
 msgid "Faroese"
-msgstr ""
+msgstr "Faroese"
 
 #: src/text/iso-639_def.h:77
 msgid "Fijian"
-msgstr ""
+msgstr "Fijian"
 
 #: src/text/iso-639_def.h:78
 msgid "Finnish"
@@ -4578,7 +4578,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:79
 msgid "French"
-msgstr ""
+msgstr "Francese"
 
 #: src/text/iso-639_def.h:80
 msgid "Frisian"
@@ -4590,15 +4590,15 @@ msgstr ""
 
 #: src/text/iso-639_def.h:82
 msgid "German"
-msgstr ""
+msgstr "Germano"
 
 #: src/text/iso-639_def.h:83
 msgid "Gaelic (Scots)"
-msgstr ""
+msgstr "Irlandese Gaelic"
 
 #: src/text/iso-639_def.h:84
 msgid "Irish"
-msgstr ""
+msgstr "Irlandese "
 
 #: src/text/iso-639_def.h:85
 msgid "Gallegan"
@@ -4606,7 +4606,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:86
 msgid "Manx"
-msgstr ""
+msgstr "Manx"
 
 #: src/text/iso-639_def.h:87
 msgid "Greek, Modern ()"
@@ -4614,7 +4614,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:88
 msgid "Guarani"
-msgstr ""
+msgstr "Guarani"
 
 #: src/text/iso-639_def.h:89
 msgid "Gujarati"
@@ -4622,7 +4622,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:90
 msgid "Hebrew"
-msgstr ""
+msgstr "Hebreo "
 
 #: src/text/iso-639_def.h:91
 msgid "Herero"
@@ -4638,27 +4638,27 @@ msgstr ""
 
 #: src/text/iso-639_def.h:94
 msgid "Hungarian"
-msgstr ""
+msgstr "Hungaro "
 
 #: src/text/iso-639_def.h:95
 msgid "Icelandic"
-msgstr ""
+msgstr "Islandese"
 
 #: src/text/iso-639_def.h:96
 msgid "Inuktitut"
-msgstr ""
+msgstr "Inuktitut"
 
 #: src/text/iso-639_def.h:97
 msgid "Interlingue"
-msgstr ""
+msgstr "Interlingue"
 
 #: src/text/iso-639_def.h:98
 msgid "Interlingua"
-msgstr ""
+msgstr "Interlingua"
 
 #: src/text/iso-639_def.h:99
 msgid "Indonesian"
-msgstr ""
+msgstr "Indonesiano "
 
 #: src/text/iso-639_def.h:100
 msgid "Inupiaq"
@@ -4778,23 +4778,23 @@ msgstr ""
 
 #: src/text/iso-639_def.h:129
 msgid "Maltese"
-msgstr ""
+msgstr "Maltese"
 
 #: src/text/iso-639_def.h:130
 msgid "Moldavian"
-msgstr ""
+msgstr "Moldaviano"
 
 #: src/text/iso-639_def.h:131
 msgid "Mongolian"
-msgstr ""
+msgstr "Mongolico"
 
 #: src/text/iso-639_def.h:132
 msgid "Nauru"
-msgstr ""
+msgstr "Nauru"
 
 #: src/text/iso-639_def.h:133
 msgid "Navajo"
-msgstr ""
+msgstr "Navajo"
 
 #: src/text/iso-639_def.h:134
 msgid "Ndebele, South"
@@ -4814,15 +4814,15 @@ msgstr ""
 
 #: src/text/iso-639_def.h:138
 msgid "Norwegian"
-msgstr ""
+msgstr "Norvegiano"
 
 #: src/text/iso-639_def.h:139
 msgid "Norwegian Nynorsk"
-msgstr ""
+msgstr "Norvegiano Nynorsk"
 
 #: src/text/iso-639_def.h:140
 msgid "Norwegian Bokmaal"
-msgstr ""
+msgstr "Norvegiano Bokmal"
 
 #: src/text/iso-639_def.h:141
 msgid "Chichewa; Nyanja"
@@ -4850,7 +4850,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:148
 msgid "Persian"
-msgstr ""
+msgstr "Persiano"
 
 #: src/text/iso-639_def.h:149
 msgid "Pali"
@@ -4858,11 +4858,11 @@ msgstr ""
 
 #: src/text/iso-639_def.h:150
 msgid "Polish"
-msgstr ""
+msgstr "Polonese"
 
 #: src/text/iso-639_def.h:151
 msgid "Portuguese"
-msgstr ""
+msgstr "Portugese"
 
 #: src/text/iso-639_def.h:152
 msgid "Pushto"
@@ -4874,7 +4874,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:154
 msgid "Original audio"
-msgstr ""
+msgstr "Audio original"
 
 #: src/text/iso-639_def.h:155
 msgid "Raeto-Romance"
@@ -4882,7 +4882,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:156
 msgid "Romanian"
-msgstr ""
+msgstr "Romaniano"
 
 #: src/text/iso-639_def.h:157
 msgid "Rundi"
@@ -4890,7 +4890,7 @@ msgstr ""
 
 #: src/text/iso-639_def.h:158
 msgid "Russian"
-msgstr ""
+msgstr "Russo"
 
 #: src/text/iso-639_def.h:159
 msgid "Sango"
@@ -4902,11 +4902,11 @@ msgstr ""
 
 #: src/text/iso-639_def.h:161
 msgid "Serbian"
-msgstr ""
+msgstr "Serbo"
 
 #: src/text/iso-639_def.h:162
 msgid "Croatian"
-msgstr ""
+msgstr "Croato"
 
 #: src/text/iso-639_def.h:163
 msgid "Sinhalese"
@@ -4914,51 +4914,51 @@ msgstr ""
 
 #: src/text/iso-639_def.h:164
 msgid "Slovak"
-msgstr ""
+msgstr "Slovaco "
 
 #: src/text/iso-639_def.h:165
 msgid "Slovenian"
-msgstr ""
+msgstr "Sloveno"
 
 #: src/text/iso-639_def.h:166
 msgid "Northern Sami"
-msgstr ""
+msgstr "Sami Septentrional"
 
 #: src/text/iso-639_def.h:167
 msgid "Samoan"
-msgstr ""
+msgstr "Samoano"
 
 #: src/text/iso-639_def.h:168
 msgid "Shona"
-msgstr ""
+msgstr "Shona"
 
 #: src/text/iso-639_def.h:169
 msgid "Sindhi"
-msgstr ""
+msgstr "Sindi"
 
 #: src/text/iso-639_def.h:170
 msgid "Somali"
-msgstr ""
+msgstr "Somali"
 
 #: src/text/iso-639_def.h:171
 msgid "Sotho, Southern"
-msgstr ""
+msgstr "Sotho Meridional"
 
 #: src/text/iso-639_def.h:172
 msgid "Spanish"
-msgstr ""
+msgstr "Espaniol "
 
 #: src/text/iso-639_def.h:173
 msgid "Sardinian"
-msgstr ""
+msgstr "Sardo"
 
 #: src/text/iso-639_def.h:174
 msgid "Swati"
-msgstr ""
+msgstr "Swati"
 
 #: src/text/iso-639_def.h:175
 msgid "Sundanese"
-msgstr ""
+msgstr "Sundanese"
 
 #: src/text/iso-639_def.h:176
 msgid "Swahili"
@@ -4966,43 +4966,43 @@ msgstr ""
 
 #: src/text/iso-639_def.h:177
 msgid "Swedish"
-msgstr ""
+msgstr "Svedese"
 
 #: src/text/iso-639_def.h:178
 msgid "Tahitian"
-msgstr ""
+msgstr "Tahitiano"
 
 #: src/text/iso-639_def.h:179
 msgid "Tamil"
-msgstr ""
+msgstr "Tamil"
 
 #: src/text/iso-639_def.h:180
 msgid "Tatar"
-msgstr ""
+msgstr "Tataro"
 
 #: src/text/iso-639_def.h:181
 msgid "Telugu"
-msgstr ""
+msgstr "Telugu"
 
 #: src/text/iso-639_def.h:182
 msgid "Tajik"
-msgstr ""
+msgstr "Tadzhiko"
 
 #: src/text/iso-639_def.h:183
 msgid "Tagalog"
-msgstr ""
+msgstr "Tagalog"
 
 #: src/text/iso-639_def.h:184
 msgid "Thai"
-msgstr ""
+msgstr "Thailandese"
 
 #: src/text/iso-639_def.h:185
 msgid "Tibetan"
-msgstr ""
+msgstr "Tibetano"
 
 #: src/text/iso-639_def.h:186
 msgid "Tigrinya"
-msgstr ""
+msgstr "Tigrinya"
 
 #: src/text/iso-639_def.h:187
 msgid "Tonga (Tonga Islands)"
@@ -5010,23 +5010,23 @@ msgstr ""
 
 #: src/text/iso-639_def.h:188
 msgid "Tswana"
-msgstr ""
+msgstr "Tswana"
 
 #: src/text/iso-639_def.h:189
 msgid "Tsonga"
-msgstr ""
+msgstr "Tsonga"
 
 #: src/text/iso-639_def.h:190
 msgid "Turkish"
-msgstr ""
+msgstr "Turco"
 
 #: src/text/iso-639_def.h:191
 msgid "Turkmen"
-msgstr ""
+msgstr "Turkmeno"
 
 #: src/text/iso-639_def.h:192
 msgid "Twi"
-msgstr ""
+msgstr "Twi"
 
 #: src/text/iso-639_def.h:193
 msgid "Uighur"
@@ -5034,19 +5034,19 @@ msgstr ""
 
 #: src/text/iso-639_def.h:194
 msgid "Ukrainian"
-msgstr ""
+msgstr "Ucrainiano"
 
 #: src/text/iso-639_def.h:195
 msgid "Urdu"
-msgstr ""
+msgstr "Urdu"
 
 #: src/text/iso-639_def.h:196
 msgid "Uzbek"
-msgstr ""
+msgstr "Uzbeko"
 
 #: src/text/iso-639_def.h:197
 msgid "Vietnamese"
-msgstr ""
+msgstr "Vietnamese"
 
 #: src/text/iso-639_def.h:198
 msgid "Volapuk"
@@ -5054,11 +5054,11 @@ msgstr ""
 
 #: src/text/iso-639_def.h:199
 msgid "Welsh"
-msgstr ""
+msgstr "Gallese "
 
 #: src/text/iso-639_def.h:200
 msgid "Wolof"
-msgstr ""
+msgstr "Wolof"
 
 #: src/text/iso-639_def.h:201
 msgid "Xhosa"
@@ -5066,19 +5066,19 @@ msgstr ""
 
 #: src/text/iso-639_def.h:202
 msgid "Yiddish"
-msgstr ""
+msgstr "Yiddish"
 
 #: src/text/iso-639_def.h:203
 msgid "Yoruba"
-msgstr ""
+msgstr "Yoruba"
 
 #: src/text/iso-639_def.h:204
 msgid "Zhuang"
-msgstr ""
+msgstr "Zhuang"
 
 #: src/text/iso-639_def.h:205
 msgid "Zulu"
-msgstr ""
+msgstr "Zulu "
 
 #: src/video_output/postprocessing.c:87 modules/gui/macosx/MainMenu.m:328
 #: modules/gui/macosx/MainMenu.m:329 modules/video_filter/postproc.c:194
@@ -5090,7 +5090,7 @@ msgstr ""
 #: modules/video_filter/crop.c:105 modules/video_filter/croppadd.c:86
 #: modules/gui/qt4/ui/video_effects.h:1321
 msgid "Crop"
-msgstr ""
+msgstr "Taliar"
 
 #: src/video_output/vout_intf.c:249 modules/gui/macosx/MainMenu.m:315
 #: modules/gui/macosx/MainMenu.m:316 modules/gui/macosx/MainMenu.m:981
@@ -25376,14 +25376,12 @@ msgid "Dialog"
 msgstr ""
 
 #: modules/gui/qt4/ui/open.h:246
-#, fuzzy
 msgid "Show extended options"
-msgstr "Monstrar optiones de configuration avantiate"
+msgstr ""
 
 #: modules/gui/qt4/ui/open.h:248
-#, fuzzy
 msgid "Show &more options"
-msgstr "Monstrar optiones de configuration avantiate"
+msgstr ""
 
 #: modules/gui/qt4/ui/open.h:251
 msgid "Change the caching for the media"
@@ -25446,9 +25444,8 @@ msgid "Access advanced options to tweak the device"
 msgstr ""
 
 #: modules/gui/qt4/ui/open_capture.h:107
-#, fuzzy
 msgid "Advanced options..."
-msgstr "Monstrar optiones de configuration avantiate"
+msgstr ""
 
 #: modules/gui/qt4/ui/open_disk.h:298
 msgid "Disc Selection"
@@ -25475,9 +25472,8 @@ msgid "Starting Position"
 msgstr ""
 
 #: modules/gui/qt4/ui/open_disk.h:312
-#, fuzzy
 msgid "Audio and Subtitles"
-msgstr "Canales de audio"
+msgstr ""
 
 #: modules/gui/qt4/ui/open_file.h:164
 msgid "Choose one or more media file to open"
@@ -25616,32 +25612,28 @@ msgid "Keep original video track"
 msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:493
-#, fuzzy
 msgid "Video codec"
-msgstr "Tracia de video"
+msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:495
 msgid "Keep original audio track"
 msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:500
-#, fuzzy
 msgid "Sample Rate"
-msgstr "Frequentia de exemplo"
+msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:501
-#, fuzzy
 msgid "Audio codec"
-msgstr "Tracia de audio"
+msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:503
 msgid "Overlay subtitles on the video"
 msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:329
-#, fuzzy
 msgid "Destinations"
-msgstr "Description"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:330
 msgid "New destination"
@@ -25666,9 +25658,8 @@ msgid "Destination Setup"
 msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:340
-#, fuzzy
 msgid "Miscellaneous Options"
-msgstr "Miscellanea"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:341
 msgid "Stream all elementary streams"
@@ -25823,9 +25814,8 @@ msgid "Activate updates notifier"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:518
-#, fuzzy
 msgid "Menus language:"
-msgstr "Lingua"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:521
 msgid "Pause on the last frame of a video"
@@ -25860,23 +25850,20 @@ msgid "Use native style"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:531
-#, fuzzy
 msgid "Show controls in full screen mode"
-msgstr "Initiar video in modo schermo complete"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:532
-#, fuzzy
 msgid "Start in minimal view mode"
-msgstr "Initiar video in modo schermo complete"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:533
 msgid "Pause playback when minimized"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:534
-#, fuzzy
 msgid "Integrate video in interface"
-msgstr "Interaction de interfacie"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:535
 msgid "Resize interface to video size"
@@ -25907,9 +25894,8 @@ msgid "Show media title on video start"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:275
-#, fuzzy
 msgid "Subtitles Language"
-msgstr "Tracia de subtitulos"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:276
 msgid "Preferred subtitles language"
@@ -25920,9 +25906,8 @@ msgid "Default encoding"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:278
-#, fuzzy
 msgid "Subtitles effects"
-msgstr "Tracia de subtitulos"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:281
 msgid "Font color"
@@ -25985,9 +25970,8 @@ msgid "Stuff"
 msgstr ""
 
 #: modules/gui/qt4/ui/streampanel.h:174
-#, fuzzy
 msgid "Edit settings"
-msgstr "Configurationes de audio"
+msgstr ""
 
 #: modules/gui/qt4/ui/streampanel.h:175
 msgid "Control"
@@ -26018,9 +26002,8 @@ msgid "Prev"
 msgstr ""
 
 #: modules/gui/qt4/ui/streampanel.h:184
-#, fuzzy
 msgid "Add Input"
-msgstr "Adder interfacie"
+msgstr ""
 
 #: modules/gui/qt4/ui/streampanel.h:185
 msgid "Edit Input"
@@ -26056,18 +26039,16 @@ msgid "Negate colors"
 msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1338
-#, fuzzy
 msgid "Colors"
-msgstr "Messages de color"
+msgstr "Colores"
 
 #: modules/gui/qt4/ui/video_effects.h:1339
-#, fuzzy
 msgid "Interactive Zoom"
-msgstr "Interfacie"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1340
 msgid "Wall"
-msgstr ""
+msgstr "Muro"
 
 #: modules/gui/qt4/ui/video_effects.h:1345
 msgid "Angle"
@@ -26092,7 +26073,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1369
 msgid "Mask"
-msgstr ""
+msgstr "Mascara"
 
 #: modules/gui/qt4/ui/video_effects.h:1373
 msgid "Edge weightning"
@@ -26140,12 +26121,11 @@ msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1393
 msgid "Mirror"
-msgstr ""
+msgstr "Speculo"
 
 #: modules/gui/qt4/ui/vlm.h:287
-#, fuzzy
 msgid "VLM configurator"
-msgstr "Configuration de &VLM"
+msgstr ""
 
 #: modules/gui/qt4/ui/vlm.h:288
 msgid "Media Manager Edition"
@@ -26153,11 +26133,11 @@ msgstr ""
 
 #: modules/gui/qt4/ui/vlm.h:289
 msgid "Name:"
-msgstr ""
+msgstr "Nomine:"
 
 #: modules/gui/qt4/ui/vlm.h:291
 msgid "Input:"
-msgstr ""
+msgstr "Entrata:"
 
 #: modules/gui/qt4/ui/vlm.h:292
 msgid "Select Input"
@@ -26173,7 +26153,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/vlm.h:295
 msgid "Time Control"
-msgstr ""
+msgstr "Controlo de tempore"
 
 #: modules/gui/qt4/ui/vlm.h:296
 msgid "Mux Control"
