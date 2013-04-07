@@ -5,14 +5,16 @@
 # Translators:
 # Antonio Javier Varela Calvo <tonxabar@hotmail.com>, 2003-2005
 # David González <pico.dev@gmail.com>, 2010-2013.
+#  <estebandeleo91@hotmail.com>, 2013.
+# Saúl Ortega <saulortega.co@gmail.com>, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2012-12-11 15:41+0100\n"
-"PO-Revision-Date: 2013-01-19 23:42+0000\n"
-"Last-Translator: picodotdev <pico.dev@gmail.com>\n"
+"PO-Revision-Date: 2013-04-01 21:58+0000\n"
+"Last-Translator: estebande <estebandeleo91@hotmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/vlc-trans/"
 "language/es/)\n"
 "Language: es\n"
@@ -6561,6 +6563,8 @@ msgid ""
 "To select the polarization of the transponder, a different voltage is "
 "normally applied to the low noise block-downconverter (LNB)."
 msgstr ""
+"Para seleccionar la polarización del transpondedor, normalmente se aplica un "
+"voltaje diferente al conversor reductor de bloque de sonido bajo (LNB)."
 
 #: modules/access/dtv/access.c:169
 msgid "Unspecified (0V)"
@@ -6592,6 +6596,9 @@ msgid ""
 "receiver are long, higher voltage may be required.\n"
 "Not all receivers support this."
 msgstr ""
+"Si los cables entre el conversor reductor de bloque de sonido bajo LNB y el "
+"receptor son largos, puede ser requerido un voltaje superior.\n"
+"No todos los receptores soportan esto."
 
 #: modules/access/dtv/access.c:179
 msgid "Local oscillator low frequency (kHz)"
@@ -6599,7 +6606,7 @@ msgstr "Oscilador local baja frecuencia (kHz)"
 
 #: modules/access/dtv/access.c:180
 msgid "Local oscillator high frequency (kHz)"
-msgstr ""
+msgstr "Oscilador local alta frecuencia (kHz)"
 
 #: modules/access/dtv/access.c:182
 msgid ""
@@ -6607,10 +6614,13 @@ msgid ""
 "the satellite transmission frequency. The intermediate frequency (IF) on the "
 "RF cable is the result."
 msgstr ""
+"El conversor reductor (LNB) tomará el oscilador de frecuencia local de la "
+"frecuencia de transmisión satelital. El resultado es la frecuencia "
+"intermedia (FI) en el cable RF."
 
 #: modules/access/dtv/access.c:185
 msgid "Universal LNB switch frequency (kHz)"
-msgstr ""
+msgstr "Frecuencia universal de bloque de bajo ruido (LNB) (kHz)"
 
 #: modules/access/dtv/access.c:187
 msgid ""
@@ -6618,6 +6628,9 @@ msgid ""
 "oscillator high frequency will be used as reference. Furthermore the "
 "automatic continuous 22kHz tone will be sent."
 msgstr ""
+"Si la frecuencia de transmisión satelital excede la frecuencia de "
+"conmutación, se usará de referencia al oscilador de alta frecuencia. Además "
+"será enviado el tono continuo automático de 22kHz."
 
 #: modules/access/dtv/access.c:190
 msgid "Continuous 22kHz tone"
@@ -6628,10 +6641,15 @@ msgid ""
 "A continuous tone at 22kHz can be sent on the cable. This normally selects "
 "the higher frequency band from a universal LNB."
 msgstr ""
+"Puede ser enviado un tono continuo de 22kHz por el cable. Esto normalmente "
+"selecciona la banda de frecuencia más alta del bloque de sonido bajo LNB "
+"universal."
 
 #: modules/access/dtv/access.c:195
 msgid "DiSEqC LNB number"
 msgstr ""
+"Número del conmutador digital satelital de control DiSEqC de bloque de "
+"sonido bajo LNB"
 
 #: modules/access/dtv/access.c:197
 msgid ""
@@ -6639,6 +6657,10 @@ msgid ""
 "downconverters (LNB) through a DiSEqC 1.0 switch, the correct LNB can be "
 "selected (1 to 4). If there is no switch, this parameter should be 0."
 msgstr ""
+"Si el receptor satelital está conectado a múltiples conversores reductores "
+"de bloque de sonido bajo (LNB) a través de un conmutador digital satelital "
+"de control DiSEqC 1.0, puede ser seleccionado el bloque de sonido bajo LNB  "
+"correcto (1 a 4). Si no hay un conmutador, este parámetro debe ser 0."
 
 #: modules/access/dtv/access.c:203 modules/access/v4l2/video.c:144
 #: modules/access/v4l2/video.c:171 modules/access/v4l2/video.c:219
@@ -7488,6 +7510,8 @@ msgstr "Dividir los segmentos en cualquier lugar"
 msgid ""
 "Don't require a keyframe before splitting a segment. Needed for audio only."
 msgstr ""
+"No requerir un fotograma clave antes de dividir un segmenteo. Necesario para "
+"audio sólamente."
 
 #: modules/access_output/livehttp.c:70
 msgid "Number of segments"
@@ -7507,11 +7531,13 @@ msgstr "Ruta al archivo índice a crear"
 
 #: modules/access_output/livehttp.c:76
 msgid "Full URL to put in index file"
-msgstr ""
+msgstr "URL a poner en el índice del archivo"
 
 #: modules/access_output/livehttp.c:77
 msgid "Full URL to put in index file. Use #'s to represent segment number"
 msgstr ""
+"Dirección URL completa que se pondrá en el índice del archivo. Use «#» para "
+"representar el número de segmento."
 
 #: modules/access_output/livehttp.c:80
 msgid "Delete segments"
@@ -7519,7 +7545,7 @@ msgstr "Eliminar segmentos"
 
 #: modules/access_output/livehttp.c:81
 msgid "Delete segments when they are no longer needed"
-msgstr ""
+msgstr "Eliminar segmentos cuando ya no sean necesarios"
 
 #: modules/access_output/livehttp.c:83
 msgid "Use muxers rate control mechanism"
@@ -7882,13 +7908,15 @@ msgstr ""
 
 #: modules/access/rtmp/access.c:48
 msgid "Default Page Referrer URL"
-msgstr ""
+msgstr "URL predeterminada de la página referente"
 
 #: modules/access/rtmp/access.c:49
 msgid ""
 "The Page URL to use as referrer when connecting to the server. This is the "
 "page housing the SWF file."
 msgstr ""
+"La dirección URL de la página que se usará como referente cuando se conecte "
+"al servidor. Esta es la página que contiene el archivo SWF."
 
 #: modules/access/rtmp/access.c:57
 msgid "RTMP input"
@@ -7969,6 +7997,8 @@ msgstr ""
 #: modules/access/rtp/rtp.c:78
 msgid "RTP payload format assumed for dynamic payloads"
 msgstr ""
+"Formato de la carga del protocolo de transferencia en tiempo real RTP "
+"asumido para cargas dinámicas"
 
 #: modules/access/rtp/rtp.c:81
 msgid ""
@@ -8132,7 +8162,7 @@ msgstr "SDP"
 
 #: modules/access/sdp.c:34
 msgid "Session Description Protocol"
-msgstr ""
+msgstr "Protocolo de descripción de sesión"
 
 #: modules/access/sftp.c:51
 msgid "SFTP user name"
@@ -8156,7 +8186,7 @@ msgstr "Tamaño de lectura"
 
 #: modules/access/sftp.c:58
 msgid "Size of the request for reading access"
-msgstr ""
+msgstr "Tamaño del pedido para acceso de lectura"
 
 #: modules/access/sftp.c:62
 msgid "SFTP input"
@@ -8191,15 +8221,15 @@ msgstr "Altura de pixel del framebuffer"
 
 #: modules/access/shm.c:52
 msgid "Frame buffer depth"
-msgstr ""
+msgstr "Profundidad del «frame buffer»"
 
 #: modules/access/shm.c:54
 msgid "Pixel depth of the frame buffer"
-msgstr ""
+msgstr "Profundidad de píxel del «frame buffer»"
 
 #: modules/access/shm.c:56
 msgid "Frame buffer segment ID"
-msgstr ""
+msgstr "ID del segmento del framebuffer"
 
 #: modules/access/shm.c:58
 msgid ""
@@ -8361,7 +8391,7 @@ msgstr "Brillo"
 
 #: modules/access/v4l2/video.c:94
 msgid "Picture brightness or black level."
-msgstr ""
+msgstr "Brillo de la imagen o niveles de negros"
 
 #: modules/access/v4l2/video.c:95
 msgid "Automatic brightness"
@@ -8417,6 +8447,8 @@ msgid ""
 "White balance temperature as a color temperation in Kelvin (2800 is minimum "
 "incandescence, 6500 is maximum daylight)."
 msgstr ""
+"Temperatura del balance de blancos como color templado en grados Kelvin "
+"(2800 es el mínimo incandescente, 6500 es el máximo de luz de día)."
 
 #: modules/access/v4l2/video.c:111
 msgid "Automatic white balance"
@@ -8509,11 +8541,11 @@ msgstr "60 Hz"
 
 #: modules/access/v4l2/video.c:147
 msgid "Backlight compensation"
-msgstr ""
+msgstr "Compensación de luz de fondo"
 
 #: modules/access/v4l2/video.c:148
 msgid "Backlight compensation."
-msgstr ""
+msgstr "Compensación de luz de fondo."
 
 #: modules/access/v4l2/video.c:149
 msgid "Band-stop filter"
@@ -8522,6 +8554,8 @@ msgstr ""
 #: modules/access/v4l2/video.c:151
 msgid "Cut a light band induced by fluorescent lighting (unit undocumented)."
 msgstr ""
+"Eliminar franja de luz producida por iluminación fluorescente (unidad "
+"indocumentada)."
 
 #: modules/access/v4l2/video.c:152
 msgid "Horizontal flip"
@@ -8549,13 +8583,15 @@ msgstr "Ángulo de rotación de imagen (en grados)."
 
 #: modules/access/v4l2/video.c:160
 msgid "Color killer"
-msgstr ""
+msgstr "Supresor de colores"
 
 #: modules/access/v4l2/video.c:162
 msgid ""
 "Enable the color killer, i.e. switch to black & white picture whenever the "
 "signal is weak."
 msgstr ""
+"Activar el supresor de colores, por ejemplo, cambiar a blanco y negro cuando "
+"la señal es débil"
 
 #: modules/access/v4l2/video.c:164
 msgid "Color effect"
@@ -8584,15 +8620,15 @@ msgstr "Estampado"
 
 #: modules/access/v4l2/video.c:173
 msgid "Sketch"
-msgstr ""
+msgstr "Bosquejo"
 
 #: modules/access/v4l2/video.c:173
 msgid "Sky blue"
-msgstr ""
+msgstr "Azul cielo"
 
 #: modules/access/v4l2/video.c:174
 msgid "Grass green"
-msgstr ""
+msgstr "Verde hierba"
 
 #: modules/access/v4l2/video.c:174
 msgid "Skin whiten"
@@ -9681,6 +9717,8 @@ msgid ""
 "Different resampling algorithms are supported. The best one is slower, while "
 "the fast one exhibits low quality."
 msgstr ""
+"Diferentes algoritmos de remuestreo son soportados . El mejor es más lento, "
+"mientras que el más rápido es de menor calidad."
 
 #: modules/audio_filter/resampler/src.c:49
 msgid "SRC resampler"
@@ -10731,11 +10769,11 @@ msgstr "Media centrada poderada"
 
 #: modules/codec/dirac.c:80
 msgid "Rectangular Linear Phase"
-msgstr ""
+msgstr "Fase lineal rectangular"
 
 #: modules/codec/dirac.c:80
 msgid "Diagonal Linear Phase"
-msgstr ""
+msgstr "Fase lineal diagonal"
 
 #: modules/codec/dirac.c:83 modules/codec/schroedinger.c:156
 msgid "Amount of prefiltering"
@@ -10783,6 +10821,8 @@ msgid ""
 "Field coding is where interlaced fields are coded separately as opposed to a "
 "pseudo-progressive frame"
 msgstr ""
+"En la codificación de campos es donde campos entrelazados son codificados "
+"individualmente al contrario de un cuadro pseudo-progresivo"
 
 #: modules/codec/dirac.c:110 modules/codec/schroedinger.c:166
 msgid "auto - let encoder decide based upon input (Best)"
@@ -11396,15 +11436,15 @@ msgstr "Decodificador de biblioteca RealVideo"
 
 #: modules/codec/schroedinger.c:63
 msgid "Rate control method"
-msgstr ""
+msgstr "Método de control de velocidad"
 
 #: modules/codec/schroedinger.c:64
 msgid "Method used to encode the video sequence"
-msgstr ""
+msgstr "Método usado para codificar la secuencia de video"
 
 #: modules/codec/schroedinger.c:77
 msgid "Constant noise threshold mode"
-msgstr ""
+msgstr "Modo umbral de ruido constante"
 
 #: modules/codec/schroedinger.c:78
 msgid "Constant bitrate mode (CBR)"
@@ -11420,7 +11460,7 @@ msgstr "Modo sin pérdida"
 
 #: modules/codec/schroedinger.c:81
 msgid "Constant lambda mode"
-msgstr ""
+msgstr "Modo lambda constante"
 
 #: modules/codec/schroedinger.c:82
 msgid "Constant error mode"
@@ -11437,40 +11477,45 @@ msgstr "Estructura GOP"
 #: modules/codec/schroedinger.c:88
 msgid "GOP structure used to encode the video sequence"
 msgstr ""
+"Estructura de grupo de imágenes GOP usada para codificar la secuencia de "
+"video"
 
 #: modules/codec/schroedinger.c:100
 msgid ""
 "No fixed gop structure. A picture can be intra or inter and refer to "
 "previous or future pictures."
 msgstr ""
+"No se definió una estructura de grupo de imágenes GOP. Una imagen puede ser "
+"procesada automáticamente o referirse a una anterior o posterior."
 
 #: modules/codec/schroedinger.c:101
 msgid "I-frame only sequence"
-msgstr ""
+msgstr "Secuencia de compresión de video sólo mediante I-frame"
 
 #: modules/codec/schroedinger.c:102 modules/codec/schroedinger.c:103
 msgid "Inter pictures refere to previous pictures only"
-msgstr ""
+msgstr "Las imágenes intermedias se refieren a imágenes anteriores únicamente"
 
 #: modules/codec/schroedinger.c:104 modules/codec/schroedinger.c:105
 msgid "Inter pictures can refer to previous or future pictures"
 msgstr ""
+"Las imágenes intermedias pueden referirse a imágenes anteriores o posteriores"
 
 #: modules/codec/schroedinger.c:110
 msgid "Quality factor to use in constant quality mode"
-msgstr ""
+msgstr "Factor de calidad a usar en modo de calidad constante"
 
 #: modules/codec/schroedinger.c:113
 msgid "Noise Threshold"
-msgstr ""
+msgstr "Umbral de ruido"
 
 #: modules/codec/schroedinger.c:114
 msgid "Noise threshold to use in constant noise threshold mode"
-msgstr ""
+msgstr "Ruido umbral para usar en el modo umbral de ruido constante"
 
 #: modules/codec/schroedinger.c:118
 msgid "Target bitrate in kbps when encoding in constant bitrate mode"
-msgstr ""
+msgstr "Tasa de kbps para la codificación en modo constante"
 
 #: modules/codec/schroedinger.c:121
 msgid "Maximum bitrate (kbps)"
@@ -11497,6 +11542,8 @@ msgid ""
 "Number of pictures between successive sequence headers i.e. length of the "
 "group of pictures"
 msgstr ""
+"Número de imágenes entre los encabezados secuencia sucesivos, por ejemplo, "
+"longitud del grupo de imágenes"
 
 #: modules/codec/schroedinger.c:147
 msgid "No pre-filtering"
@@ -11504,7 +11551,7 @@ msgstr "Sin prefiltrado"
 
 #: modules/codec/schroedinger.c:149
 msgid "Gaussian Low Pass Filter"
-msgstr ""
+msgstr "Filtro gaussiano de paso bajo"
 
 #: modules/codec/schroedinger.c:150
 msgid "Add Noise"
@@ -11512,11 +11559,11 @@ msgstr "Añadir ruido"
 
 #: modules/codec/schroedinger.c:151
 msgid "Gaussian Adaptive Low Pass Filter"
-msgstr ""
+msgstr "Filtro gaussiano adaptativo de paso bajo"
 
 #: modules/codec/schroedinger.c:152
 msgid "Low Pass Filter"
-msgstr ""
+msgstr "Filtro de paso bajo"
 
 #: modules/codec/schroedinger.c:173
 msgid "Size of motion compensation blocks"
@@ -11557,7 +11604,7 @@ msgstr ""
 
 #: modules/codec/schroedinger.c:207
 msgid "Motion Vector precision"
-msgstr ""
+msgstr "Precisión del vector de movimiento"
 
 #: modules/codec/schroedinger.c:208
 msgid "Motion Vector precision in pels"
@@ -11565,7 +11612,7 @@ msgstr ""
 
 #: modules/codec/schroedinger.c:261
 msgid "perceptual weighting method"
-msgstr ""
+msgstr "Método de ponderación perceptual"
 
 #: modules/codec/schroedinger.c:272
 msgid "perceptual distance"
@@ -11573,7 +11620,7 @@ msgstr "distancia percibida"
 
 #: modules/codec/schroedinger.c:273
 msgid "perceptual distance to calculate perceptual weight"
-msgstr ""
+msgstr "Distancia perceptual para calcular el peso perceptual"
 
 #: modules/codec/schroedinger.c:277
 msgid "Horizontal slices per frame"
@@ -11613,27 +11660,29 @@ msgstr "completo - un bloque de código por subbanda"
 
 #: modules/codec/schroedinger.c:306
 msgid "Enable hierarchical Motion Estimation"
-msgstr ""
+msgstr "Activar estimación de movimiento jerárquico"
 
 #: modules/codec/schroedinger.c:310
 msgid "Number of levels of downsampling"
-msgstr ""
+msgstr "Número de niveles de disminución de la señal"
 
 #: modules/codec/schroedinger.c:311
 msgid "Number of levels of downsampling in hierarchical motion estimation mode"
 msgstr ""
+"Número de niveles de disminuación de señal en el modo de estimación de "
+"movimiento jerárquico"
 
 #: modules/codec/schroedinger.c:315
 msgid "Enable Global Motion Estimation"
-msgstr ""
+msgstr "Activar la estimación de movimiento global"
 
 #: modules/codec/schroedinger.c:319
 msgid "Enable Phase Correlation Estimation"
-msgstr ""
+msgstr "Activar la estimación de correlación de fases"
 
 #: modules/codec/schroedinger.c:323
 msgid "Enable Scene Change Detection"
-msgstr ""
+msgstr "Activar detección de cambio de escenas"
 
 #: modules/codec/schroedinger.c:327
 msgid "Force Profile"
@@ -12236,7 +12285,7 @@ msgstr ""
 
 #: modules/codec/x264.c:72
 msgid "Use recovery points to close GOPs"
-msgstr ""
+msgstr "Usar puntos de recuperación para cerrar grupos de imágenes GOP"
 
 #: modules/codec/x264.c:74
 msgid ""
@@ -12244,14 +12293,19 @@ msgid ""
 "normal: use standard open GOPs\n"
 "bluray: use Blu-ray compatible open GOPs"
 msgstr ""
+"ninguno: usar únicamente grupos de imágenes GOP cerrados\n"
+"normal: usar grupos de imágenes GOP estándar abiertos\n"
+"bluray: usar grupos de imágenes GOP abiertos compatibles con Blu-ray"
 
 #: modules/codec/x264.c:78
 msgid "use open GOP, for bluray compatibility use also bluray-compat option"
 msgstr ""
+"Usar un grupo de imagen GOP abierto, para compatibilidad con bluray también "
+"utilizar la opción \"bluray-compat\""
 
 #: modules/codec/x264.c:81
 msgid "Enable compatibility hacks for Blu-ray support"
-msgstr ""
+msgstr "Activar comandos de compatibilidad para el soporte Blu-ray"
 
 #: modules/codec/x264.c:82
 msgid ""
@@ -12259,6 +12313,8 @@ msgid ""
 "ray compatibility\n"
 "e.g. resolution, framerate, level"
 msgstr ""
+"Activar comandos para el soporte Blu-ray, esto no ejecuta cada aspecto de la "
+"compatibilidad Blu-ray, por ejemplo resolución, cuadros por segundo, nivel"
 
 #: modules/codec/x264.c:85
 msgid "Extra I-frames aggressivity"
@@ -12756,6 +12812,8 @@ msgstr ""
 #: modules/codec/x264.c:295
 msgid "Strength of psychovisual optimization, default is \"1.0:0.0\""
 msgstr ""
+"Intensidad de la optimización psicovisual, por defecto el valor es "
+"\"1.0:0.0\""
 
 #: modules/codec/x264.c:296
 msgid ""
@@ -13001,6 +13059,8 @@ msgstr ""
 #: modules/codec/x264.c:397
 msgid "Use preset as default settings. Overridden by user settings."
 msgstr ""
+"Usar los ajustes preestablecidos como configuración por defecto. "
+"Reemplazados por la configuración del usuario."
 
 #: modules/codec/x264.c:402
 msgid "dia"
@@ -13065,7 +13125,7 @@ msgstr ""
 
 #: modules/codec/zvbi.c:61 modules/gui/qt4/dialogs/toolbar.cpp:419
 msgid "Teletext transparency"
-msgstr ""
+msgstr "Transparencia de teletexto"
 
 #: modules/codec/zvbi.c:62
 msgid "Setting vbi-opaque to false makes the boxed text transparent."
@@ -13210,6 +13270,8 @@ msgid ""
 "The MouseWheel up-down (vertical) axis can control volume, position or "
 "mousewheel event can be ignored"
 msgstr ""
+"La rueda del ratón (vertical) puede controlar el volúmen, la posición o bien "
+"puede ser ignorada"
 
 #: modules/control/hotkeys.c:366
 #, c-format
@@ -14044,7 +14106,7 @@ msgstr "Demuxor AVI"
 
 #: modules/demux/avi/avi.c:675
 msgid "Broken or missing AVI Index"
-msgstr ""
+msgstr "Índice de AVI roto o perdido"
 
 #: modules/demux/avi/avi.c:676
 msgid ""
@@ -14098,7 +14160,7 @@ msgstr "Volcador de archivo"
 
 #: modules/demux/dirac.c:41
 msgid "Value to adjust dts by"
-msgstr ""
+msgstr "Valor a ajustar el DTS («Digital Theater System») por"
 
 #: modules/demux/dirac.c:54
 msgid "Dirac video demuxer"
@@ -14139,6 +14201,8 @@ msgid ""
 "Duration in seconds before simulating an end of file. A negative value means "
 "an unlimited play time."
 msgstr ""
+"Duración en segundos antes de simular el final del archivo. Un valor "
+"negativo equivale a un tiempo ilimitado de reproducción."
 
 #: modules/demux/image.c:68
 msgid "Frame rate of the elementary stream produced."
@@ -14821,15 +14885,15 @@ msgstr "Equipo anfitrión"
 
 #: modules/demux/mp4/mp4.c:980
 msgid "Performers"
-msgstr ""
+msgstr "Intérpretes"
 
 #: modules/demux/mp4/mp4.c:981
 msgid "Original Performer"
-msgstr ""
+msgstr "Intérprete original"
 
 #: modules/demux/mp4/mp4.c:982
 msgid "Providers Source Content"
-msgstr ""
+msgstr "Fuente del contenido del proveedor"
 
 #: modules/demux/mp4/mp4.c:983
 msgid "Warning"
@@ -22181,7 +22245,7 @@ msgstr "Página"
 
 #: modules/stream_out/langfromtelx.c:50
 msgid "Specify the page containing the language"
-msgstr ""
+msgstr "Especificar la página que contiene el lenguaje"
 
 #: modules/stream_out/langfromtelx.c:51
 msgid "Row"
@@ -22189,7 +22253,7 @@ msgstr "Fila"
 
 #: modules/stream_out/langfromtelx.c:53
 msgid "Specify the row containing the language"
-msgstr ""
+msgstr "Especificar la fila que contiene el lenguaje"
 
 #: modules/stream_out/langfromtelx.c:61
 msgid "Lang From Telx"
@@ -30953,9 +31017,6 @@ msgstr "Lista del administrador multimedia"
 #~ "Esta cadena es una lista de autoridades de nombre a buscar. Usa \"*\" "
 #~ "para todo y la cadena vacía para  el por defecto de IANA."
 
-#~ msgid "SLP LDAP filter"
-#~ msgstr "Filtro LDAP SLP"
-
 #~ msgid ""
 #~ "This is a query formulated of attribute pattern matching expressions in "
 #~ "the form of an LDAPv3 search filter or empty for all answers."
@@ -31346,6 +31407,10 @@ msgstr "Lista del administrador multimedia"
 
 #~ msgid "Volume must be in the range %d-%d\n"
 #~ msgstr "Volumen deber estar en el rango %d-%d\n"
+
+#, fuzzy
+#~ msgid "SLP LDAP filter"
+#~ msgstr "Filtro de paso bajo"
 
 #, fuzzy
 #~ msgid "Satellite scanning config"
