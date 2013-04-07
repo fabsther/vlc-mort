@@ -3,11 +3,11 @@
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
+# Ђорђе Васиљевић <theranchcowboy@gmail.com>, 2013.
 # Gorana Milicevic <gorana.milicevic@gmail.com>, 2008.
+# Marko Uskokoddic <>, 2007.
 # Marko Uskokovic <uskokovic@etf.bg.ac.yu>, 2007-2008.
 # Predrag Ljubenović <predragljubenovic@gmail.com>, 2010.
-# Ђорђе Васиљевић <theranchcowboy@gmail.com>, 2013.
-# Marko Uskokoddic <>, 2007.
 # Serbian linux distribution cp6Linux
 #
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2012-12-11 15:41+0100\n"
-"PO-Revision-Date: 2013-02-21 20:26+0000\n"
+"PO-Revision-Date: 2013-03-03 17:18+0000\n"
 "Last-Translator: Rancher <theranchcowboy@gmail.com>\n"
 "Language-Team: Serbian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/sr/)\n"
@@ -271,10 +271,10 @@ msgid ""
 "always force a specific muxer. You should probably not do that.\n"
 "You can also set default parameters for each muxer."
 msgstr ""
-"Миксери праве сажете формате које спајају основне токове (звук, видео, ...) "
-"заједно. Ово подешавање вам дозвоњава да приморате коришћење одређеног "
-"миксера. Ипак, то не бисте требали да мењате.\n"
-"За сваки миксер можете да поставите и подразумевано подешавање."
+"Мултиплексери праве сажете формате који спајају основне токове (звук, "
+"видео…). Ова поставка вам омогућава да наметнете коришћење одређеног "
+"мултиплексера. Ипак је најбоље да то не радите.\n"
+"За сваки мултиплексер можете да поставите и подразумеване параметре."
 
 #: include/vlc_config_cat.h:144
 msgid "Access output"
@@ -303,10 +303,9 @@ msgid ""
 "not do that.\n"
 "You can also set default parameters for each packetizer."
 msgstr ""
-"Паковаоци се користе да \"preprocess\" претпроцесирају основне токове пре "
-"мултиплексирања. Ово подешавање Вам дозвољава да стално потенцирате  "
-"packetizer. Препоручујемо Вам да не мењате ова подешавања.\n"
-"Можете такође да поставите параметре за сваки паковалац."
+"Паковаоци унапред обрађују основне токове пре мултиплексирања. Ова поставка "
+"вам омогућава да наметнете паковаоца. Ипак је најбоље да то не радите.\n"
+"За сваки паковалац можете да поставите и подразумеване параметре."
 
 #: include/vlc_config_cat.h:159
 msgid "Sout stream"
@@ -3117,7 +3116,7 @@ msgstr "Укључи стриминг свих ES"
 
 #: src/libvlc-module.c:1078
 msgid "Stream all elementary streams (video, audio and subtitles)"
-msgstr "Стримуј све основне токове (видео, звук и титл)"
+msgstr "Емитуј све основне токове (звук, видео и титл)"
 
 #: src/libvlc-module.c:1080
 msgid "Display while streaming"
@@ -6661,7 +6660,7 @@ msgstr ""
 
 #: modules/access/htcpcp.c:149
 msgid "Coffee is ready."
-msgstr ""
+msgstr "Кафица је спремна."
 
 #: modules/access/http.c:72 modules/access/mms/mms.c:58
 msgid "HTTP proxy"
@@ -6675,11 +6674,11 @@ msgstr ""
 
 #: modules/access/http.c:78
 msgid "HTTP proxy password"
-msgstr ""
+msgstr "Лозинка за HTTP посредника"
 
 #: modules/access/http.c:80
 msgid "If your HTTP proxy requires a password, set it here."
-msgstr ""
+msgstr "Ако ваш HTTP посредник захтева лозинку, поставите је овде."
 
 #: modules/access/http.c:82
 msgid "Auto re-connect"
@@ -6704,11 +6703,11 @@ msgstr ""
 
 #: modules/access/http.c:93
 msgid "Forward Cookies"
-msgstr ""
+msgstr "Проследи колачиће"
 
 #: modules/access/http.c:94
 msgid "Forward Cookies across http redirections."
-msgstr ""
+msgstr "Проследите колачиће преко HTTP преусмерења."
 
 #: modules/access/http.c:96
 msgid "HTTP referer value"
@@ -6736,12 +6735,12 @@ msgstr "HTTP(S)"
 
 #: modules/access/http.c:540
 msgid "HTTP authentication"
-msgstr ""
+msgstr "HTTP провера идентитета"
 
 #: modules/access/http.c:541
 #, c-format
 msgid "Please enter a valid login name and a password for realm %s."
-msgstr ""
+msgstr "Унесите исправно корисничко име и лозинку за подручје %s."
 
 #: modules/access/idummy.c:42 modules/access_output/dummy.c:46
 #: modules/audio_output/adummy.c:40 modules/codec/ddummy.c:46
@@ -6753,7 +6752,7 @@ msgstr "Псеудо"
 
 #: modules/access/idummy.c:43
 msgid "Dummy input"
-msgstr ""
+msgstr "Празан унос"
 
 #: modules/access/imem.c:49 modules/gui/qt4/components/playlist/sorting.h:54
 #: modules/stream_out/bridge.c:41 modules/stream_out/mosaic_bridge.c:105
@@ -6762,7 +6761,7 @@ msgstr "ID"
 
 #: modules/access/imem.c:51 modules/demux/image.c:46
 msgid "Set the ID of the elementary stream"
-msgstr ""
+msgstr "Постави ID основног тока"
 
 #: modules/access/imem.c:53 modules/demux/image.c:48
 msgid "Group"
@@ -6770,7 +6769,7 @@ msgstr "Група"
 
 #: modules/access/imem.c:55 modules/demux/image.c:50
 msgid "Set the group of the elementary stream"
-msgstr ""
+msgstr "Постави групу основног тока"
 
 #: modules/access/imem.c:57
 msgid "Category"
@@ -6778,7 +6777,7 @@ msgstr "Категорија"
 
 #: modules/access/imem.c:59
 msgid "Set the category of the elementary stream"
-msgstr "Поставите категорију елементарног тока"
+msgstr "Поставите категорију основног тока"
 
 #: modules/access/imem.c:64
 msgid "Unknown"
@@ -6790,15 +6789,15 @@ msgstr "Подаци"
 
 #: modules/access/imem.c:69
 msgid "Set the codec of the elementary stream"
-msgstr ""
+msgstr "Постави кодек основног тока"
 
 #: modules/access/imem.c:73
 msgid "Language of the elementary stream as described by ISO639"
-msgstr ""
+msgstr "Језик основног тока по стандарду ISO 639"
 
 #: modules/access/imem.c:77
 msgid "Sample rate of an audio elementary stream"
-msgstr ""
+msgstr "Брзина узорковања основног звучног тока"
 
 #: modules/access/imem.c:79 modules/audio_output/amem.c:49
 msgid "Channels count"
@@ -6806,7 +6805,7 @@ msgstr "Број канала"
 
 #: modules/access/imem.c:81
 msgid "Channels count of an audio elementary stream"
-msgstr ""
+msgstr "Број канала основног звучног тока"
 
 #: modules/access/imem.c:83 modules/access/pvr.c:68
 #: modules/access/v4l2/video.c:75 modules/demux/rawvid.c:48
@@ -6819,7 +6818,7 @@ msgstr "Ширина"
 
 #: modules/access/imem.c:84
 msgid "Width of video or subtitle elementary streams"
-msgstr ""
+msgstr "Ширина слике или титла у основним токовима"
 
 #: modules/access/imem.c:86 modules/access/pvr.c:72
 #: modules/access/v4l2/video.c:78 modules/demux/rawvid.c:52
@@ -6830,7 +6829,7 @@ msgstr "Висина"
 
 #: modules/access/imem.c:87
 msgid "Height of video or subtitle elementary streams"
-msgstr ""
+msgstr "Висина слике или титла у основним токовима"
 
 #: modules/access/imem.c:89
 msgid "Display aspect ratio"
@@ -6838,11 +6837,11 @@ msgstr "Однос ширине и висине приказа"
 
 #: modules/access/imem.c:91
 msgid "Display aspect ratio of a video elementary stream"
-msgstr ""
+msgstr "Однос ширине и висине слике у основном току"
 
 #: modules/access/imem.c:95
 msgid "Frame rate of a video elementary stream"
-msgstr ""
+msgstr "Брзина кадрова слике у основном току"
 
 #: modules/access/imem.c:97
 msgid "Callback cookie string"
@@ -21203,11 +21202,11 @@ msgstr "Улаз моста"
 #: modules/stream_out/delay.c:39 modules/stream_out/langfromtelx.c:42
 #: modules/stream_out/setid.c:41
 msgid "Elementary Stream ID"
-msgstr ""
+msgstr "ID основног тока"
 
 #: modules/stream_out/delay.c:41 modules/stream_out/setid.c:43
 msgid "Specify an identifier integer for this elementary stream"
-msgstr ""
+msgstr "Наведите идентификатор за овај основни ток"
 
 #: modules/stream_out/delay.c:43
 msgid "Delay of the ES (ms)"
@@ -21325,7 +21324,7 @@ msgstr "Ово је излаз који ће URI користити за вид�
 
 #: modules/stream_out/es.c:79
 msgid "Elementary stream output"
-msgstr "Елементарни излаз тока"
+msgstr "Излаз основног тока"
 
 #: modules/stream_out/es.c:364 modules/stream_out/es.c:379
 #, c-format
@@ -21338,7 +21337,7 @@ msgstr "Скупљање излаза тока"
 
 #: modules/stream_out/langfromtelx.c:44
 msgid "Specify an identifier integer for this elementary stream to change"
-msgstr ""
+msgstr "Изаберите идентификатор основног тока који желите да промените"
 
 #: modules/stream_out/langfromtelx.c:45
 msgid "Magazine"
@@ -21695,11 +21694,11 @@ msgstr ""
 
 #: modules/stream_out/setid.c:47
 msgid "Specify an new identifier integer for this elementary stream"
-msgstr ""
+msgstr "Наведите нови идентификатор за овај основни ток"
 
 #: modules/stream_out/setid.c:51
 msgid "Specify an ISO-639 code (three characters) for this elementary stream"
-msgstr ""
+msgstr "Наведите ISO-639 кôд (три знака) за овај основни ток"
 
 #: modules/stream_out/setid.c:61
 msgid "Set ID"
@@ -21711,7 +21710,7 @@ msgstr ""
 
 #: modules/stream_out/setid.c:63
 msgid "Change the id of an elementary stream"
-msgstr ""
+msgstr "Промени ID основног тока"
 
 #: modules/stream_out/setid.c:74
 msgid "Set ES Lang"
@@ -21723,7 +21722,7 @@ msgstr ""
 
 #: modules/stream_out/setid.c:76
 msgid "Change the language of an elementary stream"
-msgstr ""
+msgstr "Промени језик основног тока"
 
 #: modules/stream_out/smem.c:60
 msgid "Video prerender callback"
@@ -26469,7 +26468,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:341
 msgid "Stream all elementary streams"
-msgstr ""
+msgstr "Емитуј све основне токове"
 
 #: modules/gui/qt4/ui/sout.h:343
 msgid "Group name"
