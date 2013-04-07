@@ -1,19 +1,19 @@
-# Dutch; Flemish translation
-# Copyright (C) 2012 VideoLAN
+# Dutch translation
+# Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
 # Alexander Henket <ahenket at xs4all dot nl>, 2009.
 # Derk-Jan Hartman <hartman at videolan dot org>, 2004-2005.
 # Myckel Habets <myckel at sdf dot lonestar dot org>, 2007-2010.
-# Thomas De Rocker <thomasderocker.at.h0tmail.d0t.c0m>, 2008-2012.
-#: modules/gui/macosx/prefs.m:490 modules/gui/macosx/simple_prefs.m:451
+# Thomas De Rocker <<thomasderocker.at.h0tmail.d0t.c0m>>, 2008-2013.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2012-12-11 15:41+0100\n"
-"PO-Revision-Date: 2012-12-02 09:34+0000\n"
+"PO-Revision-Date: 2013-02-09 15:58+0000\n"
 "Last-Translator: Thomas De Rocker <thomasderocker.at.h0tmail.d0t.c0m>\n"
 "Language-Team: Dutch (http://www.transifex.com/projects/p/vlc-trans/language/"
 "nl/)\n"
@@ -17654,11 +17654,11 @@ msgstr "Kleuren omkeren"
 #: modules/gui/macosx/VideoEffects.m:135 modules/video_filter/posterize.c:67
 #: modules/gui/qt4/ui/video_effects.h:1326
 msgid "Posterize"
-msgstr "Posterize"
+msgstr "Schakeringen reduceren"
 
 #: modules/gui/macosx/VideoEffects.m:136 modules/video_filter/posterize.c:59
 msgid "Posterize level"
-msgstr "Posterize-niveau"
+msgstr "Niveau schakeringsreductie"
 
 #: modules/gui/macosx/VideoEffects.m:137 modules/video_filter/motionblur.c:58
 #: modules/gui/qt4/ui/video_effects.h:1382
@@ -17973,7 +17973,7 @@ msgstr "Bestaande afspeellijst item"
 
 #: modules/gui/macosx/wizard.m:356 modules/gui/macosx/wizard.m:436
 msgid "Partial Extract"
-msgstr "Gedeeltelijke extract"
+msgstr "Gedeeltelijke extractie"
 
 #: modules/gui/macosx/wizard.m:358
 msgid ""
@@ -23499,7 +23499,7 @@ msgstr "Aantal frames te beschouwen voor smoothening (0 tot 30)"
 
 #: modules/video_filter/antiflicker.c:65
 msgid "antiflicker video filter"
-msgstr "Anti-flikker videofilter"
+msgstr "Anti-flikker"
 
 #: modules/video_filter/antiflicker.c:66
 msgid "antiflicker"
@@ -24671,12 +24671,12 @@ msgstr ""
 
 #: modules/video_filter/croppadd.c:78
 msgid "Cropadd"
-msgstr "Cropadd"
+msgstr "Bijsnijden"
 
 #: modules/video_filter/croppadd.c:79 modules/video_filter/scale.c:47
 #: modules/video_filter/swscale.c:63
 msgid "Video scaling filter"
-msgstr "Cropadd"
+msgstr "Schalen"
 
 #: modules/video_filter/croppadd.c:96
 msgid "Padd"
@@ -24832,11 +24832,11 @@ msgstr "Te extraheren RGB-component"
 #: modules/video_filter/extract.c:63
 msgid "RGB component to extract. 0 for Red, 1 for Green and 2 for Blue."
 msgstr ""
-"Te extraheren RGB-component. 0 voor Rood, 1 voor Groen en 2 voor Blauw."
+"Te extraheren RGB-component. 0 voor rood, 1 voor groen en 2 voor blauw."
 
 #: modules/video_filter/extract.c:74
 msgid "Extract RGB component video filter"
-msgstr "RGB-component extract"
+msgstr "RGB-component extraheren"
 
 #: modules/video_filter/gaussianblur.c:47
 msgid "Gaussian's std deviation"
@@ -24876,7 +24876,7 @@ msgstr "Sterkte gebruikt om de waarde van een pixel te wijzigen"
 
 #: modules/video_filter/gradfun.c:56
 msgid "Gradfun video filter"
-msgstr "Gradfun videofilter"
+msgstr "Gradfun"
 
 #: modules/video_filter/gradfun.c:57
 msgid "Gradfun"
@@ -24986,11 +24986,11 @@ msgstr "Tijdelijke chroma-sterkte (standaard 4.5)"
 
 #: modules/video_filter/hqdn3d.c:63
 msgid "HQ Denoiser 3D"
-msgstr "HQ Denoiser 3D"
+msgstr "HQ ruisverwijdering 3D"
 
 #: modules/video_filter/hqdn3d.c:64
 msgid "High Quality 3D Denoiser filter"
-msgstr "Hogekwaliteits-3D-ruisverwijderingsfilter"
+msgstr "Hogekwaliteits-3D-ruisverwijdering"
 
 #: modules/video_filter/invert.c:50
 msgid "Invert video filter"
@@ -25078,7 +25078,7 @@ msgstr "Logo overlay"
 
 #: modules/video_filter/logo.c:111
 msgid "Logo video filter"
-msgstr "Logo videofilter"
+msgstr "Logo"
 
 #: modules/video_filter/magnify.c:47
 msgid "Magnify/Zoom interactive video filter"
@@ -25100,9 +25100,9 @@ msgid ""
 "position (in %), $R = rate, $S = audio sample rate (in kHz), $T = time, $U = "
 "publisher, $V = volume, $_ = new line) "
 msgstr ""
-"Lichtkranttekst om weer te geven. (Beschikbare opmaakopties: Tijd "
-"gerelateerd: %Y = jaar, %m = maand, %d = dag, %H = uren, %M = minuten, %S = "
-"seconden, ... Metagegevens gerelateerd: $a = artiest, $b = album, $c = "
+"Lichtkranttekst om weer te geven. (Beschikbare opmaakopties: "
+"Tijdgerelateerd: %Y = jaar, %m = maand, %d = dag, %H = uren, %M = minuten, "
+"%S = seconden, ... Metagegevens gerelateerd: $a = artiest, $b = album, $c = "
 "copyright, $d = beschrijving, $e = gecodeerd door, $g = genre, $l = taal, $n "
 "= spoornummer, $p = nu speelt, $r = score, $s = ondertiteltaal, $t = titel, "
 "$u = url, $A = datum, $B = audio-bitrate (in kb/s), $C = hoofdstuk, $D = "
@@ -25127,8 +25127,8 @@ msgid ""
 "Number of milliseconds the marquee must remain displayed. Default value is 0 "
 "(remains forever)."
 msgstr ""
-"Aantal milliseconden dat de lichtkrant weergegeven moet blijven. Standaard "
-"waarde is 0 (altijd weergeven)."
+"Aantal milliseconden dat de lichtkrant weergegeven moet blijven. "
+"Standaardwaarde is 0 (altijd weergeven)."
 
 #: modules/video_filter/marq.c:111
 msgid "Refresh period in ms"
@@ -25181,7 +25181,7 @@ msgid ""
 "Defines orientation of the mirror splitting.     Can be vertical or "
 "horizontal"
 msgstr ""
-"Definieert de oriëntatie van de spiegelsplitsing. Kan vertikaal of "
+"Definieert de oriëntatie van de spiegelsplitsing. Kan verticaal of "
 "horizontaal zijn"
 
 #: modules/video_filter/mirror.c:67
@@ -25852,15 +25852,17 @@ msgstr "Selecteer het Witniveau van de gemengde zone (Blauw of V-component)"
 
 #: modules/video_filter/posterize.c:60
 msgid "Posterize level (number of colors is cube of this value)"
-msgstr "Posterize-niveau (aantal kleuren is de derde macht van deze waarde)"
+msgstr ""
+"Niveau schakeringsreductie (aantal kleuren is de derde macht van deze waarde)"
 
 #: modules/video_filter/posterize.c:66
 msgid "Posterize video filter"
-msgstr "Posterize videofilter"
+msgstr "Schakeringen reduceren"
 
 #: modules/video_filter/posterize.c:68
 msgid "Posterize video by lowering the number of colors"
-msgstr "Video posterizen door het aantal kleuren te verminderen"
+msgstr ""
+"Schakeringen van de video reduceren door het aantal kleuren te verminderen"
 
 #: modules/video_filter/postproc.c:60
 msgid "Post processing quality"
@@ -26238,7 +26240,7 @@ msgstr "Intensiteit van het sepia-effect"
 
 #: modules/video_filter/sepia.c:63
 msgid "Sepia video filter"
-msgstr "Sepia-videofilter"
+msgstr "Sepia"
 
 #: modules/video_filter/sepia.c:65
 msgid "Gives video a warmer tone by applying sepia effect"
@@ -26424,7 +26426,7 @@ msgstr "Bikubisch"
 
 #: modules/video_filter/swscale.c:64
 msgid "Swscale"
-msgstr "Swschaal"
+msgstr "Schalen"
 
 #: modules/video_filter/transform.c:47
 msgid "Transform type"
@@ -26436,7 +26438,7 @@ msgstr "Een van '90', '180', '270', 'hflip' en 'vflip'"
 
 #: modules/video_filter/transform.c:55
 msgid "Video transformation filter"
-msgstr "Videotransformatie"
+msgstr "Transformatie"
 
 #: modules/video_filter/transform.c:56
 msgid "Transformation"
@@ -26444,7 +26446,7 @@ msgstr "Transformatie"
 
 #: modules/video_filter/transform.c:57
 msgid "Rotate or flip the video"
-msgstr "Roteer of spiegel de video"
+msgstr "De video roteren of spiegelen"
 
 #: modules/video_filter/wall.c:44
 msgid "Number of horizontal windows in which to split the video."
@@ -27771,7 +27773,8 @@ msgid ""
 "autodetect the other using the original aspect ratio"
 msgstr ""
 "U hoeft maar een van de volgende drie parameters in te vullen, VLC zal "
-"automatisch de anderen detecteren door de beeldverhouding te gebruiken"
+"automatisch de andere detecteren door de originele beeldverhouding te "
+"gebruiken"
 
 #: modules/gui/qt4/ui/profiles.h:487 modules/gui/qt4/ui/profiles.h:490
 msgid "00000; "
@@ -28359,23 +28362,11 @@ msgstr "Mediabeheerlijst"
 #~ "Sommige DVB-kaarten worden niet graag onderzocht op hun mogelijkheden. U "
 #~ "kunt deze functie uitschakelen als u problemen ervaart."
 
-#~ msgid "Satellite scanning config"
-#~ msgstr "Instellingen voor scannen van satellieten"
-
 #~ msgid "filename of config file in share/dvb/dvb-s"
 #~ msgstr "bestandsnaam van instellingenbestand in share/dvb/dvb-s"
 
-#~ msgid "DVB"
-#~ msgstr "DVB"
-
 #~ msgid "DVB input with v4l2 support"
 #~ msgstr "DVB-invoer met v4l2-ondersteuning"
-
-#~ msgid "ARM NEON video chroma YUV->RGBA"
-#~ msgstr "ARM NEON videochroma YUV->RGBA"
-
-#~ msgid "Opus audio decoder"
-#~ msgstr "Opus-audiodecoder"
 
 #~ msgid "Opus"
 #~ msgstr "Opus"
@@ -30317,6 +30308,22 @@ msgstr "Mediabeheerlijst"
 #~ msgstr "Aantal banden gebruikt door de spectrometer, van 20 tot 80."
 
 #, fuzzy
+#~ msgid "Satellite scanning config"
+#~ msgstr "Satelliet-bereikcode"
+
+#, fuzzy
+#~ msgid "DVB"
+#~ msgstr "DV"
+
+#, fuzzy
+#~ msgid "ARM NEON video chroma YUV->RGBA"
+#~ msgstr "ARMNEON videochromaconversies"
+
+#, fuzzy
+#~ msgid "Opus audio decoder"
+#~ msgstr "Speex audiodecoder"
+
+#, fuzzy
 #~ msgid "Video Filters..."
 #~ msgstr "Videobestanden"
 
@@ -31372,7 +31379,7 @@ msgstr "Mediabeheerlijst"
 
 #, fuzzy
 #~ msgid "Rotates or flips the image"
-#~ msgstr "Roteer of spiegel de video"
+#~ msgstr "De video roteren of spiegelen"
 
 #, fuzzy
 #~ msgid "Audio Filter"
@@ -31673,16 +31680,16 @@ msgstr "Mediabeheerlijst"
 #~ "Title, $L Time Remaining, $N Name, $O Audio language, $P Position, $R "
 #~ "Rate, $S Sample rate, $T Time elapsed, $U Publisher, $V Volume"
 #~ msgstr ""
-#~ "Lichtkranttekst om weer te geven. (Beschikbare opmaakopties: Tijd "
-#~ "gerelateerd: %Y = jaar, %m = maand, %d = dag, %H = uren, %M = minuten, %S "
-#~ "= seconden, ... Metagegevens gerelateerd: $a = artiest, $b = album, $c = "
-#~ "copyright, $d = beschrijving, $e = gecodeerd door, $g = genre, $l = taal, "
-#~ "$n = spoornummer, $p = nu speelt, $r = score, $s = ondertiteltaal, $t = "
-#~ "titel, $u = url, $A = datum, $B = audio-bitrate (in kb/s), $C = "
-#~ "hoofdstuk, $D = duur, $F = volledige naam met pad, $I = titel, $L = tijd "
-#~ "over, $N = naam, $O = audiotaal, $P = positie (in %), $R = snelheid, $S = "
-#~ "audio-samplerate (in kHz), $T = tijd, $U = uitgever, $V = volume, $_ = "
-#~ "nieuwe regel) "
+#~ "Lichtkranttekst om weer te geven. (Beschikbare opmaakopties: "
+#~ "Tijdgerelateerd: %Y = jaar, %m = maand, %d = dag, %H = uren, %M = "
+#~ "minuten, %S = seconden, ... Metagegevens gerelateerd: $a = artiest, $b = "
+#~ "album, $c = copyright, $d = beschrijving, $e = gecodeerd door, $g = "
+#~ "genre, $l = taal, $n = spoornummer, $p = nu speelt, $r = score, $s = "
+#~ "ondertiteltaal, $t = titel, $u = url, $A = datum, $B = audio-bitrate (in "
+#~ "kb/s), $C = hoofdstuk, $D = duur, $F = volledige naam met pad, $I = "
+#~ "titel, $L = tijd over, $N = naam, $O = audiotaal, $P = positie (in %), $R "
+#~ "= snelheid, $S = audio-samplerate (in kHz), $T = tijd, $U = uitgever, $V "
+#~ "= volume, $_ = nieuwe regel) "
 
 #, fuzzy
 #~ msgid "Use SAP cache"
