@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2012-12-11 15:41+0100\n"
-"PO-Revision-Date: 2013-01-23 13:54+0000\n"
+"PO-Revision-Date: 2013-01-30 13:55+0000\n"
 "Last-Translator: chesus <xuxinho7@gmail.com>\n"
 "Language-Team: Aragonese (http://www.transifex.com/projects/p/vlc-trans/"
 "language/an/)\n"
@@ -288,7 +288,7 @@ msgid ""
 "You can also set default parameters for each muxer."
 msgstr ""
 "Os multiplexors creyan os formatos d'encapsulau emplegaus ta chunir os "
-"diferents fluxos elementals (vídeo, àudio, ...). Istos parametros permiten "
+"diferents fluxos elementals (video, audio, ...). Istos parametros permiten "
 "imposar siempre un multiplexor, encara que probablement no le caldrá fer-lo. "
 "Puet especificar tamién os parametros por defecto ta cada multiplexor."
 
@@ -2337,31 +2337,31 @@ msgstr ""
 
 #: src/libvlc-module.c:602
 msgid "Custom crop ratios list"
-msgstr "Lista de taxas de retalle personalizadas"
+msgstr "Lista personalizada d'as ratios de retalle"
 
 #: src/libvlc-module.c:604
 msgid ""
 "Comma separated list of crop ratios which will be added in the interface's "
 "crop ratios list."
 msgstr ""
-"Lista de taxas de retalle separadas por comas que s'adhibirán a la lista de "
-"taxas de retalle d'a interficie."
+"Lista deseparada por comas d'as ratios de retalle que s'adhibirán a la lista "
+"de ratios de retalle d'a interficie."
 
 #: src/libvlc-module.c:607
 msgid "Custom aspect ratios list"
-msgstr "Lista de taxas d'aspecto personalizau"
+msgstr "Lista personalizada d'as relacions d'aspecto"
 
 #: src/libvlc-module.c:609
 msgid ""
 "Comma separated list of aspect ratios which will be added in the interface's "
 "aspect ratio list."
 msgstr ""
-"Lista de taxas d'aspecto deseparadas por comas que s'adhibirán a la lista de "
-"taxas d'aspecto d'a interficie."
+"Lista deseparada por comas d'as relacions d'aspecto que s'adhibirán a la "
+"lista de relacions d'aspecto d'a interficie."
 
 #: src/libvlc-module.c:612
 msgid "Fix HDTV height"
-msgstr "Fixar altura HDTV"
+msgstr "Fixar l'altaria d'o HDTV"
 
 #: src/libvlc-module.c:614
 msgid ""
@@ -2369,14 +2369,14 @@ msgid ""
 "incorrectly sets height to 1088 lines. You should only disable this option "
 "if your video has a non-standard format requiring all 1088 lines."
 msgstr ""
-"Isto permite un correcto maneo d'o formato de video HDTV-1080 mesmo si un "
-"codificador corrupto mete l'altura a 1088 linias. Solament s'habría de "
-"deshabilitar ista opción si o video tiene un formato no estandar que "
-"requiera as 1088 linias."
+"Isto permite una chestión adequada d'o formato de video HDTV-1080, mesmo si "
+"un codificador corrupto fixa l'altaria a 1088 linias. Nomás s'habría de "
+"deshabilitar si o video tien un formato no estandar que requiera realment "
+"1088 linias."
 
 #: src/libvlc-module.c:619
 msgid "Monitor pixel aspect ratio"
-msgstr "Proporción d'aspecto de pixel de monitor"
+msgstr "Relación d'aspecto d'o pixel d'o monitor"
 
 #: src/libvlc-module.c:621
 msgid ""
@@ -2384,33 +2384,33 @@ msgid ""
 "(1:1). If you have a 16:9 screen, you might need to change this to 4:3 in "
 "order to keep proportions."
 msgstr ""
-"Isto forza a taxa d'aspecto de monitor. A mayoría de monitors tienen pixels "
-"quadraus (1:1). Si tiens pantalla de 16:9, podría amenester cambiar-se a 4:3 "
-"ta mantener proporcions."
+"Isto fuerza a relación d'aspecto d'o monitor. A mayoría de monitors tienen "
+"pixels quadraus (1:1). Si tiene una pantalla de 16:9, puestar le calga "
+"cambiar-la a 4:3 ta mantener as proporcions."
 
 #: src/libvlc-module.c:625 modules/gui/macosx/simple_prefs.m:310
 msgid "Skip frames"
-msgstr "Blinco de fotogramas"
+msgstr "Omitir os fotogramas"
 
 #: src/libvlc-module.c:627
 msgid ""
 "Enables framedropping on MPEG2 stream. Framedropping occurs when your "
 "computer is not powerful enough"
 msgstr ""
-"Habilita repuyar fotogramas en emisions MPEG2. O repuyar fotogramas succede "
-"quan a computadora no ye pro potent"
+"Ista opción permite omitir fotogramas en os fluxos MPEG2. Isto escayeixe "
+"quan l'ordinador no ye prou potent"
 
 #: src/libvlc-module.c:630
 msgid "Drop late frames"
-msgstr "Descartar fotogramas finals"
+msgstr "Descartar zaguers fotogramas"
 
 #: src/libvlc-module.c:632
 msgid ""
 "This drops frames that are late (arrive to the video output after their "
 "intended display date)."
 msgstr ""
-"Isto repuya fotogramas que plegan tarde (plegan a la salida de video dimpués "
-"d'a suya calendata de muestra proposada)."
+"Isto descarta os fotogramas que i plegan tarde (plegan a la salida de video "
+"mas tarde que no l'inte an que s'habrían de haber amostrau)."
 
 #: src/libvlc-module.c:635
 msgid "Quiet synchro"
@@ -2421,25 +2421,26 @@ msgid ""
 "This avoids flooding the message log with debug output from the video output "
 "synchronization mechanism."
 msgstr ""
-"Isto priva inundar o rechistro de mensaches con salida de depuración d'o "
-"mecanismo de sincronización d'a salida de video."
+"Isto empacha emplir o rechistro de mensaches con información de depuración "
+"d'o mecanismo de sincronización d'a salida d'o video."
 
 #: src/libvlc-module.c:640
 msgid "Key press events"
-msgstr "Eventos de pulsación de teclas"
+msgstr "Esdevenimientos de pulsación de teclas"
 
 #: src/libvlc-module.c:642
 msgid "This enables VLC hotkeys from the (non-embedded) video window."
 msgstr ""
-"Isto habilita os alcorces de teclau en a finestra de video (no incrustada)."
+"Isto habilita os alcorces de teclau d'o VLC en a finestra de video (no "
+"encrastada)."
 
 #: src/libvlc-module.c:644 modules/video_filter/remoteosd.c:90
 msgid "Mouse events"
-msgstr "Eventos de rato"
+msgstr "Esdevenimientos d'o zorz"
 
 #: src/libvlc-module.c:646
 msgid "This enables handling of mouse clicks on the video."
-msgstr "Isto habilita o maneo d'os clics d'o rato en o video."
+msgstr "Isto habilita a chestión d'os clics d'o zorz en o video."
 
 #: src/libvlc-module.c:654
 msgid ""
@@ -2448,52 +2449,55 @@ msgid ""
 "channel."
 msgstr ""
 "Istas opcions permiten modificar o comportamiento d'o subsistema de "
-"dentrada, tals como o dispositivo DVD u VCD, as opcions d'interficie de ret "
-"u a canal de subtítulos."
+"dentrada, tals como o DVD u dispositivo VCD, os parametros d'a interficie "
+"d'o ret u a canal de subtitols."
 
 #: src/libvlc-module.c:658
 msgid "File caching (ms)"
-msgstr "Caché de fichero (ms)"
+msgstr "Valura de captura (ms)"
 
 #: src/libvlc-module.c:660
 msgid "Caching value for local files, in milliseconds."
-msgstr "Valor de caché ta fichers, en milisegundos."
+msgstr "Valura d'a memoria caché ta fichers locals, en milisegundos."
 
 #: src/libvlc-module.c:662
 msgid "Live capture caching (ms)"
-msgstr "Caché de captura en directo (ms)"
+msgstr "Valura de captura en directo (ms)"
 
 #: src/libvlc-module.c:664
 msgid "Caching value for cameras and microphones, in milliseconds."
-msgstr "Valor de caché ta cameras y microfonos, en milisegundos."
+msgstr ""
+"Valura de captura d'a memoria caché t'as cameras y os microfonos, en "
+"milisegundos."
 
 #: src/libvlc-module.c:666
 msgid "Disc caching (ms)"
-msgstr "Caché de disco (ms)"
+msgstr "Valura de captura d'o disco (ms)"
 
 #: src/libvlc-module.c:668
 msgid "Caching value for optical media, in milliseconds."
-msgstr "Valor de caché ta meyos opticos, en milisegundos."
+msgstr "Valura de captura d'a memoria caché ta meyos opticos, en milisegundos."
 
 #: src/libvlc-module.c:670
 msgid "Network caching (ms)"
-msgstr "Caché de ret (ms)"
+msgstr "Valura de captura de ret (ms)"
 
 #: src/libvlc-module.c:672
 msgid "Caching value for network resources, in milliseconds."
-msgstr "Valor de caché ta recursos de ret, en milisegundos."
+msgstr ""
+"Valor de captura d'a memoria caché ta recursos de ret, en milisegundos."
 
 #: src/libvlc-module.c:674
 msgid "Clock reference average counter"
-msgstr "Contador reloch de referencia promeyo"
+msgstr "Contador meyo de referencia d'o reloch "
 
 #: src/libvlc-module.c:676
 msgid ""
 "When using the PVR input (or a very irregular source), you should set this "
 "to 10000."
 msgstr ""
-"Al usar a dentrada PVR (u una fuent muit irregular), habría d'establir isto "
-"a 10000."
+"En fer servir a dentrada PVR (u una fuent muit irregular), l'habría "
+"d'establir a 10000."
 
 #: src/libvlc-module.c:679
 msgid "Clock synchronisation"
@@ -2504,32 +2508,33 @@ msgid ""
 "It is possible to disable the input clock synchronisation for real-time "
 "sources. Use this if you experience jerky playback of network streams."
 msgstr ""
-"Ye posible deshabilitar a sincronización de reloch de dentrada ta orichens a "
-"tiempo real. lo Use si experimenta reproducción a saltos d'emisions en ret."
+"Isto permite habilitar u deshabilitar a sincronización d'o reloch de "
+"dentrada ta fuents en tiempo real. Emplegue-lo si experimenta una "
+"reproducción erratica en os fluxos de ret."
 
 #: src/libvlc-module.c:685
 msgid "Clock jitter"
-msgstr "Variación d'o tiempo"
+msgstr "Jitter d'o reloch"
 
 #: src/libvlc-module.c:687
 msgid ""
 "This defines the maximum input delay jitter that the synchronization "
 "algorithms should try to compensate (in milliseconds)."
 msgstr ""
-"Define o maximo tiempo de retardo que os algorismos de sincronización "
-"habrían d'intentar compensar (en milisegundos)"
+"Isto define o tiempo maximo de retardo que os algorismos de sincronización "
+"habrían de mirar de compensar (en milisegundos)."
 
 #: src/libvlc-module.c:690
 msgid "Network synchronisation"
-msgstr "Sincronización de ret"
+msgstr "Sincronización d'o ret"
 
 #: src/libvlc-module.c:691
 msgid ""
 "This allows you to remotely synchronise clocks for server and client. The "
 "detailed settings are available in Advanced / Network Sync."
 msgstr ""
-"Isto permite sincronizar remotament reloches de servidor y client. As "
-"preferencias detalladas son disponibles en Abanzau / Sincronización de ret."
+"Isto permite sincronizar remotament os reloches d'o servidor y d'o client. "
+"Os parametros detallaus se troban en Abanzau / Sincronización d'o ret."
 
 #: src/libvlc-module.c:697 src/video_output/vout_intf.c:94
 #: src/video_output/vout_intf.c:112 modules/access/dshow/dshow.cpp:91
@@ -2544,7 +2549,7 @@ msgstr ""
 #: modules/video_filter/marq.c:59 modules/video_filter/rss.c:71
 #: modules/video_filter/rss.c:184 modules/video_output/msw/directx.c:88
 msgid "Default"
-msgstr "Predeterminau"
+msgstr "Por defecto"
 
 #: src/libvlc-module.c:697 modules/gui/macosx/AudioEffects.m:66
 #: modules/gui/macosx/MainWindow.m:2427 modules/gui/macosx/wizard.m:357
@@ -2554,19 +2559,19 @@ msgstr "Habilitar"
 
 #: src/libvlc-module.c:699
 msgid "MTU of the network interface"
-msgstr "MTU d'a interficie de ret"
+msgstr "MTU d'a interficie d'o ret"
 
 #: src/libvlc-module.c:701
 msgid ""
 "This is the maximum application-layer packet size that can be transmitted "
 "over the network (in bytes)."
 msgstr ""
-"Grandaria maxima de paquetz de capas d'aplicación que pueden transmitir-se "
-"sobre o ret (en bytes)."
+"Ista ye a mida maxima d'os paquetz d'a napa d'aplicación que pueden "
+"transmitir-sen por o ret (en bytes)."
 
 #: src/libvlc-module.c:706 modules/stream_out/rtp.c:128
 msgid "Hop limit (TTL)"
-msgstr "Limite de blinco (TTL)"
+msgstr "Limite de blincos (TTL)"
 
 #: src/libvlc-module.c:708 modules/stream_out/rtp.c:130
 msgid ""
@@ -2574,18 +2579,18 @@ msgid ""
 "multicast packets sent by the stream output (-1 = use operating system built-"
 "in default)."
 msgstr ""
-"Este ye o blinco limite (tamién conoixiu como «Time-To-Live» u TTL) d'os "
-"paquetz multiemisión ninviaus por a salida d'emisión (-1 = usa por defecto "
-"integrau en sistema operativo)."
+"Isto ye o limite de blincos (tamién conoixiu como \"Time-To-Live\" u TTL) "
+"d'os paquetz multidifusión ninviaus por a salida de transmisión (-1 = "
+"emplega por defecto o d'o sistema operativo)."
 
 #: src/libvlc-module.c:712
 msgid "Multicast output interface"
-msgstr "Interficie de salida multiemisión"
+msgstr "Interficie d'a salida multidifusión"
 
 #: src/libvlc-module.c:714
 msgid "Default multicast interface. This overrides the routing table."
 msgstr ""
-"Interficie de multiemisión predeterminada. Isto anula a tabla d'enrutamiento."
+"Interficie multidifusión por defecto. Isto ignora la tabla d'encaminamiento."
 
 #: src/libvlc-module.c:716
 msgid "DiffServ Code Point"
@@ -2596,18 +2601,18 @@ msgid ""
 "Differentiated Services Code Point for outgoing UDP streams (or IPv4 Type Of "
 "Service, or IPv6 Traffic Class). This is used for network Quality of Service."
 msgstr ""
-"Punto de codigo de servicios diferenciaus ta emisions salientes UDP (u Tipo "
-"De Servicio IPv4, u Clase de Tráfico IPv6). Isto s'usa ta ofrir calidat de "
-"servicio de ret."
+"Punto de codigo de servicios diferenciaus t'os fluxos UDP de salida (u tipo "
+"de servicio IPv4, u clase de trafico IPv6). Isto se fa servir t'a qualidat "
+"de servicio d'r ret (QoS)."
 
 #: src/libvlc-module.c:723
 msgid ""
 "Choose the program to select by giving its Service ID. Only use this option "
 "if you want to read a multi-program stream (like DVB streams for example)."
 msgstr ""
-"Trigar o programa a seleccionar dando o suyo IT de Servicio. Solament use "
-"ista opción si deseya leyer una emisión multi-programa (como emisions DVB "
-"por eixemplo)."
+"Trigue o programa a seleccionar meyant a suya ID de Servicio. Emplegue ista "
+"opción nomás si deseya leyer un fluxo multiprograma (como fluxos DVB, por "
+"eixemplo)."
 
 #: src/libvlc-module.c:729
 msgid ""
@@ -2615,9 +2620,9 @@ msgid ""
 "IDs (SIDs). Only use this option if you want to read a multi-program stream "
 "(like DVB streams for example)."
 msgstr ""
-"Trigar os programas a seleccionar dando una lista d'IDs de Servicio (SIDs) "
-"separaus por comas. Solament use ista opción si deseya leyer una emisión "
-"multi-programa (como emisions DVB por eixemplo)."
+"Trigue os programas a seleccionar meyant una lista de IDs de Servicios "
+"(SIDs) deseparaus por comas. Emplegue ista opción nomás si deseya leyer un "
+"fluxo multiprograma (como fluxos DVB, por eixemplo)."
 
 #: src/libvlc-module.c:735 modules/gui/qt4/ui/open_disk.h:313
 msgid "Audio track"
@@ -2625,15 +2630,19 @@ msgstr "Pista d'audio"
 
 #: src/libvlc-module.c:737
 msgid "Stream number of the audio track to use (from 0 to n)."
-msgstr "Numero d'emisión d'a pista d'audio a usar (de 0 a n)."
+msgstr ""
+"Introduzca o numero d'o fluxo d'a pista d'audio que quiere emplegar (de 0 a "
+"n)."
 
 #: src/libvlc-module.c:740 modules/gui/qt4/ui/open_disk.h:314
 msgid "Subtitles track"
-msgstr "Pista de subtítulos"
+msgstr "Pista de subtitols"
 
 #: src/libvlc-module.c:742
 msgid "Stream number of the subtitle track to use (from 0 to n)."
-msgstr "Numero d'emisión d'a pista de subtítulos a usar (de 0 a n)."
+msgstr ""
+"Introduzca o numero d'o fluxo d'a pista de subtitols que quiere emplegar (de "
+"0 a n)."
 
 #: src/libvlc-module.c:745
 msgid "Audio language"
@@ -2645,37 +2654,39 @@ msgid ""
 "letter country code, you may use 'none' to avoid a fallback to another "
 "language)."
 msgstr ""
-"Idioma d'a pista d'audio a usar (separaus por comas, dos u tres de letras "
-"d'o codigo d'o país. Puede usar «none» ta privar seleccionar l'idioma de "
-"reserva)."
+"Seleccione a luenga d'a pista d'audio (cal meter-ie os codigos de dos u tres "
+"letras d'os países deseparaus por comas. Puede fer servir a parola \"none\" "
+"ta empachar trigar a luenga de reserva)."
 
 #: src/libvlc-module.c:750
 msgid "Subtitle language"
-msgstr "Idioma de subtítulos"
+msgstr "Idioma d'os subtitols"
 
 #: src/libvlc-module.c:752
 msgid ""
 "Language of the subtitle track you want to use (comma separated, two or "
 "three letters country code, you may use 'any' as a fallback)."
 msgstr ""
-"Idioma de pista de subtítulos a usar (separaus por comas, dos u tres de "
-"letras d'o codigo d'o país. Puede usar «any» como idioma de reserva)."
+"Seleccione a luenga d'a pista de subtitols (cal meter-ie os codigos de dos u "
+"tres letras d'os países deseparaus por comas. Puede fer servir \"any\" como "
+"luenga de reserva)."
 
 #: src/libvlc-module.c:756
 msgid "Audio track ID"
-msgstr "IT de pista d'audio"
+msgstr "ID d'a pista d'audio"
 
 #: src/libvlc-module.c:758
 msgid "Stream ID of the audio track to use."
-msgstr "IT d'emisión d'a pista d'audio a usar."
+msgstr "Proporciona la ID d'o fluxo d'a canal d'audio que quiere fer servir."
 
 #: src/libvlc-module.c:760
 msgid "Subtitles track ID"
-msgstr "IT de pista de subtítulos"
+msgstr "ID d'a pista de subtitols"
 
 #: src/libvlc-module.c:762
 msgid "Stream ID of the subtitle track to use."
-msgstr "IT d'emisión d'a pista de subtítulos a usar."
+msgstr ""
+"Proporciona o numero d'o fluxo d'a canal de subtitol que quiere fer servir."
 
 #: src/libvlc-module.c:764
 msgid "Preferred video resolution"
@@ -2695,7 +2706,7 @@ msgstr ""
 
 #: src/libvlc-module.c:772
 msgid "Best available"
-msgstr "Millor disponible"
+msgstr "A millor disponible"
 
 #: src/libvlc-module.c:772
 msgid "Full HD (1080p)"
@@ -2711,7 +2722,7 @@ msgstr "Definición estandar (576 u 480 linias)"
 
 #: src/libvlc-module.c:774
 msgid "Low definition (320 lines)"
-msgstr "Definicion baixa (320 linias)"
+msgstr "Definición baixa (320 linias)"
 
 #: src/libvlc-module.c:777
 msgid "Input repetitions"
@@ -2719,23 +2730,23 @@ msgstr "Repeticions de dentrada"
 
 #: src/libvlc-module.c:779
 msgid "Number of time the same input will be repeated"
-msgstr "Numero de vegadas que a mesma dentrada será repetida"
+msgstr "Numero de vegadas que se repetirá a mesma dentrada"
 
 #: src/libvlc-module.c:781
 msgid "Start time"
-msgstr "Tiempo d'inicio"
+msgstr "Inte d'inicio"
 
 #: src/libvlc-module.c:783
 msgid "The stream will start at this position (in seconds)."
-msgstr "A emisión encetará en ista posición (en segundos)."
+msgstr "O fluxo s'encetará en ista posición (en segundos)."
 
 #: src/libvlc-module.c:785
 msgid "Stop time"
-msgstr "Tiempo de detención"
+msgstr "Inte d'aturada  "
 
 #: src/libvlc-module.c:787
 msgid "The stream will stop at this position (in seconds)."
-msgstr "A emisión aturará en ista posición (en segundos)."
+msgstr "O fluxo s'aturará en ista posición (en segundos)."
 
 #: src/libvlc-module.c:789
 msgid "Run time"
@@ -2743,7 +2754,7 @@ msgstr "Tiempo d'execución"
 
 #: src/libvlc-module.c:791
 msgid "The stream will run this duration (in seconds)."
-msgstr "Duración d'a emisión (en segundos)."
+msgstr "O fluxo s'emitirá mientres iste tiempo (en segundos)."
 
 #: src/libvlc-module.c:793
 msgid "Fast seek"
@@ -2751,7 +2762,7 @@ msgstr "Busca rapida"
 
 #: src/libvlc-module.c:795
 msgid "Favor speed over precision while seeking"
-msgstr "Afavorir velocidat sobre precisión en a busca"
+msgstr "Favoreixe a velocidat sobre a precisión mientres a busca"
 
 #: src/libvlc-module.c:797 modules/gui/qt4/dialogs/toolbar.cpp:455
 msgid "Playback speed"
@@ -2759,7 +2770,7 @@ msgstr "Velocidat de reproducción"
 
 #: src/libvlc-module.c:799
 msgid "This defines the playback speed (nominal speed is 1.0)."
-msgstr "Isto define a velocidat de reproducción (a velocidat nominal ye 1.0)."
+msgstr "Estableixe a velocidat de reproducción (a velocidat nominal ye 1.0)."
 
 #: src/libvlc-module.c:801
 msgid "Input list"
@@ -2770,12 +2781,12 @@ msgid ""
 "You can give a comma-separated list of inputs that will be concatenated "
 "together after the normal one."
 msgstr ""
-"Puede proporcionar una lista de dentradas, deseparadas por comas, que se "
+"Puet especificar una lista de dentradas deseparadas por comas que se "
 "concatenarán dimpués d'a normal."
 
 #: src/libvlc-module.c:806
 msgid "Input slave (experimental)"
-msgstr "Esclau de dentrada (experimental)"
+msgstr "Dentrada esclava (experimental)"
 
 #: src/libvlc-module.c:808
 msgid ""
@@ -2783,13 +2794,13 @@ msgid ""
 "is experimental, not all formats are supported. Use a '#' separated list of "
 "inputs."
 msgstr ""
-"Puede reproducir dende quantas dentradas a o mesmo tiempo. Ista "
-"caracteristica ye experimental, no se suportan totz os formatos. Use una "
-"lista de dentradas separadas por «#»."
+"Puet reproducir quantos fichers a o mesmo tiempo. Ista caracteristica ye "
+"experimental, no totz os formatos lo permiten. Faiga servir '#' ta deseparar "
+"os elementos d'una lista."
 
 #: src/libvlc-module.c:812
 msgid "Bookmarks list for a stream"
-msgstr "Lista de favoritos ta una emisión"
+msgstr "Lista de favoritos ta un fluxo"
 
 #: src/libvlc-module.c:814
 msgid ""
@@ -2797,54 +2808,54 @@ msgid ""
 "\"{name=bookmark-name,time=optional-time-offset,bytes=optional-byte-offset},"
 "{...}\""
 msgstr ""
-"Puede proporcionar manualment una lista de favoritos ta una emisión en a "
-"forma «{name=nombre-d'o-favorito,time=tiempo-de-compensación-opcional,"
-"bytes=byte-de-compensación-opcional},{...}»"
+"Puet especificar una lista de favoritos ta un fluxo d'ista traza: "
+"\"{name=nombre d'o vinclo, time=desplazamiento de tiempo opcional, "
+"bytes=desplazamiento de byte opcional},{etc.}\""
 
 #: src/libvlc-module.c:818 modules/gui/macosx/simple_prefs.m:249
 #: modules/gui/qt4/ui/sprefs_input.h:344
 msgid "Record directory or filename"
-msgstr "Carpeta u nombre de fichero de gravación"
+msgstr "Directorio u nombre d'o fichero de gravación"
 
 #: src/libvlc-module.c:820 modules/gui/macosx/simple_prefs.m:251
 msgid "Directory or filename where the records will be stored"
-msgstr "Carpeta u nombre de fichero an s'almagazenarán as gravacions"
+msgstr "Directorio u nombre de fichero an que s'almagazenarán as gravacions"
 
 #: src/libvlc-module.c:822
 msgid "Prefer native stream recording"
-msgstr "Preferir gravación d'emisión nativa"
+msgstr "Preferir a gravación de fluxo nativa"
 
 #: src/libvlc-module.c:824
 msgid ""
 "When possible, the input stream will be recorded instead of using the stream "
 "output module"
 msgstr ""
-"Quan sía posible, a emisión de dentrada será gravada en cuenta d'usar o "
-"modulo d'emisión de salida"
+"Quan sía posible, o fluxo de dentrada se gravará en cuenta d'usar o modulo "
+"de fluxo de salida"
 
 #: src/libvlc-module.c:827
 msgid "Timeshift directory"
-msgstr "Carpeta de cambeo de tiempo"
+msgstr "Directorio d'o timeshift"
 
 #: src/libvlc-module.c:829
 msgid "Directory used to store the timeshift temporary files."
-msgstr "Carpeta usada ta almagazenar os fichers temporals de cambeo de tiempo."
+msgstr "Directorio emplegau ta almagazenar os fichers temporals d'o timeshift."
 
 #: src/libvlc-module.c:831
 msgid "Timeshift granularity"
-msgstr "Granularidad de timeshift"
+msgstr "Granularidat d'o timeshift"
 
 #: src/libvlc-module.c:833
 msgid ""
 "This is the maximum size in bytes of the temporary files that will be used "
 "to store the timeshifted streams."
 msgstr ""
-"Grandaria maxima d'os fichers temporals en bytes a usar ta almagazenar as "
-"emisions cambeo de tiempo."
+"Ista ye a mida maxima en bytes d'os fichers temporals que s'emplegarán ta "
+"almagazenar os fluxos de timeshift."
 
 #: src/libvlc-module.c:836
 msgid "Change title according to current media"
-msgstr "Cambiar o titol d'acerdo a o meyo actual"
+msgstr "Cambiar o titol seguntes o fichero actual"
 
 #: src/libvlc-module.c:837
 msgid ""
@@ -2854,10 +2865,10 @@ msgid ""
 "\" (Fall back on Title - Artist)"
 msgstr ""
 "Ista opción permite establir o titol d'alcuerdo a o que se ye "
-"reproducindo<br>$a2: Artista<br>$b: Álbum<br>$c: Dreitos d'autor<br>$t: "
-"Titol<br>$g: Chenero<br>$n: Numero de pista<br>$p: Reproducindo agora<br>"
-"$A2: Calendata<br>$D: Duración<br>$Z: «Reproducindo agora» (Recurrir a Titol "
-"- Artísta)"
+"reproducindo<br>$a2: Artista<br>$b: Album<br>$c: Dreitos d'autor<br>$t: "
+"Titol<br>$g: Chenero<br>$n: Numero de pista<br>$p: Reproducindo-se agora<br>"
+"$A2: Calendata<br>$D: Duración<br>$Z: «Reproducindo-se agora» (Fer servir "
+"Titol - Artista como alternativa)"
 
 #: src/libvlc-module.c:844
 msgid ""
@@ -2867,44 +2878,45 @@ msgid ""
 "section. You can also set many miscellaneous subpictures options."
 msgstr ""
 "Istas opcions le permiten modificar o comportamiento d'o subsistema de "
-"subimágenes. Por eixemplo, puede habilitar filtros de sub-imachens (logo, "
-"etc.). los Habilite aquí y los configure en a sección de modulos «filtros de "
-"subimágenes». Tamién puede meter quantas opcions de subimágenes."
+"subimachenes. Por eixemplo, puet habilitar filtros de subimachens (logo, "
+"etc.). los Habilite-los aquí y configure-los en a sección de modulos "
+"«filtros de subimachenes». Tamién puede configurar quantas opcions de "
+"subimágenes."
 
 #: src/libvlc-module.c:850 modules/gui/qt4/ui/sprefs_subtitles.h:286
 msgid "Force subtitle position"
-msgstr "Forzar posición de subtítulos"
+msgstr "Forzar a posición d'os subtitols"
 
 #: src/libvlc-module.c:852
 msgid ""
 "You can use this option to place the subtitles under the movie, instead of "
 "over the movie. Try several positions."
 msgstr ""
-"Puede usar ista opción ta colocar os subtítulos baixo a cinta, en cuenta "
-"d'estar sobre a cinta. Prebe quantas posicions."
+"Puet emplegar ista opción ta ficar os subtitols en o cobaixo, en cuenta de "
+"en o cobalto. Prebe diferents puestos."
 
 #: src/libvlc-module.c:855
 msgid "Enable sub-pictures"
-msgstr "Habilitar subimágenes"
+msgstr "Habilitar as subimachens"
 
 #: src/libvlc-module.c:857
 msgid "You can completely disable the sub-picture processing."
-msgstr "Puede deshabilitar completament o proceso de subimágenes."
+msgstr "Puet deshabilitar completament o procesau de subimachens."
 
 #: src/libvlc-module.c:859 src/libvlc-module.c:1796 src/text/iso-639_def.h:145
 #: modules/gui/macosx/simple_prefs.m:294
 #: modules/stream_out/transcode/transcode.c:219
 #: modules/gui/qt4/ui/sprefs_subtitles.h:271
 msgid "On Screen Display"
-msgstr "Amostrar en pantalla"
+msgstr "En a pantalla"
 
 #: src/libvlc-module.c:861
 msgid ""
 "VLC can display messages on the video. This is called OSD (On Screen "
 "Display)."
 msgstr ""
-"VLC puede amostrar mensaches sobre o video. Isto se diz OSD (Amostrar en "
-"pantalla, On Screen Display)."
+"O VLC puet amostrar mensaches sobre o video. Isto se diz OSD (On Screen "
+"Display, en a pantalla)."
 
 #: src/libvlc-module.c:864
 msgid "Text rendering module"
