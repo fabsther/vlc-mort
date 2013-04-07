@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2012-12-11 15:41+0100\n"
+"POT-Creation-Date: 2013-04-07 22:23+0200\n"
 "PO-Revision-Date: 2013-03-03 17:18+0000\n"
 "Last-Translator: Rancher <theranchcowboy@gmail.com>\n"
 "Language-Team: Serbian (http://www.transifex.com/projects/p/vlc-trans/"
@@ -26,7 +26,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: include/vlc_common.h:1024
+#: include/vlc_common.h:1026
 msgid ""
 "This program comes with NO WARRANTY, to the extent permitted by law.\n"
 "You may redistribute it under the terms of the GNU General Public License;\n"
@@ -82,7 +82,7 @@ msgstr "Поставке за пречице на тастатури"
 #: modules/gui/macosx/MainMenu.m:292 modules/gui/macosx/output.m:170
 #: modules/gui/macosx/playlistinfo.m:116 modules/gui/macosx/simple_prefs.m:182
 #: modules/gui/macosx/wizard.m:383
-#: modules/gui/qt4/components/info_panels.cpp:516
+#: modules/gui/qt4/components/info_panels.cpp:518
 #: modules/gui/qt4/components/simple_preferences.cpp:88
 #: modules/services_discovery/mediadirs.c:77 modules/stream_out/es.c:93
 #: modules/stream_out/transcode/transcode.c:191
@@ -139,7 +139,7 @@ msgstr "Разне поставке и модули звука."
 #: modules/gui/macosx/MainMenu.m:305 modules/gui/macosx/output.m:160
 #: modules/gui/macosx/playlistinfo.m:106 modules/gui/macosx/simple_prefs.m:186
 #: modules/gui/macosx/simple_prefs.m:319 modules/gui/macosx/wizard.m:384
-#: modules/gui/qt4/components/info_panels.cpp:517
+#: modules/gui/qt4/components/info_panels.cpp:519
 #: modules/gui/qt4/components/simple_preferences.cpp:90
 #: modules/services_discovery/mediadirs.c:70 modules/stream_out/es.c:101
 #: modules/stream_out/transcode/transcode.c:161
@@ -760,7 +760,7 @@ msgstr ""
 
 #: src/audio_output/common.c:85 src/audio_output/common.c:125
 #: src/input/es_out.c:934 src/libvlc-module.c:697
-#: src/video_output/postprocessing.c:98 modules/gui/macosx/MainWindow.m:2429
+#: src/video_output/postprocessing.c:98 modules/gui/macosx/MainWindow.m:2441
 #: modules/video_filter/postproc.c:228
 msgid "Disable"
 msgstr "Онемогући"
@@ -988,9 +988,9 @@ msgid "decoder"
 msgstr "декодер"
 
 #: src/input/decoder.c:276 src/input/decoder.c:467
-#: modules/codec/avcodec/encoder.c:237 modules/codec/avcodec/encoder.c:245
-#: modules/codec/avcodec/encoder.c:282 modules/codec/avcodec/encoder.c:772
-#: modules/codec/avcodec/encoder.c:781 modules/stream_out/es.c:363
+#: modules/codec/avcodec/encoder.c:275 modules/codec/avcodec/encoder.c:283
+#: modules/codec/avcodec/encoder.c:320 modules/codec/avcodec/encoder.c:811
+#: modules/codec/avcodec/encoder.c:820 modules/stream_out/es.c:363
 #: modules/stream_out/es.c:378
 msgid "Streaming / Transcoding failed"
 msgstr "Емитовање/транскодирање није успело"
@@ -2396,7 +2396,7 @@ msgid "Default"
 msgstr "Подразумевано"
 
 #: src/libvlc-module.c:697 modules/gui/macosx/AudioEffects.m:66
-#: modules/gui/macosx/MainWindow.m:2427 modules/gui/macosx/wizard.m:357
+#: modules/gui/macosx/MainWindow.m:2439 modules/gui/macosx/wizard.m:357
 #: modules/gui/qt4/ui/equalizer.h:133 modules/gui/qt4/ui/vlm.h:290
 msgid "Enable"
 msgstr "Укључи"
@@ -5724,7 +5724,7 @@ msgstr "Аналогно"
 
 #: modules/access/decklink.cpp:91 modules/access/linsys/linsys_hdsdi.c:78
 #: modules/access/linsys/linsys_sdi.c:73 modules/demux/rawvid.c:59
-#: modules/gui/qt4/dialogs/toolbar.cpp:451 modules/stream_out/switcher.c:92
+#: modules/gui/qt4/dialogs/toolbar.cpp:451 modules/stream_out/switcher.c:94
 msgid "Aspect ratio"
 msgstr "Пропорције"
 
@@ -7695,7 +7695,7 @@ msgstr "Улазни Екран"
 
 #: modules/access/screen/screen.c:88 modules/access/screen/xcb.c:65
 #: modules/gui/macosx/MainMenu.m:509 modules/gui/macosx/open.m:182
-#: modules/gui/macosx/open.m:424 modules/gui/macosx/open.m:1230
+#: modules/gui/macosx/open.m:424 modules/gui/macosx/open.m:1234
 #: modules/gui/macosx/simple_prefs.m:594
 msgid "Screen"
 msgstr "Екран"
@@ -9443,7 +9443,7 @@ msgid ""
 "utility in /Applications/Utilities. Stereo mode is being used now."
 msgstr ""
 
-#: modules/audio_output/auhal.c:1048
+#: modules/audio_output/auhal.c:1057
 #, c-format
 msgid "%s (Encoded Output)"
 msgstr "%s (Енкодиран излаз)"
@@ -9589,11 +9589,11 @@ msgstr "PORTAUDIO аудио излаз"
 msgid "5.1"
 msgstr "5.1"
 
-#: modules/audio_output/pulse.c:45
+#: modules/audio_output/pulse.c:48
 msgid "Pulseaudio audio output"
 msgstr ""
 
-#: modules/audio_output/pulse.c:957
+#: modules/audio_output/pulse.c:978
 msgid "Audio device"
 msgstr ""
 
@@ -9712,15 +9712,15 @@ msgstr "FFmpeg аудио/видео енкодер"
 msgid "FFmpeg deinterlace video filter"
 msgstr "FFmpeg расплитање видео филтер"
 
-#: modules/codec/avcodec/avcodec.h:71 modules/codec/avcodec/avcodec.h:73
+#: modules/codec/avcodec/avcodec.h:80 modules/codec/avcodec/avcodec.h:82
 msgid "Direct rendering"
 msgstr "Директно рендеровање"
 
-#: modules/codec/avcodec/avcodec.h:75
+#: modules/codec/avcodec/avcodec.h:84
 msgid "Error resilience"
 msgstr "Толеранција грешака"
 
-#: modules/codec/avcodec/avcodec.h:77
+#: modules/codec/avcodec/avcodec.h:86
 msgid ""
 "FFmpeg can do error resilience.\n"
 "However, with a buggy encoder (such as the ISO MPEG-4 encoder from M$) this "
@@ -9728,11 +9728,11 @@ msgid ""
 "Valid values range from 0 to 4 (0 disables all errors resilience)."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:82
+#: modules/codec/avcodec/avcodec.h:91
 msgid "Workaround bugs"
 msgstr "Разрађене грешке "
 
-#: modules/codec/avcodec/avcodec.h:84
+#: modules/codec/avcodec/avcodec.h:93
 msgid ""
 "Try to fix some bugs:\n"
 "1  autodetect\n"
@@ -9756,12 +9756,12 @@ msgstr ""
 "Морате да унесете суму вредности. На пример, да исправите \"ac vlc\" и "
 "\"ump4\", унесите 40."
 
-#: modules/codec/avcodec/avcodec.h:95 modules/codec/avcodec/avcodec.h:204
+#: modules/codec/avcodec/avcodec.h:104 modules/codec/avcodec/avcodec.h:213
 #: modules/demux/rawdv.c:40 modules/stream_out/transcode/transcode.c:139
 msgid "Hurry up"
 msgstr "Пожури"
 
-#: modules/codec/avcodec/avcodec.h:97
+#: modules/codec/avcodec/avcodec.h:106
 msgid ""
 "The decoder can partially decode or skip frame(s) when there is not enough "
 "time. It's useful with low CPU power but it can produce distorted pictures."
@@ -9770,56 +9770,56 @@ msgstr ""
 "времена. То је корисно кад имате слабу моћ  CPU-а али може да произведе "
 "изобличене слике."
 
-#: modules/codec/avcodec/avcodec.h:101
+#: modules/codec/avcodec/avcodec.h:110
 msgid "Allow speed tricks"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:103
+#: modules/codec/avcodec/avcodec.h:112
 msgid ""
 "Allow non specification compliant speedup tricks. Faster but error-prone."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:105
+#: modules/codec/avcodec/avcodec.h:114
 msgid "Skip frame (default=0)"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:107
+#: modules/codec/avcodec/avcodec.h:116
 msgid ""
 "Force skipping of frames to speed up decoding (-1=None, 0=Default, 1=B-"
 "frames, 2=P-frames, 3=B+P frames, 4=all frames)."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:110
+#: modules/codec/avcodec/avcodec.h:119
 msgid "Skip idct (default=0)"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:112
+#: modules/codec/avcodec/avcodec.h:121
 msgid ""
 "Force skipping of idct to speed up decoding for frame types(-1=None, "
 "0=Default, 1=B-frames, 2=P-frames, 3=B+P frames, 4=all frames)."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:115
+#: modules/codec/avcodec/avcodec.h:124
 msgid "Debug mask"
 msgstr "Маска за дебаговање"
 
-#: modules/codec/avcodec/avcodec.h:116
+#: modules/codec/avcodec/avcodec.h:125
 msgid "Set FFmpeg debug mask"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:118
+#: modules/codec/avcodec/avcodec.h:127
 msgid "Codec name"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:119
+#: modules/codec/avcodec/avcodec.h:128
 msgid "Internal libavcodec codec name"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:122
+#: modules/codec/avcodec/avcodec.h:131
 msgid "Visualize motion vectors"
 msgstr "Визеуелизуј векторе кретања"
 
-#: modules/codec/avcodec/avcodec.h:124
+#: modules/codec/avcodec/avcodec.h:133
 msgid ""
 "You can overlay the motion vectors (arrows showing how the images move) on "
 "the image. This value is a mask, based on these values:\n"
@@ -9835,11 +9835,11 @@ msgstr ""
 "4 - прегледај уназад предвиђене MV-ове B оквира\n"
 "За прегледање свих вектора, вредност треба да буде 7."
 
-#: modules/codec/avcodec/avcodec.h:131
+#: modules/codec/avcodec/avcodec.h:140
 msgid "Low resolution decoding"
 msgstr "Декодирање у ниској резолуцији"
 
-#: modules/codec/avcodec/avcodec.h:132
+#: modules/codec/avcodec/avcodec.h:141
 msgid ""
 "Only decode a low resolution version of the video. This requires less "
 "processing power"
@@ -9847,11 +9847,11 @@ msgstr ""
 "Декодирај само верзију видеа са лошом резолуцијом. Ово захтева мању снагу "
 "процесирања"
 
-#: modules/codec/avcodec/avcodec.h:135 modules/gui/macosx/simple_prefs.m:262
+#: modules/codec/avcodec/avcodec.h:144 modules/gui/macosx/simple_prefs.m:262
 msgid "Skip the loop filter for H.264 decoding"
 msgstr "Прескочи филтер петље за H.264 декодирање"
 
-#: modules/codec/avcodec/avcodec.h:136
+#: modules/codec/avcodec/avcodec.h:145
 msgid ""
 "Skipping the loop filter (aka deblocking) usually has a detrimental effect "
 "on quality. However it provides a big speedup for high definition streams."
@@ -9859,76 +9859,76 @@ msgstr ""
 "Прескакање филтера петље (тзв. деблокирање) обично има штетан ефекат на "
 "квалитет. Ипак, обезбеђује велико убрзавање за токове високе дефиниције."
 
-#: modules/codec/avcodec/avcodec.h:140
+#: modules/codec/avcodec/avcodec.h:149
 msgid "Hardware decoding"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:141
+#: modules/codec/avcodec/avcodec.h:150
 msgid "This allows hardware decoding when available."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:143
+#: modules/codec/avcodec/avcodec.h:152
 msgid "Threads"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:144
+#: modules/codec/avcodec/avcodec.h:153
 msgid "Number of threads used for decoding, 0 meaning auto"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:151
+#: modules/codec/avcodec/avcodec.h:160
 msgid "Ratio of key frames"
 msgstr "Пропорција кључних фрејмова"
 
-#: modules/codec/avcodec/avcodec.h:152
+#: modules/codec/avcodec/avcodec.h:161
 msgid "Number of frames that will be coded for one key frame."
 msgstr "Број фрејмова који ће бити кодовани за један кључни фрејм."
 
-#: modules/codec/avcodec/avcodec.h:155
+#: modules/codec/avcodec/avcodec.h:164
 msgid "Ratio of B frames"
 msgstr "Пропорција Б оквира"
 
-#: modules/codec/avcodec/avcodec.h:156
+#: modules/codec/avcodec/avcodec.h:165
 msgid "Number of B frames that will be coded between two reference frames."
 msgstr "Број B оквира који ће бити кодирани између два референтна оквира."
 
-#: modules/codec/avcodec/avcodec.h:159
+#: modules/codec/avcodec/avcodec.h:168
 msgid "Video bitrate tolerance"
 msgstr "Толеранција брзине битова видеа"
 
-#: modules/codec/avcodec/avcodec.h:160
+#: modules/codec/avcodec/avcodec.h:169
 msgid "Video bitrate tolerance in kbit/s."
 msgstr "Толеранција брзине битова у kbit/s."
 
-#: modules/codec/avcodec/avcodec.h:162
+#: modules/codec/avcodec/avcodec.h:171
 msgid "Interlaced encoding"
 msgstr "Испреплетано енкодирање"
 
-#: modules/codec/avcodec/avcodec.h:163
+#: modules/codec/avcodec/avcodec.h:172
 msgid "Enable dedicated algorithms for interlaced frames."
 msgstr "Омогући посвећене алгоритме за испреплетане фрејмове."
 
-#: modules/codec/avcodec/avcodec.h:166
+#: modules/codec/avcodec/avcodec.h:175
 msgid "Interlaced motion estimation"
 msgstr "Процена испреплетаних радњи"
 
-#: modules/codec/avcodec/avcodec.h:167
+#: modules/codec/avcodec/avcodec.h:176
 msgid "Enable interlaced motion estimation algorithms. This requires more CPU."
 msgstr ""
 "Омогући испреплетане алгоритме процене кретања. Ово захтева више CPU-а."
 
-#: modules/codec/avcodec/avcodec.h:170
+#: modules/codec/avcodec/avcodec.h:179
 msgid "Pre-motion estimation"
 msgstr "Процена пред-кретања"
 
-#: modules/codec/avcodec/avcodec.h:171
+#: modules/codec/avcodec/avcodec.h:180
 msgid "Enable the pre-motion estimation algorithm."
 msgstr "Омогући алгоритам процене пред-кретања."
 
-#: modules/codec/avcodec/avcodec.h:174
+#: modules/codec/avcodec/avcodec.h:183
 msgid "Rate control buffer size"
 msgstr "Величина бафера за контролу брзине"
 
-#: modules/codec/avcodec/avcodec.h:175
+#: modules/codec/avcodec/avcodec.h:184
 msgid ""
 "Rate control buffer size (in kbytes). A bigger buffer will allow for better "
 "rate control, but will cause a delay in the stream."
@@ -9936,19 +9936,19 @@ msgstr ""
 "Величина бафера контроле брзине (у килобајтима). Већи бафер ће дозволити "
 "бољу контролу брзине, али ће изазвати кашњење у току."
 
-#: modules/codec/avcodec/avcodec.h:179
+#: modules/codec/avcodec/avcodec.h:188
 msgid "Rate control buffer aggressiveness"
 msgstr "Агресивност бафера контроле брзине"
 
-#: modules/codec/avcodec/avcodec.h:180
+#: modules/codec/avcodec/avcodec.h:189
 msgid "Rate control buffer aggressiveness."
 msgstr "Агресивност бафера контроле брзине."
 
-#: modules/codec/avcodec/avcodec.h:183
+#: modules/codec/avcodec/avcodec.h:192
 msgid "I quantization factor"
 msgstr "I фактор квантизације"
 
-#: modules/codec/avcodec/avcodec.h:185
+#: modules/codec/avcodec/avcodec.h:194
 msgid ""
 "Quantization factor of I frames, compared with P frames (for instance 1.0 => "
 "same qscale for I and P frames)."
@@ -9956,12 +9956,12 @@ msgstr ""
 "Фактор квантизације I оквира, у поређењу са  P оквирима (на пример 1.0 => "
 "иста qscale за I и P оквире)."
 
-#: modules/codec/avcodec/avcodec.h:188 modules/codec/x264.c:344
+#: modules/codec/avcodec/avcodec.h:197 modules/codec/x264.c:344
 #: modules/demux/mod.c:78
 msgid "Noise reduction"
 msgstr "Редукција шума"
 
-#: modules/codec/avcodec/avcodec.h:189
+#: modules/codec/avcodec/avcodec.h:198
 msgid ""
 "Enable a simple noise reduction algorithm to lower the encoding length and "
 "bitrate, at the expense of lower quality frames."
@@ -9969,11 +9969,11 @@ msgstr ""
 "Омогућите једноставан алгоритам редукције шума да би смањили  дужину "
 "енкодирања и брзину, али на рачун фрејмова нижег квалитета."
 
-#: modules/codec/avcodec/avcodec.h:193
+#: modules/codec/avcodec/avcodec.h:202
 msgid "MPEG4 quantization matrix"
 msgstr "MPEG4 матрикс квантизације"
 
-#: modules/codec/avcodec/avcodec.h:194
+#: modules/codec/avcodec/avcodec.h:203
 msgid ""
 "Use the MPEG4 quantization matrix for MPEG2 encoding. This generally yields "
 "a better looking picture, while still retaining the compatibility with "
@@ -9983,11 +9983,11 @@ msgstr ""
 "доприноси бољем изгледу слике, а и даље задржава компатибилност са "
 "стандардним MPEG2 декодерима."
 
-#: modules/codec/avcodec/avcodec.h:199
+#: modules/codec/avcodec/avcodec.h:208
 msgid "Quality level"
 msgstr "Ниво квалитета"
 
-#: modules/codec/avcodec/avcodec.h:200
+#: modules/codec/avcodec/avcodec.h:209
 msgid ""
 "Quality level for the encoding of motions vectors (this can slow down the "
 "encoding very much)."
@@ -9995,7 +9995,7 @@ msgstr ""
 "Ниво квалитета за енкодирање вектора кретања (ово може веома да успори "
 "енкодирање)."
 
-#: modules/codec/avcodec/avcodec.h:205
+#: modules/codec/avcodec/avcodec.h:214
 msgid ""
 "The encoder can make on-the-fly quality tradeoffs if your CPU can't keep up "
 "with the encoding rate. It will disable trellis quantization, then the rate "
@@ -10003,35 +10003,35 @@ msgid ""
 "to ease the encoder's task."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:211
+#: modules/codec/avcodec/avcodec.h:220
 msgid "Minimum video quantizer scale"
 msgstr "Минимално скалирање видео квантизатора"
 
-#: modules/codec/avcodec/avcodec.h:212
+#: modules/codec/avcodec/avcodec.h:221
 msgid "Minimum video quantizer scale."
 msgstr "Минимално скалирање видео квантизатора."
 
-#: modules/codec/avcodec/avcodec.h:215
+#: modules/codec/avcodec/avcodec.h:224
 msgid "Maximum video quantizer scale"
 msgstr "Максимално скалирање видео квантизатора"
 
-#: modules/codec/avcodec/avcodec.h:216
+#: modules/codec/avcodec/avcodec.h:225
 msgid "Maximum video quantizer scale."
 msgstr "Максимално скалирање видео квантизатора."
 
-#: modules/codec/avcodec/avcodec.h:219
+#: modules/codec/avcodec/avcodec.h:228
 msgid "Trellis quantization"
 msgstr "Квантизација решетке"
 
-#: modules/codec/avcodec/avcodec.h:220
+#: modules/codec/avcodec/avcodec.h:229
 msgid "Enable trellis quantization (rate distortion for block coefficients)."
 msgstr "Омогући квантизацију решетке (брзина кривљења за коефицијенте блока)."
 
-#: modules/codec/avcodec/avcodec.h:223
+#: modules/codec/avcodec/avcodec.h:232
 msgid "Fixed quantizer scale"
 msgstr "Фиксирано скалирање квантизатора"
 
-#: modules/codec/avcodec/avcodec.h:224
+#: modules/codec/avcodec/avcodec.h:233
 msgid ""
 "A fixed video quantizer scale for VBR encoding (accepted values: 0.01 to "
 "255.0)."
@@ -10039,36 +10039,36 @@ msgstr ""
 "Фиксирано скалирање видео квантизатора за VBR енкодирање (дозвољене "
 "вредности: од 0.01 до 255.0)."
 
-#: modules/codec/avcodec/avcodec.h:227
+#: modules/codec/avcodec/avcodec.h:236
 msgid "Strict standard compliance"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:228
+#: modules/codec/avcodec/avcodec.h:237
 msgid ""
 "Force a strict standard compliance when encoding (accepted values: -2 to 2)."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:231
+#: modules/codec/avcodec/avcodec.h:240
 msgid "Luminance masking"
 msgstr "Маскирање осветљења"
 
-#: modules/codec/avcodec/avcodec.h:232
+#: modules/codec/avcodec/avcodec.h:241
 msgid "Raise the quantizer for very bright macroblocks (default: 0.0)."
 msgstr "Подигни квантизатор за веома светле макроблокове (подразумевано: 0.0)."
 
-#: modules/codec/avcodec/avcodec.h:235
+#: modules/codec/avcodec/avcodec.h:244
 msgid "Darkness masking"
 msgstr "Маскирање неосветљења"
 
-#: modules/codec/avcodec/avcodec.h:236
+#: modules/codec/avcodec/avcodec.h:245
 msgid "Raise the quantizer for very dark macroblocks (default: 0.0)."
 msgstr "Подигни квантизатор за веома тамне макроблокове (подразумевано: 0.0)."
 
-#: modules/codec/avcodec/avcodec.h:239
+#: modules/codec/avcodec/avcodec.h:248
 msgid "Motion masking"
 msgstr "Маскирање кретања"
 
-#: modules/codec/avcodec/avcodec.h:240
+#: modules/codec/avcodec/avcodec.h:249
 msgid ""
 "Raise the quantizer for macroblocks with a high temporal complexity "
 "(default: 0.0)."
@@ -10076,22 +10076,22 @@ msgstr ""
 "Повећај квантизатор за макроблокове са већом привременом сложеношћу "
 "(подразумевано: 0.0)."
 
-#: modules/codec/avcodec/avcodec.h:243
+#: modules/codec/avcodec/avcodec.h:252
 msgid "Border masking"
 msgstr "Маскирање граничних линија"
 
-#: modules/codec/avcodec/avcodec.h:244
+#: modules/codec/avcodec/avcodec.h:253
 msgid ""
 "Raise the quantizer for macroblocks at the border of the frame (default: "
 "0.0)."
 msgstr ""
 "Повећај кватизатор за макроблокове на граничнику кадра (подразумевано: 0.0)."
 
-#: modules/codec/avcodec/avcodec.h:247
+#: modules/codec/avcodec/avcodec.h:256
 msgid "Luminance elimination"
 msgstr "Одстрањивање осветљења"
 
-#: modules/codec/avcodec/avcodec.h:248
+#: modules/codec/avcodec/avcodec.h:257
 msgid ""
 "Eliminates luminance blocks when the PSNR isn't much changed (default: 0.0). "
 "The H264 specification recommends -4."
@@ -10099,11 +10099,11 @@ msgstr ""
 "Одстрањује блокове осветљења када PSNR није много промењен (подразумевано: "
 "0.0). H264 спецификација препоручује -4."
 
-#: modules/codec/avcodec/avcodec.h:252
+#: modules/codec/avcodec/avcodec.h:261
 msgid "Chrominance elimination"
 msgstr "Елиминисање нијанси боје"
 
-#: modules/codec/avcodec/avcodec.h:253
+#: modules/codec/avcodec/avcodec.h:262
 msgid ""
 "Eliminates chrominance blocks when the PSNR isn't much changed (default: "
 "0.0). The H264 specification recommends 7."
@@ -10111,28 +10111,28 @@ msgstr ""
 "Елиминише блокове нијансе боје када PSNR није много промењен (подразумевано: "
 "0.0). H264 спецификација препоручује 7."
 
-#: modules/codec/avcodec/avcodec.h:257
+#: modules/codec/avcodec/avcodec.h:266
 msgid "Specify AAC audio profile to use"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:258
+#: modules/codec/avcodec/avcodec.h:267
 msgid ""
 "Specify the AAC audio profile to use for encoding the audio bitstream. It "
 "takes the following options: main, low, ssr (not supported) and ltp "
 "(default: main)"
 msgstr ""
 
-#: modules/codec/avcodec/encoder.c:238
+#: modules/codec/avcodec/encoder.c:276
 #, c-format
 msgid "\"%s\" is no video encoder."
 msgstr ""
 
-#: modules/codec/avcodec/encoder.c:246
+#: modules/codec/avcodec/encoder.c:284
 #, c-format
 msgid "\"%s\" is no audio encoder."
 msgstr ""
 
-#: modules/codec/avcodec/encoder.c:287
+#: modules/codec/avcodec/encoder.c:325
 #, c-format
 msgid ""
 "It seems your FFMPEG (libavcodec) installation lacks the following encoder:\n"
@@ -10143,7 +10143,7 @@ msgid ""
 "Do not contact the VideoLAN project about this issue.\n"
 msgstr ""
 
-#: modules/codec/avcodec/encoder.c:773 modules/codec/avcodec/encoder.c:782
+#: modules/codec/avcodec/encoder.c:812 modules/codec/avcodec/encoder.c:821
 msgid "VLC could not open the encoder."
 msgstr ""
 
@@ -12509,11 +12509,11 @@ msgstr ""
 msgid "VBI & Teletext"
 msgstr ""
 
-#: modules/control/dbus/dbus.c:138
+#: modules/control/dbus/dbus.c:139
 msgid "DBus"
 msgstr ""
 
-#: modules/control/dbus/dbus.c:140
+#: modules/control/dbus/dbus.c:142
 msgid "D-Bus control interface"
 msgstr ""
 
@@ -12592,7 +12592,7 @@ msgstr "Контрола звука"
 msgid "Position Control"
 msgstr ""
 
-#: modules/control/hotkeys.c:97 modules/gui/macosx/intf.m:2062
+#: modules/control/hotkeys.c:97 modules/gui/macosx/intf.m:2063
 msgid "Ignore"
 msgstr ""
 
@@ -15288,32 +15288,32 @@ msgid ""
 "information."
 msgstr ""
 
-#: modules/gui/macosx/intf.m:2021
+#: modules/gui/macosx/intf.m:2022
 msgid "No CrashLog found"
 msgstr ""
 
-#: modules/gui/macosx/intf.m:2021 modules/gui/macosx/prefs.m:230
+#: modules/gui/macosx/intf.m:2022 modules/gui/macosx/prefs.m:230
 #: modules/gui/macosx/simple_prefs.m:758
 msgid "Continue"
 msgstr "Настави"
 
-#: modules/gui/macosx/intf.m:2021
+#: modules/gui/macosx/intf.m:2022
 msgid "Couldn't find any trace of a previous crash."
 msgstr "Не могу да пронађем никакав траг претходног пада програма."
 
-#: modules/gui/macosx/intf.m:2060
+#: modules/gui/macosx/intf.m:2061
 msgid "Remove old preferences?"
 msgstr ""
 
-#: modules/gui/macosx/intf.m:2061
+#: modules/gui/macosx/intf.m:2062
 msgid "We just found an older version of VLC's preferences files."
 msgstr ""
 
-#: modules/gui/macosx/intf.m:2062
+#: modules/gui/macosx/intf.m:2063
 msgid "Move To Trash and Relaunch VLC"
 msgstr ""
 
-#: modules/gui/macosx/intf.m:2177
+#: modules/gui/macosx/intf.m:2178
 #, c-format
 msgid "VLC Debug Log (%s).rtfd"
 msgstr ""
@@ -15786,8 +15786,8 @@ msgid "Media Resource Locator (MRL)"
 msgstr ""
 
 #: modules/gui/macosx/open.m:107 modules/gui/macosx/open.m:163
-#: modules/gui/macosx/open.m:625 modules/gui/macosx/open.m:935
-#: modules/gui/macosx/open.m:1159 modules/gui/macosx/open.m:1412
+#: modules/gui/macosx/open.m:625 modules/gui/macosx/open.m:934
+#: modules/gui/macosx/open.m:1163 modules/gui/macosx/open.m:1416
 #: modules/gui/qt4/components/controller.hpp:114
 msgid "Open"
 msgstr "Отвори"
@@ -15899,18 +15899,18 @@ msgstr ""
 msgid "Address"
 msgstr "Адреса"
 
-#: modules/gui/macosx/open.m:169 modules/gui/macosx/open.m:1055
-#: modules/gui/macosx/open.m:1113
+#: modules/gui/macosx/open.m:169 modules/gui/macosx/open.m:1059
+#: modules/gui/macosx/open.m:1117
 msgid "Unicast"
 msgstr ""
 
-#: modules/gui/macosx/open.m:170 modules/gui/macosx/open.m:1070
-#: modules/gui/macosx/open.m:1128
+#: modules/gui/macosx/open.m:170 modules/gui/macosx/open.m:1074
+#: modules/gui/macosx/open.m:1132
 msgid "Multicast"
 msgstr ""
 
 #: modules/gui/macosx/open.m:178 modules/gui/macosx/open.m:436
-#: modules/gui/macosx/open.m:1241
+#: modules/gui/macosx/open.m:1245
 msgid "Capture Device"
 msgstr ""
 
@@ -15952,7 +15952,7 @@ msgstr ""
 msgid "Next Channel"
 msgstr "Следећи канал"
 
-#: modules/gui/macosx/open.m:195 modules/gui/macosx/open.m:1339
+#: modules/gui/macosx/open.m:195 modules/gui/macosx/open.m:1343
 msgid "Retrieving Channel Info..."
 msgstr ""
 
@@ -16021,8 +16021,8 @@ msgstr "Особине Фонта"
 msgid "Subtitle File"
 msgstr "Титл Фајл"
 
-#: modules/gui/macosx/open.m:624 modules/gui/macosx/open.m:1158
-#: modules/gui/macosx/open.m:1411 modules/gui/qt4/ui/open_file.h:162
+#: modules/gui/macosx/open.m:624 modules/gui/macosx/open.m:1162
+#: modules/gui/macosx/open.m:1415 modules/gui/qt4/ui/open_file.h:162
 msgid "Open File"
 msgstr "Отвори Фајл"
 
@@ -16031,11 +16031,11 @@ msgstr "Отвори Фајл"
 msgid "%i tracks"
 msgstr ""
 
-#: modules/gui/macosx/open.m:1345
+#: modules/gui/macosx/open.m:1349
 msgid "Composite input"
 msgstr ""
 
-#: modules/gui/macosx/open.m:1348
+#: modules/gui/macosx/open.m:1352
 msgid "S-Video input"
 msgstr ""
 
@@ -16148,7 +16148,7 @@ msgid "Read at media"
 msgstr ""
 
 #: modules/gui/macosx/playlistinfo.m:102
-#: modules/gui/qt4/components/info_panels.cpp:523
+#: modules/gui/qt4/components/info_panels.cpp:525
 msgid "Input bitrate"
 msgstr "Улазна брзина битова у секунди"
 
@@ -18084,11 +18084,11 @@ msgstr "Форсирај ажурирање задатих вредности у
 msgid "Comments"
 msgstr "Коментари"
 
-#: modules/gui/qt4/components/info_panels.cpp:343
+#: modules/gui/qt4/components/info_panels.cpp:345
 msgid "Extra metadata and other information are shown in this panel.\n"
 msgstr "Додатни мета подаци и остале информације су приказане у овом панелу.\n"
 
-#: modules/gui/qt4/components/info_panels.cpp:417
+#: modules/gui/qt4/components/info_panels.cpp:419
 msgid ""
 "Information about what your media or stream is made of.\n"
 "Muxer, Audio and Video Codecs, Subtitles are shown."
@@ -18096,81 +18096,81 @@ msgstr ""
 "Информације од чега је твоја датотека или мрежни ток сачињен.\n"
 "Muxer, аудио и аидео кодеци, титлови су приказани."
 
-#: modules/gui/qt4/components/info_panels.cpp:492
+#: modules/gui/qt4/components/info_panels.cpp:494
 msgid "Current media / stream statistics"
 msgstr ""
 
-#: modules/gui/qt4/components/info_panels.cpp:518
+#: modules/gui/qt4/components/info_panels.cpp:520
 msgid "Input/Read"
 msgstr ""
 
-#: modules/gui/qt4/components/info_panels.cpp:519
+#: modules/gui/qt4/components/info_panels.cpp:521
 msgid "Output/Written/Sent"
 msgstr ""
 
-#: modules/gui/qt4/components/info_panels.cpp:521
+#: modules/gui/qt4/components/info_panels.cpp:523
 msgid "Media data size"
 msgstr ""
 
-#: modules/gui/qt4/components/info_panels.cpp:525
+#: modules/gui/qt4/components/info_panels.cpp:527
 msgid "Demuxed data size"
 msgstr ""
 
-#: modules/gui/qt4/components/info_panels.cpp:526
+#: modules/gui/qt4/components/info_panels.cpp:528
 msgid "Content bitrate"
 msgstr ""
 
-#: modules/gui/qt4/components/info_panels.cpp:528
+#: modules/gui/qt4/components/info_panels.cpp:530
 msgid "Discarded (corrupted)"
 msgstr ""
 
-#: modules/gui/qt4/components/info_panels.cpp:530
+#: modules/gui/qt4/components/info_panels.cpp:532
 msgid "Dropped (discontinued)"
 msgstr ""
 
-#: modules/gui/qt4/components/info_panels.cpp:533
-#: modules/gui/qt4/components/info_panels.cpp:546
+#: modules/gui/qt4/components/info_panels.cpp:535
+#: modules/gui/qt4/components/info_panels.cpp:548
 msgid "Decoded"
 msgstr ""
 
-#: modules/gui/qt4/components/info_panels.cpp:534
-#: modules/gui/qt4/components/info_panels.cpp:547
+#: modules/gui/qt4/components/info_panels.cpp:536
+#: modules/gui/qt4/components/info_panels.cpp:549
 msgid "blocks"
 msgstr ""
 
-#: modules/gui/qt4/components/info_panels.cpp:535
+#: modules/gui/qt4/components/info_panels.cpp:537
 msgid "Displayed"
 msgstr ""
 
-#: modules/gui/qt4/components/info_panels.cpp:536
 #: modules/gui/qt4/components/info_panels.cpp:538
+#: modules/gui/qt4/components/info_panels.cpp:540
 msgid "frames"
 msgstr ""
 
-#: modules/gui/qt4/components/info_panels.cpp:537
-#: modules/gui/qt4/components/info_panels.cpp:550
+#: modules/gui/qt4/components/info_panels.cpp:539
+#: modules/gui/qt4/components/info_panels.cpp:552
 msgid "Lost"
 msgstr ""
 
-#: modules/gui/qt4/components/info_panels.cpp:540
-#: modules/gui/qt4/components/info_panels.cpp:541
+#: modules/gui/qt4/components/info_panels.cpp:542
+#: modules/gui/qt4/components/info_panels.cpp:543
 msgid "Sent"
 msgstr ""
 
-#: modules/gui/qt4/components/info_panels.cpp:540
+#: modules/gui/qt4/components/info_panels.cpp:542
 msgid "packets"
 msgstr ""
 
-#: modules/gui/qt4/components/info_panels.cpp:543
+#: modules/gui/qt4/components/info_panels.cpp:545
 msgid "Upstream rate"
 msgstr ""
 
-#: modules/gui/qt4/components/info_panels.cpp:548
+#: modules/gui/qt4/components/info_panels.cpp:550
 msgid "Played"
 msgstr ""
 
-#: modules/gui/qt4/components/info_panels.cpp:549
-#: modules/gui/qt4/components/info_panels.cpp:550
+#: modules/gui/qt4/components/info_panels.cpp:551
+#: modules/gui/qt4/components/info_panels.cpp:552
 msgid "buffers"
 msgstr ""
 
@@ -18194,25 +18194,25 @@ msgstr ""
 msgid "Download cover art"
 msgstr ""
 
-#: modules/gui/qt4/components/interface_widgets.cpp:567
+#: modules/gui/qt4/components/interface_widgets.cpp:572
 #: modules/gui/qt4/dialogs/toolbar.cpp:459
 msgid "Elapsed time"
 msgstr ""
 
-#: modules/gui/qt4/components/interface_widgets.cpp:571
+#: modules/gui/qt4/components/interface_widgets.cpp:576
 #: modules/gui/qt4/dialogs/toolbar.cpp:463
 msgid "Total/Remaining time"
 msgstr ""
 
-#: modules/gui/qt4/components/interface_widgets.cpp:573
+#: modules/gui/qt4/components/interface_widgets.cpp:578
 msgid "Click to toggle between total and remaining time"
 msgstr ""
 
-#: modules/gui/qt4/components/interface_widgets.cpp:579
+#: modules/gui/qt4/components/interface_widgets.cpp:584
 msgid "Click to toggle between elapsed and remaining time"
 msgstr "Кликни да пребацујеш између протеклог и преосталог времена"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:581
+#: modules/gui/qt4/components/interface_widgets.cpp:586
 msgid "Double click to jump to a chosen time position"
 msgstr "Дупли клик да пређеш на изабрану временску позицију"
 
@@ -20941,7 +20941,7 @@ msgstr ""
 msgid "Audio capture (PulseAudio)"
 msgstr ""
 
-#: modules/services_discovery/pulse.c:183 modules/stream_out/es.c:85
+#: modules/services_discovery/pulse.c:186 modules/stream_out/es.c:85
 msgid "Generic"
 msgstr ""
 
@@ -21659,7 +21659,7 @@ msgstr ""
 msgid "RTP stream output"
 msgstr "RTP излаз тока"
 
-#: modules/stream_out/select.c:45 modules/stream_out/switcher.c:95
+#: modules/stream_out/select.c:45 modules/stream_out/switcher.c:97
 msgid "Command UDP port"
 msgstr "Командни UDP порт "
 
@@ -21839,63 +21839,63 @@ msgstr ""
 msgid "Standard stream output"
 msgstr "Стандардни излаз тока"
 
-#: modules/stream_out/switcher.c:86 modules/gui/qt4/ui/sprefs_input.h:343
+#: modules/stream_out/switcher.c:88 modules/gui/qt4/ui/sprefs_input.h:343
 msgid "Files"
 msgstr "Фајлови"
 
-#: modules/stream_out/switcher.c:88
+#: modules/stream_out/switcher.c:90
 msgid "Full paths of the files separated by colons."
 msgstr "Пуне путање фајлова одовјених колонама."
 
-#: modules/stream_out/switcher.c:89
+#: modules/stream_out/switcher.c:91
 msgid "Sizes"
 msgstr "Величине"
 
-#: modules/stream_out/switcher.c:91
+#: modules/stream_out/switcher.c:93
 msgid "List of sizes separated by colons (720x576:480x576)."
 msgstr "Листа величина одвојених колонама (720x576:480x576)."
 
-#: modules/stream_out/switcher.c:94
+#: modules/stream_out/switcher.c:96
 msgid "Aspect ratio (4:3, 16:9)."
 msgstr "Пропорције (4:3, 16:9)."
 
-#: modules/stream_out/switcher.c:97
+#: modules/stream_out/switcher.c:99
 msgid "UDP port to listen to for commands."
 msgstr "UDP порт од којег се слушају команде."
 
-#: modules/stream_out/switcher.c:98
+#: modules/stream_out/switcher.c:100
 msgid "Command"
 msgstr "Команда"
 
-#: modules/stream_out/switcher.c:100
+#: modules/stream_out/switcher.c:102
 msgid "Initial command to execute."
 msgstr "Иницијална команда за извршавање."
 
-#: modules/stream_out/switcher.c:101
+#: modules/stream_out/switcher.c:103
 msgid "GOP size"
 msgstr "GOP величина"
 
-#: modules/stream_out/switcher.c:103
+#: modules/stream_out/switcher.c:105
 msgid "Number of P frames between two I frames."
 msgstr "Број P оквира између I оквира."
 
-#: modules/stream_out/switcher.c:104
+#: modules/stream_out/switcher.c:106
 msgid "Quantizer scale"
 msgstr "Опсег квантизатора"
 
-#: modules/stream_out/switcher.c:106
+#: modules/stream_out/switcher.c:108
 msgid "Fixed quantizer scale to use."
 msgstr "Фиксирани опсег квантизатора за употребу."
 
-#: modules/stream_out/switcher.c:107
+#: modules/stream_out/switcher.c:109
 msgid "Mute audio"
 msgstr "Аудио без звука"
 
-#: modules/stream_out/switcher.c:109
+#: modules/stream_out/switcher.c:111
 msgid "Mute audio when command is not 0."
 msgstr "Када команда није 0 аудио ће бити без звука."
 
-#: modules/stream_out/switcher.c:112
+#: modules/stream_out/switcher.c:114
 msgid "MPEG2 video switcher stream output"
 msgstr ""
 
@@ -24146,8 +24146,8 @@ msgid ""
 "comma-separated list of picture ID(s).These IDs are assigned in the \"mosaic-"
 "bridge\" module."
 msgstr ""
-"Можете да приморате редослед елемента на мозаику. Морате да дате листу ID"
-"(ова) слика одвојених зарезом.Ови ID-еви се додељују у \"mosaic-bridge\" "
+"Можете да приморате редослед елемента на мозаику. Морате да дате листу "
+"ID(ова) слика одвојених зарезом.Ови ID-еви се додељују у \"mosaic-bridge\" "
 "модулу."
 
 #: modules/video_filter/mosaic.c:148
@@ -26156,16 +26156,18 @@ msgstr "Лиценца"
 #: modules/gui/qt4/ui/sprefs_interface.h:503
 #: modules/gui/qt4/ui/sprefs_subtitles.h:270
 #: modules/gui/qt4/ui/sprefs_video.h:334 modules/gui/qt4/ui/streampanel.h:168
+#, fuzzy
 msgid "Form"
-msgstr ""
+msgstr "Формат"
 
 #: modules/gui/qt4/ui/equalizer.h:135
 msgid "Preset"
 msgstr ""
 
 #: modules/gui/qt4/ui/messages_panel.h:142
+#, fuzzy
 msgid "Verbosity:"
-msgstr ""
+msgstr "Детаљност (0, 1, 2)"
 
 #: modules/gui/qt4/ui/messages_panel.h:145
 msgid "&Save as..."
@@ -26177,8 +26179,9 @@ msgstr ""
 
 #: modules/gui/qt4/ui/open.h:243
 #: modules/gui/qt4/ui/podcast_configuration.h:101
+#, fuzzy
 msgid "Dialog"
-msgstr ""
+msgstr "Аналогно"
 
 #: modules/gui/qt4/ui/open.h:246
 msgid "Show extended options"
@@ -26189,8 +26192,9 @@ msgid "Show &more options"
 msgstr "Прикажи &напредне опције"
 
 #: modules/gui/qt4/ui/open.h:251
+#, fuzzy
 msgid "Change the caching for the media"
-msgstr ""
+msgstr "Промени приказано име сервиса."
 
 #: modules/gui/qt4/ui/open.h:254
 msgid "MRL"
@@ -26205,8 +26209,9 @@ msgid "Edit Options"
 msgstr "Уреди опције"
 
 #: modules/gui/qt4/ui/open.h:257
+#, fuzzy
 msgid "Extra media"
-msgstr ""
+msgstr "&Сачувај мета податаке"
 
 #: modules/gui/qt4/ui/open.h:259
 msgid "Complete MRL for VLC internal"
@@ -26217,8 +26222,9 @@ msgid "Select the file"
 msgstr "Изабери фајл"
 
 #: modules/gui/qt4/ui/open.h:266
+#, fuzzy
 msgid "Change the start time for the media"
-msgstr ""
+msgstr "Промени приказано име сервиса."
 
 #: modules/gui/qt4/ui/open.h:268
 msgid "HH'H':mm'm':ss's'.zzz"
@@ -26233,8 +26239,9 @@ msgid "Capture mode"
 msgstr "Мод снимања"
 
 #: modules/gui/qt4/ui/open_capture.h:100
+#, fuzzy
 msgid "Select the capture device type"
-msgstr ""
+msgstr "Изабери фајл"
 
 #: modules/gui/qt4/ui/open_capture.h:102
 msgid "Device Selection"
@@ -26387,16 +26394,18 @@ msgid "MKV"
 msgstr "MKV"
 
 #: modules/gui/qt4/ui/profiles.h:475
+#, fuzzy
 msgid "Encapsulation"
-msgstr ""
+msgstr "Метод Енкапсулације"
 
 #: modules/gui/qt4/ui/profiles.h:479 modules/gui/qt4/ui/profiles.h:498
 msgid " kb/s"
 msgstr " kb/s"
 
 #: modules/gui/qt4/ui/profiles.h:480
+#, fuzzy
 msgid "Frame Rate"
-msgstr ""
+msgstr "Брзина кадрова"
 
 #: modules/gui/qt4/ui/profiles.h:482
 msgid " fps"
@@ -26413,36 +26422,42 @@ msgid "00000; "
 msgstr "00000; "
 
 #: modules/gui/qt4/ui/profiles.h:492
+#, fuzzy
 msgid "Keep original video track"
-msgstr ""
+msgstr "Задржи првобитну величину"
 
 #: modules/gui/qt4/ui/profiles.h:493
 msgid "Video codec"
 msgstr "Видео кодек"
 
 #: modules/gui/qt4/ui/profiles.h:495
+#, fuzzy
 msgid "Keep original audio track"
-msgstr ""
+msgstr "Задржи првобитну величину"
 
 #: modules/gui/qt4/ui/profiles.h:500
+#, fuzzy
 msgid "Sample Rate"
-msgstr ""
+msgstr "Брзина узорковања"
 
 #: modules/gui/qt4/ui/profiles.h:501
 msgid "Audio codec"
 msgstr "Аудио кодек"
 
 #: modules/gui/qt4/ui/profiles.h:503
+#, fuzzy
 msgid "Overlay subtitles on the video"
-msgstr ""
+msgstr "Додај титл"
 
 #: modules/gui/qt4/ui/sout.h:329
+#, fuzzy
 msgid "Destinations"
-msgstr ""
+msgstr "Одрериште"
 
 #: modules/gui/qt4/ui/sout.h:330
+#, fuzzy
 msgid "New destination"
-msgstr ""
+msgstr "Одрериште"
 
 #: modules/gui/qt4/ui/sout.h:332
 msgid ""
@@ -26451,20 +26466,24 @@ msgid ""
 msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:333
+#, fuzzy
 msgid "Display locally"
-msgstr ""
+msgstr "Прикажи ток локално"
 
 #: modules/gui/qt4/ui/sout.h:336
+#, fuzzy
 msgid "Activate Transcoding"
-msgstr ""
+msgstr "Енкодирање титлова"
 
 #: modules/gui/qt4/ui/sout.h:339
+#, fuzzy
 msgid "Destination Setup"
-msgstr ""
+msgstr "Одрериште"
 
 #: modules/gui/qt4/ui/sout.h:340
+#, fuzzy
 msgid "Miscellaneous Options"
-msgstr ""
+msgstr "Разно"
 
 #: modules/gui/qt4/ui/sout.h:341
 msgid "Stream all elementary streams"
@@ -26475,36 +26494,43 @@ msgid "Group name"
 msgstr "Име групе"
 
 #: modules/gui/qt4/ui/sout.h:345
+#, fuzzy
 msgid "Generated stream output string"
-msgstr ""
+msgstr "Опште поставке излаза тока"
 
 #: modules/gui/qt4/ui/sout.h:347
+#, fuzzy
 msgid "Option Setup"
-msgstr ""
+msgstr "Опције"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:434
 msgid " %"
 msgstr " %"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:436
+#, fuzzy
 msgid "Output module:"
-msgstr ""
+msgstr "Излазни модули"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:441
+#, fuzzy
 msgid "Visualization:"
-msgstr ""
+msgstr "Визуелизације"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:442
+#, fuzzy
 msgid "Enable Time-Stretching audio"
-msgstr ""
+msgstr "Омогући звук"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:443
+#, fuzzy
 msgid "Dolby Surround:"
-msgstr ""
+msgstr "Dolby Surround"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:444
+#, fuzzy
 msgid "Replay gain mode:"
-msgstr ""
+msgstr "Изабери фасциклу"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:445
 msgid "Headphone surround effect"
@@ -26515,8 +26541,9 @@ msgid "Normalize volume to:"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:448
+#, fuzzy
 msgid "Preferred audio language:"
-msgstr ""
+msgstr "Подразумевани аудио језик"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:449
 msgid "Password:"
@@ -26559,32 +26586,37 @@ msgid "Optical drive"
 msgstr "Оптички уређај"
 
 #: modules/gui/qt4/ui/sprefs_input.h:342
+#, fuzzy
 msgid "Default optical device"
-msgstr ""
+msgstr "Подразумевани уређаји"
 
 #: modules/gui/qt4/ui/sprefs_input.h:346
 msgid "Damaged or incomplete AVI file"
 msgstr "Оштећена или некомплетна AVI датотека"
 
 #: modules/gui/qt4/ui/sprefs_input.h:349
+#, fuzzy
 msgid "HTTP proxy URL"
-msgstr ""
+msgstr "HTTP прокси"
 
 #: modules/gui/qt4/ui/sprefs_input.h:350
 msgid "HTTP (default)"
 msgstr "HTTP (подразумевано)"
 
 #: modules/gui/qt4/ui/sprefs_input.h:351
+#, fuzzy
 msgid "RTP over RTSP (TCP)"
-msgstr ""
+msgstr "Користи RTP преко RTSP-а (TCP)"
 
 #: modules/gui/qt4/ui/sprefs_input.h:352
+#, fuzzy
 msgid "Live555 stream transport"
-msgstr ""
+msgstr "Излаз тока фајла"
 
 #: modules/gui/qt4/ui/sprefs_input.h:353
+#, fuzzy
 msgid "Default caching policy"
-msgstr ""
+msgstr "Подразумевано енкодовање"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:504
 msgid "Instances"
@@ -26595,8 +26627,11 @@ msgid "Allow only one instance"
 msgstr "Дозволи покретање само једног примерка"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:506
+#, fuzzy
 msgid "Enqueue files when in one instance mode"
 msgstr ""
+"Уврсти ставке у листу за пуштање када се ради у режиму рада једног примерка "
+"програма"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:509
 msgid "Every "
@@ -26607,12 +26642,14 @@ msgid "Separate words by | (without space)"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:514
+#, fuzzy
 msgid "Save recently played items"
-msgstr ""
+msgstr "Сачувај претходно пуштане датотеке у менију"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:515
+#, fuzzy
 msgid "Album art download policy:"
-msgstr ""
+msgstr "Само ручно преузимање"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:516
 msgid "Activate updates notifier"
@@ -26635,8 +26672,9 @@ msgid "Set up associations..."
 msgstr "Придружи жељене формате..."
 
 #: modules/gui/qt4/ui/sprefs_interface.h:524
+#, fuzzy
 msgid "Configure Media Library"
-msgstr ""
+msgstr "Библиотека датотека"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:525
 msgid "Look and feel"
@@ -26647,8 +26685,9 @@ msgid "Use custom skin"
 msgstr "Користи прилагођену маску"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:528
+#, fuzzy
 msgid "This is VLC's default interface, with a native look and feel."
-msgstr ""
+msgstr "Користи минимални интерфејс, без алатки и са мање менија."
 
 #: modules/gui/qt4/ui/sprefs_interface.h:530
 msgid "Use native style"
@@ -26667,8 +26706,9 @@ msgid "Pause playback when minimized"
 msgstr "Паузирај репродукцију кад је умањен"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:534
+#, fuzzy
 msgid "Integrate video in interface"
-msgstr ""
+msgstr "Уградите видео-излаз у главно сучеље."
 
 #: modules/gui/qt4/ui/sprefs_interface.h:535
 msgid "Resize interface to video size"
@@ -26755,12 +26795,14 @@ msgid "KVA"
 msgstr "KVA"
 
 #: modules/gui/qt4/ui/sprefs_video.h:349
+#, fuzzy
 msgid "Deinterlacing"
-msgstr ""
+msgstr "Расплитање"
 
 #: modules/gui/qt4/ui/sprefs_video.h:350
+#, fuzzy
 msgid "Force Aspect Ratio"
-msgstr ""
+msgstr "Размера"
 
 #: modules/gui/qt4/ui/sprefs_video.h:356
 msgid "vlc-snap"
@@ -26775,36 +26817,42 @@ msgid "Stuff"
 msgstr ""
 
 #: modules/gui/qt4/ui/streampanel.h:174
+#, fuzzy
 msgid "Edit settings"
-msgstr ""
+msgstr "Поставке звука"
 
 #: modules/gui/qt4/ui/streampanel.h:175
+#, fuzzy
 msgid "Control"
-msgstr ""
+msgstr "Контроле"
 
 #: modules/gui/qt4/ui/streampanel.h:176
 msgid "Run manually"
 msgstr "Ручно покрени"
 
 #: modules/gui/qt4/ui/streampanel.h:177
+#, fuzzy
 msgid "Setup schedule"
-msgstr ""
+msgstr "Заказивање"
 
 #: modules/gui/qt4/ui/streampanel.h:178
+#, fuzzy
 msgid "Run on schedule"
-msgstr ""
+msgstr "Заказивање"
 
 #: modules/gui/qt4/ui/streampanel.h:179
 msgid "Status"
 msgstr "Статус"
 
 #: modules/gui/qt4/ui/streampanel.h:180
+#, fuzzy
 msgid "P/P"
-msgstr ""
+msgstr "UDP/RTP"
 
 #: modules/gui/qt4/ui/streampanel.h:183
+#, fuzzy
 msgid "Prev"
-msgstr ""
+msgstr "Претходно"
 
 #: modules/gui/qt4/ui/streampanel.h:184
 msgid "Add Input"
@@ -26831,8 +26879,9 @@ msgid "Do you want to download it ?"
 msgstr "Желите ли да је преузмете?"
 
 #: modules/gui/qt4/ui/video_effects.h:1310
+#, fuzzy
 msgid "Essential"
-msgstr ""
+msgstr "просторно"
 
 #: modules/gui/qt4/ui/video_effects.h:1324
 #: modules/gui/qt4/ui/video_effects.h:1333
@@ -26840,8 +26889,9 @@ msgid ">HHHHHH;#"
 msgstr ">HHHHHH;#"
 
 #: modules/gui/qt4/ui/video_effects.h:1325
+#, fuzzy
 msgid "Negate colors"
-msgstr ""
+msgstr "Боја ивице"
 
 #: modules/gui/qt4/ui/video_effects.h:1338
 msgid "Colors"
@@ -26852,16 +26902,18 @@ msgid "Interactive Zoom"
 msgstr "Интерактивно увећање"
 
 #: modules/gui/qt4/ui/video_effects.h:1340
+#, fuzzy
 msgid "Wall"
-msgstr ""
+msgstr "Тапета"
 
 #: modules/gui/qt4/ui/video_effects.h:1345
 msgid "Angle"
 msgstr "Угао"
 
 #: modules/gui/qt4/ui/video_effects.h:1349
+#, fuzzy
 msgid "Black slot"
-msgstr ""
+msgstr "Црна"
 
 #: modules/gui/qt4/ui/video_effects.h:1353
 #: modules/gui/qt4/ui/video_effects.h:1370
@@ -26885,24 +26937,28 @@ msgid "Edge weightning"
 msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1374
+#, fuzzy
 msgid "Output Color Filtermode"
-msgstr ""
+msgstr "Модул видео излаза"
 
 #: modules/gui/qt4/ui/video_effects.h:1375
+#, fuzzy
 msgid "Brightness (%)"
-msgstr ""
+msgstr "Осветљеност"
 
 #: modules/gui/qt4/ui/video_effects.h:1376
+#, fuzzy
 msgid "Darkness limit"
-msgstr ""
+msgstr "Маскирање неосветљења"
 
 #: modules/gui/qt4/ui/video_effects.h:1377
 msgid "Mark analyzed Pixels"
 msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1379
+#, fuzzy
 msgid "Filter threshold (%)"
-msgstr ""
+msgstr "Праг осветљености"
 
 #: modules/gui/qt4/ui/video_effects.h:1380
 msgid "Filter smoothness (%)"
@@ -26917,24 +26973,29 @@ msgid "Anti-Flickering"
 msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1387
+#, fuzzy
 msgid "Soften"
-msgstr ""
+msgstr "Мекано"
 
 #: modules/gui/qt4/ui/video_effects.h:1391
+#, fuzzy
 msgid "Spatial blur"
-msgstr ""
+msgstr "просторно"
 
 #: modules/gui/qt4/ui/video_effects.h:1393
+#, fuzzy
 msgid "Mirror"
-msgstr ""
+msgstr "Грешка"
 
 #: modules/gui/qt4/ui/vlm.h:287
+#, fuzzy
 msgid "VLM configurator"
-msgstr ""
+msgstr "&VLM подешавање"
 
 #: modules/gui/qt4/ui/vlm.h:288
+#, fuzzy
 msgid "Media Manager Edition"
-msgstr ""
+msgstr "Информације датотеке"
 
 #: modules/gui/qt4/ui/vlm.h:289
 msgid "Name:"
@@ -26957,12 +27018,14 @@ msgid "Select Output"
 msgstr "Изабери излаз"
 
 #: modules/gui/qt4/ui/vlm.h:295
+#, fuzzy
 msgid "Time Control"
-msgstr ""
+msgstr "Контрола звука"
 
 #: modules/gui/qt4/ui/vlm.h:296
+#, fuzzy
 msgid "Mux Control"
-msgstr ""
+msgstr "Контроле"
 
 #: modules/gui/qt4/ui/vlm.h:297
 msgid "Muxer:"
@@ -28031,8 +28094,8 @@ msgstr ""
 #~ "DirectX device number: 0 default device, 1..N device by number(Note that "
 #~ "the default device appears as 0 AND another number)."
 #~ msgstr ""
-#~ "DirectX број уређаја: 0 подразумевани уређај, 1..N уређај по броју"
-#~ "(Приметите да се подразумевани уређај појављује као 0 И други број)."
+#~ "DirectX број уређаја: 0 подразумевани уређај, 1..N уређај по "
+#~ "броју(Приметите да се подразумевани уређај појављује као 0 И други број)."
 
 #~ msgid ""
 #~ "Force the specified number of consecutive B-frames to be used, except "
@@ -28407,9 +28470,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Login:"
 #~ msgstr "Пријава"
-
-#~ msgid "UDP/RTP"
-#~ msgstr "UDP/RTP"
 
 #~ msgid ""
 #~ "These are the settings for the input, demultiplexing and decoding parts "
@@ -28933,9 +28993,6 @@ msgstr ""
 #~ msgid "Taskbar"
 #~ msgstr "Линија задатака"
 
-#~ msgid "Use minimal interface, with no toolbar and fewer menus."
-#~ msgstr "Користи минимални интерфејс, без алатки и са мање менија."
-
 #~ msgid "Resize VLC to match the video resolution."
 #~ msgstr "Промени величину VLC-а тако да одговара резолуцији видеа."
 
@@ -29361,10 +29418,6 @@ msgstr ""
 #~ msgstr "Видео филтер"
 
 #, fuzzy
-#~ msgid "Advance of subtitles over video:"
-#~ msgstr "Додај титл"
-
-#, fuzzy
 #~ msgid "Speed of the subtitles:"
 #~ msgstr "Одабери титл"
 
@@ -29595,10 +29648,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Audio output saved volume"
 #~ msgstr "Праг излазног аудио нивоа"
-
-#, fuzzy
-#~ msgid "Video output filter module"
-#~ msgstr "Модул видео излаза"
 
 #, fuzzy
 #~ msgid "UDP port"
@@ -30268,10 +30317,6 @@ msgstr ""
 #~ msgstr "Приватност / Мрежна интеракција"
 
 #, fuzzy
-#~ msgid "&Extra Metadata"
-#~ msgstr "&Сачувај мета податаке"
-
-#, fuzzy
 #~ msgid "&Codec Details"
 #~ msgstr "Улаз и подешавање Кодека"
 
@@ -30282,10 +30327,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "C&lear"
 #~ msgstr "Обриши"
-
-#, fuzzy
-#~ msgid "Verbosity Level"
-#~ msgstr "Детаљност (0, 1, 2)"
 
 #, fuzzy
 #~ msgid "Message filter"
@@ -30465,10 +30506,6 @@ msgstr ""
 #~ msgstr "Подразумевани ток"
 
 #, fuzzy
-#~ msgid "Embed video in interface"
-#~ msgstr "Уградите видео-излаз у главно сучеље."
-
-#, fuzzy
 #~ msgid "Refresh"
 #~ msgstr "Освежи листу"
 
@@ -30532,10 +30569,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Select the protocol for the URL."
 #~ msgstr "Изаберите директоријум за чување"
-
-#, fuzzy
-#~ msgid "Select the port used"
-#~ msgstr "Изабери фајл"
 
 #, fuzzy
 #~ msgid "Other codecs"
@@ -30769,10 +30802,6 @@ msgstr ""
 #~ msgstr "Усправно преокретање"
 
 #, fuzzy
-#~ msgid "Correct Aspect Ratio"
-#~ msgstr "Размера"
-
-#, fuzzy
 #~ msgid "Stay On Top"
 #~ msgstr "Увек &на врху"
 
@@ -30975,10 +31004,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Video Port"
 #~ msgstr "Видео порт"
-
-#, fuzzy
-#~ msgid "Select play mode"
-#~ msgstr "Изабери фасциклу"
 
 #, fuzzy
 #~ msgid "Alignment:"
