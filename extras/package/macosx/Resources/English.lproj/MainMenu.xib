@@ -21,17 +21,17 @@
     </object>
     <object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
       <bool key="EncodedWithXMLCoder">YES</bool>
-      <integer value="4850"/>
-      <integer value="2730"/>
-      <integer value="915"/>
-      <integer value="4722"/>
-      <integer value="4845"/>
       <integer value="4983"/>
       <integer value="1617"/>
+      <integer value="4722"/>
       <integer value="2770"/>
-      <integer value="4756"/>
+      <integer value="2730"/>
       <integer value="4948"/>
+      <integer value="4845"/>
       <integer value="29"/>
+      <integer value="4756"/>
+      <integer value="4850"/>
+      <integer value="915"/>
     </object>
     <object class="NSArray" key="IBDocument.PluginDependencies">
       <bool key="EncodedWithXMLCoder">YES</bool>
@@ -4511,7 +4511,7 @@ LCAuLi4</string>
             <bool key="NSEnabled">YES</bool>
             <object class="NSButtonCell" key="NSCell" id="978616291">
               <int key="NSCellFlags">67108864</int>
-              <int key="NSCellFlags2">134217728</int>
+              <int key="NSCellFlags2">0</int>
               <string key="NSContents"/>
               <reference key="NSSupport" ref="841513812"/>
               <string key="NSCellIdentifier">_NS:610</string>
@@ -4557,7 +4557,7 @@ LCAuLi4</string>
             <bool key="NSEnabled">YES</bool>
             <object class="NSButtonCell" key="NSCell" id="155309985">
               <int key="NSCellFlags">67108864</int>
-              <int key="NSCellFlags2">134217728</int>
+              <int key="NSCellFlags2">0</int>
               <string key="NSContents"/>
               <reference key="NSSupport" ref="841513812"/>
               <string key="NSCellIdentifier">_NS:610</string>
@@ -4861,19 +4861,19 @@ LCAuLi4</string>
           <object class="NSButton" id="177908053">
             <reference key="NSNextResponder" ref="117751361"/>
             <int key="NSvFlags">268</int>
-            <string key="NSFrame">{{48, 1}, {14, 16}}</string>
+            <string key="NSFrame">{{47, 3}, {14, 16}}</string>
             <reference key="NSSuperview" ref="117751361"/>
             <string key="NSReuseIdentifierKey">_NS:610</string>
             <bool key="NSEnabled">YES</bool>
             <object class="NSButtonCell" key="NSCell" id="867402551">
-              <int key="NSCellFlags">-2080374784</int>
-              <int key="NSCellFlags2">134217728</int>
+              <int key="NSCellFlags">67108864</int>
+              <int key="NSCellFlags2">0</int>
               <string key="NSContents"/>
               <reference key="NSSupport" ref="841513812"/>
               <string key="NSCellIdentifier">_NS:610</string>
               <reference key="NSControlView" ref="177908053"/>
               <int key="NSButtonFlags">138690560</int>
-              <int key="NSButtonFlags2">6</int>
+              <int key="NSButtonFlags2">194</int>
               <string key="NSAlternateContents"/>
               <string key="NSKeyEquivalent"/>
               <int key="NSPeriodicDelay">200</int>
@@ -4884,19 +4884,19 @@ LCAuLi4</string>
           <object class="NSButton" id="3794738">
             <reference key="NSNextResponder" ref="117751361"/>
             <int key="NSvFlags">268</int>
-            <string key="NSFrame">{{28, 1}, {14, 16}}</string>
+            <string key="NSFrame">{{27, 3}, {14, 16}}</string>
             <reference key="NSSuperview" ref="117751361"/>
             <string key="NSReuseIdentifierKey">_NS:610</string>
             <bool key="NSEnabled">YES</bool>
             <object class="NSButtonCell" key="NSCell" id="721335225">
               <int key="NSCellFlags">67108864</int>
-              <int key="NSCellFlags2">134217728</int>
+              <int key="NSCellFlags2">0</int>
               <string key="NSContents"/>
               <reference key="NSSupport" ref="841513812"/>
               <string key="NSCellIdentifier">_NS:610</string>
               <reference key="NSControlView" ref="3794738"/>
               <int key="NSButtonFlags">138690560</int>
-              <int key="NSButtonFlags2">6</int>
+              <int key="NSButtonFlags2">194</int>
               <string key="NSAlternateContents"/>
               <string key="NSKeyEquivalent"/>
               <int key="NSPeriodicDelay">200</int>
@@ -4907,19 +4907,19 @@ LCAuLi4</string>
           <object class="NSButton" id="713077498">
             <reference key="NSNextResponder" ref="117751361"/>
             <int key="NSvFlags">268</int>
-            <string key="NSFrame">{{8, 1}, {14, 16}}</string>
+            <string key="NSFrame">{{7, 3}, {14, 16}}</string>
             <reference key="NSSuperview" ref="117751361"/>
             <string key="NSReuseIdentifierKey">_NS:610</string>
             <bool key="NSEnabled">YES</bool>
             <object class="NSButtonCell" key="NSCell" id="384604763">
               <int key="NSCellFlags">67108864</int>
-              <int key="NSCellFlags2">134217728</int>
+              <int key="NSCellFlags2">0</int>
               <string key="NSContents"/>
               <reference key="NSSupport" ref="841513812"/>
               <string key="NSCellIdentifier">_NS:610</string>
               <reference key="NSControlView" ref="713077498"/>
-              <int key="NSButtonFlags">139214848</int>
-              <int key="NSButtonFlags2">6</int>
+              <int key="NSButtonFlags">138690560</int>
+              <int key="NSButtonFlags2">194</int>
               <string key="NSAlternateContents"/>
               <string key="NSKeyEquivalent"/>
               <int key="NSPeriodicDelay">200</int>
@@ -12550,7 +12550,7 @@ LCAuLi4</string>
           <string>{{329, 634}, {100, 100}}</string>
           <string>com.apple.InterfaceBuilder.CocoaPlugin</string>
           <string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-          <string>{{363, 735}, {400, 22}}</string>
+          <string>{{934, 232}, {400, 22}}</string>
           <string>com.apple.InterfaceBuilder.CocoaPlugin</string>
           <object class="NSAffineTransform"/>
           <string>VLCCustomWindowCloseButton</string>
@@ -12671,7 +12671,7 @@ LCAuLi4</string>
           </object>
           <boolean value="YES"/>
           <string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-          <string>{{363, 734}, {400, 22}}</string>
+          <string>{{934, 162}, {400, 22}}</string>
           <string>com.apple.InterfaceBuilder.CocoaPlugin</string>
           <string>com.apple.InterfaceBuilder.CocoaPlugin</string>
           <object class="NSAffineTransform">
