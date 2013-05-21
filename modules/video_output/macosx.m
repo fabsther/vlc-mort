@@ -168,7 +168,7 @@ static int Open (vlc_object_t *this)
 
         if (!container)
         {
-            msg_Dbg(vd, "No drawable-nsobject nor vout_window_t found, passing over.");
+            msg_Err(vd, "No drawable-nsobject nor vout_window_t found, passing over.");
             goto error;
         }
     }
@@ -219,6 +219,7 @@ static int Open (vlc_object_t *this)
     sys->vgl = vout_display_opengl_New (&vd->fmt, &subpicture_chromas, &sys->gl);
     if (!sys->vgl)
     {
+        msg_Err(vd, "Error while initializing opengl display.");
         sys->gl.sys = NULL;
         goto error;
     }
