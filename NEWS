@@ -20,6 +20,7 @@ Video output:
 
 Mac OS X Interface
  * Minor improvements
+ * Fix issue which could lead to loss of media files created through transcoding
 
 
 Changes between 2.0.5 and 2.0.6:
