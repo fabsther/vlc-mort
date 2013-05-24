@@ -9,6 +9,9 @@ Input:
 Decoders:
  * Fix WMA Pro, MPEG 4 ALS, APE, MLP and ADPCM-IMA4 playback
 
+Encoders:
+ * Fix audio encoding for numerous codecs, notably mp3 and aac
+
 Muxers:
  * Fix noticeable memory leak when creating AVI files
 
