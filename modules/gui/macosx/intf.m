@@ -750,6 +750,10 @@ static VLCMain *_o_sharedMainInstance = nil;
 
     msg_Dbg( p_intf, "Terminating" );
 
+    /* HACK: the playlist will re-start on quit because of a core vs. UI module limitation
+     * in turn, items created by transcoding can and will be over-written with garbage */
+    playlist_Clear(p_playlist, false);
+
     /* unsubscribe from the interactive dialogues */
     dialog_Unregister( p_intf );
     var_DelCallback( p_intf, "dialog-error", DialogCallback, self );
