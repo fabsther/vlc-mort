@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-04-07 22:23+0200\n"
-"PO-Revision-Date: 2013-05-26 09:46+0000\n"
-"Last-Translator: Aled Powell <aled@aledpowell.com>\n"
+"PO-Revision-Date: 2013-05-26 15:12+0000\n"
+"Last-Translator: Cymrodor <cymrodor@gmail.com>\n"
 "Language-Team: Welsh (http://www.transifex.com/projects/p/vlc-trans/language/"
 "cy/)\n"
 "Language: cy\n"
@@ -1625,6 +1625,8 @@ msgid ""
 "This allows playing audio at lower or higher speed without affecting the "
 "audio pitch"
 msgstr ""
+"Mae hyn yn caniatáu chwarae sain yn arafach neu'n cyflymach heb effeithio'r "
+"traw (pitch)."
 
 #: src/libvlc-module.c:387 modules/access/dshow/dshow.cpp:91
 #: modules/access/dshow/dshow.cpp:94 modules/access/dtv/access.c:107
@@ -1634,7 +1636,7 @@ msgstr ""
 #: modules/gui/qt4/components/interface_widgets.cpp:299
 #: modules/text_renderer/freetype.c:184
 msgid "None"
-msgstr ""
+msgstr "Dim"
 
 #: src/libvlc-module.c:395
 msgid ""
@@ -1959,11 +1961,11 @@ msgstr ""
 
 #: src/libvlc-module.c:524
 msgid "Disable screensaver"
-msgstr ""
+msgstr "Analluogi'r arbedwr sgrin"
 
 #: src/libvlc-module.c:525
 msgid "Disable the screensaver during video playback."
-msgstr ""
+msgstr "Analluogi'r arbedwr sgrin tra'n chwarae fideo"
 
 #: src/libvlc-module.c:527
 msgid "Inhibit the power management daemon during playback"
@@ -3338,23 +3340,23 @@ msgstr ""
 
 #: src/libvlc-module.c:1288
 msgid "Album art policy"
-msgstr ""
+msgstr "Polisi delweddau albymau"
 
 #: src/libvlc-module.c:1290
 msgid "Choose how album art will be downloaded."
-msgstr ""
+msgstr "Dewisa sut caiff delweddau albymau ei lawrlwytho."
 
 #: src/libvlc-module.c:1296
 msgid "Manual download only"
-msgstr ""
+msgstr "Peidio lawrlwytho'n awtomatig"
 
 #: src/libvlc-module.c:1297
 msgid "When track starts playing"
-msgstr ""
+msgstr "Pan mae'r trac yn dechrau chwarae"
 
 #: src/libvlc-module.c:1298
 msgid "As soon as track is added"
-msgstr ""
+msgstr "Cyn gynted ag ychwanegwyd y trac"
 
 #: src/libvlc-module.c:1300
 msgid "Services discovery modules"
@@ -3442,13 +3444,15 @@ msgstr ""
 
 #: src/libvlc-module.c:1342 modules/gui/qt4/ui/sprefs_interface.h:520
 msgid "Display playlist tree"
-msgstr ""
+msgstr "Dangos y goeden rhestr chwarae"
 
 #: src/libvlc-module.c:1344
 msgid ""
 "The playlist can use a tree to categorize some items, like the contents of a "
 "directory."
 msgstr ""
+"Gall y rhestr chwarae defnyddio coeden i gategoreiddio rhai eitemau, fel "
+"cynnwys cyfeiriadur."
 
 #: src/libvlc-module.c:1353
 msgid "These settings are the global VLC key bindings, known as \"hotkeys\"."
@@ -3503,7 +3507,7 @@ msgstr ""
 #: modules/gui/qt4/components/controller.hpp:115
 #: modules/gui/qt4/components/controller.hpp:125
 msgid "Faster"
-msgstr ""
+msgstr "Cyflymach"
 
 #: src/libvlc-module.c:1367 src/libvlc-module.c:1373
 msgid "Select the hotkey to use for fast forward playback."
@@ -3513,7 +3517,7 @@ msgstr ""
 #: modules/gui/qt4/components/controller.hpp:115
 #: modules/gui/qt4/components/controller.hpp:125
 msgid "Slower"
-msgstr ""
+msgstr "Arafach"
 
 #: src/libvlc-module.c:1369 src/libvlc-module.c:1375
 msgid "Select the hotkey to use for slow motion playback."
@@ -3521,7 +3525,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1370
 msgid "Normal rate"
-msgstr ""
+msgstr "Cyflymder arferol"
 
 #: src/libvlc-module.c:1371
 msgid "Select the hotkey to set the playback rate back to normal."
@@ -3529,11 +3533,11 @@ msgstr ""
 
 #: src/libvlc-module.c:1372 modules/gui/qt4/menus.cpp:843
 msgid "Faster (fine)"
-msgstr ""
+msgstr "Cyflymach (mymryn)"
 
 #: src/libvlc-module.c:1374 modules/gui/qt4/menus.cpp:851
 msgid "Slower (fine)"
-msgstr ""
+msgstr "Arafach (mymryn)"
 
 #: src/libvlc-module.c:1376 modules/control/hotkeys.c:687
 #: modules/gui/macosx/about.m:216 modules/gui/macosx/MainMenu.m:277
@@ -3544,7 +3548,7 @@ msgstr ""
 #: modules/gui/qt4/ui/sout.h:327 modules/gui/qt4/ui/sout.h:338
 #: modules/gui/qt4/ui/streampanel.h:182
 msgid "Next"
-msgstr ""
+msgstr "Nesaf"
 
 #: src/libvlc-module.c:1377
 msgid "Select the hotkey to use to skip to the next item in the playlist."
@@ -3557,7 +3561,7 @@ msgstr ""
 #: modules/gui/qt4/components/controller.hpp:119 modules/notify/notify.c:337
 #: modules/gui/qt4/ui/sout.h:337 modules/gui/qt4/ui/sout.h:346
 msgid "Previous"
-msgstr ""
+msgstr "Blaenorol"
 
 #: src/libvlc-module.c:1379
 msgid "Select the hotkey to use to skip to the previous item in the playlist."
@@ -3570,7 +3574,7 @@ msgstr ""
 #: modules/gui/qt4/dialogs/vlm.cpp:556 modules/notify/xosd.c:234
 #: modules/gui/qt4/ui/streampanel.h:181
 msgid "Stop"
-msgstr ""
+msgstr "Stop"
 
 #: src/libvlc-module.c:1381
 msgid "Select the hotkey to stop playback."
@@ -3655,7 +3659,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1410 modules/control/hotkeys.c:704
 msgid "Next frame"
-msgstr ""
+msgstr "Ffram nesaf"
 
 #: src/libvlc-module.c:1412
 msgid "Select the hotkey to got to the next video frame."
@@ -3698,7 +3702,7 @@ msgstr ""
 #: modules/gui/qt4/components/controller.hpp:130 modules/gui/qt4/menus.cpp:914
 #: modules/gui/skins2/commands/cmd_quit.cpp:44
 msgid "Quit"
-msgstr ""
+msgstr "Cau"
 
 #: src/libvlc-module.c:1424
 msgid "Select the hotkey to quit the application."
@@ -6272,7 +6276,7 @@ msgstr ""
 #: modules/access/dvdnav.c:335 modules/access/dvdread.c:195
 #: modules/access/dvdread.c:457 modules/access/dvdread.c:519
 msgid "Playback failure"
-msgstr ""
+msgstr "Gwall chwarae"
 
 #: modules/access/dvdnav.c:336
 msgid ""
@@ -15081,28 +15085,28 @@ msgstr ""
 
 #: modules/gui/macosx/MainMenu.m:250
 msgid "Advanced Open File..."
-msgstr ""
+msgstr "Agor Ffeil (Uwch)..."
 
 #: modules/gui/macosx/MainMenu.m:251 modules/gui/macosx/MainMenu.m:323
 #: modules/gui/macosx/MainMenu.m:996 modules/gui/qt4/menus.cpp:618
 msgid "Open File..."
-msgstr ""
+msgstr "Agor Ffeil..."
 
 #: modules/gui/macosx/MainMenu.m:252
 msgid "Open Disc..."
-msgstr ""
+msgstr "Agor Disg..."
 
 #: modules/gui/macosx/MainMenu.m:253
 msgid "Open Network..."
-msgstr ""
+msgstr "Agor Rhwydwaith..."
 
 #: modules/gui/macosx/MainMenu.m:254
 msgid "Open Capture Device..."
-msgstr ""
+msgstr "Agor Dyfais Cipio..."
 
 #: modules/gui/macosx/MainMenu.m:255
 msgid "Open Recent"
-msgstr ""
+msgstr "Agor Diweddar..."
 
 #: modules/gui/macosx/MainMenu.m:256
 msgid "Streaming/Exporting Wizard..."
@@ -15126,11 +15130,11 @@ msgstr ""
 
 #: modules/gui/macosx/MainMenu.m:265
 msgid "Playback"
-msgstr ""
+msgstr "Chwarae"
 
 #: modules/gui/macosx/MainMenu.m:270 modules/gui/macosx/MainMenu.m:271
 msgid "Playback Speed"
-msgstr ""
+msgstr "Cyflymder Chwarae"
 
 #: modules/gui/macosx/MainMenu.m:273 modules/gui/macosx/simple_prefs.m:627
 #: modules/gui/qt4/components/simple_preferences.cpp:497
@@ -15147,7 +15151,7 @@ msgstr ""
 
 #: modules/gui/macosx/MainMenu.m:281 modules/gui/macosx/MainMenu.m:1192
 msgid "Quit after Playback"
-msgstr ""
+msgstr "Cau ar ol Chwarae"
 
 #: modules/gui/macosx/MainMenu.m:282 modules/gui/macosx/MainMenu.m:1199
 msgid "Step Forward"
@@ -15321,7 +15325,7 @@ msgstr ""
 
 #: modules/gui/macosx/MainWindow.m:198
 msgid "Open media..."
-msgstr ""
+msgstr "Agor cyfrwng..."
 
 #: modules/gui/macosx/MainWindow.m:199
 msgid "Drop media here"
@@ -15360,7 +15364,7 @@ msgstr ""
 
 #: modules/gui/macosx/open.m:104
 msgid "Open Source"
-msgstr ""
+msgstr "Agor Ffynhonnell"
 
 #: modules/gui/macosx/open.m:105
 msgid "Media Resource Locator (MRL)"
@@ -15605,7 +15609,7 @@ msgstr ""
 #: modules/gui/macosx/open.m:624 modules/gui/macosx/open.m:1162
 #: modules/gui/macosx/open.m:1415 modules/gui/qt4/ui/open_file.h:162
 msgid "Open File"
-msgstr ""
+msgstr "Agor Ffeil"
 
 #: modules/gui/macosx/open.m:854
 #, c-format
@@ -15877,7 +15881,7 @@ msgstr ""
 #: modules/gui/macosx/prefs.m:229 modules/gui/macosx/simple_prefs.m:757
 #: modules/gui/qt4/dialogs/preferences.cpp:339
 msgid "Reset Preferences"
-msgstr ""
+msgstr "Ailosod Dewisiadau"
 
 #: modules/gui/macosx/prefs.m:232 modules/gui/macosx/simple_prefs.m:760
 msgid ""
@@ -15925,19 +15929,19 @@ msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:194
 msgid "Input & Codecs"
-msgstr ""
+msgstr "Mewnbwn a Chodecs"
 
 #: modules/gui/macosx/simple_prefs.m:194
 msgid "Input & Codec settings"
-msgstr ""
+msgstr "Gosodiadau mewnbwn a chodecs"
 
 #: modules/gui/macosx/simple_prefs.m:227
 msgid "Enable Audio"
-msgstr ""
+msgstr "Galluogi Sain"
 
 #: modules/gui/macosx/simple_prefs.m:228
 msgid "General Audio"
-msgstr ""
+msgstr "Sain cyffredin"
 
 #: modules/gui/macosx/simple_prefs.m:229
 msgid "Preferred Audio language"
@@ -15953,11 +15957,11 @@ msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:235 modules/gui/qt4/ui/sprefs_audio.h:432
 msgid "Keep audio level between sessions"
-msgstr ""
+msgstr "Cadw'r un lefel sain rhwng sesiynnau"
 
 #: modules/gui/macosx/simple_prefs.m:236 modules/gui/qt4/ui/sprefs_audio.h:433
 msgid "Always reset audio start level to:"
-msgstr ""
+msgstr "Ailosod y lefel sain wrth ddechrau i:"
 
 #: modules/gui/macosx/simple_prefs.m:239 modules/gui/qt4/dialogs/vlm.cpp:506
 msgid "Change"
@@ -16028,7 +16032,7 @@ msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:269
 msgid "Album art download policy"
-msgstr ""
+msgstr "Polisi lawrlwytho delweddau albymau"
 
 #: modules/gui/macosx/simple_prefs.m:270
 msgid "Show video within the main window"
@@ -16041,11 +16045,11 @@ msgstr ""
 #: modules/gui/macosx/simple_prefs.m:274
 #: modules/gui/qt4/ui/sprefs_interface.h:507
 msgid "Privacy / Network Interaction"
-msgstr ""
+msgstr "Preifatrwydd / Rhyngweithiad Rhwydwaith"
 
 #: modules/gui/macosx/simple_prefs.m:279
 msgid "Automatically check for updates"
-msgstr ""
+msgstr "Gwirio am ddiweddariadau yn awtomatig"
 
 #: modules/gui/macosx/simple_prefs.m:281
 msgid "Enable Growl notifications (on playlist item change)"
@@ -16106,7 +16110,7 @@ msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:309
 msgid "Output module"
-msgstr ""
+msgstr "Modiwl allbwn"
 
 #: modules/gui/macosx/simple_prefs.m:311 modules/gui/qt4/ui/sprefs_video.h:352
 msgid "Video snapshots"
@@ -17391,7 +17395,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/controller.hpp:120
 msgid "Open subtitles"
-msgstr ""
+msgstr "Agor isdeitlau"
 
 #: modules/gui/qt4/components/controller.hpp:120
 msgid "Dock fullscreen controller"
@@ -17460,7 +17464,7 @@ msgstr ""
 #: modules/gui/qt4/components/controller.hpp:133
 #: modules/gui/qt4/components/open_panels.cpp:252
 msgid "Open subtitles file"
-msgstr ""
+msgstr "Agor ffeil isdeitlau"
 
 #: modules/gui/qt4/components/controller.hpp:134
 msgid "Dock/undock fullscreen controller to/from bottom of screen"
@@ -17719,7 +17723,7 @@ msgstr ""
 #: modules/gui/qt4/ui/messages_panel.h:144
 #: modules/gui/qt4/ui/sprefs_interface.h:510
 msgid "Filter:"
-msgstr ""
+msgstr "Hidlydd:"
 
 #: modules/gui/qt4/components/open_panels.cpp:360
 msgid "Eject the disc"
@@ -18438,7 +18442,7 @@ msgstr "&Trawsnewid / Cadw"
 
 #: modules/gui/qt4/dialogs/openurl.cpp:47
 msgid "Open URL"
-msgstr ""
+msgstr "Agor URL"
 
 #: modules/gui/qt4/dialogs/openurl.cpp:64
 msgid "Enter URL here..."
@@ -18537,15 +18541,15 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs_provider.cpp:65
 msgid "Open Directory"
-msgstr ""
+msgstr "Agor Cyfeiriadur"
 
 #: modules/gui/qt4/dialogs_provider.cpp:66
 msgid "Open Folder"
-msgstr ""
+msgstr "Agor Ffolder"
 
 #: modules/gui/qt4/dialogs_provider.cpp:554
 msgid "Open playlist..."
-msgstr ""
+msgstr "Agor rhestr chwarae..."
 
 #: modules/gui/qt4/dialogs_provider.cpp:570
 msgid "XSPF playlist"
@@ -18565,11 +18569,11 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs_provider.cpp:590
 msgid "Save playlist as..."
-msgstr ""
+msgstr "Cadw'r rhest chwarae fel..."
 
 #: modules/gui/qt4/dialogs_provider.cpp:710
 msgid "Open subtitles..."
-msgstr ""
+msgstr "Agor isdeitlau..."
 
 #: modules/gui/qt4/dialogs_provider.hpp:40
 msgid "Media Files"
@@ -18716,7 +18720,7 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:447
 msgid "Playback Buttons"
-msgstr ""
+msgstr "Botymau Chwarae"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:73
 msgid "Broadcast"
@@ -18749,7 +18753,7 @@ msgstr ""
 #: modules/gui/qt4/dialogs/vlm.cpp:111
 #: modules/gui/qt4/ui/sprefs_interface.h:508
 msgid " days"
-msgstr ""
+msgstr " diwrnod"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:130
 msgid "I&mport"
@@ -19267,7 +19271,7 @@ msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:162
 msgid "Start in minimal view (without menus)"
-msgstr ""
+msgstr "Dechrau yn golwg lleiaf (heb dewislenni)"
 
 #: modules/gui/qt4/qt4.cpp:164
 msgid "Display background cone or art"
@@ -19325,7 +19329,7 @@ msgstr ""
 
 #: modules/gui/skins2/src/dialogs.cpp:214
 msgid "Open playlist"
-msgstr ""
+msgstr "Agor rhestr chwarae"
 
 #: modules/gui/skins2/src/dialogs.cpp:215
 msgid "Playlist Files|"
@@ -21240,7 +21244,7 @@ msgstr ""
 
 #: modules/stream_out/switcher.c:88 modules/gui/qt4/ui/sprefs_input.h:343
 msgid "Files"
-msgstr ""
+msgstr "Ffeiliau"
 
 #: modules/stream_out/switcher.c:90
 msgid "Full paths of the files separated by colons."
@@ -25835,7 +25839,7 @@ msgstr "Patrwm gweledol:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:442
 msgid "Enable Time-Stretching audio"
-msgstr ""
+msgstr "Galluogi ymestyn sain dros amser"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:443
 msgid "Dolby Surround:"
@@ -25927,19 +25931,19 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:504
 msgid "Instances"
-msgstr ""
+msgstr "Achosion"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:505
 msgid "Allow only one instance"
-msgstr ""
+msgstr "Caniatáu rhedeg un achos ar y tro yn unig"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:506
 msgid "Enqueue files when in one instance mode"
-msgstr ""
+msgstr "Ciwio ffeiliau pan mewn modd un achos"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:509
 msgid "Every "
-msgstr ""
+msgstr "Pob"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:512
 msgid "Separate words by | (without space)"
@@ -25947,31 +25951,31 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:514
 msgid "Save recently played items"
-msgstr ""
+msgstr "Cadw eitemau a chwaraewyd yn ddiweddar"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:515
 msgid "Album art download policy:"
-msgstr ""
+msgstr "Polisi lawrlwytho delweddau albymau:"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:516
 msgid "Activate updates notifier"
-msgstr ""
+msgstr "Galluogi hysbysydd diweddariadau"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:518
 msgid "Menus language:"
-msgstr ""
+msgstr "Iaith dewislenni:"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:521
 msgid "Pause on the last frame of a video"
-msgstr ""
+msgstr "Oedi ar y ffram olaf mewn fideo"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:522
 msgid "File extensions association"
-msgstr ""
+msgstr "Cydgysylltiadau mathau o ffeiliau"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:523
 msgid "Set up associations..."
-msgstr ""
+msgstr "Gosod cydgysylltiadau..."
 
 #: modules/gui/qt4/ui/sprefs_interface.h:524
 msgid "Configure Media Library"
@@ -25983,7 +25987,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:526
 msgid "Use custom skin"
-msgstr ""
+msgstr "Defnyddio croen penodol"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:528
 msgid "This is VLC's default interface, with a native look and feel."
@@ -25991,35 +25995,35 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:530
 msgid "Use native style"
-msgstr ""
+msgstr "Defnyddio'r arddull brodorol"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:531
 msgid "Show controls in full screen mode"
-msgstr ""
+msgstr "Dangos bar rheoli yn sgrin lawn"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:532
 msgid "Start in minimal view mode"
-msgstr ""
+msgstr "Dechrau yn modd golwg lleiaf"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:533
 msgid "Pause playback when minimized"
-msgstr ""
+msgstr "Oedi chwarae pan wedi'i lleihau"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:534
 msgid "Integrate video in interface"
-msgstr ""
+msgstr "Cyfuno'r fideo yn y rhyngwyneb"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:535
 msgid "Resize interface to video size"
-msgstr ""
+msgstr "Ailfeintio'r rhyngwyneb i maint fideo"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:536
 msgid "Show systray icon"
-msgstr ""
+msgstr "Dangos eicon yn y bar tasgau"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:537
 msgid "Systray popup when minimized"
-msgstr ""
+msgstr "Ffenestri naid pan wedi'i lleihau"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:538
 msgid "Force window style:"
