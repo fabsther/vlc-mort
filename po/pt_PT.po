@@ -3,20 +3,19 @@
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
-# Bruno Miguel Queiros <bqueiros@gmail.com>, 2012, 2013.
-# Joao Almeida <joao.lnsa@netcabo.pt>, 2012.
-# Manuela Silva <manuela.silva@sky.com>, 2012.
-# Miguel Sousa <migueljorgesousa@sapo.pt>, 2012.
-# Pedro Valadares <pedro.valadares@gmail.com>, 2012.
-# Ricardo Perdigão <ricardofonseca1977@gmail.com>, 2012.
-#
+# Bruno Queiros <bqueiros@gmail.com>, 2012-2013
+# Joao Almeida <joao.lnsa@netcabo.pt>, 2012
+# Manuela Silva <manuela.silva@sky.com>, 2012-2013
+# Miguel Sousa <migueljorgesousa@sapo.pt>, 2012
+# Pedro Valadares <pedro.valadares@gmail.com>, 2012
+# Ricardo Perdigão <ricardofonseca1977@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-04-07 22:23+0200\n"
-"PO-Revision-Date: 2013-02-20 19:04+0000\n"
-"Last-Translator: Bruno Queiros <bqueiros@gmail.com>\n"
+"PO-Revision-Date: 2013-04-29 08:19+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Portuguese (Portugal) (http://www.transifex.com/projects/p/"
 "vlc-trans/language/pt_PT/)\n"
 "Language: pt_PT\n"
@@ -1013,7 +1012,7 @@ msgstr ""
 #: src/config/help.c:789
 #, c-format
 msgid "VLC version %s (%s)\n"
-msgstr "VLC versão %s (%s) \n"
+msgstr "VLC versão %s (%s)\n"
 
 #: src/config/help.c:791
 #, c-format
@@ -6622,7 +6621,7 @@ msgstr "Identificador de rede"
 
 #: modules/access/dtv/access.c:209
 msgid "Satellite azimuth"
-msgstr ""
+msgstr "Azimute do Satélite"
 
 #: modules/access/dtv/access.c:210
 msgid "Satellite azimuth in tenths of degree"
@@ -6706,7 +6705,7 @@ msgstr ""
 
 #: modules/access/dtv/access.c:455
 msgid "Digital broadcasting"
-msgstr ""
+msgstr "Emissão Digital"
 
 #: modules/access/dtv/access.c:456
 msgid ""
@@ -7126,7 +7125,7 @@ msgstr ""
 
 #: modules/access/imem.c:89
 msgid "Display aspect ratio"
-msgstr ""
+msgstr "Visualizar Formato"
 
 #: modules/access/imem.c:91
 msgid "Display aspect ratio of a video elementary stream"
@@ -7208,7 +7207,7 @@ msgstr "Entrada JACK"
 #: modules/access/linsys/linsys_hdsdi.c:72
 #: modules/access/linsys/linsys_sdi.c:67
 msgid "Link #"
-msgstr ""
+msgstr "Hiperligação #"
 
 #: modules/access/linsys/linsys_hdsdi.c:74
 #: modules/access/linsys/linsys_sdi.c:69
@@ -7261,11 +7260,11 @@ msgstr ""
 
 #: modules/access/linsys/linsys_sdi.c:82
 msgid "Teletext language"
-msgstr ""
+msgstr "Idioma do Teletexto"
 
 #: modules/access/linsys/linsys_sdi.c:84
 msgid "Allows you to set Teletext language (page=lang/type,...)."
-msgstr ""
+msgstr "Permite-lhe definir o Idioma do Teletexto (página=idioma/tipo, ...)."
 
 #: modules/access/linsys/linsys_sdi.c:92
 msgid "SDI Input"
@@ -7302,7 +7301,7 @@ msgstr ""
 
 #: modules/access/mms/mms.c:64
 msgid "TCP/UDP timeout (ms)"
-msgstr ""
+msgstr "Tempo expirado TCP/UDP (ms)"
 
 #: modules/access/mms/mms.c:65
 msgid ""
@@ -8072,7 +8071,7 @@ msgstr ""
 
 #: modules/access/screen/xcb.c:66
 msgid "Screen capture (with X11/XCB)"
-msgstr ""
+msgstr "Captura de Ecrã (com X11/XCB)"
 
 #: modules/access/sdp.c:33 modules/stream_out/rtp.c:79
 msgid "SDP"
@@ -8231,11 +8230,11 @@ msgstr "Entrada UDP"
 
 #: modules/access/v4l2/controls.c:721
 msgid "Reset defaults"
-msgstr ""
+msgstr "Reiniciar Predefinições"
 
 #: modules/access/v4l2/video.c:59
 msgid "Video device (Default: /dev/video0)."
-msgstr ""
+msgstr "Dispositivo de Vídeo  (Predefinido: /dev/video0)."
 
 #: modules/access/v4l2/video.c:60 modules/stream_out/standard.c:90
 msgid "Standard"
@@ -8243,7 +8242,7 @@ msgstr "Padrão"
 
 #: modules/access/v4l2/video.c:62
 msgid "Video standard (Default, SECAM, PAL, or NTSC)."
-msgstr ""
+msgstr "Vídeo Standard (Predefinição, SECAM, PAL, ou NTSC)."
 
 #: modules/access/v4l2/video.c:65
 msgid ""
@@ -8287,11 +8286,11 @@ msgstr ""
 
 #: modules/access/v4l2/video.c:91
 msgid "Reset controls"
-msgstr ""
+msgstr "Reiniciar Controlos"
 
 #: modules/access/v4l2/video.c:92
 msgid "Reset controls to defaults."
-msgstr ""
+msgstr "Reiniciar os controlos para os predefinidos."
 
 #: modules/access/v4l2/video.c:93 modules/gui/macosx/VideoEffects.m:78
 #: modules/video_filter/atmo/atmo.cpp:262
@@ -8305,11 +8304,11 @@ msgstr ""
 
 #: modules/access/v4l2/video.c:95
 msgid "Automatic brightness"
-msgstr ""
+msgstr "Brilho Automático"
 
 #: modules/access/v4l2/video.c:97
 msgid "Automatically adjust the picture brightness."
-msgstr ""
+msgstr "Ajustar automaticamente o brilho da imagem."
 
 #: modules/access/v4l2/video.c:98 modules/gui/macosx/VideoEffects.m:77
 #: modules/gui/qt4/ui/video_effects.h:1301
@@ -8338,7 +8337,7 @@ msgstr "Matiz"
 
 #: modules/access/v4l2/video.c:103
 msgid "Hue or color balance."
-msgstr ""
+msgstr "Balanço da Tonalidade ou Cor ."
 
 #: modules/access/v4l2/video.c:104
 msgid "Automatic hue"
@@ -8346,11 +8345,11 @@ msgstr ""
 
 #: modules/access/v4l2/video.c:106
 msgid "Automatically adjust the picture hue."
-msgstr ""
+msgstr "Ajustar automaticamente a tonalidade da imagem."
 
 #: modules/access/v4l2/video.c:107
 msgid "White balance temperature (K)"
-msgstr ""
+msgstr "Temperatura do equilíbrio do branco (K)"
 
 #: modules/access/v4l2/video.c:109
 msgid ""
@@ -8389,7 +8388,7 @@ msgstr "Gama"
 
 #: modules/access/v4l2/video.c:122
 msgid "Gamma adjust."
-msgstr ""
+msgstr "Ajustar Gama."
 
 #: modules/access/v4l2/video.c:123
 msgid "Automatic gain"
@@ -26089,9 +26088,8 @@ msgid "Thanks"
 msgstr "Agradecimentos"
 
 #: modules/gui/qt4/ui/about.h:188
-#, fuzzy
 msgid "Licence"
-msgstr "Licença"
+msgstr ""
 
 #: modules/gui/qt4/ui/equalizer.h:132 modules/gui/qt4/ui/open_disk.h:297
 #: modules/gui/qt4/ui/open_net.h:91 modules/gui/qt4/ui/profiles.h:460
@@ -26099,18 +26097,16 @@ msgstr "Licença"
 #: modules/gui/qt4/ui/sprefs_interface.h:503
 #: modules/gui/qt4/ui/sprefs_subtitles.h:270
 #: modules/gui/qt4/ui/sprefs_video.h:334 modules/gui/qt4/ui/streampanel.h:168
-#, fuzzy
 msgid "Form"
-msgstr "Formato"
+msgstr ""
 
 #: modules/gui/qt4/ui/equalizer.h:135
 msgid "Preset"
 msgstr "Pré-definido"
 
 #: modules/gui/qt4/ui/messages_panel.h:142
-#, fuzzy
 msgid "Verbosity:"
-msgstr "Verbosidade (0,1,2)"
+msgstr ""
 
 #: modules/gui/qt4/ui/messages_panel.h:145
 msgid "&Save as..."
@@ -26122,23 +26118,20 @@ msgstr ""
 
 #: modules/gui/qt4/ui/open.h:243
 #: modules/gui/qt4/ui/podcast_configuration.h:101
-#, fuzzy
 msgid "Dialog"
-msgstr "Analógico"
+msgstr ""
 
 #: modules/gui/qt4/ui/open.h:246
 msgid "Show extended options"
 msgstr "Mostrar opções avançadas "
 
 #: modules/gui/qt4/ui/open.h:248
-#, fuzzy
 msgid "Show &more options"
-msgstr "Mostrar opções avançadas"
+msgstr ""
 
 #: modules/gui/qt4/ui/open.h:251
-#, fuzzy
 msgid "Change the caching for the media"
-msgstr "Modificar o título de acordo com a mídia atual"
+msgstr ""
 
 #: modules/gui/qt4/ui/open.h:254
 msgid "MRL"
@@ -26165,9 +26158,8 @@ msgid "Select the file"
 msgstr "Seleccionar o ficheiro"
 
 #: modules/gui/qt4/ui/open.h:266
-#, fuzzy
 msgid "Change the start time for the media"
-msgstr "Mudar o nome mostrado do Serviço."
+msgstr ""
 
 #: modules/gui/qt4/ui/open.h:268
 msgid "HH'H':mm'm':ss's'.zzz"
@@ -26363,41 +26355,36 @@ msgid "00000; "
 msgstr "00000; "
 
 #: modules/gui/qt4/ui/profiles.h:492
-#, fuzzy
 msgid "Keep original video track"
-msgstr "Manter tamanho original"
+msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:493
 msgid "Video codec"
 msgstr "Codec de vídeo"
 
 #: modules/gui/qt4/ui/profiles.h:495
-#, fuzzy
 msgid "Keep original audio track"
-msgstr "Manter tamanho original"
+msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:500
-#, fuzzy
 msgid "Sample Rate"
-msgstr "Taxa de amostragem"
+msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:501
 msgid "Audio codec"
 msgstr "Codec de áudio"
 
 #: modules/gui/qt4/ui/profiles.h:503
-#, fuzzy
 msgid "Overlay subtitles on the video"
-msgstr "Sobreposições/Legendas"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:329
 msgid "Destinations"
 msgstr "Destinos"
 
 #: modules/gui/qt4/ui/sout.h:330
-#, fuzzy
 msgid "New destination"
-msgstr "Destino"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:332
 msgid ""
@@ -26406,24 +26393,20 @@ msgid ""
 msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:333
-#, fuzzy
 msgid "Display locally"
-msgstr "Mostrar localmente a emissão"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:336
-#, fuzzy
 msgid "Activate Transcoding"
-msgstr "Codificação de subtítulos"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:339
-#, fuzzy
 msgid "Destination Setup"
-msgstr "Destino"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:340
-#, fuzzy
 msgid "Miscellaneous Options"
-msgstr "Várias"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:341
 msgid "Stream all elementary streams"
@@ -26438,9 +26421,8 @@ msgid "Generated stream output string"
 msgstr "Gerada string da saída de emissão"
 
 #: modules/gui/qt4/ui/sout.h:347
-#, fuzzy
 msgid "Option Setup"
-msgstr "Opções"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:434
 msgid " %"
@@ -26455,18 +26437,16 @@ msgid "Visualization:"
 msgstr "Visualização:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:442
-#, fuzzy
 msgid "Enable Time-Stretching audio"
-msgstr "Activar alongamento do tempo de áudio"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:443
 msgid "Dolby Surround:"
 msgstr "Dolby Surround:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:444
-#, fuzzy
 msgid "Replay gain mode:"
-msgstr "Modo de ganho de repetição"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:445
 msgid "Headphone surround effect"
@@ -26477,9 +26457,8 @@ msgid "Normalize volume to:"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:448
-#, fuzzy
 msgid "Preferred audio language:"
-msgstr "Língua preferida para as legendas"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:449
 msgid "Password:"
@@ -26490,9 +26469,8 @@ msgid "Username:"
 msgstr "Nome de utilizador:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:451
-#, fuzzy
 msgid "Submit played tracks stats to Last.fm"
-msgstr "Submeter músicas reproduzidas para a last.fm"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_input.h:335
 msgid "Codecs"
@@ -26511,23 +26489,20 @@ msgid "Use GPU accelerated decoding"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_input.h:339
-#, fuzzy
 msgid "Skip H.264 in-loop deblocking filter"
-msgstr "Saltar filtro de loop"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_input.h:340
 msgid "Video quality post-processing level"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_input.h:341
-#, fuzzy
 msgid "Optical drive"
-msgstr "SDI óptica"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_input.h:342
-#, fuzzy
 msgid "Default optical device"
-msgstr "Dispositivos padrão"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_input.h:346
 msgid "Damaged or incomplete AVI file"
@@ -26546,14 +26521,12 @@ msgid "RTP over RTSP (TCP)"
 msgstr "RTP sobre RTSP (TCP)"
 
 #: modules/gui/qt4/ui/sprefs_input.h:352
-#, fuzzy
 msgid "Live555 stream transport"
-msgstr "Saída de emissão do ficheiro"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_input.h:353
-#, fuzzy
 msgid "Default caching policy"
-msgstr "Codificação Padrão"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:504
 msgid "Instances"
@@ -26564,11 +26537,8 @@ msgid "Allow only one instance"
 msgstr "Permitir apenas uma instância"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:506
-#, fuzzy
 msgid "Enqueue files when in one instance mode"
 msgstr ""
-"Enfileirar os itens para a lista de reprodução quando estiver em modo de "
-"instância única"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:509
 msgid "Every "
@@ -26583,9 +26553,8 @@ msgid "Save recently played items"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:515
-#, fuzzy
 msgid "Album art download policy:"
-msgstr "Política de download da arte do álbum "
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:516
 msgid "Activate updates notifier"
@@ -26604,23 +26573,20 @@ msgid "File extensions association"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:523
-#, fuzzy
 msgid "Set up associations..."
-msgstr "Definições..."
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:524
-#, fuzzy
 msgid "Configure Media Library"
-msgstr "Carregar Biblioteca de Media"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:525
 msgid "Look and feel"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:526
-#, fuzzy
 msgid "Use custom skin"
-msgstr "Escolher skin"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:528
 msgid "This is VLC's default interface, with a native look and feel."
@@ -26628,19 +26594,16 @@ msgstr ""
 "Esta é a interface por padrão do VLC, com um aspecto e comportamento nativo."
 
 #: modules/gui/qt4/ui/sprefs_interface.h:530
-#, fuzzy
 msgid "Use native style"
-msgstr "Utilizar um ficheiro de legendas"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:531
-#, fuzzy
 msgid "Show controls in full screen mode"
-msgstr "Mostrar o controle no modo Tela Inteira"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:532
-#, fuzzy
 msgid "Start in minimal view mode"
-msgstr "Iniciar vídeo em modo de écran completo"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:533
 msgid "Pause playback when minimized"
@@ -26651,37 +26614,32 @@ msgid "Integrate video in interface"
 msgstr "Integrar vídeo na interface"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:535
-#, fuzzy
 msgid "Resize interface to video size"
-msgstr "Desinterlaçar vídeo"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:536
-#, fuzzy
 msgid "Show systray icon"
-msgstr "Ícone da Barra de Tarefas"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:537
 msgid "Systray popup when minimized"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:538
-#, fuzzy
 msgid "Force window style:"
-msgstr "Janelas activas"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:539
 msgid "Skin resource file:"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:272
-#, fuzzy
 msgid "Enable On Screen Display (OSD)"
-msgstr "Visualizador No Ecrã"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:273
-#, fuzzy
 msgid "Show media title on video start"
-msgstr "Mostrar o título da mídia no vídeo"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:275
 msgid "Subtitles Language"
@@ -26692,14 +26650,12 @@ msgid "Preferred subtitles language"
 msgstr "Língua preferida para as legendas"
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:277
-#, fuzzy
 msgid "Default encoding"
-msgstr "Codificação Padrão"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:278
-#, fuzzy
 msgid "Subtitles effects"
-msgstr "Codecs de legendas"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:281
 msgid "Font color"
@@ -26734,23 +26690,20 @@ msgid "DirectX"
 msgstr "DirectX"
 
 #: modules/gui/qt4/ui/sprefs_video.h:344
-#, fuzzy
 msgid "Display device"
-msgstr "Dispositivo de disco"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_video.h:345
 msgid "KVA"
 msgstr "KVA"
 
 #: modules/gui/qt4/ui/sprefs_video.h:349
-#, fuzzy
 msgid "Deinterlacing"
-msgstr "Desentrelaçar"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_video.h:350
-#, fuzzy
 msgid "Force Aspect Ratio"
-msgstr "Proporção da fonte"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_video.h:356
 msgid "vlc-snap"
@@ -26830,9 +26783,8 @@ msgid ">HHHHHH;#"
 msgstr ">HHHHHH;#"
 
 #: modules/gui/qt4/ui/video_effects.h:1325
-#, fuzzy
 msgid "Negate colors"
-msgstr "Inverte as cores"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1338
 msgid "Colors"
@@ -26851,9 +26803,8 @@ msgid "Angle"
 msgstr "Ângulo"
 
 #: modules/gui/qt4/ui/video_effects.h:1349
-#, fuzzy
 msgid "Black slot"
-msgstr "Preto"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1353
 #: modules/gui/qt4/ui/video_effects.h:1370
@@ -26877,14 +26828,12 @@ msgid "Edge weightning"
 msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1374
-#, fuzzy
 msgid "Output Color Filtermode"
-msgstr "Módulo de saída"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1375
-#, fuzzy
 msgid "Brightness (%)"
-msgstr "Brilho"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1376
 msgid "Darkness limit"
@@ -26895,9 +26844,8 @@ msgid "Mark analyzed Pixels"
 msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1379
-#, fuzzy
 msgid "Filter threshold (%)"
-msgstr "Limiar de filtro"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1380
 msgid "Filter smoothness (%)"
@@ -26912,14 +26860,12 @@ msgid "Anti-Flickering"
 msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1387
-#, fuzzy
 msgid "Soften"
-msgstr "Suave"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1391
-#, fuzzy
 msgid "Spatial blur"
-msgstr "Espacializador"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1393
 msgid "Mirror"
@@ -29014,7 +28960,7 @@ msgstr "Lista do Gestor de Media"
 
 #, fuzzy
 #~ msgid "Extended controls"
-#~ msgstr "Lista de selecção alargada"
+#~ msgstr "Reiniciar Controlos"
 
 #, fuzzy
 #~ msgid "General editing filters"
