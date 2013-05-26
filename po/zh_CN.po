@@ -1,20 +1,19 @@
 # Simplified Chinese translation
-# Copyright (C) 2012 VideoLAN
+# Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
-# Dean Lee <xslidian@gmail.com>, 2012.
-# Wei Mingzhi <whistler@openoffice.org>, 2009.
-# Yoyo <admin@wisestudio.org>, 2008.
+# Dean Lee <xslidian@gmail.com>, 2012-2013
+# Wei Mingzhi <whistler@openoffice.org>, 2009
+# Yoyo <admin@wisestudio.org>, 2008
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-04-07 22:23+0200\n"
-"PO-Revision-Date: 2012-12-02 09:38+0000\n"
+"PO-Revision-Date: 2013-05-23 13:27+0000\n"
 "Last-Translator: Dean Lee <xslidian@gmail.com>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/projects/p/vlc-"
-"trans/language/zh_CN/)\n"
+"Language-Team: Chinese (China) <vlc@lidian.info>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -9590,7 +9589,7 @@ msgstr "OpenSLES"
 
 #: modules/audio_output/oss.c:99
 msgid "Open Sound System"
-msgstr "打开声音系统"
+msgstr "开放声音系统"
 
 #: modules/audio_output/oss.c:104
 msgid "OSS DSP device"
@@ -11686,8 +11685,8 @@ msgid ""
 "Sets maximum interval between IDR-frames.Larger values save bits, thus "
 "improving quality for a given bitrate at the cost of seeking precision."
 msgstr ""
-"设置 IDR 帧之间的最大间隔。较大的帧将节省大小，并改进在给予为率下的搜索精确性"
-"质量。"
+"设置 IDR 帧之间的最大间隔。较大的帧将节省流的尺寸，因此可在牺牲定位精度的代价"
+"前提下，提高特定比特率下的质量。"
 
 #: modules/codec/x264.c:62
 msgid "Minimum GOP size"
@@ -11869,7 +11868,7 @@ msgstr ""
 
 #: modules/codec/x264.c:145
 msgid "H.264 profile"
-msgstr "H.264 档案"
+msgstr "H.264 配置文件"
 
 #: modules/codec/x264.c:146
 msgid "Specify H.264 profile which limits are enforced over other settings"
@@ -18578,27 +18577,27 @@ msgstr "取消(&C)"
 #: modules/gui/qt4/components/sout/profile_selector.cpp:41
 #: modules/gui/qt4/dialogs/toolbar.cpp:151
 msgid "Profile"
-msgstr "档案"
+msgstr "配置文件"
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:49
 msgid "Edit selected profile"
-msgstr "编辑选中的档案"
+msgstr "编辑选中的配置文件"
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:54
 msgid "Delete selected profile"
-msgstr "删除选中的档案"
+msgstr "删除选中的配置文件"
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:59
 msgid "Create a new profile"
-msgstr "创建新档案"
+msgstr "创建新的配置文件"
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:404
 msgid " Profile Name Missing"
-msgstr " 档案名称缺失"
+msgstr "配置文件名称缺失"
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:405
 msgid "You must set a name for the profile."
-msgstr "您必须为档案设定一个名称。"
+msgstr "您必须为配置文件设定一个名称。"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:39
 msgid "File/Directory"
@@ -19233,7 +19232,7 @@ msgstr "全屏幕控制器"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:155
 msgid "Select profile:"
-msgstr "选择档案:"
+msgstr "选择配置文件:"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:159
 msgid "New profile"
@@ -19241,7 +19240,7 @@ msgstr "新建配置文件"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:162
 msgid "Delete the current profile"
-msgstr "删除当前档案"
+msgstr "删除当前配置文件"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:198
 msgid "Cl&ose"
@@ -19249,11 +19248,11 @@ msgstr "关闭(&O)"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:228 modules/gui/qt4/ui/profiles.h:461
 msgid "Profile Name"
-msgstr "档案名称"
+msgstr "配置文件名称"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:229
 msgid "Please enter the new profile name."
-msgstr "请为新档案输入一个名称。"
+msgstr "请为新配置文件输入一个名称。"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:314
 msgid "Spacer"
@@ -27106,23 +27105,11 @@ msgstr "媒体管理器列表"
 #~ "部分 DVB 卡不乐意被外部程序探测其功能特性，若您遇到此类麻烦，可以尝试禁用"
 #~ "本功能。"
 
-#~ msgid "Satellite scanning config"
-#~ msgstr "卫星扫描配置"
-
 #~ msgid "filename of config file in share/dvb/dvb-s"
 #~ msgstr "share/dvb/dvb-s 中配置文件的文件名"
 
-#~ msgid "DVB"
-#~ msgstr "DVB"
-
 #~ msgid "DVB input with v4l2 support"
 #~ msgstr "DVB 输入，支持 v4l2"
-
-#~ msgid "ARM NEON video chroma YUV->RGBA"
-#~ msgstr "ARM NEON 视频色度 YUV->RGBA"
-
-#~ msgid "Opus audio decoder"
-#~ msgstr "Opus 音频解码器"
 
 #~ msgid "Opus"
 #~ msgstr "Opus"
@@ -28913,6 +28900,22 @@ msgstr "媒体管理器列表"
 #~ "#838383;\">http://www.yourtube.com/watch?v=gg64x</span></p></body></html>"
 
 #, fuzzy
+#~ msgid "Satellite scanning config"
+#~ msgstr "卫星范围代码"
+
+#, fuzzy
+#~ msgid "DVB"
+#~ msgstr "DV"
+
+#, fuzzy
+#~ msgid "ARM NEON video chroma YUV->RGBA"
+#~ msgstr "ARM NEON 视频色度转换"
+
+#, fuzzy
+#~ msgid "Opus audio decoder"
+#~ msgstr "Speex 音频解码器"
+
+#, fuzzy
 #~ msgid "Video Filters..."
 #~ msgstr "视频文件"
 
@@ -29094,7 +29097,7 @@ msgstr "媒体管理器列表"
 
 #, fuzzy
 #~ msgid "Create New Stream"
-#~ msgstr "创建新档案"
+#~ msgstr "创建新的配置文件"
 
 #, fuzzy
 #~ msgid "Delete All Streams"
@@ -29349,7 +29352,7 @@ msgstr "媒体管理器列表"
 
 #, fuzzy
 #~ msgid "Private key file"
-#~ msgstr "创建新档案"
+#~ msgstr "创建新的配置文件"
 
 #, fuzzy
 #~ msgid "Root CA file"
@@ -30746,7 +30749,7 @@ msgstr "媒体管理器列表"
 
 #, fuzzy
 #~ msgid "Autoplay selected file"
-#~ msgstr "编辑选中的档案"
+#~ msgstr "编辑选中的配置文件"
 
 #, fuzzy
 #~ msgid "PDA Linux Gtk2+ interface"
