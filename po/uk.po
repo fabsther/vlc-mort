@@ -3,15 +3,14 @@
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
-# Oleksandr Natalenko <pfactum@gmail.com>, 2009-2012.
-# Андрій Бандура <andriykopanytsia@gmail.com>, 2013.
-#
+# Oleksandr Natalenko <oleksandr@natalenko.name>, 2009-2012
+# Андрій Бандура <andriykopanytsia@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-04-07 22:23+0200\n"
-"PO-Revision-Date: 2013-03-16 16:47+0000\n"
+"PO-Revision-Date: 2013-04-29 19:40+0000\n"
 "Last-Translator: Андрій Бандура <andriykopanytsia@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/vlc-trans/"
 "language/uk/)\n"
@@ -51,11 +50,11 @@ msgstr "Інтерфейс"
 
 #: include/vlc_config_cat.h:38
 msgid "Settings for VLC's interfaces"
-msgstr "Настройки інтерфейсів VLC"
+msgstr "Налаштування інтерфейсів VLC"
 
 #: include/vlc_config_cat.h:40
 msgid "Main interfaces settings"
-msgstr "Настройки головних інтерфейсів"
+msgstr "Налаштування головних інтерфейсів"
 
 #: include/vlc_config_cat.h:42
 msgid "Main interfaces"
@@ -63,7 +62,7 @@ msgstr "Головні інтерфейси"
 
 #: include/vlc_config_cat.h:43
 msgid "Settings for the main interface"
-msgstr "Настройки головного інтерфейсу"
+msgstr "Налаштування головного інтерфейсу"
 
 #: include/vlc_config_cat.h:45 src/libvlc-module.c:220
 msgid "Control interfaces"
@@ -71,12 +70,12 @@ msgstr "Інтерфейси елементів керування"
 
 #: include/vlc_config_cat.h:46
 msgid "Settings for VLC's control interfaces"
-msgstr "Настройки інтерфейсів елементів керування VLC"
+msgstr "Налаштування інтерфейсів елементів керування VLC"
 
 #: include/vlc_config_cat.h:48 include/vlc_config_cat.h:49
 #: modules/gui/macosx/simple_prefs.m:198
 msgid "Hotkeys settings"
-msgstr "Настройки гарячих клавіш"
+msgstr "Налаштування гарячих клавіш"
 
 #: include/vlc_config_cat.h:52 src/input/es_out.c:2893 src/input/es_out.c:2934
 #: src/libvlc-module.c:1615 modules/access/imem.c:64
@@ -94,11 +93,11 @@ msgstr "Звук"
 
 #: include/vlc_config_cat.h:53
 msgid "Audio settings"
-msgstr "Настройки звуку"
+msgstr "Налаштування звуку"
 
 #: include/vlc_config_cat.h:55
 msgid "General audio settings"
-msgstr "Загальні настройки звуку"
+msgstr "Загальні налаштування звуку"
 
 #: include/vlc_config_cat.h:57 include/vlc_config_cat.h:79
 msgid "Filters"
@@ -123,7 +122,7 @@ msgstr "Модулі виведення"
 
 #: include/vlc_config_cat.h:64
 msgid "General settings for audio output modules."
-msgstr "Загальні настройки модулів виведення звуку."
+msgstr "Загальні налаштування модулів виведення звуку."
 
 #: include/vlc_config_cat.h:66 src/libvlc-module.c:2128
 #: modules/gui/macosx/VideoEffects.m:73
@@ -133,7 +132,7 @@ msgstr "Інше"
 
 #: include/vlc_config_cat.h:67
 msgid "Miscellaneous audio settings and modules."
-msgstr "Інші модулі й настройки звуку."
+msgstr "Інші модулі й налаштування звуку."
 
 #: include/vlc_config_cat.h:70 src/input/es_out.c:2896 src/input/es_out.c:2981
 #: src/libvlc-module.c:1666 modules/access/imem.c:64
@@ -151,11 +150,11 @@ msgstr "Відео"
 
 #: include/vlc_config_cat.h:71
 msgid "Video settings"
-msgstr "Настройки відео"
+msgstr "Налаштування відео"
 
 #: include/vlc_config_cat.h:73
 msgid "General video settings"
-msgstr "Загальні настройки відео"
+msgstr "Загальні налаштування відео"
 
 #: include/vlc_config_cat.h:77
 msgid "Choose your preferred video output and configure it here."
@@ -172,7 +171,7 @@ msgstr "Субтитри/OSD"
 #: include/vlc_config_cat.h:84
 msgid ""
 "Settings related to On-Screen-Display, subtitles and \"overlay subpictures\""
-msgstr "Настройки, пов’язані з OSD, субтитрами й «оверлейними шарами»."
+msgstr "Налаштування, пов’язані з OSD, субтитрами й „оверлейними шарами“."
 
 #: include/vlc_config_cat.h:93
 msgid "Input / Codecs"
@@ -180,7 +179,7 @@ msgstr "Введення / Кодеки"
 
 #: include/vlc_config_cat.h:94
 msgid "Settings for input, demultiplexing, decoding and encoding"
-msgstr "Настройки введення, демультиплексування, декодування й кодування"
+msgstr "Налаштування введення, демультиплексування, декодування й кодування"
 
 #: include/vlc_config_cat.h:97
 msgid "Access modules"
@@ -191,8 +190,8 @@ msgid ""
 "Settings related to the various access methods. Common settings you may want "
 "to alter are HTTP proxy or caching settings."
 msgstr ""
-"Настройки різних методів доступу. Зазвичай змінюється проксі HTTP або "
-"настройки кешування."
+"Налаштування різних методів доступу. Зазвичай змінюється проксі HTTP або "
+"налаштування кешування."
 
 #: include/vlc_config_cat.h:103
 msgid "Stream filters"
@@ -221,7 +220,7 @@ msgstr "Відеокодеки"
 
 #: include/vlc_config_cat.h:112
 msgid "Settings for the video, images or video+audio decoders and encoders."
-msgstr "Настройки декодерів і кодерів відео, зображень або відео та звуку."
+msgstr "Налаштування декодерів і кодерів відео, зображень або відео та звуку."
 
 #: include/vlc_config_cat.h:114
 msgid "Audio codecs"
@@ -229,7 +228,7 @@ msgstr "Звукові кодеки"
 
 #: include/vlc_config_cat.h:115
 msgid "Settings for the audio-only decoders and encoders."
-msgstr "Настройки декодерів і кодерів звуку."
+msgstr "Налаштування декодерів і кодерів звуку."
 
 #: include/vlc_config_cat.h:117
 msgid "Subtitles codecs"
@@ -6982,9 +6981,9 @@ msgid ""
 "HTTP proxy to be used It must be of the form http://[user@]myproxy.mydomain:"
 "myport/ ; if empty, the http_proxy environment variable will be tried."
 msgstr ""
-"Використовуваний HTTP-проксі. Припустимий формат: «http://"
-"[користувач@]проксі.домен:порт/». Якщо поле пусте, використовуватиметься "
-"змінна оточення «http_proxy»."
+"Використовуваний HTTP-проксі. Припустимий формат: «http://[користувач@]"
+"проксі.домен:порт/». Якщо поле пусте, використовуватиметься змінна оточення "
+"«http_proxy»."
 
 #: modules/access/http.c:78
 msgid "HTTP proxy password"
@@ -30912,7 +30911,7 @@ msgstr "Список медіаменеджеру"
 
 #, fuzzy
 #~ msgid "POSIX signals handling interface"
-#~ msgstr "Настройки головного інтерфейсу"
+#~ msgstr "Налаштування головного інтерфейсу"
 
 #, fuzzy
 #~ msgid "VLM remote control interface"
@@ -30972,7 +30971,7 @@ msgstr "Список медіаменеджеру"
 
 #, fuzzy
 #~ msgid "General editing filters"
-#~ msgstr "Загальні настройки звуку"
+#~ msgstr "Загальні налаштування звуку"
 
 #, fuzzy
 #~ msgid "Distortion filters"
@@ -31020,7 +31019,7 @@ msgstr "Список медіаменеджеру"
 
 #, fuzzy
 #~ msgid "Keep current Equalizer settings"
-#~ msgstr "Загальні настройки відео"
+#~ msgstr "Загальні налаштування відео"
 
 #, fuzzy
 #~ msgid ""
@@ -31496,7 +31495,7 @@ msgstr "Список медіаменеджеру"
 
 #, fuzzy
 #~ msgid "Settings for audio+video and miscellaneous decoders and encoders."
-#~ msgstr "Настройки декодерів і кодерів звуку."
+#~ msgstr "Налаштування декодерів і кодерів звуку."
 
 #, fuzzy
 #~ msgid "Random off"
