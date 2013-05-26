@@ -1417,7 +1417,7 @@ msgstr "Sagu-mugimenduak"
 #. xgettext: Translate "C" to the language code: "fr", "en_GB", "nl", "ru"...
 #: src/libvlc.c:291
 msgid "C"
-msgstr "C"
+msgstr "eu"
 
 #: src/libvlc.c:869
 msgid ""
