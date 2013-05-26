@@ -1,25 +1,25 @@
 # Turkish translation
-# Copyright (C) 2012 VideoLAN
+# Copyright (C) 2013 VideoLAN
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
-# Adem GUNES <xleopar@yahoo.com>, 2008.
-# Kaya Zeren <kayazeren@gmail.com>, 2010, 2012.
-# Yaşar TAY <yasartay@yahoo.com>, 2009.
+# Adem GUNES <xleopar@yahoo.com>, 2008
+# Kaya Zeren <kayazeren@gmail.com>, 2012-2013
+# Yaşar TAY <yasartay@yahoo.com>, 2009
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-04-07 22:23+0200\n"
-"PO-Revision-Date: 2012-12-03 00:38+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
+"PO-Revision-Date: 2013-04-29 08:19+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/projects/p/vlc-trans/"
 "language/tr/)\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: include/vlc_common.h:1026
 msgid ""
@@ -28,20 +28,19 @@ msgid ""
 "see the file named COPYING for details.\n"
 "Written by the VideoLAN team; see the AUTHORS file.\n"
 msgstr ""
-"Bu program kanunlarla belirlenen GARANTİ koşullarına tabi değildir.\n"
-"Bu programı GNU General Public License terimleri altında yeniden "
-"dağıtabilirsiniz;\n"
-"ayrıntılar için COPYGING adlı dosyaya bakınız.\n"
+"Bu yazılım kanunlarla belirlenen GARANTİ koşullarına tabi değildir.\n"
+"Yazılımı GNU Genel Kamu Lisansı koşulları altında yeniden dağıtabilirsiniz;\n"
+"ayrıntılar için COPYGING adlı dosyaya bakın.\n"
 "VideoLAN takımı tarafından yazılmıştır; ayrıntılar için AUTHORS dosyasına "
-"bakınız.\n"
+"bakın.\n"
 
 #: include/vlc_config_cat.h:32 modules/audio_output/alsa.c:805
 msgid "VLC preferences"
-msgstr "VLC seçenekleri"
+msgstr "VLC ayarları"
 
 #: include/vlc_config_cat.h:34
 msgid "Select \"Advanced Options\" to see all options."
-msgstr "Tüm seçenekleri görmek için \"Gelişmiş Ayarlar\"ı seçin."
+msgstr "Tüm ayarları görmek için \"Gelişmiş Ayarlar\"ı seçin."
 
 #: include/vlc_config_cat.h:37 modules/gui/macosx/simple_prefs.m:178
 #: modules/gui/qt4/components/simple_preferences.cpp:86
@@ -51,7 +50,7 @@ msgstr "Arayüz"
 
 #: include/vlc_config_cat.h:38
 msgid "Settings for VLC's interfaces"
-msgstr "VLC arayüzleri için ayarlar"
+msgstr "VLC arayüz ayarları"
 
 #: include/vlc_config_cat.h:40
 msgid "Main interfaces settings"
@@ -63,7 +62,7 @@ msgstr "Temel Arayüzler"
 
 #: include/vlc_config_cat.h:43
 msgid "Settings for the main interface"
-msgstr "VLC temel arayüzünü ayarları"
+msgstr "VLC temel arayüzü ayarları"
 
 #: include/vlc_config_cat.h:45 src/libvlc-module.c:220
 msgid "Control interfaces"
@@ -71,7 +70,7 @@ msgstr "Denetim Arayüzleri"
 
 #: include/vlc_config_cat.h:46
 msgid "Settings for VLC's control interfaces"
-msgstr "VLC denetim arayüzlerinin ayarları"
+msgstr "VLC denetim arayüzleri ayarları"
 
 #: include/vlc_config_cat.h:48 include/vlc_config_cat.h:49
 #: modules/gui/macosx/simple_prefs.m:198
@@ -123,7 +122,7 @@ msgstr "Çıkış Modülleri"
 
 #: include/vlc_config_cat.h:64
 msgid "General settings for audio output modules."
-msgstr "Ses çıkış modülleri için genel ayarlar"
+msgstr "Ses çıkış modüllerinin genel ayarları."
 
 #: include/vlc_config_cat.h:66 src/libvlc-module.c:2128
 #: modules/gui/macosx/VideoEffects.m:73
@@ -159,7 +158,7 @@ msgstr "Genel görüntü ayarları"
 
 #: include/vlc_config_cat.h:77
 msgid "Choose your preferred video output and configure it here."
-msgstr "Yeğlediğiniz görüntü çıkışını seçin ve buradan yapılandırın."
+msgstr "Yeğlediğiniz görüntü çıkışını seçin ve buradan ayarlayın."
 
 #: include/vlc_config_cat.h:81
 msgid "Video filters are used to process the video stream."
@@ -182,7 +181,7 @@ msgstr "Giriş ya da Kodlayıcı/Çözücü"
 
 #: include/vlc_config_cat.h:94
 msgid "Settings for input, demultiplexing, decoding and encoding"
-msgstr "Giriş için tekleme, kodlama ve kod çözme ile ilgili ayarlar"
+msgstr "Giriş tekleme, kodlama ve kod çözme ile ilgili ayarlar"
 
 #: include/vlc_config_cat.h:97
 msgid "Access modules"
@@ -223,7 +222,7 @@ msgstr "Görüntü kodlayıcı/çözücüleri"
 #: include/vlc_config_cat.h:112
 msgid "Settings for the video, images or video+audio decoders and encoders."
 msgstr ""
-"Görüntü, resim ya da ses + görüntü kodlayıcı ve kod çözücülerinin ayarları."
+"Görüntü, görsel ya da ses + görüntü kodlayıcı ve kod çözücülerinin ayarları."
 
 #: include/vlc_config_cat.h:114
 msgid "Audio codecs"
@@ -231,7 +230,7 @@ msgstr "Ses kodlayıcı/çözücüleri"
 
 #: include/vlc_config_cat.h:115
 msgid "Settings for the audio-only decoders and encoders."
-msgstr "Salt ses kodlayıcılar ve kod çözücülere ilişkin ayarlar."
+msgstr "Yalnız ses kodlayıcılar ve kod çözücülere ilişkin ayarlar."
 
 #: include/vlc_config_cat.h:117
 msgid "Subtitles codecs"
@@ -28209,23 +28208,11 @@ msgstr "Ortam Yöneticisi Listesi"
 #~ "Bazı DVB kartları, yeteneklerinin sorgulanmasından hoşlanmaz. Sorun "
 #~ "yaşıyorsanız bu özelliği devre dışı bırakabilirsiniz."
 
-#~ msgid "Satellite scanning config"
-#~ msgstr "Uydu tarama ayarları"
-
 #~ msgid "filename of config file in share/dvb/dvb-s"
 #~ msgstr "share/dvb/dvb-s içindeki ayar dosyasının adı"
 
-#~ msgid "DVB"
-#~ msgstr "DVB"
-
 #~ msgid "DVB input with v4l2 support"
 #~ msgstr "v4l2 destekli DVB girişi"
-
-#~ msgid "ARM NEON video chroma YUV->RGBA"
-#~ msgstr "ARM NEON görüntü renk doygunluğu YUV->RGBA"
-
-#~ msgid "Opus audio decoder"
-#~ msgstr "Opus ses kod çözücüsü"
 
 #~ msgid "Opus"
 #~ msgstr "Opus"
@@ -29790,6 +29777,22 @@ msgstr "Ortam Yöneticisi Listesi"
 #~ msgstr "Tamam"
 
 #, fuzzy
+#~ msgid "Satellite scanning config"
+#~ msgstr "Uydu sınır kodu"
+
+#, fuzzy
+#~ msgid "DVB"
+#~ msgstr "DV"
+
+#, fuzzy
+#~ msgid "ARM NEON video chroma YUV->RGBA"
+#~ msgstr "ARM NEON görüntü renk doygunluğu çevrimleri"
+
+#, fuzzy
+#~ msgid "Opus audio decoder"
+#~ msgstr "Speex Ses Kod Çözücüsü"
+
+#, fuzzy
 #~ msgid "Video Filters..."
 #~ msgstr "Görüntü Dosyaları"
 
@@ -30754,7 +30757,7 @@ msgstr "Ortam Yöneticisi Listesi"
 
 #, fuzzy
 #~ msgid "POSIX signals handling interface"
-#~ msgstr "VLC temel arayüzünü ayarları"
+#~ msgstr "VLC temel arayüzü ayarları"
 
 #, fuzzy
 #~ msgid "VLM remote control interface"
@@ -31326,7 +31329,7 @@ msgstr "Ortam Yöneticisi Listesi"
 
 #, fuzzy
 #~ msgid "Settings for audio+video and miscellaneous decoders and encoders."
-#~ msgstr "Salt ses kodlayıcılar ve kod çözücülere ilişkin ayarlar."
+#~ msgstr "Yalnız ses kodlayıcılar ve kod çözücülere ilişkin ayarlar."
 
 #, fuzzy
 #~ msgid "Open &Directory..."
