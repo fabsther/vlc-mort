@@ -18616,12 +18616,12 @@ msgstr " Bolumena   : %%%u"
 #: modules/gui/ncurses.c:1104
 #, c-format
 msgid " Title    : %<PRId64>/%d"
-msgstr " Titulua    : %d/%<PRId64>"
+msgstr " Titulua    : %<PRId64>/%d"
 
 #: modules/gui/ncurses.c:1110
 #, c-format
 msgid " Chapter  : %<PRId64>/%d"
-msgstr " Kapitulua  : %d/%<PRId64>"
+msgstr " Kapitulua  : %<PRId64>/%d"
 
 #: modules/gui/ncurses.c:1115
 msgid " Source: <no current item> "
