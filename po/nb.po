@@ -3,21 +3,20 @@
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
-# Alexander Mackinnon Jansen <bornxlo@gmail.com>, 2013.
-# Olav Dahlum <odahlum@gmail.com>, 2011.
-# Sigmund Augdal <sigmunau@idi.ntnu.no>, 2002.
-# Stian Jørgensrud <stianahj@gmail.com>, 2012.
-#
+# Alexander Jansen <bornxlo@gmail.com>, 2013
+# Olav Dahlum <odahlum@gmail.com>, 2011
+# Sigmund Augdal <sigmunau@idi.ntnu.no>, 2002
+# Stian Jørgensrud <stianahj@gmail.com>, 2012-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-04-07 22:23+0200\n"
-"PO-Revision-Date: 2013-03-30 23:16+0000\n"
-"Last-Translator: Alexander Jansen <bornxlo@gmail.com>\n"
+"PO-Revision-Date: 2013-04-29 08:19+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Norwegian Bokmål (Norway) (http://www.transifex.com/projects/"
 "p/vlc-trans/language/nb_NO/)\n"
-"Language: nb\n"
+"Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -273,7 +272,7 @@ msgstr ""
 
 #: include/vlc_config_cat.h:134
 msgid "General stream output settings"
-msgstr ""
+msgstr "Generelle strømningsinnstillinger ut"
 
 #: include/vlc_config_cat.h:136
 msgid "Muxers"
@@ -25533,9 +25532,8 @@ msgid "Thanks"
 msgstr "Takk"
 
 #: modules/gui/qt4/ui/about.h:188
-#, fuzzy
 msgid "Licence"
-msgstr "Lisens"
+msgstr ""
 
 #: modules/gui/qt4/ui/equalizer.h:132 modules/gui/qt4/ui/open_disk.h:297
 #: modules/gui/qt4/ui/open_net.h:91 modules/gui/qt4/ui/profiles.h:460
@@ -25551,9 +25549,8 @@ msgid "Preset"
 msgstr "Forvalg"
 
 #: modules/gui/qt4/ui/messages_panel.h:142
-#, fuzzy
 msgid "Verbosity:"
-msgstr "Detaljnivå (0, 1, 2)"
+msgstr ""
 
 #: modules/gui/qt4/ui/messages_panel.h:145
 msgid "&Save as..."
@@ -25577,9 +25574,8 @@ msgid "Show &more options"
 msgstr "&Vis flere valg"
 
 #: modules/gui/qt4/ui/open.h:251
-#, fuzzy
 msgid "Change the caching for the media"
-msgstr "Endre det navnet på tjenesten."
+msgstr ""
 
 #: modules/gui/qt4/ui/open.h:254
 msgid "MRL"
@@ -25606,9 +25602,8 @@ msgid "Select the file"
 msgstr "Velg fila"
 
 #: modules/gui/qt4/ui/open.h:266
-#, fuzzy
 msgid "Change the start time for the media"
-msgstr "Endre det navnet på tjenesten."
+msgstr ""
 
 #: modules/gui/qt4/ui/open.h:268
 msgid "HH'H':mm'm':ss's'.zzz"
@@ -25619,18 +25614,16 @@ msgid "Play another media synchronously (extra audio file, ...)"
 msgstr "Spill av en annen fil samtidig (ekstra lydfil, …)"
 
 #: modules/gui/qt4/ui/open_capture.h:98
-#, fuzzy
 msgid "Capture mode"
-msgstr "Ta opp"
+msgstr ""
 
 #: modules/gui/qt4/ui/open_capture.h:100
 msgid "Select the capture device type"
 msgstr ""
 
 #: modules/gui/qt4/ui/open_capture.h:102
-#, fuzzy
 msgid "Device Selection"
-msgstr "Diskvalg"
+msgstr ""
 
 #: modules/gui/qt4/ui/open_capture.h:103
 msgid "Options"
@@ -25653,9 +25646,8 @@ msgid "SVCD/VCD"
 msgstr "SVCD/VCD"
 
 #: modules/gui/qt4/ui/open_disk.h:304
-#, fuzzy
 msgid "Disable Disc Menus"
-msgstr "Slå av skjermsparer"
+msgstr ""
 
 #: modules/gui/qt4/ui/open_disk.h:306
 msgid "No disc menus"
@@ -25698,18 +25690,16 @@ msgid "Use a sub&titles file"
 msgstr "Bruk en under&tekst fil"
 
 #: modules/gui/qt4/ui/open_file.h:175
-#, fuzzy
 msgid "Select the subtitles file"
-msgstr "Velg fila"
+msgstr ""
 
 #: modules/gui/qt4/ui/open_net.h:92
 msgid "Network Protocol"
 msgstr "Nettverkprotokoll"
 
 #: modules/gui/qt4/ui/open_net.h:93
-#, fuzzy
 msgid "Please enter a network URL:"
-msgstr "Oppgi det nye profilnavnet."
+msgstr ""
 
 #: modules/gui/qt4/ui/open_net.h:94
 msgid ""
@@ -25782,9 +25772,8 @@ msgid "MKV"
 msgstr "MKV"
 
 #: modules/gui/qt4/ui/profiles.h:475
-#, fuzzy
 msgid "Encapsulation"
-msgstr "Innkapslingsmetode"
+msgstr ""
 
 #: modules/gui/qt4/ui/profiles.h:479 modules/gui/qt4/ui/profiles.h:498
 msgid " kb/s"
@@ -25851,14 +25840,12 @@ msgid "Display locally"
 msgstr "Vis lokalt"
 
 #: modules/gui/qt4/ui/sout.h:336
-#, fuzzy
 msgid "Activate Transcoding"
-msgstr "Undertekstkoding"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:339
-#, fuzzy
 msgid "Destination Setup"
-msgstr "Mål"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:340
 msgid "Miscellaneous Options"
@@ -25877,27 +25864,24 @@ msgid "Generated stream output string"
 msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:347
-#, fuzzy
 msgid "Option Setup"
-msgstr "Valg"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:434
 msgid " %"
 msgstr " %"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:436
-#, fuzzy
 msgid "Output module:"
-msgstr "Eksportmoduler"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:441
 msgid "Visualization:"
 msgstr "Visualisering:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:442
-#, fuzzy
 msgid "Enable Time-Stretching audio"
-msgstr "Slå på lyd"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:443
 msgid "Dolby Surround:"
@@ -25960,18 +25944,16 @@ msgid "Optical drive"
 msgstr "Optisk drev"
 
 #: modules/gui/qt4/ui/sprefs_input.h:342
-#, fuzzy
 msgid "Default optical device"
-msgstr "Standardenheter"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_input.h:346
 msgid "Damaged or incomplete AVI file"
 msgstr "Ødelagt eller ufullstendig AVI-fil"
 
 #: modules/gui/qt4/ui/sprefs_input.h:349
-#, fuzzy
 msgid "HTTP proxy URL"
-msgstr "HTTP-mellomtjener"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_input.h:350
 msgid "HTTP (default)"
@@ -25986,19 +25968,16 @@ msgid "Live555 stream transport"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_input.h:353
-#, fuzzy
 msgid "Default caching policy"
-msgstr "Standard koding"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:504
-#, fuzzy
 msgid "Instances"
-msgstr "Installer"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:505
-#, fuzzy
 msgid "Allow only one instance"
-msgstr "Tillat kun en kjørende instans."
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:506
 msgid "Enqueue files when in one instance mode"
@@ -26017,9 +25996,8 @@ msgid "Save recently played items"
 msgstr "Lagre nylig spilte medier"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:515
-#, fuzzy
 msgid "Album art download policy:"
-msgstr "Manuell nedlasting"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:516
 msgid "Activate updates notifier"
@@ -26038,23 +26016,20 @@ msgid "File extensions association"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:523
-#, fuzzy
 msgid "Set up associations..."
-msgstr "Innstillinger …"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:524
-#, fuzzy
 msgid "Configure Media Library"
-msgstr "Mediabibliotek"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:525
 msgid "Look and feel"
 msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:526
-#, fuzzy
 msgid "Use custom skin"
-msgstr "Velg tema"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:528
 msgid "This is VLC's default interface, with a native look and feel."
@@ -26062,27 +26037,24 @@ msgstr ""
 "Dette er VLC sitt standard utseende, med et brilliant og normalt oppsett."
 
 #: modules/gui/qt4/ui/sprefs_interface.h:530
-#, fuzzy
 msgid "Use native style"
-msgstr "Bruk undertekstfil"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:531
 msgid "Show controls in full screen mode"
 msgstr "Vis kontroller i fullskjermmodus"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:532
-#, fuzzy
 msgid "Start in minimal view mode"
-msgstr "Start i minimal visning (uten menyer)"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:533
 msgid "Pause playback when minimized"
 msgstr "Sett avspilling på pause når minimert"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:534
-#, fuzzy
 msgid "Integrate video in interface"
-msgstr "Skjul brukerflaten"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:535
 msgid "Resize interface to video size"
@@ -26093,14 +26065,12 @@ msgid "Show systray icon"
 msgstr "Vis ikon i systemkurven"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:537
-#, fuzzy
 msgid "Systray popup when minimized"
-msgstr "Sett avspilling på pause når minimert"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:538
-#, fuzzy
 msgid "Force window style:"
-msgstr "Aktive vinduer"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:539
 msgid "Skin resource file:"
@@ -26139,9 +26109,8 @@ msgid "Add a shadow"
 msgstr "Legg til skygge"
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:285
-#, fuzzy
 msgid "Add a background"
-msgstr "Standard bakgrunnsfarge"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:287
 #: modules/gui/qt4/ui/video_effects.h:1312
@@ -26168,9 +26137,8 @@ msgid "Display device"
 msgstr "Vis enhet"
 
 #: modules/gui/qt4/ui/sprefs_video.h:345
-#, fuzzy
 msgid "KVA"
-msgstr "MKV"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_video.h:349
 msgid "Deinterlacing"
@@ -26249,9 +26217,8 @@ msgid "Do you want to download it ?"
 msgstr "Vil du laste ned?"
 
 #: modules/gui/qt4/ui/video_effects.h:1310
-#, fuzzy
 msgid "Essential"
-msgstr "romlig"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1324
 #: modules/gui/qt4/ui/video_effects.h:1333
@@ -26259,9 +26226,8 @@ msgid ">HHHHHH;#"
 msgstr ">HHHHHH;#"
 
 #: modules/gui/qt4/ui/video_effects.h:1325
-#, fuzzy
 msgid "Negate colors"
-msgstr "Omvendte farger"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1338
 msgid "Colors"
@@ -26280,9 +26246,8 @@ msgid "Angle"
 msgstr "Vinkel"
 
 #: modules/gui/qt4/ui/video_effects.h:1349
-#, fuzzy
 msgid "Black slot"
-msgstr "Svart"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1353
 #: modules/gui/qt4/ui/video_effects.h:1370
@@ -26350,14 +26315,12 @@ msgid "Mirror"
 msgstr "Tjener"
 
 #: modules/gui/qt4/ui/vlm.h:287
-#, fuzzy
 msgid "VLM configurator"
-msgstr "&VLM-innstillinger"
+msgstr ""
 
 #: modules/gui/qt4/ui/vlm.h:288
-#, fuzzy
 msgid "Media Manager Edition"
-msgstr "Mediabehandlerliste"
+msgstr ""
 
 #: modules/gui/qt4/ui/vlm.h:289
 msgid "Name:"
