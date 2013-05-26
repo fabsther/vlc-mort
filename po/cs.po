@@ -3,25 +3,24 @@
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
-# Jakub Žáček <dawon.cz@gmail.com>, 2009.
-# Kamil Páral <ripper42@gmail.com>, 2009.
-# Martin Zicha <zicha@centrum.cz>, 2012.
-# Michal Halenka <michal.halenka@gmail.com>, 2012.
-# Miroslav Oujeský <oujesky@mail.muni.cz>, 2006.
-# Mustafa Sandal <dreddux@gmail.com>, 2012.
-# Petr Šimáček <petr.simacek@gmail.com>, 2012.
-# Tomáš Chvátal <tomas.chvatal@gmail.com>, 2008-2013.
-# Václav Pavlíček <v.pavlicek@centrum.cz>, 2012.
-# Vít Pelčák <vit@pelcak.org>, 2012.
-# Vojtěch Smejkal <smejkalv@gmail.com>, 2009.
-#
+# Jakub Žáček <dawon.cz@gmail.com>, 2009
+# Kamil Páral <ripper42@gmail.com>, 2009
+# Martin Zicha <zicha@centrum.cz>, 2012
+# Michal Halenka <michal.halenka@gmail.com>, 2012
+# Miroslav Oujeský <oujesky@mail.muni.cz>, 2006
+# Mustafa Sandal <dreddux@gmail.com>, 2012
+# Petr Šimáček <petr.simacek@gmail.com>, 2012
+# Tomáš Chvátal <tomas.chvatal@gmail.com>, 2008-2013
+# Václav Pavlíček <v.pavlicek@centrum.cz>, 2012
+# Vít Pelčák <vit@pelcak.org>, 2012
+# Vojtěch Smejkal <smejkalv@gmail.com>, 2009
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-04-07 22:23+0200\n"
-"PO-Revision-Date: 2013-02-03 07:47+0000\n"
-"Last-Translator: Tomáš Chvátal <tomas.chvatal@gmail.com>\n"
+"PO-Revision-Date: 2013-04-29 08:19+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/projects/p/vlc-trans/language/"
 "cs/)\n"
 "Language: cs\n"
@@ -2751,8 +2750,8 @@ msgid ""
 "Automatically detect a subtitle file, if no subtitle filename is specified "
 "(based on the filename of the movie)."
 msgstr ""
-"Automaticky detekuje název souboru s titulky pokud není žádný název "
-"zadán(detekce založena na názvu souboru videa)."
+"Automaticky detekuje název souboru s titulky pokud není žádný název zadán"
+"(detekce založena na názvu souboru videa)."
 
 #: src/libvlc-module.c:883
 msgid "Subtitle autodetection fuzziness"
@@ -22869,7 +22868,7 @@ msgstr "Plátno"
 
 #: modules/video_filter/canvas.c:106
 msgid "Canvas video filter"
-msgstr ""
+msgstr "Filtr videa \"plátno\""
 
 #: modules/video_filter/chain.c:43
 msgid "Video filtering using a chain of video filter modules"
@@ -23468,7 +23467,7 @@ msgstr ""
 
 #: modules/video_filter/logo.c:111
 msgid "Logo video filter"
-msgstr ""
+msgstr "Filtr videa \"logo\""
 
 #: modules/video_filter/magnify.c:47
 msgid "Magnify/Zoom interactive video filter"
@@ -24600,11 +24599,11 @@ msgstr ""
 
 #: modules/video_filter/subsdelay.c:81
 msgid "Relative to source delay"
-msgstr ""
+msgstr "Relativní ke zpoždění zdroje"
 
 #: modules/video_filter/subsdelay.c:82
 msgid "Relative to source content"
-msgstr ""
+msgstr "Relativní k obsahu zdroje"
 
 #: modules/video_filter/subsdelay.c:275
 msgid "Subsdelay"
@@ -25742,9 +25741,8 @@ msgid "Select the file"
 msgstr "Vyberte soubor"
 
 #: modules/gui/qt4/ui/open.h:266
-#, fuzzy
 msgid "Change the start time for the media"
-msgstr "Změnit mezipaměť pro média"
+msgstr ""
 
 #: modules/gui/qt4/ui/open.h:268
 msgid "HH'H':mm'm':ss's'.zzz"
@@ -26010,23 +26008,20 @@ msgid "Miscellaneous Options"
 msgstr "Různá nastavení"
 
 #: modules/gui/qt4/ui/sout.h:341
-#, fuzzy
 msgid "Stream all elementary streams"
-msgstr "Vzorkovací frekvence zvuku v základním proudu"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:343
 msgid "Group name"
 msgstr "Název skupiny"
 
 #: modules/gui/qt4/ui/sout.h:345
-#, fuzzy
 msgid "Generated stream output string"
-msgstr "Obecná nastavení proudového výstupu"
+msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:347
-#, fuzzy
 msgid "Option Setup"
-msgstr "Nastavení cíle"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:434
 msgid " %"
@@ -26085,9 +26080,8 @@ msgid "x264 profile and level selection"
 msgstr "Výběr úrovně a profil x264"
 
 #: modules/gui/qt4/ui/sprefs_input.h:337
-#, fuzzy
 msgid "x264 preset and tuning selection"
-msgstr "Výběr úrovně a profil x264"
+msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_input.h:338
 msgid "Use GPU accelerated decoding"
@@ -26334,14 +26328,12 @@ msgid "Run manually"
 msgstr "Spustit ručně"
 
 #: modules/gui/qt4/ui/streampanel.h:177
-#, fuzzy
 msgid "Setup schedule"
-msgstr "Plán"
+msgstr ""
 
 #: modules/gui/qt4/ui/streampanel.h:178
-#, fuzzy
 msgid "Run on schedule"
-msgstr "Plán"
+msgstr ""
 
 #: modules/gui/qt4/ui/streampanel.h:179
 msgid "Status"
@@ -26434,9 +26426,8 @@ msgid "Edge weightning"
 msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1374
-#, fuzzy
 msgid "Output Color Filtermode"
-msgstr "Výstupní soubor"
+msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1375
 msgid "Brightness (%)"
@@ -26483,9 +26474,8 @@ msgid "VLM configurator"
 msgstr "Konfigurátor VLM"
 
 #: modules/gui/qt4/ui/vlm.h:288
-#, fuzzy
 msgid "Media Manager Edition"
-msgstr "Seznam správců médií"
+msgstr ""
 
 #: modules/gui/qt4/ui/vlm.h:289
 msgid "Name:"
