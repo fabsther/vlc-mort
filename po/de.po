@@ -3,22 +3,21 @@
 # This file is distributed under the same license as the VLC package.
 #
 # Translators:
-# Christoph Miebach <christoph.miebach@web.de>, 2011-2012.
-# Felix Kühne <fkuehne at users.sf.net>, 2003-2012, 2012.
-# Jens Seidel <jensseidel _at_ users.sf.net>, 2005.
-# Kai Hermann <kai.uwe.hermann@gmail.com>, 2009.
-# Mario Siegmann <mario_siegmann@web.de>, 2011-2013.
-# Mathias C. Berens | welcome-soft <berens at welcome-soft.de>, 2006.
-# Michał Trzebiatowski <hippie_1968@hotmail.com>, 2010,2012.
-# Philipp Weissenbacher <philippweissenbacher _at_ aon.at>, 2004.
-# Thomas Graf <tgr at reeler.org>, 2002.
-#
+# Christoph Miebach <christoph.miebach@web.de>, 2011-2013
+# Felix Kühne <fkuehne at users.sf.net>, 2003-2012, 2012
+# Jens Seidel <jensseidel _at_ users.sf.net>, 2005
+# Kai Hermann <kai.uwe.hermann@gmail.com>, 2009
+# Mario Siegmann <mario_siegmann@web.de>, 2011-2013
+# Mathias C. Berens | welcome-soft <berens at welcome-soft.de>, 2006
+# Michał Trzebiatowski <hippie_1968@hotmail.com>, 2010,2012
+# Philipp Weissenbacher <philippweissenbacher _at_ aon.at>, 2004
+# Thomas Graf <tgr at reeler.org>, 2002
 msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-04-07 22:23+0200\n"
-"PO-Revision-Date: 2013-02-08 12:43+0000\n"
+"PO-Revision-Date: 2013-04-29 08:19+0000\n"
 "Last-Translator: Mario Siegmann <mario_siegmann@web.de>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/vlc-trans/"
 "language/de/)\n"
@@ -7427,9 +7426,9 @@ msgid ""
 "mydomain:myport/ ; if empty, the http_proxy environment variable will be "
 "tried."
 msgstr ""
-"Zu benutzender HTTP-Proxy. Dies muss in der Form http://[Benutzer[:"
-"Passwort]@]meinProxy.meineDomain:meinPort/ sein. Wenn keiner angegeben ist, "
-"wird versucht, die http_proxy-Umgebungsvariable zu verwenden."
+"Zu benutzender HTTP-Proxy. Dies muss in der Form http://[Benutzer[:Passwort]"
+"@]meinProxy.meineDomain:meinPort/ sein. Wenn keiner angegeben ist, wird "
+"versucht, die http_proxy-Umgebungsvariable zu verwenden."
 
 #: modules/access/mms/mms.c:64
 msgid "TCP/UDP timeout (ms)"
@@ -16773,7 +16772,7 @@ msgstr "RTP/UDP-Stream öffnen"
 #: share/lua/http/dialogs/stream_config_window.html:24
 #: share/lua/http/dialogs/stream_window.html:83
 msgid "Protocol"
-msgstr "Protokoll:"
+msgstr "Protokoll"
 
 #: modules/gui/macosx/open.m:167 modules/gui/macosx/output.m:146
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:216
