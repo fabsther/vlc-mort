@@ -22,6 +22,9 @@ Mac OS X Interface
  * Minor improvements
  * Fix issue which could lead to loss of media files created through transcoding
 
+HTTP Interface
+ * Fix two xss vulnerabilities (CVE-2013-3565)
+
 Translations:
  * Update Basque, Simplified Chinese, Ukrainian, Turkish, Portuguese, Norwegian Bokmål,
    Burmese, Lithuanian, Italian, Hindi, Spanish, German, Czech, Danish, Welsh translations
