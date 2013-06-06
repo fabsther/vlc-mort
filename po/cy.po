@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2013-04-07 22:23+0200\n"
-"PO-Revision-Date: 2013-05-27 05:04+0000\n"
+"PO-Revision-Date: 2013-06-03 10:46+0000\n"
 "Last-Translator: Cymrodor <cymrodor@gmail.com>\n"
 "Language-Team: Welsh (http://www.transifex.com/projects/p/vlc-trans/language/"
 "cy/)\n"
@@ -372,7 +372,7 @@ msgstr "Nodweddion CPU"
 msgid ""
 "You can choose to disable some CPU accelerations here. Use with extreme care!"
 msgstr ""
-"Gallwch dewis i analluogi rhai cyflymiadau CPU yma. Addaswch gyda gofal!"
+"Mae'n bosib dewis i analluogi rhai cyflymiadau CPU yma. Addaswch gyda gofal!"
 
 #: include/vlc_config_cat.h:193
 msgid "Advanced settings"
@@ -483,7 +483,7 @@ msgstr "&Negeseuon"
 
 #: include/vlc_intf_strings.h:58
 msgid "Jump to Specific &Time"
-msgstr "Neidio i &Amser Penodol"
+msgstr "Neidio at &Amser Penodol"
 
 #: include/vlc_intf_strings.h:59
 msgid "&Bookmarks"
@@ -552,16 +552,16 @@ msgstr "Cadw..."
 #: include/vlc_intf_strings.h:80 modules/gui/macosx/CoreInteraction.m:433
 #: modules/gui/macosx/MainMenu.m:280 modules/gui/macosx/MainMenu.m:1185
 msgid "Repeat All"
-msgstr "Ail-chwarae'r Cyfan"
+msgstr "Ailchwarae'r Cyfan"
 
 #: include/vlc_intf_strings.h:81 modules/gui/macosx/CoreInteraction.m:454
 #: modules/gui/macosx/MainMenu.m:279 modules/gui/macosx/MainMenu.m:1178
 msgid "Repeat One"
-msgstr "Ail-chwarae Un"
+msgstr "Ailchwarae Un"
 
 #: include/vlc_intf_strings.h:82
 msgid "No Repeat"
-msgstr "Dim Ail-chwarae"
+msgstr "Dim Ailchwarae"
 
 #: include/vlc_intf_strings.h:84 src/libvlc-module.c:1537
 #: modules/gui/macosx/MainMenu.m:278 modules/gui/macosx/MainMenu.m:1171
@@ -643,7 +643,7 @@ msgstr "Chwyddiad"
 msgid ""
 "Magnify a part of the video. You can select which part of the image should "
 "be magnified."
-msgstr "Chwydda rhan o'r fideo. Gallet ddewis pa ran o'r delwedd i'w chwyddo."
+msgstr "Chwydda rhan o'r fideo. Dewisa pa ran o'r delwedd i'w chwyddo."
 
 #: include/vlc_intf_strings.h:117 modules/gui/macosx/VideoEffects.m:141
 #: modules/gui/qt4/ui/video_effects.h:1394
@@ -737,11 +737,11 @@ msgstr ""
 
 #: src/audio_output/common.c:94
 msgid "Spectrum"
-msgstr "Sbectrwm"
+msgstr "Spectrum"
 
 #: src/audio_output/common.c:97
 msgid "Vu meter"
-msgstr "Mesurydd Vu"
+msgstr "Vu Meter"
 
 #: src/audio_output/common.c:122 modules/audio_filter/equalizer.c:76
 #: modules/gui/macosx/AudioEffects.m:103
@@ -754,7 +754,7 @@ msgstr "Hidlyddion Sain"
 
 #: src/audio_output/common.c:153
 msgid "Replay gain"
-msgstr "Ail-chwarae "
+msgstr "Ailchwarae "
 
 #: src/audio_output/filters.c:142
 msgid "Audio filtering failed"
@@ -878,11 +878,11 @@ msgstr ""
 
 #: src/config/help.c:513
 msgid " (default enabled)"
-msgstr ""
+msgstr " (rhagosodedig wedi'i alluogi)"
 
 #: src/config/help.c:514
 msgid " (default disabled)"
-msgstr ""
+msgstr " (rhagosodedig wedi'i analluogi)"
 
 #: src/config/help.c:679 src/config/help.c:682 src/config/help.c:690
 #: src/config/help.c:695
@@ -897,7 +897,7 @@ msgstr ""
 #, c-format
 msgid ""
 "%d module(s) were not displayed because they only have advanced options.\n"
-msgstr ""
+msgstr "Ni ddangoswyd %d modiwl gan nad oes ganddyn nhw ddewisiadau uwch.\n"
 
 #: src/config/help.c:703 src/config/help.c:707
 msgid ""
@@ -951,7 +951,7 @@ msgstr "datgodwr"
 #: modules/codec/avcodec/encoder.c:820 modules/stream_out/es.c:363
 #: modules/stream_out/es.c:378
 msgid "Streaming / Transcoding failed"
-msgstr ""
+msgstr "Methwyd y ffrydiad / trawsgodiad"
 
 #: src/input/decoder.c:277
 #, c-format
@@ -1012,7 +1012,7 @@ msgstr "Ffrwd %d"
 
 #: src/input/es_out.c:2899 src/input/es_out.c:3017 modules/access/imem.c:64
 msgid "Subtitle"
-msgstr "Isdeitl"
+msgstr "Isdeitlau"
 
 #: src/input/es_out.c:2907 src/input/es_out.c:2934 src/input/es_out.c:2981
 #: src/input/es_out.c:3017 modules/gui/macosx/output.m:153
@@ -1269,7 +1269,7 @@ msgstr "Telnet"
 
 #: src/interface/interface.c:98
 msgid "Web"
-msgstr "Y we"
+msgstr "Web"
 
 #: src/interface/interface.c:101
 msgid "Debug logging"
@@ -1426,7 +1426,7 @@ msgstr ""
 
 #: src/libvlc-module.c:263
 msgid "Interface interaction"
-msgstr ""
+msgstr "Rhyngweithiad rhyngwyneb"
 
 #: src/libvlc-module.c:265
 msgid ""
@@ -1464,8 +1464,8 @@ msgid ""
 "You can completely disable the audio output. The audio decoding stage will "
 "not take place, thus saving some processing power."
 msgstr ""
-"Gallet analluogi'r allbwn sain yn gyfan gwbl. Ni fydd y cam ddatgodio'n "
-"digwydd ac felly bydd yn arbed pŵer prosesu."
+"Mae'n bosib analluogi'r allbwn sain yn gyfan gwbl. Gan na fydd rhaid ei "
+"ddatgodio, mi fydd yn arbed pŵer prosesu."
 
 #: src/libvlc-module.c:293
 msgid "Force mono audio"
@@ -1482,7 +1482,9 @@ msgstr "Uchder sain arferol"
 #: src/libvlc-module.c:299
 msgid ""
 "You can set the default audio output volume here, in a range from 0 to 1024."
-msgstr "Gallet osod uchder arferol yr allbwn sain yma, ar raddfa o 0 i 1024."
+msgstr ""
+"Mae'n bosib gosod lefel sain arferol yr allbwn sain yma, ar raddfa o 0 i "
+"1024."
 
 #: src/libvlc-module.c:302
 msgid "Audio output volume step"
@@ -1503,8 +1505,9 @@ msgid ""
 "You can force the audio output frequency here. Common values are 0 "
 "(undefined), 48000, 44100, 32000, 22050, 16000, 11025, 8000."
 msgstr ""
-"Mae'n bosib gosod seinamledd yr allbwn yma. Gwerthoedd cyffredin yw 0 "
-"(anniffiniedig), 48000, 44100, 32000, 22050, 16000, 11025, 8000."
+"Mae'n bosib gosod seinamledd (frequency) yr allbwn sain yma. Gwerthoedd "
+"cyffredin yw 0 (anniffiniedig), 48000, 44100, 32000, 22050, 16000, 11025, "
+"8000."
 
 #: src/libvlc-module.c:314
 msgid "High quality audio resampling"
@@ -1674,8 +1677,8 @@ msgid ""
 "You can completely disable the video output. The video decoding stage will "
 "not take place, thus saving some processing power."
 msgstr ""
-"Mae'n bosib diffodd yr allbwn fideo yn gyfan gwbl. Ni fydd y cam datgodio yn "
-"digwydd, felly yn arbed pŵer prosesu."
+"Mae'n bosib analluogi'r allbwn fideo yn gyfan gwbl. Gan na fydd rhaid ei "
+"ddatgodio, mi fydd yn arbed pŵer prosesu."
 
 #: src/libvlc-module.c:411 modules/stream_out/mosaic_bridge.c:109
 #: modules/stream_out/transcode/transcode.c:66
@@ -1689,7 +1692,7 @@ msgid ""
 "You can enforce the video width. By default (-1) VLC will adapt to the video "
 "characteristics."
 msgstr ""
-"Mae'n bosib gorfodi lled y fideo. Yn ddiofyn (-1), mae VLC yn addasu "
+"Mae'n bosib gorfodi lled y fideo. Yn rhagosodedig (-1), mae VLC yn addasu i "
 "nodweddion y fideo."
 
 #: src/libvlc-module.c:416 modules/stream_out/mosaic_bridge.c:112
@@ -1704,8 +1707,8 @@ msgid ""
 "You can enforce the video height. By default (-1) VLC will adapt to the "
 "video characteristics."
 msgstr ""
-"Mae'n bosib gorfodi uchder y fido. Yn ddiofyn (-1), mae VLC yn addasu "
-"nodweddion y fideo."
+"Mae'n bosib gorfodi uchder y fideo. Yn rhagosodedig (-1), mae VLC yn addasu "
+"i nodweddion y fideo."
 
 #: src/libvlc-module.c:421
 msgid "Video X coordinate"
@@ -1924,18 +1927,18 @@ msgstr ""
 #: modules/video_filter/deinterlace/deinterlace.c:98
 #: share/lua/http/dialogs/create_stream.html:346
 msgid "Deinterlace"
-msgstr "Dadryngweu"
+msgstr "Datgydblethu"
 
 #: src/libvlc-module.c:505 src/video_output/interlacing.c:195
 #: modules/gui/macosx/MainMenu.m:326 modules/gui/macosx/MainMenu.m:327
 #: modules/gui/macosx/simple_prefs.m:318
 #: modules/video_filter/deinterlace/deinterlace.c:53
 msgid "Deinterlace mode"
-msgstr "Dull dadryngweu"
+msgstr "Modd datgydblethu"
 
 #: src/libvlc-module.c:507
 msgid "Deinterlace method to use for video processing."
-msgstr ""
+msgstr "Dull datgydblethu i'w defnyddio ar gyfer prosesu fideo"
 
 #: src/libvlc-module.c:514 modules/video_filter/deinterlace/deinterlace.h:57
 msgid "Discard"
@@ -1956,7 +1959,7 @@ msgstr ""
 
 #: src/libvlc-module.c:515 modules/video_filter/deinterlace/deinterlace.h:57
 msgid "Linear"
-msgstr ""
+msgstr "Llinol"
 
 #: src/libvlc-module.c:515 modules/video_filter/deinterlace/deinterlace.h:58
 msgid "Phosphor"
@@ -2308,7 +2311,7 @@ msgstr ""
 #: modules/video_filter/marq.c:59 modules/video_filter/rss.c:71
 #: modules/video_filter/rss.c:184 modules/video_output/msw/directx.c:88
 msgid "Default"
-msgstr ""
+msgstr "Rhagosodedig"
 
 #: src/libvlc-module.c:697 modules/gui/macosx/AudioEffects.m:66
 #: modules/gui/macosx/MainWindow.m:2439 modules/gui/macosx/wizard.m:357
@@ -2318,7 +2321,7 @@ msgstr "Galluogi"
 
 #: src/libvlc-module.c:699
 msgid "MTU of the network interface"
-msgstr ""
+msgstr "MTU rhyngwyneb y rhwydwaith"
 
 #: src/libvlc-module.c:701
 msgid ""
@@ -2395,7 +2398,7 @@ msgid ""
 "language)."
 msgstr ""
 "Iaith y trac sain i'w ddefnyddio (gwahanu gyda choma, cod gwlad 2 neu 3 "
-"llythyren, gallet ddefnyddio 'none' i osgoi disgyn nôl i iaith arall)."
+"llythyren; mae gosod 'dim' yn osgoi disgyn nôl ar iaith arall)."
 
 #: src/libvlc-module.c:750
 msgid "Subtitle language"
@@ -2407,7 +2410,7 @@ msgid ""
 "three letters country code, you may use 'any' as a fallback)."
 msgstr ""
 "Iaith y trac isdeitlau i'w ddefnyddio (gwahanu gyda choma, cod gwlad 2 neu 3 "
-"llythyren, gallet ddefnyddio 'none' i osgoi disgyn nôl i iaith arall)."
+"llythyren; mae gosod 'dim' yn osgoi disgyn nôl ar iaith arall)."
 
 #: src/libvlc-module.c:756
 msgid "Audio track ID"
@@ -2546,7 +2549,7 @@ msgstr ""
 #: src/libvlc-module.c:818 modules/gui/macosx/simple_prefs.m:249
 #: modules/gui/qt4/ui/sprefs_input.h:344
 msgid "Record directory or filename"
-msgstr ""
+msgstr "Cyfeiriadur neu enw ffeil i'w recordio"
 
 #: src/libvlc-module.c:820 modules/gui/macosx/simple_prefs.m:251
 msgid "Directory or filename where the records will be stored"
@@ -2609,8 +2612,8 @@ msgid ""
 "You can use this option to place the subtitles under the movie, instead of "
 "over the movie. Try several positions."
 msgstr ""
-"Mae'n bosib defnyddio hwn i osod yr isdeitlau, er enghraifft, uwchben y "
-"ffilm, yn hytrach nag oddi tanodd. Mae nifer o leoliadau."
+"Mae'n bosib gosod yr isdeitlau mewn lleoliadau gwahanol, er enghraifft, "
+"uwchben y ffilm, yn hytrach nag oddi tanodd."
 
 #: src/libvlc-module.c:855
 msgid "Enable sub-pictures"
@@ -2710,7 +2713,7 @@ msgstr ""
 
 #: src/libvlc-module.c:904
 msgid "DVD device"
-msgstr ""
+msgstr "Dyfais DVD"
 
 #: src/libvlc-module.c:905
 msgid "VCD device"
@@ -2718,7 +2721,7 @@ msgstr ""
 
 #: src/libvlc-module.c:906
 msgid "Audio CD device"
-msgstr ""
+msgstr "Dyfais CD sain"
 
 #: src/libvlc-module.c:910
 msgid ""
@@ -2903,7 +2906,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1023
 msgid "Genre metadata"
-msgstr ""
+msgstr "Metaddata'r genre"
 
 #: src/libvlc-module.c:1025
 msgid "Allows you to specify a \"genre\" metadata for an input."
@@ -2919,7 +2922,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1031
 msgid "Description metadata"
-msgstr ""
+msgstr "Metaddata'r disgrifiad"
 
 #: src/libvlc-module.c:1033
 msgid "Allows you to specify a \"description\" metadata for an input."
@@ -2950,7 +2953,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1049
 msgid "Preferred decoders list"
-msgstr ""
+msgstr "Rhestr datgodwyr a hoffwyd"
 
 #: src/libvlc-module.c:1051
 msgid ""
@@ -2961,7 +2964,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1056
 msgid "Preferred encoders list"
-msgstr ""
+msgstr "Rhestr amgodwyr a hoffwyd"
 
 #: src/libvlc-module.c:1058
 msgid ""
@@ -2976,7 +2979,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1070
 msgid "Default stream output chain"
-msgstr ""
+msgstr "Cadwyn allbwn ffrwd rhagosodedig"
 
 #: src/libvlc-module.c:1072
 msgid ""
@@ -3003,7 +3006,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1084
 msgid "Enable video stream output"
-msgstr ""
+msgstr "Galluogi allbwn ffrwd fideo"
 
 #: src/libvlc-module.c:1086
 msgid ""
@@ -3013,7 +3016,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1089
 msgid "Enable audio stream output"
-msgstr ""
+msgstr "Galluogi allbwn ffrwd sain"
 
 #: src/libvlc-module.c:1091
 msgid ""
@@ -3063,7 +3066,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1115
 msgid "Mux module"
-msgstr ""
+msgstr "Modiwl amlblethu"
 
 #: src/libvlc-module.c:1117
 msgid "This is a legacy entry to let you configure mux modules"
@@ -3140,7 +3143,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1163
 msgid "Demux module"
-msgstr ""
+msgstr "Modiwl Datblethu"
 
 #: src/libvlc-module.c:1165
 msgid ""
@@ -3321,7 +3324,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1269
 msgid "Enqueue items to playlist when in one instance mode"
-msgstr ""
+msgstr "Ciwio ffeiliau yn y rhestr chwarae pan mewn modd un achos"
 
 #: src/libvlc-module.c:1271
 msgid ""
@@ -3385,7 +3388,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1309
 msgid "Repeat all"
-msgstr ""
+msgstr "Ailchwarae'r cyfan"
 
 #: src/libvlc-module.c:1311
 msgid "VLC will keep playing the playlist indefinitely."
@@ -3393,7 +3396,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1313
 msgid "Repeat current item"
-msgstr ""
+msgstr "Ailchwarae'r eitem bresennol"
 
 #: src/libvlc-module.c:1315
 msgid "VLC will keep playing the current playlist item."
@@ -3480,7 +3483,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1358
 msgid "Leave fullscreen"
-msgstr ""
+msgstr "Gadael sgrin lawn"
 
 #: src/libvlc-module.c:1359
 msgid "Select the hotkey to use to leave fullscreen state."
@@ -3717,7 +3720,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1425
 msgid "Navigate up"
-msgstr ""
+msgstr "Llywio i fyny"
 
 #: src/libvlc-module.c:1426
 msgid "Select the key to move the selector up in DVD menus."
@@ -3725,7 +3728,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1427
 msgid "Navigate down"
-msgstr ""
+msgstr "Llywio i lawr"
 
 #: src/libvlc-module.c:1428
 msgid "Select the key to move the selector down in DVD menus."
@@ -3733,7 +3736,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1429
 msgid "Navigate left"
-msgstr ""
+msgstr "Llywio i'r chwith"
 
 #: src/libvlc-module.c:1430
 msgid "Select the key to move the selector left in DVD menus."
@@ -3741,7 +3744,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1431
 msgid "Navigate right"
-msgstr ""
+msgstr "Llywio i'r dde"
 
 #: src/libvlc-module.c:1432
 msgid "Select the key to move the selector right in DVD menus."
@@ -3757,7 +3760,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1435 modules/gui/qt4/dialogs/toolbar.cpp:395
 msgid "Go to the DVD menu"
-msgstr ""
+msgstr "Mynd i dewislen y DVD"
 
 #: src/libvlc-module.c:1436
 msgid "Select the key to take you to the DVD menu"
@@ -3960,43 +3963,43 @@ msgstr "Dewisa bysell i osod y nod rhest chwarae hwn."
 
 #: src/libvlc-module.c:1492
 msgid "Playlist bookmark 1"
-msgstr ""
+msgstr "Nod rhestr chwarae 1"
 
 #: src/libvlc-module.c:1493
 msgid "Playlist bookmark 2"
-msgstr ""
+msgstr "Nod rhestr chwarae 2"
 
 #: src/libvlc-module.c:1494
 msgid "Playlist bookmark 3"
-msgstr ""
+msgstr "Nod rhestr chwarae 3"
 
 #: src/libvlc-module.c:1495
 msgid "Playlist bookmark 4"
-msgstr ""
+msgstr "Nod rhestr chwarae 4"
 
 #: src/libvlc-module.c:1496
 msgid "Playlist bookmark 5"
-msgstr ""
+msgstr "Nod rhestr chwarae 5"
 
 #: src/libvlc-module.c:1497
 msgid "Playlist bookmark 6"
-msgstr ""
+msgstr "Nod rhestr chwarae 6"
 
 #: src/libvlc-module.c:1498
 msgid "Playlist bookmark 7"
-msgstr ""
+msgstr "Nod rhestr chwarae 7"
 
 #: src/libvlc-module.c:1499
 msgid "Playlist bookmark 8"
-msgstr ""
+msgstr "Nod rhestr chwarae 8"
 
 #: src/libvlc-module.c:1500
 msgid "Playlist bookmark 9"
-msgstr ""
+msgstr "Nod rhestr chwarae 9"
 
 #: src/libvlc-module.c:1501
 msgid "Playlist bookmark 10"
-msgstr ""
+msgstr "Nod rhestr chwarae 10"
 
 #: src/libvlc-module.c:1503
 msgid "This allows you to define playlist bookmarks."
@@ -4080,7 +4083,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1524
 msgid "Hide interface"
-msgstr ""
+msgstr "Cuddio'r rhyngwyneb"
 
 #: src/libvlc-module.c:1525
 msgid "Lower the interface below all other windows."
@@ -4092,7 +4095,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1527
 msgid "Hide the interface and pause playback."
-msgstr ""
+msgstr "Cuddio'r rhyngwyneb ac oedi chwarae"
 
 #: src/libvlc-module.c:1528
 msgid "Take video snapshot"
@@ -4107,7 +4110,7 @@ msgstr ""
 #: modules/gui/qt4/components/controller.hpp:128
 #: modules/stream_out/record.c:60
 msgid "Record"
-msgstr ""
+msgstr "Recordio"
 
 #: src/libvlc-module.c:1532
 msgid "Record access filter start/stop."
@@ -4115,7 +4118,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1534
 msgid "Normal/Repeat/Loop"
-msgstr ""
+msgstr "Arferol/Ailchware/Dolen"
 
 #: src/libvlc-module.c:1535
 msgid "Toggle Normal/Repeat/Loop playlist modes"
@@ -4265,7 +4268,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1892
 msgid "Default devices"
-msgstr ""
+msgstr "Dyfeisi rhagosodedig"
 
 #: src/libvlc-module.c:1901
 msgid "Network settings"
@@ -4277,11 +4280,11 @@ msgstr ""
 
 #: src/libvlc-module.c:1935 modules/demux/kate_categories.c:47
 msgid "Metadata"
-msgstr ""
+msgstr "Metaddata"
 
 #: src/libvlc-module.c:2035
 msgid "Decoders"
-msgstr ""
+msgstr "Datgodwyr"
 
 #: src/libvlc-module.c:2042 modules/access/v4l2/video.c:69
 #: modules/gui/macosx/playlistinfo.m:100
@@ -4336,11 +4339,11 @@ msgstr ""
 
 #: src/libvlc-module.c:2787
 msgid "print a list of available modules"
-msgstr ""
+msgstr "argraffu rhestr o'r modiwlau ar gael"
 
 #: src/libvlc-module.c:2789
 msgid "print a list of available modules with extra detail"
-msgstr ""
+msgstr "argraffu rhestr o'r modiwlau ar gael gyda mwy o fanylion"
 
 #: src/libvlc-module.c:2791
 msgid ""
@@ -4366,7 +4369,7 @@ msgstr ""
 
 #: src/libvlc-module.c:2803
 msgid "print version information"
-msgstr ""
+msgstr "argraffu gwybodaeth fersiwn"
 
 #: src/libvlc-module.c:2841
 msgid "main program"
@@ -5417,7 +5420,7 @@ msgstr "Gwall Blu-ray"
 #: modules/access/cdda.c:62 modules/gui/macosx/open.m:135
 #: modules/gui/qt4/ui/open_disk.h:301
 msgid "Audio CD"
-msgstr "CD Sain"
+msgstr "CD sain"
 
 #: modules/access/cdda.c:63
 msgid "Audio CD input"
@@ -5454,7 +5457,7 @@ msgstr "Mewnbwn dc1394"
 
 #: modules/access/decklink.cpp:43
 msgid "Input card to use"
-msgstr "Rho gerdyn mewn i'w ddefnyddio"
+msgstr "Y cerdyn mewnbwn i'w ddefnyddio"
 
 #: modules/access/decklink.cpp:45
 msgid ""
@@ -5546,7 +5549,7 @@ msgstr "Fideo-S"
 
 #: modules/access/decklink.cpp:88
 msgid "Embedded"
-msgstr ""
+msgstr "Mewnosodwyd"
 
 #: modules/access/decklink.cpp:88
 msgid "AES/EBU"
@@ -5634,7 +5637,7 @@ msgstr ""
 
 #: modules/access/dshow/dshow.cpp:151 modules/access/v4l2/video.c:214
 msgid "Picture aspect-ratio n:m"
-msgstr "Cymhareb agwedd y llun (n:m)"
+msgstr "Cymhareb agwedd y llun(n:m)"
 
 #: modules/access/dshow/dshow.cpp:152 modules/access/v4l2/video.c:215
 msgid "Define input picture aspect-ratio to use. Default is 4:3"
@@ -5662,12 +5665,12 @@ msgstr ""
 
 #: modules/access/dshow/dshow.cpp:161
 msgid "Device properties"
-msgstr "Priodeweddau'r dyfais"
+msgstr "Priodweddau'r dyfais"
 
 #: modules/access/dshow/dshow.cpp:163
 msgid ""
 "Show the properties dialog of the selected device before starting the stream."
-msgstr ""
+msgstr "Dangos deialog priodweddau'r dyfais cyn dechrau'r ffrwd."
 
 #: modules/access/dshow/dshow.cpp:165
 msgid "Tuner properties"
@@ -5675,7 +5678,7 @@ msgstr "Priodweddau'r tiwniwr"
 
 #: modules/access/dshow/dshow.cpp:167
 msgid "Show the tuner properties [channel selection] page."
-msgstr ""
+msgstr "Dangos tudalen priodweddau'r tiwniwr [dewis sianeli]."
 
 #: modules/access/dshow/dshow.cpp:168
 msgid "Tuner TV Channel"
@@ -5683,12 +5686,11 @@ msgstr "Sianel teledu'r tiwniwr"
 
 #: modules/access/dshow/dshow.cpp:170
 msgid "Set the TV channel the tuner will set to (0 means default)."
-msgstr ""
-"Dewis y sianel teledu mae'r tiwniwr yn gosod iddo (0 ar gyfer rhagosodedig)"
+msgstr "Y sianel teledu mae'r tiwniwr yn gosod iddo (0 ar gyfer rhagosodedig)"
 
 #: modules/access/dshow/dshow.cpp:172
 msgid "Tuner Frequency"
-msgstr "Amledd y tiwniwr"
+msgstr "Seinamledd (frequency) y tiwniwr"
 
 #: modules/access/dshow/dshow.cpp:173
 msgid "This overrides the channel. Measured in Hz."
@@ -5697,7 +5699,7 @@ msgstr ""
 #: modules/access/dshow/dshow.cpp:174
 #: modules/gui/qt4/components/open_panels.cpp:836
 msgid "Video standard"
-msgstr ""
+msgstr "Ffurf y fideo"
 
 #: modules/access/dshow/dshow.cpp:175
 msgid "Tuner country code"
@@ -5711,11 +5713,11 @@ msgstr ""
 
 #: modules/access/dshow/dshow.cpp:179
 msgid "Tuner input type"
-msgstr "Math mewnbwn y tiwniwr"
+msgstr "Mewnbwn y tiwniwr"
 
 #: modules/access/dshow/dshow.cpp:181
 msgid "Select the tuner input type (Cable/Antenna)."
-msgstr "Dewis math y mewnbwn i'r tiwniwr (cebl/antena)"
+msgstr "Dewis a yw'r mewnbwn drwy gebl neu antena"
 
 #: modules/access/dshow/dshow.cpp:182
 msgid "Video input pin"
@@ -5728,10 +5730,10 @@ msgid ""
 "\"Device config\" area, and use those numbers here. -1 means that settings "
 "will not be changed."
 msgstr ""
-"Dewis tarddle'r mewnbwn fideo, er enghraifft composite, s-video, neu "
-"diwniwr. Wrth fod y gosodiadau hyn yn dibynnu ar y caledwedd, dylet ddod o "
-"hyd i osodiadau da yn yr ardal \"Ffurfweddu dyfais\" a defnyddio'r rhifau "
-"hynny yma. Golygai -1 na fydd y gosodiadau yn cael eu newid."
+"Dewis ffynhonnell y mewnbwn fideo, er enghraifft composite, s-video, neu "
+"tiwniwr. Mae'r gosodiadau hyn yn nibynnol ar eich caledwedd, felly gwelwch y "
+"gosodiadau da a'r gwerthoedd i'w defnyddio yn rhan \"Ffurfweddu dyfais\". "
+"Golygai -1 na fydd y gosodiadau yn cael eu newid."
 
 #: modules/access/dshow/dshow.cpp:188
 msgid "Audio input pin"
@@ -5739,7 +5741,7 @@ msgstr "Pin mewnbwn sain"
 
 #: modules/access/dshow/dshow.cpp:190
 msgid "Select the audio input source. See the \"video input\" option."
-msgstr "Dewis tarddle'r mewnbwn sain. Gweler yr opsiwn \"mewnbwn fideo\"."
+msgstr "Dewis ffynhonnell y mewnbwn sain. Gweler yr opsiwn \"mewnbwn fideo\"."
 
 #: modules/access/dshow/dshow.cpp:191
 msgid "Video output pin"
@@ -5755,7 +5757,7 @@ msgstr "Pin allanbwn sain"
 
 #: modules/access/dshow/dshow.cpp:196
 msgid "Select the audio output type. See the \"video input\" option."
-msgstr "Dewis math yr allbwn sain. Gweler yr opsiwn \"mewnbwn fideo\"."
+msgstr "Math yr allbwn sain. Gweler disgrifiad \"Pin mewnbwn fideo\"."
 
 #: modules/access/dshow/dshow.cpp:198
 msgid "AM Tuner mode"
@@ -5801,7 +5803,7 @@ msgstr "Mewnbwn DirectShow"
 #: modules/audio_output/alsa.c:86 modules/audio_output/directx.c:136
 #: modules/audio_output/waveout.c:99 modules/video_output/msw/directx.c:109
 msgid "Refresh list"
-msgstr "Aillwytho'r rhestr"
+msgstr "Ail-lwytho'r rhestr"
 
 #: modules/access/dshow/dshow.cpp:233 modules/access/dshow/dshow.cpp:238
 msgid "Configure"
@@ -5878,7 +5880,7 @@ msgstr ""
 
 #: modules/access/dtv/access.c:56
 msgid "Frequency (Hz)"
-msgstr "Amledd (Hz)"
+msgstr "Seinamledd (Hz)"
 
 #: modules/access/dtv/access.c:58
 msgid ""
@@ -5976,27 +5978,27 @@ msgstr ""
 
 #: modules/access/dtv/access.c:124
 msgid "10 MHz"
-msgstr ""
+msgstr "10 MHz"
 
 #: modules/access/dtv/access.c:124
 msgid "8 MHz"
-msgstr ""
+msgstr "8 MHz"
 
 #: modules/access/dtv/access.c:124
 msgid "7 MHz"
-msgstr ""
+msgstr "7 MHz"
 
 #: modules/access/dtv/access.c:124
 msgid "6 MHz"
-msgstr ""
+msgstr "6 MHz"
 
 #: modules/access/dtv/access.c:125
 msgid "5 MHz"
-msgstr ""
+msgstr "5 MHz"
 
 #: modules/access/dtv/access.c:125
 msgid "1.712 MHz"
-msgstr ""
+msgstr "1.712 MHz"
 
 #: modules/access/dtv/access.c:128
 msgid "Guard interval"
@@ -6040,15 +6042,15 @@ msgstr ""
 
 #: modules/access/dtv/access.c:159
 msgid "0.35 (same as DVB-S)"
-msgstr ""
+msgstr "0.35 (yr un fath a DVB-S)"
 
 #: modules/access/dtv/access.c:159
 msgid "0.20"
-msgstr ""
+msgstr "0.20"
 
 #: modules/access/dtv/access.c:159
 msgid "0.25"
-msgstr ""
+msgstr "0.25"
 
 #: modules/access/dtv/access.c:162
 msgid "Transport stream ID"
@@ -6222,7 +6224,7 @@ msgstr ""
 
 #: modules/access/dtv/access.c:347
 msgid "DVB-S2 parameters"
-msgstr ""
+msgstr "Paramedrau DVB-S2"
 
 #: modules/access/dtv/access.c:355
 msgid "ISDB-S parameters"
@@ -6274,7 +6276,7 @@ msgstr ""
 
 #: modules/access/dvdnav.c:86
 msgid "DVD with menus"
-msgstr ""
+msgstr "DVD gyda dewislenni"
 
 #: modules/access/dvdnav.c:87
 msgid "DVDnav Input"
@@ -6292,7 +6294,7 @@ msgstr ""
 
 #: modules/access/dvdread.c:70
 msgid "DVD without menus"
-msgstr ""
+msgstr "DVD heb dewislenni"
 
 #: modules/access/dvdread.c:71
 msgid "DVDRead Input (no menu support)"
@@ -6367,7 +6369,7 @@ msgstr ""
 
 #: modules/access/fs.c:42
 msgid "expand"
-msgstr ""
+msgstr "ehangu"
 
 #: modules/access/fs.c:44
 msgid "Ignored extensions"
@@ -6383,7 +6385,7 @@ msgstr ""
 
 #: modules/access/fs.c:52
 msgid "File input"
-msgstr ""
+msgstr "Mewnbwn ffeil"
 
 #: modules/access/fs.c:53 modules/access_output/file.c:73
 #: modules/audio_output/file.c:109 modules/gui/macosx/open.m:110
@@ -6395,15 +6397,15 @@ msgstr ""
 #: share/lua/http/dialogs/stream_config_window.html:36
 #: share/lua/http/dialogs/stream_window.html:95
 msgid "File"
-msgstr ""
+msgstr "Ffeil"
 
 #: modules/access/fs.c:62 modules/gui/qt4/ui/sprefs_video.h:354
 msgid "Directory"
-msgstr ""
+msgstr "Cyfeiriadur"
 
 #: modules/access/ftp.c:58
 msgid "FTP user name"
-msgstr ""
+msgstr "Enw defnyddiwr FTP"
 
 #: modules/access/ftp.c:59 modules/access/sftp.c:52 modules/access/smb.c:62
 msgid "User name that will be used for the connection."
@@ -6411,7 +6413,7 @@ msgstr ""
 
 #: modules/access/ftp.c:61
 msgid "FTP password"
-msgstr ""
+msgstr "Cyfrinair FTP"
 
 #: modules/access/ftp.c:62 modules/access/sftp.c:54 modules/access/smb.c:65
 msgid "Password that will be used for the connection."
@@ -6419,7 +6421,7 @@ msgstr ""
 
 #: modules/access/ftp.c:64
 msgid "FTP account"
-msgstr ""
+msgstr "Cyfrif FTP"
 
 #: modules/access/ftp.c:65
 msgid "Account that will be used for the connection."
@@ -6427,7 +6429,7 @@ msgstr ""
 
 #: modules/access/ftp.c:70
 msgid "FTP input"
-msgstr ""
+msgstr "Mewnbwn FTP"
 
 #: modules/access/ftp.c:85
 msgid "FTP upload output"
@@ -6649,7 +6651,7 @@ msgstr ""
 #: modules/video_filter/mosaic.c:92 modules/video_output/vmem.c:45
 #: modules/gui/qt4/ui/profiles.h:489
 msgid "Height"
-msgstr ""
+msgstr "Uchder"
 
 #: modules/access/imem.c:87
 msgid "Height of video or subtitle elementary streams"
@@ -6775,11 +6777,11 @@ msgstr ""
 
 #: modules/access/linsys/linsys_hdsdi.c:89
 msgid "HD-SDI Input"
-msgstr ""
+msgstr "Mewnbwn HD-SDI"
 
 #: modules/access/linsys/linsys_hdsdi.c:90
 msgid "HD-SDI"
-msgstr ""
+msgstr "HD-SDI"
 
 #: modules/access/linsys/linsys_sdi.c:79
 msgid "Teletext configuration"
@@ -6847,11 +6849,11 @@ msgstr "Mewnbwn Microsoft Media Server (MMS)"
 
 #: modules/access/mtp.c:64
 msgid "MTP input"
-msgstr ""
+msgstr "Mewnbwn MTP"
 
 #: modules/access/mtp.c:65
 msgid "MTP"
-msgstr ""
+msgstr "MTP"
 
 #: modules/access/mtp.c:214 modules/access/vdr.c:379
 msgid "VLC could not read the file."
@@ -6887,7 +6889,7 @@ msgstr ""
 
 #: modules/access_output/file.c:72
 msgid "File stream output"
-msgstr ""
+msgstr "Allbwn ffrwd ffeil"
 
 #: modules/access_output/http.c:62 modules/misc/audioscrobbler.c:115
 #: modules/stream_out/rtp.c:177
@@ -6974,11 +6976,11 @@ msgstr ""
 
 #: modules/access_output/livehttp.c:80
 msgid "Delete segments"
-msgstr ""
+msgstr "Dileu segmentau"
 
 #: modules/access_output/livehttp.c:81
 msgid "Delete segments when they are no longer needed"
-msgstr ""
+msgstr "Dileu segmentau pan nad oes eu angen rhagor"
 
 #: modules/access_output/livehttp.c:83
 msgid "Use muxers rate control mechanism"
@@ -7028,7 +7030,7 @@ msgstr "Disgrifiad o gynnwys y ffrwd a gwybodaeth am eich sianel."
 
 #: modules/access_output/shout.c:72
 msgid "Stream MP3"
-msgstr ""
+msgstr "Ffrydio MP3"
 
 #: modules/access_output/shout.c:73
 msgid ""
@@ -7055,7 +7057,7 @@ msgstr "URL gyda gwybodaeth am y ffrwd neu'ch sianel."
 
 #: modules/access_output/shout.c:93
 msgid "Bitrate information of the transcoded stream. "
-msgstr ""
+msgstr "Gwybodaeth didradd y ffrwd a thrawsgodwyd"
 
 #: modules/access_output/shout.c:96
 msgid "Samplerate information of the transcoded stream. "
@@ -7090,7 +7092,7 @@ msgstr ""
 
 #: modules/access_output/shout.c:111
 msgid "IceCAST output"
-msgstr ""
+msgstr "Allbwn IceCAST"
 
 #: modules/access_output/udp.c:64 modules/stream_out/rtp.c:139
 msgid "Caching value (ms)"
@@ -7134,19 +7136,19 @@ msgstr ""
 #: modules/access/pvr.c:58 modules/access/v4l2/video.c:57
 #: modules/audio_output/kai.c:65
 msgid "Device"
-msgstr ""
+msgstr "Dyfais"
 
 #: modules/access/pvr.c:59
 msgid "PVR video device"
-msgstr ""
+msgstr "Dyfais fideo PVR"
 
 #: modules/access/pvr.c:61
 msgid "Radio device"
-msgstr ""
+msgstr "Dyfais radio"
 
 #: modules/access/pvr.c:62
 msgid "PVR radio device"
-msgstr ""
+msgstr "Dyfais radio PVR"
 
 #: modules/access/pvr.c:64 modules/gui/qt4/components/open_panels.cpp:919
 msgid "Norm"
@@ -7167,7 +7169,7 @@ msgstr ""
 #: modules/access/pvr.c:76 modules/access/v4l2/video.c:207
 #: modules/gui/qt4/components/open_panels.cpp:926
 msgid "Frequency"
-msgstr ""
+msgstr "Seinamledd"
 
 #: modules/access/pvr.c:77
 msgid "Frequency to capture (in kHz), if applicable."
@@ -7256,7 +7258,7 @@ msgstr ""
 
 #: modules/access/pvr.c:113
 msgid "NTSC"
-msgstr ""
+msgstr "NTSC"
 
 #: modules/access/pvr.c:116
 msgid "vbr"
@@ -7268,7 +7270,7 @@ msgstr ""
 
 #: modules/access/pvr.c:121
 msgid "PVR"
-msgstr ""
+msgstr "PVR"
 
 #: modules/access/pvr.c:122
 msgid "IVTV MPEG Encoding cards input"
@@ -7292,11 +7294,11 @@ msgstr ""
 
 #: modules/access/qtcapture.m:60 modules/access/qtcapture.m:61
 msgid "Quicktime Capture"
-msgstr ""
+msgstr "Cipiad Quicktime"
 
 #: modules/access/qtcapture.m:252 modules/access/qtcapture.m:284
 msgid "No Input device found"
-msgstr ""
+msgstr "Ni ddarganfuwyd dyfais mewnbwn"
 
 #: modules/access/qtcapture.m:253 modules/access/qtcapture.m:285
 msgid ""
@@ -7641,23 +7643,23 @@ msgstr ""
 
 #: modules/access/shm.c:73
 msgid "8 bits"
-msgstr ""
+msgstr "8 did"
 
 #: modules/access/shm.c:73
 msgid "15 bits"
-msgstr ""
+msgstr "15 did"
 
 #: modules/access/shm.c:73
 msgid "16 bits"
-msgstr ""
+msgstr "16 did"
 
 #: modules/access/shm.c:73
 msgid "24 bits"
-msgstr ""
+msgstr "24 did"
 
 #: modules/access/shm.c:73
 msgid "32 bits"
-msgstr ""
+msgstr "32 did"
 
 #: modules/access/shm.c:80
 msgid "Framebuffer input"
@@ -7721,7 +7723,7 @@ msgstr ""
 
 #: modules/access/v4l2/video.c:62
 msgid "Video standard (Default, SECAM, PAL, or NTSC)."
-msgstr ""
+msgstr "Ffurf fideo (Rhagosodedig, SECAM, PAL, neu NTSC)."
 
 #: modules/access/v4l2/video.c:65
 msgid ""
@@ -7919,11 +7921,11 @@ msgstr ""
 
 #: modules/access/v4l2/video.c:145
 msgid "50 Hz"
-msgstr ""
+msgstr "50 Hz"
 
 #: modules/access/v4l2/video.c:145
 msgid "60 Hz"
-msgstr ""
+msgstr "60 Hz"
 
 #: modules/access/v4l2/video.c:147
 msgid "Backlight compensation"
@@ -7994,7 +7996,7 @@ msgstr ""
 
 #: modules/access/v4l2/video.c:172
 msgid "Negative"
-msgstr ""
+msgstr "Negatif"
 
 #: modules/access/v4l2/video.c:173
 msgid "Emboss"
@@ -8010,7 +8012,7 @@ msgstr ""
 
 #: modules/access/v4l2/video.c:174
 msgid "Grass green"
-msgstr ""
+msgstr "Gwyrdd gwair"
 
 #: modules/access/v4l2/video.c:174
 msgid "Skin whiten"
@@ -8103,11 +8105,11 @@ msgstr ""
 
 #: modules/access/v4l2/video.c:262
 msgid "525 lines / 60 Hz"
-msgstr ""
+msgstr "525 llinell / 60 Hz"
 
 #: modules/access/v4l2/video.c:262
 msgid "625 lines / 50 Hz"
-msgstr ""
+msgstr "625 llinell / 50 Hz"
 
 #: modules/access/v4l2/video.c:270
 msgid "PAL N Argentina"
@@ -8115,22 +8117,22 @@ msgstr ""
 
 #: modules/access/v4l2/video.c:271
 msgid "NTSC M Japan"
-msgstr ""
+msgstr "NTSC M Siapan"
 
 #: modules/access/v4l2/video.c:271
 msgid "NTSC M South Korea"
-msgstr ""
+msgstr "NTSC M De Corea"
 
 #: modules/access/v4l2/video.c:283 modules/audio_output/alsa.c:74
 #: modules/audio_output/directx.c:445 modules/audio_output/kai.c:222
 #: modules/audio_output/oss.c:214 modules/audio_output/portaudio.c:392
 #: modules/audio_output/waveout.c:428
 msgid "Mono"
-msgstr ""
+msgstr "Mono"
 
 #: modules/access/v4l2/video.c:285
 msgid "Primary language (Analog TV tuners only)"
-msgstr ""
+msgstr "Prif iaith (Tiwnwyr teledu analog yn unig)"
 
 #: modules/access/v4l2/video.c:286
 msgid "Secondary language (Analog TV tuners only)"
@@ -8142,7 +8144,7 @@ msgstr ""
 
 #: modules/access/v4l2/video.c:288
 msgid "Primary language left, Secondary language right"
-msgstr ""
+msgstr "Prif iaith ar y chwith; Ail iaith ar y dde"
 
 #: modules/access/v4l2/video.c:303
 msgid "Video4Linux2"
@@ -8182,7 +8184,7 @@ msgstr ""
 
 #: modules/access/vcd/vcd.c:54
 msgid "[vcd:][device][@[title][,[chapter]]]"
-msgstr ""
+msgstr "[vcd:][dyfais][@[teitl][,[pennod]]]"
 
 #: modules/access/vcdx/access.c:272 modules/access/vcdx/access.c:352
 #: modules/access/vcdx/access.c:674 modules/access/vcdx/info.c:229
@@ -8206,7 +8208,7 @@ msgstr ""
 #: modules/access/vcdx/info.c:54 modules/gui/macosx/open.m:111
 #: modules/gui/macosx/open.m:477
 msgid "Disc"
-msgstr ""
+msgstr "Disg"
 
 #: modules/access/vcdx/info.c:62
 msgid "VCD Format"
@@ -8263,7 +8265,7 @@ msgstr ""
 
 #: modules/access/vcdx/info.c:106
 msgid "end"
-msgstr ""
+msgstr "diwedd"
 
 #: modules/access/vcdx/info.c:109
 msgid "play list"
@@ -8554,7 +8556,7 @@ msgstr ""
 
 #: modules/audio_filter/channel_mixer/headphone.c:76
 msgid "Headphone effect"
-msgstr ""
+msgstr "Effaith clustffonau"
 
 #: modules/audio_filter/channel_mixer/mono.c:83
 msgid "Use downmix algorithm"
@@ -8619,7 +8621,7 @@ msgstr ""
 #: modules/stream_out/bridge.c:51 modules/stream_out/delay.c:54
 #: modules/video_filter/mosaic.c:154
 msgid "Delay"
-msgstr ""
+msgstr "Oediad"
 
 #: modules/audio_filter/chorus_flanger.c:79
 msgid "Add a delay effect to the sound"
@@ -8627,7 +8629,7 @@ msgstr ""
 
 #: modules/audio_filter/chorus_flanger.c:83
 msgid "Delay time"
-msgstr ""
+msgstr "Oedi amser"
 
 #: modules/audio_filter/chorus_flanger.c:84
 msgid "Time in milliseconds of the average delay. Note average"
@@ -8711,7 +8713,7 @@ msgstr ""
 #: modules/audio_filter/compressor.c:169 modules/gui/macosx/AudioEffects.m:83
 #: modules/gui/qt4/components/extended_panels.cpp:1197
 msgid "Ratio"
-msgstr ""
+msgstr "Cymhareb"
 
 #: modules/audio_filter/compressor.c:170
 msgid "Set the ratio (n:1) (1 ... 20)."
@@ -8793,7 +8795,7 @@ msgstr ""
 
 #: modules/audio_filter/converter/mpgatofixed32.c:68
 msgid "MPEG audio decoder"
-msgstr ""
+msgstr "Datgodwr sain MPEG"
 
 #: modules/audio_filter/equalizer.c:58
 msgid "Equalizer preset"
@@ -8924,7 +8926,7 @@ msgstr ""
 
 #: modules/audio_filter/normvol.c:65
 msgid "Number of audio buffers"
-msgstr ""
+msgstr "Nifer o byfferi sain"
 
 #: modules/audio_filter/normvol.c:66
 msgid ""
@@ -9234,7 +9236,7 @@ msgstr ""
 #: modules/audio_output/auhal.c:1057
 #, c-format
 msgid "%s (Encoded Output)"
-msgstr ""
+msgstr "%s (Allbwn wedi'i Amgodio)"
 
 #: modules/audio_output/directx.c:118 modules/audio_output/portaudio.c:107
 msgid "Output device"
@@ -9256,16 +9258,16 @@ msgstr ""
 
 #: modules/audio_output/directx.c:126
 msgid "DirectX audio output"
-msgstr ""
+msgstr "Allbwn sain DirectX"
 
 #: modules/audio_output/directx.c:385 modules/audio_output/portaudio.c:419
 msgid "3 Front 2 Rear"
-msgstr ""
+msgstr "3 Blaen 2 Cefn"
 
 #: modules/audio_output/directx.c:408 modules/audio_output/oss.c:170
 #: modules/audio_output/portaudio.c:411 modules/audio_output/waveout.c:396
 msgid "2 Front 2 Rear"
-msgstr ""
+msgstr "2 Blaen 2 Cefn"
 
 #: modules/audio_output/directx.c:534 modules/audio_output/oss.c:238
 #: modules/audio_output/waveout.c:446
@@ -9304,7 +9306,7 @@ msgstr ""
 
 #: modules/audio_output/file.c:108
 msgid "File audio output"
-msgstr ""
+msgstr "Allbwn sain ffeil"
 
 #: modules/audio_output/jack.c:70
 msgid "Automatically connect to writable clients"
@@ -9374,7 +9376,7 @@ msgstr ""
 
 #: modules/audio_output/portaudio.c:427 modules/audio_output/waveout.c:375
 msgid "5.1"
-msgstr ""
+msgstr "5.1"
 
 #: modules/audio_output/pulse.c:48
 msgid "Pulseaudio audio output"
@@ -9400,7 +9402,7 @@ msgstr ""
 
 #: modules/audio_output/waveout.c:87
 msgid "Default Audio Device"
-msgstr ""
+msgstr "Dyfais Sain Rhagosodedig"
 
 #: modules/audio_output/waveout.c:91
 msgid "Win32 waveOut extension output"
@@ -9458,7 +9460,7 @@ msgstr ""
 
 #: modules/codec/avcodec/avcodec.c:76
 msgid "rd"
-msgstr ""
+msgstr "rd"
 
 #: modules/codec/avcodec/avcodec.c:76
 msgid "bits"
@@ -9477,20 +9479,20 @@ msgstr ""
 
 #: modules/codec/avcodec/avcodec.c:97
 msgid "FFmpeg audio/video decoder"
-msgstr ""
+msgstr "Datgodwr sain/fideo FFmpeg"
 
 #: modules/codec/avcodec/avcodec.c:100 modules/codec/omxil/omxil.c:111
 msgid "Decoding"
-msgstr ""
+msgstr "Datgodiad"
 
 #: modules/codec/avcodec/avcodec.c:143 modules/codec/omxil/omxil.c:123
 #: modules/codec/schroedinger.c:370
 msgid "Encoding"
-msgstr ""
+msgstr "Amgodiad"
 
 #: modules/codec/avcodec/avcodec.c:144
 msgid "FFmpeg audio/video encoder"
-msgstr ""
+msgstr "Amgodwr sain/fideo FFmpeg"
 
 #: modules/codec/avcodec/avcodec.c:209
 msgid "FFmpeg deinterlace video filter"
@@ -9736,7 +9738,7 @@ msgstr ""
 
 #: modules/codec/avcodec/avcodec.h:208
 msgid "Quality level"
-msgstr ""
+msgstr "Lefel ansawdd"
 
 #: modules/codec/avcodec/avcodec.h:209
 msgid ""
@@ -9865,12 +9867,12 @@ msgstr ""
 #: modules/codec/avcodec/encoder.c:276
 #, c-format
 msgid "\"%s\" is no video encoder."
-msgstr ""
+msgstr "Nid yw \"%s\" yn amgodiwr fideo."
 
 #: modules/codec/avcodec/encoder.c:284
 #, c-format
 msgid "\"%s\" is no audio encoder."
-msgstr ""
+msgstr "Nid yw \"%s\" yn amgodiwr sain."
 
 #: modules/codec/avcodec/encoder.c:325
 #, c-format
@@ -9994,15 +9996,15 @@ msgstr ""
 
 #: modules/codec/dirac.c:93 modules/codec/schroedinger.c:60
 msgid "4:2:0"
-msgstr ""
+msgstr "4:2:0"
 
 #: modules/codec/dirac.c:93 modules/codec/schroedinger.c:60
 msgid "4:2:2"
-msgstr ""
+msgstr "4:2:2"
 
 #: modules/codec/dirac.c:93 modules/codec/schroedinger.c:60
 msgid "4:4:4"
-msgstr ""
+msgstr "4:4:4"
 
 #: modules/codec/dirac.c:96
 msgid "Distance between 'P' frames"
@@ -10122,7 +10124,7 @@ msgstr ""
 
 #: modules/codec/dirac.c:178 modules/codec/schroedinger.c:255
 msgid "Disable arithmetic coding"
-msgstr ""
+msgstr "Analluogi codio rhifyddeg"
 
 #: modules/codec/dirac.c:179 modules/codec/schroedinger.c:256
 msgid "Use variable length codes instead, useful for very high bitrates"
@@ -10197,15 +10199,15 @@ msgstr ""
 
 #: modules/codec/dvbsub.c:120
 msgid "DVB subtitles decoder"
-msgstr ""
+msgstr "Datgodwr isdeitlau DVB"
 
 #: modules/codec/dvbsub.c:121 modules/demux/ts.c:3655 modules/demux/ts.c:3713
 msgid "DVB subtitles"
-msgstr ""
+msgstr "Isdeitlau DVB"
 
 #: modules/codec/dvbsub.c:135
 msgid "DVB subtitles encoder"
-msgstr ""
+msgstr "Amgodwr isdeitlau DVB"
 
 #: modules/codec/edummy.c:40
 msgid "Dummy encoder"
@@ -10295,7 +10297,7 @@ msgstr "Du"
 #: modules/text_renderer/win32text.c:89 modules/video_filter/marq.c:59
 #: modules/video_filter/rss.c:72
 msgid "Gray"
-msgstr ""
+msgstr "Llwyd"
 
 #: modules/codec/kate.c:210 modules/gui/fbosd.c:173
 #: modules/text_renderer/freetype.c:176 modules/text_renderer/quartztext.c:108
@@ -10325,7 +10327,7 @@ msgstr ""
 #: modules/video_filter/colorthres.c:64 modules/video_filter/marq.c:60
 #: modules/video_filter/rss.c:72
 msgid "Red"
-msgstr ""
+msgstr "Coch"
 
 #: modules/codec/kate.c:211 modules/gui/fbosd.c:174
 #: modules/text_renderer/freetype.c:177 modules/text_renderer/quartztext.c:109
@@ -10355,7 +10357,7 @@ msgstr ""
 #: modules/text_renderer/win32text.c:90 modules/video_filter/ball.c:119
 #: modules/video_filter/marq.c:61 modules/video_filter/rss.c:73
 msgid "Green"
-msgstr ""
+msgstr "Gwyrdd"
 
 #: modules/codec/kate.c:211 modules/gui/fbosd.c:175
 #: modules/text_renderer/freetype.c:177 modules/text_renderer/quartztext.c:109
@@ -10376,7 +10378,7 @@ msgstr ""
 #: modules/text_renderer/win32text.c:91 modules/video_filter/marq.c:62
 #: modules/video_filter/rss.c:74
 msgid "Purple"
-msgstr ""
+msgstr "Piws"
 
 #: modules/codec/kate.c:212 modules/gui/fbosd.c:175
 #: modules/text_renderer/freetype.c:178 modules/text_renderer/quartztext.c:110
@@ -10423,7 +10425,7 @@ msgstr ""
 
 #: modules/codec/kate.c:224
 msgid "Default font effect"
-msgstr ""
+msgstr "Effaith ffont rhagosodedig"
 
 #: modules/codec/kate.c:225
 msgid ""
@@ -10441,7 +10443,7 @@ msgstr ""
 
 #: modules/codec/kate.c:234
 msgid "Default font description"
-msgstr ""
+msgstr "Disgrifiad"
 
 #: modules/codec/kate.c:235
 msgid ""
@@ -10452,7 +10454,7 @@ msgstr ""
 
 #: modules/codec/kate.c:240
 msgid "Default font color"
-msgstr ""
+msgstr "Lliw ffont rhagosodedig"
 
 #: modules/codec/kate.c:241
 msgid ""
@@ -10536,7 +10538,7 @@ msgstr ""
 
 #: modules/codec/libmpeg2.c:128
 msgid "MPEG I/II video decoder (using libmpeg2)"
-msgstr ""
+msgstr "Datgodwr fideo MPEG I/II (gan ddefnyddio libmpeg2)"
 
 #: modules/codec/lpcm.c:59
 msgid "Linear PCM audio decoder"
@@ -10572,11 +10574,11 @@ msgstr ""
 
 #: modules/codec/png.c:58
 msgid "PNG video decoder"
-msgstr ""
+msgstr "Datgodiwr fideo PNG"
 
 #: modules/codec/quicktime.c:67
 msgid "QuickTime library decoder"
-msgstr ""
+msgstr "Datgodiwr llyfrgell QuickTime"
 
 #: modules/codec/rawvideo.c:72
 msgid "Pseudo raw video decoder"
@@ -10833,7 +10835,7 @@ msgstr ""
 
 #: modules/codec/schroedinger.c:327
 msgid "Force Profile"
-msgstr ""
+msgstr "Gorfodi Proffil"
 
 #: modules/codec/schroedinger.c:339
 msgid "VC2 Low Delay Profile"
@@ -10849,7 +10851,7 @@ msgstr ""
 
 #: modules/codec/schroedinger.c:342
 msgid "Main Profile"
-msgstr ""
+msgstr "Prif Proffil"
 
 #: modules/codec/schroedinger.c:363
 msgid "Dirac video decoder using libschroedinger"
@@ -10880,24 +10882,24 @@ msgstr ""
 
 #: modules/codec/speex.c:59
 msgid "Enforce the mode of the encoder."
-msgstr ""
+msgstr "Gorfodi modd yr amgodiwr"
 
 #: modules/codec/speex.c:61 modules/codec/theora.c:101
 #: modules/codec/twolame.c:54 modules/codec/vorbis.c:171
 msgid "Encoding quality"
-msgstr ""
+msgstr "Ansawdd amgodiad"
 
 #: modules/codec/speex.c:63
 msgid "Enforce a quality between 0 (low) and 10 (high)."
-msgstr ""
+msgstr "Gorfodi ansawdd rhwng 0 (isel) a 10 (uchel)"
 
 #: modules/codec/speex.c:65
 msgid "Encoding complexity"
-msgstr ""
+msgstr "Cymhlethdod amgodiad"
 
 #: modules/codec/speex.c:67
 msgid "Enforce the complexity of the encoder."
-msgstr ""
+msgstr "Gorfodi cymhlethdod yr amgodwr"
 
 #: modules/codec/speex.c:69
 msgid "Maximal bitrate"
@@ -10905,7 +10907,7 @@ msgstr ""
 
 #: modules/codec/speex.c:71
 msgid "Enforce the maximal VBR bitrate"
-msgstr ""
+msgstr "Gorfodi cyfyngiad uchaf didradd VBR"
 
 #: modules/codec/speex.c:73 modules/codec/vorbis.c:181
 msgid "CBR encoding"
@@ -10965,7 +10967,7 @@ msgstr ""
 
 #: modules/codec/spudec/spudec.c:45
 msgid "Disable DVD subtitle transparency"
-msgstr ""
+msgstr "Analluogi tryloywder isdeitlau DVD"
 
 #: modules/codec/spudec/spudec.c:46
 msgid "Removes all transparency effects used in DVD subtitles."
@@ -10973,11 +10975,11 @@ msgstr ""
 
 #: modules/codec/spudec/spudec.c:50
 msgid "DVD subtitles decoder"
-msgstr ""
+msgstr "Datgodwr isdeitlau DVD"
 
 #: modules/codec/spudec/spudec.c:51
 msgid "DVD subtitles"
-msgstr ""
+msgstr "Isdeitlau DVD"
 
 #: modules/codec/spudec/spudec.c:60
 msgid "DVD subtitles packetizer"
@@ -10993,7 +10995,7 @@ msgstr ""
 #. languages using the Latin alphabet.
 #: modules/codec/subsdec.c:97
 msgid "Default (Windows-1252)"
-msgstr ""
+msgstr "Rhagosodedig (Windows-1252)"
 
 #: modules/codec/subsdec.c:98
 msgid "System codeset"
@@ -11069,11 +11071,11 @@ msgstr ""
 
 #: modules/codec/subsdec.c:125
 msgid "Greek (ISO 8859-7)"
-msgstr ""
+msgstr "Groeg (ISO 8859-7)"
 
 #: modules/codec/subsdec.c:126
 msgid "Greek (Windows-1253)"
-msgstr ""
+msgstr "Groeg (Windows-1253)"
 
 #: modules/codec/subsdec.c:128
 msgid "Hebrew (ISO 8859-8)"
@@ -11125,23 +11127,23 @@ msgstr ""
 
 #: modules/codec/subsdec.c:149
 msgid "Japanese (7-bits JIS/ISO-2022-JP-2)"
-msgstr ""
+msgstr "Siapaneg (7-bits JIS/ISO-2022-JP-2)"
 
 #: modules/codec/subsdec.c:150
 msgid "Japanese Unix (EUC-JP)"
-msgstr ""
+msgstr "Unix Siapaneg (EUC-JP)"
 
 #: modules/codec/subsdec.c:151
 msgid "Japanese (Shift JIS)"
-msgstr ""
+msgstr "Siapaneg (Shift JIS)"
 
 #: modules/codec/subsdec.c:152
 msgid "Korean (EUC-KR/CP949)"
-msgstr ""
+msgstr "Coreeg (EUC-KR/CP949)"
 
 #: modules/codec/subsdec.c:153
 msgid "Korean (ISO-2022-KR)"
-msgstr ""
+msgstr "Coreeg (ISO-2022-KR)"
 
 #: modules/codec/subsdec.c:154
 msgid "Traditional Chinese (Big5)"
@@ -11250,11 +11252,13 @@ msgstr ""
 
 #: modules/codec/telx.c:60
 msgid "Ignore subtitle flag"
-msgstr ""
+msgstr "Anwybyddu baner isdeitlau"
 
 #: modules/codec/telx.c:61
 msgid "Ignore the subtitle flag, try this if your subtitles don't appear."
 msgstr ""
+"Os nad yw'r isdeitlau yn dangos, mae'n bosib gall anwybyddu baner yr "
+"isdeitlau helpu."
 
 #: modules/codec/telx.c:64
 msgid "Workaround for France"
@@ -11519,7 +11523,7 @@ msgstr ""
 
 #: modules/codec/x264.c:139
 msgid "H.264 level"
-msgstr ""
+msgstr "Lefel H.264"
 
 #: modules/codec/x264.c:140
 msgid ""
@@ -11531,7 +11535,7 @@ msgstr ""
 
 #: modules/codec/x264.c:145
 msgid "H.264 profile"
-msgstr ""
+msgstr "Proffil H.264"
 
 #: modules/codec/x264.c:146
 msgid "Specify H.264 profile which limits are enforced over other settings"
@@ -12014,7 +12018,7 @@ msgstr ""
 
 #: modules/codec/x264.c:376
 msgid "Quiet mode"
-msgstr ""
+msgstr "Modd tawel"
 
 #: modules/codec/x264.c:378 modules/gui/macosx/playlistinfo.m:84
 #: modules/gui/qt4/ui/streampanel.h:171
@@ -12023,7 +12027,7 @@ msgstr ""
 
 #: modules/codec/x264.c:379
 msgid "Print stats for each frame."
-msgstr ""
+msgstr "Argraffu ystadegau ar gyfer pob ffrâm"
 
 #: modules/codec/x264.c:381
 msgid "SPS and PPS id numbers"
@@ -12089,11 +12093,11 @@ msgstr ""
 
 #: modules/codec/x264.c:413
 msgid "fast"
-msgstr ""
+msgstr "cyflym"
 
 #: modules/codec/x264.c:413
 msgid "normal"
-msgstr ""
+msgstr "arferol"
 
 #: modules/codec/x264.c:413
 msgid "slow"
@@ -12217,7 +12221,7 @@ msgstr ""
 
 #: modules/control/gestures.c:97
 msgid "Middle"
-msgstr ""
+msgstr "Canol"
 
 #: modules/control/gestures.c:100
 msgid "Gestures"
@@ -12247,7 +12251,7 @@ msgstr ""
 
 #: modules/control/hotkeys.c:97 modules/gui/macosx/intf.m:2063
 msgid "Ignore"
-msgstr ""
+msgstr "Anwybyddu"
 
 #: modules/control/hotkeys.c:100 modules/gui/macosx/simple_prefs.m:198
 #: modules/gui/qt4/components/simple_preferences.cpp:96
@@ -12311,11 +12315,11 @@ msgstr ""
 
 #: modules/control/hotkeys.c:609
 msgid "Deinterlace off"
-msgstr ""
+msgstr "Datgydblethiad i ffwrdd"
 
 #: modules/control/hotkeys.c:629
 msgid "Deinterlace on"
-msgstr ""
+msgstr "Datgydblethiad ymlaen"
 
 #: modules/control/hotkeys.c:662
 #, c-format
@@ -12339,11 +12343,11 @@ msgstr ""
 
 #: modules/control/hotkeys.c:846
 msgid "Recording"
-msgstr ""
+msgstr "Yn recordio"
 
 #: modules/control/hotkeys.c:848
 msgid "Recording done"
-msgstr ""
+msgstr "Recordio wedi'i cwblhau"
 
 #: modules/control/hotkeys.c:1030
 #, c-format
@@ -12367,11 +12371,11 @@ msgstr ""
 
 #: modules/control/lirc.c:59
 msgid "Infrared"
-msgstr ""
+msgstr "Isgoch"
 
 #: modules/control/lirc.c:62
 msgid "Infrared remote control interface"
-msgstr ""
+msgstr "Rhyngwyneb rheolaeth isgoch bell"
 
 #: modules/control/motion.c:77
 msgid "Use the rotate video filter instead of transform"
@@ -12379,7 +12383,7 @@ msgstr ""
 
 #: modules/control/motion.c:83
 msgid "motion"
-msgstr ""
+msgstr "symudiad"
 
 #: modules/control/motion.c:86
 msgid "motion control interface"
@@ -12492,11 +12496,11 @@ msgstr ""
 
 #: modules/control/rc.c:74
 msgid "End"
-msgstr ""
+msgstr "Diwedd"
 
 #: modules/control/rc.c:75
 msgid "Error"
-msgstr ""
+msgstr "Gwall"
 
 #: modules/control/rc.c:159
 msgid "Show stream position"
@@ -12542,7 +12546,7 @@ msgstr ""
 
 #: modules/control/rc.c:184
 msgid "RC"
-msgstr ""
+msgstr "RC"
 
 #: modules/control/rc.c:187 modules/lua/vlc.c:116
 msgid "Remote control interface"
@@ -12559,7 +12563,7 @@ msgstr ""
 
 #: modules/control/rc.c:800
 msgid "+----[ Remote control commands ]"
-msgstr ""
+msgstr "+----[ Gorchmynion rheolaeth bell ]"
 
 #: modules/control/rc.c:802
 msgid "| add XYZ  . . . . . . . . . . . . add XYZ to playlist"
@@ -12879,7 +12883,7 @@ msgstr ""
 
 #: modules/control/rc.c:892
 msgid "+----[ end of help ]"
-msgstr ""
+msgstr "+----[ diwedd cymorth ]"
 
 #: modules/control/rc.c:1018
 msgid "Press menu select or pause to continue."
@@ -12898,7 +12902,7 @@ msgstr ""
 #: modules/control/rc.c:1347
 #, c-format
 msgid "Playlist has only %d elements"
-msgstr ""
+msgstr "Dim ond %d elfen sydd gan y rhestr chwarae"
 
 #: modules/control/rc.c:1779 modules/control/rc.c:1819
 msgid "Please provide one of the following parameters:"
@@ -12906,7 +12910,7 @@ msgstr ""
 
 #: modules/control/rc.c:1853
 msgid "+-[Incoming]"
-msgstr ""
+msgstr "+-[Yn dyfod i mewn]"
 
 #: modules/control/rc.c:1854
 #, c-format
@@ -12940,7 +12944,7 @@ msgstr ""
 
 #: modules/control/rc.c:1868
 msgid "+-[Video Decoding]"
-msgstr ""
+msgstr "+-[Datgodiad Fideo]"
 
 #: modules/control/rc.c:1869
 #, c-format
@@ -12959,7 +12963,7 @@ msgstr ""
 
 #: modules/control/rc.c:1877
 msgid "+-[Audio Decoding]"
-msgstr ""
+msgstr "+-[Datgodiad Sain]"
 
 #: modules/control/rc.c:1878
 #, c-format
@@ -12978,7 +12982,7 @@ msgstr ""
 
 #: modules/control/rc.c:1886
 msgid "+-[Streaming]"
-msgstr ""
+msgstr "+-[Yn ffrydio]"
 
 #: modules/control/rc.c:1887
 #, c-format
@@ -13037,7 +13041,7 @@ msgstr ""
 
 #: modules/demux/avformat/avformat.h:37
 msgid "Format name"
-msgstr ""
+msgstr "Enw'r fformat"
 
 #: modules/demux/avformat/avformat.h:38
 msgid "Internal libavcodec format name"
@@ -13167,7 +13171,7 @@ msgstr ""
 
 #: modules/demux/image.c:61
 msgid "Duration in seconds"
-msgstr ""
+msgstr "Hyd mewn eiliadau"
 
 #: modules/demux/image.c:63
 msgid ""
@@ -13195,7 +13199,7 @@ msgstr ""
 
 #: modules/demux/image.c:77
 msgid "Image"
-msgstr ""
+msgstr "Delwedd"
 
 #: modules/demux/kate_categories.c:40
 msgid "Closed captions"
@@ -13340,7 +13344,7 @@ msgstr ""
 #: modules/demux/mpeg/h264.c:43 modules/demux/rawvid.c:44
 #: modules/demux/vc1.c:43
 msgid "Frames per Second"
-msgstr ""
+msgstr "Fframiau yr Eiliad"
 
 #: modules/demux/mjpeg.c:47
 msgid ""
@@ -13354,7 +13358,7 @@ msgstr ""
 
 #: modules/demux/mkv/chapter_command.cpp:143
 msgid "---  DVD Menu"
-msgstr ""
+msgstr "---  Dewislen DVD"
 
 #: modules/demux/mkv/chapter_command.cpp:149
 msgid "First Played"
@@ -13366,7 +13370,7 @@ msgstr ""
 
 #: modules/demux/mkv/chapter_command.cpp:157
 msgid "----- Title"
-msgstr ""
+msgstr "----- Teitl"
 
 #: modules/demux/mkv/mkv.cpp:47
 msgid "Matroska stream demuxer"
@@ -13547,7 +13551,7 @@ msgstr ""
 
 #: modules/demux/mp4/id3genres.h:43
 msgid "Rap"
-msgstr ""
+msgstr "Rap"
 
 #: modules/demux/mp4/id3genres.h:47
 msgid "Industrial"
@@ -13571,7 +13575,7 @@ msgstr ""
 
 #: modules/demux/mp4/id3genres.h:53
 msgid "Euro-Techno"
-msgstr ""
+msgstr "Euro-Techno"
 
 #: modules/demux/mp4/id3genres.h:54
 msgid "Ambient"
@@ -13675,7 +13679,7 @@ msgstr ""
 
 #: modules/demux/mp4/id3genres.h:80
 msgid "Electronic"
-msgstr ""
+msgstr "Trydanol"
 
 #: modules/demux/mp4/id3genres.h:81
 msgid "Pop-Folk"
@@ -13683,7 +13687,7 @@ msgstr ""
 
 #: modules/demux/mp4/id3genres.h:82
 msgid "Eurodance"
-msgstr ""
+msgstr "Eurodance"
 
 #: modules/demux/mp4/id3genres.h:83
 msgid "Dream"
@@ -13789,11 +13793,11 @@ msgstr ""
 
 #: modules/demux/mp4/mp4.c:52
 msgid "MP4 stream demuxer"
-msgstr ""
+msgstr "Datblethwr ffrwd MP4"
 
 #: modules/demux/mp4/mp4.c:53
 msgid "MP4"
-msgstr ""
+msgstr "MP4"
 
 #: modules/demux/mp4/mp4.c:970
 msgid "Writer"
@@ -13805,7 +13809,7 @@ msgstr ""
 
 #: modules/demux/mp4/mp4.c:972
 msgid "Producer"
-msgstr ""
+msgstr "Cynhyrchydd"
 
 #: modules/demux/mp4/mp4.c:973 modules/gui/macosx/playlistinfo.m:386
 #: modules/gui/qt4/components/controller.hpp:119
@@ -13815,7 +13819,7 @@ msgstr ""
 
 #: modules/demux/mp4/mp4.c:974
 msgid "Director"
-msgstr ""
+msgstr "Cyfarwyddwr"
 
 #: modules/demux/mp4/mp4.c:975
 msgid "Disclaimer"
@@ -13871,7 +13875,7 @@ msgstr ""
 
 #: modules/demux/mp4/mp4.c:989
 msgid "Grouping"
-msgstr ""
+msgstr "Grwpio"
 
 #: modules/demux/mpc.c:62
 msgid "MusePack demuxer"
@@ -13885,7 +13889,7 @@ msgstr ""
 
 #: modules/demux/mpeg/es.c:56
 msgid "MPEG-I/II/4 / A52 / DTS / MLP audio"
-msgstr ""
+msgstr "Sain MPEG-I/II/4 / A52 / DTS / MLP"
 
 #: modules/demux/mpeg/es.c:57
 msgid "Audio ES"
@@ -13893,7 +13897,7 @@ msgstr ""
 
 #: modules/demux/mpeg/es.c:69
 msgid "MPEG-4 video"
-msgstr ""
+msgstr "Fideo MPEG-4"
 
 #: modules/demux/mpeg/h264.c:44
 msgid "Desired frame rate for the H264 stream."
@@ -13901,11 +13905,11 @@ msgstr ""
 
 #: modules/demux/mpeg/h264.c:51
 msgid "H264 video demuxer"
-msgstr ""
+msgstr "Datblethwr fideo H264"
 
 #: modules/demux/mpeg/mpgv.c:46
 msgid "MPEG-I/II video demuxer"
-msgstr ""
+msgstr "Datblethwr fideo MPEG-I/II"
 
 #: modules/demux/nsc.c:47
 msgid "Windows Media NSC metademux"
@@ -13913,7 +13917,7 @@ msgstr ""
 
 #: modules/demux/nsv.c:49
 msgid "NullSoft demuxer"
-msgstr ""
+msgstr "Datblewthwr NullSoft"
 
 #: modules/demux/nuv.c:49
 msgid "Nuv demuxer"
@@ -13925,7 +13929,7 @@ msgstr ""
 
 #: modules/demux/playlist/gvp.c:209
 msgid "Google Video"
-msgstr ""
+msgstr "Google Video"
 
 #: modules/demux/playlist/playlist.c:45
 msgid "Show shoutcast adult content"
@@ -13955,7 +13959,7 @@ msgstr ""
 
 #: modules/demux/playlist/playlist.c:76
 msgid "PLS playlist import"
-msgstr ""
+msgstr "Mewnforio rhestr chwarae PLS"
 
 #: modules/demux/playlist/playlist.c:81
 msgid "B4S playlist import"
@@ -13963,7 +13967,7 @@ msgstr ""
 
 #: modules/demux/playlist/playlist.c:86
 msgid "DVB playlist import"
-msgstr ""
+msgstr "Mewnforio rhestr chwarae"
 
 #: modules/demux/playlist/playlist.c:91
 msgid "Podcast parser"
@@ -13987,11 +13991,11 @@ msgstr ""
 
 #: modules/demux/playlist/playlist.c:118
 msgid "QuickTime Media Link importer"
-msgstr ""
+msgstr "Mewnforiwr Media Link QuickTime"
 
 #: modules/demux/playlist/playlist.c:123
 msgid "Google Video Playlist importer"
-msgstr ""
+msgstr "Mewnforiwr rhestr chwarae Google Video"
 
 #: modules/demux/playlist/playlist.c:128
 msgid "Dummy ifo demux"
@@ -14092,15 +14096,15 @@ msgstr ""
 
 #: modules/demux/ps.c:56 modules/demux/ps.c:69
 msgid "MPEG-PS demuxer"
-msgstr ""
+msgstr "Datblethwr MPEG-PS"
 
 #: modules/demux/ps.c:57
 msgid "PS"
-msgstr ""
+msgstr "PS"
 
 #: modules/demux/pva.c:43
 msgid "PVA demuxer"
-msgstr ""
+msgstr "Datblethwr PVA"
 
 #: modules/demux/rawaud.c:43
 msgid "Audio samplerate (Hz)"
@@ -14112,7 +14116,7 @@ msgstr ""
 
 #: modules/demux/rawaud.c:46 modules/stream_out/transcode/transcode.c:99
 msgid "Audio channels"
-msgstr ""
+msgstr "Sianel sain"
 
 #: modules/demux/rawaud.c:47
 msgid "Audio channels in input stream. Numeric value >0. Default is 2."
@@ -14220,7 +14224,7 @@ msgstr ""
 
 #: modules/demux/subtitle.c:79
 msgid "Frames per second"
-msgstr ""
+msgstr "Fframiau yr eiliad"
 
 #: modules/demux/subtitle.c:82 modules/video_filter/subsdelay.c:276
 msgid "Subtitles delay"
@@ -14385,7 +14389,7 @@ msgstr ""
 
 #: modules/demux/ts.c:3720
 msgid "DVB subtitles: hearing impaired"
-msgstr ""
+msgstr "Isdeitlau DVB: sain-ddisgrifiad"
 
 #: modules/demux/ts.c:4013 modules/demux/ts.c:4055
 msgid "clean effects"
@@ -14469,7 +14473,7 @@ msgstr ""
 
 #: modules/gui/fbosd.c:110
 msgid "Image file"
-msgstr ""
+msgstr "Ffeil delwedd"
 
 #: modules/gui/fbosd.c:112
 msgid "Filename of image file to use on the overlay framebuffer."
@@ -14477,7 +14481,7 @@ msgstr ""
 
 #: modules/gui/fbosd.c:114
 msgid "Transparency of the image"
-msgstr ""
+msgstr "Tryloywder y ddelwed"
 
 #: modules/gui/fbosd.c:115
 msgid ""
@@ -14526,18 +14530,20 @@ msgstr ""
 #: modules/text_renderer/win32text.c:66 modules/video_filter/marq.c:115
 #: modules/video_filter/rss.c:146
 msgid "Opacity"
-msgstr ""
+msgstr "Anhryloywder"
 
 #: modules/gui/fbosd.c:135 modules/video_filter/marq.c:116
 msgid ""
 "Opacity (inverse of transparency) of overlayed text. 0 = transparent, 255 = "
 "totally opaque. "
 msgstr ""
+"Anhryloywder (gwrthwyneb o dryloywder (transparency)) y testun troslun. [0 = "
+"tryloyw, 255 = hollol anhryloyw]"
 
 #: modules/gui/fbosd.c:138 modules/video_filter/marq.c:118
 #: modules/video_filter/rss.c:150
 msgid "Font size, pixels"
-msgstr ""
+msgstr "Maint ffont, picseli"
 
 #: modules/gui/fbosd.c:139 modules/video_filter/marq.c:119
 #: modules/video_filter/rss.c:151
@@ -14552,7 +14558,7 @@ msgstr ""
 #: modules/gui/qt4/ui/video_effects.h:1329
 #: modules/gui/qt4/ui/video_effects.h:1332
 msgid "Color"
-msgstr ""
+msgstr "Lliw"
 
 #: modules/gui/fbosd.c:143 modules/video_filter/marq.c:123
 #: modules/video_filter/rss.c:155
@@ -14597,7 +14603,7 @@ msgstr ""
 #: modules/video_filter/marq.c:163 modules/video_filter/rss.c:206
 #: modules/gui/qt4/ui/sprefs_subtitles.h:279
 msgid "Font"
-msgstr ""
+msgstr "Ffont"
 
 #: modules/gui/fbosd.c:213
 msgid "Commands"
@@ -14622,7 +14628,7 @@ msgstr ""
 #: modules/gui/macosx/about.m:137 modules/gui/macosx/about.m:202
 #: modules/gui/macosx/MainMenu.m:356
 msgid "License"
-msgstr ""
+msgstr "Trwydded"
 
 #: modules/gui/macosx/about.m:215
 msgid "VLC media player Help"
@@ -14639,7 +14645,7 @@ msgstr "2 Pas"
 
 #: modules/gui/macosx/AudioEffects.m:68 modules/gui/qt4/ui/equalizer.h:136
 msgid "Preamp"
-msgstr ""
+msgstr "Rhagfwyhadur"
 
 #: modules/gui/macosx/AudioEffects.m:77
 #: modules/gui/qt4/components/extended_panels.cpp:1210
@@ -14651,7 +14657,7 @@ msgstr "Galluogi cywasgydd amrediad dynamig (dynamic range compressor)"
 #: modules/gui/macosx/VideoEffects.m:82
 #: modules/gui/qt4/dialogs/gototime.cpp:66
 msgid "Reset"
-msgstr ""
+msgstr "Ailosod"
 
 #: modules/gui/macosx/AudioEffects.m:80
 #: modules/gui/qt4/components/extended_panels.cpp:1194
@@ -14821,11 +14827,11 @@ msgstr "Dangos Manylion"
 
 #: modules/gui/macosx/CoreInteraction.m:401
 msgid "Random On"
-msgstr ""
+msgstr "Ar hap ymlaen"
 
 #: modules/gui/macosx/CoreInteraction.m:475
 msgid "Repeat Off"
-msgstr ""
+msgstr "Ailchwarae i Ffwrdd"
 
 #: modules/gui/macosx_dialog_provider/dialogProvider.m:86
 msgid "Hide no user action dialogs"
@@ -14839,7 +14845,7 @@ msgstr ""
 
 #: modules/gui/macosx/fspanel.m:412
 msgid "(no item is being played)"
-msgstr ""
+msgstr "(does dim eitem yn chwarae)"
 
 #: modules/gui/macosx/intf.m:701 modules/gui/qt4/dialogs/messages.cpp:75
 #: modules/gui/qt4/ui/messages_panel.h:141
@@ -14861,7 +14867,7 @@ msgstr ""
 
 #: modules/gui/macosx/intf.m:707
 msgid "Don't Send"
-msgstr ""
+msgstr "Pedio anfon"
 
 #: modules/gui/macosx/intf.m:708 modules/gui/macosx/intf.m:709
 msgid "VLC crashed previously"
@@ -15059,7 +15065,7 @@ msgstr ""
 
 #: modules/gui/macosx/MainMenu.m:238
 msgid "Preferences..."
-msgstr ""
+msgstr "Dewisiadau..."
 
 #: modules/gui/macosx/MainMenu.m:239 modules/gui/macosx/MainMenu.m:240
 #: modules/gui/qt4/dialogs/plugins.cpp:68
@@ -15088,7 +15094,7 @@ msgstr "Cau VLC"
 
 #: modules/gui/macosx/MainMenu.m:249
 msgid "1:File"
-msgstr ""
+msgstr "1:Ffeil"
 
 #: modules/gui/macosx/MainMenu.m:250
 msgid "Advanced Open File..."
@@ -15263,7 +15269,7 @@ msgstr ""
 #: modules/gui/macosx/MainMenu.m:353 modules/gui/qt4/dialogs/help.cpp:54
 #: modules/gui/qt4/menus.cpp:910
 msgid "Help"
-msgstr ""
+msgstr "Cymorth"
 
 #: modules/gui/macosx/MainMenu.m:354
 msgid "VLC media player Help..."
@@ -15311,7 +15317,7 @@ msgstr "Dangos/Cuddio Rhestr Chwarae"
 
 #: modules/gui/macosx/MainWindow.m:187 modules/gui/qt4/dialogs/vlm.cpp:560
 msgid "Repeat"
-msgstr "Ail-chwarae"
+msgstr "Ailchwarae"
 
 #: modules/gui/macosx/MainWindow.m:188
 msgid "Shuffle"
@@ -15433,11 +15439,11 @@ msgstr ""
 
 #: modules/gui/macosx/open.m:140
 msgid "Disable DVD menus"
-msgstr ""
+msgstr "Analluogi dewislenni DVD"
 
 #: modules/gui/macosx/open.m:144
 msgid "Enable DVD menus"
-msgstr ""
+msgstr "Galluogi dewislenni DVDs"
 
 #: modules/gui/macosx/open.m:156 modules/gui/macosx/open.m:158
 #: modules/gui/macosx/output.m:147
@@ -15599,7 +15605,7 @@ msgstr "Amgodiad isdeitlau"
 
 #: modules/gui/macosx/open.m:314 modules/gui/qt4/ui/sprefs_subtitles.h:280
 msgid "Font size"
-msgstr ""
+msgstr "Maint ffont"
 
 #: modules/gui/macosx/open.m:316
 msgid "Subtitles alignment"
@@ -15641,7 +15647,7 @@ msgstr "Gosodiadau..."
 
 #: modules/gui/macosx/output.m:140
 msgid "Streaming and Transcoding Options"
-msgstr ""
+msgstr "Dewisiadau Ffrydio a Trawsgodio"
 
 #: modules/gui/macosx/output.m:141
 msgid "Display the stream locally"
@@ -15662,7 +15668,7 @@ msgstr ""
 
 #: modules/gui/macosx/output.m:159 modules/gui/qt4/ui/sout.h:335
 msgid "Transcoding options"
-msgstr ""
+msgstr "Dewisiadau trawsgodio"
 
 #: modules/gui/macosx/output.m:163 modules/gui/macosx/output.m:173
 #: modules/gui/macosx/wizard.m:387
@@ -15746,7 +15752,7 @@ msgstr "Didradd mewnbwn"
 
 #: modules/gui/macosx/playlistinfo.m:103
 msgid "Demuxed"
-msgstr ""
+msgstr "Datblethwyd"
 
 #: modules/gui/macosx/playlistinfo.m:104
 msgid "Stream bitrate"
@@ -15783,11 +15789,11 @@ msgstr ""
 
 #: modules/gui/macosx/playlistinfo.m:118
 msgid "Played buffers"
-msgstr ""
+msgstr "Byfferau wedi'u chwarae"
 
 #: modules/gui/macosx/playlistinfo.m:119
 msgid "Lost buffers"
-msgstr ""
+msgstr "Byfferi coll"
 
 #: modules/gui/macosx/playlistinfo.m:361
 msgid "Error while saving meta"
@@ -15849,7 +15855,7 @@ msgstr "Chwilio yn y Rhestr Chwarae"
 
 #: modules/gui/macosx/playlist.m:492
 msgid "File Format:"
-msgstr ""
+msgstr "Fformat Ffeil:"
 
 #: modules/gui/macosx/playlist.m:493
 msgid "Extended M3U"
@@ -15952,7 +15958,7 @@ msgstr "Sain cyffredin"
 
 #: modules/gui/macosx/simple_prefs.m:229
 msgid "Preferred Audio language"
-msgstr ""
+msgstr "Dewis iaith sain"
 
 #: modules/gui/macosx/simple_prefs.m:230
 msgid "Enable Last.fm submissions"
@@ -16064,7 +16070,7 @@ msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:286
 msgid "Default Encoding"
-msgstr ""
+msgstr "Amgodiad Rhagosodedig"
 
 #: modules/gui/macosx/simple_prefs.m:287
 msgid "Display Settings"
@@ -16092,7 +16098,7 @@ msgstr "Galluogi OSD"
 
 #: modules/gui/macosx/simple_prefs.m:297
 msgid "Force Bold"
-msgstr ""
+msgstr "Gorfodi Trwm"
 
 #: modules/gui/macosx/simple_prefs.m:298
 msgid "Outline Color"
@@ -16129,7 +16135,7 @@ msgstr "Ffolder"
 
 #: modules/gui/macosx/simple_prefs.m:314 modules/gui/qt4/ui/sprefs_video.h:357
 msgid "Format"
-msgstr ""
+msgstr "Fformat"
 
 #: modules/gui/macosx/simple_prefs.m:315 modules/gui/qt4/ui/sprefs_video.h:355
 msgid "Prefix"
@@ -16485,16 +16491,22 @@ msgstr "Tryloywder"
 #: modules/gui/macosx/wizard.m:118
 msgid "MPEG-1 Video codec (usable with MPEG PS, MPEG TS, MPEG1, OGG and RAW)"
 msgstr ""
+"Codec fideo MPEG-1 (gellir ei ddefnyddio gyda MPEG PS, MPEG TS, MPEG1, OGG a "
+"RAW)"
 
 #: modules/gui/macosx/wizard.m:122
 msgid "MPEG-2 Video codec (usable with MPEG PS, MPEG TS, MPEG1, OGG and RAW)"
 msgstr ""
+"Codec fideo MPEG-2 (gellir ei ddefnyddio gyda MPEG PS, MPEG TS, MPEG1, OGG a "
+"RAW)"
 
 #: modules/gui/macosx/wizard.m:126
 msgid ""
 "MPEG-4 Video codec (useable with MPEG PS, MPEG TS, MPEG1, ASF, MP4, OGG and "
 "RAW)"
 msgstr ""
+"Codec fideo MPEG-4 (gellir ei ddefnyddio gyda MPEG PS, MPEG TS, MPEG1, ASF, "
+"MP4, OGG a RAW)"
 
 #: modules/gui/macosx/wizard.m:130
 msgid "DivX first version (useable with MPEG TS, MPEG1, ASF and OGG)"
@@ -16586,7 +16598,7 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:242
 msgid "MPEG 1 Format"
-msgstr ""
+msgstr "Ffurf MPEG 1"
 
 #: modules/gui/macosx/wizard.m:260
 msgid ""
@@ -16661,7 +16673,7 @@ msgstr ""
 #: modules/gui/macosx/wizard.m:325 modules/gui/macosx/wizard.m:328
 #: modules/gui/macosx/wizard.m:1250
 msgid "Streaming/Transcoding Wizard"
-msgstr ""
+msgstr "Dewin ffrydio/trawsgodio"
 
 #: modules/gui/macosx/wizard.m:329
 msgid "This wizard allows configuring simple streaming or transcoding setups."
@@ -16671,7 +16683,7 @@ msgstr ""
 #: modules/gui/macosx/wizard.m:405 modules/gui/macosx/wizard.m:407
 #: modules/gui/macosx/wizard.m:409 modules/gui/macosx/wizard.m:424
 msgid "More Info"
-msgstr ""
+msgstr "Mwy o Wybodaeth"
 
 #: modules/gui/macosx/wizard.m:333
 msgid ""
@@ -16683,24 +16695,24 @@ msgstr ""
 #: modules/gui/macosx/wizard.m:338 modules/gui/macosx/wizard.m:496
 #: modules/gui/macosx/wizard.m:1671
 msgid "Stream to network"
-msgstr ""
+msgstr "Ffrydio at rhwydwaith"
 
 #: modules/gui/macosx/wizard.m:340 modules/gui/macosx/wizard.m:1679
 msgid "Transcode/Save to file"
-msgstr ""
+msgstr "Trawsgodio/Cadw i ffeil"
 
 #: modules/gui/macosx/wizard.m:343
 msgid "Choose input"
-msgstr ""
+msgstr "Dewis mewnbwn"
 
 #: modules/gui/macosx/wizard.m:344
 msgid "Choose here your input stream."
-msgstr ""
+msgstr "Y ffrwd mewnbwn i'w "
 
 #: modules/gui/macosx/wizard.m:346 modules/gui/macosx/wizard.m:534
 #: modules/gui/macosx/wizard.m:1712
 msgid "Select a stream"
-msgstr ""
+msgstr "Dewis ffrwd"
 
 #: modules/gui/macosx/wizard.m:348
 msgid "Existing playlist item"
@@ -16719,11 +16731,11 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:362
 msgid "From"
-msgstr ""
+msgstr "Gan"
 
 #: modules/gui/macosx/wizard.m:363
 msgid "To"
-msgstr ""
+msgstr "I"
 
 #: modules/gui/macosx/wizard.m:367
 msgid "This page allows selecting how the input stream will be sent."
@@ -16753,7 +16765,7 @@ msgstr ""
 #: modules/gui/macosx/wizard.m:379
 #: modules/stream_out/transcode/transcode.c:154
 msgid "Transcode"
-msgstr ""
+msgstr "Trawsgodio"
 
 #: modules/gui/macosx/wizard.m:380
 msgid ""
@@ -16763,23 +16775,27 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:385 modules/gui/macosx/wizard.m:444
 msgid "Transcode audio"
-msgstr ""
+msgstr "Trawsgodio'r sain"
 
 #: modules/gui/macosx/wizard.m:386 modules/gui/macosx/wizard.m:446
 msgid "Transcode video"
-msgstr ""
+msgstr "Trawsgodio'r fideo"
 
 #: modules/gui/macosx/wizard.m:389 modules/gui/macosx/wizard.m:1814
 msgid ""
 "Enabling this allows transcoding the audio track if one is present in the "
 "stream."
 msgstr ""
+"Mae galluogi hwn yn caniatáu trawsgodio'r trac sain os oes un yn bodoli yn y "
+"ffrwd."
 
 #: modules/gui/macosx/wizard.m:391 modules/gui/macosx/wizard.m:1831
 msgid ""
 "Enabling this allows transcoding the video track if one is present in the "
 "stream."
 msgstr ""
+"Mae galluogi hwn yn caniatáu trawsgodio'r trac fideo os oes un yn bodoli yn "
+"y ffrwd."
 
 #: modules/gui/macosx/wizard.m:395
 msgid "Encapsulation format"
@@ -16816,15 +16832,17 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:410 modules/gui/macosx/wizard.m:419
 msgid "Add Subtitles to transcoded video"
-msgstr ""
+msgstr "Ychwanegu isdeitlau i'r fideo a thrawsgodwyd"
 
 #: modules/gui/macosx/wizard.m:413
 msgid "Additional transcode options"
-msgstr ""
+msgstr "Dewisiadau trawsgodio uwch"
 
 #: modules/gui/macosx/wizard.m:414
 msgid "In this page, a few additional transcoding parameters can be set."
 msgstr ""
+"Mae'n bosib gosod ychydig o baramedrau trawsgodio ychwanegol ar y tudalen "
+"hwn."
 
 #: modules/gui/macosx/wizard.m:416 modules/gui/macosx/wizard.m:1072
 msgid "Select the file to save to"
@@ -16841,10 +16859,12 @@ msgid ""
 "This page lists all the settings. Click \"Finish\" to start streaming or "
 "transcoding."
 msgstr ""
+"Mae'r tudalen hwn yn rhestru'r holl osodiadau. Cliciwch \"Gorffen\" i "
+"ddechrau ffrydio neu trawsgodio."
 
 #: modules/gui/macosx/wizard.m:429
 msgid "Summary"
-msgstr ""
+msgstr "Crynodeb"
 
 #: modules/gui/macosx/wizard.m:432
 msgid "Encap. format"
@@ -16852,19 +16872,19 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:434
 msgid "Input stream"
-msgstr ""
+msgstr "Ffrwd mewnbwn"
 
 #: modules/gui/macosx/wizard.m:440
 msgid "Save file to"
-msgstr ""
+msgstr "Cadw'r ffeil i"
 
 #: modules/gui/macosx/wizard.m:448
 msgid "Include subtitles"
-msgstr ""
+msgstr "Cynnwys isdeitlau"
 
 #: modules/gui/macosx/wizard.m:602
 msgid "No input selected"
-msgstr ""
+msgstr "Dim mewnbwn wedi'i ddewis"
 
 #: modules/gui/macosx/wizard.m:604
 msgid ""
@@ -16900,7 +16920,7 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:1123
 msgid "No folder selected"
-msgstr ""
+msgstr "Dim ffolder wedi'i dewis"
 
 #: modules/gui/macosx/wizard.m:1125
 msgid "A directory where to save the files has to be selected."
@@ -16914,7 +16934,7 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:1130
 msgid "No file selected"
-msgstr ""
+msgstr "Dim ffeil wedi'i dewis"
 
 #: modules/gui/macosx/wizard.m:1132
 msgid "A file where to save the stream has to be selected."
@@ -16927,31 +16947,31 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:1354
 msgid "Finish"
-msgstr ""
+msgstr "Gorffen"
 
 #: modules/gui/macosx/wizard.m:1359
 #, c-format
 msgid "%i items"
-msgstr ""
+msgstr "%i eitem"
 
 #: modules/gui/macosx/wizard.m:1367 modules/gui/macosx/wizard.m:1396
 #: modules/gui/macosx/wizard.m:1426
 msgid "yes"
-msgstr ""
+msgstr "ie"
 
 #: modules/gui/macosx/wizard.m:1369 modules/gui/macosx/wizard.m:1379
 #: modules/gui/macosx/wizard.m:1392 modules/gui/macosx/wizard.m:1398
 #: modules/gui/macosx/wizard.m:1410 modules/gui/macosx/wizard.m:1429
 msgid "no"
-msgstr ""
+msgstr "na"
 
 #: modules/gui/macosx/wizard.m:1375
 msgid "yes: from %@ to %@"
-msgstr ""
+msgstr "ie: o %@ hyd at %@"
 
 #: modules/gui/macosx/wizard.m:1385 modules/gui/macosx/wizard.m:1403
 msgid "yes: %@ @ %@ kb/s"
-msgstr ""
+msgstr "ie: %@ @ %@ kb/e"
 
 #: modules/gui/macosx/wizard.m:1673
 msgid "This allows streaming on a network."
@@ -17054,7 +17074,7 @@ msgstr "      beitau datblethu wedi'i ddarllen : %8.0f KiB"
 #: modules/gui/ncurses.c:816
 #, c-format
 msgid "      demux bitrate    :   %6.0f kb/s"
-msgstr "      didradd datblethu    :   %6.0f kb/s"
+msgstr "      didradd datblethu    :   %6.0f kb/e"
 
 #: modules/gui/ncurses.c:822
 msgid "  [Video Decoding]"
@@ -17119,179 +17139,182 @@ msgstr "[Dangosfa]"
 
 #: modules/gui/ncurses.c:870
 msgid " h,H                    Show/Hide help box"
-msgstr ""
+msgstr " h,H                    Dangos/Cuddio'r blwch help"
 
 #: modules/gui/ncurses.c:871
 msgid " i                      Show/Hide info box"
-msgstr ""
+msgstr " i                      Dangos/Cuddio'r blwch gwybodaeth (info)"
 
 #: modules/gui/ncurses.c:872
 msgid " m                      Show/Hide metadata box"
-msgstr ""
+msgstr " m                      Dangos/Cuddio'r blwch metaddata"
 
 #: modules/gui/ncurses.c:873
 msgid " L                      Show/Hide messages box"
-msgstr ""
+msgstr " L                      Dangos/Cuddio'r blwch negeseuon"
 
 #: modules/gui/ncurses.c:874
 msgid " P                      Show/Hide playlist box"
 msgstr ""
+" P                      Dangos/Cuddio blwch y rhestr chwarae (Playlist)"
 
 #: modules/gui/ncurses.c:875
 msgid " B                      Show/Hide filebrowser"
-msgstr ""
+msgstr " B                      Dangos/Cuddio'r porwr ffeiliau (Browse)"
 
 #: modules/gui/ncurses.c:876
 msgid " x                      Show/Hide objects box"
-msgstr ""
+msgstr " x                      Dangos/Cuddio'r blwch gwrthrychau (box)"
 
 #: modules/gui/ncurses.c:877
 msgid " S                      Show/Hide statistics box"
-msgstr ""
+msgstr " S                      Dangos/Cuddio'r blwch ystadegau (Statistics)"
 
 #: modules/gui/ncurses.c:878
 msgid " Esc                    Close Add/Search entry"
-msgstr ""
+msgstr " Esc                    Cau Ychwanegu/Chwilio cofnod"
 
 #: modules/gui/ncurses.c:879
 msgid " Ctrl-l                 Refresh the screen"
-msgstr ""
+msgstr " Ctrl-l                 Adnewyddu'r sgrin"
 
 #: modules/gui/ncurses.c:883
 msgid "[Global]"
-msgstr ""
+msgstr "[Eang]"
 
 #: modules/gui/ncurses.c:885
 msgid " q, Q, Esc              Quit"
-msgstr ""
+msgstr " q, Q, Esc              Cau (quit)"
 
 #: modules/gui/ncurses.c:886
 msgid " s                      Stop"
-msgstr ""
+msgstr " s                      Stopio"
 
 #: modules/gui/ncurses.c:887
 msgid " <space>                Pause/Play"
-msgstr ""
+msgstr " <space>                Oedi/Chwarae"
 
 #: modules/gui/ncurses.c:888
 msgid " f                      Toggle Fullscreen"
-msgstr ""
+msgstr " f                      Toglo'r sgrin lawn (fullscreen)"
 
 #: modules/gui/ncurses.c:889
 msgid " n, p                   Next/Previous playlist item"
 msgstr ""
+" n, p                   Eitem nesaf/blaenorol (Previous) yn y rhestr chwarae"
 
 #: modules/gui/ncurses.c:890
 msgid " [, ]                   Next/Previous title"
-msgstr ""
+msgstr " [, ]                   Teitl blaenorol/nesaf"
 
 #: modules/gui/ncurses.c:891
 msgid " <, >                   Next/Previous chapter"
-msgstr ""
+msgstr " <, >                   Pennod Blaenorol/Nesaf"
 
 #. xgettext: You can use ← and → characters
 #: modules/gui/ncurses.c:893
 #, c-format
 msgid " <left>,<right>         Seek -/+ 1%%"
-msgstr ""
+msgstr " <left>,<right>         Cyrchu -/+ 1%%"
 
 #: modules/gui/ncurses.c:894
 msgid " a, z                   Volume Up/Down"
-msgstr ""
+msgstr " a, z                   Sain i fyny/lawr"
 
 #. xgettext: You can use ↑ and ↓ characters
 #: modules/gui/ncurses.c:896
 msgid " <up>,<down>            Navigate through the box line by line"
-msgstr ""
+msgstr " <up>,<down>            Llywio fesul llinell trwy'r blwch"
 
 #. xgettext: You can use ⇞ and ⇟ characters
 #: modules/gui/ncurses.c:898
 msgid " <pageup>,<pagedown>    Navigate through the box page by page"
-msgstr ""
+msgstr " <pageup>,<pagedown>    Llywio fesul tudalen trwy'r blwch"
 
 #. xgettext: You can use ↖ and ↘ characters
 #: modules/gui/ncurses.c:900
 msgid " <start>,<end>          Navigate to start/end of box"
-msgstr ""
+msgstr " <start>,<end>          Llywio i ddechrau/diwedd y blwch"
 
 #: modules/gui/ncurses.c:904
 msgid "[Playlist]"
-msgstr ""
+msgstr "[Rhestr Chwarae]"
 
 #: modules/gui/ncurses.c:906
 msgid " r                      Toggle Random playing"
-msgstr ""
+msgstr " r                      Toglo chwarae ar hap (random)"
 
 #: modules/gui/ncurses.c:907
 msgid " l                      Toggle Loop Playlist"
-msgstr ""
+msgstr " l                      Toglo ailchwarae'r rhestr chwarae (loop)"
 
 #: modules/gui/ncurses.c:908
 msgid " R                      Toggle Repeat item"
-msgstr ""
+msgstr " R                      Toglo ailchwarae'r eitem (Repeat)"
 
 #: modules/gui/ncurses.c:909
 msgid " o                      Order Playlist by title"
-msgstr ""
+msgstr " o                      Trefnu'r rhestr chwarae yn ôl teitl (order)"
 
 #: modules/gui/ncurses.c:910
 msgid " O                      Reverse order Playlist by title"
 msgstr ""
+" O                      Gwrth-drefnu'r rhestr chwarae yn ôl teitl (Order)"
 
 #: modules/gui/ncurses.c:911
 msgid " g                      Go to the current playing item"
-msgstr ""
+msgstr " g                      Mynd i'r eitem sy'n chwarae (go)"
 
 #: modules/gui/ncurses.c:912
 msgid " /                      Look for an item"
-msgstr ""
+msgstr " /                      Edrych am eitem"
 
 #: modules/gui/ncurses.c:913
 msgid " A                      Add an entry"
-msgstr ""
+msgstr " A                      Ychwanegu cofnod (Add)"
 
 #. xgettext: You can use ⌫ character to translate <backspace>
 #: modules/gui/ncurses.c:915
 msgid " D, <backspace>, <del>  Delete an entry"
-msgstr ""
+msgstr " D, <backspace>, <del>  Dileu cofnod"
 
 #: modules/gui/ncurses.c:916
 msgid " e                      Eject (if stopped)"
-msgstr ""
+msgstr " e                      Bwrw allan (eject) (os ddim yn chwarae)"
 
 #: modules/gui/ncurses.c:920
 msgid "[Filebrowser]"
-msgstr ""
+msgstr "[Porwr Ffeiliau]"
 
 #: modules/gui/ncurses.c:922
 msgid " <enter>                Add the selected file to the playlist"
-msgstr ""
+msgstr " <enter>                Ychwanegu'r ffeil i'r rhestr chwarae"
 
 #: modules/gui/ncurses.c:923
 msgid " <space>                Add the selected directory to the playlist"
-msgstr ""
+msgstr " <space>                Ychwanegu'r cyfeiriadur i'r rhestr chwarae"
 
 #: modules/gui/ncurses.c:924
 msgid " .                      Show/Hide hidden files"
-msgstr ""
+msgstr " .                      Dangos/Cuddio ffeiliau wedi'u cuddio"
 
 #: modules/gui/ncurses.c:928
 msgid "[Player]"
-msgstr ""
+msgstr "[Chwaraewr]"
 
 #. xgettext: You can use ↑ and ↓ characters
 #: modules/gui/ncurses.c:931
 #, c-format
 msgid " <up>,<down>            Seek +/-5%%"
-msgstr ""
+msgstr " <up>,<down>            Cyrchu +/-5%%"
 
 #: modules/gui/ncurses.c:1051
 msgid "[Repeat] "
-msgstr ""
+msgstr "[Ailchwarae] "
 
 #: modules/gui/ncurses.c:1052
 msgid "[Random] "
-msgstr ""
+msgstr "[Ar Hap] "
 
 #: modules/gui/ncurses.c:1053
 msgid "[Loop]"
@@ -17305,22 +17328,22 @@ msgstr ""
 #: modules/gui/ncurses.c:1095
 #, c-format
 msgid " Position : %s/%s"
-msgstr ""
+msgstr " Safle : %s/%s"
 
 #: modules/gui/ncurses.c:1098
 #, c-format
 msgid " Volume   : %u%%"
-msgstr ""
+msgstr " Sain   : %u%%"
 
 #: modules/gui/ncurses.c:1104
 #, c-format
 msgid " Title    : %<PRId64>/%d"
-msgstr ""
+msgstr " Teitl    : %<PRId64>/%d"
 
 #: modules/gui/ncurses.c:1110
 #, c-format
 msgid " Chapter  : %<PRId64>/%d"
-msgstr ""
+msgstr "Pennod  : %<PRId64>/%d"
 
 #: modules/gui/ncurses.c:1115
 msgid " Source: <no current item> "
@@ -17328,7 +17351,7 @@ msgstr ""
 
 #: modules/gui/ncurses.c:1117
 msgid " [ h for help ]"
-msgstr ""
+msgstr " [ h am help ]"
 
 #: modules/gui/qt4/components/controller.cpp:339
 msgid "Shift+L"
@@ -17356,7 +17379,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/controller.cpp:593
 msgid "Toggle Transparency "
-msgstr ""
+msgstr "Toglo Tryloywder"
 
 #: modules/gui/qt4/components/controller.hpp:43
 msgid ""
@@ -17374,7 +17397,7 @@ msgstr "Nesaf / Ymlaen"
 
 #: modules/gui/qt4/components/controller.hpp:116
 msgid "De-Fullscreen"
-msgstr ""
+msgstr "Gadael Sgrin Lawn"
 
 #: modules/gui/qt4/components/controller.hpp:116
 msgid "Extended panel"
@@ -17382,7 +17405,7 @@ msgstr "Panel Estynedig"
 
 #: modules/gui/qt4/components/controller.hpp:117
 msgid "A->B Loop"
-msgstr ""
+msgstr "Cylch A->B"
 
 #: modules/gui/qt4/components/controller.hpp:117
 msgid "Frame By Frame"
@@ -17395,16 +17418,16 @@ msgstr ""
 #: modules/gui/qt4/components/controller.hpp:118
 #: modules/gui/qt4/components/controller.hpp:130
 msgid "Step backward"
-msgstr ""
+msgstr "Camu ymlaen"
 
 #: modules/gui/qt4/components/controller.hpp:118
 #: modules/gui/qt4/components/controller.hpp:130
 msgid "Step forward"
-msgstr ""
+msgstr "Camu nôl"
 
 #: modules/gui/qt4/components/controller.hpp:119
 msgid "Loop / Repeat"
-msgstr "Ail-chwarae"
+msgstr "Ailchwarae"
 
 #: modules/gui/qt4/components/controller.hpp:120
 msgid "Open subtitles"
@@ -17425,18 +17448,22 @@ msgstr "Agor cyfrwng"
 #: modules/gui/qt4/components/controller.hpp:124
 msgid "Previous media in the playlist, skip backward when keep-pressed"
 msgstr ""
+"Chwarae'r cyfrwng blaenorol yn y rhestr chwarae; dal i lawr i neidio nôl o "
+"fewn y cyfrwng presennol"
 
 #: modules/gui/qt4/components/controller.hpp:125
 msgid "Next media in the playlist, skip forward when keep-pressed"
 msgstr ""
+"Chwarae'r cyfrwng nesaf yn y rhestr chwarae; dal i lawr i neidio ymlaen o "
+"fewn y cyfrwng presennol"
 
 #: modules/gui/qt4/components/controller.hpp:126
 msgid "Toggle the video in fullscreen"
-msgstr ""
+msgstr "Toglo'r fideo i'r sgrin lawn"
 
 #: modules/gui/qt4/components/controller.hpp:126
 msgid "Toggle the video out fullscreen"
-msgstr ""
+msgstr "Toglo'r fideo allan o'r sgrin lawn"
 
 #: modules/gui/qt4/components/controller.hpp:127
 msgid "Show extended settings"
@@ -17444,7 +17471,7 @@ msgstr "Dangos gosodiadau estynedig"
 
 #: modules/gui/qt4/components/controller.hpp:127
 msgid "Show playlist"
-msgstr "Dangos rhestr chwarae"
+msgstr "Dangos y rhestr chwarae"
 
 #: modules/gui/qt4/components/controller.hpp:128
 msgid "Take a snapshot"
@@ -17452,7 +17479,7 @@ msgstr "Tynnu ciplun"
 
 #: modules/gui/qt4/components/controller.hpp:129
 msgid "Loop from point A to point B continuously."
-msgstr "Ail-chwarae mewn cylch cyson o bwynt A i pwynt B."
+msgstr "Ailchwarae mewn cylch cyson o bwynt A i pwynt B."
 
 #: modules/gui/qt4/components/controller.hpp:129
 msgid "Frame by frame"
@@ -17464,7 +17491,7 @@ msgstr "Gwrthdroi"
 
 #: modules/gui/qt4/components/controller.hpp:131
 msgid "Change the loop and repeat modes"
-msgstr "Newid y nodau ail-chwarae mewn cylch"
+msgstr "Newid y nodau ailchwarae mewn cylch"
 
 #: modules/gui/qt4/components/controller.hpp:132
 msgid "Previous media in the playlist"
@@ -17502,7 +17529,7 @@ msgid ""
 "Loop from point A to point B continuously\n"
 "Click to set point A"
 msgstr ""
-"Ail-chwarae mewn cylch cyson o bwynt A i pwynt B.\n"
+"Ailchwarae mewn cylch cyson o bwynt A i pwynt B.\n"
 "Clic i osod pwynt A"
 
 #: modules/gui/qt4/components/controller_widget.cpp:255
@@ -17511,7 +17538,7 @@ msgstr "Clic i osod pwynt B"
 
 #: modules/gui/qt4/components/controller_widget.cpp:260
 msgid "Stop the A to B loop"
-msgstr "Stopio'r ail-chwarae o A i B"
+msgstr "Stopio'r ailchwarae o A i B"
 
 #: modules/gui/qt4/components/controller_widget.cpp:281
 msgid "Aspect Ratio"
@@ -17538,7 +17565,7 @@ msgstr ""
 #: modules/gui/qt4/components/extended_panels.cpp:1054
 #: modules/gui/qt4/components/extended_panels.cpp:1110
 msgid "Preamp\n"
-msgstr "Rheolydd ton\n"
+msgstr "Rhagfwyhadur\n"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1055
 #: modules/gui/qt4/components/extended_panels.cpp:1111
@@ -17583,7 +17610,7 @@ msgstr "(Ar ôl)"
 
 #: modules/gui/qt4/components/extended_panels.cpp:1599
 msgid "Force update of this dialog's values"
-msgstr ""
+msgstr "Gorfodi diweddaru a defnyddio'r gwerthoedd yma"
 
 #: modules/gui/qt4/components/info_panels.cpp:150
 msgid "Comments"
@@ -17620,7 +17647,7 @@ msgstr "Maint o ddata'r cyfrwng"
 
 #: modules/gui/qt4/components/info_panels.cpp:527
 msgid "Demuxed data size"
-msgstr "Maint o ddata a diblethwyd"
+msgstr "Maint o ddata a datblethwyd"
 
 #: modules/gui/qt4/components/info_panels.cpp:528
 msgid "Content bitrate"
@@ -17678,7 +17705,7 @@ msgstr "Chwaraewyd"
 #: modules/gui/qt4/components/info_panels.cpp:551
 #: modules/gui/qt4/components/info_panels.cpp:552
 msgid "buffers"
-msgstr ""
+msgstr "byfferau"
 
 #: modules/gui/qt4/components/interface_widgets.cpp:297
 msgid "Current visualization"
@@ -17745,7 +17772,7 @@ msgstr "Hidlydd:"
 
 #: modules/gui/qt4/components/open_panels.cpp:360
 msgid "Eject the disc"
-msgstr "Diarddel y ddisg"
+msgstr "Allfwrw'r disg"
 
 #: modules/gui/qt4/components/open_panels.cpp:863
 msgid "Channels:"
@@ -17753,11 +17780,11 @@ msgstr "Sianeli:"
 
 #: modules/gui/qt4/components/open_panels.cpp:874
 msgid "Selected ports:"
-msgstr ""
+msgstr "Dewis porthi:"
 
 #: modules/gui/qt4/components/open_panels.cpp:877
 msgid ".*"
-msgstr ""
+msgstr ".*"
 
 #: modules/gui/qt4/components/open_panels.cpp:884
 msgid "Use VLC pace"
@@ -17785,7 +17812,7 @@ msgstr "Cerdyn twiniwr"
 
 #: modules/gui/qt4/components/open_panels.cpp:965
 msgid "Delivery system"
-msgstr ""
+msgstr "System trosgludiad"
 
 #: modules/gui/qt4/components/open_panels.cpp:995
 msgid "Transponder/multiplex frequency"
@@ -17801,7 +17828,7 @@ msgstr "Lled band"
 
 #: modules/gui/qt4/components/open_panels.cpp:1081
 msgid "Your display will be opened and played in order to stream or save it."
-msgstr ""
+msgstr "Caiff y ddyfais ei hagor a'i chwarae er mwyn ei ffrydio neu ei chadw."
 
 #. xgettext: frames per second
 #: modules/gui/qt4/components/open_panels.cpp:1095
@@ -17834,11 +17861,11 @@ msgstr "Creu Ffolder"
 
 #: modules/gui/qt4/components/playlist/playlist_model.cpp:55
 msgid "Enter name for new directory:"
-msgstr "Rho enw ar gyfer y cyfeiriadur newydd:"
+msgstr "Enw'r cyfeiriadur newydd:"
 
 #: modules/gui/qt4/components/playlist/playlist_model.cpp:56
 msgid "Enter name for new folder:"
-msgstr "Rho enw ar gyfer y ffolder newydd:"
+msgstr "Enw'r ffolder newydd:"
 
 #: modules/gui/qt4/components/playlist/playlist_model.cpp:975
 msgid "Add to playlist"
@@ -17902,7 +17929,7 @@ msgstr "Tanysgrifio"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:492
 msgid "Enter URL of the podcast to subscribe to:"
-msgstr "Rho URL y podlediad i'w danysgrifio iddo:"
+msgstr "URL y podlediad i'w danysgrifio iddo:"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:509
 msgid "Do you really want to unsubscribe from %1?"
@@ -17947,7 +17974,7 @@ msgstr ""
 #: modules/gui/qt4/components/preferences_widgets.cpp:1327
 #: modules/gui/qt4/components/preferences_widgets.cpp:1545
 msgid "Global"
-msgstr ""
+msgstr "Eang"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1469
 #: modules/gui/qt4/util/customwidgets.cpp:293
@@ -17969,7 +17996,7 @@ msgstr ""
 #: modules/gui/qt4/components/preferences_widgets.cpp:1601
 #: modules/gui/qt4/components/preferences_widgets.cpp:1609
 msgid "Key: "
-msgstr ""
+msgstr "Allwedd:"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:92
 msgid "Subtitles && OSD"
@@ -17977,7 +18004,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/simple_preferences.cpp:94
 msgid "Input && Codecs"
-msgstr ""
+msgstr "Mewnbwn && Codecs"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:216
 msgid "Video Settings"
@@ -18100,7 +18127,7 @@ msgstr "Math:"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:93
 msgid "This module writes the transcoded stream to a file."
-msgstr ""
+msgstr "Mae'r modiwl hwn yn ysgrifennu'r ffrwd a thrawsgodwyd i ffeil."
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:96
 msgid "Filename"
@@ -18122,6 +18149,7 @@ msgstr ""
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:152
 msgid "This module outputs the transcoded stream to a network via HTTP."
 msgstr ""
+"Mae'r modiwl hwn yn allbynnu'r ffrwd a thrawsgodwyd at rwydwaith trwy HTTP."
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:156
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:262
@@ -18132,18 +18160,23 @@ msgstr "Llwybr"
 msgid ""
 "This module outputs the transcoded stream to a network via the mms protocol."
 msgstr ""
+"Mae'r modiwl hwn yn allbynnu'r ffrwd a thrawsgodwyd at rwydwaith trwy'r "
+"protocol mms."
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:258
 msgid "This module outputs the transcoded stream to a network via RTSP."
 msgstr ""
+"Mae'r modiwl hwn yn allbynnu'r ffrwd a thrawsgodwyd at rwydwaith trwy'r RTSP."
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:309
 msgid "This module outputs the transcoded stream to a network via UDP."
 msgstr ""
+"Mae'r modiwl hwn yn allbynnu'r ffrwd a thrawsgodwyd at rwydwaith trwy UDP."
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:374
 msgid "This module outputs the transcoded stream to a network via RTP."
 msgstr ""
+"Mae'r modiwl hwn yn allbynnu'r ffrwd a thrawsgodwyd at rwydwaith trwy RTP."
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:379
 msgid "Base port"
@@ -18152,6 +18185,7 @@ msgstr ""
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:429
 msgid "This module outputs the transcoded stream to an Icecast server."
 msgstr ""
+"Mae'r modiwl hwn yn allbynnu'r ffrwd a thrawsgodwyd at gweinydd Icecast."
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:450
 msgid "Mount Point"
@@ -18213,7 +18247,7 @@ msgstr "Pori"
 
 #: modules/gui/qt4/dialogs/convert.cpp:71
 msgid "Display the output"
-msgstr ""
+msgstr "Dangos yr allbwn"
 
 #: modules/gui/qt4/dialogs/convert.cpp:72
 msgid "This display the resulting media, but can slow things down."
@@ -18241,7 +18275,7 @@ msgstr "Cuddio gwallau yn y dyfodol"
 
 #: modules/gui/qt4/dialogs/extended.cpp:49
 msgid "Adjustments and Effects"
-msgstr ""
+msgstr "Addasiadau ac Effeithiau"
 
 #: modules/gui/qt4/dialogs/extended.cpp:64
 msgid "Graphic Equalizer"
@@ -18253,7 +18287,7 @@ msgstr "Cydamseriad"
 
 #: modules/gui/qt4/dialogs/extended.cpp:92
 msgid "v4l2 controls"
-msgstr ""
+msgstr "Rheolaethau v412"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:65
 #: modules/gui/qt4/dialogs/firstrun.cpp:73
@@ -18278,11 +18312,11 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:100
 msgid "Allow downloading media information"
-msgstr ""
+msgstr "Galluogi lawrlwytho gwybodaeth am cyfryngau"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:105
 msgid "Allow checking for VLC updates"
-msgstr ""
+msgstr "Gallugoi gwirio am ddiweddariad VLC"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:111
 msgid "Save and Continue"
@@ -18290,7 +18324,7 @@ msgstr "Cadw a Pharhau"
 
 #: modules/gui/qt4/dialogs/gototime.cpp:42
 msgid "Go to Time"
-msgstr ""
+msgstr "Mynd at Amser"
 
 #: modules/gui/qt4/dialogs/gototime.cpp:48
 msgid "&Go"
@@ -18298,7 +18332,7 @@ msgstr "&Mynd"
 
 #: modules/gui/qt4/dialogs/gototime.cpp:56
 msgid "Go to time"
-msgstr ""
+msgstr "Mynd at amser"
 
 #: modules/gui/qt4/dialogs/help.cpp:89 modules/gui/qt4/dialogs/plugins.cpp:498
 #: modules/gui/qt4/ui/about.h:183
@@ -18421,6 +18455,8 @@ msgid ""
 "Cannot write to file %1:\n"
 "%2."
 msgstr ""
+"Methu ysgrifennu i'r ffeil %1:\n"
+"%2."
 
 #: modules/gui/qt4/dialogs/open.cpp:79 modules/gui/qt4/menus.cpp:894
 #: modules/gui/qt4/menus.cpp:1135
@@ -18476,11 +18512,11 @@ msgstr "Agor URL"
 
 #: modules/gui/qt4/dialogs/openurl.cpp:64
 msgid "Enter URL here..."
-msgstr "Rho URL yma..."
+msgstr "Mae'r URL yn mynd fan hyn..."
 
 #: modules/gui/qt4/dialogs/openurl.cpp:66
 msgid "Please enter the URL or path to the media you want to play"
-msgstr "Rho URL neu llwybr y cyfrwng hoffet ei chwarae."
+msgstr "URL neu llwybr y cyfrwng i'w chwarae."
 
 #: modules/gui/qt4/dialogs/openurl.cpp:70
 msgid ""
@@ -18495,7 +18531,7 @@ msgstr "Ategion ac estyniadau"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:105
 msgid "Capability"
-msgstr ""
+msgstr "Gallu"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:105
 msgid "Score"
@@ -18531,7 +18567,7 @@ msgstr "Mae'n dileu yr eitem."
 
 #: modules/gui/qt4/dialogs/preferences.cpp:66
 msgid "Show settings"
-msgstr "Dangos gosodiadau"
+msgstr "Dangos y gosodiadau"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:70
 msgid "Simple"
@@ -18559,15 +18595,15 @@ msgstr "&Ailosod Dewisiadau"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:319
 msgid "Cannot save Configuration"
-msgstr ""
+msgstr "Methu cadw'r ffurfweddiad"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:320
 msgid "Preferences file could not be saved"
-msgstr ""
+msgstr "Methwyd cadw'r ffeil dewisiadau"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:340
 msgid "Are you sure you want to reset your VLC media player preferences?"
-msgstr ""
+msgstr "Ydych yn sicr am ailosod eich dewisiadau chwaraewr VLC?"
 
 #: modules/gui/qt4/dialogs_provider.cpp:65
 msgid "Open Directory"
@@ -18718,7 +18754,7 @@ msgstr "Enw Proffil"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:229
 msgid "Please enter the new profile name."
-msgstr "Rho enw i'r proffil newydd."
+msgstr "Enw'r proffil newydd"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:314
 msgid "Spacer"
@@ -18774,11 +18810,11 @@ msgstr "Diwrnod / Mis / Blwyddyn:"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:84
 msgid "Repeat:"
-msgstr "Ail-chwarae:"
+msgstr "Ailchwarae:"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:86
 msgid "Repeat delay:"
-msgstr "Oediad cyn ail-chwarae:"
+msgstr "Oediad cyn ailchwarae:"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:111
 #: modules/gui/qt4/ui/sprefs_interface.h:508
@@ -18795,15 +18831,15 @@ msgstr "&Allforio"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:270
 msgid "Save VLM configuration as..."
-msgstr ""
+msgstr "Cadw ffurfweddiad VLM fel..."
 
 #: modules/gui/qt4/dialogs/vlm.cpp:272 modules/gui/qt4/dialogs/vlm.cpp:346
 msgid "VLM conf (*.vlm);;All (*)"
-msgstr ""
+msgstr "Ffurf VLM (*.vlm);;Oll (*)"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:344
 msgid "Open VLM configuration..."
-msgstr ""
+msgstr "Agor ffurfweddiad VLM..."
 
 #: modules/gui/qt4/dialogs/vlm.cpp:544
 msgid "Broadcast: "
@@ -18819,7 +18855,7 @@ msgstr "Fideo ar Alw (VOD):"
 
 #: modules/gui/qt4/main_interface.cpp:1135
 msgid "Control menu for the player"
-msgstr ""
+msgstr "Dewislen rheoli ar gyfer y chwaraewr"
 
 #: modules/gui/qt4/main_interface.cpp:1178
 msgid "Paused"
@@ -18955,7 +18991,7 @@ msgstr "&Bar Rheoli Uwch"
 
 #: modules/gui/qt4/menus.cpp:499
 msgid "Docked Playlist"
-msgstr "Docio'r Rhest Chwarae"
+msgstr "Docio'r Rhestr Chwarae"
 
 #: modules/gui/qt4/menus.cpp:504
 msgid "Status Bar"
@@ -19015,15 +19051,15 @@ msgstr "Cymhareb &Agwedd"
 
 #: modules/gui/qt4/menus.cpp:652
 msgid "&Crop"
-msgstr "&Cropio"
+msgstr "&Tocio"
 
 #: modules/gui/qt4/menus.cpp:656
 msgid "&Deinterlace"
-msgstr "&Dadgydblethu"
+msgstr "&Datgydblethu"
 
 #: modules/gui/qt4/menus.cpp:657
 msgid "&Deinterlace mode"
-msgstr "Modd &Dadgydblethu"
+msgstr "Modd &Datgydblethu"
 
 #: modules/gui/qt4/menus.cpp:658
 msgid "&Post processing"
@@ -19325,7 +19361,7 @@ msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:171
 msgid "Ignore keyboard volume buttons."
-msgstr ""
+msgstr "Anwybyddu byselli sain"
 
 #: modules/gui/qt4/qt4.cpp:173
 msgid ""
@@ -19365,7 +19401,7 @@ msgstr "Agor rhestr chwarae"
 
 #: modules/gui/skins2/src/dialogs.cpp:215
 msgid "Playlist Files|"
-msgstr ""
+msgstr "Ffeiliau Rhestr Chwarae|"
 
 #: modules/gui/skins2/src/dialogs.cpp:223
 msgid "Save playlist"
@@ -19404,7 +19440,7 @@ msgstr "Dangos VLC yn y bar tasgau"
 
 #: modules/gui/skins2/src/skin_main.cpp:471
 msgid "Enable transparency effects"
-msgstr ""
+msgstr "Galluogi effeithiau trylowyder"
 
 #: modules/gui/skins2/src/skin_main.cpp:472
 msgid ""
@@ -20338,7 +20374,7 @@ msgstr ""
 
 #: modules/packetizer/mpegvideo.c:72
 msgid "MPEG Video"
-msgstr ""
+msgstr "Fideo MPEG"
 
 #: modules/packetizer/vc1.c:51
 msgid "VC-1 packetizer"
@@ -20369,16 +20405,16 @@ msgstr "Fy Lluniau"
 
 #: modules/services_discovery/mtp.c:43
 msgid "MTP devices"
-msgstr ""
+msgstr "Dyfeisi MTP"
 
 #: modules/services_discovery/mtp.c:189
 msgid "MTP Device"
-msgstr ""
+msgstr "Dyfais MTP"
 
 #: modules/services_discovery/podcast.c:57
 #: modules/gui/qt4/ui/podcast_configuration.h:102
 msgid "Podcast URLs list"
-msgstr ""
+msgstr "Rhestr URLs podlediadau"
 
 #: modules/services_discovery/podcast.c:58
 msgid "Enter the list of podcasts to retrieve, separated by '|' (pipe)."
@@ -20391,7 +20427,7 @@ msgstr "Podlediadau"
 #: modules/services_discovery/pulse.c:42 modules/services_discovery/udev.c:62
 #: modules/services_discovery/udev.c:99
 msgid "Audio capture"
-msgstr ""
+msgstr "Cipiad sain"
 
 #: modules/services_discovery/pulse.c:43
 msgid "Audio capture (PulseAudio)"
@@ -20485,7 +20521,7 @@ msgstr ""
 
 #: modules/services_discovery/udev.c:613 modules/gui/qt4/ui/open_disk.h:299
 msgid "DVD"
-msgstr ""
+msgstr "DVD"
 
 #: modules/services_discovery/udev.c:615
 msgid "Blu-Ray"
@@ -20493,7 +20529,7 @@ msgstr ""
 
 #: modules/services_discovery/udev.c:617
 msgid "HD DVD"
-msgstr ""
+msgstr "DVD HD"
 
 #: modules/services_discovery/udev.c:624
 msgid "Unknown type"
@@ -20525,7 +20561,7 @@ msgstr ""
 #: modules/services_discovery/xcb_apps.c:351
 #: modules/video_output/msw/direct3d.c:208
 msgid "Desktop"
-msgstr ""
+msgstr "Bwrdd gwaith"
 
 #: modules/stream_filter/dash/dash.cpp:52
 msgid "DASH"
@@ -20537,7 +20573,7 @@ msgstr ""
 
 #: modules/stream_filter/decomp.c:55
 msgid "Decompression"
-msgstr ""
+msgstr "Datgywasgu"
 
 #: modules/stream_filter/httplive.c:56
 msgid "Http Live Streaming stream filter"
@@ -20667,7 +20703,7 @@ msgstr ""
 
 #: modules/stream_out/delay.c:55
 msgid "Delay a stream"
-msgstr ""
+msgstr "Oedi ffrwd"
 
 #: modules/stream_out/description.c:54
 msgid "Description stream output"
@@ -20683,7 +20719,7 @@ msgstr ""
 
 #: modules/stream_out/display.c:44
 msgid "Delay (ms)"
-msgstr ""
+msgstr "Oediad (me)"
 
 #: modules/stream_out/display.c:45
 msgid "Introduces a delay in the display of the stream."
@@ -20788,7 +20824,7 @@ msgstr ""
 
 #: modules/stream_out/langfromtelx.c:45
 msgid "Magazine"
-msgstr ""
+msgstr "Cylchgrawn"
 
 #: modules/stream_out/langfromtelx.c:47
 msgid "Specify the magazine containing the language page"
@@ -20913,7 +20949,7 @@ msgstr ""
 
 #: modules/stream_out/raop.c:161
 msgid "RAOP"
-msgstr ""
+msgstr "RAOP"
 
 #: modules/stream_out/raop.c:162
 msgid "Remote Audio Output Protocol stream output"
@@ -20929,7 +20965,7 @@ msgstr ""
 
 #: modules/stream_out/record.c:57
 msgid "Record stream output"
-msgstr ""
+msgstr "Recordio'r allbwn ffrwd"
 
 #: modules/stream_out/rtp.c:78
 msgid "This is the output URL that will be used."
@@ -20953,7 +20989,7 @@ msgstr ""
 
 #: modules/stream_out/rtp.c:87
 msgid "Muxer"
-msgstr ""
+msgstr "Amlblethwr"
 
 #: modules/stream_out/rtp.c:89
 msgid ""
@@ -21077,7 +21113,7 @@ msgstr ""
 
 #: modules/stream_out/rtp.c:167
 msgid "MP4A LATM"
-msgstr ""
+msgstr "MP4A LATM"
 
 #: modules/stream_out/rtp.c:169
 msgid "This allows you to stream MPEG4 LATM audio streams (see RFC3016)."
@@ -21109,11 +21145,11 @@ msgstr ""
 
 #: modules/stream_out/select.c:49
 msgid "Disable ES id"
-msgstr ""
+msgstr "Analluogi ES id"
 
 #: modules/stream_out/select.c:51
 msgid "Disable ES id at startup."
-msgstr ""
+msgstr "Analluogi ES id wrth dechrau."
 
 #: modules/stream_out/select.c:53
 msgid "Enable ES id"
@@ -21328,7 +21364,7 @@ msgstr ""
 
 #: modules/stream_out/switcher.c:109
 msgid "Mute audio"
-msgstr ""
+msgstr "Tewi'r sain"
 
 #: modules/stream_out/switcher.c:111
 msgid "Mute audio when command is not 0."
@@ -21358,11 +21394,11 @@ msgstr ""
 
 #: modules/stream_out/transcode/transcode.c:51
 msgid "Video bitrate"
-msgstr ""
+msgstr "Didradd fideo"
 
 #: modules/stream_out/transcode/transcode.c:53
 msgid "Target bitrate of the transcoded video stream."
-msgstr ""
+msgstr "Targed didradd y ffrwd fideo wedi'i drawsgodio"
 
 #: modules/stream_out/transcode/transcode.c:54
 msgid "Video scaling"
@@ -21382,15 +21418,15 @@ msgstr ""
 
 #: modules/stream_out/transcode/transcode.c:60
 msgid "Deinterlace video"
-msgstr ""
+msgstr "Datgydblethu'r fideo"
 
 #: modules/stream_out/transcode/transcode.c:62
 msgid "Deinterlace the video before encoding."
-msgstr ""
+msgstr "Datgydblethu'r fideo cyn ei amgodio"
 
 #: modules/stream_out/transcode/transcode.c:63
 msgid "Deinterlace module"
-msgstr ""
+msgstr "Modiwl datgydblethu"
 
 #: modules/stream_out/transcode/transcode.c:65
 msgid "Specify the deinterlace module to use."
@@ -21398,19 +21434,19 @@ msgstr ""
 
 #: modules/stream_out/transcode/transcode.c:72
 msgid "Maximum video width"
-msgstr ""
+msgstr "Cyfyngiad lled fideo"
 
 #: modules/stream_out/transcode/transcode.c:74
 msgid "Maximum output video width."
-msgstr ""
+msgstr "Gosod cyfyngiad ar lled yr allbwn fideo"
 
 #: modules/stream_out/transcode/transcode.c:75
 msgid "Maximum video height"
-msgstr ""
+msgstr "Cyfyngiad uchder fideo"
 
 #: modules/stream_out/transcode/transcode.c:77
 msgid "Maximum output video height."
-msgstr ""
+msgstr "Gosod cyfyngiad ar uchder yr allbwn fideo"
 
 #: modules/stream_out/transcode/transcode.c:80
 msgid ""
@@ -21420,13 +21456,14 @@ msgstr ""
 
 #: modules/stream_out/transcode/transcode.c:83
 msgid "Audio encoder"
-msgstr ""
+msgstr "Amgodwr sain"
 
 #: modules/stream_out/transcode/transcode.c:85
 msgid ""
 "This is the audio encoder module that will be used (and its associated "
 "options)."
 msgstr ""
+"Hwn yw'r modiwl amgodio sain i'w ddefnyddio (a'i dewisiadau perthnasol)."
 
 #: modules/stream_out/transcode/transcode.c:87
 msgid "Destination audio codec"
@@ -21434,15 +21471,15 @@ msgstr ""
 
 #: modules/stream_out/transcode/transcode.c:89
 msgid "This is the audio codec that will be used."
-msgstr ""
+msgstr "Hwn yw'r codec sain i'w ddefnyddio."
 
 #: modules/stream_out/transcode/transcode.c:90
 msgid "Audio bitrate"
-msgstr ""
+msgstr "Didradd sain"
 
 #: modules/stream_out/transcode/transcode.c:92
 msgid "Target bitrate of the transcoded audio stream."
-msgstr ""
+msgstr "Targed didradd y ffrwd sain a thrawsgodwyd"
 
 #: modules/stream_out/transcode/transcode.c:95
 msgid ""
@@ -21451,19 +21488,19 @@ msgstr ""
 
 #: modules/stream_out/transcode/transcode.c:96
 msgid "Audio Language"
-msgstr ""
+msgstr "Iaith Sain"
 
 #: modules/stream_out/transcode/transcode.c:98
 msgid "This is the language of the audio stream."
-msgstr ""
+msgstr "Hwn y iaith y ffrwd sain."
 
 #: modules/stream_out/transcode/transcode.c:101
 msgid "Number of audio channels in the transcoded streams."
-msgstr ""
+msgstr "Nifer y sianeli sain sydd yn y ffrydiau wedi'u trawsgodio."
 
 #: modules/stream_out/transcode/transcode.c:102
 msgid "Audio filter"
-msgstr ""
+msgstr "Hidlydd sain"
 
 #: modules/stream_out/transcode/transcode.c:104
 msgid ""
@@ -21473,13 +21510,14 @@ msgstr ""
 
 #: modules/stream_out/transcode/transcode.c:107
 msgid "Subtitles encoder"
-msgstr ""
+msgstr "Amgodwr isdeitlau"
 
 #: modules/stream_out/transcode/transcode.c:109
 msgid ""
 "This is the subtitles encoder module that will be used (and its associated "
 "options)."
 msgstr ""
+"Hwn yw'r modiwl amgodio isdeitlau i'w ddefnyddio (a'i dewisiadau perthnasol)."
 
 #: modules/stream_out/transcode/transcode.c:111
 msgid "Destination subtitles codec"
@@ -21517,7 +21555,7 @@ msgstr ""
 
 #: modules/stream_out/transcode/transcode.c:129
 msgid "High priority"
-msgstr ""
+msgstr "Blaenoriaeth uchel"
 
 #: modules/stream_out/transcode/transcode.c:131
 msgid ""
@@ -21558,7 +21596,7 @@ msgstr ""
 
 #: modules/text_renderer/freetype.c:130 modules/text_renderer/win32text.c:61
 msgid "Font size in pixels"
-msgstr ""
+msgstr "Maint y ffont mewn picseli"
 
 #: modules/text_renderer/freetype.c:131 modules/text_renderer/win32text.c:62
 msgid ""
@@ -21569,7 +21607,7 @@ msgstr ""
 
 #: modules/text_renderer/freetype.c:135
 msgid "Text opacity"
-msgstr ""
+msgstr "Anhryloywder y testun"
 
 #: modules/text_renderer/freetype.c:136 modules/text_renderer/win32text.c:67
 msgid ""
@@ -21605,37 +21643,37 @@ msgstr ""
 
 #: modules/text_renderer/freetype.c:148
 msgid "Force bold"
-msgstr ""
+msgstr "Gorfodi ffont trwm"
 
 #: modules/text_renderer/freetype.c:150
 msgid "Background opacity"
-msgstr ""
+msgstr "Anhryloywder y cefndir"
 
 #: modules/text_renderer/freetype.c:151
 msgid "Background color"
-msgstr ""
+msgstr "Lliw cefndir"
 
 #: modules/text_renderer/freetype.c:153
 msgid "Outline opacity"
-msgstr ""
+msgstr "Anhryloywder yr amlinell"
 
 #: modules/text_renderer/freetype.c:154
 #: modules/gui/qt4/ui/sprefs_subtitles.h:283
 msgid "Outline color"
-msgstr ""
+msgstr "Lliw yr amlinell"
 
 #: modules/text_renderer/freetype.c:155
 #: modules/gui/qt4/ui/sprefs_subtitles.h:282
 msgid "Outline thickness"
-msgstr ""
+msgstr "Trwch yr amlinell"
 
 #: modules/text_renderer/freetype.c:157
 msgid "Shadow opacity"
-msgstr ""
+msgstr "Anhryloywder y cysgod"
 
 #: modules/text_renderer/freetype.c:158
 msgid "Shadow color"
-msgstr ""
+msgstr "Lliw cysgod"
 
 #: modules/text_renderer/freetype.c:159
 msgid "Shadow angle"
@@ -21648,22 +21686,22 @@ msgstr ""
 #: modules/text_renderer/freetype.c:165 modules/text_renderer/quartztext.c:114
 #: modules/text_renderer/win32text.c:82
 msgid "Smaller"
-msgstr ""
+msgstr "Llai"
 
 #: modules/text_renderer/freetype.c:165 modules/text_renderer/quartztext.c:114
 #: modules/text_renderer/win32text.c:82
 msgid "Small"
-msgstr ""
+msgstr "Bach"
 
 #: modules/text_renderer/freetype.c:165 modules/text_renderer/quartztext.c:114
 #: modules/text_renderer/win32text.c:82
 msgid "Large"
-msgstr ""
+msgstr "Mawr"
 
 #: modules/text_renderer/freetype.c:165 modules/text_renderer/quartztext.c:114
 #: modules/text_renderer/win32text.c:82
 msgid "Larger"
-msgstr ""
+msgstr "Mwy"
 
 #: modules/text_renderer/freetype.c:166
 msgid "Use YUVP renderer"
@@ -21677,11 +21715,11 @@ msgstr ""
 
 #: modules/text_renderer/freetype.c:184
 msgid "Thin"
-msgstr ""
+msgstr "Main"
 
 #: modules/text_renderer/freetype.c:184
 msgid "Thick"
-msgstr ""
+msgstr "Trwchus"
 
 #: modules/text_renderer/freetype.c:188 modules/text_renderer/win32text.c:94
 msgid "Text renderer"
@@ -21824,7 +21862,7 @@ msgstr ""
 
 #: modules/video_filter/adjust.c:83 modules/gui/qt4/ui/video_effects.h:1297
 msgid "Image adjust"
-msgstr ""
+msgstr "Addasu'r delwedd"
 
 #: modules/video_filter/alphamask.c:40
 msgid "Use an image's alpha channel as a transparency mask."
@@ -21848,11 +21886,11 @@ msgstr ""
 
 #: modules/video_filter/antiflicker.c:49
 msgid "Window size"
-msgstr ""
+msgstr "Maint y ffenestr"
 
 #: modules/video_filter/antiflicker.c:50
 msgid "Number of frames (0 to 100)"
-msgstr ""
+msgstr "Nifer o fframiau (0 i 100)"
 
 #: modules/video_filter/antiflicker.c:52
 msgid "Softening value"
@@ -21888,7 +21926,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:133
 msgid "Device type"
-msgstr ""
+msgstr "Math y dyfais"
 
 #: modules/video_filter/atmo/atmo.cpp:134
 msgid ""
@@ -21910,7 +21948,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:155
 msgid "DMX"
-msgstr ""
+msgstr "DMX"
 
 #: modules/video_filter/atmo/atmo.cpp:156
 msgid "MoMoLight"
@@ -22007,7 +22045,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:206
 msgid "Pause-Red"
-msgstr ""
+msgstr "Oedi-Coch"
 
 #: modules/video_filter/atmo/atmo.cpp:207
 msgid "Red component of the pause color"
@@ -22015,7 +22053,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:208
 msgid "Pause-Green"
-msgstr ""
+msgstr "Oedi-Gwyrdd"
 
 #: modules/video_filter/atmo/atmo.cpp:209
 msgid "Green component of the pause color"
@@ -22023,7 +22061,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:210
 msgid "Pause-Blue"
-msgstr ""
+msgstr "Oedi-Glas"
 
 #: modules/video_filter/atmo/atmo.cpp:211
 msgid "Blue component of the pause color"
@@ -22040,7 +22078,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:216
 msgid "End-Red"
-msgstr ""
+msgstr "Diwedd-Coch"
 
 #: modules/video_filter/atmo/atmo.cpp:217
 msgid "Red component of the shutdown color"
@@ -22048,7 +22086,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:218
 msgid "End-Green"
-msgstr ""
+msgstr "Diwedd-Gwyrdd"
 
 #: modules/video_filter/atmo/atmo.cpp:219
 msgid "Green component of the shutdown color"
@@ -22056,7 +22094,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:220
 msgid "End-Blue"
-msgstr ""
+msgstr "Diwedd-Glas"
 
 #: modules/video_filter/atmo/atmo.cpp:221
 msgid "Blue component of the shutdown color"
@@ -22117,7 +22155,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:243
 msgid "White Red"
-msgstr ""
+msgstr "Coch Gwyn"
 
 #: modules/video_filter/atmo/atmo.cpp:244
 msgid "Red value of a pure white on your LED stripes."
@@ -22125,7 +22163,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:246
 msgid "White Green"
-msgstr ""
+msgstr "Gwyrdd Gwyn"
 
 #: modules/video_filter/atmo/atmo.cpp:247
 msgid "Green value of a pure white on your LED stripes."
@@ -22133,7 +22171,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:249
 msgid "White Blue"
-msgstr ""
+msgstr "Glas Gwyn"
 
 #: modules/video_filter/atmo/atmo.cpp:250
 msgid "Blue value of a pure white on your LED stripes."
@@ -22231,11 +22269,11 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:294
 msgid "Percent"
-msgstr ""
+msgstr "Canran"
 
 #: modules/video_filter/atmo/atmo.cpp:297
 msgid "Frame delay (ms)"
-msgstr ""
+msgstr "Oediad fframiau (me)"
 
 #: modules/video_filter/atmo/atmo.cpp:298
 msgid ""
@@ -22245,23 +22283,23 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:303
 msgid "Channel 0: summary"
-msgstr ""
+msgstr "Sianel 0: crynodeb"
 
 #: modules/video_filter/atmo/atmo.cpp:304
 msgid "Channel 1: left"
-msgstr ""
+msgstr "Sianel 1: chwith"
 
 #: modules/video_filter/atmo/atmo.cpp:305
 msgid "Channel 2: right"
-msgstr ""
+msgstr "Sianel 2: de"
 
 #: modules/video_filter/atmo/atmo.cpp:306
 msgid "Channel 3: top"
-msgstr ""
+msgstr "Sianel 3: top"
 
 #: modules/video_filter/atmo/atmo.cpp:307
 msgid "Channel 4: bottom"
-msgstr ""
+msgstr "Sianel 4: gwaelod"
 
 #: modules/video_filter/atmo/atmo.cpp:309
 msgid "Maps the hardware channel X to logical zone Y to fix wrong wiring :-)"
@@ -22269,27 +22307,27 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:320
 msgid "disabled"
-msgstr ""
+msgstr "analluogwyd"
 
 #: modules/video_filter/atmo/atmo.cpp:321
 msgid "Zone 4:summary"
-msgstr ""
+msgstr "Parth 4: crynodeb"
 
 #: modules/video_filter/atmo/atmo.cpp:322
 msgid "Zone 3:left"
-msgstr ""
+msgstr "Parth 3: chwith"
 
 #: modules/video_filter/atmo/atmo.cpp:323
 msgid "Zone 1:right"
-msgstr ""
+msgstr "Parth 1: de"
 
 #: modules/video_filter/atmo/atmo.cpp:324
 msgid "Zone 0:top"
-msgstr ""
+msgstr "Parth 0: top"
 
 #: modules/video_filter/atmo/atmo.cpp:325
 msgid "Zone 2:bottom"
-msgstr ""
+msgstr "Parth 2: gwaelod"
 
 #: modules/video_filter/atmo/atmo.cpp:327
 msgid "Channel / Zone Assignment"
@@ -22307,23 +22345,23 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:338
 msgid "Zone 0: Top gradient"
-msgstr ""
+msgstr "Parth 0: Graddiant y top"
 
 #: modules/video_filter/atmo/atmo.cpp:339
 msgid "Zone 1: Right gradient"
-msgstr ""
+msgstr "Parth 1: Graddiant y dde"
 
 #: modules/video_filter/atmo/atmo.cpp:340
 msgid "Zone 2: Bottom gradient"
-msgstr ""
+msgstr "Parth 2: Graddiant y gwaelod"
 
 #: modules/video_filter/atmo/atmo.cpp:341
 msgid "Zone 3: Left gradient"
-msgstr ""
+msgstr "Parth 3: Graddiant y chwith"
 
 #: modules/video_filter/atmo/atmo.cpp:342
 msgid "Zone 4: Summary gradient"
-msgstr ""
+msgstr "Parth 4: Graddiant y crynodeb"
 
 #: modules/video_filter/atmo/atmo.cpp:343
 msgid ""
@@ -22352,13 +22390,13 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:364
 msgid "AtmoLight Filter"
-msgstr ""
+msgstr "Hidlydd AtmoLight"
 
 #: modules/video_filter/atmo/atmo.cpp:366
 #: modules/gui/qt4/ui/video_effects.h:1372
 #: modules/gui/qt4/ui/video_effects.h:1381
 msgid "AtmoLight"
-msgstr ""
+msgstr "AtmoLight"
 
 #: modules/video_filter/atmo/atmo.cpp:373
 msgid "Choose Devicetype and Connection"
@@ -22374,15 +22412,15 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:425
 msgid "DMX options"
-msgstr ""
+msgstr "Dewisiadau DMX"
 
 #: modules/video_filter/atmo/atmo.cpp:431
 msgid "MoMoLight options"
-msgstr ""
+msgstr "Dewisiadau MoMoLight"
 
 #: modules/video_filter/atmo/atmo.cpp:438
 msgid "fnordlicht options"
-msgstr ""
+msgstr "Dewisiadau fnordlicht"
 
 #: modules/video_filter/atmo/atmo.cpp:480
 msgid "Zone Layout for the build-in Atmo"
@@ -22402,7 +22440,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:588
 msgid "Change gradients"
-msgstr ""
+msgstr "Newid graddiannau"
 
 #: modules/video_filter/audiobargraph_v.c:47
 msgid "Value of the audio channels levels"
@@ -22707,7 +22745,7 @@ msgstr "Ffiltro fideo gan ddefnyddio cadwyn o fodiwlau ffiltro fideo."
 
 #: modules/video_filter/clone.c:39 modules/gui/qt4/ui/video_effects.h:1389
 msgid "Number of clones"
-msgstr "Nifer o clonau"
+msgstr "Nifer o glonau"
 
 #: modules/video_filter/clone.c:40
 msgid "Number of video windows in which to clone the video."
@@ -22723,7 +22761,7 @@ msgid ""
 "separated list of modules."
 msgstr ""
 "Mae'n bosib defnyddio modiwlau allbwn fideo penodol ar gyfer y clonau. "
-"Defnyddia rhestr o fodiwlau wedi'u gwahanu gyda choma."
+"Rhowch restr o fodiwlau wedi'u gwahanu gyda choma."
 
 #: modules/video_filter/clone.c:47
 msgid "Duplicate your video to multiple windows and/or video output modules"
@@ -22947,7 +22985,7 @@ msgstr ""
 
 #: modules/video_filter/deinterlace/algo_phosphor.h:45
 msgid "Latest"
-msgstr ""
+msgstr "Diweddaraf"
 
 #: modules/video_filter/deinterlace/algo_phosphor.h:46
 msgid "AltLine"
@@ -22959,19 +22997,19 @@ msgstr ""
 
 #: modules/video_filter/deinterlace/algo_phosphor.h:56
 msgid "Low"
-msgstr ""
+msgstr "Isel"
 
 #: modules/video_filter/deinterlace/algo_phosphor.h:57
 msgid "Medium"
-msgstr ""
+msgstr "Canolig"
 
 #: modules/video_filter/deinterlace/algo_phosphor.h:58
 msgid "High"
-msgstr ""
+msgstr "Uchel"
 
 #: modules/video_filter/deinterlace/deinterlace.c:54
 msgid "Deinterlace method to use for local playback."
-msgstr ""
+msgstr "Dull datgydblethu i'w defnyddio ar gyfer chwarae yn lleol"
 
 #: modules/video_filter/deinterlace/deinterlace.c:56
 msgid "Streaming deinterlace mode"
@@ -22979,7 +23017,7 @@ msgstr ""
 
 #: modules/video_filter/deinterlace/deinterlace.c:57
 msgid "Deinterlace method to use for streaming."
-msgstr ""
+msgstr "Dull datgydblethu i'w defnyddio ar gyfer ffrydio"
 
 #: modules/video_filter/deinterlace/deinterlace.c:66
 msgid "Phosphor chroma mode for 4:2:0 input"
@@ -23016,11 +23054,11 @@ msgstr ""
 
 #: modules/video_filter/deinterlace/deinterlace.c:97
 msgid "Deinterlacing video filter"
-msgstr ""
+msgstr "Hidlydd datgydblethiad fideo"
 
 #: modules/video_filter/dynamicoverlay/dynamicoverlay.c:61
 msgid "Input FIFO"
-msgstr ""
+msgstr "FIFO mewnbwn"
 
 #: modules/video_filter/dynamicoverlay/dynamicoverlay.c:62
 msgid "FIFO which will be read for commands"
@@ -23028,7 +23066,7 @@ msgstr ""
 
 #: modules/video_filter/dynamicoverlay/dynamicoverlay.c:64
 msgid "Output FIFO"
-msgstr ""
+msgstr "FIFO allbwn"
 
 #: modules/video_filter/dynamicoverlay/dynamicoverlay.c:65
 msgid "FIFO which will be written to for responses"
@@ -23108,7 +23146,7 @@ msgstr ""
 
 #: modules/video_filter/gradfun.c:52
 msgid "Strength"
-msgstr ""
+msgstr "Cryfder"
 
 #: modules/video_filter/gradfun.c:53
 msgid "Strength used to modify the value of a pixel"
@@ -23269,7 +23307,7 @@ msgstr ""
 
 #: modules/video_filter/logo.c:64
 msgid "Opacity of the logo"
-msgstr ""
+msgstr "Anhryloywder y logo"
 
 #: modules/video_filter/logo.c:65
 msgid ""
@@ -23278,7 +23316,7 @@ msgstr ""
 
 #: modules/video_filter/logo.c:67
 msgid "Logo position"
-msgstr ""
+msgstr "Safle'r logo"
 
 #: modules/video_filter/logo.c:69
 msgid ""
@@ -23296,7 +23334,7 @@ msgstr ""
 
 #: modules/video_filter/logo.c:93
 msgid "Logo overlay"
-msgstr ""
+msgstr "Troslunio logo"
 
 #: modules/video_filter/logo.c:111
 msgid "Logo video filter"
@@ -23308,7 +23346,7 @@ msgstr ""
 
 #: modules/video_filter/magnify.c:48
 msgid "Magnify"
-msgstr ""
+msgstr "Chwyddo"
 
 #: modules/video_filter/marq.c:88
 msgid ""
@@ -23398,7 +23436,7 @@ msgstr ""
 
 #: modules/video_filter/mirror.c:69
 msgid "Direction"
-msgstr ""
+msgstr "Cyfeiriad"
 
 #: modules/video_filter/mirror.c:70
 msgid "Direction of the mirroring"
@@ -23506,7 +23544,7 @@ msgstr ""
 #: modules/video_filter/mosaic.c:129 modules/video_filter/panoramix.c:57
 #: modules/video_filter/wall.c:43
 msgid "Number of columns"
-msgstr ""
+msgstr "Nifer o golofnau"
 
 #: modules/video_filter/mosaic.c:131
 msgid ""
@@ -23718,7 +23756,7 @@ msgstr ""
 
 #: modules/video_filter/osdmenu.c:56
 msgid "Menu position"
-msgstr ""
+msgstr "Safle'r dewislen"
 
 #: modules/video_filter/osdmenu.c:58
 msgid ""
@@ -24018,11 +24056,11 @@ msgstr ""
 
 #: modules/video_filter/postproc.c:231
 msgid "Lowest"
-msgstr ""
+msgstr "Isaf"
 
 #: modules/video_filter/postproc.c:234
 msgid "Highest"
-msgstr ""
+msgstr "Uchaf"
 
 #: modules/video_filter/psychedelic.c:54
 msgid "Psychedelic video filter"
@@ -24052,7 +24090,7 @@ msgstr ""
 
 #: modules/video_filter/puzzle.c:57
 msgid "Puzzle"
-msgstr ""
+msgstr "Pos"
 
 #: modules/video_filter/remoteosd.c:70
 msgid "VNC Host"
@@ -24150,7 +24188,7 @@ msgstr "Cylchdroi"
 
 #: modules/video_filter/rss.c:129
 msgid "Feed URLs"
-msgstr ""
+msgstr "URLau ffrydiau"
 
 #: modules/video_filter/rss.c:130
 msgid "RSS/Atom feed '|' (pipe) separated URLs."
@@ -24184,7 +24222,7 @@ msgstr ""
 
 #: modules/video_filter/rss.c:139
 msgid "Feed images"
-msgstr ""
+msgstr "Delweddau ffrydiau"
 
 #: modules/video_filter/rss.c:140
 msgid "Display feed images if available."
@@ -24223,7 +24261,7 @@ msgstr ""
 
 #: modules/video_filter/rss.c:184
 msgid "Don't show"
-msgstr ""
+msgstr "Peidio dangos"
 
 #: modules/video_filter/rss.c:184
 msgid "Always visible"
@@ -24243,7 +24281,7 @@ msgstr ""
 
 #: modules/video_filter/scene.c:57
 msgid "Image format"
-msgstr ""
+msgstr "Ffurf delwedd"
 
 #: modules/video_filter/scene.c:58
 msgid "Format of the output images (png, jpeg, ...)."
@@ -24251,7 +24289,7 @@ msgstr ""
 
 #: modules/video_filter/scene.c:60
 msgid "Image width"
-msgstr ""
+msgstr "Lled delwedd"
 
 #: modules/video_filter/scene.c:61
 msgid ""
@@ -24261,7 +24299,7 @@ msgstr ""
 
 #: modules/video_filter/scene.c:65
 msgid "Image height"
-msgstr ""
+msgstr "Uchder delwedd"
 
 #: modules/video_filter/scene.c:66
 msgid ""
@@ -24271,7 +24309,7 @@ msgstr ""
 
 #: modules/video_filter/scene.c:70
 msgid "Recording ratio"
-msgstr ""
+msgstr "Cymhareb recordio"
 
 #: modules/video_filter/scene.c:71
 msgid ""
@@ -24469,7 +24507,7 @@ msgstr ""
 
 #: modules/video_filter/swscale.c:58
 msgid "Experimental"
-msgstr ""
+msgstr "Arbrofol"
 
 #: modules/video_filter/swscale.c:58
 msgid "Nearest neighbour (bad quality)"
@@ -24581,7 +24619,7 @@ msgstr ""
 
 #: modules/video_output/directfb.c:50
 msgid "DirectFB video output http://www.directfb.org/"
-msgstr ""
+msgstr "Allbwn fideo DirectFB http://www.directfb.org/"
 
 #: modules/video_output/drawable.c:34
 msgid "Window handle (HWND)"
@@ -24757,11 +24795,11 @@ msgstr ""
 
 #: modules/video_output/msw/direct2d.c:63
 msgid "Direct2D video output"
-msgstr ""
+msgstr "Allbwn fideo Direct 2D"
 
 #: modules/video_output/msw/direct3d.c:56
 msgid "Enable desktop mode "
-msgstr ""
+msgstr "Galluogi modd bwrdd gwaith"
 
 #: modules/video_output/msw/direct3d.c:58
 msgid "The desktop mode allows you to display the video on the desktop."
@@ -24781,7 +24819,7 @@ msgstr ""
 
 #: modules/video_output/msw/direct3d.c:68
 msgid "Direct3D video output"
-msgstr ""
+msgstr "Allbwn fideo Direct3D"
 
 #: modules/video_output/msw/directx.c:61 modules/gui/qt4/ui/sprefs_video.h:342
 msgid "Use hardware YUV->RGB conversions"
@@ -24834,7 +24872,7 @@ msgstr ""
 
 #: modules/video_output/msw/directx.c:97
 msgid "DirectX (DirectDraw) video output"
-msgstr ""
+msgstr "Allbwn fideo DirectX (DirectDraw)"
 
 #: modules/video_output/msw/directx.c:208
 msgid "Wallpaper"
@@ -25020,7 +25058,7 @@ msgstr ""
 
 #: modules/video_output/yuv.c:41
 msgid "device, fifo or filename"
-msgstr ""
+msgstr "dyfais, fifo neu enw ffeil"
 
 #: modules/video_output/yuv.c:42
 msgid "device, fifo or filename to write yuv frames too."
@@ -25086,7 +25124,7 @@ msgstr ""
 
 #: modules/visualization/projectm.cpp:49
 msgid "projectM configuration file"
-msgstr ""
+msgstr "Ffeil ffurfweddiad projectM"
 
 #: modules/visualization/projectm.cpp:50
 msgid "File that will be used to configure the projectM module."
@@ -25150,7 +25188,7 @@ msgstr ""
 
 #: modules/visualization/projectm.cpp:86
 msgid "projectM"
-msgstr ""
+msgstr "projectM"
 
 #: modules/visualization/projectm.cpp:87
 msgid "libprojectM effect"
@@ -25158,7 +25196,7 @@ msgstr ""
 
 #: modules/visualization/visual/visual.c:42
 msgid "Effects list"
-msgstr ""
+msgstr "Rhestr effeithiau"
 
 #: modules/visualization/visual/visual.c:44
 msgid ""
@@ -25268,11 +25306,11 @@ msgstr ""
 
 #: share/lua/http/dialogs/batch_window.html:28
 msgid "#paste your VLM commands here"
-msgstr ""
+msgstr "#gludwch eich gorchmynion VLC yma"
 
 #: share/lua/http/dialogs/batch_window.html:30
 msgid "#separate commands with a new line or a semi-colon"
-msgstr ""
+msgstr "#gwahanwch orchmynion gyda llinell newydd neu hanner colon"
 
 #: share/lua/http/dialogs/browse_window.html:41
 #: share/lua/http/mobile_browse.html:48
@@ -25365,7 +25403,7 @@ msgstr "Enw Ffeil"
 
 #: share/lua/http/dialogs/equalizer_window.html:49
 msgid "Preamp:"
-msgstr "Rheolydd ton:"
+msgstr "Rhagfwyhadur:"
 
 #: share/lua/http/dialogs/mosaic_window.html:96
 msgid "Rows:"
@@ -25492,7 +25530,7 @@ msgstr "Wyt yn sicr dy fod eisiau creu'r ffrwd?"
 
 #: share/lua/http/mobile_equalizer.html:62
 msgid "Preamp: "
-msgstr "Rhagfwyhadydd:"
+msgstr "Rhagfwyhadur:"
 
 #: modules/gui/qt4/ui/about.h:185
 msgid "Authors"
@@ -25568,11 +25606,11 @@ msgstr "Amser Dechrau"
 
 #: modules/gui/qt4/ui/open.h:256
 msgid "Edit Options"
-msgstr "Golygu Dewisiadau"
+msgstr "Dewisiadau Golygu"
 
 #: modules/gui/qt4/ui/open.h:257
 msgid "Extra media"
-msgstr "Cyfryngau ychwanegol"
+msgstr "Cyfrwng ychwanegol"
 
 #: modules/gui/qt4/ui/open.h:259
 msgid "Complete MRL for VLC internal"
@@ -25592,15 +25630,15 @@ msgstr "AA'A':mm'm':ee'e'.zzz"
 
 #: modules/gui/qt4/ui/open.h:269
 msgid "Play another media synchronously (extra audio file, ...)"
-msgstr "Chwarae cyfrwng arall yng nghysain (ffeil sain ychwanegol, ...)"
+msgstr "Chwarae cyfrwng arall mewn cydamser (e.e. ffeil sain ychwanegol)"
 
 #: modules/gui/qt4/ui/open_capture.h:98
 msgid "Capture mode"
-msgstr "Modd cipio"
+msgstr "Dull cipio"
 
 #: modules/gui/qt4/ui/open_capture.h:100
 msgid "Select the capture device type"
-msgstr "Dewis y dyfais cipio"
+msgstr "Dewis y dull cipio"
 
 #: modules/gui/qt4/ui/open_capture.h:102
 msgid "Device Selection"
@@ -25640,7 +25678,7 @@ msgstr "Dyfais disg"
 
 #: modules/gui/qt4/ui/open_disk.h:309
 msgid "Starting Position"
-msgstr "Lleoliad Dechrau"
+msgstr "Man Dechrau"
 
 #: modules/gui/qt4/ui/open_disk.h:312
 msgid "Audio and Subtitles"
@@ -25656,7 +25694,7 @@ msgstr "Dewis Ffeil"
 
 #: modules/gui/qt4/ui/open_file.h:167
 msgid "You can select local files with the following list and buttons."
-msgstr "Gallet ddewis ffeiliau lleol gyda'r rhestr a'r botymau canlynol."
+msgstr "Mae'n bosib dewis ffeiliau lleol gyda'r rhestr a'r botymau yma."
 
 #: modules/gui/qt4/ui/open_file.h:168
 msgid "Add..."
@@ -25680,7 +25718,7 @@ msgstr "Protocol Rhwydwaith"
 
 #: modules/gui/qt4/ui/open_net.h:93
 msgid "Please enter a network URL:"
-msgstr "Rhowch URL rhwydwaith:"
+msgstr "URL y rhwydwaith:"
 
 #: modules/gui/qt4/ui/open_net.h:94
 msgid ""
@@ -25832,11 +25870,11 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sout.h:333
 msgid "Display locally"
-msgstr "Arddangos yn lleol"
+msgstr "Chwarae yn lleol"
 
 #: modules/gui/qt4/ui/sout.h:336
 msgid "Activate Transcoding"
-msgstr ""
+msgstr "Galluogi Trawsgodio"
 
 #: modules/gui/qt4/ui/sout.h:339
 msgid "Destination Setup"
@@ -25896,7 +25934,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_audio.h:448
 msgid "Preferred audio language:"
-msgstr ""
+msgstr "Iaith sain i'w ddefnyddio:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:449
 msgid "Password:"
@@ -26084,11 +26122,11 @@ msgstr "Iaith Isdeitlau"
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:276
 msgid "Preferred subtitles language"
-msgstr ""
+msgstr "Iaith isdeitlau a hoffwyd"
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:277
 msgid "Default encoding"
-msgstr ""
+msgstr "Amgodiad rhagosodedig"
 
 #: modules/gui/qt4/ui/sprefs_subtitles.h:278
 msgid "Subtitles effects"
@@ -26116,7 +26154,7 @@ msgstr "Ychwanegu cefndir"
 #: modules/gui/qt4/ui/video_effects.h:1367
 #: modules/gui/qt4/ui/video_effects.h:1368
 msgid " px"
-msgstr ""
+msgstr " px"
 
 #: modules/gui/qt4/ui/sprefs_video.h:341
 msgid "Accelerated video output (Overlay)"
@@ -26136,7 +26174,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_video.h:349
 msgid "Deinterlacing"
-msgstr ""
+msgstr "Datgydblethiad"
 
 #: modules/gui/qt4/ui/sprefs_video.h:350
 msgid "Force Aspect Ratio"
@@ -26221,7 +26259,7 @@ msgstr ">HHHHHH;#"
 
 #: modules/gui/qt4/ui/video_effects.h:1325
 msgid "Negate colors"
-msgstr ""
+msgstr "Negatifeiddio lliwiau"
 
 #: modules/gui/qt4/ui/video_effects.h:1338
 msgid "Colors"
@@ -26290,7 +26328,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/video_effects.h:1384
 msgid "Motion detect"
-msgstr ""
+msgstr "Canfod symudiad"
 
 #: modules/gui/qt4/ui/video_effects.h:1386
 msgid "Anti-Flickering"
@@ -26354,7 +26392,7 @@ msgstr "AAAA; "
 
 #: modules/gui/qt4/ui/vlm.h:299
 msgid "Loop"
-msgstr "Ail-chwarae mewn cylch"
+msgstr "Ailchwarae mewn cylch"
 
 #: modules/gui/qt4/ui/vlm.h:303
 msgid "Media Manager List"
