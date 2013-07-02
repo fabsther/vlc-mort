@@ -278,10 +278,15 @@ static VLCOpen *_o_sharedMainInstance = nil;
 
 - (void)setMRL:(NSString *)newMRL
 {
+    if (!newMRL)
+        newMRL = @"";
+    if (o_mrl)
+        [o_mrl release];
+
     [o_mrl release];
     o_mrl = newMRL;
     [o_mrl retain];
-    [o_mrl_fld setStringValue: newMRL];
+    [o_mrl_fld performSelectorOnMainThread:@selector(setStringValue:) withObject:o_mrl waitUntilDone:NO];
     if ([o_mrl length] > 0)
         [o_btn_ok setEnabled: YES];
     else
