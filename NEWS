@@ -1,6 +1,20 @@
 Changes between 2.0.7 and 2.0.8:
 --------------------------------
 
+Access:
+ * Fix ISDB-S tuning
+ * FIx crash in QTsound
+
+Demux:
+ * Fix use after free in sgimb
+
+MacOSX:
+ * Fix interface crashes
+
+Translations:
+ * update Welsh translation
+ * New Kannada translation
+
 
 Changes between 2.0.6 and 2.0.7:
 --------------------------------
