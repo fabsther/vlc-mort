@@ -152,6 +152,12 @@ void matroska_segment_c::LoadCues( KaxCues *cues )
                     KaxCueTime &ctime = *(KaxCueTime*)el;
                     try
                     {
+                        if( unlikely( ctime.GetSize() >= SIZE_MAX ) )
+                        {
+                            msg_Err( &sys.demuxer, "CueTime size too big");
+                            b_invalid_cue = true;
+                            break;
+                        }
                         ctime.ReadData( es.I_O() );
                     }
                     catch(...)
@@ -169,10 +175,17 @@ void matroska_segment_c::LoadCues( KaxCues *cues )
                     {
                         while( ( el = ep->Get() ) != NULL )
                         {
+                            if( unlikely( el->GetSize() >= SIZE_MAX ) )
+                            {
+                                ep->Up();
+                                msg_Err( &sys.demuxer, "Error %s too big, aborting", typeid(*el).name() );
+                                b_invalid_cue = true;
+                                break;
+                            }
+
                             if( MKV_IS_ID( el, KaxCueTrack ) )
                             {
                                 KaxCueTrack &ctrack = *(KaxCueTrack*)el;
-
                                 ctrack.ReadData( es.I_O() );
                                 idx.i_track = uint16( ctrack );
                             }
@@ -279,6 +292,14 @@ void matroska_segment_c::ParseSimpleTags( KaxTagSimple *tag )
     {
         while( ( el = ep->Get() ) != NULL )
         {
+            if( unlikely( el->GetSize() >= SIZE_MAX ) )
+            {
+                msg_Err( &sys.demuxer, "Error %s too big ignoring the tag", typeid(*el).name() );
+                delete ep;
+                free(k);
+                free(v);
+                return ;
+            }
             if( MKV_IS_ID( el, KaxTagName ) )
             {
                 KaxTagName &key = *(KaxTagName*)el;
@@ -1563,6 +1584,12 @@ int matroska_segment_c::BlockGet( KaxBlock * & pp_block, KaxSimpleBlock * & pp_s
                     }
                     break;
                 case 2:
+                    if( unlikely( el->GetSize() >= SIZE_MAX ) )
+                    {
+                        msg_Err( &sys.demuxer, "Error while reading %s... upping level", typeid(*el).name());
+                        ep->Up();
+                        break;
+                    }
                     if( MKV_IS_ID( el, KaxClusterTimecode ) )
                     {
                         KaxClusterTimecode &ctc = *(KaxClusterTimecode*)el;
@@ -1594,6 +1621,12 @@ int matroska_segment_c::BlockGet( KaxBlock * & pp_block, KaxSimpleBlock * & pp_s
                     }
                     break;
                 case 3:
+                    if( unlikely( el->GetSize() >= SIZE_MAX ) )
+                    {
+                        msg_Err( &sys.demuxer, "Error while reading %s... upping level", typeid(*el).name());
+                        ep->Up();
+                        break;
+                    }
                     if( MKV_IS_ID( el, KaxBlock ) )
                     {
                         pp_block = (KaxBlock*)el;

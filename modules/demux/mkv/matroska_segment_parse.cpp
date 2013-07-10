@@ -70,6 +70,11 @@ void matroska_segment_c::ParseSeekHead( KaxSeekHead *seekhead )
             {
                 while( ( l = ep->Get() ) != NULL )
                 {
+                    if( unlikely( l->GetSize() >= SIZE_MAX ) )
+                    {
+                        msg_Err( &sys.demuxer,"%s too big... skipping it",  typeid(*l).name() );
+                        continue;
+                    }
                     if( MKV_IS_ID( l, KaxSeekID ) )
                     {
                         KaxSeekID &sid = *(KaxSeekID*)l;
@@ -675,6 +680,11 @@ void matroska_segment_c::ParseTracks( KaxTracks *tracks )
     int i_upper_level = 0;
 
     /* Master elements */
+    if( unlikely( tracks->GetSize() >= SIZE_MAX ) )
+    {
+        msg_Err( &sys.demuxer, "Track too big, aborting" );
+        return;
+    }
     try
     {
         tracks->Read( es, EBML_CONTEXT(tracks), i_upper_level, el, true );
@@ -711,6 +721,11 @@ void matroska_segment_c::ParseInfo( KaxInfo *info )
 
     /* Master elements */
     m = static_cast<EbmlMaster *>(info);
+    if( unlikely( m->GetSize() >= SIZE_MAX ) )
+    {
+        msg_Err( &sys.demuxer, "Info too big, aborting" );
+        return;
+    }
     try
     {
         m->Read( es, EBML_CONTEXT(info), i_upper_level, el, true );
@@ -834,6 +849,12 @@ void matroska_segment_c::ParseInfo( KaxInfo *info )
             KaxChapterTranslate *p_trans = static_cast<KaxChapterTranslate*>( l );
             try
             {
+                if( unlikely( p_trans->GetSize() >= SIZE_MAX ) )
+                {
+                    msg_Err( &sys.demuxer, "Chapter translate too big, aborting" );
+                    continue;
+                }
+
                 p_trans->Read( es, EBML_CONTEXT(p_trans), i_upper_level, el, true );
                 chapter_translation_c *p_translate = new chapter_translation_c();
 
@@ -1024,6 +1045,11 @@ void matroska_segment_c::ParseAttachments( KaxAttachments *attachments )
     EbmlElement *el;
     int i_upper_level = 0;
 
+    if( unlikely( attachments->GetSize() >= SIZE_MAX ) )
+    {
+        msg_Err( &sys.demuxer, "Attachments too big, aborting" );
+        return;
+    }
     try
     {
         attachments->Read( es, EBML_CONTEXT(attachments), i_upper_level, el, true );
@@ -1079,6 +1105,11 @@ void matroska_segment_c::ParseChapters( KaxChapters *chapters )
     int i_upper_level = 0;
 
     /* Master elements */
+    if( unlikely( chapters->GetSize() >= SIZE_MAX ) )
+    {
+        msg_Err( &sys.demuxer, "Chapters too big, aborting" );
+        return;
+    }
     try
     {
         chapters->Read( es, EBML_CONTEXT(chapters), i_upper_level, el, true );
@@ -1148,6 +1179,11 @@ void matroska_segment_c::ParseCluster( bool b_update_start_time )
 
     /* Master elements */
     m = static_cast<EbmlMaster *>( cluster );
+    if( unlikely( m->GetSize() >= SIZE_MAX ) )
+    {
+        msg_Err( &sys.demuxer, "Cluster too big, aborting" );
+        return;
+    }
     try
     {
         m->Read( es, EBML_CONTEXT(cluster), i_upper_level, el, true );
