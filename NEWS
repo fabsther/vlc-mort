@@ -8,8 +8,9 @@ Access:
 Demux:
  * Fix use after free in sgimb
 
-MacOSX:
+Mac OS X:
  * Fix interface crashes
+ * Fix autostart playback option
 
 Translations:
  * update Welsh translation
