@@ -57,10 +57,19 @@ TimeTooltip::TimeTooltip( QWidget *parent ) :
     setText( "00:00:00", "" );
 
     mInitialized = false;
+
+    // By default the widget is unintialized and should not be displayed
+    resize( 0, 0 );
 }
 
 void TimeTooltip::buildPath()
 {
+    if( mDisplayedText.isEmpty() )
+    {
+        resize( 0, 0 );
+        return;
+    }
+
     QFontMetrics metrics( mFont );
 
     // Get the bounding box required to print the text and add some padding
@@ -125,7 +134,7 @@ void TimeTooltip::setText( const QString& time, const QString& text )
 
 void TimeTooltip::show()
 {
-    QWidget::setVisible( mInitialized );
+    setVisible( true );
 #ifdef Q_WS_PM
     // Bring a tooltip on the top
     // Without this, tooltip does not appear on fullscreen
