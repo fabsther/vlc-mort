@@ -56,8 +56,6 @@ TimeTooltip::TimeTooltip( QWidget *parent ) :
     // Set default text
     setText( "00:00:00", "" );
 
-    mInitialized = false;
-
     // By default the widget is unintialized and should not be displayed
     resize( 0, 0 );
 }
@@ -119,7 +117,6 @@ void TimeTooltip::buildPath()
 
 void TimeTooltip::setText( const QString& time, const QString& text )
 {
-    mInitialized = true;
     mDisplayedText = time;
     if ( !text.isEmpty() )
         mDisplayedText.append( " - " ).append( text );
@@ -130,18 +127,13 @@ void TimeTooltip::setText( const QString& time, const QString& text )
     mTime = time;
     mText = text;
     update();
+    raise();
 }
 
 void TimeTooltip::show()
 {
     setVisible( true );
-#ifdef Q_WS_PM
-    // Bring a tooltip on the top
-    // Without this, tooltip does not appear on fullscreen
-    // from the second fullscreen state change
-    if( mInitialized )
-        QWidget::raise();
-#endif
+    raise();
 }
 
 void TimeTooltip::paintEvent( QPaintEvent * )

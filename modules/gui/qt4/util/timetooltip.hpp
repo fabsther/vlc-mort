@@ -52,7 +52,6 @@ private:
     QPainterPath mPainterPath;
     QBitmap mMask;
     int mPreviousMetricsWidth;
-    bool mInitialized;
 };
 
 #endif // TIMETOOLTIP_H
