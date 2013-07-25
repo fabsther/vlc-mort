@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2012-12-11 15:41+0100\n"
+"POT-Creation-Date: 2013-07-25 14:21+0200\n"
 "PO-Revision-Date: 2013-03-18 11:12+0200\n"
 "Last-Translator: Julen Ruiz Aizpuru <julenx@gmail.com>\n"
 "Language-Team: librezale@librezale.org\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Virtaal 0.7.1-rc1\n"
 
-#: include/vlc_common.h:1024
+#: include/vlc_common.h:1026
 msgid ""
 "This program comes with NO WARRANTY, to the extent permitted by law.\n"
 "You may redistribute it under the terms of the GNU General Public License;\n"
@@ -78,7 +78,7 @@ msgstr "Laster-teklen ezarpenak"
 #: modules/gui/macosx/MainMenu.m:292 modules/gui/macosx/output.m:170
 #: modules/gui/macosx/playlistinfo.m:116 modules/gui/macosx/simple_prefs.m:182
 #: modules/gui/macosx/wizard.m:383
-#: modules/gui/qt4/components/info_panels.cpp:516
+#: modules/gui/qt4/components/info_panels.cpp:518
 #: modules/gui/qt4/components/simple_preferences.cpp:88
 #: modules/services_discovery/mediadirs.c:77 modules/stream_out/es.c:93
 #: modules/stream_out/transcode/transcode.c:191
@@ -136,7 +136,7 @@ msgstr "Askotariko audio-ezarpenak eta moduluak."
 #: modules/gui/macosx/MainMenu.m:305 modules/gui/macosx/output.m:160
 #: modules/gui/macosx/playlistinfo.m:106 modules/gui/macosx/simple_prefs.m:186
 #: modules/gui/macosx/simple_prefs.m:319 modules/gui/macosx/wizard.m:384
-#: modules/gui/qt4/components/info_panels.cpp:517
+#: modules/gui/qt4/components/info_panels.cpp:519
 #: modules/gui/qt4/components/simple_preferences.cpp:90
 #: modules/services_discovery/mediadirs.c:70 modules/stream_out/es.c:101
 #: modules/stream_out/transcode/transcode.c:161
@@ -204,8 +204,7 @@ msgid ""
 "input side of VLC. Use with care..."
 msgstr ""
 "Transmisio jarraituaren iragazkiak modulu bereziak dira, VLCren sarrera-"
-"aldean eragiketa aurreratuak egiteko aukera ematen dutenak. Kontuz "
-"erabili..."
+"aldean eragiketa aurreratuak egiteko aukera ematen dutenak. Kontuz erabili..."
 
 #: include/vlc_config_cat.h:108
 msgid "Demuxers"
@@ -326,8 +325,8 @@ msgid ""
 "You can also set default parameters for each packetizer."
 msgstr ""
 "Paketatzaileak oinarrizko transmisio jarraituak multiplexatu aurretik "
-"\"aurrez prozesatzeko\" erabiltzen dira. Ezarpen horrek beti paketatzaile bat "
-"behartzeko aukera ematen dizu. Ez da komeni hori egitea, ordea.\n"
+"\"aurrez prozesatzeko\" erabiltzen dira. Ezarpen horrek beti paketatzaile "
+"bat behartzeko aukera ematen dizu. Ez da komeni hori egitea, ordea.\n"
 "Paketatzaile bakoitzarentzat parametro lehenetsiak ere ezar ditzakezu."
 
 #: include/vlc_config_cat.h:159
@@ -426,7 +425,7 @@ msgid "Advanced settings"
 msgstr "Ezarpen aurreratuak"
 
 #: include/vlc_config_cat.h:198 modules/gui/macosx/open.m:112
-#: modules/gui/macosx/open.m:481 modules/gui/macosx/simple_prefs.m:259
+#: modules/gui/macosx/open.m:486 modules/gui/macosx/simple_prefs.m:259
 #: modules/gui/qt4/ui/sprefs_input.h:348
 msgid "Network"
 msgstr "Sarea"
@@ -494,8 +493,8 @@ msgid ""
 msgstr ""
 "\n"
 "Abisua: ez badaukazu interfaze grafikorako sarbiderik, ireki komando-lerroko "
-"leiho bat, joan VLC instalatuta dagoen direktoriora eta exekutatu \"vlc -I "
-"qt\"\n"
+"leiho bat, joan VLC instalatuta dagoen direktoriora eta exekutatu \"vlc -I qt"
+"\"\n"
 
 #: include/vlc_intf_strings.h:46
 msgid "Quick &Open File..."
@@ -780,38 +779,37 @@ msgstr ""
 "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; "
 "charset=utf-8\" /></head><body><h2>Ongi etorri VLC multimedia-"
 "erreproduzigailuaren laguntzara</h2><h3>Dokumentazioa</h3><p>VLCren "
-"dokumentazioa aurkituko duzu VideoLAN-en <a "
-"href=\"http://wiki.videolan.org\">wiki</a> web-orrian.</p><p>VLC multimedia-"
-"erreproduzigailua lehenengoz erabiltzen baduzu, arren irakur ezazu <br><a "
-"href=\"http://wiki.videolan.org/Documentation:VLC_for_dummies\"><em>VLC "
-"multimedia-errepdoduzigailuari buruzko "
-"sarrera</em></a>.</p><p>Erreproduzigailua erabiltzeko moduari buruzko "
-"informazioa aurkituko duzu <br>\"<a "
-"href=\"http://wiki.videolan.org/Documentation:Play_HowTo\"><em>Nola "
-"erreproduzitu fitxategiak VLC multimedia-erreproduzigailuarekin</em></a>\" "
-"dokumentuan.</p><p>Gordetzeari, bihurtzeari, transkodeketari, kodeketari, "
-"multiplexatzeari eta modu jarraituan transmititzeari buruzko zeregin guztiei "
-"dagokienez, informazio erabilgarria aurkituko duzu <a "
-"href=\"http://wiki.videolan.org/Documentation:Streaming_HowTo\">Transmisio "
-"jarraituei buruzko dokumentazioan</a>.</p><p>Terminologia ezagutzen ez "
-"baduzu, kontsulta ezazu <a href=\"http://wiki.videolan.org/Knowledge_Base"
-"\">jakintza-basea</a>.</p><p>Laster-tekla nagusiak ezagutzeko, irakurri <a "
-"href=\"http://wiki.videolan.org/Hotkeys\">laster-teklak</a> "
-"orria.</p><h3>Laguntza</h3><p>Galdera bat egin aurretik, mesedez kontsultatu "
-"<a href=\"http://www.videolan.org/support/faq.html\">Maiz egiten diren "
-"galderak</a>.</p><p>Ondoren, laguntza eskuratu (eta eskaini) ahal izango "
-"duzu <a href=\"http://forum.videolan.org\">foroetan</a>, <a "
-"href=\"http://www.videolan.org/vlc/lists.html\">posta-zerrendetan</a> edo gure "
-"IRC kanalean (<em>#videolan</em>, hemen: irc.freenode.net).</p><h3>Parte "
-"hartu proiektuan</h3><p>VideoLAN proiektuari zure denboraren zati bat eskain "
-"diezaiokezu komunitateari laguntzeko, azalak diseinatzeko, dokumentazioa "
-"itzultzeko, probak egiteko eta kodea sortzeko. Horrez gain, dirua eta "
-"materiala eman ditzakezu guri laguntzeko. Eta, noski, VLC multimedia-"
-"erreproduzigailuaren <b>publizitatea</b> egin dezakezu.</p></body></html>"
+"dokumentazioa aurkituko duzu VideoLAN-en <a href=\"http://wiki.videolan.org"
+"\">wiki</a> web-orrian.</p><p>VLC multimedia-erreproduzigailua lehenengoz "
+"erabiltzen baduzu, arren irakur ezazu <br><a href=\"http://wiki.videolan.org/"
+"Documentation:VLC_for_dummies\"><em>VLC multimedia-errepdoduzigailuari "
+"buruzko sarrera</em></a>.</p><p>Erreproduzigailua erabiltzeko moduari "
+"buruzko informazioa aurkituko duzu <br>\"<a href=\"http://wiki.videolan.org/"
+"Documentation:Play_HowTo\"><em>Nola erreproduzitu fitxategiak VLC multimedia-"
+"erreproduzigailuarekin</em></a>\" dokumentuan.</p><p>Gordetzeari, "
+"bihurtzeari, transkodeketari, kodeketari, multiplexatzeari eta modu "
+"jarraituan transmititzeari buruzko zeregin guztiei dagokienez, informazio "
+"erabilgarria aurkituko duzu <a href=\"http://wiki.videolan.org/Documentation:"
+"Streaming_HowTo\">Transmisio jarraituei buruzko dokumentazioan</a>.</"
+"p><p>Terminologia ezagutzen ez baduzu, kontsulta ezazu <a href=\"http://wiki."
+"videolan.org/Knowledge_Base\">jakintza-basea</a>.</p><p>Laster-tekla "
+"nagusiak ezagutzeko, irakurri <a href=\"http://wiki.videolan.org/Hotkeys"
+"\">laster-teklak</a> orria.</p><h3>Laguntza</h3><p>Galdera bat egin "
+"aurretik, mesedez kontsultatu <a href=\"http://www.videolan.org/support/faq."
+"html\">Maiz egiten diren galderak</a>.</p><p>Ondoren, laguntza eskuratu (eta "
+"eskaini) ahal izango duzu <a href=\"http://forum.videolan.org\">foroetan</"
+"a>, <a href=\"http://www.videolan.org/vlc/lists.html\">posta-zerrendetan</a> "
+"edo gure IRC kanalean (<em>#videolan</em>, hemen: irc.freenode.net).</"
+"p><h3>Parte hartu proiektuan</h3><p>VideoLAN proiektuari zure denboraren "
+"zati bat eskain diezaiokezu komunitateari laguntzeko, azalak diseinatzeko, "
+"dokumentazioa itzultzeko, probak egiteko eta kodea sortzeko. Horrez gain, "
+"dirua eta materiala eman ditzakezu guri laguntzeko. Eta, noski, VLC "
+"multimedia-erreproduzigailuaren <b>publizitatea</b> egin dezakezu.</p></"
+"body></html>"
 
 #: src/audio_output/common.c:85 src/audio_output/common.c:125
 #: src/input/es_out.c:934 src/libvlc-module.c:697
-#: src/video_output/postprocessing.c:98 modules/gui/macosx/MainWindow.m:2429
+#: src/video_output/postprocessing.c:98 modules/gui/macosx/MainWindow.m:2441
 #: modules/video_filter/postproc.c:228
 msgid "Disable"
 msgstr "Desgaitu"
@@ -1024,7 +1022,8 @@ msgstr "gehitu --advanced komando-lerroari aukera aurreratuak ikusteko."
 #, c-format
 msgid ""
 "%d module(s) were not displayed because they only have advanced options.\n"
-msgstr "%d modulua(k) ez d(ir)a bistaratu, aukera aurreratuak bakarrik "
+msgstr ""
+"%d modulua(k) ez d(ir)a bistaratu, aukera aurreratuak bakarrik "
 "dauzka(te)lako.\n"
 
 #: src/config/help.c:703 src/config/help.c:707
@@ -1080,9 +1079,9 @@ msgid "decoder"
 msgstr "deskodetzailea"
 
 #: src/input/decoder.c:276 src/input/decoder.c:467
-#: modules/codec/avcodec/encoder.c:237 modules/codec/avcodec/encoder.c:245
-#: modules/codec/avcodec/encoder.c:282 modules/codec/avcodec/encoder.c:772
-#: modules/codec/avcodec/encoder.c:781 modules/stream_out/es.c:363
+#: modules/codec/avcodec/encoder.c:276 modules/codec/avcodec/encoder.c:284
+#: modules/codec/avcodec/encoder.c:321 modules/codec/avcodec/encoder.c:814
+#: modules/codec/avcodec/encoder.c:823 modules/stream_out/es.c:363
 #: modules/stream_out/es.c:378
 msgid "Streaming / Transcoding failed"
 msgstr "Transmisio jarraituak / Transkodeketak huts egin du"
@@ -1227,7 +1226,7 @@ msgid "Display resolution"
 msgstr "Bistaratze-bereizmena"
 
 #: src/input/es_out.c:2999 src/input/es_out.c:3002 modules/access/imem.c:93
-#: modules/access/screen/screen.c:41 modules/access/screen/xcb.c:34
+#: modules/access/screen/screen.c:42 modules/access/screen/xcb.c:34
 #: modules/access/shm.c:40 modules/access/vdr.c:93 modules/demux/image.c:66
 msgid "Frame rate"
 msgstr "Marko-emaria"
@@ -1236,20 +1235,20 @@ msgstr "Marko-emaria"
 msgid "Decoded format"
 msgstr "Deskodetutako formatua"
 
-#: src/input/input.c:2465
+#: src/input/input.c:2467
 msgid "Your input can't be opened"
 msgstr "Zure sarrera ezin da ireki"
 
-#: src/input/input.c:2466
+#: src/input/input.c:2468
 #, c-format
 msgid "VLC is unable to open the MRL '%s'. Check the log for details."
 msgstr "VLCk ezin du ireki '%s' MRLa. Begiratu egunkaria xehetasunak jakiteko."
 
-#: src/input/input.c:2583
+#: src/input/input.c:2585
 msgid "VLC can't recognize the input's format"
 msgstr "VLCk ez du ezagutzen sarreraren formatua"
 
-#: src/input/input.c:2584
+#: src/input/input.c:2586
 #, c-format
 msgid ""
 "The format of '%s' cannot be detected. Have a look at the log for details."
@@ -1488,8 +1487,8 @@ msgid ""
 msgstr ""
 "VLCrako \"interfaze gehigarriak\" hauta ditzakezu. Atzeko planoan abiaraziko "
 "dira, interfaze lehenetsiaz gain. Erabili interfaze-moduluen bi puntuz "
-"bereizitako zerrenda bat. (ohiko balioak \"rc\" (urruneko kontrola), \"http\", "
-"\"mugimenduak\", etab. dira)"
+"bereizitako zerrenda bat. (ohiko balioak \"rc\" (urruneko kontrola), \"http"
+"\", \"mugimenduak\", etab. dira)"
 
 #: src/libvlc-module.c:222
 msgid "You can select control interfaces for VLC."
@@ -1524,8 +1523,8 @@ msgstr ""
 "moduan '+' edo '-' erabili behar luke arazketa-mezuak gaitzeko edo "
 "desgaitzeko. Motaren edo modulu-izenaren arabera izenda daitezke objektuak. "
 "Izendun objektuei aplikatzen zaizkien erregelek lehentasuna dute objektu "
-"motei aplikatzen zaizkienen aurrean. Konturatu arazketa-mezuak bistaratzeko "
-"-vvv erabili behar duzula halere."
+"motei aplikatzen zaizkienen aurrean. Konturatu arazketa-mezuak bistaratzeko -"
+"vvv erabili behar duzula halere."
 
 #: src/libvlc-module.c:239
 msgid "Be quiet"
@@ -1836,8 +1835,8 @@ msgstr ""
 "Aukera hauen bidez bideo-irteerako azpisistemaren portaera alda dezakezu. "
 "Adibidez, bideo-iragazkiak gaitu ditzakezu (gurutzelarkatuak bereiztea, "
 "irudiak doitzea, etab.). Gaitu iragazki horiek hemen, eta konfigura itzazu "
-"\"bideo-iragazkiak\" moduluen atalean. Askotariko bideo-aukera ugari ere ezar "
-"ditzakezu."
+"\"bideo-iragazkiak\" moduluen atalean. Askotariko bideo-aukera ugari ere "
+"ezar ditzakezu."
 
 #: src/libvlc-module.c:401
 msgid "Video output module"
@@ -2557,7 +2556,7 @@ msgid "Default"
 msgstr "Lehenetsia"
 
 #: src/libvlc-module.c:697 modules/gui/macosx/AudioEffects.m:66
-#: modules/gui/macosx/MainWindow.m:2427 modules/gui/macosx/wizard.m:357
+#: modules/gui/macosx/MainWindow.m:2439 modules/gui/macosx/wizard.m:357
 #: modules/gui/qt4/ui/equalizer.h:133 modules/gui/qt4/ui/vlm.h:290
 msgid "Enable"
 msgstr "Gaitu"
@@ -2626,8 +2625,8 @@ msgid ""
 "(like DVB streams for example)."
 msgstr ""
 "Aukeratu hautatu beharreko programak zerbitzu-identifikatzaileen (SID) komaz "
-"bereizitako zerrenda bat adieraziz. Hainbat programatako transmisio "
-"jarraitu bat irakurri nahi baduzu bakarrik erabili beharko zenuke aukera hau "
+"bereizitako zerrenda bat adieraziz. Hainbat programatako transmisio jarraitu "
+"bat irakurri nahi baduzu bakarrik erabili beharko zenuke aukera hau "
 "(adibidez, DVB transmisio jarraituak)."
 
 #: src/libvlc-module.c:735 modules/gui/qt4/ui/open_disk.h:313
@@ -2817,8 +2816,8 @@ msgid ""
 "{...}\""
 msgstr ""
 "Transmisio jarraitu baterako laster-marken zerrenda bat eskuz zehaztu "
-"dezakezu, forma honekin: \"{name=bookmark-name,time=optional-time-"
-"offset,bytes=optional-byte-offset},{...}\""
+"dezakezu, forma honekin: \"{name=bookmark-name,time=optional-time-offset,"
+"bytes=optional-byte-offset},{...}\""
 
 #: src/libvlc-module.c:818 modules/gui/macosx/simple_prefs.m:249
 #: modules/gui/qt4/ui/sprefs_input.h:344
@@ -3206,7 +3205,8 @@ msgstr "Tituluaren metadatuak"
 
 #: src/libvlc-module.c:1013
 msgid "Allows you to specify a \"title\" metadata for an input."
-msgstr "Sarrera baterako \"titulua\" metadatu bat zehazteko aukera ematen dizu."
+msgstr ""
+"Sarrera baterako \"titulua\" metadatu bat zehazteko aukera ematen dizu."
 
 #: src/libvlc-module.c:1015
 msgid "Author metadata"
@@ -3222,7 +3222,8 @@ msgstr "Artistaren metadatuak"
 
 #: src/libvlc-module.c:1021
 msgid "Allows you to specify an \"artist\" metadata for an input."
-msgstr "Sarrera baterako \"artista\" metadatu bat zehazteko aukera ematen dizu."
+msgstr ""
+"Sarrera baterako \"artista\" metadatu bat zehazteko aukera ematen dizu."
 
 #: src/libvlc-module.c:1023
 msgid "Genre metadata"
@@ -3230,7 +3231,8 @@ msgstr "Generoaren metadatuak"
 
 #: src/libvlc-module.c:1025
 msgid "Allows you to specify a \"genre\" metadata for an input."
-msgstr "Sarrera baterako \"generoa\" metadatu bat zehazteko aukera ematen dizu."
+msgstr ""
+"Sarrera baterako \"generoa\" metadatu bat zehazteko aukera ematen dizu."
 
 #: src/libvlc-module.c:1027
 msgid "Copyright metadata"
@@ -3238,7 +3240,8 @@ msgstr "Copyright-aren metadatuak"
 
 #: src/libvlc-module.c:1029
 msgid "Allows you to specify a \"copyright\" metadata for an input."
-msgstr "Sarrera baterako \"copyright\" metadatu bat zehazteko aukera ematen dizu."
+msgstr ""
+"Sarrera baterako \"copyright\" metadatu bat zehazteko aukera ematen dizu."
 
 #: src/libvlc-module.c:1031
 msgid "Description metadata"
@@ -3246,7 +3249,8 @@ msgstr "Azalpenaren metadatuak"
 
 #: src/libvlc-module.c:1033
 msgid "Allows you to specify a \"description\" metadata for an input."
-msgstr "Sarrera baterako \"azalpena\" metadatu bat zehazteko aukera ematen dizu."
+msgstr ""
+"Sarrera baterako \"azalpena\" metadatu bat zehazteko aukera ematen dizu."
 
 #: src/libvlc-module.c:1035
 msgid "Date metadata"
@@ -3392,8 +3396,7 @@ msgid ""
 msgstr ""
 "Aukera honen bidez, transmisio jarraituaren irteeraren instantzia bakar bat "
 "eduki dezakezu erreprodukzio-zerrendako hainbat elementutan (hau zehazten ez "
-"baduzu, automatikoki transmisio jarraituaren irteera bateratua txertatzen "
-"da)"
+"baduzu, automatikoki transmisio jarraituaren irteera bateratua txertatzen da)"
 
 #: src/libvlc-module.c:1105
 msgid "Stream output muxer caching (ms)"
@@ -3528,11 +3531,11 @@ msgid ""
 "automatically detected. You should not set this as a global option unless "
 "you really know what you are doing."
 msgstr ""
-"Demultiplexadoreak \"oinarrizko\" transmisio jarraituak bereizteko erabiltzen "
-"dira (adibidez, audioko eta bideoko transmisio jarraituak). Demultiplexadore "
-"egokia automatikoki hautatzen ez bada, ezarpen hau erabil dezakezu. Ez "
-"zenuke ezarpen hau aukera orokor gisa konfiguratu beharko benetan zer egiten "
-"ari zaren ez badakizu."
+"Demultiplexadoreak \"oinarrizko\" transmisio jarraituak bereizteko "
+"erabiltzen dira (adibidez, audioko eta bideoko transmisio jarraituak). "
+"Demultiplexadore egokia automatikoki hautatzen ez bada, ezarpen hau erabil "
+"dezakezu. Ez zenuke ezarpen hau aukera orokor gisa konfiguratu beharko "
+"benetan zer egiten ari zaren ez badakizu."
 
 #: src/libvlc-module.c:1170
 msgid "VoD server module"
@@ -3827,7 +3830,8 @@ msgstr "Errepikatu dena"
 
 #: src/libvlc-module.c:1311
 msgid "VLC will keep playing the playlist indefinitely."
-msgstr "VLCk erreprodukzio-zerrenda mugarik gabe erreproduzitzen jarraituko du."
+msgstr ""
+"VLCk erreprodukzio-zerrenda mugarik gabe erreproduzitzen jarraituko du."
 
 #: src/libvlc-module.c:1313
 msgid "Repeat current item"
@@ -4788,8 +4792,8 @@ msgid ""
 "print help for VLC and all its modules (can be combined with --advanced and "
 "--help-verbose)"
 msgstr ""
-"inprimatu VLCren eta haren moduluen laguntza (hauekin konbina daiteke: "
-"--advanced eta --help-verbose)"
+"inprimatu VLCren eta haren moduluen laguntza (hauekin konbina daiteke: --"
+"advanced eta --help-verbose)"
 
 #: src/libvlc-module.c:2785
 msgid "ask for extra verbosity when displaying help"
@@ -4802,23 +4806,21 @@ msgstr "inprimatu erabilgarri dauden moduluen zerrenda bat"
 #: src/libvlc-module.c:2789
 msgid "print a list of available modules with extra detail"
 msgstr ""
-"inprimatu erabilgarri dauden moduluen zerrenda bat xehetasun-maila "
-"handiagoaz"
+"inprimatu erabilgarri dauden moduluen zerrenda bat xehetasun-maila handiagoaz"
 
 #: src/libvlc-module.c:2791
 msgid ""
 "print help on a specific module (can be combined with --advanced and --help-"
 "verbose). Prefix the module name with = for strict matches."
 msgstr ""
-"inprimatu modulu jakin bati buruzko laguntza (hauekin konbina daiteke: "
-"--advanced eta --help-verbose) Bilaketa zehatza egiteko, jarri = moduluaren "
+"inprimatu modulu jakin bati buruzko laguntza (hauekin konbina daiteke: --"
+"advanced eta --help-verbose) Bilaketa zehatza egiteko, jarri = moduluaren "
 "izenaren aurretik."
 
 #: src/libvlc-module.c:2795
 msgid "no configuration option will be loaded nor saved to config file"
 msgstr ""
-"ez da konfigurazioko aukerarik kargatuko, ezta config fitxategian gordeko "
-"ere"
+"ez da konfigurazioko aukerarik kargatuko, ezta config fitxategian gordeko ere"
 
 #: src/libvlc-module.c:2797
 msgid "reset the current config to the default values"
@@ -5702,8 +5704,8 @@ msgid ""
 "use alsa://hw:0,1 ."
 msgstr ""
 "Erabili alsa:// audio-sarrera lehenetsia irekitzeko. Audio-sarrera bat baino "
-"gehiago badaude erabilgarri, vlc arazketa-irteeran zerrendatuko dira. "
-"hw:0,1 hautatzeko, erabili alsa://hw:0,1 ."
+"gehiago badaude erabilgarri, vlc arazketa-irteeran zerrendatuko dira. hw:0,1 "
+"hautatzeko, erabili alsa://hw:0,1 ."
 
 #: modules/access/alsa.c:95
 msgid "PCM U8"
@@ -6031,7 +6033,7 @@ msgstr "Analogikoa"
 
 #: modules/access/decklink.cpp:91 modules/access/linsys/linsys_hdsdi.c:78
 #: modules/access/linsys/linsys_sdi.c:73 modules/demux/rawvid.c:59
-#: modules/gui/qt4/dialogs/toolbar.cpp:451 modules/stream_out/switcher.c:92
+#: modules/gui/qt4/dialogs/toolbar.cpp:451 modules/stream_out/switcher.c:94
 msgid "Aspect ratio"
 msgstr "Aspektu-erlazioa"
 
@@ -6903,7 +6905,7 @@ msgstr "Fitxategi-sarrera"
 
 #: modules/access/fs.c:53 modules/access_output/file.c:73
 #: modules/audio_output/file.c:109 modules/gui/macosx/open.m:110
-#: modules/gui/macosx/open.m:473 modules/gui/macosx/output.m:142
+#: modules/gui/macosx/open.m:478 modules/gui/macosx/output.m:142
 #: modules/gui/macosx/output.m:230 modules/gui/macosx/output.m:369
 #: modules/gui/qt4/dialogs/plugins.cpp:560 modules/gui/qt4/dialogs/sout.cpp:76
 #: modules/gui/qt4/dialogs/sout.cpp:154
@@ -7012,9 +7014,9 @@ msgid ""
 "HTTP proxy to be used It must be of the form http://[user@]myproxy.mydomain:"
 "myport/ ; if empty, the http_proxy environment variable will be tried."
 msgstr ""
-"Erabili beharreko HTTP proxyak forma hau eduki behar du: "
-"http://[erabiltzailea[:pasahitza]@]nireproxya.niredomeinua:nireataka/; "
-"hutsik badago, http_proxy ingurune-aldagaiarekin saiatuko da."
+"Erabili beharreko HTTP proxyak forma hau eduki behar du: http://"
+"[erabiltzailea[:pasahitza]@]nireproxya.niredomeinua:nireataka/; hutsik "
+"badago, http_proxy ingurune-aldagaiarekin saiatuko da."
 
 #: modules/access/http.c:78
 msgid "HTTP proxy password"
@@ -7071,7 +7073,8 @@ msgstr "Erabiltzaile-agentea"
 
 #: modules/access/http.c:100
 msgid "You can use a custom User agent or use a known one"
-msgstr "Erabiltzaile-agente pertsonalizatua edo ezaguna den bat erabil dezakezu"
+msgstr ""
+"Erabiltzaile-agente pertsonalizatua edo ezaguna den bat erabil dezakezu"
 
 #: modules/access/http.c:103
 msgid "HTTP input"
@@ -7301,8 +7304,8 @@ msgstr "Audio-konfigurazioa"
 #: modules/access/linsys/linsys_sdi.c:78
 msgid "Allows you to set audio configuration (id=group,pair:id=group,pair...)."
 msgstr ""
-"Audio-konfigurazioa ezartzea baimentzen dizu "
-"(id=taldea,parea:id=taldea,parea...)."
+"Audio-konfigurazioa ezartzea baimentzen dizu (id=taldea,parea:id=taldea,"
+"parea...)."
 
 #: modules/access/linsys/linsys_hdsdi.c:89
 msgid "HD-SDI Input"
@@ -7368,9 +7371,9 @@ msgid ""
 "mydomain:myport/ ; if empty, the http_proxy environment variable will be "
 "tried."
 msgstr ""
-"Erabili beharreko HTTP proxyak forma hau eduki behar du: "
-"http://[erabiltzailea[:pasahitza]@]nireproxya.niredomeinua:nireataka/ ; "
-"hutsik badago, http_proxy ingurune-aldagaiarekin saiatuko da."
+"Erabili beharreko HTTP proxyak forma hau eduki behar du: http://"
+"[erabiltzailea[:pasahitza]@]nireproxya.niredomeinua:nireataka/ ; hutsik "
+"badago, http_proxy ingurune-aldagaiarekin saiatuko da."
 
 #: modules/access/mms/mms.c:64
 msgid "TCP/UDP timeout (ms)"
@@ -7382,8 +7385,7 @@ msgid ""
 "Note that there will be 10 retries before completely giving up."
 msgstr ""
 "Sareak datuak jasotzea bertan behera utzi aurretik itxaron beharreko denbora "
-"(ms-tan). Kontuan hartu 10 saiakera egingo direla guztiz amore eman "
-"aurretik."
+"(ms-tan). Kontuan hartu 10 saiakera egingo direla guztiz amore eman aurretik."
 
 #: modules/access/mms/mms.c:69
 msgid "Microsoft Media Server (MMS) input"
@@ -7635,7 +7637,6 @@ msgstr "Ogg Vorbis kalitatea"
 msgid "Ogg Vorbis Quality information of the transcoded stream. "
 msgstr ""
 "Transkodetutako transmisio jarraituaren Ogg Vorbis kalitatearen informazioa. "
-""
 
 #: modules/access_output/shout.c:104
 msgid "Stream public"
@@ -7962,7 +7963,8 @@ msgstr "RTP iturburuaren denbora-muga (seg)"
 
 #: modules/access/rtp/rtp.c:66
 msgid "How long to wait for any packet before a source is expired."
-msgstr "Pakete batek zenbat denboran itxaron behar duen iturburua iraungi arte."
+msgstr ""
+"Pakete batek zenbat denboran itxaron behar duen iturburua iraungi arte."
 
 #: modules/access/rtp/rtp.c:68
 msgid "Maximum RTP sequence number dropout"
@@ -8038,16 +8040,16 @@ msgstr "Saioak huts egin du"
 msgid "The requested RTSP session could not be established."
 msgstr "Eskatutako RTSP saioa ezin izan da ezarri."
 
-#: modules/access/screen/screen.c:43
+#: modules/access/screen/screen.c:44
 #: modules/gui/qt4/components/open_panels.cpp:1087
 msgid "Desired frame rate for the capture."
 msgstr "Kapturarako nahi den marko-abiadura."
 
-#: modules/access/screen/screen.c:46
+#: modules/access/screen/screen.c:47
 msgid "Capture fragment size"
 msgstr "Kaptura zatiaren tamaina"
 
-#: modules/access/screen/screen.c:48
+#: modules/access/screen/screen.c:49
 msgid ""
 "Optimize the capture by fragmenting the screen in chunks of predefined "
 "height (16 might be a good value, and 0 means disabled)."
@@ -8056,52 +8058,52 @@ msgstr ""
 "zatituz (16 balio aproposa izan daiteke, eta 0k esan nahi du desgaituta "
 "dagoela)."
 
-#: modules/access/screen/screen.c:53 modules/access/screen/screen.c:57
+#: modules/access/screen/screen.c:54 modules/access/screen/screen.c:58
 msgid "Subscreen top left corner"
 msgstr "Azpipantailaren goiko ezkerreko ertza"
 
-#: modules/access/screen/screen.c:55
+#: modules/access/screen/screen.c:56
 msgid "Top coordinate of the subscreen top left corner."
 msgstr "Azpipantailaren goiko ezkerreko izkinaren goiko koordenatua."
 
-#: modules/access/screen/screen.c:59
+#: modules/access/screen/screen.c:60
 msgid "Left coordinate of the subscreen top left corner."
 msgstr "Azpipantailaren goiko ezkerreko izkinaren ezkerreko koordenatua."
 
-#: modules/access/screen/screen.c:61
+#: modules/access/screen/screen.c:62
 msgid "Subscreen width"
 msgstr "Azpipantailaren zabalera"
 
-#: modules/access/screen/screen.c:63
+#: modules/access/screen/screen.c:64
 msgid "Subscreen height"
 msgstr "Azpipantailaren altuera"
 
-#: modules/access/screen/screen.c:65 modules/access/screen/xcb.c:54
+#: modules/access/screen/screen.c:66 modules/access/screen/xcb.c:54
 #: modules/gui/macosx/open.m:191
 msgid "Follow the mouse"
 msgstr "Jarraitu saguari"
 
-#: modules/access/screen/screen.c:67 modules/access/screen/xcb.c:56
+#: modules/access/screen/screen.c:68 modules/access/screen/xcb.c:56
 msgid "Follow the mouse when capturing a subscreen."
 msgstr "Jarraitu saguari azpipantaila kapturatzean."
 
-#: modules/access/screen/screen.c:71
+#: modules/access/screen/screen.c:72
 msgid "Mouse pointer image"
 msgstr "Sagu-erakuslearen irudia"
 
-#: modules/access/screen/screen.c:73
+#: modules/access/screen/screen.c:74
 msgid ""
 "If specified, will use the image to draw the mouse pointer on the capture."
 msgstr ""
 "Zehazten bada, saguaren erakuslea kapturan marrazteko erabiliko du irudia."
 
-#: modules/access/screen/screen.c:87
+#: modules/access/screen/screen.c:88
 msgid "Screen Input"
 msgstr "Pantaila-sarrera"
 
-#: modules/access/screen/screen.c:88 modules/access/screen/xcb.c:65
+#: modules/access/screen/screen.c:89 modules/access/screen/xcb.c:65
 #: modules/gui/macosx/MainMenu.m:509 modules/gui/macosx/open.m:182
-#: modules/gui/macosx/open.m:424 modules/gui/macosx/open.m:1230
+#: modules/gui/macosx/open.m:429 modules/gui/macosx/open.m:1239
 #: modules/gui/macosx/simple_prefs.m:594
 msgid "Screen"
 msgstr "Pantaila"
@@ -8686,10 +8688,9 @@ msgid ""
 msgstr ""
 "Ezarri zehaztutako balioak v4l2 kontrolatzailearen kontroletan; balio horiek "
 "komaz bereizitako zerrenda batean zehaztu behar dira eta, nahi izanez gero, "
-"kortxeteak erabiliz kapsulatu daitezke (adibidez: "
-"{video_bitrate=6000000,audio_crc=0,stream_type=3} ). Erabilgarri dauden "
-"kontrolak zerrendatzeko, handitu xehetasun-maila (-vvv) edo erabili v4l2-ctl "
-"aplikazioa."
+"kortxeteak erabiliz kapsulatu daitezke (adibidez: {video_bitrate=6000000,"
+"audio_crc=0,stream_type=3} ). Erabilgarri dauden kontrolak zerrendatzeko, "
+"handitu xehetasun-maila (-vvv) edo erabili v4l2-ctl aplikazioa."
 
 #: modules/access/v4l2/video.c:204
 msgid "Tuner id"
@@ -8810,7 +8811,7 @@ msgid "Segments"
 msgstr "Segmentuak"
 
 #: modules/access/vcdx/access.c:414 modules/access/vcdx/access.c:693
-#: modules/access/vcdx/info.c:232 modules/demux/mkv/demux.cpp:681
+#: modules/access/vcdx/info.c:232 modules/demux/mkv/demux.cpp:700
 msgid "Segment"
 msgstr "Segmentua"
 
@@ -8819,7 +8820,7 @@ msgid "LID"
 msgstr "LID"
 
 #: modules/access/vcdx/info.c:54 modules/gui/macosx/open.m:111
-#: modules/gui/macosx/open.m:477
+#: modules/gui/macosx/open.m:482
 msgid "Disc"
 msgstr "Diskoa"
 
@@ -9079,7 +9080,8 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:54
 msgid "Defines if silence alarm information should be sent (default 1)"
-msgstr "Alarma isilaren informazioa bidali behar den zehazten du (lehenetsia 1)"
+msgstr ""
+"Alarma isilaren informazioa bidali behar den zehazten du (lehenetsia 1)"
 
 #: modules/audio_filter/audiobargraph_a.c:55
 msgid ""
@@ -9277,7 +9279,7 @@ msgstr "Kanal-nahaste tribialerako audio-iragazkia"
 msgid "Sound Delay"
 msgstr "Soinu-atzerapena"
 
-#: modules/audio_filter/chorus_flanger.c:78 modules/gui/macosx/open.m:308
+#: modules/audio_filter/chorus_flanger.c:78 modules/gui/macosx/open.m:313
 #: modules/stream_out/bridge.c:51 modules/stream_out/delay.c:54
 #: modules/video_filter/mosaic.c:154
 msgid "Delay"
@@ -9487,8 +9489,8 @@ msgid ""
 "-2 0 2\"."
 msgstr ""
 "Ez erabili aurrezarpenak, eskuz zehaztutako bandak baizik. -20dB eta 20dB "
-"bitarteko 10 balio adierazi behar dituzu, zuriunez bereizita; adibidez, \"0 2 "
-"4 2 0 -2 -4 -2 0 2\"."
+"bitarteko 10 balio adierazi behar dituzu, zuriunez bereizita; adibidez, \"0 "
+"2 4 2 0 -2 -4 -2 0 2\"."
 
 #: modules/audio_filter/equalizer.c:67
 msgid "Two pass"
@@ -9697,8 +9699,7 @@ msgstr "Birlaginketaren kalitatea"
 #: modules/audio_filter/resampler/speex.c:34
 msgid "Resampling quality (0 = worst and fastest, 10 = best and slowest)."
 msgstr ""
-"Birlaginketa kalitatea (0 = okerrena eta azkarrena, 10 = onena eta "
-"motelena)."
+"Birlaginketa kalitatea (0 = okerrena eta azkarrena, 10 = onena eta motelena)."
 
 #: modules/audio_filter/resampler/speex.c:40
 #: modules/audio_filter/resampler/speex.c:41
@@ -9921,10 +9922,10 @@ msgid ""
 "utility in /Applications/Utilities. Stereo mode is being used now."
 msgstr ""
 "Bozgorailuaren diseinua konfiguratu beharko zenuke /Applications/Utilities "
-"menuko \"Audioaren Midi konfigurazioa\" utilitatearen bidez. Estereo modua ari "
-"da erabiltzen une honetan."
+"menuko \"Audioaren Midi konfigurazioa\" utilitatearen bidez. Estereo modua "
+"ari da erabiltzen une honetan."
 
-#: modules/audio_output/auhal.c:1048
+#: modules/audio_output/auhal.c:1057
 #, c-format
 msgid "%s (Encoded Output)"
 msgstr "%s (kodetutako irteera)"
@@ -10082,11 +10083,11 @@ msgstr "PORTAUDIO audio-irteera"
 msgid "5.1"
 msgstr "5.1"
 
-#: modules/audio_output/pulse.c:45
+#: modules/audio_output/pulse.c:48
 msgid "Pulseaudio audio output"
 msgstr "Pulseaudio audio-irteera"
 
-#: modules/audio_output/pulse.c:957
+#: modules/audio_output/pulse.c:978
 msgid "Audio device"
 msgstr "Audio-gailua"
 
@@ -10184,9 +10185,9 @@ msgid ""
 "This includes (MS)MPEG4, DivX, SV1,H261, H263, H264, WMV, WMA, AAC, AMR, DV, "
 "MJPEG and other codecs"
 msgstr ""
-"FFmpeg liburutegiak emandako hainbat audio- eta bideo-"
-"deskodetzaile/kodetzaile. Adibidez, (MS)MPEG4, DivX, SV1,H261, H263, H264, "
-"WMV, WMA, AAC, AMR, DV, MJPEG eta beste kodek batzuk"
+"FFmpeg liburutegiak emandako hainbat audio- eta bideo-deskodetzaile/"
+"kodetzaile. Adibidez, (MS)MPEG4, DivX, SV1,H261, H263, H264, WMV, WMA, AAC, "
+"AMR, DV, MJPEG eta beste kodek batzuk"
 
 #: modules/codec/avcodec/avcodec.c:97
 msgid "FFmpeg audio/video decoder"
@@ -10209,15 +10210,15 @@ msgstr "FFmpeg audio-/bideo-kodetzailea"
 msgid "FFmpeg deinterlace video filter"
 msgstr "FFmpeg gurutzelarkatuak bereizteko bideo-iragazkia"
 
-#: modules/codec/avcodec/avcodec.h:71 modules/codec/avcodec/avcodec.h:73
+#: modules/codec/avcodec/avcodec.h:80 modules/codec/avcodec/avcodec.h:82
 msgid "Direct rendering"
 msgstr "Zuzeneko errendatzea"
 
-#: modules/codec/avcodec/avcodec.h:75
+#: modules/codec/avcodec/avcodec.h:84
 msgid "Error resilience"
 msgstr "Errore-erresilientzia"
 
-#: modules/codec/avcodec/avcodec.h:77
+#: modules/codec/avcodec/avcodec.h:86
 msgid ""
 "FFmpeg can do error resilience.\n"
 "However, with a buggy encoder (such as the ISO MPEG-4 encoder from M$) this "
@@ -10230,11 +10231,11 @@ msgstr ""
 "Baliozko balioak 0 eta 4 artekoak dira (0 balioak errore-erresilientzia "
 "guztia desgaitzen du)."
 
-#: modules/codec/avcodec/avcodec.h:82
+#: modules/codec/avcodec/avcodec.h:91
 msgid "Workaround bugs"
 msgstr "Konpondu erroreak"
 
-#: modules/codec/avcodec/avcodec.h:84
+#: modules/codec/avcodec/avcodec.h:93
 msgid ""
 "Try to fix some bugs:\n"
 "1  autodetect\n"
@@ -10255,15 +10256,15 @@ msgstr ""
 "16 betegarririk ez\n"
 "32 ac vlc\n"
 "64 Qpel-eko krominantzia.\n"
-"Balioen batura adierazi behar da. Adibidez, \"ac vlc\" eta \"ump4\" konpontzeko, "
-"adierazi 40."
+"Balioen batura adierazi behar da. Adibidez, \"ac vlc\" eta \"ump4\" "
+"konpontzeko, adierazi 40."
 
-#: modules/codec/avcodec/avcodec.h:95 modules/codec/avcodec/avcodec.h:204
+#: modules/codec/avcodec/avcodec.h:104 modules/codec/avcodec/avcodec.h:213
 #: modules/demux/rawdv.c:40 modules/stream_out/transcode/transcode.c:139
 msgid "Hurry up"
 msgstr "Bizkor!"
 
-#: modules/codec/avcodec/avcodec.h:97
+#: modules/codec/avcodec/avcodec.h:106
 msgid ""
 "The decoder can partially decode or skip frame(s) when there is not enough "
 "time. It's useful with low CPU power but it can produce distorted pictures."
@@ -10272,22 +10273,22 @@ msgstr ""
 "denborarik ez dagoenean. Erabilgarria da PUZ ahalmen gutxi dagoenean, baina "
 "irudi distortsionatuak sor ditzake."
 
-#: modules/codec/avcodec/avcodec.h:101
+#: modules/codec/avcodec/avcodec.h:110
 msgid "Allow speed tricks"
 msgstr "Onartu abiadura-trikimailuak"
 
-#: modules/codec/avcodec/avcodec.h:103
+#: modules/codec/avcodec/avcodec.h:112
 msgid ""
 "Allow non specification compliant speedup tricks. Faster but error-prone."
 msgstr ""
 "Onartu zehaztapenekin bat ez datozen abiadura-trikimailuak. Bizkorragoa da, "
 "baina erroreak sor ditzake."
 
-#: modules/codec/avcodec/avcodec.h:105
+#: modules/codec/avcodec/avcodec.h:114
 msgid "Skip frame (default=0)"
 msgstr "Saltatu markoa (lehenetsia=0)"
 
-#: modules/codec/avcodec/avcodec.h:107
+#: modules/codec/avcodec/avcodec.h:116
 msgid ""
 "Force skipping of frames to speed up decoding (-1=None, 0=Default, 1=B-"
 "frames, 2=P-frames, 3=B+P frames, 4=all frames)."
@@ -10295,11 +10296,11 @@ msgstr ""
 "Behartu markoak saltatzea deskodeketa bizkortzeko (-1=Bat ere ez, "
 "0=Lehenetsia, 1=B markoak, 2=P markoak, 3=B+P markoak, 4=marko guztiak)."
 
-#: modules/codec/avcodec/avcodec.h:110
+#: modules/codec/avcodec/avcodec.h:119
 msgid "Skip idct (default=0)"
 msgstr "Saltatu idct (lehenetsia=0)"
 
-#: modules/codec/avcodec/avcodec.h:112
+#: modules/codec/avcodec/avcodec.h:121
 msgid ""
 "Force skipping of idct to speed up decoding for frame types(-1=None, "
 "0=Default, 1=B-frames, 2=P-frames, 3=B+P frames, 4=all frames)."
@@ -10307,27 +10308,27 @@ msgstr ""
 "Behartu idct saltatzea marko motak deskodeketa bizkortzeko (-1=Bat ere ez, "
 "0=Lehenetsia, 1=B markoak, 2=P markoak, 3=B+P markoak, 4=marko guztiak)."
 
-#: modules/codec/avcodec/avcodec.h:115
+#: modules/codec/avcodec/avcodec.h:124
 msgid "Debug mask"
 msgstr "Arazketa-maskara"
 
-#: modules/codec/avcodec/avcodec.h:116
+#: modules/codec/avcodec/avcodec.h:125
 msgid "Set FFmpeg debug mask"
 msgstr "Ezarri FFmpeg arazketa-maskara"
 
-#: modules/codec/avcodec/avcodec.h:118
+#: modules/codec/avcodec/avcodec.h:127
 msgid "Codec name"
 msgstr "Kodekaren izena"
 
-#: modules/codec/avcodec/avcodec.h:119
+#: modules/codec/avcodec/avcodec.h:128
 msgid "Internal libavcodec codec name"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:122
+#: modules/codec/avcodec/avcodec.h:131
 msgid "Visualize motion vectors"
 msgstr "Bistaratu mugimendu-bektoreak"
 
-#: modules/codec/avcodec/avcodec.h:124
+#: modules/codec/avcodec/avcodec.h:133
 msgid ""
 "You can overlay the motion vectors (arrows showing how the images move) on "
 "the image. This value is a mask, based on these values:\n"
@@ -10344,11 +10345,11 @@ msgstr ""
 "4 - bistaratu B markoen atzerantz aurresandako MBak\n"
 "Bektore guztiak bistaratzeko, 7 balioa adierazi behar da."
 
-#: modules/codec/avcodec/avcodec.h:131
+#: modules/codec/avcodec/avcodec.h:140
 msgid "Low resolution decoding"
 msgstr "Bereizmen txikiko deskodeketa"
 
-#: modules/codec/avcodec/avcodec.h:132
+#: modules/codec/avcodec/avcodec.h:141
 msgid ""
 "Only decode a low resolution version of the video. This requires less "
 "processing power"
@@ -10356,11 +10357,11 @@ msgstr ""
 "Bideoaren bereizmen txikiko bertsio bat bakarrik deskodetzen du. Horretarako "
 "prozesatze-ahalmen gutxiago behar da"
 
-#: modules/codec/avcodec/avcodec.h:135 modules/gui/macosx/simple_prefs.m:262
+#: modules/codec/avcodec/avcodec.h:144 modules/gui/macosx/simple_prefs.m:262
 msgid "Skip the loop filter for H.264 decoding"
 msgstr "Saltatu begizta-iragazkia H.264 deskodeketarako"
 
-#: modules/codec/avcodec/avcodec.h:136
+#: modules/codec/avcodec/avcodec.h:145
 msgid ""
 "Skipping the loop filter (aka deblocking) usually has a detrimental effect "
 "on quality. However it provides a big speedup for high definition streams."
@@ -10369,77 +10370,77 @@ msgstr ""
 "okerragotzen du. Hala ere, definizio handiko transmisio jarraituetan asko "
 "bizkortzen du abiadura."
 
-#: modules/codec/avcodec/avcodec.h:140
+#: modules/codec/avcodec/avcodec.h:149
 msgid "Hardware decoding"
 msgstr "Hardwarearen deskodeketa"
 
-#: modules/codec/avcodec/avcodec.h:141
+#: modules/codec/avcodec/avcodec.h:150
 msgid "This allows hardware decoding when available."
 msgstr "Horrek hardwarea deskodetzeko aukera ematen du, erabilgarri dagoenean."
 
-#: modules/codec/avcodec/avcodec.h:143
+#: modules/codec/avcodec/avcodec.h:152
 msgid "Threads"
 msgstr "Hariak"
 
-#: modules/codec/avcodec/avcodec.h:144
+#: modules/codec/avcodec/avcodec.h:153
 msgid "Number of threads used for decoding, 0 meaning auto"
 msgstr "Deskodetzeko erabilitako hari kopurua; 0-k automatikoa esan nahi du"
 
-#: modules/codec/avcodec/avcodec.h:151
+#: modules/codec/avcodec/avcodec.h:160
 msgid "Ratio of key frames"
 msgstr "Gako-markoen erlazioa"
 
-#: modules/codec/avcodec/avcodec.h:152
+#: modules/codec/avcodec/avcodec.h:161
 msgid "Number of frames that will be coded for one key frame."
 msgstr "Gako-marko baterako kodetuko diren markoen kopurua."
 
-#: modules/codec/avcodec/avcodec.h:155
+#: modules/codec/avcodec/avcodec.h:164
 msgid "Ratio of B frames"
 msgstr "B markoen erlazioa"
 
-#: modules/codec/avcodec/avcodec.h:156
+#: modules/codec/avcodec/avcodec.h:165
 msgid "Number of B frames that will be coded between two reference frames."
 msgstr "Erreferentziako bi markoren artean kodetuko diren B markoen kopurua."
 
-#: modules/codec/avcodec/avcodec.h:159
+#: modules/codec/avcodec/avcodec.h:168
 msgid "Video bitrate tolerance"
 msgstr "Bideoaren bit-emariaren tolerantzia"
 
-#: modules/codec/avcodec/avcodec.h:160
+#: modules/codec/avcodec/avcodec.h:169
 msgid "Video bitrate tolerance in kbit/s."
 msgstr "Bideoaren bit-emariaren tolerantzia kbit/s-tan."
 
-#: modules/codec/avcodec/avcodec.h:162
+#: modules/codec/avcodec/avcodec.h:171
 msgid "Interlaced encoding"
 msgstr "Kodeketa gurutzelarkatua"
 
-#: modules/codec/avcodec/avcodec.h:163
+#: modules/codec/avcodec/avcodec.h:172
 msgid "Enable dedicated algorithms for interlaced frames."
 msgstr "Gaitu dedikatutako algoritmoak gurutzelarkatutako markoetarako."
 
-#: modules/codec/avcodec/avcodec.h:166
+#: modules/codec/avcodec/avcodec.h:175
 msgid "Interlaced motion estimation"
 msgstr "Mugimendu gurutzelarkatuaren zenbatespena"
 
-#: modules/codec/avcodec/avcodec.h:167
+#: modules/codec/avcodec/avcodec.h:176
 msgid "Enable interlaced motion estimation algorithms. This requires more CPU."
 msgstr ""
 "Gaitu mugimendu gurutzelarkatua zenbatesteko algoritmoak. Horretarako PUZ "
 "gehiago behar da."
 
-#: modules/codec/avcodec/avcodec.h:170
+#: modules/codec/avcodec/avcodec.h:179
 msgid "Pre-motion estimation"
 msgstr "Mugimendu aurreko zenbatespena"
 
-#: modules/codec/avcodec/avcodec.h:171
+#: modules/codec/avcodec/avcodec.h:180
 msgid "Enable the pre-motion estimation algorithm."
 msgstr "Gaitu mugimendu aurreko zenbatespena egiteko algoritmoa."
 
-#: modules/codec/avcodec/avcodec.h:174
+#: modules/codec/avcodec/avcodec.h:183
 msgid "Rate control buffer size"
 msgstr "Emaria kontrolatzeko bufferraren tamaina"
 
-#: modules/codec/avcodec/avcodec.h:175
+#: modules/codec/avcodec/avcodec.h:184
 msgid ""
 "Rate control buffer size (in kbytes). A bigger buffer will allow for better "
 "rate control, but will cause a delay in the stream."
@@ -10448,19 +10449,19 @@ msgstr ""
 "emaria hobeto kontrolatzeko aukera ematen dute, baina transmisio jarraituan "
 "atzerapena sortzen dute."
 
-#: modules/codec/avcodec/avcodec.h:179
+#: modules/codec/avcodec/avcodec.h:188
 msgid "Rate control buffer aggressiveness"
 msgstr "Emaria kontrolatzeko bufferraren oldarkortasuna"
 
-#: modules/codec/avcodec/avcodec.h:180
+#: modules/codec/avcodec/avcodec.h:189
 msgid "Rate control buffer aggressiveness."
 msgstr "Emaria kontrolatzeko bufferraren oldarkortasuna."
 
-#: modules/codec/avcodec/avcodec.h:183
+#: modules/codec/avcodec/avcodec.h:192
 msgid "I quantization factor"
 msgstr "I kuantizazio-faktorea"
 
-#: modules/codec/avcodec/avcodec.h:185
+#: modules/codec/avcodec/avcodec.h:194
 msgid ""
 "Quantization factor of I frames, compared with P frames (for instance 1.0 => "
 "same qscale for I and P frames)."
@@ -10468,12 +10469,12 @@ msgstr ""
 "I markoren kuantizazio-faktorea, P markorekin alderatuta (adibidez, 1.0 => "
 "qscale bera I eta P markoetarako)."
 
-#: modules/codec/avcodec/avcodec.h:188 modules/codec/x264.c:344
+#: modules/codec/avcodec/avcodec.h:197 modules/codec/x264.c:344
 #: modules/demux/mod.c:78
 msgid "Noise reduction"
 msgstr "Zarata-murrizketa"
 
-#: modules/codec/avcodec/avcodec.h:189
+#: modules/codec/avcodec/avcodec.h:198
 msgid ""
 "Enable a simple noise reduction algorithm to lower the encoding length and "
 "bitrate, at the expense of lower quality frames."
@@ -10481,11 +10482,11 @@ msgstr ""
 "Gaitu zarata-murrizketako algoritmo soil bat, kodeketaren luzera eta bit-"
 "emaria murrizteko, kalitate gutxiagoko markoak edukitzearen truke."
 
-#: modules/codec/avcodec/avcodec.h:193
+#: modules/codec/avcodec/avcodec.h:202
 msgid "MPEG4 quantization matrix"
 msgstr "MPEG4 kuantizazio-matrizea"
 
-#: modules/codec/avcodec/avcodec.h:194
+#: modules/codec/avcodec/avcodec.h:203
 msgid ""
 "Use the MPEG4 quantization matrix for MPEG2 encoding. This generally yields "
 "a better looking picture, while still retaining the compatibility with "
@@ -10495,11 +10496,11 @@ msgstr ""
 "duen irudia lortu ohi da, eta MPEG2 deskodetzaile estandarrekin bateragarria "
 "izaten jarraitzen du."
 
-#: modules/codec/avcodec/avcodec.h:199
+#: modules/codec/avcodec/avcodec.h:208
 msgid "Quality level"
 msgstr "Kalitate-maila"
 
-#: modules/codec/avcodec/avcodec.h:200
+#: modules/codec/avcodec/avcodec.h:209
 msgid ""
 "Quality level for the encoding of motions vectors (this can slow down the "
 "encoding very much)."
@@ -10507,7 +10508,7 @@ msgstr ""
 "Mugimendu-bektoreak kodetzeko kalitate-maila (honek kodeketa asko mantsotu "
 "dezake)."
 
-#: modules/codec/avcodec/avcodec.h:205
+#: modules/codec/avcodec/avcodec.h:214
 msgid ""
 "The encoder can make on-the-fly quality tradeoffs if your CPU can't keep up "
 "with the encoding rate. It will disable trellis quantization, then the rate "
@@ -10519,35 +10520,35 @@ msgstr ""
 "bektoreen emari-distortsioa (hq) eta, azkenik, zarata-murrizketako atalasea "
 "handituko du, kodetzailearen zeregina errazteko."
 
-#: modules/codec/avcodec/avcodec.h:211
+#: modules/codec/avcodec/avcodec.h:220
 msgid "Minimum video quantizer scale"
 msgstr "Bideo-kuantizatzailearen gutxieneko eskala"
 
-#: modules/codec/avcodec/avcodec.h:212
+#: modules/codec/avcodec/avcodec.h:221
 msgid "Minimum video quantizer scale."
 msgstr "Bideo-kuantizatzailearen gutxieneko eskala."
 
-#: modules/codec/avcodec/avcodec.h:215
+#: modules/codec/avcodec/avcodec.h:224
 msgid "Maximum video quantizer scale"
 msgstr "Bideo-kuantizatzailearen gehienezko eskala"
 
-#: modules/codec/avcodec/avcodec.h:216
+#: modules/codec/avcodec/avcodec.h:225
 msgid "Maximum video quantizer scale."
 msgstr "Bideo-kuantizatzailearen gehienezko eskala."
 
-#: modules/codec/avcodec/avcodec.h:219
+#: modules/codec/avcodec/avcodec.h:228
 msgid "Trellis quantization"
 msgstr "Bilbe-kuantizazioa"
 
-#: modules/codec/avcodec/avcodec.h:220
+#: modules/codec/avcodec/avcodec.h:229
 msgid "Enable trellis quantization (rate distortion for block coefficients)."
 msgstr "Gaitu bilbe-kuantizazioa (emari-distortsioa bloke-koefizienteetarako)."
 
-#: modules/codec/avcodec/avcodec.h:223
+#: modules/codec/avcodec/avcodec.h:232
 msgid "Fixed quantizer scale"
 msgstr "Kuantizatzailearen eskala finkoa"
 
-#: modules/codec/avcodec/avcodec.h:224
+#: modules/codec/avcodec/avcodec.h:233
 msgid ""
 "A fixed video quantizer scale for VBR encoding (accepted values: 0.01 to "
 "255.0)."
@@ -10555,36 +10556,37 @@ msgstr ""
 "Bideo-kuantizatzailearen eskala finkoa VBR kodeketarako (onartutako balioak: "
 "0.01 eta 255.0 bitartean)."
 
-#: modules/codec/avcodec/avcodec.h:227
+#: modules/codec/avcodec/avcodec.h:236
 msgid "Strict standard compliance"
 msgstr "Estandarren betetze zorrotza"
 
-#: modules/codec/avcodec/avcodec.h:228
+#: modules/codec/avcodec/avcodec.h:237
 msgid ""
 "Force a strict standard compliance when encoding (accepted values: -2 to 2)."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:231
+#: modules/codec/avcodec/avcodec.h:240
 msgid "Luminance masking"
 msgstr "Distira-maskaratzea"
 
-#: modules/codec/avcodec/avcodec.h:232
+#: modules/codec/avcodec/avcodec.h:241
 msgid "Raise the quantizer for very bright macroblocks (default: 0.0)."
-msgstr "Igo kuantizatzailea oso makrobloke distiratsuetarako (lehenetsia: 0.0)."
+msgstr ""
+"Igo kuantizatzailea oso makrobloke distiratsuetarako (lehenetsia: 0.0)."
 
-#: modules/codec/avcodec/avcodec.h:235
+#: modules/codec/avcodec/avcodec.h:244
 msgid "Darkness masking"
 msgstr "Iluntasun-maskaratzea"
 
-#: modules/codec/avcodec/avcodec.h:236
+#: modules/codec/avcodec/avcodec.h:245
 msgid "Raise the quantizer for very dark macroblocks (default: 0.0)."
 msgstr "Igo kuantizatzailea oso makrobloke ilunetarako (lehenetsia: 0.0)."
 
-#: modules/codec/avcodec/avcodec.h:239
+#: modules/codec/avcodec/avcodec.h:248
 msgid "Motion masking"
 msgstr "Mugimendu-maskaratzea"
 
-#: modules/codec/avcodec/avcodec.h:240
+#: modules/codec/avcodec/avcodec.h:249
 msgid ""
 "Raise the quantizer for macroblocks with a high temporal complexity "
 "(default: 0.0)."
@@ -10592,22 +10594,22 @@ msgstr ""
 "Igo kuantizatzailea aldi baterako konplexutasun handia duten "
 "makroblokeetarako (lehenetsia: 0.0)."
 
-#: modules/codec/avcodec/avcodec.h:243
+#: modules/codec/avcodec/avcodec.h:252
 msgid "Border masking"
 msgstr "Ertz-maskaratzea"
 
-#: modules/codec/avcodec/avcodec.h:244
+#: modules/codec/avcodec/avcodec.h:253
 msgid ""
 "Raise the quantizer for macroblocks at the border of the frame (default: "
 "0.0)."
 msgstr ""
 "Igo kuantizatzailea markoaren ertzeko makroblokeetarako (lehenetsia: 0.0)."
 
-#: modules/codec/avcodec/avcodec.h:247
+#: modules/codec/avcodec/avcodec.h:256
 msgid "Luminance elimination"
 msgstr "Distira ezabatzea"
 
-#: modules/codec/avcodec/avcodec.h:248
+#: modules/codec/avcodec/avcodec.h:257
 msgid ""
 "Eliminates luminance blocks when the PSNR isn't much changed (default: 0.0). "
 "The H264 specification recommends -4."
@@ -10615,11 +10617,11 @@ msgstr ""
 "Distira-blokeak ezabatzen ditu PSNR askorik aldatzen ez denean (lehenetsia: "
 "0.0). H264 zehaztapenak -4 gomendatzen du."
 
-#: modules/codec/avcodec/avcodec.h:252
+#: modules/codec/avcodec/avcodec.h:261
 msgid "Chrominance elimination"
 msgstr "Krominantzia ezabatzea"
 
-#: modules/codec/avcodec/avcodec.h:253
+#: modules/codec/avcodec/avcodec.h:262
 msgid ""
 "Eliminates chrominance blocks when the PSNR isn't much changed (default: "
 "0.0). The H264 specification recommends 7."
@@ -10627,11 +10629,11 @@ msgstr ""
 "Krominantzia-blokeak ezabatzen ditu PSNR askorik aldatzen ez denean "
 "(lehenetsia: 0.0). H264 zehaztapenak 7 gomendatzen du."
 
-#: modules/codec/avcodec/avcodec.h:257
+#: modules/codec/avcodec/avcodec.h:266
 msgid "Specify AAC audio profile to use"
 msgstr "Zehaztu erabili beharreko AAC audio-profila"
 
-#: modules/codec/avcodec/avcodec.h:258
+#: modules/codec/avcodec/avcodec.h:267
 msgid ""
 "Specify the AAC audio profile to use for encoding the audio bitstream. It "
 "takes the following options: main, low, ssr (not supported) and ltp "
@@ -10641,17 +10643,17 @@ msgstr ""
 "audio-profila. Aukera hauek daude: nagusia, txikia, ssr (ez da onartzen) eta "
 "ltp (lehenetsia: nagusia)"
 
-#: modules/codec/avcodec/encoder.c:238
+#: modules/codec/avcodec/encoder.c:277
 #, c-format
 msgid "\"%s\" is no video encoder."
 msgstr "\"%s\" ez da bideo-kodetzailea."
 
-#: modules/codec/avcodec/encoder.c:246
+#: modules/codec/avcodec/encoder.c:285
 #, c-format
 msgid "\"%s\" is no audio encoder."
 msgstr "\"%s\" ez da audio-kodetzailea."
 
-#: modules/codec/avcodec/encoder.c:287
+#: modules/codec/avcodec/encoder.c:326
 #, c-format
 msgid ""
 "It seems your FFMPEG (libavcodec) installation lacks the following encoder:\n"
@@ -10668,7 +10670,7 @@ msgstr ""
 "Hau ez da VLC multimedia-erreproduzigailuaren errorea.\n"
 "Ez jarri harremanetan VideoLAN proiektuarekin arazo hau konpontzeko.\n"
 
-#: modules/codec/avcodec/encoder.c:773 modules/codec/avcodec/encoder.c:782
+#: modules/codec/avcodec/encoder.c:815 modules/codec/avcodec/encoder.c:824
 msgid "VLC could not open the encoder."
 msgstr "VLCk ezin izan du kodetzailea ireki."
 
@@ -10818,7 +10820,8 @@ msgstr ""
 
 #: modules/codec/dirac.c:110 modules/codec/schroedinger.c:166
 msgid "auto - let encoder decide based upon input (Best)"
-msgstr "automatikoa - utzi kodetzaileari sarreraren arabera erabakitzen (onena)"
+msgstr ""
+"automatikoa - utzi kodetzaileari sarreraren arabera erabakitzen (onena)"
 
 #: modules/codec/dirac.c:111 modules/codec/schroedinger.c:167
 msgid "force coding frame as single picture"
@@ -10842,7 +10845,8 @@ msgstr "Bloke-teilakatzea (%)"
 
 #: modules/codec/dirac.c:126
 msgid "Amount that each motion block should be overlapped by its neighbours"
-msgstr "Mugimendu-bloke bakoitza zenbateraino teilakatu behar duten bere auzoek"
+msgstr ""
+"Mugimendu-bloke bakoitza zenbateraino teilakatu behar duten bere auzoek"
 
 #: modules/codec/dirac.c:131
 msgid "xblen"
@@ -10923,8 +10927,8 @@ msgstr "Desgaitu kodetze aritmetikoa"
 #: modules/codec/dirac.c:179 modules/codec/schroedinger.c:256
 msgid "Use variable length codes instead, useful for very high bitrates"
 msgstr ""
-"Erabili luzera aldagarriko kodeak horren ordez; hori erabilgarria da oso "
-"bit-emaria handietarako"
+"Erabili luzera aldagarriko kodeak horren ordez; hori erabilgarria da oso bit-"
+"emaria handietarako"
 
 #: modules/codec/dirac.c:184
 msgid "cycles per degree"
@@ -11557,7 +11561,8 @@ msgstr "Mugimendua konpentsatzeko blokeen tamaina"
 #: modules/codec/schroedinger.c:182 modules/codec/schroedinger.c:199
 #: modules/codec/schroedinger.c:297 modules/codec/schroedinger.c:338
 msgid "automatic - let encoder decide based upon input (Best)"
-msgstr "automatikoa - utzi kodetzaileari sarreraren arabera erabakitzen (onena)"
+msgstr ""
+"automatikoa - utzi kodetzaileari sarreraren arabera erabakitzen (onena)"
 
 #: modules/codec/schroedinger.c:183
 msgid "small - use small motion compensation blocks"
@@ -11809,7 +11814,8 @@ msgstr "Desgaitu DVD azpitituluen gardentasuna"
 
 #: modules/codec/spudec/spudec.c:46
 msgid "Removes all transparency effects used in DVD subtitles."
-msgstr "DVD azpitituluetan erabilitako gardentasun-efektu guztiak kentzen ditu."
+msgstr ""
+"DVD azpitituluetan erabilitako gardentasun-efektu guztiak kentzen ditu."
 
 #: modules/codec/spudec/spudec.c:50
 msgid "DVD subtitles decoder"
@@ -12396,10 +12402,10 @@ msgid ""
 "but seems to make little difference in live-action source material. Some "
 "decoders are unable to deal with large frameref values. Range 1 to 16."
 msgstr ""
-"Aurresateko erabili diren aurreko markoen kopurua. Hau eraginkorra da "
-"Anime-n, baina ez dirudi alde handirik egiten duenik zuzeneko ekintzen "
-"iturburu-materialetan. Deskodetzaile batzuek ezin dituzte frameref balio "
-"handiak kudeatu. Barrutia:1etik 16ra."
+"Aurresateko erabili diren aurreko markoen kopurua. Hau eraginkorra da Anime-"
+"n, baina ez dirudi alde handirik egiten duenik zuzeneko ekintzen iturburu-"
+"materialetan. Deskodetzaile batzuek ezin dituzte frameref balio handiak "
+"kudeatu. Barrutia:1etik 16ra."
 
 #: modules/codec/x264.c:131
 msgid "Skip loop filter"
@@ -12465,8 +12471,7 @@ msgstr "Erabili mb-tree emaria-kontrola"
 #: modules/codec/x264.c:159
 msgid "You can disable use of Macroblock-tree on ratecontrol"
 msgstr ""
-"Abiadura kontrolatzeko makrobloke-zuhaitzak erabiltzea desgaitu egin "
-"dezakezu"
+"Abiadura kontrolatzeko makrobloke-zuhaitzak erabiltzea desgaitu egin dezakezu"
 
 #: modules/codec/x264.c:161
 msgid "Force number of slices per frame"
@@ -12951,7 +12956,8 @@ msgstr "Harietarako optimizazio ez-deterministak"
 
 #: modules/codec/x264.c:359
 msgid "Slightly improve quality of SMP, at the cost of repeatability."
-msgstr "SMPren kalitatea pixka bat hobetzen dute, errepikagarritasunaren truke."
+msgstr ""
+"SMPren kalitatea pixka bat hobetzen dute, errepikagarritasunaren truke."
 
 #: modules/codec/x264.c:362
 msgid "CPU optimizations"
@@ -13156,11 +13162,11 @@ msgstr "VBI eta teletestu-deskodetzailea"
 msgid "VBI & Teletext"
 msgstr "VBI eta teletestua"
 
-#: modules/control/dbus/dbus.c:138
+#: modules/control/dbus/dbus.c:139
 msgid "DBus"
 msgstr ""
 
-#: modules/control/dbus/dbus.c:140
+#: modules/control/dbus/dbus.c:142
 msgid "D-Bus control interface"
 msgstr "D-Bus kontroleko interfazea"
 
@@ -13243,7 +13249,7 @@ msgstr "Bolumenaren kontrola"
 msgid "Position Control"
 msgstr "Kokalekuaren kontrola"
 
-#: modules/control/hotkeys.c:97 modules/gui/macosx/intf.m:2062
+#: modules/control/hotkeys.c:97 modules/gui/macosx/intf.m:2074
 msgid "Ignore"
 msgstr "Ez ikusi egin"
 
@@ -13461,9 +13467,9 @@ msgid ""
 "foobar). It should be specified at install time so the Service is properly "
 "configured."
 msgstr ""
-"Zerbitzuak erabiliko dituen konfigurazioko aukerak (adibidez, --foo=bar "
-"--no-foobar). Instalatzeko garaian zehaztu beharko litzateke, zerbitzua "
-"behar bezala konfiguratu ahal izateko."
+"Zerbitzuak erabiliko dituen konfigurazioko aukerak (adibidez, --foo=bar --no-"
+"foobar). Instalatzeko garaian zehaztu beharko litzateke, zerbitzua behar "
+"bezala konfiguratu ahal izateko."
 
 #: modules/control/ntservice.c:59
 msgid ""
@@ -13598,12 +13604,12 @@ msgstr ""
 #: modules/control/rc.c:805
 msgid "| play . . . . . . . . . . . . . . . . . . play stream"
 msgstr ""
-"| play . . . . . . . . . . . . . . . . . . erreproduzitu transmisio "
-"jarraitua"
+"| play . . . . . . . . . . . . . . . . . . erreproduzitu transmisio jarraitua"
 
 #: modules/control/rc.c:806
 msgid "| stop . . . . . . . . . . . . . . . . . . stop stream"
-msgstr "| stop . . . . . . . . . . . . . . . . . . gelditu transmisio jarraitua"
+msgstr ""
+"| stop . . . . . . . . . . . . . . . . . . gelditu transmisio jarraitua"
 
 #: modules/control/rc.c:807
 msgid "| next . . . . . . . . . . . . . .  next playlist item"
@@ -13696,7 +13702,8 @@ msgstr ""
 
 #: modules/control/rc.c:828
 msgid "| normal . . . . . . . . . .  normal playing of stream"
-msgstr "| normal . . . . . . . . . .  transmisio jarraitua normal erreproduzitu"
+msgstr ""
+"| normal . . . . . . . . . .  transmisio jarraitua normal erreproduzitu"
 
 #: modules/control/rc.c:829
 msgid "| frame. . . . . . . . . .  play frame by frame"
@@ -15292,10 +15299,10 @@ msgid ""
 "autodetection, this should always work)."
 msgstr ""
 "Behartu azpitituluen formatua Balio hauek erabil daitezke : \"microdvd\", "
-"\"subrip\", \"subviewer\", \"ssa1\", \"ssa2-4\", \"ass\", \"vplayer\", \"sami\", "
-"\"dvdsubtitle\", \"mpl2\", \"aqt\", \"pjs\", \"mpsub\", \"jacosub\", \"psb\", \"realtext\", "
-"\"dks\", \"subviewer1\" eta \"auto\" (horrek detekzio automatikoa esan nahi du, "
-"eta beti funtzionatu beharko luke)."
+"\"subrip\", \"subviewer\", \"ssa1\", \"ssa2-4\", \"ass\", \"vplayer\", \"sami"
+"\", \"dvdsubtitle\", \"mpl2\", \"aqt\", \"pjs\", \"mpsub\", \"jacosub\", "
+"\"psb\", \"realtext\", \"dks\", \"subviewer1\" eta \"auto\" (horrek detekzio "
+"automatikoa esan nahi du, eta beti funtzionatu beharko luke)."
 
 #: modules/demux/subtitle.c:62
 msgid "Override the default track description."
@@ -15328,8 +15335,8 @@ msgstr "PMT gehigarria"
 #: modules/demux/ts.c:89
 msgid "Allows a user to specify an extra pmt (pmt_pid=pid:stream_type[,...])."
 msgstr ""
-"Erabiltzaile bati pmt gehigarri bat zehazteko aukera ematen dio "
-"(pmt_pid=pid:stream_type[,...])."
+"Erabiltzaile bati pmt gehigarri bat zehazteko aukera ematen dio (pmt_pid=pid:"
+"stream_type[,...])."
 
 #: modules/demux/ts.c:91
 msgid "Set id of ES to PID"
@@ -15563,7 +15570,8 @@ msgstr "Framebuffer-aren gailua"
 
 #: modules/gui/fbosd.c:104 modules/video_output/fb.c:58
 msgid "Framebuffer device to use for rendering (usually /dev/fb0)."
-msgstr "Errendatzeko erabili behar den framebuffer gailua (normalean /dev/fb0)."
+msgstr ""
+"Errendatzeko erabili behar den framebuffer gailua (normalean /dev/fb0)."
 
 #: modules/gui/fbosd.c:106
 msgid "Video aspect ratio"
@@ -15582,8 +15590,8 @@ msgstr "Irudi-fitxategia"
 #: modules/gui/fbosd.c:112
 msgid "Filename of image file to use on the overlay framebuffer."
 msgstr ""
-"Gainjartzeko framebuffer-ean erabili beharreko irudi-fitxategiaren "
-"fitxategi-izena."
+"Gainjartzeko framebuffer-ean erabili beharreko irudi-fitxategiaren fitxategi-"
+"izena."
 
 #: modules/gui/fbosd.c:114
 msgid "Transparency of the image"
@@ -15862,7 +15870,7 @@ msgstr "Denbora"
 #: modules/gui/macosx/bookmarks.m:214 modules/gui/macosx/bookmarks.m:265
 #: modules/gui/macosx/bookmarks.m:270 modules/gui/macosx/controls.m:54
 #: modules/gui/macosx/coredialogs.m:63 modules/gui/macosx/coredialogs.m:100
-#: modules/gui/macosx/coredialogs.m:158 modules/gui/macosx/open.m:318
+#: modules/gui/macosx/coredialogs.m:158 modules/gui/macosx/open.m:323
 #: modules/gui/macosx/output.m:138 modules/gui/macosx/playlistinfo.m:363
 #: modules/gui/macosx/simple_prefs.m:242 modules/gui/macosx/wizard.m:603
 #: modules/gui/macosx/wizard.m:666 modules/gui/macosx/wizard.m:1039
@@ -15980,33 +15988,33 @@ msgstr ""
 msgid "(no item is being played)"
 msgstr "(ez da elementurik erreproduzitzen ari)"
 
-#: modules/gui/macosx/intf.m:701 modules/gui/qt4/dialogs/messages.cpp:75
+#: modules/gui/macosx/intf.m:708 modules/gui/qt4/dialogs/messages.cpp:75
 #: modules/gui/qt4/ui/messages_panel.h:141
 #: modules/gui/qt4/ui/messages_panel.h:146
 msgid "Messages"
 msgstr "Mezuak"
 
-#: modules/gui/macosx/intf.m:702
+#: modules/gui/macosx/intf.m:709
 msgid "Open CrashLog..."
 msgstr "Ireki CrashLog..."
 
-#: modules/gui/macosx/intf.m:703
+#: modules/gui/macosx/intf.m:710
 msgid "Save this Log..."
 msgstr "Gorde egunkari hau..."
 
-#: modules/gui/macosx/intf.m:706
+#: modules/gui/macosx/intf.m:713
 msgid "Send"
 msgstr "Bidali"
 
-#: modules/gui/macosx/intf.m:707
+#: modules/gui/macosx/intf.m:714
 msgid "Don't Send"
 msgstr "Ez bidali"
 
-#: modules/gui/macosx/intf.m:708 modules/gui/macosx/intf.m:709
+#: modules/gui/macosx/intf.m:715 modules/gui/macosx/intf.m:716
 msgid "VLC crashed previously"
 msgstr "VLC kraskatu egin da lehenago"
 
-#: modules/gui/macosx/intf.m:710
+#: modules/gui/macosx/intf.m:717
 msgid ""
 "Do you want to send details on the crash to VLC's development team?\n"
 "\n"
@@ -16020,12 +16028,12 @@ msgstr ""
 "bestelako informazio lagungarriarekin batera: adibide-fitxategi bat "
 "deskargatzeko esteka bat, sareko transmisio jarraitu baten URL bat..."
 
-#: modules/gui/macosx/intf.m:711
+#: modules/gui/macosx/intf.m:718
 msgid "I agree to be possibly contacted about this bugreport."
 msgstr ""
 "Errore-txosten honi buruz nirekin harremanetan jartzeko baimena ematen dut."
 
-#: modules/gui/macosx/intf.m:712
+#: modules/gui/macosx/intf.m:719
 msgid ""
 "Only your default E-Mail address will be submitted, including no further "
 "information."
@@ -16033,32 +16041,32 @@ msgstr ""
 "Zure helbide elektroniko lehenetsia bakarrik bidaliko da, bestelako "
 "informaziorik gabe."
 
-#: modules/gui/macosx/intf.m:2021
+#: modules/gui/macosx/intf.m:2033
 msgid "No CrashLog found"
 msgstr "Ez da CrashLog-ik aurkitu"
 
-#: modules/gui/macosx/intf.m:2021 modules/gui/macosx/prefs.m:230
+#: modules/gui/macosx/intf.m:2033 modules/gui/macosx/prefs.m:230
 #: modules/gui/macosx/simple_prefs.m:758
 msgid "Continue"
 msgstr "Jarraitu"
 
-#: modules/gui/macosx/intf.m:2021
+#: modules/gui/macosx/intf.m:2033
 msgid "Couldn't find any trace of a previous crash."
 msgstr "Ezin izan da aurreko kraskadura baten arrastorik aurkitu."
 
-#: modules/gui/macosx/intf.m:2060
+#: modules/gui/macosx/intf.m:2072
 msgid "Remove old preferences?"
 msgstr "Hobespen zaharrak kendu?"
 
-#: modules/gui/macosx/intf.m:2061
+#: modules/gui/macosx/intf.m:2073
 msgid "We just found an older version of VLC's preferences files."
 msgstr "VLCren hobespen-fitxategien bertsio zaharragoa aurkitu dugu."
 
-#: modules/gui/macosx/intf.m:2062
+#: modules/gui/macosx/intf.m:2074
 msgid "Move To Trash and Relaunch VLC"
 msgstr "Eraman zakar-ontzira eta berrabiarazi VLC"
 
-#: modules/gui/macosx/intf.m:2177
+#: modules/gui/macosx/intf.m:2194
 #, c-format
 msgid "VLC Debug Log (%s).rtfd"
 msgstr "VLC arazketa-egunkaria (%s).rtfd"
@@ -16544,22 +16552,22 @@ msgid "Media Resource Locator (MRL)"
 msgstr "Media Resource Locator (MRL)"
 
 #: modules/gui/macosx/open.m:107 modules/gui/macosx/open.m:163
-#: modules/gui/macosx/open.m:625 modules/gui/macosx/open.m:935
-#: modules/gui/macosx/open.m:1159 modules/gui/macosx/open.m:1412
+#: modules/gui/macosx/open.m:630 modules/gui/macosx/open.m:939
+#: modules/gui/macosx/open.m:1168 modules/gui/macosx/open.m:1421
 #: modules/gui/qt4/components/controller.hpp:114
 msgid "Open"
 msgstr "Ireki"
 
-#: modules/gui/macosx/open.m:113 modules/gui/macosx/open.m:422
-#: modules/gui/macosx/open.m:485
+#: modules/gui/macosx/open.m:113 modules/gui/macosx/open.m:427
+#: modules/gui/macosx/open.m:490
 msgid "Capture"
 msgstr "Kapturatu"
 
-#: modules/gui/macosx/open.m:116 modules/gui/macosx/open.m:302
+#: modules/gui/macosx/open.m:116 modules/gui/macosx/open.m:307
 msgid "Choose a file"
 msgstr "Aukeratu fitxategia"
 
-#: modules/gui/macosx/open.m:118 modules/gui/macosx/open.m:306
+#: modules/gui/macosx/open.m:118 modules/gui/macosx/open.m:311
 #: modules/gui/macosx/output.m:145 modules/gui/macosx/prefs_widgets.m:1197
 #: modules/gui/macosx/simple_prefs.m:250 modules/gui/macosx/simple_prefs.m:312
 #: modules/gui/qt4/components/preferences_widgets.cpp:269
@@ -16579,7 +16587,7 @@ msgstr "Tratatu hodi gisa, fitxategi gisa tratatu ordez"
 msgid "Play another media synchronously"
 msgstr "Erreproduzitu beste multimedia-fitxategi bat sinkronizatuta"
 
-#: modules/gui/macosx/open.m:122 modules/gui/macosx/open.m:305
+#: modules/gui/macosx/open.m:122 modules/gui/macosx/open.m:310
 #: modules/gui/macosx/simple_prefs.m:288 modules/gui/macosx/wizard.m:349
 #: modules/gui/macosx/wizard.m:417 modules/gui/qt4/ui/sprefs_interface.h:540
 msgid "Choose..."
@@ -16666,18 +16674,18 @@ msgstr "Protokoloa"
 msgid "Address"
 msgstr "Helbidea"
 
-#: modules/gui/macosx/open.m:169 modules/gui/macosx/open.m:1055
-#: modules/gui/macosx/open.m:1113
+#: modules/gui/macosx/open.m:169 modules/gui/macosx/open.m:1064
+#: modules/gui/macosx/open.m:1122
 msgid "Unicast"
 msgstr "Banakako difusioa"
 
-#: modules/gui/macosx/open.m:170 modules/gui/macosx/open.m:1070
-#: modules/gui/macosx/open.m:1128
+#: modules/gui/macosx/open.m:170 modules/gui/macosx/open.m:1079
+#: modules/gui/macosx/open.m:1137
 msgid "Multicast"
 msgstr "Multidifusioa"
 
-#: modules/gui/macosx/open.m:178 modules/gui/macosx/open.m:436
-#: modules/gui/macosx/open.m:1241
+#: modules/gui/macosx/open.m:178 modules/gui/macosx/open.m:441
+#: modules/gui/macosx/open.m:1250
 msgid "Capture Device"
 msgstr "Kapturatu gailua"
 
@@ -16719,7 +16727,7 @@ msgstr "Aurreko kanala"
 msgid "Next Channel"
 msgstr "Hurrengo kanala"
 
-#: modules/gui/macosx/open.m:195 modules/gui/macosx/open.m:1339
+#: modules/gui/macosx/open.m:195 modules/gui/macosx/open.m:1348
 msgid "Retrieving Channel Info..."
 msgstr "Kanalaren informazioa eskuratzen..."
 
@@ -16758,53 +16766,53 @@ msgstr "Irudiaren zabalera:"
 msgid "Image height:"
 msgstr "Irudiaren altuera:"
 
-#: modules/gui/macosx/open.m:301
+#: modules/gui/macosx/open.m:306
 msgid "Load subtitles file:"
 msgstr "Kargatu azpitituluen fitxategia:"
 
-#: modules/gui/macosx/open.m:307
+#: modules/gui/macosx/open.m:312
 msgid "Override parameters"
 msgstr ""
 
-#: modules/gui/macosx/open.m:310
+#: modules/gui/macosx/open.m:315
 msgid "FPS"
 msgstr "FPS"
 
-#: modules/gui/macosx/open.m:312
+#: modules/gui/macosx/open.m:317
 msgid "Subtitles encoding"
 msgstr "Azpitituluen kodeketa"
 
-#: modules/gui/macosx/open.m:314 modules/gui/qt4/ui/sprefs_subtitles.h:280
+#: modules/gui/macosx/open.m:319 modules/gui/qt4/ui/sprefs_subtitles.h:280
 msgid "Font size"
 msgstr "Letra-tamaina"
 
-#: modules/gui/macosx/open.m:316
+#: modules/gui/macosx/open.m:321
 msgid "Subtitles alignment"
 msgstr "Azpitituluen lerrokatzea"
 
-#: modules/gui/macosx/open.m:319
+#: modules/gui/macosx/open.m:324
 msgid "Font Properties"
 msgstr "Letra-tipoen propietateak"
 
-#: modules/gui/macosx/open.m:320
+#: modules/gui/macosx/open.m:325
 msgid "Subtitle File"
 msgstr "Azpitituluen fitxategia"
 
-#: modules/gui/macosx/open.m:624 modules/gui/macosx/open.m:1158
-#: modules/gui/macosx/open.m:1411 modules/gui/qt4/ui/open_file.h:162
+#: modules/gui/macosx/open.m:629 modules/gui/macosx/open.m:1167
+#: modules/gui/macosx/open.m:1420 modules/gui/qt4/ui/open_file.h:162
 msgid "Open File"
 msgstr "Ireki fitxategia"
 
-#: modules/gui/macosx/open.m:854
+#: modules/gui/macosx/open.m:859
 #, c-format
 msgid "%i tracks"
 msgstr "%i pista"
 
-#: modules/gui/macosx/open.m:1345
+#: modules/gui/macosx/open.m:1354
 msgid "Composite input"
 msgstr "Sarrera konposatua"
 
-#: modules/gui/macosx/open.m:1348
+#: modules/gui/macosx/open.m:1357
 msgid "S-Video input"
 msgstr "S-Video sarrera"
 
@@ -16917,7 +16925,7 @@ msgid "Read at media"
 msgstr "Euskarritik irakurria"
 
 #: modules/gui/macosx/playlistinfo.m:102
-#: modules/gui/qt4/components/info_panels.cpp:523
+#: modules/gui/qt4/components/info_panels.cpp:525
 msgid "Input bitrate"
 msgstr "Sarrerako bit-emaria"
 
@@ -17863,8 +17871,8 @@ msgid ""
 msgstr ""
 "Adierazi eremu honetan multidifusioko zer helbidetara transmititu behar den "
 "modu jarraituan. 224.0.0.0 eta 239.255.255.255 arteko IP helbidea izan behar "
-"du. Erabilera pribaturako, adierazi 239.255 zenbakiarekin hasten den "
-"helbide bat."
+"du. Erabilera pribaturako, adierazi 239.255 zenbakiarekin hasten den helbide "
+"bat."
 
 #: modules/gui/macosx/wizard.m:282
 msgid ""
@@ -17923,9 +17931,9 @@ msgid ""
 "access to more features."
 msgstr ""
 "VLCren transmisio jarraituko eta transkodeketako gaitasunen azpimultzo txiki "
-"baterako sarbidea bakarrik ematen du morroi honek. 'Ireki' eta "
-"'Gorde/Transmisio jarraitua' elkarrizketa-koadroen bidez eginbide gehiago "
-"atzitu ahal izango dituzu."
+"baterako sarbidea bakarrik ematen du morroi honek. 'Ireki' eta 'Gorde/"
+"Transmisio jarraitua' elkarrizketa-koadroen bidez eginbide gehiago atzitu "
+"ahal izango dituzu."
 
 #: modules/gui/macosx/wizard.m:338 modules/gui/macosx/wizard.m:496
 #: modules/gui/macosx/wizard.m:1671
@@ -18049,8 +18057,7 @@ msgstr "Transmisio jarraituen aukera gehigarriak"
 #: modules/gui/macosx/wizard.m:402
 msgid "In this page, a few additional streaming parameters can be set."
 msgstr ""
-"Orri honetan, transmisio jarraituen parametro gehigarri batzuk ezar "
-"daitezke."
+"Orri honetan, transmisio jarraituen parametro gehigarri batzuk ezar daitezke."
 
 #: modules/gui/macosx/wizard.m:404 modules/gui/macosx/wizard.m:1859
 #: modules/gui/qt4/ui/sout.h:344
@@ -18242,14 +18249,12 @@ msgstr ""
 #: modules/gui/macosx/wizard.m:1809
 msgid "Select your audio codec. Click one to get more information."
 msgstr ""
-"Hautatu audio-kodeka. Egin klik baten gainean informazio gehiago "
-"eskuratzeko."
+"Hautatu audio-kodeka. Egin klik baten gainean informazio gehiago eskuratzeko."
 
 #: modules/gui/macosx/wizard.m:1826
 msgid "Select your video codec. Click one to get more information."
 msgstr ""
-"Hautatu bideo-kodeka. Egin klik baten gainean informazio gehiago "
-"eskuratzeko."
+"Hautatu bideo-kodeka. Egin klik baten gainean informazio gehiago eskuratzeko."
 
 #: modules/gui/macosx/wizard.m:1861
 msgid ""
@@ -18563,8 +18568,7 @@ msgstr "[Fitxategi-arakatzailea]"
 #: modules/gui/ncurses.c:922
 msgid " <enter>                Add the selected file to the playlist"
 msgstr ""
-" <sartu>                Gehitu hautatutako fitxategia erreprodukzio-"
-"zerrendan"
+" <sartu>                Gehitu hautatutako fitxategia erreprodukzio-zerrendan"
 
 #: modules/gui/ncurses.c:923
 msgid " <space>                Add the selected directory to the playlist"
@@ -18789,8 +18793,8 @@ msgstr "Ireki azpitituluen fitxategia"
 #: modules/gui/qt4/components/controller.hpp:134
 msgid "Dock/undock fullscreen controller to/from bottom of screen"
 msgstr ""
-"Atrakatu/desatrakatu pantaila osoaren kontrolatzailea pantailaren "
-"azpira/azpitik"
+"Atrakatu/desatrakatu pantaila osoaren kontrolatzailea pantailaren azpira/"
+"azpitik"
 
 #: modules/gui/qt4/components/controller_widget.cpp:136
 msgctxt "Tooltip|Unmute"
@@ -18900,11 +18904,13 @@ msgstr "Behartu elkarrizketa-koadro honen balioen eguneratzea"
 msgid "Comments"
 msgstr "Iruzkinak"
 
-#: modules/gui/qt4/components/info_panels.cpp:343
+#: modules/gui/qt4/components/info_panels.cpp:345
 msgid "Extra metadata and other information are shown in this panel.\n"
-msgstr "Metadatu gehigarriak eta bestelako informazioa panel honetan erakusten dira.\n"
+msgstr ""
+"Metadatu gehigarriak eta bestelako informazioa panel honetan erakusten "
+"dira.\n"
 
-#: modules/gui/qt4/components/info_panels.cpp:417
+#: modules/gui/qt4/components/info_panels.cpp:419
 msgid ""
 "Information about what your media or stream is made of.\n"
 "Muxer, Audio and Video Codecs, Subtitles are shown."
@@ -18913,81 +18919,81 @@ msgstr ""
 "duen informazioa.\n"
 "Multiplexadorea, audio- eta bideo-kodekak eta azpitituluak erakusten dira."
 
-#: modules/gui/qt4/components/info_panels.cpp:492
+#: modules/gui/qt4/components/info_panels.cpp:494
 msgid "Current media / stream statistics"
 msgstr "Uneko multimedia-fitxategiaren/transmisio jarraituaren estatistikak"
 
-#: modules/gui/qt4/components/info_panels.cpp:518
+#: modules/gui/qt4/components/info_panels.cpp:520
 msgid "Input/Read"
 msgstr "Sarrera/Irakurria"
 
-#: modules/gui/qt4/components/info_panels.cpp:519
+#: modules/gui/qt4/components/info_panels.cpp:521
 msgid "Output/Written/Sent"
 msgstr "Irteera/Idatzia/Bidalia"
 
-#: modules/gui/qt4/components/info_panels.cpp:521
+#: modules/gui/qt4/components/info_panels.cpp:523
 msgid "Media data size"
 msgstr "Multimedia-fitxategiko datuen tamaina"
 
-#: modules/gui/qt4/components/info_panels.cpp:525
+#: modules/gui/qt4/components/info_panels.cpp:527
 msgid "Demuxed data size"
 msgstr "Demultiplexatutako datuen tamaina"
 
-#: modules/gui/qt4/components/info_panels.cpp:526
+#: modules/gui/qt4/components/info_panels.cpp:528
 msgid "Content bitrate"
 msgstr "Edukiaren bit-emaria"
 
-#: modules/gui/qt4/components/info_panels.cpp:528
+#: modules/gui/qt4/components/info_panels.cpp:530
 msgid "Discarded (corrupted)"
 msgstr "Baztertuak (hondatuak)"
 
-#: modules/gui/qt4/components/info_panels.cpp:530
+#: modules/gui/qt4/components/info_panels.cpp:532
 msgid "Dropped (discontinued)"
 msgstr "Bertan behera utziak (etendakoak)"
 
-#: modules/gui/qt4/components/info_panels.cpp:533
-#: modules/gui/qt4/components/info_panels.cpp:546
+#: modules/gui/qt4/components/info_panels.cpp:535
+#: modules/gui/qt4/components/info_panels.cpp:548
 msgid "Decoded"
 msgstr "Deskodetuak"
 
-#: modules/gui/qt4/components/info_panels.cpp:534
-#: modules/gui/qt4/components/info_panels.cpp:547
+#: modules/gui/qt4/components/info_panels.cpp:536
+#: modules/gui/qt4/components/info_panels.cpp:549
 msgid "blocks"
 msgstr "bloke"
 
-#: modules/gui/qt4/components/info_panels.cpp:535
+#: modules/gui/qt4/components/info_panels.cpp:537
 msgid "Displayed"
 msgstr "Bistaratuak"
 
-#: modules/gui/qt4/components/info_panels.cpp:536
 #: modules/gui/qt4/components/info_panels.cpp:538
+#: modules/gui/qt4/components/info_panels.cpp:540
 msgid "frames"
 msgstr "marko"
 
-#: modules/gui/qt4/components/info_panels.cpp:537
-#: modules/gui/qt4/components/info_panels.cpp:550
+#: modules/gui/qt4/components/info_panels.cpp:539
+#: modules/gui/qt4/components/info_panels.cpp:552
 msgid "Lost"
 msgstr "Galduak"
 
-#: modules/gui/qt4/components/info_panels.cpp:540
-#: modules/gui/qt4/components/info_panels.cpp:541
+#: modules/gui/qt4/components/info_panels.cpp:542
+#: modules/gui/qt4/components/info_panels.cpp:543
 msgid "Sent"
 msgstr "Bidaliak"
 
-#: modules/gui/qt4/components/info_panels.cpp:540
+#: modules/gui/qt4/components/info_panels.cpp:542
 msgid "packets"
 msgstr "pakete"
 
-#: modules/gui/qt4/components/info_panels.cpp:543
+#: modules/gui/qt4/components/info_panels.cpp:545
 msgid "Upstream rate"
 msgstr "Goranzko emaria"
 
-#: modules/gui/qt4/components/info_panels.cpp:548
+#: modules/gui/qt4/components/info_panels.cpp:550
 msgid "Played"
 msgstr "Erreproduzituak"
 
-#: modules/gui/qt4/components/info_panels.cpp:549
-#: modules/gui/qt4/components/info_panels.cpp:550
+#: modules/gui/qt4/components/info_panels.cpp:551
+#: modules/gui/qt4/components/info_panels.cpp:552
 msgid "buffers"
 msgstr "buffer"
 
@@ -19011,25 +19017,25 @@ msgstr "Alderantzikatu erreprodukzio-emaria normalera"
 msgid "Download cover art"
 msgstr "Deskargatu karatula"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:567
+#: modules/gui/qt4/components/interface_widgets.cpp:572
 #: modules/gui/qt4/dialogs/toolbar.cpp:459
 msgid "Elapsed time"
 msgstr "Igarotako denbora"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:571
+#: modules/gui/qt4/components/interface_widgets.cpp:576
 #: modules/gui/qt4/dialogs/toolbar.cpp:463
 msgid "Total/Remaining time"
 msgstr "Osoa/falta den denbora"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:573
+#: modules/gui/qt4/components/interface_widgets.cpp:578
 msgid "Click to toggle between total and remaining time"
 msgstr "Egin klik denbora osoa eta falta den denbora txandakatzeko"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:579
+#: modules/gui/qt4/components/interface_widgets.cpp:584
 msgid "Click to toggle between elapsed and remaining time"
 msgstr "Egin klik igarotako denbora eta falta den denbora txandakatzeko"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:581
+#: modules/gui/qt4/components/interface_widgets.cpp:586
 msgid "Double click to jump to a chosen time position"
 msgstr "Egin klik bikoitza hautatutako denbora-posizio batera jauzi egiteko"
 
@@ -19439,8 +19445,8 @@ msgstr "Gorde fitxategia..."
 msgid ""
 "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv *.webm)"
 msgstr ""
-"Edukiontziak (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv "
-"*.webm)"
+"Edukiontziak (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv *."
+"webm)"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:152
 msgid "This module outputs the transcoded stream to a network via HTTP."
@@ -19830,7 +19836,8 @@ msgid ""
 "or the path to a file on your computer,\n"
 "it will be automatically selected."
 msgstr ""
-"Arbelak ordenagailuko fitxategi baten baliozko URLa edo bide-izena badauzka,\n"
+"Arbelak ordenagailuko fitxategi baten baliozko URLa edo bide-izena "
+"badauzka,\n"
 "\n"
 "automatikoki hautatuko da."
 
@@ -20850,8 +20857,8 @@ msgid ""
 "Lua interface configuration string. Format is: '[\"<interface module name>"
 "\"] = { <option> = <value>, ...}, ...'."
 msgstr ""
-"Lua interfazearen konfigurazioaren katea. Hau da formatua: '[\"<interfazearen "
-"modulu-izena>\"] = { <aukera> = <balioa>, ...}, ...'."
+"Lua interfazearen konfigurazioaren katea. Hau da formatua: "
+"'[\"<interfazearen modulu-izena>\"] = { <aukera> = <balioa>, ...}, ...'."
 
 #: modules/lua/vlc.c:62 modules/lua/vlc.c:63
 msgid "Source directory"
@@ -21038,7 +21045,8 @@ msgstr "Karatularen fitxategi-izena"
 
 #: modules/meta_engine/folder.c:65
 msgid "Filename to look for album art in current directory"
-msgstr "Albumaren karatula uneko direktorioko zer fitxategitan bilatu behar den"
+msgstr ""
+"Albumaren karatula uneko direktorioko zer fitxategitan bilatu behar den"
 
 #: modules/misc/audioscrobbler.c:116
 msgid "The username of your last.fm account"
@@ -21161,8 +21169,8 @@ msgid ""
 "Specify the log format. Available choices are \"text\" (default) and \"html"
 "\"."
 msgstr ""
-"Zehaztu egunkari-formatua. Erabilgarri dauden aukerak \"testua\" (lehenetsia) "
-"eta \"html\" dira."
+"Zehaztu egunkari-formatua. Erabilgarri dauden aukerak \"testua"
+"\" (lehenetsia) eta \"html\" dira."
 
 #: modules/misc/logger.c:124
 msgid ""
@@ -21181,7 +21189,8 @@ msgid ""
 "are \"user\" (default), \"daemon\", and \"local0\" through \"local7\"."
 msgstr ""
 "Hautatu egunkariak zer syslog zerbitzuetara bidaliko diren. Aukera hauek "
-"daude: \"erabiltzailea\" (lehenetsia), \"daemon\" eta \"local0\"etik \"local7\"ra."
+"daude: \"erabiltzailea\" (lehenetsia), \"daemon\" eta \"local0\"etik "
+"\"local7\"ra."
 
 #: modules/misc/logger.c:158
 msgid "Verbosity"
@@ -21267,8 +21276,8 @@ msgid ""
 "The default is 5."
 msgstr ""
 "RTSP saioaren identifikatzailearen kateari denbora-mugaren zer aukera gehitu "
-"behar zaion zehazten du . Zenbaki negatiboa ezartzen baduzu, denbora-"
-"mugaren aukera erabat kenduko da. IPTV STB batzuentzat beharrezkoa da hori "
+"behar zaion zehazten du . Zenbaki negatiboa ezartzen baduzu, denbora-mugaren "
+"aukera erabat kenduko da. IPTV STB batzuentzat beharrezkoa da hori "
 "(adibidez, HansunTech etxekoentzat), bestela nahastu egiten dira eta. "
 "Lehenespena 5 da."
 
@@ -21362,9 +21371,9 @@ msgid ""
 "Windows Media Player will cache streamed content. Set to audio+video bitrate "
 "in bytes"
 msgstr ""
-"Ez saiatu ASF bit-emaria asmatzen. Ezarpen honen bidez, Windows Media "
-"Player-ek modu jarraituan transmititutako edukia cachean nola gordeko duen "
-"kontrola dezakezu. Ezarri audioaren eta bideoaren bit-emaria bytetan"
+"Ez saiatu ASF bit-emaria asmatzen. Ezarpen honen bidez, Windows Media Player-"
+"ek modu jarraituan transmititutako edukia cachean nola gordeko duen kontrola "
+"dezakezu. Ezarri audioaren eta bideoaren bit-emaria bytetan"
 
 #: modules/mux/asf.c:73
 msgid "ASF muxer"
@@ -21565,8 +21574,8 @@ msgid ""
 "enhances the efficiency of the shaping algorithm, since I frames are usually "
 "the biggest frames in the stream."
 msgstr ""
-"Gaituta badago, eta \"shaping\" zehaztuta badago, TS multiplexadoreak mugak I "
-"irudien amaieran kokatuko ditu. Kasu horretan, erabiltzaileak adierazitako "
+"Gaituta badago, eta \"shaping\" zehaztuta badago, TS multiplexadoreak mugak "
+"I irudien amaieran kokatuko ditu. Kasu horretan, erabiltzaileak adierazitako "
 "shaping-aren iraupena kasurik txarrenean erabiliko da, hots, erreferentziako "
 "markorik erabilgarri ez dagoenean. Horrek shaping-algoritmoaren "
 "eraginkortasuna hobetzen du, I markoak transmisio jarraituko markorik "
@@ -21847,8 +21856,8 @@ msgstr "Podcast URLen zerrenda"
 #: modules/services_discovery/podcast.c:58
 msgid "Enter the list of podcasts to retrieve, separated by '|' (pipe)."
 msgstr ""
-"Sartu eskuratu beharreko podcast-en zerrenda, honen bidez bereizita: '|' "
-"(kanalizazioa)."
+"Sartu eskuratu beharreko podcast-en zerrenda, honen bidez bereizita: "
+"'|' (kanalizazioa)."
 
 #: modules/services_discovery/podcast.c:63
 msgid "Podcasts"
@@ -21863,7 +21872,7 @@ msgstr "Audio-kaptura"
 msgid "Audio capture (PulseAudio)"
 msgstr "Audio-kaptura (PulseAudio)"
 
-#: modules/services_discovery/pulse.c:183 modules/stream_out/es.c:85
+#: modules/services_discovery/pulse.c:186 modules/stream_out/es.c:85
 msgid "Generic"
 msgstr "Generikoa"
 
@@ -22419,7 +22428,8 @@ msgstr "RAOP"
 
 #: modules/stream_out/raop.c:162
 msgid "Remote Audio Output Protocol stream output"
-msgstr "Urruneko audio-irteeraren protokoloaren transmisio jarraituaren irteera"
+msgstr ""
+"Urruneko audio-irteeraren protokoloaren transmisio jarraituaren irteera"
 
 #: modules/stream_out/record.c:50
 msgid "Destination prefix"
@@ -22623,7 +22633,7 @@ msgstr ""
 msgid "RTP stream output"
 msgstr "RTP transmisio jarraituaren irteera"
 
-#: modules/stream_out/select.c:45 modules/stream_out/switcher.c:95
+#: modules/stream_out/select.c:45 modules/stream_out/switcher.c:97
 msgid "Command UDP port"
 msgstr "Komandoaren UDP ataka"
 
@@ -22793,9 +22803,9 @@ msgid ""
 "address:port to bind vlc to listening incoming streams helper setting for "
 "dst,dst=bind+'/'+path. dst-parameter overrides this"
 msgstr ""
-"vlc sarrerako transmisio jarraituei entzuteko lortu behar den "
-"helbidea:ataka, laguntzailearen ezarpena dst-rako, dst=lotu+'/'+bide-izena. "
-"dst-parameter-ek gainidatzi egiten du ezarpen hau"
+"vlc sarrerako transmisio jarraituei entzuteko lortu behar den helbidea:"
+"ataka, laguntzailearen ezarpena dst-rako, dst=lotu+'/'+bide-izena. dst-"
+"parameter-ek gainidatzi egiten du ezarpen hau"
 
 #: modules/stream_out/standard.c:54
 msgid "filename for stream (helper setting for dst)"
@@ -22807,70 +22817,70 @@ msgid ""
 "Filename for stream helper setting for dst, dst=bind+'/'+path, dst-parameter "
 "overrides this"
 msgstr ""
-"Transmisio jarraituaren laguntzailearen ezarpena dst-rako, dst=lotu"
-"+'/'+bide-izena, dst-parameter-ek gainidatzi egiten du ezarpen hau"
+"Transmisio jarraituaren laguntzailearen ezarpena dst-rako, dst=lotu+'/'+bide-"
+"izena, dst-parameter-ek gainidatzi egiten du ezarpen hau"
 
 #: modules/stream_out/standard.c:91
 msgid "Standard stream output"
 msgstr "Transmisio jarraituaren irteera estandarra"
 
-#: modules/stream_out/switcher.c:86 modules/gui/qt4/ui/sprefs_input.h:343
+#: modules/stream_out/switcher.c:88 modules/gui/qt4/ui/sprefs_input.h:343
 msgid "Files"
 msgstr "Fitxategiak"
 
-#: modules/stream_out/switcher.c:88
+#: modules/stream_out/switcher.c:90
 msgid "Full paths of the files separated by colons."
 msgstr "Fitxategien bide-izen osoak bi puntuz bereizita."
 
-#: modules/stream_out/switcher.c:89
+#: modules/stream_out/switcher.c:91
 msgid "Sizes"
 msgstr "Tamainak"
 
-#: modules/stream_out/switcher.c:91
+#: modules/stream_out/switcher.c:93
 msgid "List of sizes separated by colons (720x576:480x576)."
 msgstr "Tamainen zerrenda bi puntuz bereizita (720x576:480x576)."
 
-#: modules/stream_out/switcher.c:94
+#: modules/stream_out/switcher.c:96
 msgid "Aspect ratio (4:3, 16:9)."
 msgstr "Aspektu-erlazioa (4:3, 16:9)."
 
-#: modules/stream_out/switcher.c:97
+#: modules/stream_out/switcher.c:99
 msgid "UDP port to listen to for commands."
 msgstr "Komandoak entzuteko erabiliko den UDP ataka."
 
-#: modules/stream_out/switcher.c:98
+#: modules/stream_out/switcher.c:100
 msgid "Command"
 msgstr "Komandoa"
 
-#: modules/stream_out/switcher.c:100
+#: modules/stream_out/switcher.c:102
 msgid "Initial command to execute."
 msgstr "Exekutatu beharreko hasierako komandoa."
 
-#: modules/stream_out/switcher.c:101
+#: modules/stream_out/switcher.c:103
 msgid "GOP size"
 msgstr "GOP tamaina"
 
-#: modules/stream_out/switcher.c:103
+#: modules/stream_out/switcher.c:105
 msgid "Number of P frames between two I frames."
 msgstr "Bi I markoren arteko P markoen kopurua."
 
-#: modules/stream_out/switcher.c:104
+#: modules/stream_out/switcher.c:106
 msgid "Quantizer scale"
 msgstr "Kuantizatzailearen eskala"
 
-#: modules/stream_out/switcher.c:106
+#: modules/stream_out/switcher.c:108
 msgid "Fixed quantizer scale to use."
 msgstr "Erabili beharreko kuantizatzailearen eskala finkoa."
 
-#: modules/stream_out/switcher.c:107
+#: modules/stream_out/switcher.c:109
 msgid "Mute audio"
 msgstr "Mututu audioa"
 
-#: modules/stream_out/switcher.c:109
+#: modules/stream_out/switcher.c:111
 msgid "Mute audio when command is not 0."
 msgstr "Mututu audioa komandoa 0 ez denean."
 
-#: modules/stream_out/switcher.c:112
+#: modules/stream_out/switcher.c:114
 msgid "MPEG2 video switcher stream output"
 msgstr "MPEG2 bideo-kommutadorearen transmisio jarraituaren irteera"
 
@@ -23570,7 +23580,8 @@ msgstr "Erauzitako irudiaren altuera"
 
 #: modules/video_filter/atmo/atmo.cpp:195
 msgid "The height of the mini image for further processing (48 is default)"
-msgstr "Prozesatzen jarraitu behar den miniirudiaren altuera (48 da lehenetsia)"
+msgstr ""
+"Prozesatzen jarraitu behar den miniirudiaren altuera (48 da lehenetsia)"
 
 #: modules/video_filter/atmo/atmo.cpp:198
 msgid "Mark analyzed pixels"
@@ -23958,9 +23969,9 @@ msgid ""
 "Now preferred option to assign gradient bitmaps, put them as zone_0.bmp, "
 "zone_1.bmp etc. into one folder and set the foldername here"
 msgstr ""
-"Bit-mapa gradienteak esleitzeko hobetsitako aukera hau da: jar itzazu "
-"zone_0.bmp, zone_1.bmp eta abar gisa karpeta batean, eta ezarri karpetaren "
-"izena hemen"
+"Bit-mapa gradienteak esleitzeko hobetsitako aukera hau da: jar itzazu zone_0."
+"bmp, zone_1.bmp eta abar gisa karpeta batean, eta ezarri karpetaren izena "
+"hemen"
 
 #: modules/video_filter/atmo/atmo.cpp:352
 msgid "Filename of AtmoWin*.exe"
@@ -24014,7 +24025,8 @@ msgstr "Zonaren diseinua barneratutako Atmo-rako"
 
 #: modules/video_filter/atmo/atmo.cpp:496
 msgid "Settings for the built-in Live Video Processor only"
-msgstr "Barneratutako zuzeneko bideo-prozesadorearentzat soilik diren ezarpenak"
+msgstr ""
+"Barneratutako zuzeneko bideo-prozesadorearentzat soilik diren ezarpenak"
 
 #: modules/video_filter/atmo/atmo.cpp:533
 msgid "Change channel assignment (fixes wrong wiring)"
@@ -24123,8 +24135,8 @@ msgid ""
 "Set ball speed, the displacement value                                 in "
 "number of pixels by frame."
 msgstr ""
-"Ezarri bolaren emaria, desplazamenduaren balioa "
-"                                markoko pixel kopuruan adierazita."
+"Ezarri bolaren emaria, desplazamenduaren "
+"balioa                                 markoko pixel kopuruan adierazita."
 
 #: modules/video_filter/ball.c:107
 msgid "Ball size"
@@ -24237,10 +24249,10 @@ msgid ""
 "weather forecasts). You can choose the \"key\" color for blending (blue by "
 "default)."
 msgstr ""
-"Efektu honi \"pantaila berde\" edo \"krominantzia-gako\" ere deitzen zaio, eta "
-"aurreko planoko mosaikoko irudiaren \"zati urdinak\" nahasten ditu atzeko "
-"planoan (eguraldi-iragarpenetan bezala). Nahasteko kolore \"gakoa\" hauta "
-"dezakezu (lehenespenez urdina da)."
+"Efektu honi \"pantaila berde\" edo \"krominantzia-gako\" ere deitzen zaio, "
+"eta aurreko planoko mosaikoko irudiaren \"zati urdinak\" nahasten ditu "
+"atzeko planoan (eguraldi-iragarpenetan bezala). Nahasteko kolore \"gakoa\" "
+"hauta dezakezu (lehenespenez urdina da)."
 
 #: modules/video_filter/bluescreen.c:42
 msgid "Bluescreen U value"
@@ -24720,8 +24732,7 @@ msgstr "Gainjartzea"
 #: modules/video_filter/erase.c:56
 msgid "Image mask. Pixels with an alpha value greater than 50% will be erased."
 msgstr ""
-"Irudi-maskara. % 50etik gorako alfa balioa duten pixelak ezabatu egingo "
-"dira."
+"Irudi-maskara. % 50etik gorako alfa balioa duten pixelak ezabatu egingo dira."
 
 #: modules/video_filter/erase.c:59
 msgid "X coordinate of the mask."
@@ -24803,7 +24814,8 @@ msgstr "Distortsio modua"
 
 #: modules/video_filter/gradient.c:63
 msgid "Distort mode, one of \"gradient\", \"edge\" and \"hough\"."
-msgstr "Distortsio modua, hauetako bat: \"gradientea\", \"ertza\" eta\"hough\"."
+msgstr ""
+"Distortsio modua, hauetako bat: \"gradientea\", \"ertza\" eta\"hough\"."
 
 #: modules/video_filter/gradient.c:65
 msgid "Gradient image type"
@@ -24922,9 +24934,9 @@ msgid ""
 "simply enter its filename."
 msgstr ""
 "Erabili beharreko irudi-fitxategien bide-izen osoa. Formatua hau da: "
-"<irudia>[,<atzerapena ms-"
-"tan>[,<alfa>]][;<irudia>[,<atzerapena>[,<alpha>]]][;...]. Fitxategi bakarra "
-"badaukazu, nahikoa da haren fitxategi-izena sartzea."
+"<irudia>[,<atzerapena ms-tan>[,<alfa>]][;<irudia>[,<atzerapena>[,<alpha>]]]"
+"[;...]. Fitxategi bakarra badaukazu, nahikoa da haren fitxategi-izena "
+"sartzea."
 
 #: modules/video_filter/logo.c:52
 msgid "Logo animation # of loops"
@@ -26087,8 +26099,7 @@ msgid ""
 "will be automatically saved in users homedir."
 msgstr ""
 "Irudi-fitxategiak gorde behar diren direktorioaren bide-izena. Ezarrita ez "
-"badago, irudiak automatikoki gordeko dira erabiltzaileen direktorio "
-"nagusian."
+"badago, irudiak automatikoki gordeko dira erabiltzaileen direktorio nagusian."
 
 #: modules/video_filter/scene.c:84
 msgid "Always write to the same file"
@@ -26844,8 +26855,8 @@ msgid ""
 "overly large resolution may cause severe performance degration."
 msgstr ""
 "Bideo-irteeraren azelerazioko kontrolatzaileak ez du behar den irtenbidea "
-"onartzen: %ux%u pixel. Onartzen den gehienezko bereizmena %<PRIu32>x%"
-"<PRIu32> da.\n"
+"onartzen: %ux%u pixel. Onartzen den gehienezko bereizmena %<PRIu32>x"
+"%<PRIu32> da.\n"
 "Bideo-irteeraren azelerazioa desgaitu egingo da. Dena dela, bereizmen "
 "handiegia duten bideoak errendatuz gero, baliteke errendimendua nabarmen "
 "okerragotzea."
@@ -27060,7 +27071,8 @@ msgstr "Oinarriaren erradioa pixeletan"
 
 #: modules/visualization/visual/visual.c:78
 msgid "Defines radius size in pixels, of base of bands(beginning)."
-msgstr "Banden oinarriaren erradioaren tamaina pixeletan zehazten du (hasiera)."
+msgstr ""
+"Banden oinarriaren erradioaren tamaina pixeletan zehazten du (hasiera)."
 
 #: modules/visualization/visual/visual.c:80
 msgid "Spectral sections"
@@ -27528,9 +27540,10 @@ msgid ""
 "<p><span>rtsp://server.example.org:8080/test.sdp</span></p>\n"
 "<p><span>http://www.yourtube.com/watch?v=gg64x</span></p></body></html>"
 msgstr ""
-"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-"
-"html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "p { margin: 0; -qt-block-indent: 0; text-indent: 0;}\n"
 "body { font-family: 'sans'; font-size: 8pt; font-weight: 400; }\n"
@@ -28225,8 +28238,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "v4l2 onartzen duen DVB sarrera"
 
 #~ msgid ""
-#~ "RTP packets will be authenticated and deciphered with this Secure RTP master "
-#~ "shared secret key."
+#~ "RTP packets will be authenticated and deciphered with this Secure RTP "
+#~ "master shared secret key."
 #~ msgstr ""
 #~ "RTP paketeak autentifikatzeko eta deszifratzeko RTP seguruko gako sekretu "
 #~ "partekatu maisu hau erabiliko da."
@@ -28235,12 +28248,13 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "RTP seguruak gatz-balio maisua (ez-sekretua) eskatzen du."
 
 #~ msgid ""
-#~ "This option silences all other channels except the selected channel. Choose "
-#~ "one from (0=left, 1=right, 2=rear left, 3=rear right, 4=center, 5=left front)"
+#~ "This option silences all other channels except the selected channel. "
+#~ "Choose one from (0=left, 1=right, 2=rear left, 3=rear right, 4=center, "
+#~ "5=left front)"
 #~ msgstr ""
-#~ "Aukera honek beste kanal guztiak isilarazten ditu, hautatutako kanala izan "
-#~ "ezik. Aukeratu hauetako bat (0=ezkerrean, 1=eskuinean, 2=atzean ezkerrean, "
-#~ "3=atzean eskuinean, 4=erdian, 5=ezkerrean aurrean)"
+#~ "Aukera honek beste kanal guztiak isilarazten ditu, hautatutako kanala "
+#~ "izan ezik. Aukeratu hauetako bat (0=ezkerrean, 1=eskuinean, 2=atzean "
+#~ "ezkerrean, 3=atzean eskuinean, 4=erdian, 5=ezkerrean aurrean)"
 
 #~ msgid "Left rear"
 #~ msgstr "Atzean ezkerrean"
@@ -28273,25 +28287,28 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "ALSA gailua"
 
 #~ msgid ""
-#~ "One of \"u8\", \"s8\", \"u16\", \"s16\", \"u16_le\", \"s16_le\", \"u16_be\", "
-#~ "\"s16_be\", \"fixed32\", \"float32\" or \"spdif\""
+#~ "One of \"u8\", \"s8\", \"u16\", \"s16\", \"u16_le\", \"s16_le\", \"u16_be"
+#~ "\", \"s16_be\", \"fixed32\", \"float32\" or \"spdif\""
 #~ msgstr ""
-#~ "Hauetako bat:  \"u8\", \"s8\", \"u16\", \"s16\", \"u16_le\", \"s16_le\", \"u16_be\", "
-#~ "\"s16_be\", \"fixed32\", \"float32\" edo \"spdif\""
+#~ "Hauetako bat:  \"u8\", \"s8\", \"u16\", \"s16\", \"u16_le\", \"s16_le\", "
+#~ "\"u16_be\", \"s16_be\", \"fixed32\", \"float32\" edo \"spdif\""
 
 #~ msgid ""
-#~ "Force a strict standard compliance when encoding (accepted values: -1, 0, 1)."
-#~ msgstr ""
-#~ "Behartu estandarren betetze zorrotza kodetzean (onartutako balioak: -1, 0, "
+#~ "Force a strict standard compliance when encoding (accepted values: -1, 0, "
 #~ "1)."
+#~ msgstr ""
+#~ "Behartu estandarren betetze zorrotza kodetzean (onartutako balioak: -1, "
+#~ "0, 1)."
 
 #~ msgid "dbus"
 #~ msgstr "dbus"
 
 #~ msgid ""
-#~ "The IP address of The network master clock to use for clock synchronization."
+#~ "The IP address of The network master clock to use for clock "
+#~ "synchronization."
 #~ msgstr ""
-#~ "Erlojua sinkronizatzeko erabiliko den sareko erloju nagusiaren IP helbidea."
+#~ "Erlojua sinkronizatzeko erabiliko den sareko erloju nagusiaren IP "
+#~ "helbidea."
 
 #~ msgid "Duration in second"
 #~ msgstr "Iraupena (seg.)"
@@ -28300,11 +28317,12 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Irauli"
 
 #~ msgid ""
-#~ "By default, VLC uses the native fullscreen mode on Mac OS X 10.7 and later. "
-#~ "It can also use the custom mode known from previous Mac OS X releases."
+#~ "By default, VLC uses the native fullscreen mode on Mac OS X 10.7 and "
+#~ "later. It can also use the custom mode known from previous Mac OS X "
+#~ "releases."
 #~ msgstr ""
-#~ "Lehenespenez, pantaila osoaren modu natiboa erabiltzen du VLCk Mac OS X 10.7 "
-#~ "eta berriagoetan. Aurreko Mac OS X bertsioetatik ezaguna zen modu "
+#~ "Lehenespenez, pantaila osoaren modu natiboa erabiltzen du VLCk Mac OS X "
+#~ "10.7 eta berriagoetan. Aurreko Mac OS X bertsioetatik ezaguna zen modu "
 #~ "pertsonalizatua ere erabil dezake."
 
 #~ msgid "Clear Menu"
@@ -28329,11 +28347,11 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Begizta/Errepikatze modua"
 
 #~ msgid ""
-#~ "Specify the log format. Available choices are \"text\" (default), \"html\", "
-#~ "and \"syslog\" (special mode to send to syslog instead of file."
+#~ "Specify the log format. Available choices are \"text\" (default), \"html"
+#~ "\", and \"syslog\" (special mode to send to syslog instead of file."
 #~ msgstr ""
-#~ "Zehaztu egunkari-formatua. Erabilgarri dauden aukerak hauek dira: \"testua\" "
-#~ "(lehenetsia), \"html\" eta  \"syslog\" (fitxategiaren ordez syslog-era "
+#~ "Zehaztu egunkari-formatua. Erabilgarri dauden aukerak hauek dira: \"testua"
+#~ "\" (lehenetsia), \"html\" eta  \"syslog\" (fitxategiaren ordez syslog-era "
 #~ "bidaltzeko modu berezia."
 
 #~ msgid ""
@@ -28347,26 +28365,27 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "RTSP ostalariaren helbidea"
 
 #~ msgid ""
-#~ "This defines the address, port and path the RTSP VOD server will listen on.\n"
+#~ "This defines the address, port and path the RTSP VOD server will listen "
+#~ "on.\n"
 #~ "Syntax is address:port/path. The default is to listen on all interfaces "
 #~ "(address 0.0.0.0), on port 554, with no path.\n"
 #~ "To listen only on the local interface, use \"localhost\" as address."
 #~ msgstr ""
-#~ "RTSP VOD zerbitzaria zer helbide, ataka eta bide-izenetan zerrendatuko den "
-#~ "zehazten du.\n"
-#~ "Hau da sintaxia: helbidea:ataka/bide-izena. Interfaze guztietan entzutea da "
-#~ "lehenespena (0.0.0.0 helbidea), 554 atakan eta bide-izenik gabe.\n"
+#~ "RTSP VOD zerbitzaria zer helbide, ataka eta bide-izenetan zerrendatuko "
+#~ "den zehazten du.\n"
+#~ "Hau da sintaxia: helbidea:ataka/bide-izena. Interfaze guztietan entzutea "
+#~ "da lehenespena (0.0.0.0 helbidea), 554 atakan eta bide-izenik gabe.\n"
 #~ "Interfaze lokalean bakarrik entzuteko, erabili \"localhost\" helbide gisa."
 
 #~ msgid "Session groupname"
 #~ msgstr "Saioaren talde-izena"
 
 #~ msgid ""
-#~ "This allows you to specify a group for the session, that will be announced "
-#~ "if you choose to use SAP."
+#~ "This allows you to specify a group for the session, that will be "
+#~ "announced if you choose to use SAP."
 #~ msgstr ""
-#~ "Honen bidez, saiorako talde bat zehaztu dezakezu; SAP erabiltzea aukeratzen "
-#~ "baduzu, talde hori jakinaraziko da."
+#~ "Honen bidez, saiorako talde bat zehaztu dezakezu; SAP erabiltzea "
+#~ "aukeratzen baduzu, talde hori jakinaraziko da."
 
 #~ msgid "Ball color, one of \"red\", \"blue\" and \"green\"."
 #~ msgstr "Bolaren kolorea, \"gorria\", \"urdina\" edo \"berdea\"."
@@ -28457,21 +28476,19 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 
 #~ msgid ""
 #~ "\n"
-#~ "Warning: if you can't access the GUI anymore, open a command-line window, go "
-#~ "to the directory where you installed VLC and run \"vlc -I qt\"\n"
+#~ "Warning: if you can't access the GUI anymore, open a command-line window, "
+#~ "go to the directory where you installed VLC and run \"vlc -I qt\"\n"
 #~ msgstr ""
 #~ "\n"
-#~ "Abisua: ezin baduzu GUI atzitu, ireki komando-lerroaren leiho bat, joan VLC "
-#~ "instalatu duzun direktoriora, eta exekutatu \"vlc -I qt\"\n"
+#~ "Abisua: ezin baduzu GUI atzitu, ireki komando-lerroaren leiho bat, joan "
+#~ "VLC instalatu duzun direktoriora, eta exekutatu \"vlc -I qt\"\n"
 
-#, c-format
 #~ msgid "The maximum number of filters (%d) was reached."
 #~ msgstr "Iragazkien gehienezko kopurura (%d) iritsi zara."
 
 #~ msgid "key"
 #~ msgstr "tekla"
 
-#, c-format
 #~ msgid "Title %i"
 #~ msgstr "Titulua: %i"
 
@@ -28481,11 +28498,10 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgid "Web Interface"
 #~ msgstr "Web-interfazea"
 
-#, c-format
 #~ msgid ""
 #~ "Usage: %s [options] [stream] ...\n"
-#~ "You can specify multiple streams on the commandline. They will be enqueued "
-#~ "in the playlist.\n"
+#~ "You can specify multiple streams on the commandline. They will be "
+#~ "enqueued in the playlist.\n"
 #~ "The first item specified will be played first.\n"
 #~ "\n"
 #~ "Options-styles:\n"
@@ -28498,7 +28514,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "  [[access][/demux]://]URL[@[title][:chapter][-[title][:chapter]]] [:"
 #~ "option=value ...]\n"
 #~ "\n"
-#~ "  Many of the global --options can also be used as MRL specific :options.\n"
+#~ "  Many of the global --options can also be used as MRL specific :"
+#~ "options.\n"
 #~ "  Multiple :option=value pairs can be specified.\n"
 #~ "\n"
 #~ "URL syntax:\n"
@@ -28522,15 +28539,16 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "Lehenbizi adierazitako elementua lehenbizi erreproduzituko da.\n"
 #~ "\n"
 #~ "Estilo-aukerak:\n"
-#~ " --aukera  Programak irauten duen bitarterako ezarritako aukera orokorra.\n"
+#~ " --aukera  Programak irauten duen bitarterako ezarritako aukera "
+#~ "orokorra.\n"
 #~ "  -aukera   --aukera orokor baten letra bakarreko bertsio bat.\n"
-#~ "  :aukera  Zuzenean aurrean duen transmisio jarraituari bakarrik aplikatzen "
-#~ "zaion aukera, \n"
+#~ "  :aukera  Zuzenean aurrean duen transmisio jarraituari bakarrik "
+#~ "aplikatzen zaion aukera, \n"
 #~ "           eta aurreko ezarpenak baliogabetzen dituena.\n"
 #~ "\n"
 #~ "Transmisio jarraituaren MRL sintaxia:\n"
-#~ " [[access][/demux]://]URL[@[titulua][:kapitulua][-[titulua][:kapitulua]]] [:"
-#~ "aukera=balioa ...]\n"
+#~ " [[access][/demux]://]URL[@[titulua][:kapitulua][-[titulua][:kapitulua]]] "
+#~ "[:aukera=balioa ...]\n"
 #~ "\n"
 #~ " --aukera orokor asko berariaz MRLrenak diren :aukera gisa ere erabil "
 #~ "daitezke.\n"
@@ -28545,29 +28563,30 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ " [dvd://][gailua][@gailu_gordina]  DVD gailua\n"
 #~ " [vcd://][gailua]               VCD gailua\n"
 #~ " [cdda://][gailua]              Audio CD gailua\n"
-#~ " udp://[[<iturburuaren helbidea >]@[<loturaren helbidea >][:<loturaren ataka "
-#~ ">]]\n"
+#~ " udp://[[<iturburuaren helbidea >]@[<loturaren helbidea >][:<loturaren "
+#~ "ataka >]]\n"
 #~ "                                Transmisio jarraituen zerbitzari batek "
 #~ "bidalitako UDP transmisio\n"
 #~ " jarraitua  vlc://pause:<segundo>          Erreprodukzio-zerrenda denbora "
 #~ "jakin baterako pausarazteko\n"
-#~ " elementu berezia  vlc://quit                     VLCtik ateratzeko elementu "
-#~ "berezia\n"
+#~ " elementu berezia  vlc://quit                     VLCtik ateratzeko "
+#~ "elementu berezia\n"
 
 #~ msgid ""
-#~ "This is a ',' separated string, each objects should be prefixed by a '+' or "
-#~ "a '-' to respectively enable or disable it. The keyword 'all' refers to all "
-#~ "objects. Objects can be refered to by their type or module name. Rules "
-#~ "applying to named objects take precedence over rules applying to object "
-#~ "types. Note that you still need to use -vvv to actually display debug "
-#~ "message."
+#~ "This is a ',' separated string, each objects should be prefixed by a '+' "
+#~ "or a '-' to respectively enable or disable it. The keyword 'all' refers "
+#~ "to all objects. Objects can be refered to by their type or module name. "
+#~ "Rules applying to named objects take precedence over rules applying to "
+#~ "object types. Note that you still need to use -vvv to actually display "
+#~ "debug message."
 #~ msgstr ""
 #~ "Hau komaz bereizitako kate bat da; objektu bakoitzak aurretik '+' edo '-' "
 #~ "ikur bat eduki beharko luke gaitu edo desgaitzeko, hurrenez hurren. 'all' "
 #~ "gako-hitzak objektu guztiak adierazten ditu. Objektuak beraien motaz edo "
-#~ "modulu-izenez adieraz daitezke. Objektu izendunei aplikatzen zaizkien arauek "
-#~ "lehentasuna dute objektu motei aplikatzen zaizkien arauen gainetik. Kontuan "
-#~ "izan -vvv erabiltzen jarraitu beharko duzula arazketa-mezuak bistaratzeko."
+#~ "modulu-izenez adieraz daitezke. Objektu izendunei aplikatzen zaizkien "
+#~ "arauek lehentasuna dute objektu motei aplikatzen zaizkien arauen "
+#~ "gainetik. Kontuan izan -vvv erabiltzen jarraitu beharko duzula arazketa-"
+#~ "mezuak bistaratzeko."
 
 #~ msgid "Audio output saved volume"
 #~ msgstr "Audio-irteeraren gordetako bolumena"
@@ -28576,15 +28595,16 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "This saves the audio output volume when you use the mute function. You "
 #~ "should not change this option manually."
 #~ msgstr ""
-#~ "Honek audio-irteeraren bolumena gordetzen du \"mututu\" funtzioa erabiltzen "
-#~ "duzunean. Ez zenuke aukera hau eskuz aldatu behar."
+#~ "Honek audio-irteeraren bolumena gordetzen du \"mututu\" funtzioa "
+#~ "erabiltzen duzunean. Ez zenuke aukera hau eskuz aldatu behar."
 
 #~ msgid ""
 #~ "You can force the audio output frequency here. Common values are -1 "
 #~ "(default), 48000, 44100, 32000, 22050, 16000, 11025, 8000."
 #~ msgstr ""
-#~ "Audio-irteeraren maiztasuna behartu dezakezu hemen. Balio arruntenak hauek "
-#~ "dira: -1 (lehenetsia), 48000, 44100, 32000, 22050, 16000, 11025, 8000."
+#~ "Audio-irteeraren maiztasuna behartu dezakezu hemen. Balio arruntenak "
+#~ "hauek dira: -1 (lehenetsia), 48000, 44100, 32000, 22050, 16000, 11025, "
+#~ "8000."
 
 #~ msgid "Enable time streching audio"
 #~ msgstr "Gaitu audioaren denbora-luzatzea"
@@ -28593,8 +28613,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "This allows to play audio at lower or higher speed without affecting the "
 #~ "audio pitch"
 #~ msgstr ""
-#~ "Ezarpen honen bidez, audioa abiadura handiagoan edo mantsoagoan erreproduzi "
-#~ "daitezke, audioaren tonuari eragin gabe"
+#~ "Ezarpen honen bidez, audioa abiadura handiagoan edo mantsoagoan "
+#~ "erreproduzi daitezke, audioaren tonuari eragin gabe"
 
 #~ msgid ""
 #~ "X11 hardware display to use. By default VLC will use the value of the "
@@ -28604,8 +28624,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "ingurune-aldagaiaren balioa erabiliko du."
 
 #~ msgid ""
-#~ "Hide mouse cursor and fullscreen controller after n milliseconds, default is "
-#~ "3000 ms (3 sec.)"
+#~ "Hide mouse cursor and fullscreen controller after n milliseconds, default "
+#~ "is 3000 ms (3 sec.)"
 #~ msgstr ""
 #~ "Ezkutatu kurtsorea eta pantaila osoaren kontroladorea n milisegundo igaro "
 #~ "ondoren; lehenespena 3000 ms da (3 seg)"
@@ -28615,8 +28635,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 
 #~ msgid "This adds video output filters like clone or wall"
 #~ msgstr ""
-#~ "Ezarpen honek bideo-irteerako iragazkiak gehitzen ditu, adibidez, klona edo "
-#~ "horma"
+#~ "Ezarpen honek bideo-irteerako iragazkiak gehitzen ditu, adibidez, klona "
+#~ "edo horma"
 
 #~ msgid ""
 #~ "It tells the clock algorithms what is the maximal input jitter that is "
@@ -28637,34 +28657,36 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "IPv4 multidifusioko irteerako interfazearen helbidea"
 
 #~ msgid ""
-#~ "IPv4 address for the default multicast interface. This overrides the routing "
-#~ "table."
+#~ "IPv4 address for the default multicast interface. This overrides the "
+#~ "routing table."
 #~ msgstr ""
 #~ "Multidifusioko interfaze lehenetsiaren IPv4 helbidea. Bideratze-taula "
 #~ "gainidazten du."
 
 #~ msgid ""
-#~ "These options allow you to modify the behavior of the subpictures subsystem. "
-#~ "You can for example enable subpictures filters (logo, etc.). Enable these "
-#~ "filters here and configure them in the \"subpictures filters\" modules "
-#~ "section. You can also set many miscellaneous subpictures options."
+#~ "These options allow you to modify the behavior of the subpictures "
+#~ "subsystem. You can for example enable subpictures filters (logo, etc.). "
+#~ "Enable these filters here and configure them in the \"subpictures filters"
+#~ "\" modules section. You can also set many miscellaneous subpictures "
+#~ "options."
 #~ msgstr ""
 #~ "Aukera hauen bidez azpiirudien azpisistemaren portaera alda dezakezu. "
-#~ "Adibidez, azpiirudien iragazkiak gaitu ditzakezu (logotipoa, etab.). Gaitu "
-#~ "iragazki horiek hemen, eta konfigura itzazu \"azpiirudien iragazkiak\" "
-#~ "moduluen atalean. Askotariko azpiirudien aukera ugari ere ezar ditzakezu."
+#~ "Adibidez, azpiirudien iragazkiak gaitu ditzakezu (logotipoa, etab.). "
+#~ "Gaitu iragazki horiek hemen, eta konfigura itzazu \"azpiirudien iragazkiak"
+#~ "\" moduluen atalean. Askotariko azpiirudien aukera ugari ere ezar "
+#~ "ditzakezu."
 
 #~ msgid ""
 #~ "This adds so-called \"subpicture filters\". These filters overlay some "
 #~ "images or text over the video (like a logo, arbitrary text, ...)."
 #~ msgstr ""
-#~ "Ezarpen honek \"azpiirudien iragazkiak\" deiturikoak eransten ditu. Iragazki "
-#~ "hauek irudi batzuk edo testua gainjartzen diote bideoari (adibidez, logotipo "
-#~ "bat, zuk nahi duzun testua, ...)."
+#~ "Ezarpen honek \"azpiirudien iragazkiak\" deiturikoak eransten ditu. "
+#~ "Iragazki hauek irudi batzuk edo testua gainjartzen diote bideoari "
+#~ "(adibidez, logotipo bat, zuk nahi duzun testua, ...)."
 
 #~ msgid ""
-#~ "This is the default DVD drive (or file) to use. Don't forget the colon after "
-#~ "the drive letter (eg. D:)"
+#~ "This is the default DVD drive (or file) to use. Don't forget the colon "
+#~ "after the drive letter (eg. D:)"
 #~ msgstr ""
 #~ "Erabili beharreko DVD unitate (edo fitxategi) lehenetsia. Ez ahaztu "
 #~ "unitatearen letraren ondorengo bi puntuak (adibidez, D:)"
@@ -28695,8 +28717,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Gaitu PUZaren MMX euskarria"
 
 #~ msgid ""
-#~ "If your processor supports the MMX instructions set, VLC can take advantage "
-#~ "of them."
+#~ "If your processor supports the MMX instructions set, VLC can take "
+#~ "advantage of them."
 #~ msgstr ""
 #~ "Prozesadoreak MMX  jarraibide multzoa onartzen badu, VLC horretaz balia "
 #~ "daiteke."
@@ -28708,8 +28730,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "If your processor supports the 3D Now! instructions set, VLC can take "
 #~ "advantage of them."
 #~ msgstr ""
-#~ "Prozesadoreak 3D Now! jarraibide multzoa onartzen badu, VLC horretaz balia "
-#~ "daiteke."
+#~ "Prozesadoreak 3D Now! jarraibide multzoa onartzen badu, VLC horretaz "
+#~ "balia daiteke."
 
 #~ msgid "Enable CPU MMX EXT support"
 #~ msgstr "Gaitu PUZaren MMX EXT euskarria"
@@ -28718,15 +28740,15 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "If your processor supports the MMX EXT instructions set, VLC can take "
 #~ "advantage of them."
 #~ msgstr ""
-#~ "Prozesadoreak MMX EXT jarraibide multzoa onartzen badu, VLC horretaz balia "
-#~ "daiteke."
+#~ "Prozesadoreak MMX EXT jarraibide multzoa onartzen badu, VLC horretaz "
+#~ "balia daiteke."
 
 #~ msgid "Enable CPU SSE support"
 #~ msgstr "Gaitu PUZaren SSE euskarria"
 
 #~ msgid ""
-#~ "If your processor supports the SSE instructions set, VLC can take advantage "
-#~ "of them."
+#~ "If your processor supports the SSE instructions set, VLC can take "
+#~ "advantage of them."
 #~ msgstr ""
 #~ "Prozesadoreak SSE  jarraibide multzoa onartzen badu, VLC horretaz balia "
 #~ "daiteke."
@@ -28735,8 +28757,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Gaitu PUZaren SSE2 euskarria"
 
 #~ msgid ""
-#~ "If your processor supports the SSE2 instructions set, VLC can take advantage "
-#~ "of them."
+#~ "If your processor supports the SSE2 instructions set, VLC can take "
+#~ "advantage of them."
 #~ msgstr ""
 #~ "Prozesadoreak SSE2  jarraibide multzoa onartzen badu, VLC horretaz balia "
 #~ "daiteke."
@@ -28745,8 +28767,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Gaitu PUZaren SSE3 euskarria"
 
 #~ msgid ""
-#~ "If your processor supports the SSE3 instructions set, VLC can take advantage "
-#~ "of them."
+#~ "If your processor supports the SSE3 instructions set, VLC can take "
+#~ "advantage of them."
 #~ msgstr ""
 #~ "Prozesadoreak SSE3 jarraibide multzoa onartzen badu, VLC horretaz balia "
 #~ "daiteke."
@@ -28768,8 +28790,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "If your processor supports the SSE4.1 instructions set, VLC can take "
 #~ "advantage of them."
 #~ msgstr ""
-#~ "Prozesadoreak SSE4.1  jarraibide multzoa onartzen badu, VLC horretaz balia "
-#~ "daiteke."
+#~ "Prozesadoreak SSE4.1  jarraibide multzoa onartzen badu, VLC horretaz "
+#~ "balia daiteke."
 
 #~ msgid "Enable CPU SSE4.2 support"
 #~ msgstr "Gaitu PUZaren SSE4.2 euskarria"
@@ -28778,8 +28800,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "If your processor supports the SSE4.2 instructions set, VLC can take "
 #~ "advantage of them."
 #~ msgstr ""
-#~ "Prozesadoreak SSE4.2  jarraibide multzoa onartzen badu, VLC horretaz balia "
-#~ "daiteke."
+#~ "Prozesadoreak SSE4.2  jarraibide multzoa onartzen badu, VLC horretaz "
+#~ "balia daiteke."
 
 #~ msgid "Enable CPU AltiVec support"
 #~ msgstr "Gaitu PUZaren AltiVec euskarria"
@@ -28788,15 +28810,15 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "If your processor supports the AltiVec instructions set, VLC can take "
 #~ "advantage of them."
 #~ msgstr ""
-#~ "Prozesadoreak AltiVec jarraibide multzoa onartzen badu, VLC horretaz balia "
-#~ "daiteke."
+#~ "Prozesadoreak AltiVec jarraibide multzoa onartzen badu, VLC horretaz "
+#~ "balia daiteke."
 
 #~ msgid ""
 #~ "Specifies the services discovery modules to load, separated by colons. "
 #~ "Typical values are sap, hal, ..."
 #~ msgstr ""
-#~ "Kargatu beharreko zerbitzu-aurkikuntzako moduluak zehazten ditu, bi puntuz "
-#~ "bereizita. Ohiko balioak hauek dira: sap, hal, ..."
+#~ "Kargatu beharreko zerbitzu-aurkikuntzako moduluak zehazten ditu, bi "
+#~ "puntuz bereizita. Ohiko balioak hauek dira: sap, hal, ..."
 
 #~ msgid "Go back in browsing history"
 #~ msgstr "Joan atzera historian"
@@ -28819,7 +28841,6 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgid "Media dump access filter trigger."
 #~ msgstr "Abiarazi multimedia-fitxategiak iraultzeko atzipen-iragazkia."
 
-#, c-format
 #~ msgid ""
 #~ "%s\n"
 #~ "Done %s (100.0%%)"
@@ -28833,7 +28854,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgid ""
 #~ "Caching value for Alsa captures. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Cache-balioa Alsa kapturetarako. Balio hori milisegundotan zehaztu behar da."
+#~ "Cache-balioa Alsa kapturetarako. Balio hori milisegundotan zehaztu behar "
+#~ "da."
 
 #~ msgid "Alsa"
 #~ msgstr "Alsa"
@@ -28857,8 +28879,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Doitu beharreko moldagailu-txartela"
 
 #~ msgid ""
-#~ "Adapter cards have a device file in directory named /dev/dvb/adapter[n] with "
-#~ "n>=0."
+#~ "Adapter cards have a device file in directory named /dev/dvb/adapter[n] "
+#~ "with n>=0."
 #~ msgstr ""
 #~ "Moldagailu-txartelek n>=0 den gailu-fitxategi bat dute izen honetako "
 #~ "direktorioan: /dev/dvb/adapter[n]."
@@ -28876,15 +28898,17 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Alderantzikatze modua"
 
 #~ msgid "Inversion mode [0=off, 1=on, 2=auto]"
-#~ msgstr "Alderantzikatze modua [0=desaktibatuta, 1=aktibatuta, 2=automatikoa]"
+#~ msgstr ""
+#~ "Alderantzikatze modua [0=desaktibatuta, 1=aktibatuta, 2=automatikoa]"
 
 #~ msgid "Budget mode"
 #~ msgstr "Aurrezte modua"
 
-#~ msgid "This allows you to stream an entire transponder with a \"budget\" card."
+#~ msgid ""
+#~ "This allows you to stream an entire transponder with a \"budget\" card."
 #~ msgstr ""
-#~ "Ezarpen honek aukera ematen ditu transpondedore oso bat \"aurrezte\" txartel "
-#~ "batekin modu jarraituan transmititzeko."
+#~ "Ezarpen honek aukera ematen ditu transpondedore oso bat \"aurrezte\" "
+#~ "txartel batekin modu jarraituan transmititzeko."
 
 #~ msgid "Network Identifier"
 #~ msgstr "Sare-identifikatzailea"
@@ -29007,7 +29031,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "7/8"
 
 #~ msgid "Terrestrial low priority stream code rate (FEC)"
-#~ msgstr "Lurreko lehentasun txikiko transmisio jarraituaren kode-emaria (FEC)"
+#~ msgstr ""
+#~ "Lurreko lehentasun txikiko transmisio jarraituaren kode-emaria (FEC)"
 
 #~ msgid "Low Priority FEC Rate [Undefined,1/2,2/3,3/4,5/6,7/8]"
 #~ msgstr "Lehentasun txikiko FEC emaria [zehaztu gabe,1/2,2/3,3/4,5/6,7/8]"
@@ -29093,10 +29118,11 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgid "Satellite Range Code"
 #~ msgstr "Satelitearen barruti-kodea"
 
-#~ msgid "Satellite Range Code as defined by manufacturer e.g. DISEqC switch code"
+#~ msgid ""
+#~ "Satellite Range Code as defined by manufacturer e.g. DISEqC switch code"
 #~ msgstr ""
-#~ "Satelitearen barruti-kodea fabrikatzaileak definitu bezala, adibidez: DISEqC "
-#~ "kommutadore-kodea"
+#~ "Satelitearen barruti-kodea fabrikatzaileak definitu bezala, adibidez: "
+#~ "DISEqC kommutadore-kodea"
 
 #~ msgid "Network Name"
 #~ msgstr "Sare-izena"
@@ -29124,7 +29150,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "Cache-balioa DirectShow transmisio jarraituetarako. Balio hori "
 #~ "milisegundotan zehaztu behar da."
 
-#~ msgid "Caching value for DV streams. This value should be set in milliseconds."
+#~ msgid ""
+#~ "Caching value for DV streams. This value should be set in milliseconds."
 #~ msgstr ""
 #~ "Cache-balioa DV transmisio jarraituetarako. Balio hori milisegundotan "
 #~ "zehaztu behar da."
@@ -29133,7 +29160,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Interfaze-gailurako modulazio modua."
 
 #~ msgid "Terrestrial high priority stream code rate (FEC)"
-#~ msgstr "Lurreko lehentasun handiko transmisio jarraituaren kode-emaria (FEC)"
+#~ msgstr ""
+#~ "Lurreko lehentasun handiko transmisio jarraituaren kode-emaria (FEC)"
 
 #~ msgid "HTTP Host address"
 #~ msgstr "HTTP ostalariaren helbidea"
@@ -29164,18 +29192,19 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "HTTP ACL"
 
 #~ msgid ""
-#~ "Access control list (equivalent to .hosts) file path, which will limit the "
-#~ "range of IPs entitled to log into the internal HTTP server."
+#~ "Access control list (equivalent to .hosts) file path, which will limit "
+#~ "the range of IPs entitled to log into the internal HTTP server."
 #~ msgstr ""
 #~ "Atzipen-kontroleko zerrendaren (.hosts-en baliokidea) fitxategiaren bide-"
-#~ "izena; barruko HTTP zerbitzarian saioa hasteko baimena duten IPen barrutia "
-#~ "mugatuko du."
+#~ "izena; barruko HTTP zerbitzarian saioa hasteko baimena duten IPen "
+#~ "barrutia mugatuko du."
 
 #~ msgid "Certificate file"
 #~ msgstr "Ziurtagiri-fitxategia"
 
 #~ msgid "HTTP interface x509 PEM certificate file (enables SSL)"
-#~ msgstr "HTTP interfazearen x509 PEM ziurtagiriaren fitxategia (SSL gaitzen du)"
+#~ msgstr ""
+#~ "HTTP interfazearen x509 PEM ziurtagiriaren fitxategia (SSL gaitzen du)"
 
 #~ msgid "Private key file"
 #~ msgstr "Gako pribatuaren fitxategia"
@@ -29203,8 +29232,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Sarreraren sintaxia zaharkituta dago"
 
 #~ msgid ""
-#~ "The given syntax is deprecated. Run \"vlc -p dvb\" to see an explanation of "
-#~ "the new syntax."
+#~ "The given syntax is deprecated. Run \"vlc -p dvb\" to see an explanation "
+#~ "of the new syntax."
 #~ msgstr ""
 #~ "Adierazitako sintaxia zaharkituta dago. Exekutatu \"vlc -p dvb\" sintaxi "
 #~ "berriaren azalpena ikusteko."
@@ -29212,11 +29241,9 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgid "Invalid polarization"
 #~ msgstr "Polarizazio baliogabea"
 
-#, c-format
 #~ msgid "The provided polarization \"%c\" is not valid."
 #~ msgstr "Adierazitako \"%c\" polarizazioa ez da baliozkoa."
 
-#, c-format
 #~ msgid "%.1f MHz (%d services)"
 #~ msgstr "%.1f MHz (%d zerbitzu)"
 
@@ -29224,12 +29251,15 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "DVB analizatzen"
 
 #~ msgid "Caching value for DVDs. This value should be set in milliseconds."
-#~ msgstr "DVDetarako cache-balioa. Balio hori milisegundotan zehaztu behar da."
+#~ msgstr ""
+#~ "DVDetarako cache-balioa. Balio hori milisegundotan zehaztu behar da."
 
 #~ msgid ""
-#~ "Caching value for EyeTV captures. This value should be set in milliseconds."
+#~ "Caching value for EyeTV captures. This value should be set in "
+#~ "milliseconds."
 #~ msgstr ""
-#~ "Cache-balioa EyeTV kapturetarako. Balio hori milisegundotan zehaztu behar da."
+#~ "Cache-balioa EyeTV kapturetarako. Balio hori milisegundotan zehaztu behar "
+#~ "da."
 
 #~ msgid ""
 #~ "Caching value for fake streams. This value should be set in milliseconds."
@@ -29241,19 +29271,19 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Marko kopurua segundoko (ad. 24, 25, 29.97, 30)."
 
 #~ msgid ""
-#~ "Set the ID of the fake elementary stream for use in #duplicate{} constructs "
-#~ "(default 0)."
+#~ "Set the ID of the fake elementary stream for use in #duplicate{} "
+#~ "constructs (default 0)."
 #~ msgstr ""
-#~ "Ezarri oinarrizko transmisio jarraitu faltsuaren identifikatzailea #duplicate"
-#~ "{} elementuetan erabiltzeko (lehenetsia 0)."
+#~ "Ezarri oinarrizko transmisio jarraitu faltsuaren identifikatzailea "
+#~ "#duplicate{} elementuetan erabiltzeko (lehenetsia 0)."
 
 #~ msgid "Duration in ms"
 #~ msgstr "Iraupena ms-tan"
 
 #~ msgid ""
-#~ "Duration of the fake streaming before faking an end-of-file (default is -1 "
-#~ "meaning that the stream is unlimited when fake is forced, or lasts for 10 "
-#~ "seconds otherwise. 0, means that the stream is unlimited)."
+#~ "Duration of the fake streaming before faking an end-of-file (default is "
+#~ "-1 meaning that the stream is unlimited when fake is forced, or lasts for "
+#~ "10 seconds otherwise. 0, means that the stream is unlimited)."
 #~ msgstr ""
 #~ "Transmisio jarraitu faltsuaren iraupena fitxategi-amaiera bat faltsutu "
 #~ "aurretik (lehenetsia -1 da, eta horrek esan nahi du transmisio jarraitua "
@@ -29266,7 +29296,6 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgid "Fake video input"
 #~ msgstr "Bideo-sarrera faltsua"
 
-#, c-format
 #~ msgid "VLC could not open the file \"%s\"."
 #~ msgstr "VLCk ezin izan du \"%s\" fitxategia ireki."
 
@@ -29289,10 +29318,11 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "zehaztu behar da."
 
 #~ msgid ""
-#~ "Caching value for GnomeVFS streams.This value should be set in milliseconds."
+#~ "Caching value for GnomeVFS streams.This value should be set in "
+#~ "milliseconds."
 #~ msgstr ""
-#~ "GnomeVFS transmisio jarraituetarako cache-balioa. Balio hori milisegundotan "
-#~ "adierazi behar da."
+#~ "GnomeVFS transmisio jarraituetarako cache-balioa. Balio hori "
+#~ "milisegundotan adierazi behar da."
 
 #~ msgid ""
 #~ "Caching value for HTTP streams. This value should be set in milliseconds."
@@ -29316,12 +29346,12 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Erabili Internet Explorer-en konfiguratutako HTTP proxy-zerbitzaria"
 
 #~ msgid ""
-#~ "Use Internet Explorer entered HTTP proxy server for all URL. Don't take into "
-#~ "account bypasses settings and auto configuration scripts."
+#~ "Use Internet Explorer entered HTTP proxy server for all URL. Don't take "
+#~ "into account bypasses settings and auto configuration scripts."
 #~ msgstr ""
 #~ "Erabili Internet Explorer-en konfiguratutako HTTP proxy-zerbitzaria URL "
-#~ "guztietarako. Ez hartu kontuan kontuen saltatze-ezarpenak eta konfigurazio "
-#~ "automatikoko scriptak."
+#~ "guztietarako. Ez hartu kontuan kontuen saltatze-ezarpenak eta "
+#~ "konfigurazio automatikoko scriptak."
 
 #~ msgid ""
 #~ "Caching value for imem streams. This value should be set in milliseconds."
@@ -29341,7 +29371,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 
 #~ msgid "Try to use memory mapping to read files and block devices."
 #~ msgstr ""
-#~ "Saiatu memoria-mapatzea erabiltzen fitxategiak eta bloke-gailuak irakurtzeko."
+#~ "Saiatu memoria-mapatzea erabiltzen fitxategiak eta bloke-gailuak "
+#~ "irakurtzeko."
 
 #~ msgid "MMap"
 #~ msgstr "MMap"
@@ -29362,7 +29393,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgid ""
 #~ "Caching value for OSS captures. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Cache-balioa OSS kapturetarako. Balio hori milisegundotan zehaztu behar da."
+#~ "Cache-balioa OSS kapturetarako. Balio hori milisegundotan zehaztu behar "
+#~ "da."
 
 #~ msgid ""
 #~ "Default caching value for PVR streams. This value should be set in "
@@ -29392,10 +29424,11 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "zehaztu behar da."
 
 #~ msgid ""
-#~ "Caching value for screen capture. This value should be set in milliseconds."
+#~ "Caching value for screen capture. This value should be set in "
+#~ "milliseconds."
 #~ msgstr ""
-#~ "Pantaila-kapturarako cache-balioa. Balio hori milisegundotan zehaztu behar "
-#~ "da."
+#~ "Pantaila-kapturarako cache-balioa. Balio hori milisegundotan zehaztu "
+#~ "behar da."
 
 #~ msgid ""
 #~ "Caching value for SFTP streams. This value should be set in milliseconds."
@@ -29424,7 +29457,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgid ""
 #~ "Caching value for V4L captures. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "V4L kapturetarako cache-balioa. Balio hori milisegundotan zehaztu behar da."
+#~ "V4L kapturetarako cache-balioa. Balio hori milisegundotan zehaztu behar "
+#~ "da."
 
 #~ msgid ""
 #~ "Name of the video device to use. If you don't specify anything, no video "
@@ -29434,14 +29468,15 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "bideo-gailurik erabiliko."
 
 #~ msgid ""
-#~ "Force the Video4Linux video device to use a specific chroma format (eg. I420 "
-#~ "(default), RV24, etc.)"
+#~ "Force the Video4Linux video device to use a specific chroma format (eg. "
+#~ "I420 (default), RV24, etc.)"
 #~ msgstr ""
-#~ "Behartu Video4Linux bideo-gailuak krominantzia-formatu jakin bat erabiltzea "
-#~ "(adibidez, I420 (lehenetsia), RV24, etab.)"
+#~ "Behartu Video4Linux bideo-gailuak krominantzia-formatu jakin bat "
+#~ "erabiltzea (adibidez, I420 (lehenetsia), RV24, etab.)"
 
 #~ msgid ""
-#~ "Channel of the card to use (Usually, 0 = tuner, 1 = composite, 2 = svideo)."
+#~ "Channel of the card to use (Usually, 0 = tuner, 1 = composite, 2 = "
+#~ "svideo)."
 #~ msgstr ""
 #~ "Erabili beharreko txartelaren kanala (normalean, 0 = sintonizadorea, 1 = "
 #~ "konposatua, 2 = svideo)."
@@ -29497,8 +29532,9 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "Alsa or OSS audio capture in the v4l access is deprecated. please use "
 #~ "'v4l:// :input-slave=alsa://' or 'v4l:// :input-slave=oss://' instead."
 #~ msgstr ""
-#~ "v4l atzipeneko Alsa edo OSS audio-kaptura zaharkituta dago. Erabili 'v4l:// :"
-#~ "input-slave=alsa://' edo 'v4l:// :input-slave=oss://' horren ordez."
+#~ "v4l atzipeneko Alsa edo OSS audio-kaptura zaharkituta dago. Erabili "
+#~ "'v4l:// :input-slave=alsa://' edo 'v4l:// :input-slave=oss://' horren "
+#~ "ordez."
 
 #~ msgid "Video4Linux"
 #~ msgstr "Video4Linux"
@@ -29541,8 +29577,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Zurien orekatze automatikoa"
 
 #~ msgid ""
-#~ "Automatically set the white balance of the video input (if supported by the "
-#~ "v4l2 driver)."
+#~ "Automatically set the white balance of the video input (if supported by "
+#~ "the v4l2 driver)."
 #~ msgstr ""
 #~ "Automatikoki ezartzen du bideo-sarreraren zurien oreka (v4l2 "
 #~ "kontrolatzaileak onartzen badu)."
@@ -29551,17 +29587,19 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Orekatu zuriak"
 
 #~ msgid ""
-#~ "Trigger a white balancing action, useless if auto white balance is activated "
-#~ "(if supported by the v4l2 driver)."
+#~ "Trigger a white balancing action, useless if auto white balance is "
+#~ "activated (if supported by the v4l2 driver)."
 #~ msgstr ""
 #~ "Abiarazi zuriak orekatzeko ekintza bat, zuriak automatikoki orekatzea "
 #~ "aktibatuta ez badago (v4l2 kontrolatzaileak onartzen badu)."
 
 #~ msgid "Red balance of the video input (if supported by the v4l2 driver)."
-#~ msgstr "Bideo-sarreraren gorrien oreka (v4l2 kontrolatzaileak onartzen badu)."
+#~ msgstr ""
+#~ "Bideo-sarreraren gorrien oreka (v4l2 kontrolatzaileak onartzen badu)."
 
 #~ msgid "Blue balance of the video input (if supported by the v4l2 driver)."
-#~ msgstr "Bideo-sarreraren urdinen oreka (v4l2 kontrolatzaileak onartzen badu)."
+#~ msgstr ""
+#~ "Bideo-sarreraren urdinen oreka (v4l2 kontrolatzaileak onartzen badu)."
 
 #~ msgid "Gamma of the video input (if supported by the v4l2 driver)."
 #~ msgstr "Bideo-sarreraren gamma (v4l2 kontrolatzaileak onartzen badu)."
@@ -29576,7 +29614,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Irabazi automatikoa"
 
 #~ msgid ""
-#~ "Automatically set the video input's gain (if supported by the v4l2 driver)."
+#~ "Automatically set the video input's gain (if supported by the v4l2 "
+#~ "driver)."
 #~ msgstr ""
 #~ "Automatikoki ezartzen du bideo-sarreraren irabazia (v4l2 kontrolatzaileak "
 #~ "onartzen badu)."
@@ -29589,7 +29628,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "Bideoa horizontalki iraultzen du (v4l2 kontrolatzaileak onartzen badu)."
 
 #~ msgid "Flip the video vertically (if supported by the v4l2 driver)."
-#~ msgstr "Bideoa bertikalki iraultzen du (v4l2 kontrolatzaileak onartzen badu)."
+#~ msgstr ""
+#~ "Bideoa bertikalki iraultzen du (v4l2 kontrolatzaileak onartzen badu)."
 
 #~ msgid "Horizontal centering"
 #~ msgstr "Zentratu horizontalki"
@@ -29597,13 +29637,14 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgid ""
 #~ "Set the camera's horizontal centering (if supported by the v4l2 driver)."
 #~ msgstr ""
-#~ "Kameraren zentratze horizontala ezartzen du (v4l2 kontrolatzaileak onartzen "
-#~ "badu)."
+#~ "Kameraren zentratze horizontala ezartzen du (v4l2 kontrolatzaileak "
+#~ "onartzen badu)."
 
 #~ msgid "Vertical centering"
 #~ msgstr "Zentratu bertikalki"
 
-#~ msgid "Set the camera's vertical centering (if supported by the v4l2 driver)."
+#~ msgid ""
+#~ "Set the camera's vertical centering (if supported by the v4l2 driver)."
 #~ msgstr ""
 #~ "Kameraren zentratze bertikala ezartzen du (v4l2 kontrolatzaileak onartzen "
 #~ "badu)."
@@ -29638,14 +29679,16 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgid ""
 #~ "Caching value for V4L2 captures. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "V4L2 kapturetarako cache-balioa. Balio hori milisegundotan zehaztu behar da."
+#~ "V4L2 kapturetarako cache-balioa. Balio hori milisegundotan zehaztu behar "
+#~ "da."
 
 #~ msgid ""
 #~ "Alsa or OSS audio capture in the v4l2 access is deprecated. please use "
 #~ "'v4l2:// :input-slave=alsa://' or 'v4l2:// :input-slave=oss://' instead."
 #~ msgstr ""
 #~ "v4l2 atzipeneko Alsa edo OSS audio-kaptura zaharkituta dago. Erabili "
-#~ "'v4l2// :input-slave=alsa://' edo 'v4l:2// :input-slave=oss://' horren ordez."
+#~ "'v4l2// :input-slave=alsa://' edo 'v4l:2// :input-slave=oss://' horren "
+#~ "ordez."
 
 #~ msgid "AUTO"
 #~ msgstr "AUTO"
@@ -29666,7 +29709,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Berrezarri balio lehenetsiak kontroletan"
 
 #~ msgid "Caching value for VCDs. This value should be set in milliseconds."
-#~ msgstr "VCDetarako cache-balioa. Balio hori milisegundotan zehaztu behar da."
+#~ msgstr ""
+#~ "VCDetarako cache-balioa. Balio hori milisegundotan zehaztu behar da."
 
 #~ msgid "Path to the x509 PEM certificate file that will be used for HTTPS."
 #~ msgstr ""
@@ -29676,20 +29720,20 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "Path to the x509 PEM private key file that will be used for HTTPS. Leave "
 #~ "empty if you don't have one."
 #~ msgstr ""
-#~ "HTTPSrako erabiliko den x509 PEM gako pribatuaren fitxategiaren bide-izena. "
-#~ "Utzi bete gabe batere ez baduzu."
+#~ "HTTPSrako erabiliko den x509 PEM gako pribatuaren fitxategiaren bide-"
+#~ "izena. Utzi bete gabe batere ez baduzu."
 
 #~ msgid ""
 #~ "Path to the x509 PEM trusted root CA certificates (certificate authority) "
 #~ "file that will be used for HTTPS. Leave empty if you don't have one."
 #~ msgstr ""
 #~ "HTTPSrako erabiliko den x509 PEM erroko CA ziurtagiri fidagarrien "
-#~ "(ziurtagiri-autoritatea) fitxategiaren bide-izena. Utzi bete gabe batere ez "
-#~ "baduzu."
+#~ "(ziurtagiri-autoritatea) fitxategiaren bide-izena. Utzi bete gabe batere "
+#~ "ez baduzu."
 
 #~ msgid ""
-#~ "Path to the x509 PEM Certificates Revocation List file that will be used for "
-#~ "SSL. Leave empty if you don't have one."
+#~ "Path to the x509 PEM Certificates Revocation List file that will be used "
+#~ "for SSL. Leave empty if you don't have one."
 #~ msgstr ""
 #~ "SSLrako erabiliko den x509 PEM ziurtagirien errebokazio-zerrendaren "
 #~ "fitxategiaren bide-izena. Utzi bete gabe batere ez baduzu."
@@ -29717,14 +29761,12 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 
 #~ msgid "No audio device name was given. You might want to enter \"default\"."
 #~ msgstr ""
-#~ "Ez da audio-gailuaren izenik adierazi. Agian \"lehenetsia\" adierazi beharko "
-#~ "duzu."
+#~ "Ez da audio-gailuaren izenik adierazi. Agian \"lehenetsia\" adierazi "
+#~ "beharko duzu."
 
-#, c-format
 #~ msgid "VLC could not open the ALSA device \"%s\" (%s)."
 #~ msgstr "VLCk ezin izan du \"%s\" ALSA gailua ireki (%s)."
 
-#, c-format
 #~ msgid "The audio device \"%s\" is already in use."
 #~ msgstr "\"%s\" audio-gailua erabilia izaten ari da jada."
 
@@ -29746,8 +29788,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 
 #~ msgid ""
 #~ "Some buggy OSS drivers just don't like when their internal buffers are "
-#~ "completely filled (the sound gets heavily hashed). If you have one of these "
-#~ "drivers, then you need to enable this option."
+#~ "completely filled (the sound gets heavily hashed). If you have one of "
+#~ "these drivers, then you need to enable this option."
 #~ msgstr ""
 #~ "Erroreak dituzten OSS kontrolatzaile batzuek ez dute ondo funtzionatzen "
 #~ "haien barruko bufferrak guztiz beteta badaude (soinua asko eteten da). "
@@ -29778,7 +29820,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgid "Background aspect ratio"
 #~ msgstr "Atzeko planoaren aspektu-erlazioa"
 
-#~ msgid "Aspect ratio of the image file (4:3, 16:9). Default is square pixels."
+#~ msgid ""
+#~ "Aspect ratio of the image file (4:3, 16:9). Default is square pixels."
 #~ msgstr ""
 #~ "Irudi-fitxategiaren aspektu-erlazioa (4:3, 16:9). Lehenespena pixel "
 #~ "karratuak dira."
@@ -29807,7 +29850,6 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "Instalatu soinuen letra-tipo bat eta konfiguratu VLC hobespenetatik "
 #~ "(Kodekak / Audioa / FluidSynth).\n"
 
-#, c-format
 #~ msgid ""
 #~ "The specified sound font file (%s) is incorrect.\n"
 #~ "Please install a valid sound font and reconfigure it from the VLC "
@@ -29821,11 +29863,11 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Blokeatu funtzioa"
 
 #~ msgid ""
-#~ "Address of the locking callback function. This function must return a valid "
-#~ "memory address for use by the video renderer."
+#~ "Address of the locking callback function. This function must return a "
+#~ "valid memory address for use by the video renderer."
 #~ msgstr ""
-#~ "Blokeatzeko atzeradeia funtzioaren helbidea. Funtzio honek baliozko memoria-"
-#~ "helbide bat itzuli behar du bideo-errendatzaileak erabil dezan."
+#~ "Blokeatzeko atzeradeia funtzioaren helbidea. Funtzio honek baliozko "
+#~ "memoria-helbide bat itzuli behar du bideo-errendatzaileak erabil dezan."
 
 #~ msgid "Unlock function"
 #~ msgstr "Desblokeatu funtzioa"
@@ -29855,21 +29897,21 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "pakete-mihiztatzearen informazioa  2\n"
 
 #~ msgid ""
-#~ "Allows B-frames to be used as references for predicting other frames. Keeps "
-#~ "the middle of 2+ consecutive B-frames as a reference, and reorders frame "
-#~ "appropriately."
+#~ "Allows B-frames to be used as references for predicting other frames. "
+#~ "Keeps the middle of 2+ consecutive B-frames as a reference, and reorders "
+#~ "frame appropriately."
 #~ msgstr ""
 #~ "B markoak erreferentzia gisa erabiltzeko aukera ematen du, beste marko "
-#~ "batzuk aurresateko. Elkarren segidako 2+ B markoen erdia erreferentzia gisa "
-#~ "hartzen du, eta markoa behar bezala berrantolatzen du."
+#~ "batzuk aurresateko. Elkarren segidako 2+ B markoen erdia erreferentzia "
+#~ "gisa hartzen du, eta markoa behar bezala berrantolatzen du."
 
 #~ msgid ""
-#~ "Specify H.264 level (as defined by Annex A of the standard). Levels are not "
-#~ "enforced; it's up to the user to select a level compatible with the rest of "
-#~ "the encoding options. Range 1 to 5.1 (10 to 51 is also allowed)."
+#~ "Specify H.264 level (as defined by Annex A of the standard). Levels are "
+#~ "not enforced; it's up to the user to select a level compatible with the "
+#~ "rest of the encoding options. Range 1 to 5.1 (10 to 51 is also allowed)."
 #~ msgstr ""
-#~ "Zehaztu H.264 maila (estandarraren A eranskinak definitu bezala). Mailak ez "
-#~ "dira behartzen; erabiltzaileari dagokio gainerako kodeketa-aukerekin "
+#~ "Zehaztu H.264 maila (estandarraren A eranskinak definitu bezala). Mailak "
+#~ "ez dira behartzen; erabiltzaileari dagokio gainerako kodeketa-aukerekin "
 #~ "bateragarria den maila bat hautatzea. Barrutia: 1etik 5.1era (10etik 51ra "
 #~ "ere onartzen dira)."
 
@@ -29879,7 +29921,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 
 #~ msgid "Force rectangular slices and is overridden by other slicing optinos"
 #~ msgstr ""
-#~ "Behartu zati laukizuzenak (beste zatikatze-aukera batzuekin gainidatziko da)"
+#~ "Behartu zati laukizuzenak (beste zatikatze-aukera batzuekin gainidatziko "
+#~ "da)"
 
 #~ msgid ""
 #~ "Strength to reduce blocking and blurring in flat\n"
@@ -29894,8 +29937,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ " - 1.5: AQ sendoa"
 
 #~ msgid ""
-#~ "This reduces the fluctations in QP after curve compression. Temporally blurs "
-#~ "quants."
+#~ "This reduces the fluctations in QP after curve compression. Temporally "
+#~ "blurs quants."
 #~ msgstr ""
 #~ "Honek KPko fluktuazioak murrizten ditu kurba-konpresioaren ondoren. "
 #~ "Kuantizazioa aldi baterako handitzen du."
@@ -29913,8 +29956,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 
 #~ msgid ""
 #~ "Framecount to use on frametype lookahead. Currently default is lower than "
-#~ "x264 default because unmuxable outputdoesn't handle larger values that well "
-#~ "yet"
+#~ "x264 default because unmuxable outputdoesn't handle larger values that "
+#~ "well yet"
 #~ msgstr ""
 #~ "Lookahead marko mtatan erabili beharreko marko-kontaketa. Une honetan "
 #~ "lehenetsia x264 baino txikiagoa da, multiplexatu ezin diren irteerek ez "
@@ -29933,8 +29976,9 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "MouseWheel x-axis can control volume, position or mousewheel event can be "
 #~ "ignored"
 #~ msgstr ""
-#~ "MouseWheel x ardatzaren kontrolak bolumena eta kokalekua kontrola ditzake, "
-#~ "edo saguaren gurpilarekin eragindako gertaerari ez ikusi egin dakioke"
+#~ "MouseWheel x ardatzaren kontrolak bolumena eta kokalekua kontrola "
+#~ "ditzake, edo saguaren gurpilarekin eragindako gertaerari ez ikusi egin "
+#~ "dakioke"
 
 #~ msgid "1.00x"
 #~ msgstr "1.00x"
@@ -29944,19 +29988,19 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 
 #~ msgid ""
 #~ "Address and port the HTTP interface will listen on. It defaults to all "
-#~ "network interfaces (0.0.0.0). If you want the HTTP interface to be available "
-#~ "only on the local machine, enter 127.0.0.1"
+#~ "network interfaces (0.0.0.0). If you want the HTTP interface to be "
+#~ "available only on the local machine, enter 127.0.0.1"
 #~ msgstr ""
-#~ "HTTP interfazeak entzungo dion helbidea eta ataka. Sareko interfaze guztiak "
-#~ "da lehenespena (0.0.0.0). HTTP interfazea makina lokalean bakarrik "
-#~ "erabilgarri egotea nahi baduzu, adierazi 127.0.0.1"
+#~ "HTTP interfazeak entzungo dion helbidea eta ataka. Sareko interfaze "
+#~ "guztiak da lehenespena (0.0.0.0). HTTP interfazea makina lokalean "
+#~ "bakarrik erabilgarri egotea nahi baduzu, adierazi 127.0.0.1"
 
 #~ msgid "Handlers"
 #~ msgstr "Kudeatzaileak"
 
 #~ msgid ""
-#~ "List of handler extensions and executable paths (for instance: php=/usr/bin/"
-#~ "php,pl=/usr/bin/perl)."
+#~ "List of handler extensions and executable paths (for instance: php=/usr/"
+#~ "bin/php,pl=/usr/bin/perl)."
 #~ msgstr ""
 #~ "Kudeatzaileen luzapenen eta bide-izen exekutagarrien zerrenda (adibidez: "
 #~ "php=/usr/bin/php,pl=/usr/bin/perl)."
@@ -29968,8 +30012,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "Allow exporting album art for current playlist items at the /art and /art?"
 #~ "id=<id> URLs."
 #~ msgstr ""
-#~ "Onartu uneko erreprodukzio-zerrendako elementuetarako karatula esportatzea /"
-#~ "art eta /art?id=<id> URLak erabiliz."
+#~ "Onartu uneko erreprodukzio-zerrendako elementuetarako karatula "
+#~ "esportatzea /art eta /art?id=<id> URLak erabiliz."
 
 #~ msgid "HTTP interface x509 PEM certificate file (enables SSL)."
 #~ msgstr ""
@@ -30002,7 +30046,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "egingo du erloju maisuaren sareko IP helbideko bezeroekin"
 
 #~ msgid ""
-#~ "The IP address of the network master clock to use for clock synchronisation."
+#~ "The IP address of the network master clock to use for clock "
+#~ "synchronisation."
 #~ msgstr ""
 #~ "Erlojua sinkronizatzeko erabili behar den sareko erloju maisuaren IP "
 #~ "helbidea."
@@ -30010,42 +30055,33 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgid ""
 #~ "Amount of time (in ms) to wait before aborting network reception of data."
 #~ msgstr ""
-#~ "Sareak datuak jasotzea bertan behera utzi aurretik itxaron beharreko denbora "
-#~ "(ms-tan)."
+#~ "Sareak datuak jasotzea bertan behera utzi aurretik itxaron beharreko "
+#~ "denbora (ms-tan)."
 
-#, c-format
 #~ msgid "| demux corrupted  :    %5i"
 #~ msgstr "| demux hondatua    :    %5i"
 
-#, c-format
 #~ msgid "| discontinuities  :    %5i"
 #~ msgstr "| etenak  :    %5i"
 
-#, c-format
 #~ msgid "| video decoded    :    %5i"
 #~ msgstr "| deskodetutako bideoa    :    %5i"
 
-#, c-format
 #~ msgid "| frames displayed :    %5i"
 #~ msgstr "| bistaratutako markoak :    %5i"
 
-#, c-format
 #~ msgid "| frames lost      :    %5i"
 #~ msgstr "| galdutako markoak :    %5i"
 
-#, c-format
 #~ msgid "| audio decoded    :    %5i"
 #~ msgstr "| deskodetutako audioa    :    %5i"
 
-#, c-format
 #~ msgid "| buffers played   :    %5i"
 #~ msgstr "| erreproduzitutako bufferrak   :    %5i"
 
-#, c-format
 #~ msgid "| buffers lost     :    %5i"
 #~ msgstr "| galdutako bufferrak :    %5i"
 
-#, c-format
 #~ msgid "| packets sent     :    %5i"
 #~ msgstr "| bidalitako paketeak    :    %5i"
 
@@ -30097,19 +30133,19 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "GME demultiplexadorea (Game_Music_Emu)"
 
 #~ msgid ""
-#~ "Allows you to modify the default caching value for RTSP streams. This value "
-#~ "should be set in millisecond units."
+#~ "Allows you to modify the default caching value for RTSP streams. This "
+#~ "value should be set in millisecond units."
 #~ msgstr ""
 #~ "RTSP transmisio jarraituetarako cache-balio lehenetsia aldatzeko aukera "
 #~ "ematen dizu. Balio hori milisegundotan zehaztu behar da."
 
 #~ msgid ""
-#~ "WMServer uses an unstandard dialect of RTSP. Selecting this parameter will "
-#~ "tell VLC to assume some options contrary to RFC 2326 guidelines."
+#~ "WMServer uses an unstandard dialect of RTSP. Selecting this parameter "
+#~ "will tell VLC to assume some options contrary to RFC 2326 guidelines."
 #~ msgstr ""
-#~ "WMServer-ek RTSPren dialekto ez-estandar bat erabiltzen du. Parametro hori "
-#~ "hautatzen baduzu, VLCk RFC 2326 gidalerroen aurkako aukera batzuk erabili "
-#~ "beharko ditu."
+#~ "WMServer-ek RTSPren dialekto ez-estandar bat erabiltzen du. Parametro "
+#~ "hori hautatzen baduzu, VLCk RFC 2326 gidalerroen aurkako aukera batzuk "
+#~ "erabili beharko ditu."
 
 #~ msgid "Ordered chapters"
 #~ msgstr "Ordenatutako kapituluak"
@@ -30121,24 +30157,25 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Aurrez kargatu direktorioa"
 
 #~ msgid ""
-#~ "Preload matroska files from the same family in the same directory (not good "
-#~ "for broken files)."
+#~ "Preload matroska files from the same family in the same directory (not "
+#~ "good for broken files)."
 #~ msgstr ""
-#~ "Aurrez kargatu matroska fitxategiak direktorio bereko familia beretik (ez da "
-#~ "egokia hondatutako fitxategietarako)."
+#~ "Aurrez kargatu matroska fitxategiak direktorio bereko familia beretik (ez "
+#~ "da egokia hondatutako fitxategietarako)."
 
 #~ msgid ""
-#~ "Override the normal frames per second settings. This will only affect frame-"
-#~ "based subtitle formats without a fixed value."
+#~ "Override the normal frames per second settings. This will only affect "
+#~ "frame-based subtitle formats without a fixed value."
 #~ msgstr ""
-#~ "Gainidatzi marko/segundoko ezarpen normalak. Horrek balio finkorik ez duten "
-#~ "markoetan oinarrituriko azpitituluen formatuei eragingo die."
+#~ "Gainidatzi marko/segundoko ezarpen normalak. Horrek balio finkorik ez "
+#~ "duten markoetan oinarrituriko azpitituluen formatuei eragingo die."
 
 #~ msgid ""
-#~ "Force the subtiles format. Use \"auto\", the set of supported values varies."
+#~ "Force the subtiles format. Use \"auto\", the set of supported values "
+#~ "varies."
 #~ msgstr ""
-#~ "Behartu azpitituluen formatua. Erabili \"automatikoa\", onartzen den balio "
-#~ "multzoa aldatu egiten da."
+#~ "Behartu azpitituluen formatua. Erabili \"automatikoa\", onartzen den "
+#~ "balio multzoa aldatu egiten da."
 
 #~ msgid "Subtitles (asa demuxer)"
 #~ msgstr "Azpitituluak (asa demultiplexadorea)"
@@ -30150,13 +30187,13 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "CSA enkriptatze-algoritmoaren kontrol-hitza"
 
 #~ msgid ""
-#~ "Tweak the buffer size for reading and writing an integer number of packets."
-#~ "Specify the size of the buffer here and not the number of packets."
+#~ "Tweak the buffer size for reading and writing an integer number of "
+#~ "packets.Specify the size of the buffer here and not the number of packets."
 #~ msgstr ""
-#~ "Egokitu bufferraren tamaina, osoko zenbakia den pakete kopurua irakurri eta "
-#~ "idazteko. Hemen bufferraren tamaina zehaztu behar duzu, ez pakete kopurua."
+#~ "Egokitu bufferraren tamaina, osoko zenbakia den pakete kopurua irakurri "
+#~ "eta idazteko. Hemen bufferraren tamaina zehaztu behar duzu, ez pakete "
+#~ "kopurua."
 
-#, c-format
 #~ msgid "Compiled by %s"
 #~ msgstr "%s(e)k konpilatua"
 
@@ -30175,14 +30212,16 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 
 #~ msgid "Enable the equalizer. Bands can be set manually or using a preset."
 #~ msgstr ""
-#~ "Gaitu ekualizadorea. Bandak eskuz edo aurrezarpen bat erabiliz ezar daitezke."
+#~ "Gaitu ekualizadorea. Bandak eskuz edo aurrezarpen bat erabiliz ezar "
+#~ "daitezke."
 
 #~ msgid "Extended controls"
 #~ msgstr "Kontrol hedatuak"
 
 #~ msgid "Shows more information about the available video filters."
 #~ msgstr ""
-#~ "Erabilgarri dauden bideo-iragazkiei buruzko informazio gehiago erakusten du."
+#~ "Erabilgarri dauden bideo-iragazkiei buruzko informazio gehiago erakusten "
+#~ "du."
 
 #~ msgid "General editing filters"
 #~ msgstr "Edizioko  iragazki orokorrak"
@@ -30216,7 +30255,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 
 #~ msgid "Prevents the audio output from going over a predefined value."
 #~ msgstr ""
-#~ "Audio-irteerak aldez aurretik definitutako balio bat gainditzea eragozten du."
+#~ "Audio-irteerak aldez aurretik definitutako balio bat gainditzea eragozten "
+#~ "du."
 
 #~ msgid "Imitates the effect of surround sound when using headphones."
 #~ msgstr "Surround soinuaren efektua imitatzen du aurikularrak erabiltzean."
@@ -30240,10 +30280,11 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "This panel allows on-the-fly selection of various video effects.\n"
 #~ "These filters can be configured individually in the Preferences, in the "
 #~ "subsections of Video/Filters.\n"
-#~ "To choose the order in which the filter are applied, a filter option string "
-#~ "can be set in the Preferences, Video / Filters section."
+#~ "To choose the order in which the filter are applied, a filter option "
+#~ "string can be set in the Preferences, Video / Filters section."
 #~ msgstr ""
-#~ "Panel honek hainbat bideo-efektu unean bertan hautatzeko aukera ematen du.\n"
+#~ "Panel honek hainbat bideo-efektu unean bertan hautatzeko aukera ematen "
+#~ "du.\n"
 #~ "Iragazki horiek banaka konfigura daitezke hobespenetan, Bideoa/Iragazkiak "
 #~ "azpiataletan.\n"
 #~ "Iragazkia aplikatzen den ordena aukeratzeko, iragazki-aukeraren kate bat "
@@ -30258,7 +30299,6 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgid "Extended Controls..."
 #~ msgstr "Kontrol hedatuak..."
 
-#, c-format
 #~ msgid "Volume: %d%%"
 #~ msgstr "Bolumena: %d%%"
 
@@ -30266,8 +30306,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Luzatu bideoa leihora egokitzeko"
 
 #~ msgid ""
-#~ "Stretch the video to fill the entire window when resizing the video instead "
-#~ "of keeping the aspect ratio and displaying black borders."
+#~ "Stretch the video to fill the entire window when resizing the video "
+#~ "instead of keeping the aspect ratio and displaying black borders."
 #~ msgstr ""
 #~ "Luzatu bideoa, bideoaren tamaina aldatzean leiho osoa bete dezan, aspektu-"
 #~ "erlazioa mantendu eta ertz beltzak bistaratu beharrean."
@@ -30276,8 +30316,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Erabili mahaigainaren atzeko plano gisa"
 
 #~ msgid ""
-#~ "Use the video as the Desktop Background Desktop icons cannot be interacted "
-#~ "with in this mode."
+#~ "Use the video as the Desktop Background Desktop icons cannot be "
+#~ "interacted with in this mode."
 #~ msgstr ""
 #~ "Erabili bideoa mahaigaineko atzerako plano gisa. Modu honetan ezin da "
 #~ "mahaigaineko ikonoekin interakziorik izan."
@@ -30286,8 +30326,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Gorde ekualizadorearen uneko ezarpenak"
 
 #~ msgid ""
-#~ "By default, VLC keeps the last equalizer settings before termination. This "
-#~ "feature can be disabled here."
+#~ "By default, VLC keeps the last equalizer settings before termination. "
+#~ "This feature can be disabled here."
 #~ msgstr ""
 #~ "Lehenespenez, VLCk ekualizadorearen azken ezarpenak gordetzen ditu amaitu "
 #~ "aurretik. Eginbide hori hemen desgaitu daiteke."
@@ -30296,10 +30336,11 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Erabili multimedia-teklen kontrola VLC atzeko planoan dagoenean"
 
 #~ msgid ""
-#~ "By default, VLC will accept media key events also when being in background."
+#~ "By default, VLC will accept media key events also when being in "
+#~ "background."
 #~ msgstr ""
-#~ "Lehenespenez, VLCk multimedia-teklen gertaerak onartuko ditu atzeko planoan "
-#~ "dagoenean ere."
+#~ "Lehenespenez, VLCk multimedia-teklen gertaerak onartuko ditu atzeko "
+#~ "planoan dagoenean ere."
 
 #~ msgid "No device connected"
 #~ msgstr "Ez dago gailurik konektatuta"
@@ -30307,13 +30348,13 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgid ""
 #~ "VLC could not detect any EyeTV compatible device.\n"
 #~ "\n"
-#~ "Check the device's connection, make sure that the latest EyeTV software is "
-#~ "installed and try again."
+#~ "Check the device's connection, make sure that the latest EyeTV software "
+#~ "is installed and try again."
 #~ msgstr ""
 #~ "VLCk ezin izan du EyeTVrekin bateragarria den gailurik aurkitu.\n"
 #~ "\n"
-#~ "Egiaztatu gailuaren konexioa, ziurtatu EyeTVren softwarerik berriena dagoela "
-#~ "instalatuta, eta saiatu berriro."
+#~ "Egiaztatu gailuaren konexioa, ziurtatu EyeTVren softwarerik berriena "
+#~ "dagoela instalatuta, eta saiatu berriro."
 
 #~ msgid "No DVD menus"
 #~ msgstr "Ez dago DVD menurik"
@@ -30347,8 +30388,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "Eginbide horren bitartez zure iSight-en sarrera-seinalea prozesatu "
 #~ "dezakezu.\n"
 #~ "\n"
-#~ "Bertsio honetan ez dago ezarpenik erabilgarri; beraz, 640px*480px-eko bideo "
-#~ "gordin baten transmisio jarraitua emango zaizu.\n"
+#~ "Bertsio honetan ez dago ezarpenik erabilgarri; beraz, 640px*480px-eko "
+#~ "bideo gordin baten transmisio jarraitua emango zaizu.\n"
 #~ "\n"
 #~ "Zuzeneko audio-sarrerarik ez da onartzen."
 
@@ -30376,9 +30417,9 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgid "Interface Settings not saved"
 #~ msgstr "Interfazearen ezarpenak ez dira gorde"
 
-#, c-format
 #~ msgid "An error occured while saving your settings via SimplePrefs (%i)."
-#~ msgstr "Errorea gertatu da zure ezarpenak SimplePrefs bidez gordetzean (%i)."
+#~ msgstr ""
+#~ "Errorea gertatu da zure ezarpenak SimplePrefs bidez gordetzean (%i)."
 
 #~ msgid "Audio Settings not saved"
 #~ msgstr "Audioaren ezarpenak ez dira gorde"
@@ -30395,7 +30436,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgid "Hotkeys not saved"
 #~ msgstr "Laster-teklak ez dira gorde"
 
-#~ msgid "This wizard allows to configure simple streaming or transcoding setups."
+#~ msgid ""
+#~ "This wizard allows to configure simple streaming or transcoding setups."
 #~ msgstr ""
 #~ "Morroi honek transmisio jarraitu edo transkodeketa soilen ezarpenak "
 #~ "konfiguratzeko aukera ematen du."
@@ -30410,29 +30452,30 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "tracks. To change only the container format, proceed to next page."
 #~ msgstr ""
 #~ "Orri honek audio- edo bideo-pisten konprimaketa-formatua aldatzeko aukera "
-#~ "ematen du. Edukiontziaren formatua bakarrik aldatzeko, joan hurrengo orrira."
+#~ "ematen du. Edukiontziaren formatua bakarrik aldatzeko, joan hurrengo "
+#~ "orrira."
 
 #~ msgid ""
-#~ "Enabling this allows to transcode the audio track if one is present in the "
-#~ "stream."
+#~ "Enabling this allows to transcode the audio track if one is present in "
+#~ "the stream."
 #~ msgstr ""
-#~ "Hau gaitzen baduzu, transmisio jarraituan audio-pistarik badago, transkodetu "
-#~ "egin ahal izango duzu."
+#~ "Hau gaitzen baduzu, transmisio jarraituan audio-pistarik badago, "
+#~ "transkodetu egin ahal izango duzu."
 
 #~ msgid ""
-#~ "Enabling this allows to transcode the video track if one is present in the "
-#~ "stream."
+#~ "Enabling this allows to transcode the video track if one is present in "
+#~ "the stream."
 #~ msgstr ""
-#~ "Hau gaitzen baduzu, transmisio jarraituan bideo-pistarik badago, transkodetu "
-#~ "egin ahal izango duzu."
+#~ "Hau gaitzen baduzu, transmisio jarraituan bideo-pistarik badago, "
+#~ "transkodetu egin ahal izango duzu."
 
 #~ msgid ""
-#~ "This page allows to select how the stream will be encapsulated. Depending on "
-#~ "previously chosen settings all formats won't be available."
+#~ "This page allows to select how the stream will be encapsulated. Depending "
+#~ "on previously chosen settings all formats won't be available."
 #~ msgstr ""
 #~ "Orri honek transmisio jarraitua nola kapsulatuko den hautatzeko aukera "
-#~ "ematen dizu. Aurrez hautatutako ezarpenen arabera, formatu guztiak ez dira "
-#~ "erabilgarri egongo."
+#~ "ematen dizu. Aurrez hautatutako ezarpenen arabera, formatu guztiak ez "
+#~ "dira erabilgarri egongo."
 
 #~ msgid "This allows to stream on a network."
 #~ msgstr "Honen bidez, sare batean transmisio jarraituak egin daitezke."
@@ -30441,54 +30484,49 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "This allows to save a stream to a file. The can be reencoded on the fly. "
 #~ "Whatever VLC can read can be saved.\n"
 #~ "Please note that VLC is not very suited for file to file transcoding. Its "
-#~ "transcoding features are however useful to save network streams, for example."
+#~ "transcoding features are however useful to save network streams, for "
+#~ "example."
 #~ msgstr ""
-#~ "Honen bidez, transmisio jarraitu bat fitxategi batean gorde daiteke. Unean "
-#~ "bertan birkodetu daiteke. VLCk irakur dezakeen guztia gorde egin dezake.\n"
+#~ "Honen bidez, transmisio jarraitu bat fitxategi batean gorde daiteke. "
+#~ "Unean bertan birkodetu daiteke. VLCk irakur dezakeen guztia gorde egin "
+#~ "dezake.\n"
 #~ "Kontuan izan VLC ez dela oso egokia fitxategi batetik bestera "
-#~ "transkodetzeko. Hala ere, VLCren transkodeketa-eginbideak erabilgarriak dira "
-#~ "sareko transmisio jarraituak gordetzeko, esate baterako."
+#~ "transkodetzeko. Hala ere, VLCren transkodeketa-eginbideak erabilgarriak "
+#~ "dira sareko transmisio jarraituak gordetzeko, esate baterako."
 
 #~ msgid ""
-#~ "This allows to define the TTL (Time-To-Live) of the stream. This parameter "
-#~ "is the maximum number of routers your stream can go through. If you don't "
-#~ "know what it means, or if you want to stream on your local network only, "
-#~ "leave this setting to 1."
+#~ "This allows to define the TTL (Time-To-Live) of the stream. This "
+#~ "parameter is the maximum number of routers your stream can go through. If "
+#~ "you don't know what it means, or if you want to stream on your local "
+#~ "network only, leave this setting to 1."
 #~ msgstr ""
 #~ "Horrela transmisio jarraituaren TTL (Time-To-Live) definitu ahal izango "
 #~ "duzu. Parametro hau transmisio jarraituak gehienez igaro ditzakeen "
-#~ "bideratzaile kopurua da. Ez badakizu zer esan nahi duen, edo sare lokalean "
-#~ "bakarrik transmititu nahi baduzu modu jarraituan, utzi ezarpen hau 1ean."
+#~ "bideratzaile kopurua da. Ez badakizu zer esan nahi duen, edo sare "
+#~ "lokalean bakarrik transmititu nahi baduzu modu jarraituan, utzi ezarpen "
+#~ "hau 1ean."
 
-#, c-format
 #~ msgid " State    : Playing %s"
 #~ msgstr " Egoera: %s erreproduzitzen"
 
-#, c-format
 #~ msgid " State    : Opening/Connecting %s"
 #~ msgstr " Egoera: %s irekitzen/konektatzen"
 
-#, c-format
 #~ msgid " State    : Paused %s"
 #~ msgstr " Egoera: %s pausarazita"
 
-#, c-format
 #~ msgid " Position : %s/%s (%.2f%%)"
 #~ msgstr " Kokalekua: %s/%s (%% %.2f)"
 
-#, c-format
 #~ msgid " Volume   : %i%%"
 #~ msgstr " Bolumena: %i%%"
 
-#, c-format
 #~ msgid " Title    : %d/%d"
 #~ msgstr " Titulua: %d/%d"
 
-#, c-format
 #~ msgid " Chapter  : %d/%d"
 #~ msgstr " Kapitulua: %d/%d"
 
-#, c-format
 #~ msgid " Source: <no current item> %s"
 #~ msgstr " Iturburua: <ez dago elementurik une honetan> %s"
 
@@ -30508,7 +30546,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "     L           Erakutsi/Ezkutatu mezuen koadroa"
 
 #~ msgid "     P           Show/Hide playlist box"
-#~ msgstr "     P           Erakutsi/Ezkutatu erreprodukzio-zerrendaren koadroa"
+#~ msgstr ""
+#~ "     P           Erakutsi/Ezkutatu erreprodukzio-zerrendaren koadroa"
 
 #~ msgid "     B           Show/Hide filebrowser"
 #~ msgstr "     B           Erakutsi/Ezkutatu fitxategi-arakatzailea"
@@ -30538,7 +30577,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "     f           Txandakatu pantaila osoa"
 
 #~ msgid "     n, p        Next/Previous playlist item"
-#~ msgstr "     n, p        Erreprodukzio-zerrendako hurrengo/aurreko elementua"
+#~ msgstr ""
+#~ "     n, p        Erreprodukzio-zerrendako hurrengo/aurreko elementua"
 
 #~ msgid "     [, ]        Next/Previous title"
 #~ msgstr "     [, ]        Hurrengo/Aurreko titulua"
@@ -30546,11 +30586,9 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgid "     <, >        Next/Previous chapter"
 #~ msgstr "     <, >        Hurrengo/Aurreko kapitulua"
 
-#, c-format
 #~ msgid "     <right>     Seek +1%%"
 #~ msgstr "     <eskuinera>     Bilatu %% + 1"
 
-#, c-format
 #~ msgid "     <left>      Seek -1%%"
 #~ msgstr "     <ezkerrera>     Bilatu %% - 1"
 
@@ -30601,7 +30639,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 
 #~ msgid "     <space>     Add the selected directory to the playlist"
 #~ msgstr ""
-#~ "     <zuriunea>     Gehitu hautatutako direktorioa erreprodukzio-zerrendari"
+#~ "     <zuriunea>     Gehitu hautatutako direktorioa erreprodukzio-"
+#~ "zerrendari"
 
 #~ msgid "     .           Show/Hide hidden files"
 #~ msgstr "     .           Erakutsi/Ezkutatu ezkutuko fitxategiak"
@@ -30615,7 +30654,6 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgid "     <pgup>,<pgdown> Navigate through the box page by page"
 #~ msgstr "     <OrrGor>,<OrrBeh>     Nabigatu koadroan zehar orriz orri"
 
-#, c-format
 #~ msgid "     <up>,<down>     Seek +/-5%%"
 #~ msgstr "     <gora> , <behera>   Bilatu %% +/- 5"
 
@@ -30643,7 +30681,6 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgid " Stats "
 #~ msgstr " Estatistikak "
 
-#, c-format
 #~ msgid "\\ sending bitrate  :   %6.0f kb/s"
 #~ msgstr "\\ bidaltzeko bit-emaria :   %6.0f kb/s"
 
@@ -30656,16 +30693,15 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgid " Playlist (Manually added) "
 #~ msgstr " Erreprodukzio-zerrenda (eskuz gehituta) "
 
-#, c-format
 #~ msgid "Find: %s"
 #~ msgstr "Bilatu: %s"
 
-#, c-format
 #~ msgid "Open: %s"
 #~ msgstr "Ireki: %s"
 
 #~ msgid "Click to toggle between loop one, loop all"
-#~ msgstr "Egin klik begizta elementu bati edo guztiei aplikatzea txandakatzeko"
+#~ msgstr ""
+#~ "Egin klik begizta elementu bati edo guztiei aplikatzea txandakatzeko"
 
 #~ msgid ""
 #~ "A positive value means that\n"
@@ -30691,10 +30727,11 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Aplikatu"
 
 #~ msgid ""
-#~ "This module outputs the transcoded stream to a network  via the mms protocol."
+#~ "This module outputs the transcoded stream to a network  via the mms "
+#~ "protocol."
 #~ msgstr ""
-#~ "Modulu honek transkodetutako transmisio jarraitua sare batera bidaltzen du "
-#~ "mms protokoloaren bidez."
+#~ "Modulu honek transkodetutako transmisio jarraitua sare batera bidaltzen "
+#~ "du mms protokoloaren bidez."
 
 #~ msgid "Privacy and Network Policies"
 #~ msgstr "Pribatutasuneko eta sareko gidalerroak"
@@ -30705,16 +30742,17 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgid ""
 #~ "<p><i>VideoLAN</i> prefers when applications request authorization before "
 #~ "accessing Internet.</p>\n"
-#~ "<p><b>VLC media player</b> can get information from the Internet in order to "
-#~ "get <b>media informations</b> or to check for available <b>updates</b>.</p>\n"
-#~ "<p><i>VLC media player</i> <b>doesn't</b> send or collect any information, "
-#~ "even anonymously, about your usage.</p>\n"
+#~ "<p><b>VLC media player</b> can get information from the Internet in order "
+#~ "to get <b>media informations</b> or to check for available <b>updates</b>."
+#~ "</p>\n"
+#~ "<p><i>VLC media player</i> <b>doesn't</b> send or collect any "
+#~ "information, even anonymously, about your usage.</p>\n"
 #~ msgstr ""
-#~ "<p><i>VideoLAN</i>ek nahiago du aplikazioek baimena eskatzea Internet atzitu "
-#~ "aurretik.</p>\n"
-#~ "<p><b>VLC multimedia-erreproduzigailua</b>k Internetetik informazioa eskura "
-#~ "dezake <b>multimedia-informazioa</b> eskuratzeko edo <b>eguneratzerik</b> "
-#~ "erabilgarri badagoen begiratzeko.</p>\n"
+#~ "<p><i>VideoLAN</i>ek nahiago du aplikazioek baimena eskatzea Internet "
+#~ "atzitu aurretik.</p>\n"
+#~ "<p><b>VLC multimedia-erreproduzigailua</b>k Internetetik informazioa "
+#~ "eskura dezake <b>multimedia-informazioa</b> eskuratzeko edo "
+#~ "<b>eguneratzerik</b> erabilgarri badagoen begiratzeko.</p>\n"
 #~ "<p><i>VLC multimedia-erreproduzigailuak</i> <b>ez du</b> zure erabilerari "
 #~ "buruzko informaziorik bidali edo biltzen, ezta modu anonimoan ere.</p>\n"
 
@@ -30820,12 +30858,12 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Onartu bolumena % 400ean ezartzea"
 
 #~ msgid ""
-#~ "Allow the volume to have range from 0% to 400%, instead of 0% to 200%. This "
-#~ "option can distort the audio, since it uses software amplification."
+#~ "Allow the volume to have range from 0% to 400%, instead of 0% to 200%. "
+#~ "This option can distort the audio, since it uses software amplification."
 #~ msgstr ""
 #~ "Onartu bolumenaren barrutia % 0 eta % 400 artekoa izatea, % 0 eta % 200 "
-#~ "artekoa izan beharrean. Aukera horrek audioa distortsiona dezake, software-"
-#~ "anplifikazioa erabiltzen duelako."
+#~ "artekoa izan beharrean. Aukera horrek audioa distortsiona dezake, "
+#~ "software-anplifikazioa erabiltzen duelako."
 
 #~ msgid "Screennumber of fullscreen, instead ofsame screen where interface is"
 #~ msgstr ""
@@ -30900,14 +30938,15 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "It is possible to cache the resumed TLS sessions. This is the expiration "
 #~ "time of the sessions stored in this cache, in seconds."
 #~ msgstr ""
-#~ "Berrekindako TLS saioak cachean gorde daitezke. Hau cache honetan gordetako "
-#~ "iraungitze-denbora da, segundotan."
+#~ "Berrekindako TLS saioak cachean gorde daitezke. Hau cache honetan "
+#~ "gordetako iraungitze-denbora da, segundotan."
 
 #~ msgid "Number of resumed TLS sessions"
 #~ msgstr "Berrekindako TLS saioak"
 
 #~ msgid ""
-#~ "This is the maximum number of resumed TLS sessions that the cache will hold."
+#~ "This is the maximum number of resumed TLS sessions that the cache will "
+#~ "hold."
 #~ msgstr "Hau da cachean gorde daitezkeen TLS saioen gehienezko kopurua."
 
 #~ msgid "GnuTLS transport layer security"
@@ -30951,40 +30990,40 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Growl UDP jakinarazpenen plugina"
 
 #~ msgid ""
-#~ "Format of the string to send to Telepathy.Defaults to \"Artist - Title\" ($a "
-#~ "- $t). You can use the following substitutions: $a Artist, $b Album, $c "
-#~ "Copyright, $d Description, $e Encoder, $g Genre, $l Language, $n number, $p "
-#~ "Now Playing, $r Rating, $s Subtitles language, $t Title, $u URL, $A Date, $B "
-#~ "Bitrate, $C Chapter, $D Duration, $F URI, $I Video Title, $L Time Remaining, "
-#~ "$N Name, $O Audio language, $P Position, $R Rate, $S Sample rate, $T Time "
-#~ "elapsed, $U Publisher, $V Volume"
+#~ "Format of the string to send to Telepathy.Defaults to \"Artist - Title"
+#~ "\" ($a - $t). You can use the following substitutions: $a Artist, $b "
+#~ "Album, $c Copyright, $d Description, $e Encoder, $g Genre, $l Language, "
+#~ "$n number, $p Now Playing, $r Rating, $s Subtitles language, $t Title, $u "
+#~ "URL, $A Date, $B Bitrate, $C Chapter, $D Duration, $F URI, $I Video "
+#~ "Title, $L Time Remaining, $N Name, $O Audio language, $P Position, $R "
+#~ "Rate, $S Sample rate, $T Time elapsed, $U Publisher, $V Volume"
 #~ msgstr ""
-#~ "Telepathy-ra bidaltzeko katearen formatua. Lehenespena: \"Artista - Titulua"
-#~ "\" ($a - $t). Ordezte hauek erabil ditzakezu: $a Artista, $b Albuma, $c "
-#~ "Copyright, $d Deskribapena, $e Kodeketa, $g Generoa, $l Hizkuntza, $n "
-#~ "zenbakia, $p Orain erreproduzitzen, $r Balorazioa, $s Azpitituluen "
-#~ "hizkuntza, $t Titulua, $u URLa, $A Data, $B Bit-emaria, $C Kapitulua, $D "
-#~ "Iraupena, $F URI, $I Bideoaren titulua, $L Geratzen den denbora, $N Izena, "
-#~ "$O Audio-hizkuntza, $P Posizioa, $R Abiadura, $S Lagin-emaria, $T Igarotako "
-#~ "denbora, $U Argitaratzailea, $V Bolumena"
+#~ "Telepathy-ra bidaltzeko katearen formatua. Lehenespena: \"Artista - "
+#~ "Titulua\" ($a - $t). Ordezte hauek erabil ditzakezu: $a Artista, $b "
+#~ "Albuma, $c Copyright, $d Deskribapena, $e Kodeketa, $g Generoa, $l "
+#~ "Hizkuntza, $n zenbakia, $p Orain erreproduzitzen, $r Balorazioa, $s "
+#~ "Azpitituluen hizkuntza, $t Titulua, $u URLa, $A Data, $B Bit-emaria, $C "
+#~ "Kapitulua, $D Iraupena, $F URI, $I Bideoaren titulua, $L Geratzen den "
+#~ "denbora, $N Izena, $O Audio-hizkuntza, $P Posizioa, $R Abiadura, $S Lagin-"
+#~ "emaria, $T Igarotako denbora, $U Argitaratzailea, $V Bolumena"
 
 #~ msgid ""
-#~ "This is the relative default size of the fonts that will be rendered on the "
-#~ "video. If absolute font size is set, relative size will be overriden."
+#~ "This is the relative default size of the fonts that will be rendered on "
+#~ "the video. If absolute font size is set, relative size will be overriden."
 #~ msgstr ""
-#~ "Bideoan errendatuko diren letra-tipoen tamaina erlatibo lehenetsia da hau. "
-#~ "Letra-tamaina absolutua ezartzen baduzu, tamaina erlatiboa indargabetu "
-#~ "egingo da."
+#~ "Bideoan errendatuko diren letra-tipoen tamaina erlatibo lehenetsia da "
+#~ "hau. Letra-tamaina absolutua ezartzen baduzu, tamaina erlatiboa "
+#~ "indargabetu egingo da."
 
 #~ msgid "Simple XML Parser"
 #~ msgstr "XML analizatzaile soila"
 
 #~ msgid ""
-#~ "Sets PID to the ID if the incoming ES. This is for use with --ts-es-id-pid, "
-#~ "and allows to have the same PIDs in the input and output streams."
+#~ "Sets PID to the ID if the incoming ES. This is for use with --ts-es-id-"
+#~ "pid, and allows to have the same PIDs in the input and output streams."
 #~ msgstr ""
-#~ "Sarrerako ESaren identifikatzaile gisa PID ezartzen du. Hau --ts-es-id-pid-"
-#~ "rekin batera erabiltzeko da, eta sarrerako eta irteerako transmisio "
+#~ "Sarrerako ESaren identifikatzaile gisa PID ezartzen du. Hau --ts-es-id-"
+#~ "pid-rekin batera erabiltzeko da, eta sarrerako eta irteerako transmisio "
 #~ "jarraituetan PID berak edukitzeko aukera ematen du."
 
 #~ msgid "IPv4 SAP"
@@ -31009,8 +31048,9 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Erabili SAP cachea"
 
 #~ msgid ""
-#~ "This enables a SAP caching mechanism. This will result in lower SAP startup "
-#~ "time, but you could end up with items corresponding to legacy streams."
+#~ "This enables a SAP caching mechanism. This will result in lower SAP "
+#~ "startup time, but you could end up with items corresponding to legacy "
+#~ "streams."
 #~ msgstr ""
 #~ "Honen bidez, SAP cachearen mekanismo bat gaitzen da. SAParen abio-denbora "
 #~ "murriztu egingo da, baina baliteke aurreko bertsioetako transmisio "
@@ -31022,8 +31062,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgid ""
 #~ "This allows you to specify how the SDP (Session Descriptor) for this RTP "
 #~ "session will be made available. You must use an url: http://location to "
-#~ "access the SDP via HTTP, rtsp://location for RTSP access, and sap:// for the "
-#~ "SDP to be announced via SAP."
+#~ "access the SDP via HTTP, rtsp://location for RTSP access, and sap:// for "
+#~ "the SDP to be announced via SAP."
 #~ msgstr ""
 #~ "Honen bidez, RTP saio honetako SDP (saio-deskriptorea) nola jarriko den "
 #~ "erabilgarri. http://kokalekua URL bat erabili behar duzu SDPa HTTP bidez "
@@ -31031,24 +31071,24 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "jakinarazteko."
 
 #~ msgid ""
-#~ "This allows you to give an URL with more details about the stream (often the "
-#~ "website of the streaming organization), that will be announced in the SDP "
-#~ "(Session Descriptor)."
+#~ "This allows you to give an URL with more details about the stream (often "
+#~ "the website of the streaming organization), that will be announced in the "
+#~ "SDP (Session Descriptor)."
 #~ msgstr ""
-#~ "Honen bidez, transmisio jarraituari buruzko xehetasun gehiago dituen URL bat "
-#~ "adieraz dezakezu (sarri transmisio jarraituaren erakundearen webgunea izaten "
-#~ "da); URL hori SDPan (saio-deskriptorean) jakinaraziko da."
+#~ "Honen bidez, transmisio jarraituari buruzko xehetasun gehiago dituen URL "
+#~ "bat adieraz dezakezu (sarri transmisio jarraituaren erakundearen webgunea "
+#~ "izaten da); URL hori SDPan (saio-deskriptorean) jakinaraziko da."
 
 #~ msgid ""
-#~ "Address of the video prerender callback functionthis function will set the "
-#~ "buffer where render will be done"
+#~ "Address of the video prerender callback functionthis function will set "
+#~ "the buffer where render will be done"
 #~ msgstr ""
 #~ "Bideoaren aurreerrendatzailearen atzeradei-funtzioaren helbidea; funtzio "
 #~ "horrek errendatzea zer bufferretan egingo den adierazten du"
 
 #~ msgid ""
-#~ "Address of the audio prerender callback function.this function will set the "
-#~ "buffer where render will be done"
+#~ "Address of the audio prerender callback function.this function will set "
+#~ "the buffer where render will be done"
 #~ msgstr ""
 #~ "Bideoaren aurreerrendatzailearen atzeradei-funtzioaren helbidea; funtzio "
 #~ "horrek errendatzea zer bufferretan egingo den adierazten du"
@@ -31083,10 +31123,10 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "http://www.vdr-wiki.de/wiki/index.php/Atmo-plugin\n"
 #~ "http://www.vdr-wiki.de/wiki/index.php/AtmoWin\n"
 #~ "\n"
-#~ "You can find there detailed descriptions on how to build it for yourself and "
-#~ "where to get the required parts.\n"
-#~ "You can also have a look at pictures and some movies showing such a device "
-#~ "in live action."
+#~ "You can find there detailed descriptions on how to build it for yourself "
+#~ "and where to get the required parts.\n"
+#~ "You can also have a look at pictures and some movies showing such a "
+#~ "device in live action."
 #~ msgstr ""
 #~ "Modulu honen bitartez AtmoLight izeneko gailua, ordenagailura konektatuta "
 #~ "dagoena, kontrolatu dezakezu.\n"
@@ -31097,20 +31137,23 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "http://www.vdr-wiki.de/wiki/index.php/Atmo-plugin\n"
 #~ "http://www.vdr-wiki.de/wiki/index.php/AtmoWin\n"
 #~ "\n"
-#~ "Gune horietan, zeuk horrelako gailu bat nola eraikitzen den eta behar diren "
-#~ "zatiak non eskuratzen diren azaltzen da xehetasunez.\n"
-#~ "Horrez gain, gailu hori funtzionamenduan erakusten duten irudiak eta filmak "
-#~ "ere ikus ditzakezu."
-
-#~ msgid "Depending on the amount your fnordlicht hardware choose 1 to 4 channels"
-#~ msgstr "fnordlicht hardware kopuruaren arabera, aukeratu 1 eta 4 kanal artean"
-
-#~ msgid "left and right side having allways the same number of zones"
-#~ msgstr "ezkerreko eta eskuineko aldeek beti zona kopuru bera izan behar dute"
+#~ "Gune horietan, zeuk horrelako gailu bat nola eraikitzen den eta behar "
+#~ "diren zatiak non eskuratzen diren azaltzen da xehetasunez.\n"
+#~ "Horrez gain, gailu hori funtzionamenduan erakusten duten irudiak eta "
+#~ "filmak ere ikus ditzakezu."
 
 #~ msgid ""
-#~ "Value of the audio level of each channels between 0 and 1Each level should "
-#~ "be separated with ':'."
+#~ "Depending on the amount your fnordlicht hardware choose 1 to 4 channels"
+#~ msgstr ""
+#~ "fnordlicht hardware kopuruaren arabera, aukeratu 1 eta 4 kanal artean"
+
+#~ msgid "left and right side having allways the same number of zones"
+#~ msgstr ""
+#~ "ezkerreko eta eskuineko aldeek beti zona kopuru bera izan behar dute"
+
+#~ msgid ""
+#~ "Value of the audio level of each channels between 0 and 1Each level "
+#~ "should be separated with ':'."
 #~ msgstr ""
 #~ "0 eta 1 arteko kanal bakoitzaren audio-maila. Maila bakoitza ':' batez "
 #~ "bereizi behar da."
@@ -31138,14 +31181,15 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "allows to skip logos in black borders and crop them anyway."
 #~ msgstr ""
 #~ "Marra beltzak bilatzean kontuan hartu beharreko marraren ehunekoa. Honen "
-#~ "bidez, ertz beltzetako logotipoak saltatu eta hala ere moztu egin daitezke."
+#~ "bidez, ertz beltzetako logotipoak saltatu eta hala ere moztu egin "
+#~ "daitezke."
 
 #~ msgid ""
-#~ "Gaussian's standard deviation. The bluring will take into account pixels up "
-#~ "to 3*sigma away in any direction."
+#~ "Gaussian's standard deviation. The bluring will take into account pixels "
+#~ "up to 3*sigma away in any direction."
 #~ msgstr ""
-#~ "Gauss-en desbideraketa estandarra. Lausotzeak edozein noranzkotan gehienez "
-#~ "ere 3*sigma-tara dauden pixelak hartuko ditu kontuan."
+#~ "Gauss-en desbideraketa estandarra. Lausotzeak edozein noranzkotan "
+#~ "gehienez ere 3*sigma-tara dauden pixelak hartuko ditu kontuan."
 
 #~ msgid "add grain to image"
 #~ msgstr "gehitu pikortatzea irudiari"
@@ -31154,18 +31198,18 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Logotipoaren azpiiragazkia"
 
 #~ msgid ""
-#~ "Number of image rows in the mosaic (only used if positionning method is set "
-#~ "to \"fixed\")."
+#~ "Number of image rows in the mosaic (only used if positionning method is "
+#~ "set to \"fixed\")."
 #~ msgstr ""
-#~ "Mosaikoko irudi-errenkaden kopurua (kokatze-metodoan \"finkoa\" hautatu bada "
-#~ "bakarrik erabiliko da)."
+#~ "Mosaikoko irudi-errenkaden kopurua (kokatze-metodoan \"finkoa\" hautatu "
+#~ "bada bakarrik erabiliko da)."
 
 #~ msgid ""
-#~ "Number of image columns in the mosaic (only used if positionning method is "
-#~ "set to \"fixed\"."
+#~ "Number of image columns in the mosaic (only used if positionning method "
+#~ "is set to \"fixed\"."
 #~ msgstr ""
-#~ "Mosaikoko irudi-zutabeen kopurua (kokatze-metodoan \"finkoa\" hautatu bada "
-#~ "bakarrik erabiliko da)."
+#~ "Mosaikoko irudi-zutabeen kopurua (kokatze-metodoan \"finkoa\" hautatu "
+#~ "bada bakarrik erabiliko da)."
 
 #~ msgid "Mosaic video sub filter"
 #~ msgstr "Mosaikoen bideoen azpiiragazkia"
@@ -31174,7 +31218,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Zarataren bideo-iragazkia"
 
 #~ msgid "Select in percent the Lagrange coeff of the beginning blended zone"
-#~ msgstr "Hautatu hasierako nahasitako zonaren Lagrange koefizientearen ehunekoa"
+#~ msgstr ""
+#~ "Hautatu hasierako nahasitako zonaren Lagrange koefizientearen ehunekoa"
 
 #~ msgid "Select in percent the Lagrange coeff of the middle of blended zone"
 #~ msgstr ""
@@ -31190,8 +31235,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "looking pictures."
 #~ msgstr ""
 #~ "Prozesatze-ondorenaren kalitatea. Baliozko barrutia 0 eta 6 artekoa da\n"
-#~ "Maila handiagoek PUZ ahalmen dezentea behar dute, baina itxura hobea duten "
-#~ "irudiak sortzen dituzte."
+#~ "Maila handiagoek PUZ ahalmen dezentea behar dute, baina itxura hobea "
+#~ "duten irudiak sortzen dituzte."
 
 #~ msgid "VNC portnumber."
 #~ msgstr "VNC ataka-zenbakia."
@@ -31209,29 +31254,29 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgid ""
 #~ "Create video buffers in system memory instead of video memory. This isn't "
 #~ "recommended as usually using video memory allows to benefit from more "
-#~ "hardware acceleration (like rescaling or YUV->RGB conversions). This option "
-#~ "doesn't have any effect when using overlays."
+#~ "hardware acceleration (like rescaling or YUV->RGB conversions). This "
+#~ "option doesn't have any effect when using overlays."
 #~ msgstr ""
 #~ "Sortu bideo-bufferrak sistema-memorian, bideo-memorian erabili beharrean. "
-#~ "Hau ez da gomendatzen, normalean bideo-memoria erabiltzean hobe izaten baita "
-#~ "hardware-azelerazioa erabiltzea (adibidez, eskalaren birdoitzea edo YUV->GBU "
-#~ "bihurketak erabil daitezke). Aukera honek ez dauka efekturik gainjartzeak "
-#~ "erabiltzen direnean."
+#~ "Hau ez da gomendatzen, normalean bideo-memoria erabiltzean hobe izaten "
+#~ "baita hardware-azelerazioa erabiltzea (adibidez, eskalaren birdoitzea edo "
+#~ "YUV->GBU bihurketak erabil daitezke). Aukera honek ez dauka efekturik "
+#~ "gainjartzeak erabiltzen direnean."
 
 #~ msgid "OMAP Framebuffer device"
 #~ msgstr "OMAP framebuffer-aren gailua"
 
 #~ msgid "OMAP Framebuffer device to use for rendering (usually /dev/fb0)."
 #~ msgstr ""
-#~ "Errendatzeko erabili behar den OMAP frambuffer-aren gailua (normalean /dev/"
-#~ "fb0)."
+#~ "Errendatzeko erabili behar den OMAP frambuffer-aren gailua (normalean /"
+#~ "dev/fb0)."
 
 #~ msgid ""
-#~ "Force use of a specific chroma for output. Default is Y420 (specific to N770/"
-#~ "N8xx hardware)."
+#~ "Force use of a specific chroma for output. Default is Y420 (specific to "
+#~ "N770/N8xx hardware)."
 #~ msgstr ""
-#~ "Irteerarako krominantzia jakin bat erabiltzea behartu. Lehenespena Y420 da "
-#~ "(N770/N8xx hardwarearentzako ezarpena)."
+#~ "Irteerarako krominantzia jakin bat erabiltzea behartu. Lehenespena Y420 "
+#~ "da (N770/N8xx hardwarearentzako ezarpena)."
 
 #~ msgid "Embed the overlay"
 #~ msgstr "Kapsulatu gainjartzea"
@@ -31264,7 +31309,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr "Argazki-irudiaren altuera."
 
 #~ msgid ""
-#~ "Output chroma for the snapshot image (a 4 character string, like \"RV32\")."
+#~ "Output chroma for the snapshot image (a 4 character string, like "
+#~ "\"RV32\")."
 #~ msgstr ""
 #~ "Argazki-irudirako irteerako krominantzia (4 karaktereko katea, adibidez, "
 #~ "\"RV32\")."
@@ -31291,8 +31337,9 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "VLC can embed its video output in an existing X11 window. This is the X "
 #~ "identifier of that window (0 means none)."
 #~ msgstr ""
-#~ "VLCk bere bideo-irteera lehendik dagoen X11 leiho batean kapsula dezake. Hau "
-#~ "leiho horren X identifikatzailea da (0 balioak bat ere ez esan nahi du)."
+#~ "VLCk bere bideo-irteera lehendik dagoen X11 leiho batean kapsula dezake. "
+#~ "Hau leiho horren X identifikatzailea da (0 balioak bat ere ez esan nahi "
+#~ "du)."
 
 #~ msgid "Use shared memory"
 #~ msgstr "Erabili memoria partekatua"
@@ -31302,13 +31349,13 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ "Erabili memoria partekatua VLC eta X zerbitzariaren artean komunikatzeko."
 
 #~ msgid ""
-#~ "The YUV4MPEG2 header is compatible with mplayer yuv video ouput and requires "
-#~ "YV12/I420 fourcc. By default vlc writes the fourcc of the picture frame into "
-#~ "the output destination."
+#~ "The YUV4MPEG2 header is compatible with mplayer yuv video ouput and "
+#~ "requires YV12/I420 fourcc. By default vlc writes the fourcc of the "
+#~ "picture frame into the output destination."
 #~ msgstr ""
-#~ "YUV4MPEG2 goiburua bateragarria da mplayer yuv bideo-irteerarekin, eta YV12/"
-#~ "I420 fourcc eskatzen du. Lehenespenez, vlc-k irudi-markoaren fourcc idazten "
-#~ "du irteeraren helburuan."
+#~ "YUV4MPEG2 goiburua bateragarria da mplayer yuv bideo-irteerarekin, eta "
+#~ "YV12/I420 fourcc eskatzen du. Lehenespenez, vlc-k irudi-markoaren fourcc "
+#~ "idazten du irteeraren helburuan."
 
 #~ msgid "More bands : 80 / 20"
 #~ msgstr "Banda gehiago : 80 / 20"
@@ -31353,11 +31400,11 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgid ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 #~ "REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
-#~ "\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
 #~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; font-"
-#~ "weight:400; font-style:normal;\">\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
 #~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 #~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
 #~ "#838383;\">http://www.example.com/stream.avi</span></p>\n"
@@ -31376,11 +31423,11 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 #~ msgstr ""
 #~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 #~ "REC-html40/strict.dtd\">\n"
-#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
-#~ "\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/"
+#~ "css\">\n"
 #~ "p, li { white-space: pre-wrap; }\n"
-#~ "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; font-"
-#~ "weight:400; font-style:normal;\">\n"
+#~ "</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; "
+#~ "font-weight:400; font-style:normal;\">\n"
 #~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 #~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
 #~ "#838383;\">http://www.example.com/stream.avi</span></p>\n"
@@ -31425,7 +31472,8 @@ msgstr "Multimedia-fitxategien kudeatzaileen zerrenda"
 
 #~ msgid "No v4l2 instance found. Press the refresh button to try again."
 #~ msgstr ""
-#~ "Ez da v4l2 instantziarik aurkitu. Sakatu freskatze-botoia berriz saiatzeko."
+#~ "Ez da v4l2 instantziarik aurkitu. Sakatu freskatze-botoia berriz "
+#~ "saiatzeko."
 
 #~ msgid "Color fun"
 #~ msgstr "Kolore-festa"
