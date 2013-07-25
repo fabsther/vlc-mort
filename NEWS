@@ -3,14 +3,21 @@ Changes between 2.0.7 and 2.0.8:
 
 Access:
  * Fix ISDB-S tuning
- * FIx crash in QTsound
+ * Fix crash in QTsound
+ * Fix screen mouse file location
+ * Fix invalid memcpy in MMS access
 
 Demux:
  * Fix use after free in sgimb
+ * Improve resistance and checking against malformed MKV files
+
+Decoders:
+ * Fix crash in the libavcodec module
 
 Mac OS X:
  * Fix interface crashes
  * Fix autostart playback option
+ * Respect "playlist-autostart" option
 
 Translations:
  * update Welsh translation
