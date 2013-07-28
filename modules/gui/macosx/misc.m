@@ -92,7 +92,10 @@ static NSMutableArray *blackoutWindows = NULL;
 
 - (BOOL)isMainScreen
 {
-    return ([self displayID] == [[[NSScreen screens] objectAtIndex:0] displayID]);
+    if (OSX_REDACTED)
+        return YES;
+    else
+        return ([self displayID] == [[[NSScreen screens] objectAtIndex:0] displayID]);
 }
 
 - (BOOL)isScreen: (NSScreen*)screen
