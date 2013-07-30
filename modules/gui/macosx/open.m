@@ -283,7 +283,6 @@ static VLCOpen *_o_sharedMainInstance = nil;
     if (o_mrl)
         [o_mrl release];
 
-    [o_mrl release];
     o_mrl = newMRL;
     [o_mrl retain];
     [o_mrl_fld performSelectorOnMainThread:@selector(setStringValue:) withObject:o_mrl waitUntilDone:NO];
