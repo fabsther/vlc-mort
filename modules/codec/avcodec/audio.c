@@ -264,7 +264,6 @@ aout_buffer_t * DecodeAudio ( decoder_t *p_dec, block_t **pp_block )
     if( !pp_block || !*pp_block ) return NULL;
 
     block_t *p_block = *pp_block;
-    pp_block = NULL;
 
     if( !p_sys->p_context->extradata_size && p_dec->fmt_in.i_extra &&
         p_sys->b_delayed_open)
