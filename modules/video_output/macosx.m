@@ -492,6 +492,7 @@ static void OpenglSwap (vlc_gl_t *gl)
         NSOpenGLPFAAlphaSize, 8,
         NSOpenGLPFADepthSize, 24,
         NSOpenGLPFAWindow,
+        NSOpenGLPFAAllowOfflineRenderers,
         0
     };
 
