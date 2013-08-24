@@ -881,7 +881,6 @@ static int LOASParse( decoder_t *p_dec, uint8_t *p_buffer, int i_buffer )
             for( i_program = 0; i_program < p_sys->latm.i_programs; i_program++ )
             {
                 int i_layer;
-                int i;
                 for( i_layer = 0; i_layer < p_sys->latm.pi_layers[i_program]; i_layer++ )
                 {
                     /* XXX we only extract 1 stream */
@@ -892,8 +891,11 @@ static int LOASParse( decoder_t *p_dec, uint8_t *p_buffer, int i_buffer )
                         continue;
 
                     /* FIXME that's slow (and a bit ugly to write in place) */
-                    for( i = 0; i < pi_payload[i_program][i_layer]; i++ )
-                        p_buffer[i_accumulated++] = bs_read( &s, 8 );
+                    for (int i = 0; i < pi_payload[i_program][i_layer]; i++) {
+                        if (i_accumulated >= i_buffer)
+                            return 0;
+                        p_buffer[i_accumulated++] = bs_read(&s, 8);
+                    }
                 }
             }
         }
