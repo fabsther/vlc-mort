@@ -655,6 +655,16 @@ static VLCMain *_o_sharedMainInstance = nil;
 
     [self initStrings];
 
+    NSURL *feedURL;
+#ifdef __x86_64__
+    feedURL = [NSURL URLWithString:@"http://update.videolan.org/vlc/sparkle/vlc-intel64.xml"];
+#elif __i386__
+    feedURL = [NSURL URLWithString:@"http://update.videolan.org/vlc/sparkle/vlc-intel32.xml"];
+#else
+    feedURL = [NSURL URLWithString:@"http://update.videolan.org/vlc/sparkle/vlc-powerpc.xml"];
+#endif
+    [[SUUpdater sharedUpdater] setFeedURL:feedURL];
+
     nib_main_loaded = TRUE;
 }
 
