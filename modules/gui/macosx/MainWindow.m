@@ -41,6 +41,12 @@
 #import <vlc_services_discovery.h>
 #import <vlc_aout_intf.h>
 
+@interface VLCMainWindow ()
+{
+    BOOL b_video_view_was_hidden;
+}
+@end
+
 @implementation VLCMainWindow
 static const float f_min_video_height = 70.0;
 
@@ -2113,6 +2119,10 @@ static VLCMainWindow *_o_sharedInstance = nil;
 {
     b_fullscreen = NO;
 
+    /* Make sure video view gets visible in case the playlist was visible before */
+    b_video_view_was_hidden = [o_video_view isHidden];
+    [o_video_view setHidden: NO];
+
     /* This function is private and should be only triggered at the end of the fullscreen change animation */
     /* Make sure we don't see the o_video_view disappearing of the screen during this operation */
     NSDisableScreenUpdates();
@@ -2127,6 +2137,9 @@ static VLCMainWindow *_o_sharedInstance = nil;
             [super makeKeyAndOrderFront:self]; /* our version contains a workaround */
     else
         [[o_video_view window] makeKeyAndOrderFront: self];
+
+    [o_video_view setHidden: b_video_view_was_hidden];
+
     [o_fullscreen_window orderOut: self];
     NSEnableScreenUpdates();
 
