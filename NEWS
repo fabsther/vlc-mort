@@ -4,6 +4,8 @@ Changes between 2.0.8 and 2.0.9:
 Demux:
  * Improve handling of corrupt ASF files
  * Fix buffer overflow in the mp4a packetizer
+ * Fix MKV double-free
+ * Fix floating point exception in MLP files
 
 Contribs:
  * Fix modplug security issues
