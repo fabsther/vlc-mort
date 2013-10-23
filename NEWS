@@ -10,6 +10,15 @@ Demux:
 Contribs:
  * Fix modplug security issues
 
+Miscellaneous:
+ * Fix possible crash in directory access module
+ * Fix Unicode issues on Mac OS X
+ * Split PPC, Intel 32 and Intel 64 upgrade path for OS X
+ * Fix various memory leaks
+
+Translations:
+ * Update Dutch and Lithuanian translations
+
 
 Changes between 2.0.7 and 2.0.8:
 --------------------------------
