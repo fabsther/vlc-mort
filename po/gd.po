@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC - Trans\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2013-07-25 14:21+0200\n"
+"POT-Creation-Date: 2013-10-23 15:09+0200\n"
 "PO-Revision-Date: 2012-12-03 21:15+0000\n"
 "Last-Translator: Michael Bauer <fios@akerbeltz.org>\n"
 "Language-Team: Gaelic, Scottish (http://www.transifex.com/projects/p/vlc-"
@@ -372,7 +372,7 @@ msgstr "Mar a chuir VLC an sàs Video On Demand"
 
 #: include/vlc_config_cat.h:175 src/libvlc-module.c:2177
 #: src/playlist/engine.c:230 modules/demux/playlist/playlist.c:63
-#: modules/demux/playlist/playlist.c:64 modules/gui/macosx/MainWindow.m:408
+#: modules/demux/playlist/playlist.c:64 modules/gui/macosx/MainWindow.m:414
 #: modules/gui/qt4/components/controller.hpp:116
 #: modules/gui/qt4/components/playlist/playlist.cpp:191
 #: modules/gui/qt4/components/playlist/selector.cpp:190
@@ -431,7 +431,7 @@ msgid "Advanced settings"
 msgstr "Roghainnean adhartach"
 
 #: include/vlc_config_cat.h:198 modules/gui/macosx/open.m:112
-#: modules/gui/macosx/open.m:486 modules/gui/macosx/simple_prefs.m:259
+#: modules/gui/macosx/open.m:485 modules/gui/macosx/simple_prefs.m:259
 #: modules/gui/qt4/ui/sprefs_input.h:348
 msgid "Network"
 msgstr "Lìonra"
@@ -564,7 +564,7 @@ msgstr "&Mu dheidhinn"
 #: modules/gui/macosx/MainMenu.m:266 modules/gui/macosx/MainMenu.m:363
 #: modules/gui/macosx/MainMenu.m:370 modules/gui/macosx/MainMenu.m:846
 #: modules/gui/macosx/MainMenu.m:847 modules/gui/macosx/MainMenu.m:848
-#: modules/gui/macosx/MainWindow.m:1515 modules/gui/macosx/MainWindow.m:1520
+#: modules/gui/macosx/MainWindow.m:1521 modules/gui/macosx/MainWindow.m:1526
 #: modules/gui/macosx/playlist.m:476
 #: modules/gui/qt4/components/controller.hpp:114
 #: modules/gui/qt4/dialogs/vlm.cpp:550 modules/gui/qt4/menus.cpp:788
@@ -669,7 +669,7 @@ msgstr "Sàbhail an liosta-chluich ann am &faidhle..."
 msgid "Open Play&list..."
 msgstr "Fosgail &liosta-chluich..."
 
-#: include/vlc_intf_strings.h:98 modules/gui/macosx/MainWindow.m:192
+#: include/vlc_intf_strings.h:98 modules/gui/macosx/MainWindow.m:198
 #: modules/gui/qt4/components/preferences_widgets.cpp:1320
 msgid "Search"
 msgstr "Lorg"
@@ -816,7 +816,7 @@ msgstr ""
 
 #: src/audio_output/common.c:85 src/audio_output/common.c:125
 #: src/input/es_out.c:934 src/libvlc-module.c:697
-#: src/video_output/postprocessing.c:98 modules/gui/macosx/MainWindow.m:2441
+#: src/video_output/postprocessing.c:98 modules/gui/macosx/MainWindow.m:2454
 #: modules/video_filter/postproc.c:228
 msgid "Disable"
 msgstr "Cuir à comas"
@@ -2403,7 +2403,7 @@ msgid "Default"
 msgstr "Bun-roghainn"
 
 #: src/libvlc-module.c:697 modules/gui/macosx/AudioEffects.m:66
-#: modules/gui/macosx/MainWindow.m:2439 modules/gui/macosx/wizard.m:357
+#: modules/gui/macosx/MainWindow.m:2452 modules/gui/macosx/wizard.m:357
 #: modules/gui/qt4/ui/equalizer.h:133 modules/gui/qt4/ui/vlm.h:290
 msgid "Enable"
 msgstr "Cuir an comas"
@@ -3577,7 +3577,7 @@ msgstr "Fàg an làn-sgrìn"
 msgid "Select the hotkey to use to leave fullscreen state."
 msgstr "Tagh an hotkey airson an làn-sgrìn no fhàgail."
 
-#: src/libvlc-module.c:1360 modules/gui/macosx/MainWindow.m:179
+#: src/libvlc-module.c:1360 modules/gui/macosx/MainWindow.m:185
 msgid "Play/Pause"
 msgstr "Cluich/Cuir 'na stad"
 
@@ -3670,7 +3670,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1380 modules/gui/macosx/MainMenu.m:267
 #: modules/gui/macosx/MainMenu.m:364 modules/gui/macosx/MainMenu.m:371
-#: modules/gui/macosx/MainMenu.m:1156 modules/gui/macosx/MainWindow.m:185
+#: modules/gui/macosx/MainMenu.m:1156 modules/gui/macosx/MainWindow.m:191
 #: modules/gui/qt4/components/controller.hpp:114
 #: modules/gui/qt4/dialogs/vlm.cpp:556 modules/notify/xosd.c:234
 #: modules/gui/qt4/ui/streampanel.h:181
@@ -3683,7 +3683,7 @@ msgstr "Tagh an hotkey airson sgur de chluich."
 
 #: src/libvlc-module.c:1382 modules/gui/fbosd.c:128 modules/gui/fbosd.c:196
 #: modules/gui/macosx/bookmarks.m:96 modules/gui/macosx/bookmarks.m:105
-#: modules/gui/macosx/MainWindow.m:196 modules/gui/macosx/VideoEffects.m:146
+#: modules/gui/macosx/MainWindow.m:202 modules/gui/macosx/VideoEffects.m:146
 #: modules/gui/macosx/VideoEffects.m:168 modules/video_filter/marq.c:157
 #: modules/video_filter/rss.c:200 modules/gui/qt4/ui/sprefs_subtitles.h:274
 #: modules/gui/qt4/ui/video_effects.h:1362
@@ -3916,7 +3916,7 @@ msgstr "Tagh an iuchair gus àirde na fuaime a chur sìos."
 #: src/libvlc-module.c:1449 modules/access/v4l2/video.c:189
 #: modules/gui/macosx/MainMenu.m:295 modules/gui/macosx/MainMenu.m:367
 #: modules/gui/macosx/MainMenu.m:376 modules/gui/macosx/MainMenu.m:1210
-#: modules/gui/macosx/MainWindow.m:194 modules/gui/qt4/menus.cpp:573
+#: modules/gui/macosx/MainWindow.m:200 modules/gui/qt4/menus.cpp:573
 msgid "Mute"
 msgstr "Mùch"
 
@@ -4522,7 +4522,7 @@ msgstr "'Ga luchdadh a-nuas ..."
 #: src/misc/update.c:588 src/misc/update.c:713 modules/demux/avi/avi.c:2407
 #: modules/gui/macosx/bookmarks.m:102 modules/gui/macosx/controls.m:53
 #: modules/gui/macosx/coredialogs.m:62 modules/gui/macosx/coredialogs.m:64
-#: modules/gui/macosx/coredialogs.m:188 modules/gui/macosx/open.m:108
+#: modules/gui/macosx/coredialogs.m:193 modules/gui/macosx/open.m:108
 #: modules/gui/macosx/open.m:162 modules/gui/macosx/prefs.m:208
 #: modules/gui/macosx/prefs.m:229 modules/gui/macosx/simple_prefs.m:241
 #: modules/gui/macosx/simple_prefs.m:323 modules/gui/macosx/simple_prefs.m:757
@@ -4603,7 +4603,7 @@ msgid "Install"
 msgstr "Stàlaich"
 
 #: src/playlist/engine.c:243 src/playlist/loadsave.c:152 lib/media_list.c:254
-#: modules/gui/macosx/MainWindow.m:410
+#: modules/gui/macosx/MainWindow.m:416
 #: modules/gui/qt4/components/playlist/selector.cpp:196
 msgid "Media Library"
 msgstr "Leabhar-lann nam meadhanan"
@@ -6483,7 +6483,7 @@ msgstr ""
 
 #: modules/access/fs.c:53 modules/access_output/file.c:73
 #: modules/audio_output/file.c:109 modules/gui/macosx/open.m:110
-#: modules/gui/macosx/open.m:478 modules/gui/macosx/output.m:142
+#: modules/gui/macosx/open.m:477 modules/gui/macosx/output.m:142
 #: modules/gui/macosx/output.m:230 modules/gui/macosx/output.m:369
 #: modules/gui/qt4/dialogs/plugins.cpp:560 modules/gui/qt4/dialogs/sout.cpp:76
 #: modules/gui/qt4/dialogs/sout.cpp:154
@@ -7324,7 +7324,7 @@ msgid "Bitmask that will get used by the audio part of the card."
 msgstr ""
 
 #: modules/access/pvr.c:103 modules/access/vcdx/info.c:69
-#: modules/gui/macosx/MainWindow.m:193 modules/gui/qt4/dialogs/toolbar.cpp:363
+#: modules/gui/macosx/MainWindow.m:199 modules/gui/qt4/dialogs/toolbar.cpp:363
 #: modules/stream_out/raop.c:150 modules/gui/qt4/ui/sprefs_audio.h:431
 msgid "Volume"
 msgstr "Àirde na fuaime"
@@ -7603,7 +7603,7 @@ msgstr ""
 
 #: modules/access/screen/screen.c:89 modules/access/screen/xcb.c:65
 #: modules/gui/macosx/MainMenu.m:509 modules/gui/macosx/open.m:182
-#: modules/gui/macosx/open.m:429 modules/gui/macosx/open.m:1239
+#: modules/gui/macosx/open.m:428 modules/gui/macosx/open.m:1238
 #: modules/gui/macosx/simple_prefs.m:594
 msgid "Screen"
 msgstr "Sgrìn"
@@ -8300,7 +8300,7 @@ msgid "LID"
 msgstr ""
 
 #: modules/access/vcdx/info.c:54 modules/gui/macosx/open.m:111
-#: modules/gui/macosx/open.m:482
+#: modules/gui/macosx/open.m:481
 msgid "Disc"
 msgstr "Diosg"
 
@@ -8711,7 +8711,7 @@ msgstr ""
 msgid "Sound Delay"
 msgstr ""
 
-#: modules/audio_filter/chorus_flanger.c:78 modules/gui/macosx/open.m:313
+#: modules/audio_filter/chorus_flanger.c:78 modules/gui/macosx/open.m:312
 #: modules/stream_out/bridge.c:51 modules/stream_out/delay.c:54
 #: modules/video_filter/mosaic.c:154
 msgid "Delay"
@@ -12266,8 +12266,8 @@ msgstr ""
 msgid "D-Bus control interface"
 msgstr ""
 
-#: modules/control/dbus/dbus_root.c:75 modules/gui/macosx/MainWindow.m:348
-#: modules/gui/macosx/MainWindow.m:1419 modules/gui/qt4/dialogs/help.cpp:99
+#: modules/control/dbus/dbus_root.c:75 modules/gui/macosx/MainWindow.m:354
+#: modules/gui/macosx/MainWindow.m:1425 modules/gui/qt4/dialogs/help.cpp:99
 #: modules/gui/qt4/main_interface.cpp:989
 #: modules/gui/qt4/main_interface.cpp:993
 #: modules/gui/qt4/main_interface.cpp:1032
@@ -12341,7 +12341,7 @@ msgstr "Smachd air an fhuaim"
 msgid "Position Control"
 msgstr "Smachd air an ionad"
 
-#: modules/control/hotkeys.c:97 modules/gui/macosx/intf.m:2074
+#: modules/control/hotkeys.c:97 modules/gui/macosx/intf.m:2084
 msgid "Ignore"
 msgstr "Leig seachad"
 
@@ -12581,7 +12581,7 @@ msgstr "'Ga fhosgladh"
 
 #: modules/control/rc.c:73 modules/gui/macosx/MainMenu.m:853
 #: modules/gui/macosx/MainMenu.m:854 modules/gui/macosx/MainMenu.m:855
-#: modules/gui/macosx/MainWindow.m:1501 modules/gui/macosx/MainWindow.m:1506
+#: modules/gui/macosx/MainWindow.m:1507 modules/gui/macosx/MainWindow.m:1512
 #: modules/gui/qt4/menus.cpp:796 modules/notify/xosd.c:238
 msgid "Pause"
 msgstr "Cuir 'na stad"
@@ -14849,8 +14849,8 @@ msgstr "Àm"
 #: modules/gui/macosx/bookmarks.m:101 modules/gui/macosx/bookmarks.m:211
 #: modules/gui/macosx/bookmarks.m:214 modules/gui/macosx/bookmarks.m:265
 #: modules/gui/macosx/bookmarks.m:270 modules/gui/macosx/controls.m:54
-#: modules/gui/macosx/coredialogs.m:63 modules/gui/macosx/coredialogs.m:100
-#: modules/gui/macosx/coredialogs.m:158 modules/gui/macosx/open.m:323
+#: modules/gui/macosx/coredialogs.m:63 modules/gui/macosx/coredialogs.m:103
+#: modules/gui/macosx/coredialogs.m:163 modules/gui/macosx/open.m:322
 #: modules/gui/macosx/output.m:138 modules/gui/macosx/playlistinfo.m:363
 #: modules/gui/macosx/simple_prefs.m:242 modules/gui/macosx/wizard.m:603
 #: modules/gui/macosx/wizard.m:666 modules/gui/macosx/wizard.m:1039
@@ -14926,15 +14926,15 @@ msgstr "Gearr leum dhan àm"
 msgid "User name"
 msgstr "Ainm-cleachdaiche"
 
-#: modules/gui/macosx/coredialogs.m:265
+#: modules/gui/macosx/coredialogs.m:270
 msgid "Errors and Warnings"
 msgstr "Mearachdan is rabhaidhean"
 
-#: modules/gui/macosx/coredialogs.m:266
+#: modules/gui/macosx/coredialogs.m:271
 msgid "Clean up"
 msgstr "Sgioblaich"
 
-#: modules/gui/macosx/coredialogs.m:267
+#: modules/gui/macosx/coredialogs.m:272
 msgid "Show Details"
 msgstr "Seall am mion-fhiosrachadh"
 
@@ -14960,33 +14960,33 @@ msgstr ""
 msgid "(no item is being played)"
 msgstr "(chan eil dad 'ga chluich)"
 
-#: modules/gui/macosx/intf.m:708 modules/gui/qt4/dialogs/messages.cpp:75
+#: modules/gui/macosx/intf.m:718 modules/gui/qt4/dialogs/messages.cpp:75
 #: modules/gui/qt4/ui/messages_panel.h:141
 #: modules/gui/qt4/ui/messages_panel.h:146
 msgid "Messages"
 msgstr "Teachdaireachdan"
 
-#: modules/gui/macosx/intf.m:709
+#: modules/gui/macosx/intf.m:719
 msgid "Open CrashLog..."
 msgstr "Fosgail loga nan tuislidhean..."
 
-#: modules/gui/macosx/intf.m:710
+#: modules/gui/macosx/intf.m:720
 msgid "Save this Log..."
 msgstr "Sàbhail an loga seo..."
 
-#: modules/gui/macosx/intf.m:713
+#: modules/gui/macosx/intf.m:723
 msgid "Send"
 msgstr "Cuir"
 
-#: modules/gui/macosx/intf.m:714
+#: modules/gui/macosx/intf.m:724
 msgid "Don't Send"
 msgstr "Na cuir"
 
-#: modules/gui/macosx/intf.m:715 modules/gui/macosx/intf.m:716
+#: modules/gui/macosx/intf.m:725 modules/gui/macosx/intf.m:726
 msgid "VLC crashed previously"
 msgstr "Thuislich VLC roimhe"
 
-#: modules/gui/macosx/intf.m:717
+#: modules/gui/macosx/intf.m:727
 msgid ""
 "Do you want to send details on the crash to VLC's development team?\n"
 "\n"
@@ -15001,12 +15001,12 @@ msgstr ""
 "thuislich VLC agus fiosrachadh cuideachail eile mar ceangal far am faigh "
 "sinn faidhle sampaill no URL de shruth lìonraidh..."
 
-#: modules/gui/macosx/intf.m:718
+#: modules/gui/macosx/intf.m:728
 msgid "I agree to be possibly contacted about this bugreport."
 msgstr ""
 "Tha mi a' toirt cead dhuibh fios a leigeil dhomh mun aithisg bhuga seo."
 
-#: modules/gui/macosx/intf.m:719
+#: modules/gui/macosx/intf.m:729
 msgid ""
 "Only your default E-Mail address will be submitted, including no further "
 "information."
@@ -15014,32 +15014,32 @@ msgstr ""
 "Cha dèid a chur a-null ach am post-d bunaiteach agad, as aonais fiosrachaidh "
 "sam bith eile."
 
-#: modules/gui/macosx/intf.m:2033
+#: modules/gui/macosx/intf.m:2043
 msgid "No CrashLog found"
 msgstr "Cha deach loga nan tuislidhean a lorg"
 
-#: modules/gui/macosx/intf.m:2033 modules/gui/macosx/prefs.m:230
+#: modules/gui/macosx/intf.m:2043 modules/gui/macosx/prefs.m:230
 #: modules/gui/macosx/simple_prefs.m:758
 msgid "Continue"
 msgstr "Lean air adhart"
 
-#: modules/gui/macosx/intf.m:2033
+#: modules/gui/macosx/intf.m:2043
 msgid "Couldn't find any trace of a previous crash."
 msgstr "Cha do lorg sinn sgeul air tuisleadh sam bith."
 
-#: modules/gui/macosx/intf.m:2072
+#: modules/gui/macosx/intf.m:2082
 msgid "Remove old preferences?"
 msgstr "A bheil thu airson na seann roghainnean a thoirt air falbh?"
 
-#: modules/gui/macosx/intf.m:2073
+#: modules/gui/macosx/intf.m:2083
 msgid "We just found an older version of VLC's preferences files."
 msgstr "Lorg sinn seann fhaidhlichean sa bheil roghainnean VLC."
 
-#: modules/gui/macosx/intf.m:2074
+#: modules/gui/macosx/intf.m:2084
 msgid "Move To Trash and Relaunch VLC"
 msgstr "Gluais dhan sgudal iad is cuir gu dol VLC a-rithist"
 
-#: modules/gui/macosx/intf.m:2194
+#: modules/gui/macosx/intf.m:2204
 #, c-format
 msgid "VLC Debug Log (%s).rtfd"
 msgstr "Loga dì-bhugachaidh VLC (%s).rtfd"
@@ -15427,64 +15427,64 @@ msgstr "Àirde na fuaime suas"
 msgid "Volume Down"
 msgstr "Àirde na fuaime sìos"
 
-#: modules/gui/macosx/MainWindow.m:181
+#: modules/gui/macosx/MainWindow.m:187
 msgid "Backward"
 msgstr "Air ais"
 
-#: modules/gui/macosx/MainWindow.m:183
+#: modules/gui/macosx/MainWindow.m:189
 msgid "Forward"
 msgstr "Air adhart"
 
-#: modules/gui/macosx/MainWindow.m:186
+#: modules/gui/macosx/MainWindow.m:192
 msgid "Show/Hide Playlist"
 msgstr "Seall/Falaich an liosta-chluich"
 
-#: modules/gui/macosx/MainWindow.m:187 modules/gui/qt4/dialogs/vlm.cpp:560
+#: modules/gui/macosx/MainWindow.m:193 modules/gui/qt4/dialogs/vlm.cpp:560
 msgid "Repeat"
 msgstr "Ath-chluich"
 
-#: modules/gui/macosx/MainWindow.m:188
+#: modules/gui/macosx/MainWindow.m:194
 msgid "Shuffle"
 msgstr "Air thuaiream"
 
-#: modules/gui/macosx/MainWindow.m:189 modules/gui/macosx/simple_prefs.m:226
+#: modules/gui/macosx/MainWindow.m:195 modules/gui/macosx/simple_prefs.m:226
 #: modules/gui/qt4/ui/sprefs_audio.h:440
 msgid "Effects"
 msgstr "Èifeachdan"
 
-#: modules/gui/macosx/MainWindow.m:190
+#: modules/gui/macosx/MainWindow.m:196
 msgid "Toggle Fullscreen mode"
 msgstr "Toglaich am modh làn-sgrìn"
 
-#: modules/gui/macosx/MainWindow.m:195
+#: modules/gui/macosx/MainWindow.m:201
 msgid "Full Volume"
 msgstr "An fhuaim cho àrd 's a ghabhas"
 
-#: modules/gui/macosx/MainWindow.m:198
+#: modules/gui/macosx/MainWindow.m:204
 msgid "Open media..."
 msgstr "Fosgail meadhan..."
 
-#: modules/gui/macosx/MainWindow.m:199
+#: modules/gui/macosx/MainWindow.m:205
 msgid "Drop media here"
 msgstr "Leig às meadhan an-seo"
 
-#: modules/gui/macosx/MainWindow.m:407
+#: modules/gui/macosx/MainWindow.m:413
 msgid "LIBRARY"
 msgstr "LEABHARLANN"
 
-#: modules/gui/macosx/MainWindow.m:412
+#: modules/gui/macosx/MainWindow.m:418
 msgid "MY COMPUTER"
 msgstr "AN COIMPIUTAIR AGAM"
 
-#: modules/gui/macosx/MainWindow.m:413
+#: modules/gui/macosx/MainWindow.m:419
 msgid "DEVICES"
 msgstr "UIDHEAMAN"
 
-#: modules/gui/macosx/MainWindow.m:414
+#: modules/gui/macosx/MainWindow.m:420
 msgid "LOCAL NETWORK"
 msgstr "LÌONRA IONADAIL"
 
-#: modules/gui/macosx/MainWindow.m:415
+#: modules/gui/macosx/MainWindow.m:421
 msgid "INTERNET"
 msgstr "EADAR-LÌON"
 
@@ -15511,22 +15511,22 @@ msgid "Media Resource Locator (MRL)"
 msgstr "Media Resource Locator (MRL)"
 
 #: modules/gui/macosx/open.m:107 modules/gui/macosx/open.m:163
-#: modules/gui/macosx/open.m:630 modules/gui/macosx/open.m:939
-#: modules/gui/macosx/open.m:1168 modules/gui/macosx/open.m:1421
+#: modules/gui/macosx/open.m:629 modules/gui/macosx/open.m:938
+#: modules/gui/macosx/open.m:1167 modules/gui/macosx/open.m:1420
 #: modules/gui/qt4/components/controller.hpp:114
 msgid "Open"
 msgstr "Fosgail"
 
-#: modules/gui/macosx/open.m:113 modules/gui/macosx/open.m:427
-#: modules/gui/macosx/open.m:490
+#: modules/gui/macosx/open.m:113 modules/gui/macosx/open.m:426
+#: modules/gui/macosx/open.m:489
 msgid "Capture"
 msgstr "Glac"
 
-#: modules/gui/macosx/open.m:116 modules/gui/macosx/open.m:307
+#: modules/gui/macosx/open.m:116 modules/gui/macosx/open.m:306
 msgid "Choose a file"
 msgstr "Tagh faidhle"
 
-#: modules/gui/macosx/open.m:118 modules/gui/macosx/open.m:311
+#: modules/gui/macosx/open.m:118 modules/gui/macosx/open.m:310
 #: modules/gui/macosx/output.m:145 modules/gui/macosx/prefs_widgets.m:1197
 #: modules/gui/macosx/simple_prefs.m:250 modules/gui/macosx/simple_prefs.m:312
 #: modules/gui/qt4/components/preferences_widgets.cpp:269
@@ -15546,7 +15546,7 @@ msgstr "Làimhsich mar phìob seach faidhle"
 msgid "Play another media synchronously"
 msgstr "Cluich meadhan eile aig an aon àm"
 
-#: modules/gui/macosx/open.m:122 modules/gui/macosx/open.m:310
+#: modules/gui/macosx/open.m:122 modules/gui/macosx/open.m:309
 #: modules/gui/macosx/simple_prefs.m:288 modules/gui/macosx/wizard.m:349
 #: modules/gui/macosx/wizard.m:417 modules/gui/qt4/ui/sprefs_interface.h:540
 msgid "Choose..."
@@ -15633,18 +15633,18 @@ msgstr "Pròtacal"
 msgid "Address"
 msgstr "Seòladh"
 
-#: modules/gui/macosx/open.m:169 modules/gui/macosx/open.m:1064
-#: modules/gui/macosx/open.m:1122
+#: modules/gui/macosx/open.m:169 modules/gui/macosx/open.m:1063
+#: modules/gui/macosx/open.m:1121
 msgid "Unicast"
 msgstr "Unicast"
 
-#: modules/gui/macosx/open.m:170 modules/gui/macosx/open.m:1079
-#: modules/gui/macosx/open.m:1137
+#: modules/gui/macosx/open.m:170 modules/gui/macosx/open.m:1078
+#: modules/gui/macosx/open.m:1136
 msgid "Multicast"
 msgstr "Multicast"
 
-#: modules/gui/macosx/open.m:178 modules/gui/macosx/open.m:441
-#: modules/gui/macosx/open.m:1250
+#: modules/gui/macosx/open.m:178 modules/gui/macosx/open.m:440
+#: modules/gui/macosx/open.m:1249
 msgid "Capture Device"
 msgstr "An t-inneal glacaidh"
 
@@ -15688,7 +15688,7 @@ msgstr "An t-seanail làithreach"
 msgid "Next Channel"
 msgstr "An ath sheanail"
 
-#: modules/gui/macosx/open.m:195 modules/gui/macosx/open.m:1348
+#: modules/gui/macosx/open.m:195 modules/gui/macosx/open.m:1347
 msgid "Retrieving Channel Info..."
 msgstr "A' faighinn fiosrachadh na seanail..."
 
@@ -15727,53 +15727,53 @@ msgstr "Leud an deilbh:"
 msgid "Image height:"
 msgstr "Àirde an deilbh:"
 
-#: modules/gui/macosx/open.m:306
+#: modules/gui/macosx/open.m:305
 msgid "Load subtitles file:"
 msgstr "Luchdaich faidhle nam fo-thiotalan:"
 
-#: modules/gui/macosx/open.m:312
+#: modules/gui/macosx/open.m:311
 msgid "Override parameters"
 msgstr "Leig seachad na paramadairean"
 
-#: modules/gui/macosx/open.m:315
+#: modules/gui/macosx/open.m:314
 msgid "FPS"
 msgstr "FPS"
 
-#: modules/gui/macosx/open.m:317
+#: modules/gui/macosx/open.m:316
 msgid "Subtitles encoding"
 msgstr "Còdachadh nam fo-thiotalan"
 
-#: modules/gui/macosx/open.m:319 modules/gui/qt4/ui/sprefs_subtitles.h:280
+#: modules/gui/macosx/open.m:318 modules/gui/qt4/ui/sprefs_subtitles.h:280
 msgid "Font size"
 msgstr "Meud a' chruth-chlò"
 
-#: modules/gui/macosx/open.m:321
+#: modules/gui/macosx/open.m:320
 msgid "Subtitles alignment"
 msgstr "Co-thaobhadh nam fo-thiotalan"
 
-#: modules/gui/macosx/open.m:324
+#: modules/gui/macosx/open.m:323
 msgid "Font Properties"
 msgstr "Roghainnean a' chruth-chlò"
 
-#: modules/gui/macosx/open.m:325
+#: modules/gui/macosx/open.m:324
 msgid "Subtitle File"
 msgstr "Faidhle nam fo-thiotalan"
 
-#: modules/gui/macosx/open.m:629 modules/gui/macosx/open.m:1167
-#: modules/gui/macosx/open.m:1420 modules/gui/qt4/ui/open_file.h:162
+#: modules/gui/macosx/open.m:628 modules/gui/macosx/open.m:1166
+#: modules/gui/macosx/open.m:1419 modules/gui/qt4/ui/open_file.h:162
 msgid "Open File"
 msgstr "Fosgail am faidhle"
 
-#: modules/gui/macosx/open.m:859
+#: modules/gui/macosx/open.m:858
 #, c-format
 msgid "%i tracks"
 msgstr "%i tracaichean"
 
-#: modules/gui/macosx/open.m:1354
+#: modules/gui/macosx/open.m:1353
 msgid "Composite input"
 msgstr "Ion-chur co-dhèanta"
 
-#: modules/gui/macosx/open.m:1357
+#: modules/gui/macosx/open.m:1356
 msgid "S-Video input"
 msgstr "Ion-chur S-Video"
 
