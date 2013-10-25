@@ -41,12 +41,6 @@
 #import <vlc_services_discovery.h>
 #import <vlc_aout_intf.h>
 
-@interface VLCMainWindow ()
-{
-    BOOL b_video_view_was_hidden;
-}
-@end
-
 @implementation VLCMainWindow
 static const float f_min_video_height = 70.0;
 

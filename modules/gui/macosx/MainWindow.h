@@ -139,6 +139,7 @@
 
     NSInteger i_originalLevel;
     NSRect previousSavedFrame;
+    BOOL b_video_view_was_hidden;
 }
 + (VLCMainWindow *)sharedInstance;
 
