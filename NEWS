@@ -1,3 +1,10 @@
+Changes between 2.0.9 and 2.0.10:
+---------------------------------
+
+Video output:
+ * Performance improvements on OS X if a Mac includes more than one GPU
+ * Stability improvements on OS X
+
 Changes between 2.0.8 and 2.0.9:
 --------------------------------
 
