@@ -5,6 +5,15 @@ Video output:
  * Performance improvements on OS X if a Mac includes more than one GPU
  * Stability improvements on OS X
 
+Demuxers:
+ * Fix youtube, dailymotion, cue lua parsers
+
+HTTP lua interface:
+ * Stability improvements
+
+Contribs:
+ * Fix live555 security issues
+
 Changes between 2.0.8 and 2.0.9:
 --------------------------------
 
