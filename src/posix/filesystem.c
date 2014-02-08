@@ -194,14 +194,14 @@ char *vlc_readdir( DIR *dir )
     long len = fpathconf (dirfd (dir), _PC_NAME_MAX);
 #ifdef NAME_MAX
     /* POSIX says there shall we room for NAME_MAX bytes at all times */
-    if (/*len == -1 ||*/ len < NAME_MAX)
+    if (len == -1 || len < NAME_MAX)
         len = NAME_MAX;
 #else
     /* OS is broken. Lets assume there is no files left. */
     if (len == -1)
         return NULL;
 #endif
-    len += offsetof (struct dirent, d_name) + 1;
+    len += sizeof (*ent) + 1 - sizeof (ent->d_name);
 #else /* __OS2__ && __KLIBC__ */
     /* In the implementation of Innotek LIBC, aka kLIBC on OS/2,
      * fpathconf (_PC_NAME_MAX) is broken, and errno is set to EBADF.
