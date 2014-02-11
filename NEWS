@@ -5,6 +5,12 @@ Core:
  * Fix broken behavior with SOCKSv5 proxies
  * Fix integer overflow on error when using vlc_readdir
 
+Access:
+ * Fix DVB-T2 tuning on Linux
+
+Decoders:
+ * Fix some Opus crashes with some filters
+
 Video output:
  * Performance improvements on OS X if a Mac includes more than one GPU
  * Stability improvements on OS X
@@ -12,12 +18,13 @@ Video output:
 Demuxers:
  * Fix youtube, dailymotion, cue lua parsers
  * Fix divide by 0 on ASF/WMV parsing
+ * Fix missing samples at the end of some wav files
 
 HTTP lua interface:
  * Stability improvements
 
 Contribs:
- * Fix live555, libav and libpng security issues
+ * Fix live555 and libpng security issues
 
 Changes between 2.0.8 and 2.0.9:
 --------------------------------
