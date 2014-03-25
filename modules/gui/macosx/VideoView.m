@@ -189,19 +189,13 @@ int DeviceCallback( vlc_object_t *p_this, const char *psz_variable,
 
 - (void)mouseDown:(NSEvent *)o_event
 {
-    if( ( [o_event type] == NSLeftMouseDown ) &&
-       ( ! ( [o_event modifierFlags] &  NSControlKeyMask ) ) )
-    {
-        if( [o_event clickCount] > 1 )
-        {
-            /* multiple clicking */
+    if (([o_event type] == NSLeftMouseDown) && (! ([o_event modifierFlags] &  NSControlKeyMask))) {
+        if ([o_event clickCount] == 2)
             [[VLCCoreInteraction sharedInstance] toggleFullscreen];
-        }
-    }
-    else if( ( [o_event type] == NSRightMouseDown ) ||
-            ( ( [o_event type] == NSLeftMouseDown ) &&
-             ( [o_event modifierFlags] &  NSControlKeyMask ) ) )
-    {
+
+    } else if (([o_event type] == NSRightMouseDown) ||
+               (([o_event type] == NSLeftMouseDown) &&
+               ([o_event modifierFlags] &  NSControlKeyMask)))
         [NSMenu popUpContextMenu: [[VLCMainMenu sharedInstance] voutMenu] withEvent: o_event forView: self];
     }
 
