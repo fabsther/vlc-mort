@@ -979,10 +979,12 @@ bool PLModel::popup( const QModelIndex & index, const QPoint &point, const QMode
 
     menu.addSeparator();
 
+    /* Do not add "Clear playlist" to menu
     if( canEdit() ) {
         menu.addAction( QIcon( ":/toolbar/clear" ), qtr("Clear playlist"),
                         this, SLOT( clearPlaylist() ) );
     }
+    */
 
     /* Playlist sorting */
     if( !sortingMenu )
