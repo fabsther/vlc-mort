@@ -64,3 +64,5 @@ projects/macosx/framework/MobileVLCKit/vlc-plugins.h
 projects/macosx/framework/MobileVLCKit/vlc-plugins.xcconfig
 extras/contrib/.*
 
+autotools/test-driver
+share/osdmenu/default.cfg
