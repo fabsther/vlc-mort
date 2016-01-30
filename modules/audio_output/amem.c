@@ -38,7 +38,7 @@ vlc_module_begin ()
     set_subcategory (SUBCAT_AUDIO_AOUT)
     set_callbacks (Open, Close)
 
-    add_string ("amem-format", "S16N",
+    add_string ("amem-format", VLC_CODEC_F32L,
                 N_("Sample format"), N_("Sample format"), false)
         change_private()
     add_integer ("amem-rate", 44100,
@@ -120,7 +120,7 @@ static int Open (vlc_object_t *obj)
         goto error;
 
     vlc_audio_format_cb setup = var_InheritAddress (obj, "amem-setup");
-    char format[5] = "S16N";
+    char* format = NULL;
     unsigned rate, channels;
 
     if (setup != NULL)
@@ -137,18 +137,12 @@ static int Open (vlc_object_t *obj)
     {
         rate = var_InheritInteger (obj, "amem-rate");
         channels = var_InheritInteger (obj, "amem-channels");
+        format = var_InheritString (obj, "amem-format");
     }
 
     if (rate == 0 || rate > 192000
      || channels == 0 || channels > AOUT_CHAN_MAX)
         goto error;
-
-    /* TODO: amem-format */
-    if (strcmp(format, "S16N"))
-    {
-        msg_Err (aout, "format not supported");
-        goto error;
-    }
 
     /* channel mapping */
     switch (channels)
@@ -195,7 +189,15 @@ static int Open (vlc_object_t *obj)
             assert(0);
     }
 
-    aout->format.i_format = VLC_CODEC_S16N;
+    if(( format != NULL) && (strlen(format) == 4))
+    {
+        strcpy(aout->format.i_format, format)
+    }
+    else
+    {
+        aout->format.i_format = VLC_CODEC_F32L;
+    }
+    free(format);
     aout->format.i_rate = rate;
     aout->format.i_original_channels = aout->format.i_physical_channels;
 
